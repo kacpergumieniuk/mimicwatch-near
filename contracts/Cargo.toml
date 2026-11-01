@@ -1,0 +1,14 @@
+[workspace]
+resolver = "3"
+members = ["registry"]
+
+[workspace.dependencies]
+near-sdk = "5.29"
+
+[profile.release]
+codegen-units = 1
+opt-level = "z"
+lto = true
+debug = false
+panic = "abort"
+overflow-checks = true
