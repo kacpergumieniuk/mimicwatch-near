@@ -30,13 +30,12 @@ const log = (s: string) => {
 
 // A deliberately lookalike-named TEST account under our own owner account.
 const testId = `ref-flnance.${dep.owner.id}`;
-let testAcc = (dep as unknown as { testLookalike?: { id: string; key: `ed25519:${string}` } }).testLookalike;
-if (!testAcc) {
-  testAcc = await subAccount(dep.owner, "ref-flnance", "1", provider);
-  (dep as unknown as { testLookalike: typeof testAcc }).testLookalike = testAcc;
+if (!dep.testLookalike) {
+  dep.testLookalike = await subAccount(dep.owner, "ref-flnance", "1", provider);
   saveDeployment(dep);
-  log(`created test account ${testAcc.id}`);
+  log(`created test account ${dep.testLookalike.id}`);
 }
+const testAcc = dep.testLookalike;
 const domain = "rhea-claim-test.example";
 const base = process.env.MIMICWATCH_EVIDENCE_BASE ?? "https://github.com/kacpergumieniuk/mimicwatch-near/blob/main";
 const entries: ReportInput[] = [];

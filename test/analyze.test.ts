@@ -1,9 +1,9 @@
 import { describe, expect, it } from "vitest";
-import { analyzeAccount, analyzeScan } from "../src/near/analyze.ts";
+import { analyzeAccount, analyzeScan, isPublicCreator } from "../src/near/analyze.ts";
 import type { RawScan } from "../src/near/collect.ts";
 import { index, NOW, raw, tx } from "./fixtures.ts";
 
-const score = (r: ReturnType<typeof raw>, found = new Map<string, string[]>()) => analyzeAccount(r, NOW, index(), found);
+const score = (r: ReturnType<typeof raw>, found = new Map<string, string[]>(), creators = new Map<string, number>()) => analyzeAccount(r, NOW, index(), { found, creators });
 
 describe("account scoring", () => {
   it("a new close lookalike that collects money from several people is impersonation-likely", () => {
@@ -37,6 +37,35 @@ describe("account scoring", () => {
     const f = score(raw("ref-flnance.near", {}, { creator: "ref-finance.near" }));
     expect(f.label).toBe("brand-owned");
     expect(f.severity).toBe("info");
+  });
+
+  it("being created by a registrar, relayer or another brand is NOT brand ownership", () => {
+    for (const creator of ["near", "tg", "meteor-relayer.near", "free-name.herewallet.near", "meteor-gastank.near"]) {
+      expect(isPublicCreator(creator), creator).toBe(true);
+      expect(score(raw("ref-flnance.near", {}, { creator })).label, creator).not.toBe("brand-owned");
+    }
+    // token.sweat's owner creating a Rhea lookalike does not make it Rhea's.
+    expect(score(raw("ref-flnance.near", {}, { creator: "token.sweat" })).label).not.toBe("brand-owned");
+  });
+
+  it("a fake rewards token that advertises a website is critical, and its creator links the campaign", () => {
+    const r = raw("linear_protocol.near", { fuzzer: "separator", brand: "rhea" }, {
+      created: "2024-05-18T00:00:00Z", creator: "burrowfinancedao.near",
+      view: { amount: "0", locked: "0", code_hash: "ABC", storage_usage: 1 },
+      ft: { name: "$Ref Finance Rewards (https://reffinance.net)", symbol: "RefFinance.net", decimals: 24 },
+    });
+    const f = score(r, new Map([["linear_protocol.near", []], ["burrowfinancedao.near", []]]), new Map([["burrowfinancedao.near", 3]]));
+    expect(f.label).toBe("fake-token");
+    expect(f.severity).toBe("critical");
+    expect(f.signals).toEqual(expect.arrayContaining(["FT_COPIES_BRAND", "METADATA_LURE_URL", "SAME_OPERATOR", "SAME_CREATOR"]));
+    expect(f.facts.sameOperator).toEqual(["burrowfinancedao.near"]);
+  });
+
+  it("a fresh lookalike with no activity is only medium (watch it), not high", () => {
+    const f = score(raw("ref-finance-reward.near", { fuzzer: "lure-suffix" }, { created: "2026-10-30T00:00:00Z" }));
+    expect(f.label).toBe("lookalike-active");
+    expect(f.severity).toBe("medium");
+    expect(f.signals).toContain("NEW_ACCOUNT");
   });
 
   it("an account sharing a full-access key with an official account is brand-owned", () => {

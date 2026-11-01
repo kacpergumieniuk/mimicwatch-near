@@ -55,5 +55,5 @@ writeFileSync(join(out, "accounts.json"), JSON.stringify(report, null, 2));
 console.log(`\n${report.found} lookalike accounts exist out of ${report.candidates} checked:`);
 for (const [k, v] of Object.entries(report.counts)) console.log(`  ${k.padEnd(22)} ${v}`);
 for (const f of report.findings.filter((f) => ["critical", "high", "medium"].includes(f.severity)).slice(0, 40))
-  console.log(`  ${f.severity.padEnd(8)} ${String(f.score).padStart(3)}  ${f.id.padEnd(36)} ${f.label.padEnd(22)} imitates ${f.imitates}`);
+  console.log(`  ${f.severity.padEnd(8)} ${String(f.score).padStart(3)}  ${f.id.padEnd(36)} ${f.label.padEnd(22)} imitates ${f.imitatesText}`);
 console.log(`\nwrote ${join(out, "accounts.json")}`);

@@ -8,6 +8,7 @@ import { existsSync, readFileSync, writeFileSync } from "node:fs";
 import { mapLimit } from "../../engine/src/util/http.ts";
 import type { BrandIndex } from "../brands.ts";
 import { FastNear, type AccountTx, type TxDetail } from "./fastnear.ts";
+import { ftHolders } from "./nearblocks.ts";
 import { STRONG_FUZZERS, subAccountProbes, type NearCandidate } from "./permute.ts";
 import { EMPTY_CODE_HASH, RpcPool, type AccessKeyInfo, type AccountView } from "./rpc.ts";
 
@@ -45,6 +46,8 @@ export interface AccountRaw {
   /** Details of up to 30 recent transactions that touched the account. */
   details: TxSummary[];
   ft?: FtMetadata | null;
+  /** Holder count of the token (NearBlocks), when the account is a token. */
+  ftHolders?: number;
   /** Other accounts that hold one of this account's full-access keys. */
   keyAccounts: Record<string, string[]>;
   errors: string[];
@@ -163,6 +166,7 @@ export async function enrich(id: string, c: NearCandidate, view: AccountView, o:
   if (view.code_hash !== EMPTY_CODE_HASH) {
     raw.ft = (await o.rpc.view<FtMetadata>(id, "ft_metadata").catch(() => undefined)) ?? null;
     if (raw.ft?.icon && raw.ft.icon.length > 200) raw.ft.icon = `${raw.ft.icon.slice(0, 60)}… (${raw.ft.icon.length} chars)`;
+    if (raw.ft) raw.ftHolders = await ftHolders(id);
   }
   for (const k of raw.keys.filter((k) => k.fullAccess).slice(0, 3)) {
     try {

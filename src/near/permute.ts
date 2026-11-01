@@ -138,7 +138,7 @@ export function fakeSubAccounts(officialId: string, brand: string): NearCandidat
     }
   }
   // The whole id flattened, including its top-level name: token.sweat -> token-sweat.near
-  if (tla !== "near") for (const t of OPEN_TLAS) add(`${officialId.replace(/\./g, "-")}.${t}`, "fake-sub-account");
+  if (tla !== "near" && officialId.includes(".")) for (const t of OPEN_TLAS) add(`${officialId.replace(/\./g, "-")}.${t}`, "fake-sub-account");
   if (!officialId.includes(".") && tla !== "near") {
     // A top-level official account (e.g. "aurora"): aurora.near, aurora.tg are lookalikes.
     for (const t of OPEN_TLAS) add(`${officialId}.${t}`, "other-tla");

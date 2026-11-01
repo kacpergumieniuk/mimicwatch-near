@@ -31,6 +31,7 @@ export interface AccountFacts {
   codeHash: string;
   balanceNear: number;
   ft?: { name?: string; symbol?: string; decimals?: number } | null;
+  ftHolders?: number;
   fullAccessKeys: number;
   /** Inbound NEAR transfers signed by others, in the inspected transactions. */
   inboundTransfers: number;
@@ -55,6 +56,8 @@ export interface AccountFinding {
   brand: string;
   brandName: string;
   imitates: string;
+  /** Human-readable: the official account, or the brand name that was copied. */
+  imitatesText: string;
   fuzzer: NearFuzzer;
   label: AccountLabel;
   severity: Severity;
@@ -70,7 +73,7 @@ const yocto = (s?: string) => (s ? Number(BigInt(s) / 10n ** 18n) / 1e6 : 0);
 const day = (ns: string) => new Date(Number(BigInt(ns) / 1_000_000n)).toISOString().slice(0, 10);
 
 /** Transfers below this are dust (often address poisoning aimed at the account's owner), not payments. */
-export const DUST_NEAR = 0.01;
+export const DUST_NEAR = 0.05;
 const transferNear = (d: TxSummary) => d.actions.reduce((x, a) => x + (a.kind === "Transfer" ? yocto(a.deposit) : 0), 0);
 
 function transfersIn(details: TxSummary[], id: string) {
@@ -97,14 +100,42 @@ function forwardedQuickly(details: TxSummary[], id: string): { inNear: number; o
 }
 
 /** Facts derived from raw data. `nowMs` is the scan time, never the wall clock. */
-export function factsOf(r: AccountRaw, nowMs: number, index: BrandIndex, foundIds: Map<string, string[]>): AccountFacts {
+/**
+ * Accounts that create accounts for anyone: top-level registrars (near, tg, sweat), wallet relayers and gas tanks,
+ * free-name services. Being created by one of these says nothing about who owns the account.
+ */
+export function isPublicCreator(id: string): boolean {
+  return !id.includes(".") || /relay|gastank|gas-tank|free-name|faucet|onboard|sponsor|coin-op|creator|factory|linkdrop|keypom/.test(id);
+}
+
+/** What the scorer knows about the whole scan. */
+export interface ScanContext {
+  /** Found lookalike id -> its full-access keys. */
+  found: Map<string, string[]>;
+  /** Creator -> how many found lookalikes it created (public creators excluded). */
+  creators: Map<string, number>;
+}
+
+export function scanContext(raws: AccountRaw[]): ScanContext {
+  const creators = new Map<string, number>();
+  for (const r of raws) {
+    const c = r.creation?.signer;
+    if (c && !isPublicCreator(c)) creators.set(c, (creators.get(c) ?? 0) + 1);
+  }
+  return { found: new Map(raws.map((r) => [r.id, Object.keys(r.keyAccounts)])), creators };
+}
+
+export function factsOf(r: AccountRaw, nowMs: number, index: BrandIndex, ctx: ScanContext): AccountFacts {
+  const foundIds = ctx.found;
   const nowNs = BigInt(nowMs) * 1_000_000n;
   const created = r.creation?.timestampNs ?? r.recent.at(-1)?.ts;
   const last = r.recent[0]?.ts;
   const tin = transfersIn(r.details, r.id);
   const out = r.details.filter((d) => d.signer === r.id && d.actions.some((a) => a.kind === "Transfer")).length;
   const keyAccounts = Object.values(r.keyAccounts).flat();
-  const sameOperator = [...new Set(keyAccounts.filter((a) => foundIds.has(a) && a !== r.id))].sort();
+  // Same operator: shares a full-access key with another found lookalike, or was created by one.
+  const creator = r.creation?.signer;
+  const sameOperator = [...new Set([...keyAccounts, ...(creator ? [creator] : [])].filter((a) => foundIds.has(a) && a !== r.id))].sort();
   const sharesKeyWithOfficial = [...new Set(keyAccounts.filter((a) => index.ownerOfAccount(a)))].sort();
   return {
     createdAt: created && created !== "0" ? day(created) : undefined,
@@ -118,6 +149,7 @@ export function factsOf(r: AccountRaw, nowMs: number, index: BrandIndex, foundId
     codeHash: r.view.code_hash,
     balanceNear: yocto(r.view.amount),
     ft: r.ft ? { name: r.ft.name, symbol: r.ft.symbol, decimals: r.ft.decimals } : r.ft,
+    ftHolders: r.ftHolders,
     fullAccessKeys: r.keys.filter((k) => k.fullAccess).length,
     inboundTransfers: tin.count,
     inboundNear: Math.round(tin.near * 1000) / 1000,
@@ -134,8 +166,8 @@ export function factsOf(r: AccountRaw, nowMs: number, index: BrandIndex, foundId
 const round = (n: number) => Math.round(n * 1000) / 1000;
 const severityRank = (s: Severity) => SEVERITIES.indexOf(s);
 
-export function analyzeAccount(r: AccountRaw, nowMs: number, index: BrandIndex, foundIds: Map<string, string[]>): AccountFinding {
-  const f = factsOf(r, nowMs, index, foundIds);
+export function analyzeAccount(r: AccountRaw, nowMs: number, index: BrandIndex, ctx: ScanContext): AccountFinding {
+  const f = factsOf(r, nowMs, index, ctx);
   const brand = index.byId(r.candidate.brand);
   const fz = r.candidate.fuzzer;
   const signals: string[] = [];
@@ -157,12 +189,15 @@ export function analyzeAccount(r: AccountRaw, nowMs: number, index: BrandIndex, 
     score += 20;
     signals.push("BRAND_NAME");
   }
-  evidence.push(`Name: ${fuzzerText(fz)} of ${r.candidate.imitates}${lureWord ? ` with the lure word "${lureWord}"` : ""}.`);
+  const imitates = displayImitates(r.candidate.imitates, brand?.name, index);
+  evidence.push(`Name: ${fuzzerText(fz)} of ${imitates}${lureWord ? ` with the lure word "${lureWord}"` : ""}.`);
 
   // Brand-owned: created by the brand, or shares a full-access key with an official account.
-  const creatorBrand = f.creator ? index.ownerOfAccount(f.creator) : undefined;
-  if (creatorBrand || f.sharesKeyWithOfficial.length) {
-    const why = creatorBrand ? `created by ${f.creator} (${creatorBrand.name})` : `shares a full-access key with ${f.sharesKeyWithOfficial.join(", ")}`;
+  // Only the imitated brand creating it counts, and never a public creator (registrar, relayer, free-name service).
+  const creatorBrand = f.creator && !isPublicCreator(f.creator) ? index.ownerOfAccount(f.creator) : undefined;
+  const ownedByBrand = creatorBrand && creatorBrand.id === r.candidate.brand ? creatorBrand : undefined;
+  if (ownedByBrand || f.sharesKeyWithOfficial.length) {
+    const why = ownedByBrand ? `created by ${f.creator} (${ownedByBrand.name})` : `shares a full-access key with ${f.sharesKeyWithOfficial.join(", ")}`;
     return finding(r, brand?.name ?? r.candidate.brand, f, "brand-owned", "info", 0, ["BRAND_OWNED"], [...evidence, `Defensive or official: ${why}.`]);
   }
   if (f.createdAt) evidence.push(`Created ${f.createdAt}${f.creator ? ` by ${f.creator}` : ""} (${f.ageDays} days before the scan).`);
@@ -187,7 +222,13 @@ export function analyzeAccount(r: AccountRaw, nowMs: number, index: BrandIndex, 
         fakeToken = true;
         score += 35;
         signals.push("FT_COPIES_BRAND");
-        evidence.push(`It is a NEP-141 token named "${f.ft.name}" (${f.ft.symbol}), using the ${brand.name} name.`);
+        evidence.push(`It is a NEP-141 token named "${f.ft.name}" (${f.ft.symbol}), using the ${brand.name} name${f.ftHolders ? `, held by ${f.ftHolders.toLocaleString("en")} accounts` : ""}.`);
+        const url = /https?:\/\/[^\s)]+|\b[a-z0-9-]+\.(?:com|org|net|io|xyz|app|finance|site|online|top|live|fi|cc|pro|info|claims?)\b/i.exec(`${f.ft.name ?? ""} ${f.ft.symbol ?? ""}`)?.[0];
+        if (url) {
+          score += 15;
+          signals.push("METADATA_LURE_URL");
+          evidence.push(`Its token name advertises a website (${url}): the fake-airdrop pattern, where a "rewards" token sent to many wallets lures holders to a phishing site.`);
+        }
       } else if (f.ft) {
         evidence.push(`It answers ft_metadata: "${f.ft.name}" (${f.ft.symbol}).`);
       }
@@ -211,10 +252,16 @@ export function analyzeAccount(r: AccountRaw, nowMs: number, index: BrandIndex, 
     const others = Object.values(r.keyAccounts).flat();
     evidence.push(`Its full-access key also controls ${f.keyControls >= 50 ? "50+" : f.keyControls} other accounts (e.g. ${others.slice(0, 6).join(", ")}): a name collector.`);
   }
+  const created = f.creator ? (ctx.creators.get(f.creator) ?? 0) : 0;
+  if (f.creator && created >= 3) {
+    score += 10;
+    signals.push("SAME_CREATOR");
+    evidence.push(`Its creator ${f.creator} created ${created} of the lookalikes found in this scan: a name collector or a campaign.`);
+  }
   if (f.sameOperator.length) {
     score += 20;
     signals.push("SAME_OPERATOR");
-    evidence.push(`Shares a full-access key with other lookalikes found in this scan: ${f.sameOperator.join(", ")}.`);
+    evidence.push(`Linked to other lookalikes found in this scan (shared full-access key, or creator/created): ${f.sameOperator.join(", ")}.`);
   }
   // No full-access key and no contract: nobody can move funds out of the account.
   const locked = f.fullAccessKeys === 0 && !f.isContract && !r.errors.some((e) => e.startsWith("keys"));
@@ -225,8 +272,11 @@ export function analyzeAccount(r: AccountRaw, nowMs: number, index: BrandIndex, 
   const dormant = f.daysSinceActivity === undefined || f.daysSinceActivity > 365;
   if (dormant) signals.push("DORMANT");
   // An old account with a long unrelated history is most likely someone's own name.
-  const established = (f.ageDays ?? 0) > 730 && f.txsCount > 300;
-  if (established) signals.push("ESTABLISHED_HISTORY");
+  const established = (f.ageDays ?? 0) > 730 && f.txsCount > 100;
+  if (established) {
+    signals.push("ESTABLISHED_HISTORY");
+    evidence.push(`Older than two years with ${f.txsCount} transactions: likely someone's own long-used account.`);
+  }
 
   score = Math.min(100, score);
   let label: AccountLabel;
@@ -234,11 +284,11 @@ export function analyzeAccount(r: AccountRaw, nowMs: number, index: BrandIndex, 
   const strongName = STRONG_FUZZERS.includes(fz) || !!lureWord;
   if (fakeToken) {
     label = "fake-token";
-    severity = (f.ageDays ?? 9999) <= 365 || f.distinctSenders >= 2 ? "critical" : "high";
+    severity = (f.ageDays ?? 9999) <= 365 || f.distinctSenders >= 2 || signals.includes("METADATA_LURE_URL") ? "critical" : "high";
   } else if (locked) {
     label = dormant ? "lookalike-dormant" : "lookalike-active";
     severity = "info";
-  } else if (strongName && !dormant && !established && (f.isContract || f.distinctSenders >= 2 || f.sameOperator.length > 0 || (f.ageDays ?? 9999) <= 90)) {
+  } else if (strongName && !dormant && !established && (f.isContract || (f.distinctSenders >= 2 && f.inboundNear >= 1) || f.sameOperator.length > 0 || (!!f.forwarded && f.distinctSenders >= 2))) {
     label = "impersonation-likely";
     severity = score >= 75 ? "critical" : "high";
   } else if (established && !strongName) {
@@ -262,6 +312,7 @@ function finding(r: AccountRaw, brandName: string, facts: AccountFacts, label: A
     brand: r.candidate.brand,
     brandName,
     imitates: r.candidate.imitates,
+    imitatesText: evidence[0]?.startsWith("Name: ") ? evidence[0].replace(/^Name: .*? of /, "").replace(/ with the lure word.*$/, "").replace(/\.$/, "") : r.candidate.imitates,
     fuzzer: r.candidate.fuzzer,
     label,
     severity,
@@ -271,6 +322,13 @@ function finding(r: AccountRaw, brandName: string, facts: AccountFacts, label: A
     facts,
     links: { explorer: `https://nearblocks.io/address/${r.id}` },
   };
+}
+
+/** "linear-protocol.near" when that is an official account, otherwise the copied name and the brand. */
+export function displayImitates(imitates: string, brandName: string | undefined, index: BrandIndex): string {
+  if (index.ownerOfAccount(imitates)) return imitates;
+  const name = imitates.replace(/\.(near|tg)$/, "");
+  return brandName ? `the ${brandName} name "${name}"` : `"${name}"`;
 }
 
 export function fuzzerText(f: NearFuzzer): string {
@@ -310,11 +368,11 @@ export interface AccountReport {
 /** Scores every found account; sorted by severity, then score. */
 export function analyzeScan(scan: RawScan, index: BrandIndex): AccountReport {
   const nowMs = Date.parse(scan.scannedAt);
-  const foundIds = new Map(scan.found.map((r) => [r.id, Object.keys(r.keyAccounts)]));
+  const ctx = scanContext(scan.found);
   // A lookalike nested under an already-found lookalike inherits nothing; it is scored on its own facts.
   const findings = scan.found
     .filter((r) => !index.ownerOfAccount(r.id))
-    .map((r) => analyzeAccount(r, nowMs, index, foundIds))
+    .map((r) => analyzeAccount(r, nowMs, index, ctx))
     .sort((a, b) => severityRank(a.severity) - severityRank(b.severity) || b.score - a.score || a.id.localeCompare(b.id));
   const counts = Object.fromEntries(
     (["fake-token", "impersonation-likely", "lookalike-active", "lookalike-dormant", "brand-owned", "likely-unrelated"] as AccountLabel[]).map((l) => [

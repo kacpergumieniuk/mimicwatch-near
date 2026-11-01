@@ -20,6 +20,8 @@ export interface Deployment {
   reporter: KeyedAccount;
   /** A throwaway account used to show disputes. */
   disputer?: KeyedAccount;
+  /** A lookalike-named test account under the owner, used by scripts/testnet-demo.ts. */
+  testLookalike?: KeyedAccount;
   deployTx?: string;
   createdAt: string;
 }
