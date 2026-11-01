@@ -56,21 +56,31 @@ function domainLookalike(host: string, index: BrandIndex): Reason | undefined {
   const p = parse(host);
   const label = p.domainWithoutSuffix;
   if (!label) return undefined;
+  const f = fold(label);
+  // Best match wins: exact confusable, then one edit away, then the longest brand name used with a lure word.
+  let best: { rank: number; len: number; reason: Reason } | undefined;
+  const offer = (rank: number, len: number, reason: Reason) => {
+    if (!best || rank < best.rank || (rank === best.rank && len > best.len)) best = { rank, len, reason };
+  };
   for (const b of index.brands) {
-    for (const d of [...b.officialDomains, ...(b.legacyDomains ?? [])]) {
-      const ol = parse(d).domainWithoutSuffix;
-      if (!ol || ol.length < 4) continue;
-      const f = fold(label);
-      const of = fold(ol);
-      const official = `${ol}.${parse(d).publicSuffix}`;
-      if (f === of) return { code: "LOOKALIKE_DOMAIN", message: `looks like ${official} (${b.name}) but is not an official domain` };
-      if (of.length >= 6 && levenshtein(f, of) === 1) return { code: "LOOKALIKE_DOMAIN", message: `one character away from ${official} (${b.name})` };
-      if (of.length >= 4 && f.includes(of) && LURE_RE.test(host)) return { code: "BRAND_BAIT_DOMAIN", message: `uses the ${b.name} name with a lure word; official domains: ${b.officialDomains.join(", ")}` };
-    }
     // Official domain embedded in a longer host: rhea.finance.claim-now.xyz
-    for (const d of b.officialDomains) if (host.includes(`${d}.`) && !host.endsWith(d)) return { code: "OFFICIAL_DOMAIN_EMBEDDED", message: `contains ${d} but is hosted on ${p.domain}` };
+    for (const d of b.officialDomains) if (host.includes(`${d}.`) && !host.endsWith(d)) offer(0, d.length, { code: "OFFICIAL_DOMAIN_EMBEDDED", message: `contains ${d} but is hosted on ${p.domain}` });
+    for (const d of [...b.officialDomains, ...(b.legacyDomains ?? [])]) {
+      const op = parse(d);
+      const ol = op.domainWithoutSuffix;
+      if (!ol || ol.length < 4) continue;
+      const of = fold(ol);
+      const official = `${ol}.${op.publicSuffix}`;
+      if (f === of) offer(1, of.length, { code: "LOOKALIKE_DOMAIN", message: `looks like ${official} (${b.name}) but is not an official domain` });
+      else if (of.length >= 6 && levenshtein(f, of) === 1) offer(2, of.length, { code: "LOOKALIKE_DOMAIN", message: `one character away from ${official} (${b.name})` });
+      else if (f.includes(of) && LURE_RE.test(host)) offer(3, of.length, { code: "BRAND_BAIT_DOMAIN", message: `uses the ${b.name} name with a lure word; official: ${b.officialDomains.join(", ")}` });
+    }
+    for (const k of b.nameStems) {
+      const fk = fold(k);
+      if (fk.length >= 5 && f.includes(fk) && LURE_RE.test(host)) offer(3, fk.length, { code: "BRAND_BAIT_DOMAIN", message: `uses the ${b.name} name with a lure word; official: ${b.officialDomains.join(", ") || "none listed"}` });
+    }
   }
-  return undefined;
+  return best?.reason;
 }
 
 export interface CheckOptions {
