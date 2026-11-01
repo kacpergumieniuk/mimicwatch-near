@@ -12,3 +12,4 @@ if (process.env.MW_SKIP_CT === "1") {
   }) as typeof fetch;
 }
 await import("../engine/src/cli.ts");
+export {};
