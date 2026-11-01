@@ -1,0 +1,248 @@
+{
+  "brand": {
+    "name": "HERE Wallet",
+    "officialDomains": [
+      "herewallet.app"
+    ],
+    "referenceUrl": "https://www.herewallet.app",
+    "officialTokens": [],
+    "officialSocials": {
+      "telegram": "herewallet",
+      "github": "here-wallet"
+    },
+    "keywords": [
+      "herewallet",
+      "here-wallet"
+    ],
+    "allowlist": [],
+    "tokenChains": [
+      "base"
+    ]
+  },
+  "startedAt": "2026-11-01T16:01:01.337Z",
+  "finishedAt": "2026-11-01T16:02:58.847Z",
+  "periodDays": 30,
+  "official": {
+    "url": "https://www.herewallet.app/",
+    "title": "HERE Wallet - mobile and web wallet for NEAR Protocol",
+    "faviconSha256": "01130d1221bd25172ed62af1ede05d613d431deaa599bad0f82b5d9843d7da4a"
+  },
+  "stats": {
+    "permutations": 1262,
+    "permutationsRegistered": 2,
+    "ctHosts": 0,
+    "nrdHits": 0,
+    "candidates": 2,
+    "pagesFetched": 2,
+    "pagesRendered": 1,
+    "tokensIndexed": {},
+    "tokenMatches": 0
+  },
+  "coverage": {
+    "ct": [
+      {
+        "q": "herewallet%",
+        "rows": 0,
+        "error": "HTTP 400"
+      },
+      {
+        "q": "herewallet.%",
+        "rows": 0,
+        "error": "HTTP 400"
+      },
+      {
+        "q": "herewallet-%",
+        "rows": 0,
+        "error": "HTTP 400"
+      },
+      {
+        "q": "%herewallet%",
+        "rows": 0,
+        "error": "HTTP 400"
+      },
+      {
+        "q": "here-wallet%",
+        "rows": 0,
+        "error": "HTTP 400"
+      },
+      {
+        "q": "here-wallet.%",
+        "rows": 0,
+        "error": "HTTP 400"
+      },
+      {
+        "q": "here-wallet-%",
+        "rows": 0,
+        "error": "HTTP 400"
+      },
+      {
+        "q": "%here-wallet%",
+        "rows": 0,
+        "error": "HTTP 400"
+      }
+    ],
+    "nrd": [
+      {
+        "day": "2026-10-31",
+        "domains": 70000
+      },
+      {
+        "day": "2026-10-30",
+        "domains": 70000
+      },
+      {
+        "day": "2026-10-29",
+        "domains": 70000
+      },
+      {
+        "day": "2026-10-28",
+        "domains": 70000
+      }
+    ],
+    "tokens": [],
+    "blocklists": [
+      "metamask",
+      "scamsniffer"
+    ]
+  },
+  "domains": [
+    {
+      "kind": "domain",
+      "host": "herewallet.com",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "tld-swap",
+      "dns": {
+        "domain": "herewallet.com",
+        "registered": true,
+        "a": [
+          "44.232.173.249",
+          "52.40.42.113"
+        ],
+        "aaaa": [],
+        "mx": [],
+        "ns": [
+          "launch1.spaceship.net",
+          "launch2.spaceship.net"
+        ]
+      },
+      "page": {
+        "url": "https://herewallet.com/",
+        "finalUrl": "https://herewallet.com/",
+        "status": 200,
+        "title": "HereWallet.com for sale | Spaceship.com",
+        "scriptUrls": [
+          "https://forsale.spaceship-cdn.com/static/latest/5.latest/main.js"
+        ],
+        "signals": {
+          "secretForm": false,
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "lure": [],
+          "drainerJs": [],
+          "parked": [
+            "for sale"
+          ],
+          "cryptoContext": [],
+          "interstitial": [],
+          "challenge": []
+        },
+        "brandMentions": 0,
+        "brandInTitle": false,
+        "bytes": 27142,
+        "renderedWith": "http",
+        "faviconUrl": "https://forsale.spaceship-cdn.com/static/latest/5.latest/assets/fonts/apple-touch-icon-57x57.png",
+        "faviconSha256": "774ab776c49cdd5d993e4da9e6216af9ece952135eb022ef0c7df223ff66989c",
+        "textSample": "Domain for sale HereWallet.com Free transaction support Secure payments Spaceship reliability Listed with spaceship.com get this domain Buy now $1,995 Make offer $ Please enter an offer amount up to 9 digits. Your offer must be higher than the seller’s minimum price. Down payment: $299.25 Lease to o"
+      },
+      "similarity": {
+        "title": 0.08,
+        "text": 0,
+        "favicon": false,
+        "overall": 0.03
+      },
+      "listedOn": [],
+      "score": 31,
+      "severity": "low",
+      "label": "parked",
+      "evidence": [
+        "Official name on a different TLD",
+        "Hostname contains a lure word (claim/airdrop/support/...)",
+        "Parked / for-sale page"
+      ],
+      "action": "Monitor. Consider buying it defensively or a UDRP if it turns active.",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "herewallet.xyz",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "tld-swap",
+      "dns": {
+        "domain": "herewallet.xyz",
+        "registered": true,
+        "a": [
+          "76.223.54.146",
+          "13.248.169.48"
+        ],
+        "aaaa": [],
+        "mx": [
+          ""
+        ],
+        "ns": [
+          "ns5.afternic.com",
+          "ns6.afternic.com"
+        ]
+      },
+      "page": {
+        "url": "https://herewallet.xyz/",
+        "finalUrl": "https://forsale.godaddy.com/forsale/herewallet.xyz?utm_source=TDFS_BINNS2&utm_medium=parkedpages&utm_campaign=x_corp_tdfs-binns2_base&traffic_type=TDFS_BINNS2&traffic_id=binns2&",
+        "status": 200,
+        "title": "Access Denied",
+        "scriptUrls": [],
+        "signals": {
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "secretForm": false,
+          "lure": [],
+          "drainerJs": [],
+          "parked": [],
+          "cryptoContext": [],
+          "interstitial": [],
+          "challenge": [
+            "Access Denied"
+          ]
+        },
+        "brandMentions": 1,
+        "brandInTitle": false,
+        "bytes": 114,
+        "renderedWith": "playwright",
+        "faviconUrl": "https://herewallet.xyz/favicon.ico",
+        "screenshot": "/Users/kacpergumieniuk/Projects/4b47/mimicwatch-near/data/scans/2026-11-01/domains/here-wallet-2026-11-01/shots/herewallet.xyz.jpg",
+        "textSample": "Access Denied You don't have permission to access \"http://forsale.godaddy.com/forsale/herewallet.xyz?\" on this server. Reference #18.8a3c655f.1793548976.5018a4fc https://errors.edgesuite.net/18.8a3c655f.1793548976.5018a4fc"
+      },
+      "similarity": {
+        "title": 0.12,
+        "text": 0,
+        "favicon": false,
+        "overall": 0.04
+      },
+      "listedOn": [],
+      "score": 30,
+      "severity": "low",
+      "label": "lookalike-unknown-content",
+      "evidence": [
+        "Official name on a different TLD",
+        "Hostname contains a lure word (claim/airdrop/support/...)",
+        "Bot challenge or redirect stub (\"Access Denied\"): real content not visible"
+      ],
+      "action": "Re-check next scan; the content was not visible to us (error, bot wall or empty page).",
+      "alreadyBlocked": false
+    }
+  ],
+  "tokens": [],
+  "errors": []
+}

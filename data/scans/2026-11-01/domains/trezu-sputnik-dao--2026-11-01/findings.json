@@ -1,0 +1,1556 @@
+{
+  "brand": {
+    "name": "Trezu (Sputnik DAO)",
+    "officialDomains": [
+      "trezu.org",
+      "trezu.app"
+    ],
+    "referenceUrl": "https://trezu.app",
+    "officialTokens": [],
+    "officialSocials": {
+      "x": "TrezuApp",
+      "youtube": "@TrezuApp",
+      "github": "NEAR-DevHub/trezu"
+    },
+    "keywords": [
+      "trezu",
+      "sputnikdao",
+      "sputnik-dao",
+      "astrodao"
+    ],
+    "allowlist": [],
+    "tokenChains": [
+      "base"
+    ]
+  },
+  "startedAt": "2026-11-01T16:07:42.366Z",
+  "finishedAt": "2026-11-01T16:09:59.716Z",
+  "periodDays": 30,
+  "official": {
+    "url": "https://trezu.app/",
+    "title": "Trezu | Cross-chain Treasury Management"
+  },
+  "stats": {
+    "permutations": 1290,
+    "permutationsRegistered": 22,
+    "ctHosts": 0,
+    "nrdHits": 1,
+    "candidates": 23,
+    "pagesFetched": 19,
+    "pagesRendered": 10,
+    "tokensIndexed": {},
+    "tokenMatches": 0
+  },
+  "coverage": {
+    "ct": [
+      {
+        "q": "trezu%",
+        "rows": 0,
+        "error": "HTTP 400"
+      },
+      {
+        "q": "trezu.%",
+        "rows": 0,
+        "error": "HTTP 400"
+      },
+      {
+        "q": "trezu-%",
+        "rows": 0,
+        "error": "HTTP 400"
+      },
+      {
+        "q": "%trezu%",
+        "rows": 0,
+        "error": "HTTP 400"
+      },
+      {
+        "q": "sputnikdao%",
+        "rows": 0,
+        "error": "HTTP 400"
+      },
+      {
+        "q": "sputnikdao.%",
+        "rows": 0,
+        "error": "HTTP 400"
+      },
+      {
+        "q": "sputnikdao-%",
+        "rows": 0,
+        "error": "HTTP 400"
+      },
+      {
+        "q": "%sputnikdao%",
+        "rows": 0,
+        "error": "HTTP 400"
+      },
+      {
+        "q": "sputnik-dao%",
+        "rows": 0,
+        "error": "HTTP 400"
+      },
+      {
+        "q": "sputnik-dao.%",
+        "rows": 0,
+        "error": "HTTP 400"
+      },
+      {
+        "q": "sputnik-dao-%",
+        "rows": 0,
+        "error": "HTTP 400"
+      },
+      {
+        "q": "%sputnik-dao%",
+        "rows": 0,
+        "error": "HTTP 400"
+      },
+      {
+        "q": "astrodao%",
+        "rows": 0,
+        "error": "HTTP 400"
+      },
+      {
+        "q": "astrodao.%",
+        "rows": 0,
+        "error": "HTTP 400"
+      },
+      {
+        "q": "astrodao-%",
+        "rows": 0,
+        "error": "HTTP 400"
+      },
+      {
+        "q": "%astrodao%",
+        "rows": 0,
+        "error": "HTTP 400"
+      }
+    ],
+    "nrd": [
+      {
+        "day": "2026-10-31",
+        "domains": 70000
+      },
+      {
+        "day": "2026-10-30",
+        "domains": 70000
+      },
+      {
+        "day": "2026-10-29",
+        "domains": 70000
+      },
+      {
+        "day": "2026-10-28",
+        "domains": 70000
+      }
+    ],
+    "tokens": [],
+    "blocklists": [
+      "metamask",
+      "scamsniffer"
+    ]
+  },
+  "domains": [
+    {
+      "kind": "domain",
+      "host": "trez.app",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "omission",
+      "dns": {
+        "domain": "trez.app",
+        "registered": true,
+        "a": [
+          "188.114.97.3",
+          "188.114.96.3"
+        ],
+        "aaaa": [],
+        "mx": [
+          "mx01.ionos.fr",
+          "mx00.ionos.fr"
+        ],
+        "ns": [
+          "mack.ns.cloudflare.com",
+          "kia.ns.cloudflare.com"
+        ]
+      },
+      "page": {
+        "url": "https://trez.app/",
+        "finalUrl": "https://www.trez.app/",
+        "status": 200,
+        "title": "Logiciel de prévision de trésorerie TPE et PME — Trez.App",
+        "scriptUrls": [
+          "https://www.trez.app/mesure.js?v=a83da6c5de",
+          "https://www.trez.app/vendor/react.production.min.js",
+          "https://www.trez.app/vendor/react-dom.production.min.js",
+          "https://www.trez.app/_ds_bundle.js?v=9ac942bb76",
+          "https://www.trez.app/data.js?v=872aa56a75",
+          "https://www.trez.app/Sections.js?v=731e026f9e"
+        ],
+        "signals": {
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "secretForm": true,
+          "lure": [],
+          "drainerJs": [],
+          "parked": [],
+          "cryptoContext": [
+            "Bridge"
+          ],
+          "interstitial": [],
+          "challenge": []
+        },
+        "brandMentions": 0,
+        "brandInTitle": false,
+        "bytes": 47879,
+        "renderedWith": "playwright",
+        "faviconUrl": "https://www.trez.app/favicon.svg",
+        "screenshot": "/Users/kacpergumieniuk/Projects/4b47/mimicwatch-near/data/scans/2026-11-01/domains/trezu-sputnik-dao--2026-11-01/shots/trez.app.jpg",
+        "textSample": "Aller au contenu Trez . App Le produit ⌄ Toutes les fonctionnalités → Vos banques, enfin connectées Le prochain mois. Et les onze suivants. Les échéances qui reviennent Des écritures bien rangées Du chiffre à la décision Votre activité vous suit Sécurité & données en France Pour vous ⌄ Remplacer Exc"
+      },
+      "similarity": {
+        "title": 0,
+        "text": 0,
+        "favicon": false,
+        "overall": 0
+      },
+      "listedOn": [],
+      "score": 35,
+      "severity": "low",
+      "label": "lookalike-other-crypto",
+      "evidence": [
+        "Typosquat (omission) of the official domain",
+        "Lookalike of your domain serving other crypto content (Bridge)"
+      ],
+      "action": "Review: traffic for a lookalike of your name goes to other crypto content (a competitor, an affiliate, or a phishing kit for another brand). Report if it misleads your users.",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "trezur.app",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "addition",
+      "dns": {
+        "domain": "trezur.app",
+        "registered": true,
+        "a": [
+          "141.193.213.10",
+          "141.193.213.11"
+        ],
+        "aaaa": [],
+        "mx": [],
+        "ns": [
+          "nsa4.squarespacedns.com",
+          "nsa1.squarespacedns.com",
+          "nsa3.squarespacedns.com",
+          "nsa2.squarespacedns.com"
+        ]
+      },
+      "page": {
+        "url": "https://trezur.app/",
+        "finalUrl": "https://trezur.app/",
+        "status": 200,
+        "title": "Trezur",
+        "scriptUrls": [
+          "https://trezur.app/wp-content/themes/trezur/assets/js/trezur.js?v=1.3.681.1793139479"
+        ],
+        "signals": {
+          "secretForm": true,
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "lure": [
+            "Claim"
+          ],
+          "drainerJs": [],
+          "parked": [],
+          "cryptoContext": [],
+          "interstitial": [],
+          "challenge": []
+        },
+        "brandMentions": 12,
+        "brandInTitle": true,
+        "bytes": 103470,
+        "renderedWith": "http",
+        "faviconUrl": "data:,",
+        "textSample": "× Locked — snap a photo to complete this challenge. Scanning for location… Point at the mural — pinch to zoom the camera. Zoom Place Reset Line up the boot Drag to spin · pinch to size · tap Lock when it fits Slide to spin the photo Adjust Rescan Lock Close Collect all Then Now + × +5 Claim trezur ™"
+      },
+      "similarity": {
+        "title": 0.18,
+        "text": 0,
+        "favicon": false,
+        "overall": 0.06
+      },
+      "listedOn": [],
+      "score": 27,
+      "severity": "low",
+      "label": "likely-false-positive",
+      "evidence": [
+        "Typosquat (addition) of the official domain",
+        "Brand word used without any crypto context (12x): probably an unrelated business"
+      ],
+      "action": "No action (labelled false positive).",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "trezi.app",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "replacement",
+      "dns": {
+        "domain": "trezi.app",
+        "registered": true,
+        "a": [
+          "76.223.105.230",
+          "13.248.243.5"
+        ],
+        "aaaa": [],
+        "mx": [],
+        "ns": [
+          "ns65.domaincontrol.com",
+          "ns66.domaincontrol.com"
+        ]
+      },
+      "page": {
+        "url": "https://trezi.app/",
+        "finalUrl": "https://trezi.app/",
+        "status": 200,
+        "title": "trezi.app",
+        "scriptUrls": [
+          "https://img1.wsimg.com/blobby/go/45cd3c17-07a7-43a4-b7fa-7130158b8d4c/gpub/9289a24172bdfc68/script.js",
+          "https://img1.wsimg.com/ceph-p3-01/website-builder-data-prod/static/widgets/UX.4.50.0.js",
+          "https://img1.wsimg.com/blobby/go/45cd3c17-07a7-43a4-b7fa-7130158b8d4c/gpub/e5f7ee883123802/script.js",
+          "https://img1.wsimg.com/signals/js/clients/scc-c2/scc-c2.min.js"
+        ],
+        "signals": {
+          "secretForm": true,
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "lure": [],
+          "drainerJs": [],
+          "parked": [],
+          "cryptoContext": [],
+          "interstitial": [],
+          "challenge": []
+        },
+        "brandMentions": 0,
+        "brandInTitle": false,
+        "bytes": 86922,
+        "renderedWith": "http",
+        "faviconUrl": "https://img1.wsimg.com/isteam/ip/static/pwa-app/logo-default.png/:/rs=w:57,h:57,m",
+        "faviconSha256": "927fa0f5bb903288cef129ca1a5a8a77c46456fe5fec58ea900fc49552246416",
+        "textSample": "Trezi Trezi Trezi Trezi Trezi Trezi Trezi Trezi More Launching Soon Launching Soon Launching Soon Launching Soon Launching Soon Launching Soon Launching Soon Launching Soon Contact Us Drop us a line! Name Email* Sign up for our email list for updates, promotions, and more. Send This site is protecte"
+      },
+      "similarity": {
+        "title": 0.18,
+        "text": 0,
+        "favicon": false,
+        "overall": 0.06
+      },
+      "listedOn": [],
+      "score": 27,
+      "severity": "low",
+      "label": "likely-false-positive",
+      "evidence": [
+        "Typosquat (replacement) of the official domain",
+        "No brand content found on the page: probably unrelated (false positive)"
+      ],
+      "action": "No action (labelled false positive).",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "trezo.app",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "vowel-swap",
+      "dns": {
+        "domain": "trezo.app",
+        "registered": true,
+        "a": [
+          "76.76.21.98",
+          "76.76.21.21"
+        ],
+        "aaaa": [],
+        "mx": [],
+        "ns": [
+          "curitiba.ns.porkbun.com",
+          "fortaleza.ns.porkbun.com",
+          "maceio.ns.porkbun.com",
+          "salvador.ns.porkbun.com"
+        ]
+      },
+      "page": {
+        "url": "https://trezo.app/",
+        "finalUrl": "https://trezo.app/sign-in",
+        "status": 200,
+        "title": "Trezo.App",
+        "scriptUrls": [
+          "https://trezo.app/_next/static/chunks/4bd1b696-100b9d70ed4e49c1.js",
+          "https://trezo.app/_next/static/chunks/1255-7b4b5a04291b6a94.js",
+          "https://trezo.app/_next/static/chunks/main-app-b7ac91ae224968d9.js",
+          "https://trezo.app/_next/static/chunks/8064-b3fb98dc79ac371d.js",
+          "https://trezo.app/_next/static/chunks/1476-880e9d2ffc22f3b1.js",
+          "https://trezo.app/_next/static/chunks/9081-4a0eeab75a281702.js"
+        ],
+        "signals": {
+          "secretForm": false,
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "lure": [],
+          "drainerJs": [],
+          "parked": [],
+          "cryptoContext": [],
+          "interstitial": [],
+          "challenge": []
+        },
+        "brandMentions": 0,
+        "brandInTitle": false,
+        "bytes": 28022,
+        "renderedWith": "http",
+        "faviconUrl": "https://trezo.app/favicon.ico",
+        "faviconSha256": "ef5d2d43c2bbcdd9eb9223a2686141dfb7410c9427416dfac6d15e316f29b192",
+        "textSample": "Welcome back! 👋 Sign in to your personal dashboard to track your assets. Forgot Password? Sign In Or Google GitHub Don&#x27;t have an account? Sign Up Secure authentication Behind the Code This app was originally created to simplify my life, achieve more, and practice my skills as a technical produ"
+      },
+      "similarity": {
+        "title": 0.18,
+        "text": 0,
+        "favicon": false,
+        "overall": 0.06
+      },
+      "listedOn": [],
+      "score": 27,
+      "severity": "low",
+      "label": "likely-false-positive",
+      "evidence": [
+        "Typosquat (vowel-swap) of the official domain",
+        "No brand content found on the page: probably unrelated (false positive)"
+      ],
+      "action": "No action (labelled false positive).",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "rezu.app",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "omission",
+      "dns": {
+        "domain": "rezu.app",
+        "registered": true,
+        "a": [
+          "64.29.17.65",
+          "216.198.79.65"
+        ],
+        "aaaa": [],
+        "mx": [],
+        "ns": [
+          "ns2.vercel-dns.com",
+          "ns1.vercel-dns.com"
+        ]
+      },
+      "page": {
+        "url": "https://rezu.app/",
+        "finalUrl": "https://rezu.app/",
+        "status": 200,
+        "title": "Rezu",
+        "scriptUrls": [
+          "https://rezu.app/_next/static/chunks/4bd1b696-b739599a933a52d0.js",
+          "https://rezu.app/_next/static/chunks/684-3c039a497e57f0da.js",
+          "https://rezu.app/_next/static/chunks/main-app-d9794b1200c643e4.js",
+          "https://rezu.app/_next/static/chunks/bc9e92e6-ef4df82191fa5c17.js",
+          "https://rezu.app/_next/static/chunks/aa35ee89-bd131ba654e62161.js",
+          "https://rezu.app/_next/static/chunks/931-813b55a80d121ba1.js"
+        ],
+        "signals": {
+          "secretForm": false,
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "lure": [],
+          "drainerJs": [],
+          "parked": [],
+          "cryptoContext": [],
+          "interstitial": [],
+          "challenge": []
+        },
+        "brandMentions": 0,
+        "brandInTitle": false,
+        "bytes": 23519,
+        "renderedWith": "http",
+        "faviconUrl": "https://rezu.app/icon.png?344c1100635137b9",
+        "faviconSha256": "9e0109447ac8998aaadffc32ea6c32871f37ba27976422a3b3298ad903bbfc27",
+        "textSample": "Can&#x27;t critique your resume? Rezu can. Built on resumes that passed screenings at these companies: Critique See exactly what to fix Rezu scans your resume and highlights formatting issues directly on the page — so you know exactly where to look. Margin analysis Whitespace detection Date formatti"
+      },
+      "similarity": {
+        "title": 0.12,
+        "text": 0,
+        "favicon": false,
+        "overall": 0.04
+      },
+      "listedOn": [],
+      "score": 26,
+      "severity": "low",
+      "label": "likely-false-positive",
+      "evidence": [
+        "Typosquat (omission) of the official domain",
+        "No brand content found on the page: probably unrelated (false positive)"
+      ],
+      "action": "No action (labelled false positive).",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "tezu.org",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "omission",
+      "dns": {
+        "domain": "tezu.org",
+        "registered": true,
+        "a": [],
+        "aaaa": [],
+        "mx": [
+          "aspmx.l.google.com",
+          "alt2.aspmx.l.google.com",
+          "alt1.aspmx.l.google.com",
+          "alt4.aspmx.l.google.com",
+          "alt3.aspmx.l.google.com"
+        ],
+        "ns": [
+          "ns1.hover.com",
+          "ns2.hover.com"
+        ]
+      },
+      "listedOn": [],
+      "score": 25,
+      "severity": "low",
+      "label": "not-live",
+      "evidence": [
+        "Typosquat (omission) of the official domain"
+      ],
+      "action": "Monitor (registered, no website). Consider defensive registration.",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "treu.org",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "omission",
+      "dns": {
+        "domain": "treu.org",
+        "registered": true,
+        "a": [
+          "76.223.54.146",
+          "13.248.169.48"
+        ],
+        "aaaa": [],
+        "mx": [
+          ""
+        ],
+        "ns": [
+          "ns2.afternic.com",
+          "ns1.afternic.com"
+        ]
+      },
+      "page": {
+        "url": "https://treu.org/",
+        "finalUrl": "https://treu.org/lander",
+        "status": 200,
+        "title": "",
+        "scriptUrls": [],
+        "signals": {
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "secretForm": false,
+          "lure": [],
+          "drainerJs": [],
+          "parked": [
+            "Afternic",
+            "for sale",
+            "Related Searches"
+          ],
+          "cryptoContext": [],
+          "interstitial": [],
+          "challenge": []
+        },
+        "brandMentions": 0,
+        "brandInTitle": false,
+        "bytes": 114,
+        "renderedWith": "playwright",
+        "faviconUrl": "https://treu.org/favicon.ico",
+        "screenshot": "/Users/kacpergumieniuk/Projects/4b47/mimicwatch-near/data/scans/2026-11-01/domains/trezu-sputnik-dao--2026-11-01/shots/treu.org.jpg",
+        "textSample": "The domain treu.org is for sale. To purchase, call Afternic.com at +1 781-373-6847 or 855-201-2286. Click here for more details. TREU.ORG Related Searches treu Copyright © TREU.ORG. All rights reserved. Privacy Policy"
+      },
+      "similarity": {
+        "title": 0,
+        "text": 0,
+        "favicon": false,
+        "overall": 0
+      },
+      "listedOn": [],
+      "score": 25,
+      "severity": "low",
+      "label": "parked",
+      "evidence": [
+        "Typosquat (omission) of the official domain",
+        "Parked / for-sale page"
+      ],
+      "action": "Monitor. Consider buying it defensively or a UDRP if it turns active.",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "trez.org",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "omission",
+      "dns": {
+        "domain": "trez.org",
+        "registered": true,
+        "a": [
+          "62.210.188.3"
+        ],
+        "aaaa": [],
+        "mx": [
+          "mx.trez.org"
+        ],
+        "ns": [
+          "dns19.ovh.net",
+          "ns19.ovh.net"
+        ]
+      },
+      "page": {
+        "url": "https://trez.org/",
+        "finalUrl": "https://trez.org/",
+        "status": 200,
+        "title": "Welcome to TReZ!",
+        "scriptUrls": [],
+        "signals": {
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "secretForm": false,
+          "lure": [],
+          "drainerJs": [],
+          "parked": [],
+          "cryptoContext": [],
+          "interstitial": [],
+          "challenge": []
+        },
+        "brandMentions": 0,
+        "brandInTitle": false,
+        "bytes": 247,
+        "renderedWith": "playwright",
+        "faviconUrl": "https://trez.org/favicon.ico",
+        "screenshot": "/Users/kacpergumieniuk/Projects/4b47/mimicwatch-near/data/scans/2026-11-01/domains/trezu-sputnik-dao--2026-11-01/shots/trez.org.jpg",
+        "textSample": "Welcome to TReZ!"
+      },
+      "similarity": {
+        "title": 0,
+        "text": 0,
+        "favicon": false,
+        "overall": 0
+      },
+      "listedOn": [],
+      "score": 25,
+      "severity": "low",
+      "label": "lookalike-unknown-content",
+      "evidence": [
+        "Typosquat (omission) of the official domain",
+        "Almost empty page (16 chars of text, title \"Welcome to TReZ!\"): content not visible"
+      ],
+      "action": "Re-check next scan; the content was not visible to us (error, bot wall or empty page).",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "tresu.org",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "replacement",
+      "dns": {
+        "domain": "tresu.org",
+        "registered": true,
+        "a": [
+          "50.87.147.93"
+        ],
+        "aaaa": [],
+        "mx": [
+          "mail.tresu.org"
+        ],
+        "ns": [
+          "hgns2.hostgator.com",
+          "hgns1.hostgator.com"
+        ]
+      },
+      "page": {
+        "url": "https://tresu.org/",
+        "finalUrl": "https://tresu.org/",
+        "status": 200,
+        "title": "My Blog &mdash; Coming Soon",
+        "scriptUrls": [
+          "https://tresu.org/wp-includes/js/jquery/jquery.js"
+        ],
+        "signals": {
+          "secretForm": false,
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "lure": [
+            "Migrate"
+          ],
+          "drainerJs": [],
+          "parked": [],
+          "cryptoContext": [],
+          "interstitial": [],
+          "challenge": []
+        },
+        "brandMentions": 0,
+        "brandInTitle": false,
+        "bytes": 15703,
+        "renderedWith": "http",
+        "faviconUrl": "https://tresu.org/favicon.ico",
+        "textSample": "Is this your website? \"> Login to WordPress A New WordPress Site How to build your WordPress Website How to Migrate a Website to Hostgator? Why choose HostGator for your WordPress site? A HostGator powered website. Is this your website? Log in to WordPress or Hostgator ."
+      },
+      "similarity": {
+        "title": 0,
+        "text": 0,
+        "favicon": false,
+        "overall": 0
+      },
+      "listedOn": [],
+      "score": 25,
+      "severity": "low",
+      "label": "likely-false-positive",
+      "evidence": [
+        "Typosquat (replacement) of the official domain",
+        "No brand content found on the page: probably unrelated (false positive)"
+      ],
+      "action": "No action (labelled false positive).",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "trezi.org",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "replacement",
+      "dns": {
+        "domain": "trezi.org",
+        "registered": true,
+        "a": [
+          "3.33.130.190",
+          "15.197.148.33"
+        ],
+        "aaaa": [],
+        "mx": [],
+        "ns": [
+          "ns65.domaincontrol.com",
+          "ns66.domaincontrol.com"
+        ]
+      },
+      "page": {
+        "url": "https://trezi.org/",
+        "finalUrl": "https://trezi.org/lander",
+        "status": 200,
+        "title": "",
+        "scriptUrls": [],
+        "signals": {
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "secretForm": false,
+          "lure": [],
+          "drainerJs": [],
+          "parked": [],
+          "cryptoContext": [],
+          "interstitial": [],
+          "challenge": []
+        },
+        "brandMentions": 0,
+        "brandInTitle": false,
+        "bytes": 114,
+        "renderedWith": "playwright",
+        "faviconUrl": "https://trezi.org/favicon.ico",
+        "screenshot": "/Users/kacpergumieniuk/Projects/4b47/mimicwatch-near/data/scans/2026-11-01/domains/trezu-sputnik-dao--2026-11-01/shots/trezi.org.jpg",
+        "textSample": ""
+      },
+      "similarity": {
+        "title": 0,
+        "text": 0,
+        "favicon": false,
+        "overall": 0
+      },
+      "listedOn": [],
+      "score": 25,
+      "severity": "low",
+      "label": "lookalike-unknown-content",
+      "evidence": [
+        "Typosquat (replacement) of the official domain",
+        "Almost empty page (0 chars of text, title \"\"): content not visible"
+      ],
+      "action": "Re-check next scan; the content was not visible to us (error, bot wall or empty page).",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "trezy.org",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "replacement",
+      "dns": {
+        "domain": "trezy.org",
+        "registered": true,
+        "a": [
+          "206.189.178.79"
+        ],
+        "aaaa": [],
+        "mx": [
+          "aspmx.l.google.com",
+          "alt2.aspmx.l.google.com",
+          "alt1.aspmx.l.google.com",
+          "alt3.aspmx.l.google.com",
+          "alt4.aspmx.l.google.com"
+        ],
+        "ns": [
+          "doug.ns.cloudflare.com",
+          "amanda.ns.cloudflare.com"
+        ]
+      },
+      "page": {
+        "url": "https://trezy.org/",
+        "finalUrl": "https://trezy.org/",
+        "status": 0,
+        "title": "",
+        "scriptUrls": [],
+        "signals": {
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "secretForm": false,
+          "lure": [],
+          "drainerJs": [],
+          "parked": [],
+          "cryptoContext": [],
+          "interstitial": [],
+          "challenge": []
+        },
+        "brandMentions": 0,
+        "brandInTitle": false,
+        "bytes": 0,
+        "renderedWith": "http",
+        "error": "certificate has expired; http: certificate has expired",
+        "textSample": ""
+      },
+      "listedOn": [],
+      "score": 25,
+      "severity": "low",
+      "label": "lookalike-unknown-content",
+      "evidence": [
+        "Typosquat (replacement) of the official domain",
+        "Page not reachable: certificate has expired; http: certificate has expired"
+      ],
+      "action": "Re-check next scan; the content was not visible to us (error, bot wall or empty page).",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "treza.org",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "vowel-swap",
+      "dns": {
+        "domain": "treza.org",
+        "registered": true,
+        "a": [
+          "192.142.31.13"
+        ],
+        "aaaa": [],
+        "mx": [
+          "treza.org"
+        ],
+        "ns": [
+          "ns1.webhi.org",
+          "ns2.webhi.org"
+        ]
+      },
+      "page": {
+        "url": "http://treza.org/",
+        "finalUrl": "http://treza.org/",
+        "status": 401,
+        "title": "",
+        "scriptUrls": [],
+        "signals": {
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "secretForm": false,
+          "lure": [],
+          "drainerJs": [],
+          "parked": [],
+          "cryptoContext": [],
+          "interstitial": [],
+          "challenge": []
+        },
+        "brandMentions": 0,
+        "brandInTitle": false,
+        "bytes": 17,
+        "renderedWith": "playwright",
+        "faviconUrl": "http://treza.org/favicon.ico",
+        "screenshot": "/Users/kacpergumieniuk/Projects/4b47/mimicwatch-near/data/scans/2026-11-01/domains/trezu-sputnik-dao--2026-11-01/shots/treza.org.jpg",
+        "textSample": "Permission denied"
+      },
+      "similarity": {
+        "title": 0,
+        "text": 0,
+        "favicon": false,
+        "overall": 0
+      },
+      "listedOn": [],
+      "score": 25,
+      "severity": "low",
+      "label": "lookalike-unknown-content",
+      "evidence": [
+        "Typosquat (vowel-swap) of the official domain",
+        "Almost empty page (17 chars of text, title \"\"): content not visible"
+      ],
+      "action": "Re-check next scan; the content was not visible to us (error, bot wall or empty page).",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "trezo.org",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "vowel-swap",
+      "dns": {
+        "domain": "trezo.org",
+        "registered": true,
+        "a": [
+          "13.248.169.48",
+          "76.223.54.146"
+        ],
+        "aaaa": [],
+        "mx": [
+          ""
+        ],
+        "ns": [
+          "ns1.afternic.com",
+          "ns2.afternic.com"
+        ]
+      },
+      "page": {
+        "url": "https://trezo.org/",
+        "finalUrl": "https://forsale.godaddy.com/forsale/trezo.org?utm_source=TDFS_BINNS2&utm_medium=parkedpages&utm_campaign=x_corp_tdfs-binns2_base&traffic_type=TDFS_BINNS2&traffic_id=binns2&",
+        "status": 200,
+        "title": "Access Denied",
+        "scriptUrls": [],
+        "signals": {
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "secretForm": false,
+          "lure": [],
+          "drainerJs": [],
+          "parked": [],
+          "cryptoContext": [],
+          "interstitial": [],
+          "challenge": [
+            "Access Denied"
+          ]
+        },
+        "brandMentions": 0,
+        "brandInTitle": false,
+        "bytes": 114,
+        "renderedWith": "playwright",
+        "faviconUrl": "https://trezo.org/favicon.ico",
+        "screenshot": "/Users/kacpergumieniuk/Projects/4b47/mimicwatch-near/data/scans/2026-11-01/domains/trezu-sputnik-dao--2026-11-01/shots/trezo.org.jpg",
+        "textSample": "Access Denied You don't have permission to access \"http://forsale.godaddy.com/forsale/trezo.org?\" on this server. Reference #18.2f0c4017.1793549392.4c54d480 https://errors.edgesuite.net/18.2f0c4017.1793549392.4c54d480"
+      },
+      "similarity": {
+        "title": 0.18,
+        "text": 0,
+        "favicon": false,
+        "overall": 0.06
+      },
+      "listedOn": [],
+      "score": 25,
+      "severity": "low",
+      "label": "lookalike-unknown-content",
+      "evidence": [
+        "Typosquat (vowel-swap) of the official domain",
+        "Bot challenge or redirect stub (\"Access Denied\"): real content not visible"
+      ],
+      "action": "Re-check next scan; the content was not visible to us (error, bot wall or empty page).",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "tezu.app",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "omission",
+      "dns": {
+        "domain": "tezu.app",
+        "registered": true,
+        "a": [],
+        "aaaa": [],
+        "mx": [],
+        "ns": [
+          "phil.ns.cloudflare.com",
+          "khloe.ns.cloudflare.com"
+        ]
+      },
+      "listedOn": [],
+      "score": 25,
+      "severity": "low",
+      "label": "not-live",
+      "evidence": [
+        "Typosquat (omission) of the official domain"
+      ],
+      "action": "Monitor (registered, no website). Consider defensive registration.",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "treu.app",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "omission",
+      "dns": {
+        "domain": "treu.app",
+        "registered": true,
+        "a": [
+          "15.197.148.33",
+          "3.33.130.190"
+        ],
+        "aaaa": [],
+        "mx": [],
+        "ns": [
+          "ns10.domaincontrol.com",
+          "ns09.domaincontrol.com"
+        ]
+      },
+      "page": {
+        "url": "https://treu.app/",
+        "finalUrl": "https://treu.app/lander",
+        "status": 200,
+        "title": "",
+        "scriptUrls": [],
+        "signals": {
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "secretForm": false,
+          "lure": [],
+          "drainerJs": [],
+          "parked": [
+            "parked",
+            "Related Searches"
+          ],
+          "cryptoContext": [],
+          "interstitial": [],
+          "challenge": []
+        },
+        "brandMentions": 0,
+        "brandInTitle": false,
+        "bytes": 114,
+        "renderedWith": "playwright",
+        "faviconUrl": "https://treu.app/favicon.ico",
+        "screenshot": "/Users/kacpergumieniuk/Projects/4b47/mimicwatch-near/data/scans/2026-11-01/domains/trezu-sputnik-dao--2026-11-01/shots/treu.app.jpg",
+        "textSample": "treu.app is parked free, courtesy of GoDaddy.com. Get This Domain Related Searches treu Copyright © 1999-2026 GoDaddy, LLC. All rights reserved. Privacy Policy Disclaimer: References to any specific company, product or services on this Site are not controlled by GoDaddy.com LLC and do not constitute"
+      },
+      "similarity": {
+        "title": 0,
+        "text": 0,
+        "favicon": false,
+        "overall": 0
+      },
+      "listedOn": [],
+      "score": 25,
+      "severity": "low",
+      "label": "parked",
+      "evidence": [
+        "Typosquat (omission) of the official domain",
+        "Parked / for-sale page"
+      ],
+      "action": "Monitor. Consider buying it defensively or a UDRP if it turns active.",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "trezy.app",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "replacement",
+      "dns": {
+        "domain": "trezy.app",
+        "registered": true,
+        "a": [],
+        "aaaa": [],
+        "mx": [
+          "aspmx.l.google.com",
+          "alt1.aspmx.l.google.com",
+          "alt2.aspmx.l.google.com",
+          "aspmx3.googlemail.com",
+          "aspmx2.googlemail.com"
+        ],
+        "ns": [
+          "dns2.registrar-servers.com",
+          "dns1.registrar-servers.com"
+        ]
+      },
+      "listedOn": [],
+      "score": 25,
+      "severity": "low",
+      "label": "not-live",
+      "evidence": [
+        "Typosquat (replacement) of the official domain"
+      ],
+      "action": "Monitor (registered, no website). Consider defensive registration.",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "treza.app",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "vowel-swap",
+      "dns": {
+        "domain": "treza.app",
+        "registered": true,
+        "a": [
+          "3.33.130.190",
+          "15.197.148.33"
+        ],
+        "aaaa": [],
+        "mx": [],
+        "ns": [
+          "ns39.domaincontrol.com",
+          "ns40.domaincontrol.com"
+        ]
+      },
+      "page": {
+        "url": "https://treza.app/",
+        "finalUrl": "https://treza.app/lander",
+        "status": 200,
+        "title": "",
+        "scriptUrls": [],
+        "signals": {
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "secretForm": false,
+          "lure": [],
+          "drainerJs": [],
+          "parked": [
+            "parked",
+            "Related Searches"
+          ],
+          "cryptoContext": [],
+          "interstitial": [],
+          "challenge": []
+        },
+        "brandMentions": 0,
+        "brandInTitle": false,
+        "bytes": 114,
+        "renderedWith": "playwright",
+        "faviconUrl": "https://treza.app/favicon.ico",
+        "screenshot": "/Users/kacpergumieniuk/Projects/4b47/mimicwatch-near/data/scans/2026-11-01/domains/trezu-sputnik-dao--2026-11-01/shots/treza.app.jpg",
+        "textSample": "treza.app is parked free, courtesy of GoDaddy.com. Get This Domain Related Searches reza Copyright © 1999-2026 GoDaddy, LLC. All rights reserved. Privacy Policy Disclaimer: References to any specific company, product or services on this Site are not controlled by GoDaddy.com LLC and do not constitut"
+      },
+      "similarity": {
+        "title": 0,
+        "text": 0,
+        "favicon": false,
+        "overall": 0
+      },
+      "listedOn": [],
+      "score": 25,
+      "severity": "low",
+      "label": "parked",
+      "evidence": [
+        "Typosquat (vowel-swap) of the official domain",
+        "Parked / for-sale page"
+      ],
+      "action": "Monitor. Consider buying it defensively or a UDRP if it turns active.",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "trezu.com",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "tld-swap",
+      "dns": {
+        "domain": "trezu.com",
+        "registered": true,
+        "a": [
+          "54.84.240.235",
+          "44.208.83.180"
+        ],
+        "aaaa": [],
+        "mx": [],
+        "ns": [
+          "ns1.namebrightdns.com",
+          "ns2.namebrightdns.com"
+        ]
+      },
+      "page": {
+        "url": "https://trezu.com/",
+        "finalUrl": "https://www.atom.com/name/Trezu",
+        "status": 403,
+        "title": "Trezu.com — Premium Domain For Sale | Atom",
+        "scriptUrls": [],
+        "signals": {
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "secretForm": false,
+          "lure": [
+            "refund"
+          ],
+          "drainerJs": [],
+          "parked": [
+            "For Sale"
+          ],
+          "cryptoContext": [
+            "crypto"
+          ],
+          "interstitial": [],
+          "challenge": []
+        },
+        "brandMentions": 5,
+        "brandInTitle": true,
+        "bytes": 5775,
+        "renderedWith": "playwright",
+        "faviconUrl": "https://www.atom.com/favicon.ico",
+        "faviconSha256": "7eda937d9cabb3e3b4da756c81226e3431f9b0751e9247b9e9b24c4f50ba3b97",
+        "screenshot": "/Users/kacpergumieniuk/Projects/4b47/mimicwatch-near/data/scans/2026-11-01/domains/trezu-sputnik-dao--2026-11-01/shots/trezu.com.jpg",
+        "textSample": "We use essential cookies to make our site work. With your consent, we may also use non-essential cookies to improve user experience and analyze website traffic. By clicking “Accept,” you agree to our website's cookie use as described in our Cookie Policy and Privacy Policy . You can change your cook"
+      },
+      "similarity": {
+        "title": 0.09,
+        "text": 0,
+        "favicon": false,
+        "overall": 0.03
+      },
+      "listedOn": [],
+      "score": 20,
+      "severity": "low",
+      "label": "lookalike-unknown-content",
+      "evidence": [
+        "Official name on a different TLD",
+        "Page returned HTTP 403"
+      ],
+      "action": "Re-check next scan; the content was not visible to us (error, bot wall or empty page).",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "trezu.net",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "tld-swap",
+      "dns": {
+        "domain": "trezu.net",
+        "registered": true,
+        "a": [
+          "15.197.148.33",
+          "3.33.130.190"
+        ],
+        "aaaa": [],
+        "mx": [],
+        "ns": [
+          "ns15.domaincontrol.com",
+          "ns16.domaincontrol.com"
+        ]
+      },
+      "page": {
+        "url": "https://trezu.net/",
+        "finalUrl": "https://trezu.net/lander",
+        "status": 200,
+        "title": "",
+        "scriptUrls": [],
+        "signals": {
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "secretForm": false,
+          "lure": [],
+          "drainerJs": [],
+          "parked": [],
+          "cryptoContext": [],
+          "interstitial": [],
+          "challenge": []
+        },
+        "brandMentions": 0,
+        "brandInTitle": false,
+        "bytes": 114,
+        "renderedWith": "playwright",
+        "faviconUrl": "https://trezu.net/favicon.ico",
+        "screenshot": "/Users/kacpergumieniuk/Projects/4b47/mimicwatch-near/data/scans/2026-11-01/domains/trezu-sputnik-dao--2026-11-01/shots/trezu.net.jpg",
+        "textSample": ""
+      },
+      "similarity": {
+        "title": 0,
+        "text": 0,
+        "favicon": false,
+        "overall": 0
+      },
+      "listedOn": [],
+      "score": 20,
+      "severity": "low",
+      "label": "lookalike-unknown-content",
+      "evidence": [
+        "Official name on a different TLD",
+        "Almost empty page (0 chars of text, title \"\"): content not visible"
+      ],
+      "action": "Re-check next scan; the content was not visible to us (error, bot wall or empty page).",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "trezu.io",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "tld-swap",
+      "dns": {
+        "domain": "trezu.io",
+        "registered": true,
+        "a": [
+          "82.165.30.25"
+        ],
+        "aaaa": [],
+        "mx": [
+          "mx00.ionos.de",
+          "mx01.ionos.de"
+        ],
+        "ns": [
+          "ns1095.ui-dns.biz",
+          "ns1111.ui-dns.com",
+          "ns1094.ui-dns.org",
+          "ns1035.ui-dns.de"
+        ]
+      },
+      "page": {
+        "url": "https://trezu.io/",
+        "finalUrl": "https://trezu.io/",
+        "status": 0,
+        "title": "",
+        "scriptUrls": [],
+        "signals": {
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "secretForm": false,
+          "lure": [],
+          "drainerJs": [],
+          "parked": [],
+          "cryptoContext": [],
+          "interstitial": [],
+          "challenge": []
+        },
+        "brandMentions": 0,
+        "brandInTitle": false,
+        "bytes": 0,
+        "renderedWith": "http",
+        "error": "Connect Timeout Error (attempted address: trezu.io:443, timeout: 10000ms); http: Connect Timeout Error (attempted address: trezu.io:80, timeout: 10000ms)",
+        "textSample": ""
+      },
+      "listedOn": [],
+      "score": 20,
+      "severity": "low",
+      "label": "lookalike-unknown-content",
+      "evidence": [
+        "Official name on a different TLD",
+        "Page not reachable: Connect Timeout Error (attempted address: trezu.io:443, timeout: 10000ms); http:"
+      ],
+      "action": "Re-check next scan; the content was not visible to us (error, bot wall or empty page).",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "trezu.xyz",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "tld-swap",
+      "dns": {
+        "domain": "trezu.xyz",
+        "registered": true,
+        "a": [
+          "162.255.119.231"
+        ],
+        "aaaa": [],
+        "mx": [
+          "eforward2.registrar-servers.com",
+          "eforward1.registrar-servers.com",
+          "eforward3.registrar-servers.com",
+          "eforward4.registrar-servers.com",
+          "eforward5.registrar-servers.com"
+        ],
+        "ns": [
+          "pdns2.registrar-servers.com",
+          "pdns1.registrar-servers.com"
+        ]
+      },
+      "page": {
+        "url": "http://trezu.xyz/",
+        "finalUrl": "https://www.trezu.xyz/",
+        "status": 200,
+        "title": "",
+        "scriptUrls": [
+          "https://www.trezu.xyz/assets/index-BuG04mTK.js",
+          "https://lander.parity.domains/js/pa-6FZUe2Iv3m6Yx_KBS2sv2.js"
+        ],
+        "signals": {
+          "secretForm": false,
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "lure": [],
+          "drainerJs": [],
+          "parked": [],
+          "cryptoContext": [],
+          "interstitial": [],
+          "challenge": []
+        },
+        "brandMentions": 0,
+        "brandInTitle": false,
+        "bytes": 2963,
+        "renderedWith": "http",
+        "faviconUrl": "https://www.trezu.xyz/favicon.ico",
+        "textSample": "has been recently registered with namecheap.com Want a domain name like this? Discover domains on auction now See all auctions Download the Namecheap Auctions app Take auctions with you wherever you go"
+      },
+      "similarity": {
+        "title": 0,
+        "text": 0,
+        "favicon": false,
+        "overall": 0
+      },
+      "listedOn": [],
+      "score": 20,
+      "severity": "low",
+      "label": "likely-false-positive",
+      "evidence": [
+        "Official name on a different TLD",
+        "No brand content found on the page: probably unrelated (false positive)"
+      ],
+      "action": "No action (labelled false positive).",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "trezu.tech",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "tld-swap",
+      "dns": {
+        "domain": "trezu.tech",
+        "registered": true,
+        "a": [],
+        "aaaa": [],
+        "mx": [
+          "eforward1.registrar-servers.com",
+          "eforward2.registrar-servers.com",
+          "eforward3.registrar-servers.com",
+          "eforward4.registrar-servers.com",
+          "eforward5.registrar-servers.com"
+        ],
+        "ns": [
+          "dns2.registrar-servers.com",
+          "dns1.registrar-servers.com"
+        ]
+      },
+      "listedOn": [],
+      "score": 20,
+      "severity": "low",
+      "label": "not-live",
+      "evidence": [
+        "Official name on a different TLD"
+      ],
+      "action": "Monitor (registered, no website). Consider defensive registration.",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "rezu.info",
+      "sources": [
+        "nrd"
+      ],
+      "nrdDate": "2026-10-30",
+      "dns": {
+        "domain": "rezu.info",
+        "registered": true,
+        "a": [
+          "207.207.210.107",
+          "207.207.210.229"
+        ],
+        "aaaa": [],
+        "mx": [],
+        "ns": [
+          "curitiba.ns.porkbun.com",
+          "maceio.ns.porkbun.com",
+          "salvador.ns.porkbun.com",
+          "fortaleza.ns.porkbun.com"
+        ]
+      },
+      "page": {
+        "url": "http://rezu.info/",
+        "finalUrl": "http://rezu.info/",
+        "status": 200,
+        "title": "rezu.info — Coming Soon",
+        "scriptUrls": [],
+        "signals": {
+          "secretForm": false,
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "lure": [],
+          "drainerJs": [],
+          "parked": [
+            "Parked"
+          ],
+          "cryptoContext": [],
+          "interstitial": [],
+          "challenge": []
+        },
+        "brandMentions": 0,
+        "brandInTitle": false,
+        "bytes": 3157,
+        "renderedWith": "http",
+        "faviconUrl": "http://rezu.info/favicon.ico",
+        "faviconSha256": "db897943d379d0ec62705f42a980896fc936de5ed8a9c65dea59790aa915c37a",
+        "textSample": "Coming Soon rezu.info A brand new website is on its way. Check back soon! Are you the owner of this domain? Visit Porkbun to start building your website. We may already have a design waiting for you. Start Building My Website Parked at Porkbun"
+      },
+      "similarity": {
+        "title": 0,
+        "text": 0,
+        "favicon": false,
+        "overall": 0
+      },
+      "listedOn": [],
+      "score": 15,
+      "severity": "info",
+      "label": "parked",
+      "evidence": [
+        "Hostname contains the brand name",
+        "Newly registered domain (WhoisDS daily list)",
+        "Parked / for-sale page"
+      ],
+      "action": "Monitor. Consider buying it defensively or a UDRP if it turns active.",
+      "alreadyBlocked": false
+    }
+  ],
+  "tokens": [],
+  "errors": []
+}

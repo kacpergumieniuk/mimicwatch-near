@@ -1,0 +1,1901 @@
+{
+  "brand": {
+    "name": "Omni Bridge / Rainbow Bridge",
+    "officialDomains": [
+      "rainbowbridge.app"
+    ],
+    "referenceUrl": "https://rainbowbridge.app",
+    "officialTokens": [],
+    "officialSocials": {
+      "github": "Near-One"
+    },
+    "keywords": [
+      "rainbowbridge",
+      "rainbow-bridge",
+      "omnibridge",
+      "omni-bridge"
+    ],
+    "allowlist": [],
+    "tokenChains": [
+      "base"
+    ]
+  },
+  "startedAt": "2026-11-01T16:04:51.447Z",
+  "finishedAt": "2026-11-01T16:07:24.684Z",
+  "periodDays": 30,
+  "official": {
+    "url": "https://rainbowbridge.app/transfer",
+    "title": "Rainbow Bridge",
+    "faviconSha256": "ecfac2e26db22f2fb569cc56a3524e71941e2652454c1922eb94c960c9fa5676"
+  },
+  "stats": {
+    "permutations": 1356,
+    "permutationsRegistered": 25,
+    "ctHosts": 0,
+    "nrdHits": 0,
+    "candidates": 25,
+    "pagesFetched": 21,
+    "pagesRendered": 12,
+    "tokensIndexed": {},
+    "tokenMatches": 0
+  },
+  "coverage": {
+    "ct": [
+      {
+        "q": "rainbowbridge%",
+        "rows": 0,
+        "error": "HTTP 400"
+      },
+      {
+        "q": "rainbowbridge.%",
+        "rows": 0,
+        "error": "HTTP 400"
+      },
+      {
+        "q": "rainbowbridge-%",
+        "rows": 0,
+        "error": "HTTP 400"
+      },
+      {
+        "q": "%rainbowbridge%",
+        "rows": 0,
+        "error": "HTTP 400"
+      },
+      {
+        "q": "rainbow-bridge%",
+        "rows": 0,
+        "error": "HTTP 400"
+      },
+      {
+        "q": "rainbow-bridge.%",
+        "rows": 0,
+        "error": "HTTP 400"
+      },
+      {
+        "q": "rainbow-bridge-%",
+        "rows": 0,
+        "error": "HTTP 400"
+      },
+      {
+        "q": "%rainbow-bridge%",
+        "rows": 0,
+        "error": "HTTP 400"
+      },
+      {
+        "q": "omnibridge%",
+        "rows": 0,
+        "error": "HTTP 400"
+      },
+      {
+        "q": "omnibridge.%",
+        "rows": 0,
+        "error": "HTTP 400"
+      },
+      {
+        "q": "omnibridge-%",
+        "rows": 0,
+        "error": "HTTP 400"
+      },
+      {
+        "q": "%omnibridge%",
+        "rows": 0,
+        "error": "HTTP 400"
+      },
+      {
+        "q": "omni-bridge%",
+        "rows": 0,
+        "error": "HTTP 400"
+      },
+      {
+        "q": "omni-bridge.%",
+        "rows": 0,
+        "error": "HTTP 400"
+      },
+      {
+        "q": "omni-bridge-%",
+        "rows": 0,
+        "error": "HTTP 400"
+      },
+      {
+        "q": "%omni-bridge%",
+        "rows": 0,
+        "error": "HTTP 400"
+      }
+    ],
+    "nrd": [
+      {
+        "day": "2026-10-31",
+        "domains": 70000
+      },
+      {
+        "day": "2026-10-30",
+        "domains": 70000
+      },
+      {
+        "day": "2026-10-29",
+        "domains": 70000
+      },
+      {
+        "day": "2026-10-28",
+        "domains": 70000
+      }
+    ],
+    "tokens": [],
+    "blocklists": [
+      "metamask",
+      "scamsniffer"
+    ]
+  },
+  "domains": [
+    {
+      "kind": "domain",
+      "host": "rainbowbridge.tech",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "tld-swap",
+      "dns": {
+        "domain": "rainbowbridge.tech",
+        "registered": true,
+        "a": [
+          "47.251.55.71"
+        ],
+        "aaaa": [],
+        "mx": [],
+        "ns": [
+          "dns29.hichina.com",
+          "dns30.hichina.com"
+        ]
+      },
+      "page": {
+        "url": "https://rainbowbridge.tech/",
+        "finalUrl": "https://www.rainbowbridge.tech/",
+        "status": 200,
+        "title": "Jinan Rainbow Bridge Intelligent Technology Co. Ltd.Bridge cutting machine/ Quartz cnc machining center/ Stone cnc machine/Bridge saw cutter/ cnc machine/Cnc router",
+        "scriptUrls": [
+          "https://static.yybcdn.com/p/language/en/global.js",
+          "https://static.yybcdn.com/Response/scripts/jquery-3.1.1.min.js",
+          "https://tfile.xiaoman.cn/okki/analyze.js?id=340458-23878-",
+          "https://static.yybcdn.com/public/v1.5.21/mini/before.js",
+          "https://static.yybcdn.com/public/v1.5.21/mini/lazysizes.js",
+          "https://static.yybcdn.com/public/v1.5.21/mini/public.js"
+        ],
+        "signals": {
+          "secretForm": true,
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "lure": [],
+          "drainerJs": [],
+          "parked": [],
+          "cryptoContext": [
+            "Bridge"
+          ],
+          "interstitial": [],
+          "challenge": []
+        },
+        "brandMentions": 0,
+        "brandInTitle": false,
+        "bytes": 248883,
+        "renderedWith": "http",
+        "faviconUrl": "https://images.yybcdn.com/yyb_icons/58874/1782891106930846529244344320.ico",
+        "faviconSha256": "6c5f4ba1ed29dee39b448970af720e22f3b6a383d5e8d7a9839e86dffd56a5f1",
+        "textSample": "HOME ABOUT US  Company Profile Honor & Certificate Office & Factory Customers Visit Exhibition Case PRODUCTS  4 Axis Bridge Saw 5 Axis Bridge Saw Stone CNC Router Countertop CNC Center Stone CNC Production Line Polishing Machine&CNC Router APPLICATION VIDEO  3 Axis Bridge Saw 4 Axis Bridge Saw 5 "
+      },
+      "similarity": {
+        "title": 0.8,
+        "text": 0,
+        "favicon": false,
+        "overall": 0.28
+      },
+      "listedOn": [
+        "scamsniffer"
+      ],
+      "score": 65,
+      "severity": "high",
+      "label": "phishing-likely",
+      "evidence": [
+        "Official name on a different TLD",
+        "Already on public wallet blocklist(s): scamsniffer",
+        "Page title resembles the official title (80%)",
+        "Lookalike of your domain serving other crypto content (Bridge)"
+      ],
+      "action": "Already blocked (scamsniffer). After client approval: file registrar and host abuse reports so the domain itself goes away (drafts attached).",
+      "alreadyBlocked": true,
+      "rdap": {
+        "domain": "rainbowbridge.tech",
+        "registrar": "Alibaba Cloud Computing Ltd. d/b/a HiChina (www.net.cn)",
+        "ianaId": "1599",
+        "abuse": {
+          "name": "Alibaba Cloud",
+          "email": "domainabuse@service.aliyun.com",
+          "phone": "+86.18515850767"
+        },
+        "registered": "2025-11-30T05:23:54.000Z",
+        "expires": "2026-11-30T23:59:59.000Z",
+        "status": [
+          "active"
+        ],
+        "source": "https://rdap.radix.host/rdap/domain/rainbowbridge.tech"
+      },
+      "hosting": {
+        "ip": "47.251.55.71",
+        "network": "ALIBABA CLOUD - US",
+        "org": "Alibaba Cloud - US",
+        "abuse": {
+          "name": "Network Abuse",
+          "email": "intl-abuse@list.alibaba-inc.com",
+          "phone": "+1-408-785-5580"
+        }
+      },
+      "drafts": [
+        {
+          "channel": "registrar-abuse",
+          "title": "Registrar abuse report to Alibaba Cloud Computing Ltd. d/b/a HiChina (www.net.cn)",
+          "to": "domainabuse@service.aliyun.com",
+          "subject": "Phishing / brand impersonation: rainbowbridge.tech impersonates Omni Bridge / Rainbow Bridge",
+          "body": "DRAFT - NOT FILED. File only after the brand owner approves it and has signed a Letter of Authorisation.\n\nHello Alibaba Cloud Computing Ltd. d/b/a HiChina (www.net.cn) abuse team,\n\nThe domain rainbowbridge[.]tech (registered with you on 2025-11-30) is being used to impersonate Omni Bridge / Rainbow Bridge, a crypto project whose official site is hxxps://rainbowbridge[.]app. We ask you to suspend the domain under your abuse policy and the RAA section 3.18 obligations.\n\nEvidence (observed 2026-11-01, read-only, URLs defanged):\n- URL: hxxps://www[.]rainbowbridge[.]tech/\n- Official name on a different TLD\n- Already on public wallet blocklist(s): scamsniffer\n- Page title resembles the official title (80%)\n- Lookalike of your domain serving other crypto content (Bridge)\n- Resolves to 47.251.55.71\n- Page title: \"Jinan Rainbow Bridge Intelligent Technology Co. Ltd.Bridge cutting machine/ Quartz cnc machining center/ Stone cnc machi\"\n\nWe are not affiliated with the operator of rainbowbridge[.]tech. Omni Bridge / Rainbow Bridge has not authorised its use of the brand. Screenshots and HTML captures are available on request.\n\nRegards,\n{{REPORTER_NAME}}\n{{REPORTER_ORG}}, acting for Omni Bridge / Rainbow Bridge under a Letter of Authorisation dated {{LOA_DATE}}\n{{REPORTER_EMAIL}}",
+          "notes": [
+            "Registrar IANA ID 1599, abuse phone +86.18515850767"
+          ]
+        },
+        {
+          "channel": "host-abuse",
+          "title": "Hosting abuse report to Alibaba Cloud - US",
+          "to": "intl-abuse@list.alibaba-inc.com",
+          "subject": "Phishing site hosted on your network: rainbowbridge.tech (Omni Bridge / Rainbow Bridge impersonation)",
+          "body": "DRAFT - NOT FILED. File only after the brand owner approves it and has signed a Letter of Authorisation.\n\nHello Alibaba Cloud - US,\n\nhxxps://www[.]rainbowbridge[.]tech/ (47.251.55.71) is hosted on your network and impersonates Omni Bridge / Rainbow Bridge (official: hxxps://rainbowbridge[.]app).\n\nEvidence (observed 2026-11-01):\n- Official name on a different TLD\n- Already on public wallet blocklist(s): scamsniffer\n- Page title resembles the official title (80%)\n- Lookalike of your domain serving other crypto content (Bridge)\n- Resolves to 47.251.55.71\n- Page title: \"Jinan Rainbow Bridge Intelligent Technology Co. Ltd.Bridge cutting machine/ Quartz cnc machining center/ Stone cnc machi\"\n\nPlease take the content down under your acceptable use policy.\n\nRegards,\n{{REPORTER_NAME}}\n{{REPORTER_ORG}}, acting for Omni Bridge / Rainbow Bridge under a Letter of Authorisation dated {{LOA_DATE}}\n{{REPORTER_EMAIL}}",
+          "notes": []
+        },
+        {
+          "channel": "google-safe-browsing",
+          "title": "Google Safe Browsing report",
+          "to": "https://safebrowsing.google.com/safebrowsing/report_phish/?url=https%3A%2F%2Fwww.rainbowbridge.tech%2F",
+          "fields": {
+            "Report Type": "This page is not safe",
+            "Threat Type": "Social engineering (phishing) - pick the closest option shown",
+            "Threat Category": "Pick the closest option shown (impersonation / phishing)",
+            "URL to report": "https://www.rainbowbridge.tech/",
+            "Additional details (max 800)": "Impersonates Omni Bridge / Rainbow Bridge (official: https://rainbowbridge.app). Page title resembles the official title (80%); Already on public wallet blocklist(s): scamsniffer; Official name on a different TLD; Lookalike of your domain serving other crypto content (Bridge)."
+          },
+          "body": "DRAFT - NOT FILED. File only after the brand owner approves it and has signed a Letter of Authorisation.\n\nImpersonates Omni Bridge / Rainbow Bridge (official: https://rainbowbridge.app). Page title resembles the official title (80%); Already on public wallet blocklist(s): scamsniffer; Official name on a different TLD; Lookalike of your domain serving other crypto content (Bridge).",
+          "notes": [
+            "Web form with reCAPTCHA: a person has to submit it."
+          ]
+        },
+        {
+          "channel": "netcraft",
+          "title": "Netcraft report",
+          "to": "https://report.netcraft.com/report",
+          "fields": {
+            "The URL of the site": "https://www.rainbowbridge.tech/",
+            "Further details": "Impersonates Omni Bridge / Rainbow Bridge (official: https://rainbowbridge.app). Page title resembles the official title (80%); Already on public wallet blocklist(s): scamsniffer; Official name on a different TLD; Lookalike of your domain serving other crypto content (Bridge).",
+            "Your email address": "{{REPORTER_EMAIL}}"
+          },
+          "body": "DRAFT - NOT FILED. File only after the brand owner approves it and has signed a Letter of Authorisation.\n\nImpersonates Omni Bridge / Rainbow Bridge (official: https://rainbowbridge.app). Page title resembles the official title (80%); Already on public wallet blocklist(s): scamsniffer; Official name on a different TLD; Lookalike of your domain serving other crypto content (Bridge).",
+          "notes": [
+            "Web form with reCAPTCHA. Netcraft feeds many browser and registrar blocklists."
+          ]
+        },
+        {
+          "channel": "metamask-issue",
+          "title": "MetaMask eth-phishing-detect: blocklist addition issue",
+          "to": "https://github.com/MetaMask/eth-phishing-detect/issues/new?template=01-blocklist-addition.yaml",
+          "fields": {
+            "Malicious domains, IPs, IPFS hashes, or IPNS names": "https://www.rainbowbridge.tech/",
+            "Please explain why this content is malicious": "Impersonates Omni Bridge / Rainbow Bridge (official: https://rainbowbridge.app). Page title resembles the official title (80%); Already on public wallet blocklist(s): scamsniffer; Official name on a different TLD; Lookalike of your domain serving other crypto content (Bridge). Observed 2026-11-01. Reported on behalf of Omni Bridge / Rainbow Bridge.",
+            "Is this a duplicate request?": "Search open issues for the domain first, then tick the box"
+          },
+          "body": "DRAFT - NOT FILED. File only after the brand owner approves it and has signed a Letter of Authorisation.\n\nImpersonates Omni Bridge / Rainbow Bridge (official: https://rainbowbridge.app). Page title resembles the official title (80%); Already on public wallet blocklist(s): scamsniffer; Official name on a different TLD; Lookalike of your domain serving other crypto content (Bridge)."
+        },
+        {
+          "channel": "metamask-pr",
+          "title": "MetaMask eth-phishing-detect: alternative PR (slower; most merges are bot syncs)",
+          "to": "https://github.com/MetaMask/eth-phishing-detect",
+          "body": "DRAFT - NOT FILED. File only after the brand owner approves it and has signed a Letter of Authorisation.\n\ngit checkout -b block-rainbowbridge.tech\nyarn add:blocklist rainbowbridge.tech\n\nPR title: Block rainbowbridge.tech (Omni Bridge / Rainbow Bridge impersonation)\nPR body: Impersonates Omni Bridge / Rainbow Bridge (official: https://rainbowbridge.app). Page title resembles the official title (80%); Already on public wallet blocklist(s): scamsniffer; Official name on a different TLD; Lookalike of your domain serving other crypto content (Bridge)."
+        }
+      ]
+    },
+    {
+      "kind": "domain",
+      "host": "rainbow-bridge.app",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "hyphenation",
+      "dns": {
+        "domain": "rainbow-bridge.app",
+        "registered": true,
+        "a": [
+          "216.198.79.1",
+          "64.29.17.1"
+        ],
+        "aaaa": [],
+        "mx": [],
+        "ns": [
+          "ns1.vercel-dns.com",
+          "ns2.vercel-dns.com"
+        ]
+      },
+      "page": {
+        "url": "https://rainbow-bridge.app/",
+        "finalUrl": "https://www.rainbow-bridge.app/",
+        "status": 200,
+        "title": "RainbowBridge - Connect Slack and Teams",
+        "scriptUrls": [
+          "https://www.rainbow-bridge.app/_next/static/chunks/fd9d1056-62288cfa43dc2997.js",
+          "https://www.rainbow-bridge.app/_next/static/chunks/117-ce672fce6bdd3eb8.js",
+          "https://www.rainbow-bridge.app/_next/static/chunks/main-app-d9698065e639e345.js",
+          "https://www.rainbow-bridge.app/_next/static/chunks/app/%5B%5B...slug%5D%5D/page-7480fb378656d738.js",
+          "https://www.rainbow-bridge.app/_next/static/chunks/app/layout-c9a657bbf3d00691.js",
+          "https://www.rainbow-bridge.app/_next/static/chunks/polyfills-42372ed130431b0a.js"
+        ],
+        "signals": {
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "secretForm": false,
+          "lure": [],
+          "drainerJs": [],
+          "parked": [],
+          "cryptoContext": [
+            "Bridge"
+          ],
+          "interstitial": [],
+          "challenge": []
+        },
+        "brandMentions": 2,
+        "brandInTitle": true,
+        "bytes": 5834,
+        "renderedWith": "playwright",
+        "faviconUrl": "https://www.rainbow-bridge.app/favicon.svg",
+        "screenshot": "/Users/kacpergumieniuk/Projects/4b47/mimicwatch-near/data/scans/2026-11-01/domains/omni-bridge-rainbow-bridge-2026-11-01/shots/rainbow-bridge.app.jpg",
+        "textSample": "Home Features Pricing Blog Join Waitlist Unified collaboration on Slack and Microsoft Teams Connect and streamline chats across Slack and Teams Join the Waitlist! Founding members get 50% off for life. No spam, just launch updates. The Rainbow Bridge Rainbow Bridge integrates Slack and Microsoft Tea"
+      },
+      "similarity": {
+        "title": 0.39,
+        "text": 0,
+        "favicon": false,
+        "overall": 0.14
+      },
+      "listedOn": [],
+      "score": 50,
+      "severity": "medium",
+      "label": "impersonation",
+      "evidence": [
+        "Typosquat (hyphenation) of the official domain",
+        "Brand named on the page (2x), including the title"
+      ],
+      "action": "Review the screenshot. If it impersonates the brand, file registrar + host reports (drafts attached).",
+      "alreadyBlocked": false,
+      "rdap": {
+        "domain": "rainbow-bridge.app",
+        "registrar": "Name.com, Inc.",
+        "ianaId": "625",
+        "abuse": {
+          "name": "Name.com Abuse Team",
+          "email": "abuse@name.com",
+          "phone": "+1.7203101849"
+        },
+        "registered": "2026-01-28T04:06:28.853Z",
+        "expires": "2027-01-28T04:06:28.853Z",
+        "status": [
+          "client transfer prohibited"
+        ],
+        "source": "https://pubapi.registry.google/rdap/domain/rainbow-bridge.app"
+      },
+      "hosting": {
+        "ip": "216.198.79.1",
+        "network": "VERCEL-05",
+        "org": "Vercel, Inc",
+        "abuse": {
+          "name": "Abuse",
+          "email": "abuse@vercel.com",
+          "phone": "+1-415-980-8007"
+        }
+      },
+      "drafts": [
+        {
+          "channel": "registrar-abuse",
+          "title": "Registrar abuse report to Name.com, Inc.",
+          "to": "abuse@name.com",
+          "subject": "Phishing / brand impersonation: rainbow-bridge.app impersonates Omni Bridge / Rainbow Bridge",
+          "body": "DRAFT - NOT FILED. File only after the brand owner approves it and has signed a Letter of Authorisation.\n\nHello Name.com, Inc. abuse team,\n\nThe domain rainbow-bridge[.]app (registered with you on 2026-01-28) is being used to impersonate Omni Bridge / Rainbow Bridge, a crypto project whose official site is hxxps://rainbowbridge[.]app. We ask you to suspend the domain under your abuse policy and the RAA section 3.18 obligations.\n\nEvidence (observed 2026-11-01, read-only, URLs defanged):\n- URL: hxxps://www[.]rainbow-bridge[.]app/\n- Typosquat (hyphenation) of the official domain\n- Brand named on the page (2x), including the title\n- Resolves to 216.198.79.1, 64.29.17.1\n- Page title: \"RainbowBridge - Connect Slack and Teams\"\n- Screenshot: shots/rainbow-bridge.app.jpg (attach)\n\nWe are not affiliated with the operator of rainbow-bridge[.]app. Omni Bridge / Rainbow Bridge has not authorised its use of the brand. Screenshots and HTML captures are available on request.\n\nRegards,\n{{REPORTER_NAME}}\n{{REPORTER_ORG}}, acting for Omni Bridge / Rainbow Bridge under a Letter of Authorisation dated {{LOA_DATE}}\n{{REPORTER_EMAIL}}",
+          "notes": [
+            "Registrar IANA ID 625, abuse phone +1.7203101849"
+          ]
+        },
+        {
+          "channel": "host-abuse",
+          "title": "Hosting abuse report to Vercel, Inc",
+          "to": "abuse@vercel.com",
+          "subject": "Phishing site hosted on your network: rainbow-bridge.app (Omni Bridge / Rainbow Bridge impersonation)",
+          "body": "DRAFT - NOT FILED. File only after the brand owner approves it and has signed a Letter of Authorisation.\n\nHello Vercel, Inc,\n\nhxxps://www[.]rainbow-bridge[.]app/ (216.198.79.1, 64.29.17.1) is hosted on your network and impersonates Omni Bridge / Rainbow Bridge (official: hxxps://rainbowbridge[.]app).\n\nEvidence (observed 2026-11-01):\n- Typosquat (hyphenation) of the official domain\n- Brand named on the page (2x), including the title\n- Resolves to 216.198.79.1, 64.29.17.1\n- Page title: \"RainbowBridge - Connect Slack and Teams\"\n- Screenshot: shots/rainbow-bridge.app.jpg (attach)\n\nPlease take the content down under your acceptable use policy.\n\nRegards,\n{{REPORTER_NAME}}\n{{REPORTER_ORG}}, acting for Omni Bridge / Rainbow Bridge under a Letter of Authorisation dated {{LOA_DATE}}\n{{REPORTER_EMAIL}}",
+          "notes": []
+        },
+        {
+          "channel": "google-safe-browsing",
+          "title": "Google Safe Browsing report",
+          "to": "https://safebrowsing.google.com/safebrowsing/report_phish/?url=https%3A%2F%2Fwww.rainbow-bridge.app%2F",
+          "fields": {
+            "Report Type": "This page is not safe",
+            "Threat Type": "Social engineering (phishing) - pick the closest option shown",
+            "Threat Category": "Pick the closest option shown (impersonation / phishing)",
+            "URL to report": "https://www.rainbow-bridge.app/",
+            "Additional details (max 800)": "Impersonates Omni Bridge / Rainbow Bridge (official: https://rainbowbridge.app). Brand named on the page (2x), including the title; Typosquat (hyphenation) of the official domain."
+          },
+          "body": "DRAFT - NOT FILED. File only after the brand owner approves it and has signed a Letter of Authorisation.\n\nImpersonates Omni Bridge / Rainbow Bridge (official: https://rainbowbridge.app). Brand named on the page (2x), including the title; Typosquat (hyphenation) of the official domain.",
+          "notes": [
+            "Web form with reCAPTCHA: a person has to submit it."
+          ]
+        },
+        {
+          "channel": "netcraft",
+          "title": "Netcraft report",
+          "to": "https://report.netcraft.com/report",
+          "fields": {
+            "The URL of the site": "https://www.rainbow-bridge.app/",
+            "Further details": "Impersonates Omni Bridge / Rainbow Bridge (official: https://rainbowbridge.app). Brand named on the page (2x), including the title; Typosquat (hyphenation) of the official domain.",
+            "Your email address": "{{REPORTER_EMAIL}}"
+          },
+          "body": "DRAFT - NOT FILED. File only after the brand owner approves it and has signed a Letter of Authorisation.\n\nImpersonates Omni Bridge / Rainbow Bridge (official: https://rainbowbridge.app). Brand named on the page (2x), including the title; Typosquat (hyphenation) of the official domain.",
+          "notes": [
+            "Web form with reCAPTCHA. Netcraft feeds many browser and registrar blocklists."
+          ]
+        },
+        {
+          "channel": "metamask-issue",
+          "title": "MetaMask eth-phishing-detect: blocklist addition issue",
+          "to": "https://github.com/MetaMask/eth-phishing-detect/issues/new?template=01-blocklist-addition.yaml",
+          "fields": {
+            "Malicious domains, IPs, IPFS hashes, or IPNS names": "https://www.rainbow-bridge.app/",
+            "Please explain why this content is malicious": "Impersonates Omni Bridge / Rainbow Bridge (official: https://rainbowbridge.app). Brand named on the page (2x), including the title; Typosquat (hyphenation) of the official domain. Observed 2026-11-01. Reported on behalf of Omni Bridge / Rainbow Bridge.",
+            "Is this a duplicate request?": "Search open issues for the domain first, then tick the box"
+          },
+          "body": "DRAFT - NOT FILED. File only after the brand owner approves it and has signed a Letter of Authorisation.\n\nImpersonates Omni Bridge / Rainbow Bridge (official: https://rainbowbridge.app). Brand named on the page (2x), including the title; Typosquat (hyphenation) of the official domain."
+        },
+        {
+          "channel": "metamask-pr",
+          "title": "MetaMask eth-phishing-detect: alternative PR (slower; most merges are bot syncs)",
+          "to": "https://github.com/MetaMask/eth-phishing-detect",
+          "body": "DRAFT - NOT FILED. File only after the brand owner approves it and has signed a Letter of Authorisation.\n\ngit checkout -b block-rainbow-bridge.app\nyarn add:blocklist rainbow-bridge.app\n\nPR title: Block rainbow-bridge.app (Omni Bridge / Rainbow Bridge impersonation)\nPR body: Impersonates Omni Bridge / Rainbow Bridge (official: https://rainbowbridge.app). Brand named on the page (2x), including the title; Typosquat (hyphenation) of the official domain."
+        },
+        {
+          "channel": "scamsniffer-issue",
+          "title": "ScamSniffer scam-database issue",
+          "to": "https://github.com/scamsniffer/scam-database/issues/new",
+          "subject": "[Phishing] rainbow-bridge.app - Omni Bridge / Rainbow Bridge impersonation",
+          "body": "DRAFT - NOT FILED. File only after the brand owner approves it and has signed a Letter of Authorisation.\n\nDomain: rainbow-bridge.app\nScam addresses (with chain): {{ADD IF KNOWN, e.g. from a victim's drain tx}}\nImpersonates: Omni Bridge / Rainbow Bridge (official: https://rainbowbridge.app)\n\nEvidence (observed 2026-11-01):\n- Typosquat (hyphenation) of the official domain\n- Brand named on the page (2x), including the title\n- Resolves to 216.198.79.1, 64.29.17.1\n- Page title: \"RainbowBridge - Connect Slack and Teams\"\n- Screenshot: shots/rainbow-bridge.app.jpg (attach)",
+          "notes": [
+            "ScamSniffer asks for issues, not PRs (their JSON is regenerated). Attach the screenshot."
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "domain",
+      "host": "rainbowbridgesupport.com",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "dictionary",
+      "dns": {
+        "domain": "rainbowbridgesupport.com",
+        "registered": true,
+        "a": [
+          "13.248.243.5",
+          "76.223.105.230"
+        ],
+        "aaaa": [],
+        "mx": [
+          "rainbowbridgesupport-com.mail.protection.outlook.com"
+        ],
+        "ns": [
+          "ns42.domaincontrol.com",
+          "ns41.domaincontrol.com"
+        ]
+      },
+      "page": {
+        "url": "https://rainbowbridgesupport.com/",
+        "finalUrl": "https://rainbowbridgesupport.com/",
+        "status": 200,
+        "title": "Rainbow Bridge Support",
+        "scriptUrls": [
+          "https://img1.wsimg.com/blobby/go/5d0785c5-fedb-4ed9-9fec-8ff7de571869/gpub/786ece9c1e2b842d/script.js",
+          "https://img1.wsimg.com/ceph-p3-01/website-builder-data-prod/static/widgets/UX.7.0.14.js",
+          "https://img1.wsimg.com/blobby/go/5d0785c5-fedb-4ed9-9fec-8ff7de571869/gpub/bb6125480aff6d1e/script.js",
+          "https://img1.wsimg.com/signals/js/clients/scc-c2/scc-c2.min.js"
+        ],
+        "signals": {
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "secretForm": true,
+          "lure": [],
+          "drainerJs": [],
+          "parked": [],
+          "cryptoContext": [
+            "Bridge"
+          ],
+          "interstitial": [],
+          "challenge": []
+        },
+        "brandMentions": 0,
+        "brandInTitle": false,
+        "bytes": 107224,
+        "renderedWith": "playwright",
+        "faviconUrl": "https://img1.wsimg.com/isteam/ip/5d0785c5-fedb-4ed9-9fec-8ff7de571869/LogoMakr-8ruHdt.png/:/rs=w:57,h:57,m",
+        "faviconSha256": "a83022af1c6aa92c8dde4798395f5c428304a820c2d191c158d2d1a9a77704b2",
+        "screenshot": "/Users/kacpergumieniuk/Projects/4b47/mimicwatch-near/data/scans/2026-11-01/domains/omni-bridge-rainbow-bridge-2026-11-01/shots/rainbowbridgesupport.com.jpg",
+        "textSample": "Home About Pet Loss and Grief My Story QUESTIONS Book a Discovery Call FILES More Home About Pet Loss and Grief My Story QUESTIONS Book a Discovery Call FILES Home About Pet Loss and Grief My Story QUESTIONS Book a Discovery Call FILES From Grieving to Honoring a Pet Grieving a beloved pet is so dif"
+      },
+      "similarity": {
+        "title": 0.8,
+        "text": 0,
+        "favicon": false,
+        "overall": 0.28
+      },
+      "listedOn": [],
+      "score": 45,
+      "severity": "medium",
+      "label": "lookalike-other-crypto",
+      "evidence": [
+        "Brand name plus a phishing lure word",
+        "Page title resembles the official title (80%)",
+        "Lookalike of your domain serving other crypto content (Bridge)"
+      ],
+      "action": "Review: traffic for a lookalike of your name goes to other crypto content (a competitor, an affiliate, or a phishing kit for another brand). Report if it misleads your users.",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "rainbowbridgeapp.com",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "dictionary",
+      "dns": {
+        "domain": "rainbowbridgeapp.com",
+        "registered": true,
+        "a": [
+          "185.158.133.1"
+        ],
+        "aaaa": [],
+        "mx": [
+          "smtp.google.com"
+        ],
+        "ns": [
+          "ns-cloud-a4.googledomains.com",
+          "ns-cloud-a3.googledomains.com",
+          "ns-cloud-a1.googledomains.com",
+          "ns-cloud-a2.googledomains.com"
+        ]
+      },
+      "page": {
+        "url": "https://rainbowbridgeapp.com/",
+        "finalUrl": "https://rainbowbridgeapp.com/",
+        "status": 200,
+        "title": "Rainbow Bridge — Pet Heaven",
+        "scriptUrls": [
+          "https://rainbowbridgeapp.com/assets/index-D1bTIRwH.js",
+          "https://rainbowbridgeapp.com/~flock.js",
+          "https://rainbowbridgeapp.com/__l5e/events.270c78a44fc53e7b.js"
+        ],
+        "signals": {
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "secretForm": false,
+          "lure": [],
+          "drainerJs": [],
+          "parked": [],
+          "cryptoContext": [
+            "Bridge"
+          ],
+          "interstitial": [],
+          "challenge": []
+        },
+        "brandMentions": 0,
+        "brandInTitle": false,
+        "bytes": 3414,
+        "renderedWith": "playwright",
+        "faviconUrl": "https://storage.googleapis.com/gpt-engineer-file-uploads/vmD9jI2alEMdsLWiTpD0BCyCgGx1/uploads/1759343471408-Rainbow%20Bridge.png",
+        "faviconSha256": "8baed137ef40e58752980860a9f191f43107fcbdbc5a210dd98f8759254b1d70",
+        "screenshot": "/Users/kacpergumieniuk/Projects/4b47/mimicwatch-near/data/scans/2026-11-01/domains/omni-bridge-rainbow-bridge-2026-11-01/shots/rainbowbridgeapp.com.jpg",
+        "textSample": "Rainbow Bridge Talk to Karlie - Rainbow Bridge's Solo Founder Talk to Karlie I'm still with you — across the Rainbow Bridge I may be gone from your world, but I haven't left your side. Let's keep our bond alive with love, gentle memories, and healing moments — guided by me, your Angel Pet. 💫 🐾 Res"
+      },
+      "similarity": {
+        "title": 0.8,
+        "text": 0,
+        "favicon": false,
+        "overall": 0.28
+      },
+      "listedOn": [],
+      "score": 45,
+      "severity": "medium",
+      "label": "lookalike-other-crypto",
+      "evidence": [
+        "Brand name plus a phishing lure word",
+        "Page title resembles the official title (80%)",
+        "Lookalike of your domain serving other crypto content (Bridge)"
+      ],
+      "action": "Review: traffic for a lookalike of your name goes to other crypto content (a competitor, an affiliate, or a phishing kit for another brand). Report if it misleads your users.",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "rainbowbridge.co",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "tld-swap",
+      "dns": {
+        "domain": "rainbowbridge.co",
+        "registered": true,
+        "a": [
+          "104.21.11.164",
+          "172.67.149.149"
+        ],
+        "aaaa": [],
+        "mx": [
+          "aspmx.l.google.com",
+          "alt2.aspmx.l.google.com",
+          "alt1.aspmx.l.google.com",
+          "alt3.aspmx.l.google.com",
+          "alt4.aspmx.l.google.com"
+        ],
+        "ns": [
+          "trey.ns.cloudflare.com",
+          "tess.ns.cloudflare.com"
+        ]
+      },
+      "page": {
+        "url": "https://rainbowbridge.co/",
+        "finalUrl": "https://www.rainbowbridge.co/",
+        "status": 200,
+        "title": "Music Classes in Bangalore | Music Academy in Bangalore | Music School in Bangalore - Rainbow Bridge",
+        "scriptUrls": [
+          "https://www.rainbowbridge.co/wp-includes/js/jquery/jquery.min.js?ver=3.7.1",
+          "https://www.rainbowbridge.co/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1",
+          "https://www.rainbowbridge.co/wp-content/plugins/bold-page-builder/slick/slick.min.js?ver=5.9.10",
+          "https://www.rainbowbridge.co/wp-content/plugins/bold-page-builder/content_elements_misc/js/jquery.magnific-popup.min.js?ver=5.9.10",
+          "https://www.rainbowbridge.co/wp-content/plugins/bold-page-builder/content_elements_misc/js/content_elements.js?ver=5.9.10",
+          "https://videopress.com/videopress-iframe.js"
+        ],
+        "signals": {
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "secretForm": true,
+          "lure": [],
+          "drainerJs": [
+            "obfuscated-js(21567 _0x identifiers)"
+          ],
+          "parked": [],
+          "cryptoContext": [
+            "Bridge"
+          ],
+          "interstitial": [],
+          "challenge": []
+        },
+        "brandMentions": 0,
+        "brandInTitle": false,
+        "bytes": 458591,
+        "renderedWith": "playwright",
+        "faviconUrl": "https://www.rainbowbridge.co/wp-content/uploads/2024/11/cropped-rb-logo-32x32.png",
+        "faviconSha256": "cfc69a2fd119be1cf43c19317df65ab9bbcd373a05ff535cb0adb166be2d3a56",
+        "screenshot": "/Users/kacpergumieniuk/Projects/4b47/mimicwatch-near/data/scans/2026-11-01/domains/omni-bridge-rainbow-bridge-2026-11-01/shots/rainbowbridge.co.jpg",
+        "textSample": "Home Courses Guitar Ukulele Drums Keyboard / Piano Western Vocals Indian Vocals Violin Saxophone DJing Diploma in Music Production Electronic Music Production Online Music Classes Studio Videos Artist Sessions Workshops Corporate Programs Music Initiation Program Diploma Diploma in Music Part Time D"
+      },
+      "similarity": {
+        "title": 0.8,
+        "text": 0,
+        "favicon": false,
+        "overall": 0.28
+      },
+      "listedOn": [],
+      "score": 43,
+      "severity": "medium",
+      "label": "lookalike-other-crypto",
+      "evidence": [
+        "Official name on a different TLD",
+        "Page title resembles the official title (80%)",
+        "Lookalike of your domain serving other crypto content (Bridge)",
+        "Drainer-style JS: obfuscated-js(21567 _0x identifiers)"
+      ],
+      "action": "Review: traffic for a lookalike of your name goes to other crypto content (a competitor, an affiliate, or a phishing kit for another brand). Report if it misleads your users.",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "rainbowbridge.com",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "tld-swap",
+      "dns": {
+        "domain": "rainbowbridge.com",
+        "registered": true,
+        "a": [
+          "52.255.183.20"
+        ],
+        "aaaa": [],
+        "mx": [
+          "mail.rainbowsbridge.com"
+        ],
+        "ns": [
+          "ns13.dnsmadeeasy.com",
+          "ns10.dnsmadeeasy.com",
+          "ns12.dnsmadeeasy.com",
+          "ns15.dnsmadeeasy.com",
+          "ns14.dnsmadeeasy.com",
+          "ns11.dnsmadeeasy.com"
+        ]
+      },
+      "page": {
+        "url": "http://rainbowbridge.com/",
+        "finalUrl": "https://www.rainbowsbridge.com/",
+        "status": 200,
+        "title": "Rainbow Bridge - A PetLoss Grief Support Community. Pet Bereavement and Memorial support for coping with the death of a loving fur baby.",
+        "scriptUrls": [
+          "https://www.rainbowsbridge.com/Global_Procedures.js",
+          "https://www.rainbowsbridge.com/HeaderRB.js",
+          "https://www.rainbowsbridge.com/BodyStartRB.js"
+        ],
+        "signals": {
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "secretForm": false,
+          "lure": [],
+          "drainerJs": [],
+          "parked": [],
+          "cryptoContext": [
+            "Bridge"
+          ],
+          "interstitial": [],
+          "challenge": []
+        },
+        "brandMentions": 0,
+        "brandInTitle": false,
+        "bytes": 10982,
+        "renderedWith": "playwright",
+        "faviconUrl": "https://www.rainbowsbridge.com/favicon.ico",
+        "faviconSha256": "3fa94a193fe2b246b048b752f111e163a1c7e66420e160e61b5b6631f106b7a7",
+        "screenshot": "/Users/kacpergumieniuk/Projects/4b47/mimicwatch-near/data/scans/2026-11-01/domains/omni-bridge-rainbow-bridge-2026-11-01/shots/rainbowbridge.com.jpg",
+        "textSample": "Welcome to Rainbows Bridge. Rainbows Bridge is a virtual memorial home and grief support community for your departed fur baby. Whether furry, feathered or scaled, all are welcome. Create a Pet Memorial Create a Pet Memorial and return as often as you wish to leave new toys, flowers and music, add ph"
+      },
+      "similarity": {
+        "title": 0.8,
+        "text": 0,
+        "favicon": false,
+        "overall": 0.28
+      },
+      "listedOn": [],
+      "score": 40,
+      "severity": "medium",
+      "label": "lookalike-other-crypto",
+      "evidence": [
+        "Official name on a different TLD",
+        "Page title resembles the official title (80%)",
+        "Lookalike of your domain serving other crypto content (Bridge), ends at https://www.rainbowsbridge.com/"
+      ],
+      "action": "Review: traffic for a lookalike of your name goes to other crypto content (a competitor, an affiliate, or a phishing kit for another brand). Report if it misleads your users.",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "rainbowbridge.world",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "tld-swap",
+      "dns": {
+        "domain": "rainbowbridge.world",
+        "registered": true,
+        "a": [
+          "185.53.179.128"
+        ],
+        "aaaa": [],
+        "mx": [],
+        "ns": [
+          "ns1.dyna-ns.net",
+          "ns2.dyna-ns.net"
+        ]
+      },
+      "page": {
+        "url": "http://rainbowbridge.world/",
+        "finalUrl": "http://rainbowbridge.world/",
+        "status": 200,
+        "title": "rainbowbridge.world",
+        "scriptUrls": [
+          "https://euob.northwavepoint.com/sxp/i/636f8b858f681acb7bfa6f583a96630a.js"
+        ],
+        "signals": {
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "secretForm": false,
+          "lure": [],
+          "drainerJs": [],
+          "parked": [
+            "This domain is registered"
+          ],
+          "cryptoContext": [
+            "bridge"
+          ],
+          "interstitial": [],
+          "challenge": []
+        },
+        "brandMentions": 0,
+        "brandInTitle": false,
+        "bytes": 43827,
+        "renderedWith": "playwright",
+        "faviconUrl": "http://rainbowbridge.world/favicon.ico",
+        "screenshot": "/Users/kacpergumieniuk/Projects/4b47/mimicwatch-near/data/scans/2026-11-01/domains/omni-bridge-rainbow-bridge-2026-11-01/shots/rainbowbridge.world.jpg",
+        "textSample": "___ This domain is registered at Dynadot.com . Website coming soon. Privacy Policy 2026 Copyright | All Rights Reserved."
+      },
+      "similarity": {
+        "title": 0.72,
+        "text": 0,
+        "favicon": false,
+        "overall": 0.25
+      },
+      "listedOn": [],
+      "score": 39,
+      "severity": "low",
+      "label": "parked",
+      "evidence": [
+        "Official name on a different TLD",
+        "Page title resembles the official title (72%)",
+        "Lookalike of your domain serving other crypto content (bridge)",
+        "Parked / for-sale page"
+      ],
+      "action": "Monitor. Consider buying it defensively or a UDRP if it turns active.",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "rainbowbridge.net",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "tld-swap",
+      "dns": {
+        "domain": "rainbowbridge.net",
+        "registered": true,
+        "a": [
+          "13.223.25.84",
+          "54.243.117.197"
+        ],
+        "aaaa": [],
+        "mx": [],
+        "ns": [
+          "nsg2.namebrightdns.com",
+          "nsg1.namebrightdns.com"
+        ]
+      },
+      "page": {
+        "url": "http://rainbowbridge.net/",
+        "finalUrl": "https://www.hugedomains.com/domain_profile.cfm?d=rainbowbridge.net",
+        "status": 200,
+        "title": "HugeDomains.com",
+        "scriptUrls": [
+          "https://www.google.com/recaptcha/api.js",
+          "https://static.hugedomains.com/js/hdv3-js/jquery.min.js",
+          "https://static.hugedomains.com/js/hdv3-js/script.js"
+        ],
+        "signals": {
+          "secretForm": false,
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "lure": [],
+          "drainerJs": [],
+          "parked": [
+            "HugeDomains",
+            "for sale"
+          ],
+          "cryptoContext": [
+            "bridge"
+          ],
+          "interstitial": [],
+          "challenge": []
+        },
+        "brandMentions": 1,
+        "brandInTitle": false,
+        "bytes": 9121,
+        "renderedWith": "http",
+        "faviconUrl": "https://www.hugedomains.com/favicon.ico",
+        "faviconSha256": "5a6c5f7923c7b5ba984f3c4b79b5c3005f3c2f1347a84a6a7b3c16ffbf11777d",
+        "textSample": "Questions? +1-303-893-0552 Captcha security check rainbowbridge.net is for sale Please prove you're not a robot View Price Processing Dedicated to customer care 30-day money back guarantee Talk to a domain expert: +1-303-893-0552 &copy; HugeDomains.com. All rights reserved."
+      },
+      "similarity": {
+        "title": 0.07,
+        "text": 0,
+        "favicon": false,
+        "overall": 0.02
+      },
+      "listedOn": [],
+      "score": 31,
+      "severity": "low",
+      "label": "parked",
+      "evidence": [
+        "Official name on a different TLD",
+        "Brand named on the page (1x)",
+        "Parked / for-sale page"
+      ],
+      "action": "Monitor. Consider buying it defensively or a UDRP if it turns active.",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "rainbowbridge.store",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "tld-swap",
+      "dns": {
+        "domain": "rainbowbridge.store",
+        "registered": true,
+        "a": [
+          "198.185.159.144",
+          "198.49.23.144",
+          "198.49.23.145",
+          "198.185.159.145"
+        ],
+        "aaaa": [],
+        "mx": [],
+        "ns": [
+          "ns-cloud-c4.googledomains.com",
+          "ns-cloud-c2.googledomains.com",
+          "ns-cloud-c1.googledomains.com",
+          "ns-cloud-c3.googledomains.com"
+        ]
+      },
+      "page": {
+        "url": "https://rainbowbridge.store/",
+        "finalUrl": "https://rainbowbridge.store/",
+        "status": 200,
+        "title": "Coming Soon",
+        "scriptUrls": [
+          "https://assets.squarespace.com/@sqs/polyfiller/1.7.7/modern.js",
+          "https://assets.squarespace.com/universal/scripts-compressed/extract-css-runtime-2dbade1c2d524017-min.en-US.js",
+          "https://assets.squarespace.com/universal/scripts-compressed/extract-css-moment-js-vendor-5b1fd9aed201e910-min.en-US.js",
+          "https://assets.squarespace.com/universal/scripts-compressed/cldr-resource-pack-88f72d5f001c770b-min.en-US.js",
+          "https://assets.squarespace.com/universal/scripts-compressed/parking-page-6c7860981554f7db-min.en-US.js"
+        ],
+        "signals": {
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "secretForm": false,
+          "lure": [],
+          "drainerJs": [],
+          "parked": [],
+          "cryptoContext": [
+            "bridge"
+          ],
+          "interstitial": [],
+          "challenge": []
+        },
+        "brandMentions": 0,
+        "brandInTitle": false,
+        "bytes": 3005,
+        "renderedWith": "playwright",
+        "faviconUrl": "https://rainbowbridge.store/favicon.ico",
+        "faviconSha256": "0d75fa1c9f78745b408f55992519c9bd64dfdd5c1b456c5f48b5dc7c43184a8a",
+        "screenshot": "/Users/kacpergumieniuk/Projects/4b47/mimicwatch-near/data/scans/2026-11-01/domains/omni-bridge-rainbow-bridge-2026-11-01/shots/rainbowbridge.store.jpg",
+        "textSample": "rainbowbridge.store We're under construction. Please check back for an update soon."
+      },
+      "similarity": {
+        "title": 0.08,
+        "text": 0,
+        "favicon": false,
+        "overall": 0.03
+      },
+      "listedOn": [],
+      "score": 31,
+      "severity": "low",
+      "label": "lookalike-other-crypto",
+      "evidence": [
+        "Official name on a different TLD",
+        "Lookalike of your domain serving other crypto content (bridge)"
+      ],
+      "action": "Review: traffic for a lookalike of your name goes to other crypto content (a competitor, an affiliate, or a phishing kit for another brand). Report if it misleads your users.",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "rainbowbridge.me",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "tld-swap",
+      "dns": {
+        "domain": "rainbowbridge.me",
+        "registered": true,
+        "a": [
+          "199.36.158.100"
+        ],
+        "aaaa": [],
+        "mx": [],
+        "ns": [
+          "curt.ns.cloudflare.com",
+          "aida.ns.cloudflare.com"
+        ]
+      },
+      "page": {
+        "url": "https://rainbowbridge.me/",
+        "finalUrl": "https://rainbowbridge.me/",
+        "status": 200,
+        "title": "무지개다리 추모 — 떠난 반려동물을 행복한 모습으로",
+        "scriptUrls": [
+          "https://pagead2.googlesyndication.com/pagead/managed/js/adsense/m202609100101/show_ads_impl.js",
+          "https://www.paypal.com/sdk/js?client-id=BAABm9WGSQD2UIY9mpWhSRq3sJOLo4dnx7KVO5DAHzzvjcCwRnX_50xZFR25OjDFqwuDK4bvpYV0W2i89I&amp;currency=USD&amp;intent=capture&amp;locale=en_US",
+          "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2470398277326337",
+          "https://rainbowbridge.me/assets/index-BcPqlDdr.js"
+        ],
+        "signals": {
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "secretForm": false,
+          "lure": [],
+          "drainerJs": [],
+          "parked": [],
+          "cryptoContext": [
+            "Bridge"
+          ],
+          "interstitial": [],
+          "challenge": []
+        },
+        "brandMentions": 0,
+        "brandInTitle": false,
+        "bytes": 23777,
+        "renderedWith": "playwright",
+        "faviconUrl": "https://rainbowbridge.me/favicon.svg",
+        "screenshot": "/Users/kacpergumieniuk/Projects/4b47/mimicwatch-near/data/scans/2026-11-01/domains/omni-bridge-rainbow-bridge-2026-11-01/shots/rainbowbridge.me.jpg",
+        "textSample": "Rainbow Bridge 🌈 See them happy again, on the other side of the bridge. We use AI to turn one photo of a pet who has died into a gentle scene of them well and happy again — for you to keep, or to send to someone who is grieving. Need words to send right now? Short messages, ready to copy → 🐾 Are y"
+      },
+      "similarity": {
+        "title": 0,
+        "text": 0,
+        "favicon": false,
+        "overall": 0
+      },
+      "listedOn": [],
+      "score": 30,
+      "severity": "low",
+      "label": "lookalike-other-crypto",
+      "evidence": [
+        "Official name on a different TLD",
+        "Lookalike of your domain serving other crypto content (Bridge)"
+      ],
+      "action": "Review: traffic for a lookalike of your name goes to other crypto content (a competitor, an affiliate, or a phishing kit for another brand). Report if it misleads your users.",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "rainbowbridge.biz",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "tld-swap",
+      "dns": {
+        "domain": "rainbowbridge.biz",
+        "registered": true,
+        "a": [
+          "15.197.148.33",
+          "3.33.130.190"
+        ],
+        "aaaa": [],
+        "mx": [],
+        "ns": [
+          "ns10.domaincontrol.com",
+          "ns09.domaincontrol.com"
+        ]
+      },
+      "page": {
+        "url": "https://rainbowbridge.biz/",
+        "finalUrl": "https://rainbowbridge.biz/lander",
+        "status": 200,
+        "title": "",
+        "scriptUrls": [],
+        "signals": {
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "secretForm": false,
+          "lure": [],
+          "drainerJs": [],
+          "parked": [
+            "parked",
+            "Related Searches"
+          ],
+          "cryptoContext": [
+            "bridge"
+          ],
+          "interstitial": [],
+          "challenge": []
+        },
+        "brandMentions": 0,
+        "brandInTitle": false,
+        "bytes": 114,
+        "renderedWith": "playwright",
+        "faviconUrl": "https://rainbowbridge.biz/favicon.ico",
+        "screenshot": "/Users/kacpergumieniuk/Projects/4b47/mimicwatch-near/data/scans/2026-11-01/domains/omni-bridge-rainbow-bridge-2026-11-01/shots/rainbowbridge.biz.jpg",
+        "textSample": "Trustpilot rainbowbridge.biz is parked free, courtesy of GoDaddy.com. Get This Domain Related Searches rainbow bridge Copyright © 1999-2026 GoDaddy, LLC. All rights reserved. Privacy Policy Disclaimer: References to any specific company, product or services on this Site are not controlled by GoDaddy"
+      },
+      "similarity": {
+        "title": 0,
+        "text": 0,
+        "favicon": false,
+        "overall": 0
+      },
+      "listedOn": [],
+      "score": 30,
+      "severity": "low",
+      "label": "parked",
+      "evidence": [
+        "Official name on a different TLD",
+        "Lookalike of your domain serving other crypto content (bridge)",
+        "Parked / for-sale page"
+      ],
+      "action": "Monitor. Consider buying it defensively or a UDRP if it turns active.",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "rainbowbridgehelp.com",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "dictionary",
+      "dns": {
+        "domain": "rainbowbridgehelp.com",
+        "registered": true,
+        "a": [
+          "199.34.228.47"
+        ],
+        "aaaa": [],
+        "mx": [
+          "aspmx.l.google.com",
+          "alt1.aspmx.l.google.com",
+          "alt2.aspmx.l.google.com",
+          "alt4.aspmx.l.google.com",
+          "alt3.aspmx.l.google.com"
+        ],
+        "ns": [
+          "dns172.b.register.com",
+          "dns043.c.register.com",
+          "dns083.d.register.com",
+          "dns066.a.register.com"
+        ]
+      },
+      "page": {
+        "url": "http://rainbowbridgehelp.com/",
+        "finalUrl": "http://www.rainbowbridgehelp.com/",
+        "status": 404,
+        "title": "404 - Page Not Found",
+        "scriptUrls": [
+          "http://www.rainbowbridgehelp.com/gdpr/gdprscript.js?buildTime=1793296229"
+        ],
+        "signals": {
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "secretForm": false,
+          "lure": [],
+          "drainerJs": [],
+          "parked": [],
+          "cryptoContext": [],
+          "interstitial": [],
+          "challenge": []
+        },
+        "brandMentions": 0,
+        "brandInTitle": false,
+        "bytes": 3802,
+        "renderedWith": "playwright",
+        "faviconUrl": "http://cdn1.editmysite.com/developer/none.ico",
+        "faviconSha256": "29bd61683747e9288f62407525d5ed4dccf3feaad2684bbb2c2df41f6027e4db",
+        "screenshot": "/Users/kacpergumieniuk/Projects/4b47/mimicwatch-near/data/scans/2026-11-01/domains/omni-bridge-rainbow-bridge-2026-11-01/shots/rainbowbridgehelp.com.jpg",
+        "textSample": "404 Error - Page Not Found Please check the URL. Otherwise, click here to be redirected to the homepage."
+      },
+      "similarity": {
+        "title": 0.07,
+        "text": 0,
+        "favicon": false,
+        "overall": 0.02
+      },
+      "listedOn": [],
+      "score": 25,
+      "severity": "low",
+      "label": "lookalike-unknown-content",
+      "evidence": [
+        "Brand name plus a phishing lure word",
+        "Almost empty page (104 chars of text, title \"404 - Page Not Found\"): content not visible"
+      ],
+      "action": "Re-check next scan; the content was not visible to us (error, bot wall or empty page).",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "rainbowbridge.online",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "tld-swap",
+      "dns": {
+        "domain": "rainbowbridge.online",
+        "registered": true,
+        "a": [
+          "52.38.196.63",
+          "44.233.250.75"
+        ],
+        "aaaa": [],
+        "mx": [],
+        "ns": [
+          "launch1.spaceship.net",
+          "launch2.spaceship.net"
+        ]
+      },
+      "page": {
+        "url": "http://rainbowbridge.online/",
+        "finalUrl": "http://rainbowbridge.online/",
+        "status": 200,
+        "title": "Parking Page",
+        "scriptUrls": [
+          "http://rainbowbridge.online/index.7a42f9813d6414655daf.module.js"
+        ],
+        "signals": {
+          "secretForm": false,
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "lure": [],
+          "drainerJs": [],
+          "parked": [
+            "Your domain has expired"
+          ],
+          "cryptoContext": [],
+          "interstitial": [],
+          "challenge": []
+        },
+        "brandMentions": 0,
+        "brandInTitle": false,
+        "bytes": 33366,
+        "renderedWith": "http",
+        "faviconUrl": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAsSAAALEgHS3X78AAABj0lEQVRYhe2XwXGDMBBFfzK5Jx3Y7sBnXexUIEpICe4gSQdOB5RgKgi5cE4HSTqwK8AjWDECs7CSUcghfwYzFsvusvskwU1ZlphTt7NG/wsJ3IXcpDTWAF4AaBrKzP8iw6evL28GlMYSqALddy6dAKyLDN8+/kJasO8JDhrb+zrzqoDS2AJ4HzF7LDLkUp++FUgnsvFPQOkKuoXAdEG2IolaMAAeJzGQ0gpw4HESAzlaASF4nEaBlFTACyrfewcT8ACP0yiQbAsCwOM0CORQBdIJgoN8sK3oTUBpJAA2EwS32pDPC120QGk8UOmv6X2ffqgVR/daXwV2EYKDfO66g60KEHhfEYK7WrlAditwzZyXqhWjSSACeJxaQFYtiAgepwZIW4FY4HFqgHQT+G1VMW0LQr9OPugcys4q5LXcvIIfzGEXFWIooUOPu6hlpqNN4BXAM2N3sgEB5N2VDLWjI02vlJLZOglx+8mb+WkWIto2nwgQQ2lOT3mQPlGfaMollJT1nRZZvU3/f5zOmwCAM25mhAUkYQn5AAAAAElFTkSuQmCC",
+        "faviconSha256": "0bf8d5c15ffa99397d8cf9a4be13c120f43b487bdf0bae592c3138e0a2f00208",
+        "textSample": "yourwebsite.com Registered at Do you own this domain? Your domain has expired. Please log in to your Spaceship account to renew it. If you don’t, it will be deleted and made available for public registration. Log in to your account Like this domain? Find your perfect match Frequently asked questions"
+      },
+      "similarity": {
+        "title": 0.23,
+        "text": 0,
+        "favicon": false,
+        "overall": 0.08
+      },
+      "listedOn": [],
+      "score": 23,
+      "severity": "low",
+      "label": "parked",
+      "evidence": [
+        "Official name on a different TLD",
+        "Parked / for-sale page"
+      ],
+      "action": "Monitor. Consider buying it defensively or a UDRP if it turns active.",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "rainbowbridge.org",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "tld-swap",
+      "dns": {
+        "domain": "rainbowbridge.org",
+        "registered": true,
+        "a": [
+          "45.32.222.155"
+        ],
+        "aaaa": [],
+        "mx": [
+          "spool.mail.gandi.net",
+          "fb.mail.gandi.net"
+        ],
+        "ns": [
+          "ns-182-c.gandi.net",
+          "ns-200-a.gandi.net",
+          "ns-139-b.gandi.net"
+        ]
+      },
+      "page": {
+        "url": "https://rainbowbridge.org/",
+        "finalUrl": "https://rainbowbridge.org/",
+        "status": 0,
+        "title": "",
+        "scriptUrls": [],
+        "signals": {
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "secretForm": false,
+          "lure": [],
+          "drainerJs": [],
+          "parked": [],
+          "cryptoContext": [],
+          "interstitial": [],
+          "challenge": []
+        },
+        "brandMentions": 0,
+        "brandInTitle": false,
+        "bytes": 0,
+        "renderedWith": "http",
+        "error": "807F20EE01000000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:../deps/openssl/openssl/ssl/record/rec_layer_s3.c:918:SSL alert number 80\n; http: 807F20EE01000000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:../deps/openssl/openssl/ssl/record/rec_layer_s3.c:918:SSL alert number 80\n",
+        "textSample": ""
+      },
+      "listedOn": [],
+      "score": 20,
+      "severity": "low",
+      "label": "lookalike-unknown-content",
+      "evidence": [
+        "Official name on a different TLD",
+        "Page not reachable: 807F20EE01000000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert interna"
+      ],
+      "action": "Re-check next scan; the content was not visible to us (error, bot wall or empty page).",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "rainbowbridge.io",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "tld-swap",
+      "dns": {
+        "domain": "rainbowbridge.io",
+        "registered": true,
+        "a": [
+          "76.223.54.146",
+          "13.248.169.48"
+        ],
+        "aaaa": [],
+        "mx": [
+          ""
+        ],
+        "ns": [
+          "ns2.afternic.com",
+          "ns1.afternic.com"
+        ]
+      },
+      "page": {
+        "url": "http://rainbowbridge.io/",
+        "finalUrl": "https://forsale.godaddy.com/forsale/rainbowbridge.io?utm_source=TDFS_BINNS2&utm_medium=parkedpages&utm_campaign=x_corp_tdfs-binns2_base&traffic_type=TDFS_BINNS2&traffic_id=binns2&",
+        "status": 200,
+        "title": "Access Denied",
+        "scriptUrls": [],
+        "signals": {
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "secretForm": false,
+          "lure": [],
+          "drainerJs": [],
+          "parked": [],
+          "cryptoContext": [
+            "bridge"
+          ],
+          "interstitial": [],
+          "challenge": [
+            "Access Denied"
+          ]
+        },
+        "brandMentions": 1,
+        "brandInTitle": false,
+        "bytes": 114,
+        "renderedWith": "playwright",
+        "faviconUrl": "http://rainbowbridge.io/favicon.ico",
+        "screenshot": "/Users/kacpergumieniuk/Projects/4b47/mimicwatch-near/data/scans/2026-11-01/domains/omni-bridge-rainbow-bridge-2026-11-01/shots/rainbowbridge.io.jpg",
+        "textSample": "Access Denied You don't have permission to access \"http://forsale.godaddy.com/forsale/rainbowbridge.io?\" on this server. Reference #18.2f0c4017.1793549238.4c4b1ebc https://errors.edgesuite.net/18.2f0c4017.1793549238.4c4b1ebc"
+      },
+      "similarity": {
+        "title": 0.08,
+        "text": 0,
+        "favicon": false,
+        "overall": 0.03
+      },
+      "listedOn": [],
+      "score": 20,
+      "severity": "low",
+      "label": "lookalike-unknown-content",
+      "evidence": [
+        "Official name on a different TLD",
+        "Bot challenge or redirect stub (\"Access Denied\"): real content not visible"
+      ],
+      "action": "Re-check next scan; the content was not visible to us (error, bot wall or empty page).",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "rainbowbridge.xyz",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "tld-swap",
+      "dns": {
+        "domain": "rainbowbridge.xyz",
+        "registered": true,
+        "a": [],
+        "aaaa": [],
+        "mx": [
+          "eforward1.registrar-servers.com",
+          "eforward2.registrar-servers.com",
+          "eforward3.registrar-servers.com",
+          "eforward4.registrar-servers.com",
+          "eforward5.registrar-servers.com"
+        ],
+        "ns": [
+          "dns2.registrar-servers.com",
+          "dns1.registrar-servers.com"
+        ]
+      },
+      "listedOn": [],
+      "score": 20,
+      "severity": "low",
+      "label": "not-live",
+      "evidence": [
+        "Official name on a different TLD"
+      ],
+      "action": "Monitor (registered, no website). Consider defensive registration.",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "rainbowbridge.live",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "tld-swap",
+      "dns": {
+        "domain": "rainbowbridge.live",
+        "registered": true,
+        "a": [
+          "172.67.186.186",
+          "104.21.43.226"
+        ],
+        "aaaa": [],
+        "mx": [],
+        "ns": [
+          "addyson.ns.cloudflare.com",
+          "mustafa.ns.cloudflare.com"
+        ]
+      },
+      "page": {
+        "url": "https://rainbowbridge.live/",
+        "finalUrl": "https://rainbowbridge.live/",
+        "status": 0,
+        "title": "",
+        "scriptUrls": [],
+        "signals": {
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "secretForm": false,
+          "lure": [],
+          "drainerJs": [],
+          "parked": [],
+          "cryptoContext": [],
+          "interstitial": [],
+          "challenge": []
+        },
+        "brandMentions": 0,
+        "brandInTitle": false,
+        "bytes": 0,
+        "renderedWith": "http",
+        "error": "This operation was aborted; http: This operation was aborted",
+        "textSample": ""
+      },
+      "listedOn": [],
+      "score": 20,
+      "severity": "low",
+      "label": "lookalike-unknown-content",
+      "evidence": [
+        "Official name on a different TLD",
+        "Page not reachable: This operation was aborted; http: This operation was aborted"
+      ],
+      "action": "Re-check next scan; the content was not visible to us (error, bot wall or empty page).",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "rainbowbridge.site",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "tld-swap",
+      "dns": {
+        "domain": "rainbowbridge.site",
+        "registered": true,
+        "a": [],
+        "aaaa": [],
+        "mx": [],
+        "ns": [
+          "launch1.spaceship.net",
+          "launch2.spaceship.net"
+        ]
+      },
+      "listedOn": [],
+      "score": 20,
+      "severity": "low",
+      "label": "not-live",
+      "evidence": [
+        "Official name on a different TLD"
+      ],
+      "action": "Monitor (registered, no website). Consider defensive registration.",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "rainbowbridge.top",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "tld-swap",
+      "dns": {
+        "domain": "rainbowbridge.top",
+        "registered": true,
+        "a": [
+          "39.98.46.90"
+        ],
+        "aaaa": [],
+        "mx": [
+          "mxbiz1.qq.com",
+          "mxbiz2.qq.com"
+        ],
+        "ns": [
+          "dns31.hichina.com",
+          "dns32.hichina.com"
+        ]
+      },
+      "page": {
+        "url": "https://rainbowbridge.top/",
+        "finalUrl": "https://rainbowbridge.top/",
+        "status": 0,
+        "title": "",
+        "scriptUrls": [],
+        "signals": {
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "secretForm": false,
+          "lure": [],
+          "drainerJs": [],
+          "parked": [],
+          "cryptoContext": [],
+          "interstitial": [],
+          "challenge": []
+        },
+        "brandMentions": 0,
+        "brandInTitle": false,
+        "bytes": 0,
+        "renderedWith": "http",
+        "error": "Connect Timeout Error (attempted address: rainbowbridge.top:443, timeout: 10000ms); http: Connect Timeout Error (attempted address: rainbowbridge.top:80, timeout: 10000ms)",
+        "textSample": ""
+      },
+      "listedOn": [],
+      "score": 20,
+      "severity": "low",
+      "label": "lookalike-unknown-content",
+      "evidence": [
+        "Official name on a different TLD",
+        "Page not reachable: Connect Timeout Error (attempted address: rainbowbridge.top:443, timeout: 10000m"
+      ],
+      "action": "Re-check next scan; the content was not visible to us (error, bot wall or empty page).",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "rainbowbridge.us",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "tld-swap",
+      "dns": {
+        "domain": "rainbowbridge.us",
+        "registered": true,
+        "a": [
+          "127.0.0.1"
+        ],
+        "aaaa": [],
+        "mx": [],
+        "ns": []
+      },
+      "page": {
+        "url": "https://rainbowbridge.us/",
+        "finalUrl": "https://rainbowbridge.us/",
+        "status": 0,
+        "title": "",
+        "scriptUrls": [],
+        "signals": {
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "secretForm": false,
+          "lure": [],
+          "drainerJs": [],
+          "parked": [],
+          "cryptoContext": [],
+          "interstitial": [],
+          "challenge": []
+        },
+        "brandMentions": 0,
+        "brandInTitle": false,
+        "bytes": 0,
+        "renderedWith": "http",
+        "error": "connect ECONNREFUSED 127.0.0.1:443; http: connect ECONNREFUSED 127.0.0.1:80",
+        "textSample": ""
+      },
+      "listedOn": [],
+      "score": 20,
+      "severity": "low",
+      "label": "lookalike-unknown-content",
+      "evidence": [
+        "Official name on a different TLD",
+        "Page not reachable: connect ECONNREFUSED 127.0.0.1:443; http: connect ECONNREFUSED 127.0.0.1:80"
+      ],
+      "action": "Re-check next scan; the content was not visible to us (error, bot wall or empty page).",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "rainbowbridge.dev",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "tld-swap",
+      "dns": {
+        "domain": "rainbowbridge.dev",
+        "registered": true,
+        "a": [
+          "207.138.217.51"
+        ],
+        "aaaa": [],
+        "mx": [],
+        "ns": [
+          "ns-cloud-d4.googledomains.com",
+          "ns-cloud-d3.googledomains.com",
+          "ns-cloud-d1.googledomains.com",
+          "ns-cloud-d2.googledomains.com"
+        ]
+      },
+      "page": {
+        "url": "https://rainbowbridge.dev/",
+        "finalUrl": "https://rainbowbridge.dev/",
+        "status": 0,
+        "title": "",
+        "scriptUrls": [],
+        "signals": {
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "secretForm": false,
+          "lure": [],
+          "drainerJs": [],
+          "parked": [],
+          "cryptoContext": [],
+          "interstitial": [],
+          "challenge": []
+        },
+        "brandMentions": 0,
+        "brandInTitle": false,
+        "bytes": 0,
+        "renderedWith": "http",
+        "error": "Connect Timeout Error (attempted address: rainbowbridge.dev:443, timeout: 10000ms); http: Connect Timeout Error (attempted address: rainbowbridge.dev:80, timeout: 10000ms)",
+        "textSample": ""
+      },
+      "listedOn": [],
+      "score": 20,
+      "severity": "low",
+      "label": "lookalike-unknown-content",
+      "evidence": [
+        "Official name on a different TLD",
+        "Page not reachable: Connect Timeout Error (attempted address: rainbowbridge.dev:443, timeout: 10000m"
+      ],
+      "action": "Re-check next scan; the content was not visible to us (error, bot wall or empty page).",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "rainbowbridge.digital",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "tld-swap",
+      "dns": {
+        "domain": "rainbowbridge.digital",
+        "registered": true,
+        "a": [
+          "172.67.164.15",
+          "104.21.74.227"
+        ],
+        "aaaa": [],
+        "mx": [],
+        "ns": [
+          "irma.ns.cloudflare.com",
+          "konnor.ns.cloudflare.com"
+        ]
+      },
+      "page": {
+        "url": "https://rainbowbridge.digital/",
+        "finalUrl": "https://rainbowbridge.digital/",
+        "status": 403,
+        "title": "Just a moment...",
+        "scriptUrls": [],
+        "signals": {
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "secretForm": false,
+          "lure": [],
+          "drainerJs": [
+            "obfuscated-js(5628 _0x identifiers)"
+          ],
+          "parked": [],
+          "cryptoContext": [
+            "bridge"
+          ],
+          "interstitial": [],
+          "challenge": [
+            "Just a moment..."
+          ]
+        },
+        "brandMentions": 0,
+        "brandInTitle": false,
+        "bytes": 5592,
+        "renderedWith": "playwright",
+        "faviconUrl": "https://rainbowbridge.digital/favicon.ico",
+        "screenshot": "/Users/kacpergumieniuk/Projects/4b47/mimicwatch-near/data/scans/2026-11-01/domains/omni-bridge-rainbow-bridge-2026-11-01/shots/rainbowbridge.digital.jpg",
+        "textSample": "rainbowbridge.digital Performing security verification This website uses a security service to protect against malicious bots. This page is displayed while the website verifies you are not a bot. Verification successful. Waiting for rainbowbridge.digital to respond Ray ID: a53c26d119521ae9 Performan"
+      },
+      "similarity": {
+        "title": 0,
+        "text": 0,
+        "favicon": false,
+        "overall": 0
+      },
+      "listedOn": [],
+      "score": 20,
+      "severity": "low",
+      "label": "lookalike-unknown-content",
+      "evidence": [
+        "Official name on a different TLD",
+        "Bot challenge or redirect stub (\"Just a moment...\"): real content not visible"
+      ],
+      "action": "Re-check next scan; the content was not visible to us (error, bot wall or empty page).",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "rainbowbridge.space",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "tld-swap",
+      "dns": {
+        "domain": "rainbowbridge.space",
+        "registered": true,
+        "a": [
+          "37.235.105.173"
+        ],
+        "aaaa": [],
+        "mx": [
+          "mcg10.vas-server.cz"
+        ],
+        "ns": [
+          "ns.vas-hosting.com"
+        ]
+      },
+      "page": {
+        "url": "https://rainbowbridge.space/",
+        "finalUrl": "https://rainbowbridge.space/",
+        "status": 0,
+        "title": "",
+        "scriptUrls": [],
+        "signals": {
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "secretForm": false,
+          "lure": [],
+          "drainerJs": [],
+          "parked": [],
+          "cryptoContext": [],
+          "interstitial": [],
+          "challenge": []
+        },
+        "brandMentions": 0,
+        "brandInTitle": false,
+        "bytes": 0,
+        "renderedWith": "http",
+        "error": "Hostname/IP does not match certificate's altnames: Host: rainbowbridge.space. is not in the cert's altnames: DNS:autoconfig.pio06.vas-server.cz, DNS:autodiscover.pio06.vas-server.cz, DNS:discover.pio06.vas-server.cz, DNS:mail.pio06.vas-server.cz, DNS:pio06.vas-server.cz, DNS:www.pio06.vas-server.cz; http: Hostname/IP does not match certificate's altnames: Host: rainbowbridge.space. is not in the cert's altnames: DNS:autoconfig.pio06.vas-server.cz, DNS:autodiscover.pio06.vas-server.cz, DNS:discover.pio06.vas-server.cz, DNS:mail.pio06.vas-server.cz, DNS:pio06.vas-server.cz, DNS:www.pio06.vas-server.cz",
+        "textSample": ""
+      },
+      "listedOn": [],
+      "score": 20,
+      "severity": "low",
+      "label": "lookalike-unknown-content",
+      "evidence": [
+        "Official name on a different TLD",
+        "Page not reachable: Hostname/IP does not match certificate's altnames: Host: rainbowbridge.space. is"
+      ],
+      "action": "Re-check next scan; the content was not visible to us (error, bot wall or empty page).",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "rainbowbridge.gift",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "tld-swap",
+      "dns": {
+        "domain": "rainbowbridge.gift",
+        "registered": true,
+        "a": [],
+        "aaaa": [],
+        "mx": [],
+        "ns": [
+          "dns02.muumuu-domain.com",
+          "dns01.muumuu-domain.com"
+        ]
+      },
+      "listedOn": [],
+      "score": 20,
+      "severity": "low",
+      "label": "not-live",
+      "evidence": [
+        "Official name on a different TLD"
+      ],
+      "action": "Monitor (registered, no website). Consider defensive registration.",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "rainbowbridge.cc",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "tld-swap",
+      "dns": {
+        "domain": "rainbowbridge.cc",
+        "registered": true,
+        "a": [],
+        "aaaa": [],
+        "mx": [
+          "eforward2.registrar-servers.com",
+          "eforward1.registrar-servers.com",
+          "eforward3.registrar-servers.com",
+          "eforward4.registrar-servers.com",
+          "eforward5.registrar-servers.com"
+        ],
+        "ns": [
+          "amanda.ns.cloudflare.com",
+          "venkat.ns.cloudflare.com"
+        ]
+      },
+      "listedOn": [],
+      "score": 10,
+      "severity": "info",
+      "label": "brand-owned-redirect",
+      "evidence": [
+        "Official name on a different TLD",
+        "Same nameservers as the official domain: probably registered by the brand itself"
+      ],
+      "action": "No action. Confirm the client owns this domain and add it to the allowlist.",
+      "alreadyBlocked": false
+    }
+  ],
+  "tokens": [],
+  "errors": []
+}

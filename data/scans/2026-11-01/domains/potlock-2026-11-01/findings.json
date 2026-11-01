@@ -1,0 +1,1243 @@
+{
+  "brand": {
+    "name": "POTLOCK",
+    "officialDomains": [
+      "potlock.org"
+    ],
+    "referenceUrl": "https://app.potlock.org",
+    "officialTokens": [],
+    "officialSocials": {
+      "x": "potlock_",
+      "github": "PotLock"
+    },
+    "keywords": [
+      "potlock"
+    ],
+    "allowlist": [],
+    "tokenChains": [
+      "base"
+    ]
+  },
+  "startedAt": "2026-11-01T16:10:49.331Z",
+  "finishedAt": "2026-11-01T16:11:58.244Z",
+  "periodDays": 30,
+  "official": {
+    "url": "https://app.potlock.org/",
+    "title": "POTLOCK",
+    "faviconSha256": "bb6b86b1e394fcba2fb2e754b8ece2eaf6fa5353f55062ee3199329bb6c7feea"
+  },
+  "stats": {
+    "permutations": 1182,
+    "permutationsRegistered": 10,
+    "ctHosts": 0,
+    "nrdHits": 0,
+    "candidates": 10,
+    "pagesFetched": 10,
+    "pagesRendered": 8,
+    "tokensIndexed": {},
+    "tokenMatches": 0
+  },
+  "coverage": {
+    "ct": [
+      {
+        "q": "potlock%",
+        "rows": 0,
+        "error": "HTTP 400"
+      },
+      {
+        "q": "potlock.%",
+        "rows": 0,
+        "error": "HTTP 400"
+      },
+      {
+        "q": "potlock-%",
+        "rows": 0,
+        "error": "HTTP 400"
+      },
+      {
+        "q": "%potlock%",
+        "rows": 0,
+        "error": "HTTP 400"
+      }
+    ],
+    "nrd": [
+      {
+        "day": "2026-10-31",
+        "domains": 70000
+      },
+      {
+        "day": "2026-10-30",
+        "domains": 70000
+      },
+      {
+        "day": "2026-10-29",
+        "domains": 70000
+      },
+      {
+        "day": "2026-10-28",
+        "domains": 70000
+      }
+    ],
+    "tokens": [],
+    "blocklists": [
+      "metamask",
+      "scamsniffer"
+    ]
+  },
+  "domains": [
+    {
+      "kind": "domain",
+      "host": "potlocktoken.org",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "dictionary",
+      "dns": {
+        "domain": "potlocktoken.org",
+        "registered": true,
+        "a": [
+          "216.24.57.1"
+        ],
+        "aaaa": [],
+        "mx": [
+          "eforward1.registrar-servers.com",
+          "eforward2.registrar-servers.com",
+          "eforward3.registrar-servers.com",
+          "eforward4.registrar-servers.com",
+          "eforward5.registrar-servers.com"
+        ],
+        "ns": [
+          "dns2.registrar-servers.com",
+          "dns1.registrar-servers.com"
+        ]
+      },
+      "page": {
+        "url": "https://potlocktoken.org/",
+        "finalUrl": "https://www.potlocktoken.org/",
+        "status": 200,
+        "title": "Welcome to the Potlock!",
+        "scriptUrls": [
+          "https://www.potlocktoken.org/assets/main-Bz79_Yh_.js",
+          "https://www.potlocktoken.org/assets/js/browser.min.js",
+          "https://www.potlocktoken.org/assets/js/breakpoints.min.js",
+          "https://www.potlocktoken.org/assets/js/jquery.min.js",
+          "https://www.potlocktoken.org/assets/js/jquery.scrolly.min.js",
+          "https://www.potlocktoken.org/assets/js/jquery.scrollex.min.js"
+        ],
+        "signals": {
+          "walletPrompt": [
+            "connectWallet",
+            "walletconnect",
+            "web3modal",
+            "AppKit",
+            "eth_requestAccounts",
+            "window.ethereum",
+            "walletConnect"
+          ],
+          "seedPhrase": [],
+          "secretForm": false,
+          "lure": [
+            "eligible"
+          ],
+          "drainerJs": [
+            "eth_signTypedData_v4"
+          ],
+          "parked": [],
+          "cryptoContext": [
+            "crypto",
+            "token",
+            "swap",
+            "liquidity",
+            "wallet",
+            "blockchain"
+          ],
+          "interstitial": [],
+          "challenge": []
+        },
+        "brandMentions": 18,
+        "brandInTitle": true,
+        "bytes": 10809,
+        "renderedWith": "playwright",
+        "faviconUrl": "https://www.potlocktoken.org/plt_favicon-32x32.png?v=1",
+        "screenshot": "/Users/kacpergumieniuk/Projects/4b47/mimicwatch-near/data/scans/2026-11-01/domains/potlock-2026-11-01/shots/potlocktoken.org.jpg",
+        "textSample": "PotLockToken What will you bring to the Potlock? X (Twitter) Buy Now BscScan Introduction How it Works Live Stats Join in on the PotLock! Introduction PotLockToken is a revolutionary ERC20 token designed to fight the problems plaguing most tokens today — whales controlling liquidity, inactive holder"
+      },
+      "similarity": {
+        "title": 0.8,
+        "text": 0,
+        "favicon": false,
+        "overall": 0.28
+      },
+      "listedOn": [],
+      "score": 82,
+      "severity": "critical",
+      "label": "phishing-likely",
+      "evidence": [
+        "Brand name plus a phishing lure word",
+        "Page title resembles the official title (80%)",
+        "Brand named on the page (18x), including the title",
+        "Wallet-connect prompt/library: connectWallet, walletconnect, web3modal",
+        "Drainer-style JS: eth_signTypedData_v4",
+        "Lure text: eligible"
+      ],
+      "action": "After client approval: file registrar + host abuse reports, Google Safe Browsing / Netcraft, and wallet blocklist submissions (drafts attached).",
+      "alreadyBlocked": false,
+      "rdap": {
+        "domain": "potlocktoken.org",
+        "registrar": "NameCheap, Inc.",
+        "ianaId": "1068",
+        "abuse": {
+          "email": "abuse@namecheap.com",
+          "phone": "+1.9854014545"
+        },
+        "registered": "2025-09-05T01:45:18.686Z",
+        "expires": "2027-09-05T01:45:18.686Z",
+        "status": [
+          "client transfer prohibited"
+        ],
+        "source": "https://rdap.publicinterestregistry.org/rdap/domain/potlocktoken.org"
+      },
+      "hosting": {
+        "ip": "216.24.57.1",
+        "network": "RS-1125",
+        "org": "Render",
+        "abuse": {
+          "name": "Render Abuse Contact",
+          "email": "abuse@render.com",
+          "phone": "+1-415-548-7706"
+        }
+      },
+      "drafts": [
+        {
+          "channel": "registrar-abuse",
+          "title": "Registrar abuse report to NameCheap, Inc.",
+          "to": "abuse@namecheap.com",
+          "subject": "Phishing / brand impersonation: potlocktoken.org impersonates POTLOCK",
+          "body": "DRAFT - NOT FILED. File only after the brand owner approves it and has signed a Letter of Authorisation.\n\nHello NameCheap, Inc. abuse team,\n\nThe domain potlocktoken[.]org (registered with you on 2025-09-05) is being used to impersonate POTLOCK, a crypto project whose official site is hxxps://potlock[.]org. We ask you to suspend the domain under your abuse policy and the RAA section 3.18 obligations.\n\nEvidence (observed 2026-11-01, read-only, URLs defanged):\n- URL: hxxps://www[.]potlocktoken[.]org/\n- Brand name plus a phishing lure word\n- Page title resembles the official title (80%)\n- Brand named on the page (18x), including the title\n- Wallet-connect prompt/library: connectWallet, walletconnect, web3modal\n- Drainer-style JS: eth_signTypedData_v4\n- Lure text: eligible\n- Resolves to 216.24.57.1\n- Page title: \"Welcome to the Potlock!\"\n- Screenshot: shots/potlocktoken.org.jpg (attach)\n\nWe are not affiliated with the operator of potlocktoken[.]org. POTLOCK has not authorised its use of the brand. Screenshots and HTML captures are available on request.\n\nRegards,\n{{REPORTER_NAME}}\n{{REPORTER_ORG}}, acting for POTLOCK under a Letter of Authorisation dated {{LOA_DATE}}\n{{REPORTER_EMAIL}}",
+          "notes": [
+            "Registrar IANA ID 1068, abuse phone +1.9854014545"
+          ]
+        },
+        {
+          "channel": "host-abuse",
+          "title": "Hosting abuse report to Render",
+          "to": "abuse@render.com",
+          "subject": "Phishing site hosted on your network: potlocktoken.org (POTLOCK impersonation)",
+          "body": "DRAFT - NOT FILED. File only after the brand owner approves it and has signed a Letter of Authorisation.\n\nHello Render,\n\nhxxps://www[.]potlocktoken[.]org/ (216.24.57.1) is hosted on your network and impersonates POTLOCK (official: hxxps://potlock[.]org).\n\nEvidence (observed 2026-11-01):\n- Brand name plus a phishing lure word\n- Page title resembles the official title (80%)\n- Brand named on the page (18x), including the title\n- Wallet-connect prompt/library: connectWallet, walletconnect, web3modal\n- Drainer-style JS: eth_signTypedData_v4\n- Lure text: eligible\n- Resolves to 216.24.57.1\n- Page title: \"Welcome to the Potlock!\"\n- Screenshot: shots/potlocktoken.org.jpg (attach)\n\nPlease take the content down under your acceptable use policy.\n\nRegards,\n{{REPORTER_NAME}}\n{{REPORTER_ORG}}, acting for POTLOCK under a Letter of Authorisation dated {{LOA_DATE}}\n{{REPORTER_EMAIL}}",
+          "notes": []
+        },
+        {
+          "channel": "google-safe-browsing",
+          "title": "Google Safe Browsing report",
+          "to": "https://safebrowsing.google.com/safebrowsing/report_phish/?url=https%3A%2F%2Fwww.potlocktoken.org%2F",
+          "fields": {
+            "Report Type": "This page is not safe",
+            "Threat Type": "Social engineering (phishing) - pick the closest option shown",
+            "Threat Category": "Pick the closest option shown (impersonation / phishing)",
+            "URL to report": "https://www.potlocktoken.org/",
+            "Additional details (max 800)": "Impersonates POTLOCK (official: https://potlock.org). Drainer-style JS: eth_signTypedData_v4; Wallet-connect prompt/library: connectWallet, walletconnect, web3modal; Page title resembles the official title (80%); Brand named on the page (18x), including the title."
+          },
+          "body": "DRAFT - NOT FILED. File only after the brand owner approves it and has signed a Letter of Authorisation.\n\nImpersonates POTLOCK (official: https://potlock.org). Drainer-style JS: eth_signTypedData_v4; Wallet-connect prompt/library: connectWallet, walletconnect, web3modal; Page title resembles the official title (80%); Brand named on the page (18x), including the title.",
+          "notes": [
+            "Web form with reCAPTCHA: a person has to submit it."
+          ]
+        },
+        {
+          "channel": "netcraft",
+          "title": "Netcraft report",
+          "to": "https://report.netcraft.com/report",
+          "fields": {
+            "The URL of the site": "https://www.potlocktoken.org/",
+            "Further details": "Impersonates POTLOCK (official: https://potlock.org). Drainer-style JS: eth_signTypedData_v4; Wallet-connect prompt/library: connectWallet, walletconnect, web3modal; Page title resembles the official title (80%); Brand named on the page (18x), including the title.",
+            "Your email address": "{{REPORTER_EMAIL}}"
+          },
+          "body": "DRAFT - NOT FILED. File only after the brand owner approves it and has signed a Letter of Authorisation.\n\nImpersonates POTLOCK (official: https://potlock.org). Drainer-style JS: eth_signTypedData_v4; Wallet-connect prompt/library: connectWallet, walletconnect, web3modal; Page title resembles the official title (80%); Brand named on the page (18x), including the title.",
+          "notes": [
+            "Web form with reCAPTCHA. Netcraft feeds many browser and registrar blocklists."
+          ]
+        },
+        {
+          "channel": "metamask-issue",
+          "title": "MetaMask eth-phishing-detect: blocklist addition issue",
+          "to": "https://github.com/MetaMask/eth-phishing-detect/issues/new?template=01-blocklist-addition.yaml",
+          "fields": {
+            "Malicious domains, IPs, IPFS hashes, or IPNS names": "https://www.potlocktoken.org/",
+            "Please explain why this content is malicious": "Impersonates POTLOCK (official: https://potlock.org). Drainer-style JS: eth_signTypedData_v4; Wallet-connect prompt/library: connectWallet, walletconnect, web3modal; Page title resembles the official title (80%); Brand named on the page (18x), including the title. Observed 2026-11-01. Reported on behalf of POTLOCK.",
+            "Is this a duplicate request?": "Search open issues for the domain first, then tick the box"
+          },
+          "body": "DRAFT - NOT FILED. File only after the brand owner approves it and has signed a Letter of Authorisation.\n\nImpersonates POTLOCK (official: https://potlock.org). Drainer-style JS: eth_signTypedData_v4; Wallet-connect prompt/library: connectWallet, walletconnect, web3modal; Page title resembles the official title (80%); Brand named on the page (18x), including the title."
+        },
+        {
+          "channel": "metamask-pr",
+          "title": "MetaMask eth-phishing-detect: alternative PR (slower; most merges are bot syncs)",
+          "to": "https://github.com/MetaMask/eth-phishing-detect",
+          "body": "DRAFT - NOT FILED. File only after the brand owner approves it and has signed a Letter of Authorisation.\n\ngit checkout -b block-potlocktoken.org\nyarn add:blocklist potlocktoken.org\n\nPR title: Block potlocktoken.org (POTLOCK impersonation)\nPR body: Impersonates POTLOCK (official: https://potlock.org). Drainer-style JS: eth_signTypedData_v4; Wallet-connect prompt/library: connectWallet, walletconnect, web3modal; Page title resembles the official title (80%); Brand named on the page (18x), including the title."
+        },
+        {
+          "channel": "scamsniffer-issue",
+          "title": "ScamSniffer scam-database issue",
+          "to": "https://github.com/scamsniffer/scam-database/issues/new",
+          "subject": "[Phishing] potlocktoken.org - POTLOCK impersonation",
+          "body": "DRAFT - NOT FILED. File only after the brand owner approves it and has signed a Letter of Authorisation.\n\nDomain: potlocktoken.org\nScam addresses (with chain): {{ADD IF KNOWN, e.g. from a victim's drain tx}}\nImpersonates: POTLOCK (official: https://potlock.org)\n\nEvidence (observed 2026-11-01):\n- Brand name plus a phishing lure word\n- Page title resembles the official title (80%)\n- Brand named on the page (18x), including the title\n- Wallet-connect prompt/library: connectWallet, walletconnect, web3modal\n- Drainer-style JS: eth_signTypedData_v4\n- Lure text: eligible\n- Resolves to 216.24.57.1\n- Page title: \"Welcome to the Potlock!\"\n- Screenshot: shots/potlocktoken.org.jpg (attach)",
+          "notes": [
+            "ScamSniffer asks for issues, not PRs (their JSON is regenerated). Attach the screenshot."
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "domain",
+      "host": "potlock.io",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "tld-swap",
+      "dns": {
+        "domain": "potlock.io",
+        "registered": true,
+        "a": [
+          "188.114.96.3",
+          "188.114.97.3"
+        ],
+        "aaaa": [],
+        "mx": [],
+        "ns": [
+          "henrik.ns.cloudflare.com",
+          "meera.ns.cloudflare.com"
+        ]
+      },
+      "page": {
+        "url": "https://potlock.io/",
+        "finalUrl": "https://www.potlock.io/",
+        "status": 200,
+        "title": "POTLOCK | Open Funding Stack & AI-PGF",
+        "scriptUrls": [
+          "https://www.potlock.io/_next/static/chunks/fd9d1056-2d7a8d217105eef5.js?dpl=dpl_3kamMtr78jJXus6bNupkfb9LVESH",
+          "https://www.potlock.io/_next/static/chunks/2117-dff82cfb37b2199f.js?dpl=dpl_3kamMtr78jJXus6bNupkfb9LVESH",
+          "https://www.potlock.io/_next/static/chunks/main-app-dd9357982cbe95c2.js?dpl=dpl_3kamMtr78jJXus6bNupkfb9LVESH",
+          "https://www.potlock.io/_next/static/chunks/0e5ce63c-cd4e5a36f146fdda.js?dpl=dpl_3kamMtr78jJXus6bNupkfb9LVESH",
+          "https://www.potlock.io/_next/static/chunks/4609-8d1d94451eeceac3.js?dpl=dpl_3kamMtr78jJXus6bNupkfb9LVESH",
+          "https://www.potlock.io/_next/static/chunks/6929-3b368520c2ca3885.js?dpl=dpl_3kamMtr78jJXus6bNupkfb9LVESH"
+        ],
+        "signals": {
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "secretForm": false,
+          "lure": [],
+          "drainerJs": [],
+          "parked": [],
+          "cryptoContext": [
+            "crypto",
+            "token",
+            "Swap",
+            "stake",
+            "Web3",
+            "Blockchain",
+            "DEX",
+            "ETH",
+            "bridge"
+          ],
+          "interstitial": [],
+          "challenge": []
+        },
+        "brandMentions": 108,
+        "brandInTitle": true,
+        "bytes": 531693,
+        "renderedWith": "playwright",
+        "faviconUrl": "https://www.potlock.io/favicon.png",
+        "faviconSha256": "882d5a1ab427e13926e800959d3496b7526653edf0530aa2008c426683c19fed",
+        "screenshot": "/Users/kacpergumieniuk/Projects/4b47/mimicwatch-near/data/scans/2026-11-01/domains/potlock-2026-11-01/shots/potlock.io.jpg",
+        "textSample": "Skip to main content POTLOCK For Projects Our Products Testimonials reply.cash Launch The Open Funding Stack, Raise ✨ ✨ ✨ For Anything. Founders, projects, non-profits, & contributors can raise funds for anything in any supported asset + chain. While treasuries & foundations can create funding round"
+      },
+      "similarity": {
+        "title": 0.8,
+        "text": 0,
+        "favicon": false,
+        "overall": 0.28
+      },
+      "listedOn": [],
+      "score": 50,
+      "severity": "high",
+      "label": "impersonation",
+      "evidence": [
+        "Official name on a different TLD",
+        "One of 3 lookalikes on the same DNS account (henrik.ns.cloudflare.com + meera.ns.cloudflare.com): a single operator",
+        "Page title resembles the official title (80%)",
+        "Brand named on the page (108x), including the title"
+      ],
+      "action": "Review the screenshot. If it impersonates the brand, file registrar + host reports (drafts attached).",
+      "alreadyBlocked": false,
+      "rdap": {
+        "domain": "potlock.io",
+        "abuse": {},
+        "status": [],
+        "error": "no RDAP server for .io (use WHOIS)"
+      },
+      "hosting": {
+        "ip": "188.114.96.3",
+        "network": "CLOUDFLARENET-EU",
+        "org": "MNT-CLOUDFLARE",
+        "abuse": {
+          "name": "Cloudflare Abuse Contact",
+          "email": "abuse@cloudflare.com",
+          "form": "https://abuse.cloudflare.com/"
+        }
+      },
+      "drafts": [
+        {
+          "channel": "registrar-abuse",
+          "title": "Registrar abuse report",
+          "to": "(registrar abuse address not found via RDAP: look it up at https://lookup.icann.org)",
+          "subject": "Phishing / brand impersonation: potlock.io impersonates POTLOCK",
+          "body": "DRAFT - NOT FILED. File only after the brand owner approves it and has signed a Letter of Authorisation.\n\nHello Abuse Team abuse team,\n\nThe domain potlock[.]io (registered with you) is being used to impersonate POTLOCK, a crypto project whose official site is hxxps://potlock[.]org. We ask you to suspend the domain under your abuse policy and the RAA section 3.18 obligations.\n\nEvidence (observed 2026-11-01, read-only, URLs defanged):\n- URL: hxxps://www[.]potlock[.]io/\n- Official name on a different TLD\n- One of 3 lookalikes on the same DNS account (henrik.ns.cloudflare.com + meera.ns.cloudflare.com): a single operator\n- Page title resembles the official title (80%)\n- Brand named on the page (108x), including the title\n- Resolves to 188.114.96.3, 188.114.97.3\n- Page title: \"POTLOCK | Open Funding Stack & AI-PGF\"\n- Screenshot: shots/potlock.io.jpg (attach)\n\nWe are not affiliated with the operator of potlock[.]io. POTLOCK has not authorised its use of the brand. Screenshots and HTML captures are available on request.\n\nRegards,\n{{REPORTER_NAME}}\n{{REPORTER_ORG}}, acting for POTLOCK under a Letter of Authorisation dated {{LOA_DATE}}\n{{REPORTER_EMAIL}}"
+        },
+        {
+          "channel": "host-abuse",
+          "title": "Hosting abuse report to MNT-CLOUDFLARE",
+          "to": "https://abuse.cloudflare.com/",
+          "subject": "Phishing site hosted on your network: potlock.io (POTLOCK impersonation)",
+          "body": "DRAFT - NOT FILED. File only after the brand owner approves it and has signed a Letter of Authorisation.\n\nHello MNT-CLOUDFLARE,\n\nhxxps://www[.]potlock[.]io/ (188.114.96.3, 188.114.97.3) is hosted on your network and impersonates POTLOCK (official: hxxps://potlock[.]org).\n\nEvidence (observed 2026-11-01):\n- Official name on a different TLD\n- One of 3 lookalikes on the same DNS account (henrik.ns.cloudflare.com + meera.ns.cloudflare.com): a single operator\n- Page title resembles the official title (80%)\n- Brand named on the page (108x), including the title\n- Resolves to 188.114.96.3, 188.114.97.3\n- Page title: \"POTLOCK | Open Funding Stack & AI-PGF\"\n- Screenshot: shots/potlock.io.jpg (attach)\n\nPlease take the content down under your acceptable use policy.\n\nRegards,\n{{REPORTER_NAME}}\n{{REPORTER_ORG}}, acting for POTLOCK under a Letter of Authorisation dated {{LOA_DATE}}\n{{REPORTER_EMAIL}}",
+          "notes": [
+            "Email alternative: abuse@cloudflare.com"
+          ]
+        },
+        {
+          "channel": "google-safe-browsing",
+          "title": "Google Safe Browsing report",
+          "to": "https://safebrowsing.google.com/safebrowsing/report_phish/?url=https%3A%2F%2Fwww.potlock.io%2F",
+          "fields": {
+            "Report Type": "This page is not safe",
+            "Threat Type": "Social engineering (phishing) - pick the closest option shown",
+            "Threat Category": "Pick the closest option shown (impersonation / phishing)",
+            "URL to report": "https://www.potlock.io/",
+            "Additional details (max 800)": "Impersonates POTLOCK (official: https://potlock.org). Page title resembles the official title (80%); Brand named on the page (108x), including the title; Official name on a different TLD; One of 3 lookalikes on the same DNS account (henrik.ns.cloudflare.com + meera.ns.cloudflare.com): a single operator."
+          },
+          "body": "DRAFT - NOT FILED. File only after the brand owner approves it and has signed a Letter of Authorisation.\n\nImpersonates POTLOCK (official: https://potlock.org). Page title resembles the official title (80%); Brand named on the page (108x), including the title; Official name on a different TLD; One of 3 lookalikes on the same DNS account (henrik.ns.cloudflare.com + meera.ns.cloudflare.com): a single operator.",
+          "notes": [
+            "Web form with reCAPTCHA: a person has to submit it."
+          ]
+        },
+        {
+          "channel": "netcraft",
+          "title": "Netcraft report",
+          "to": "https://report.netcraft.com/report",
+          "fields": {
+            "The URL of the site": "https://www.potlock.io/",
+            "Further details": "Impersonates POTLOCK (official: https://potlock.org). Page title resembles the official title (80%); Brand named on the page (108x), including the title; Official name on a different TLD; One of 3 lookalikes on the same DNS account (henrik.ns.cloudflare.com + meera.ns.cloudflare.com): a single operator.",
+            "Your email address": "{{REPORTER_EMAIL}}"
+          },
+          "body": "DRAFT - NOT FILED. File only after the brand owner approves it and has signed a Letter of Authorisation.\n\nImpersonates POTLOCK (official: https://potlock.org). Page title resembles the official title (80%); Brand named on the page (108x), including the title; Official name on a different TLD; One of 3 lookalikes on the same DNS account (henrik.ns.cloudflare.com + meera.ns.cloudflare.com): a single operator.",
+          "notes": [
+            "Web form with reCAPTCHA. Netcraft feeds many browser and registrar blocklists."
+          ]
+        },
+        {
+          "channel": "metamask-issue",
+          "title": "MetaMask eth-phishing-detect: blocklist addition issue",
+          "to": "https://github.com/MetaMask/eth-phishing-detect/issues/new?template=01-blocklist-addition.yaml",
+          "fields": {
+            "Malicious domains, IPs, IPFS hashes, or IPNS names": "https://www.potlock.io/",
+            "Please explain why this content is malicious": "Impersonates POTLOCK (official: https://potlock.org). Page title resembles the official title (80%); Brand named on the page (108x), including the title; Official name on a different TLD; One of 3 lookalikes on the same DNS account (henrik.ns.cloudflare.com + meera.ns.cloudflare.com): a single operator. Observed 2026-11-01. Reported on behalf of POTLOCK.",
+            "Is this a duplicate request?": "Search open issues for the domain first, then tick the box"
+          },
+          "body": "DRAFT - NOT FILED. File only after the brand owner approves it and has signed a Letter of Authorisation.\n\nImpersonates POTLOCK (official: https://potlock.org). Page title resembles the official title (80%); Brand named on the page (108x), including the title; Official name on a different TLD; One of 3 lookalikes on the same DNS account (henrik.ns.cloudflare.com + meera.ns.cloudflare.com): a single operator."
+        },
+        {
+          "channel": "metamask-pr",
+          "title": "MetaMask eth-phishing-detect: alternative PR (slower; most merges are bot syncs)",
+          "to": "https://github.com/MetaMask/eth-phishing-detect",
+          "body": "DRAFT - NOT FILED. File only after the brand owner approves it and has signed a Letter of Authorisation.\n\ngit checkout -b block-potlock.io\nyarn add:blocklist potlock.io\n\nPR title: Block potlock.io (POTLOCK impersonation)\nPR body: Impersonates POTLOCK (official: https://potlock.org). Page title resembles the official title (80%); Brand named on the page (108x), including the title; Official name on a different TLD; One of 3 lookalikes on the same DNS account (henrik.ns.cloudflare.com + meera.ns.cloudflare.com): a single operator."
+        },
+        {
+          "channel": "scamsniffer-issue",
+          "title": "ScamSniffer scam-database issue",
+          "to": "https://github.com/scamsniffer/scam-database/issues/new",
+          "subject": "[Phishing] potlock.io - POTLOCK impersonation",
+          "body": "DRAFT - NOT FILED. File only after the brand owner approves it and has signed a Letter of Authorisation.\n\nDomain: potlock.io\nScam addresses (with chain): {{ADD IF KNOWN, e.g. from a victim's drain tx}}\nImpersonates: POTLOCK (official: https://potlock.org)\n\nEvidence (observed 2026-11-01):\n- Official name on a different TLD\n- One of 3 lookalikes on the same DNS account (henrik.ns.cloudflare.com + meera.ns.cloudflare.com): a single operator\n- Page title resembles the official title (80%)\n- Brand named on the page (108x), including the title\n- Resolves to 188.114.96.3, 188.114.97.3\n- Page title: \"POTLOCK | Open Funding Stack & AI-PGF\"\n- Screenshot: shots/potlock.io.jpg (attach)",
+          "notes": [
+            "ScamSniffer asks for issues, not PRs (their JSON is regenerated). Attach the screenshot."
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "domain",
+      "host": "potlock.xyz",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "tld-swap",
+      "dns": {
+        "domain": "potlock.xyz",
+        "registered": true,
+        "a": [
+          "216.150.16.1",
+          "216.150.1.1"
+        ],
+        "aaaa": [],
+        "mx": [],
+        "ns": [
+          "henrik.ns.cloudflare.com",
+          "meera.ns.cloudflare.com"
+        ]
+      },
+      "page": {
+        "url": "https://potlock.xyz/",
+        "finalUrl": "https://www.potlock.xyz/",
+        "status": 200,
+        "title": "POTLOCK | Open Funding Stack & AI-PGF",
+        "scriptUrls": [
+          "https://www.potlock.xyz/_next/static/chunks/fd9d1056-2d7a8d217105eef5.js?dpl=dpl_3kamMtr78jJXus6bNupkfb9LVESH",
+          "https://www.potlock.xyz/_next/static/chunks/2117-dff82cfb37b2199f.js?dpl=dpl_3kamMtr78jJXus6bNupkfb9LVESH",
+          "https://www.potlock.xyz/_next/static/chunks/main-app-dd9357982cbe95c2.js?dpl=dpl_3kamMtr78jJXus6bNupkfb9LVESH",
+          "https://www.potlock.xyz/_next/static/chunks/0e5ce63c-cd4e5a36f146fdda.js?dpl=dpl_3kamMtr78jJXus6bNupkfb9LVESH",
+          "https://www.potlock.xyz/_next/static/chunks/4609-8d1d94451eeceac3.js?dpl=dpl_3kamMtr78jJXus6bNupkfb9LVESH",
+          "https://www.potlock.xyz/_next/static/chunks/6929-3b368520c2ca3885.js?dpl=dpl_3kamMtr78jJXus6bNupkfb9LVESH"
+        ],
+        "signals": {
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "secretForm": false,
+          "lure": [],
+          "drainerJs": [],
+          "parked": [],
+          "cryptoContext": [
+            "crypto",
+            "token",
+            "Swap",
+            "stake",
+            "Web3",
+            "Blockchain",
+            "DEX",
+            "ETH",
+            "bridge"
+          ],
+          "interstitial": [],
+          "challenge": []
+        },
+        "brandMentions": 108,
+        "brandInTitle": true,
+        "bytes": 531693,
+        "renderedWith": "playwright",
+        "faviconUrl": "https://www.potlock.xyz/favicon.png",
+        "faviconSha256": "882d5a1ab427e13926e800959d3496b7526653edf0530aa2008c426683c19fed",
+        "screenshot": "/Users/kacpergumieniuk/Projects/4b47/mimicwatch-near/data/scans/2026-11-01/domains/potlock-2026-11-01/shots/potlock.xyz.jpg",
+        "textSample": "Skip to main content POTLOCK For Projects Our Products Testimonials reply.cash Launch The Open Funding Stack, Raise ✨ ✨ ✨ For Anything. Founders, projects, non-profits, & contributors can raise funds for anything in any supported asset + chain. While treasuries & foundations can create funding round"
+      },
+      "similarity": {
+        "title": 0.8,
+        "text": 0,
+        "favicon": false,
+        "overall": 0.28
+      },
+      "listedOn": [],
+      "score": 50,
+      "severity": "high",
+      "label": "impersonation",
+      "evidence": [
+        "Official name on a different TLD",
+        "One of 3 lookalikes on the same DNS account (henrik.ns.cloudflare.com + meera.ns.cloudflare.com): a single operator",
+        "Page title resembles the official title (80%)",
+        "Brand named on the page (108x), including the title"
+      ],
+      "action": "Review the screenshot. If it impersonates the brand, file registrar + host reports (drafts attached).",
+      "alreadyBlocked": false,
+      "rdap": {
+        "domain": "potlock.xyz",
+        "registrar": "Squarespace Domains II LLC",
+        "ianaId": "895",
+        "abuse": {
+          "name": "Abuse Contact",
+          "email": "abuse-complaints@squarespace.com",
+          "phone": "+1.6466935324"
+        },
+        "registered": "2023-07-02T15:56:45.0Z",
+        "expires": "2027-07-02T23:59:59.0Z",
+        "status": [
+          "client transfer prohibited",
+          "client delete prohibited"
+        ],
+        "source": "https://rdap.centralnic.com/xyz/domain/potlock.xyz"
+      },
+      "hosting": {
+        "ip": "216.150.16.1",
+        "network": "VERCEL-08",
+        "org": "Vercel, Inc",
+        "abuse": {
+          "name": "Abuse",
+          "email": "abuse@vercel.com",
+          "phone": "+1-415-980-8007"
+        }
+      },
+      "drafts": [
+        {
+          "channel": "registrar-abuse",
+          "title": "Registrar abuse report to Squarespace Domains II LLC",
+          "to": "abuse-complaints@squarespace.com",
+          "subject": "Phishing / brand impersonation: potlock.xyz impersonates POTLOCK",
+          "body": "DRAFT - NOT FILED. File only after the brand owner approves it and has signed a Letter of Authorisation.\n\nHello Squarespace Domains II LLC abuse team,\n\nThe domain potlock[.]xyz (registered with you on 2023-07-02) is being used to impersonate POTLOCK, a crypto project whose official site is hxxps://potlock[.]org. We ask you to suspend the domain under your abuse policy and the RAA section 3.18 obligations.\n\nEvidence (observed 2026-11-01, read-only, URLs defanged):\n- URL: hxxps://www[.]potlock[.]xyz/\n- Official name on a different TLD\n- One of 3 lookalikes on the same DNS account (henrik.ns.cloudflare.com + meera.ns.cloudflare.com): a single operator\n- Page title resembles the official title (80%)\n- Brand named on the page (108x), including the title\n- Resolves to 216.150.16.1, 216.150.1.1\n- Page title: \"POTLOCK | Open Funding Stack & AI-PGF\"\n- Screenshot: shots/potlock.xyz.jpg (attach)\n\nWe are not affiliated with the operator of potlock[.]xyz. POTLOCK has not authorised its use of the brand. Screenshots and HTML captures are available on request.\n\nRegards,\n{{REPORTER_NAME}}\n{{REPORTER_ORG}}, acting for POTLOCK under a Letter of Authorisation dated {{LOA_DATE}}\n{{REPORTER_EMAIL}}",
+          "notes": [
+            "Registrar IANA ID 895, abuse phone +1.6466935324"
+          ]
+        },
+        {
+          "channel": "host-abuse",
+          "title": "Hosting abuse report to Vercel, Inc",
+          "to": "abuse@vercel.com",
+          "subject": "Phishing site hosted on your network: potlock.xyz (POTLOCK impersonation)",
+          "body": "DRAFT - NOT FILED. File only after the brand owner approves it and has signed a Letter of Authorisation.\n\nHello Vercel, Inc,\n\nhxxps://www[.]potlock[.]xyz/ (216.150.16.1, 216.150.1.1) is hosted on your network and impersonates POTLOCK (official: hxxps://potlock[.]org).\n\nEvidence (observed 2026-11-01):\n- Official name on a different TLD\n- One of 3 lookalikes on the same DNS account (henrik.ns.cloudflare.com + meera.ns.cloudflare.com): a single operator\n- Page title resembles the official title (80%)\n- Brand named on the page (108x), including the title\n- Resolves to 216.150.16.1, 216.150.1.1\n- Page title: \"POTLOCK | Open Funding Stack & AI-PGF\"\n- Screenshot: shots/potlock.xyz.jpg (attach)\n\nPlease take the content down under your acceptable use policy.\n\nRegards,\n{{REPORTER_NAME}}\n{{REPORTER_ORG}}, acting for POTLOCK under a Letter of Authorisation dated {{LOA_DATE}}\n{{REPORTER_EMAIL}}",
+          "notes": []
+        },
+        {
+          "channel": "google-safe-browsing",
+          "title": "Google Safe Browsing report",
+          "to": "https://safebrowsing.google.com/safebrowsing/report_phish/?url=https%3A%2F%2Fwww.potlock.xyz%2F",
+          "fields": {
+            "Report Type": "This page is not safe",
+            "Threat Type": "Social engineering (phishing) - pick the closest option shown",
+            "Threat Category": "Pick the closest option shown (impersonation / phishing)",
+            "URL to report": "https://www.potlock.xyz/",
+            "Additional details (max 800)": "Impersonates POTLOCK (official: https://potlock.org). Page title resembles the official title (80%); Brand named on the page (108x), including the title; Official name on a different TLD; One of 3 lookalikes on the same DNS account (henrik.ns.cloudflare.com + meera.ns.cloudflare.com): a single operator."
+          },
+          "body": "DRAFT - NOT FILED. File only after the brand owner approves it and has signed a Letter of Authorisation.\n\nImpersonates POTLOCK (official: https://potlock.org). Page title resembles the official title (80%); Brand named on the page (108x), including the title; Official name on a different TLD; One of 3 lookalikes on the same DNS account (henrik.ns.cloudflare.com + meera.ns.cloudflare.com): a single operator.",
+          "notes": [
+            "Web form with reCAPTCHA: a person has to submit it."
+          ]
+        },
+        {
+          "channel": "netcraft",
+          "title": "Netcraft report",
+          "to": "https://report.netcraft.com/report",
+          "fields": {
+            "The URL of the site": "https://www.potlock.xyz/",
+            "Further details": "Impersonates POTLOCK (official: https://potlock.org). Page title resembles the official title (80%); Brand named on the page (108x), including the title; Official name on a different TLD; One of 3 lookalikes on the same DNS account (henrik.ns.cloudflare.com + meera.ns.cloudflare.com): a single operator.",
+            "Your email address": "{{REPORTER_EMAIL}}"
+          },
+          "body": "DRAFT - NOT FILED. File only after the brand owner approves it and has signed a Letter of Authorisation.\n\nImpersonates POTLOCK (official: https://potlock.org). Page title resembles the official title (80%); Brand named on the page (108x), including the title; Official name on a different TLD; One of 3 lookalikes on the same DNS account (henrik.ns.cloudflare.com + meera.ns.cloudflare.com): a single operator.",
+          "notes": [
+            "Web form with reCAPTCHA. Netcraft feeds many browser and registrar blocklists."
+          ]
+        },
+        {
+          "channel": "metamask-issue",
+          "title": "MetaMask eth-phishing-detect: blocklist addition issue",
+          "to": "https://github.com/MetaMask/eth-phishing-detect/issues/new?template=01-blocklist-addition.yaml",
+          "fields": {
+            "Malicious domains, IPs, IPFS hashes, or IPNS names": "https://www.potlock.xyz/",
+            "Please explain why this content is malicious": "Impersonates POTLOCK (official: https://potlock.org). Page title resembles the official title (80%); Brand named on the page (108x), including the title; Official name on a different TLD; One of 3 lookalikes on the same DNS account (henrik.ns.cloudflare.com + meera.ns.cloudflare.com): a single operator. Observed 2026-11-01. Reported on behalf of POTLOCK.",
+            "Is this a duplicate request?": "Search open issues for the domain first, then tick the box"
+          },
+          "body": "DRAFT - NOT FILED. File only after the brand owner approves it and has signed a Letter of Authorisation.\n\nImpersonates POTLOCK (official: https://potlock.org). Page title resembles the official title (80%); Brand named on the page (108x), including the title; Official name on a different TLD; One of 3 lookalikes on the same DNS account (henrik.ns.cloudflare.com + meera.ns.cloudflare.com): a single operator."
+        },
+        {
+          "channel": "metamask-pr",
+          "title": "MetaMask eth-phishing-detect: alternative PR (slower; most merges are bot syncs)",
+          "to": "https://github.com/MetaMask/eth-phishing-detect",
+          "body": "DRAFT - NOT FILED. File only after the brand owner approves it and has signed a Letter of Authorisation.\n\ngit checkout -b block-potlock.xyz\nyarn add:blocklist potlock.xyz\n\nPR title: Block potlock.xyz (POTLOCK impersonation)\nPR body: Impersonates POTLOCK (official: https://potlock.org). Page title resembles the official title (80%); Brand named on the page (108x), including the title; Official name on a different TLD; One of 3 lookalikes on the same DNS account (henrik.ns.cloudflare.com + meera.ns.cloudflare.com): a single operator."
+        },
+        {
+          "channel": "scamsniffer-issue",
+          "title": "ScamSniffer scam-database issue",
+          "to": "https://github.com/scamsniffer/scam-database/issues/new",
+          "subject": "[Phishing] potlock.xyz - POTLOCK impersonation",
+          "body": "DRAFT - NOT FILED. File only after the brand owner approves it and has signed a Letter of Authorisation.\n\nDomain: potlock.xyz\nScam addresses (with chain): {{ADD IF KNOWN, e.g. from a victim's drain tx}}\nImpersonates: POTLOCK (official: https://potlock.org)\n\nEvidence (observed 2026-11-01):\n- Official name on a different TLD\n- One of 3 lookalikes on the same DNS account (henrik.ns.cloudflare.com + meera.ns.cloudflare.com): a single operator\n- Page title resembles the official title (80%)\n- Brand named on the page (108x), including the title\n- Resolves to 216.150.16.1, 216.150.1.1\n- Page title: \"POTLOCK | Open Funding Stack & AI-PGF\"\n- Screenshot: shots/potlock.xyz.jpg (attach)",
+          "notes": [
+            "ScamSniffer asks for issues, not PRs (their JSON is regenerated). Attach the screenshot."
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "domain",
+      "host": "potlock.app",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "tld-swap",
+      "dns": {
+        "domain": "potlock.app",
+        "registered": true,
+        "a": [
+          "216.150.1.65",
+          "216.150.16.65"
+        ],
+        "aaaa": [],
+        "mx": [],
+        "ns": [
+          "henrik.ns.cloudflare.com",
+          "meera.ns.cloudflare.com"
+        ]
+      },
+      "page": {
+        "url": "https://potlock.app/",
+        "finalUrl": "https://www.potlock.app/",
+        "status": 200,
+        "title": "POTLOCK | Open Funding Stack & AI-PGF",
+        "scriptUrls": [
+          "https://www.potlock.app/_next/static/chunks/fd9d1056-2d7a8d217105eef5.js?dpl=dpl_3kamMtr78jJXus6bNupkfb9LVESH",
+          "https://www.potlock.app/_next/static/chunks/2117-dff82cfb37b2199f.js?dpl=dpl_3kamMtr78jJXus6bNupkfb9LVESH",
+          "https://www.potlock.app/_next/static/chunks/main-app-dd9357982cbe95c2.js?dpl=dpl_3kamMtr78jJXus6bNupkfb9LVESH",
+          "https://www.potlock.app/_next/static/chunks/0e5ce63c-cd4e5a36f146fdda.js?dpl=dpl_3kamMtr78jJXus6bNupkfb9LVESH",
+          "https://www.potlock.app/_next/static/chunks/4609-8d1d94451eeceac3.js?dpl=dpl_3kamMtr78jJXus6bNupkfb9LVESH",
+          "https://www.potlock.app/_next/static/chunks/6929-3b368520c2ca3885.js?dpl=dpl_3kamMtr78jJXus6bNupkfb9LVESH"
+        ],
+        "signals": {
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "secretForm": false,
+          "lure": [],
+          "drainerJs": [],
+          "parked": [],
+          "cryptoContext": [
+            "crypto",
+            "token",
+            "Swap",
+            "stake",
+            "Web3",
+            "Blockchain",
+            "DEX",
+            "ETH",
+            "bridge"
+          ],
+          "interstitial": [],
+          "challenge": []
+        },
+        "brandMentions": 108,
+        "brandInTitle": true,
+        "bytes": 531650,
+        "renderedWith": "playwright",
+        "faviconUrl": "https://www.potlock.app/favicon.png",
+        "faviconSha256": "882d5a1ab427e13926e800959d3496b7526653edf0530aa2008c426683c19fed",
+        "screenshot": "/Users/kacpergumieniuk/Projects/4b47/mimicwatch-near/data/scans/2026-11-01/domains/potlock-2026-11-01/shots/potlock.app.jpg",
+        "textSample": "Skip to main content POTLOCK For Projects Our Products Testimonials reply.cash Launch The Open Funding Stack, Raise ✨ ✨ ✨ For Anything. Founders, projects, non-profits, & contributors can raise funds for anything in any supported asset + chain. While treasuries & foundations can create funding round"
+      },
+      "similarity": {
+        "title": 0.8,
+        "text": 0,
+        "favicon": false,
+        "overall": 0.28
+      },
+      "listedOn": [],
+      "score": 50,
+      "severity": "high",
+      "label": "impersonation",
+      "evidence": [
+        "Official name on a different TLD",
+        "One of 3 lookalikes on the same DNS account (henrik.ns.cloudflare.com + meera.ns.cloudflare.com): a single operator",
+        "Page title resembles the official title (80%)",
+        "Brand named on the page (108x), including the title"
+      ],
+      "action": "Review the screenshot. If it impersonates the brand, file registrar + host reports (drafts attached).",
+      "alreadyBlocked": false,
+      "rdap": {
+        "domain": "potlock.app",
+        "registrar": "Squarespace Domains II LLC.",
+        "ianaId": "895",
+        "abuse": {
+          "name": "Abuse",
+          "email": "abuse-complaints@squarespace.com",
+          "phone": "+1.6466935324"
+        },
+        "registered": "2023-07-02T15:56:44.514Z",
+        "expires": "2027-07-02T15:56:44.514Z",
+        "status": [
+          "client delete prohibited",
+          "client transfer prohibited"
+        ],
+        "source": "https://pubapi.registry.google/rdap/domain/potlock.app"
+      },
+      "hosting": {
+        "ip": "216.150.1.65",
+        "network": "VERCEL-09",
+        "org": "Vercel, Inc",
+        "abuse": {
+          "name": "Abuse",
+          "email": "abuse@vercel.com",
+          "phone": "+1-415-980-8007"
+        }
+      },
+      "drafts": [
+        {
+          "channel": "registrar-abuse",
+          "title": "Registrar abuse report to Squarespace Domains II LLC.",
+          "to": "abuse-complaints@squarespace.com",
+          "subject": "Phishing / brand impersonation: potlock.app impersonates POTLOCK",
+          "body": "DRAFT - NOT FILED. File only after the brand owner approves it and has signed a Letter of Authorisation.\n\nHello Squarespace Domains II LLC. abuse team,\n\nThe domain potlock[.]app (registered with you on 2023-07-02) is being used to impersonate POTLOCK, a crypto project whose official site is hxxps://potlock[.]org. We ask you to suspend the domain under your abuse policy and the RAA section 3.18 obligations.\n\nEvidence (observed 2026-11-01, read-only, URLs defanged):\n- URL: hxxps://www[.]potlock[.]app/\n- Official name on a different TLD\n- One of 3 lookalikes on the same DNS account (henrik.ns.cloudflare.com + meera.ns.cloudflare.com): a single operator\n- Page title resembles the official title (80%)\n- Brand named on the page (108x), including the title\n- Resolves to 216.150.1.65, 216.150.16.65\n- Page title: \"POTLOCK | Open Funding Stack & AI-PGF\"\n- Screenshot: shots/potlock.app.jpg (attach)\n\nWe are not affiliated with the operator of potlock[.]app. POTLOCK has not authorised its use of the brand. Screenshots and HTML captures are available on request.\n\nRegards,\n{{REPORTER_NAME}}\n{{REPORTER_ORG}}, acting for POTLOCK under a Letter of Authorisation dated {{LOA_DATE}}\n{{REPORTER_EMAIL}}",
+          "notes": [
+            "Registrar IANA ID 895, abuse phone +1.6466935324"
+          ]
+        },
+        {
+          "channel": "host-abuse",
+          "title": "Hosting abuse report to Vercel, Inc",
+          "to": "abuse@vercel.com",
+          "subject": "Phishing site hosted on your network: potlock.app (POTLOCK impersonation)",
+          "body": "DRAFT - NOT FILED. File only after the brand owner approves it and has signed a Letter of Authorisation.\n\nHello Vercel, Inc,\n\nhxxps://www[.]potlock[.]app/ (216.150.1.65, 216.150.16.65) is hosted on your network and impersonates POTLOCK (official: hxxps://potlock[.]org).\n\nEvidence (observed 2026-11-01):\n- Official name on a different TLD\n- One of 3 lookalikes on the same DNS account (henrik.ns.cloudflare.com + meera.ns.cloudflare.com): a single operator\n- Page title resembles the official title (80%)\n- Brand named on the page (108x), including the title\n- Resolves to 216.150.1.65, 216.150.16.65\n- Page title: \"POTLOCK | Open Funding Stack & AI-PGF\"\n- Screenshot: shots/potlock.app.jpg (attach)\n\nPlease take the content down under your acceptable use policy.\n\nRegards,\n{{REPORTER_NAME}}\n{{REPORTER_ORG}}, acting for POTLOCK under a Letter of Authorisation dated {{LOA_DATE}}\n{{REPORTER_EMAIL}}",
+          "notes": []
+        },
+        {
+          "channel": "google-safe-browsing",
+          "title": "Google Safe Browsing report",
+          "to": "https://safebrowsing.google.com/safebrowsing/report_phish/?url=https%3A%2F%2Fwww.potlock.app%2F",
+          "fields": {
+            "Report Type": "This page is not safe",
+            "Threat Type": "Social engineering (phishing) - pick the closest option shown",
+            "Threat Category": "Pick the closest option shown (impersonation / phishing)",
+            "URL to report": "https://www.potlock.app/",
+            "Additional details (max 800)": "Impersonates POTLOCK (official: https://potlock.org). Page title resembles the official title (80%); Brand named on the page (108x), including the title; Official name on a different TLD; One of 3 lookalikes on the same DNS account (henrik.ns.cloudflare.com + meera.ns.cloudflare.com): a single operator."
+          },
+          "body": "DRAFT - NOT FILED. File only after the brand owner approves it and has signed a Letter of Authorisation.\n\nImpersonates POTLOCK (official: https://potlock.org). Page title resembles the official title (80%); Brand named on the page (108x), including the title; Official name on a different TLD; One of 3 lookalikes on the same DNS account (henrik.ns.cloudflare.com + meera.ns.cloudflare.com): a single operator.",
+          "notes": [
+            "Web form with reCAPTCHA: a person has to submit it."
+          ]
+        },
+        {
+          "channel": "netcraft",
+          "title": "Netcraft report",
+          "to": "https://report.netcraft.com/report",
+          "fields": {
+            "The URL of the site": "https://www.potlock.app/",
+            "Further details": "Impersonates POTLOCK (official: https://potlock.org). Page title resembles the official title (80%); Brand named on the page (108x), including the title; Official name on a different TLD; One of 3 lookalikes on the same DNS account (henrik.ns.cloudflare.com + meera.ns.cloudflare.com): a single operator.",
+            "Your email address": "{{REPORTER_EMAIL}}"
+          },
+          "body": "DRAFT - NOT FILED. File only after the brand owner approves it and has signed a Letter of Authorisation.\n\nImpersonates POTLOCK (official: https://potlock.org). Page title resembles the official title (80%); Brand named on the page (108x), including the title; Official name on a different TLD; One of 3 lookalikes on the same DNS account (henrik.ns.cloudflare.com + meera.ns.cloudflare.com): a single operator.",
+          "notes": [
+            "Web form with reCAPTCHA. Netcraft feeds many browser and registrar blocklists."
+          ]
+        },
+        {
+          "channel": "metamask-issue",
+          "title": "MetaMask eth-phishing-detect: blocklist addition issue",
+          "to": "https://github.com/MetaMask/eth-phishing-detect/issues/new?template=01-blocklist-addition.yaml",
+          "fields": {
+            "Malicious domains, IPs, IPFS hashes, or IPNS names": "https://www.potlock.app/",
+            "Please explain why this content is malicious": "Impersonates POTLOCK (official: https://potlock.org). Page title resembles the official title (80%); Brand named on the page (108x), including the title; Official name on a different TLD; One of 3 lookalikes on the same DNS account (henrik.ns.cloudflare.com + meera.ns.cloudflare.com): a single operator. Observed 2026-11-01. Reported on behalf of POTLOCK.",
+            "Is this a duplicate request?": "Search open issues for the domain first, then tick the box"
+          },
+          "body": "DRAFT - NOT FILED. File only after the brand owner approves it and has signed a Letter of Authorisation.\n\nImpersonates POTLOCK (official: https://potlock.org). Page title resembles the official title (80%); Brand named on the page (108x), including the title; Official name on a different TLD; One of 3 lookalikes on the same DNS account (henrik.ns.cloudflare.com + meera.ns.cloudflare.com): a single operator."
+        },
+        {
+          "channel": "metamask-pr",
+          "title": "MetaMask eth-phishing-detect: alternative PR (slower; most merges are bot syncs)",
+          "to": "https://github.com/MetaMask/eth-phishing-detect",
+          "body": "DRAFT - NOT FILED. File only after the brand owner approves it and has signed a Letter of Authorisation.\n\ngit checkout -b block-potlock.app\nyarn add:blocklist potlock.app\n\nPR title: Block potlock.app (POTLOCK impersonation)\nPR body: Impersonates POTLOCK (official: https://potlock.org). Page title resembles the official title (80%); Brand named on the page (108x), including the title; Official name on a different TLD; One of 3 lookalikes on the same DNS account (henrik.ns.cloudflare.com + meera.ns.cloudflare.com): a single operator."
+        },
+        {
+          "channel": "scamsniffer-issue",
+          "title": "ScamSniffer scam-database issue",
+          "to": "https://github.com/scamsniffer/scam-database/issues/new",
+          "subject": "[Phishing] potlock.app - POTLOCK impersonation",
+          "body": "DRAFT - NOT FILED. File only after the brand owner approves it and has signed a Letter of Authorisation.\n\nDomain: potlock.app\nScam addresses (with chain): {{ADD IF KNOWN, e.g. from a victim's drain tx}}\nImpersonates: POTLOCK (official: https://potlock.org)\n\nEvidence (observed 2026-11-01):\n- Official name on a different TLD\n- One of 3 lookalikes on the same DNS account (henrik.ns.cloudflare.com + meera.ns.cloudflare.com): a single operator\n- Page title resembles the official title (80%)\n- Brand named on the page (108x), including the title\n- Resolves to 216.150.1.65, 216.150.16.65\n- Page title: \"POTLOCK | Open Funding Stack & AI-PGF\"\n- Screenshot: shots/potlock.app.jpg (attach)",
+          "notes": [
+            "ScamSniffer asks for issues, not PRs (their JSON is regenerated). Attach the screenshot."
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "domain",
+      "host": "potlockapp.org",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "dictionary",
+      "dns": {
+        "domain": "potlockapp.org",
+        "registered": true,
+        "a": [
+          "35.157.26.135",
+          "63.176.8.218"
+        ],
+        "aaaa": [],
+        "mx": [
+          "smtp.google.com"
+        ],
+        "ns": [
+          "dns3.p03.nsone.net",
+          "dns1.p03.nsone.net",
+          "dns2.p03.nsone.net",
+          "dns4.p03.nsone.net"
+        ]
+      },
+      "page": {
+        "url": "https://potlockapp.org/",
+        "finalUrl": "https://potlockapp.org/",
+        "status": 200,
+        "title": "PotLock — Golf Bets, Settled Instantly",
+        "scriptUrls": [],
+        "signals": {
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "secretForm": false,
+          "lure": [
+            "Eligibility",
+            "Refund"
+          ],
+          "drainerJs": [],
+          "parked": [],
+          "cryptoContext": [],
+          "interstitial": [],
+          "challenge": []
+        },
+        "brandMentions": 48,
+        "brandInTitle": true,
+        "bytes": 690815,
+        "renderedWith": "playwright",
+        "faviconUrl": "https://potlockapp.org/favicon.ico",
+        "screenshot": "/Users/kacpergumieniuk/Projects/4b47/mimicwatch-near/data/scans/2026-11-01/domains/potlock-2026-11-01/shots/potlockapp.org.jpg",
+        "textSample": "PotLock. How It Works Features Screenshots Company Terms Privacy Join Waitlist Real Money Golf Bets Stop chasing. Start collecting. PotLock locks everyone's deposit before the round starts. No more IOUs. No awkward follow-ups. The winner gets paid automatically the moment scores are confirmed. Join "
+      },
+      "similarity": {
+        "title": 0.8,
+        "text": 0,
+        "favicon": false,
+        "overall": 0.28
+      },
+      "listedOn": [],
+      "score": 35,
+      "severity": "low",
+      "label": "likely-false-positive",
+      "evidence": [
+        "Brand name plus a phishing lure word",
+        "Page title resembles the official title (80%)",
+        "Brand word used without any crypto context (48x): probably an unrelated business"
+      ],
+      "action": "No action (labelled false positive).",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "potloc.org",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "omission",
+      "dns": {
+        "domain": "potloc.org",
+        "registered": true,
+        "a": [
+          "15.197.225.128",
+          "3.33.251.168"
+        ],
+        "aaaa": [],
+        "mx": [
+          "smtp.secureserver.net",
+          "mailstore1.secureserver.net"
+        ],
+        "ns": [
+          "ns55.domaincontrol.com",
+          "ns56.domaincontrol.com"
+        ]
+      },
+      "page": {
+        "url": "https://potloc.org/",
+        "finalUrl": "https://www.potloc.com/",
+        "status": 200,
+        "title": "Potloc | All-in Survey Platform",
+        "scriptUrls": [
+          "https://www.potloc.com/_hcms/cookie-banner/auto-blocking.js?portalId=2851660&amp;domain=www.potloc.com",
+          "https://www.potloc.com/hubfs/hub_generated/template_assets/1/180035627635/1791471408043/template_load-js.min.js",
+          "https://unpkg.com/@popperjs/core@2",
+          "https://unpkg.com/embla-carousel/embla-carousel.umd.js",
+          "https://unpkg.com/embla-carousel-auto-scroll/embla-carousel-auto-scroll.umd.js",
+          "https://unpkg.com/embla-carousel-wheel-gestures/dist/embla-carousel-wheel-gestures.umd.js"
+        ],
+        "signals": {
+          "secretForm": false,
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "lure": [],
+          "drainerJs": [],
+          "parked": [],
+          "cryptoContext": [],
+          "interstitial": [],
+          "challenge": []
+        },
+        "brandMentions": 0,
+        "brandInTitle": false,
+        "bytes": 332314,
+        "renderedWith": "http",
+        "faviconUrl": "https://www.potloc.com/hubfs/Potloc_SYMBOL_Black.png",
+        "faviconSha256": "1d5436a90e02ea716d16f52e060805f5b41a035fde6a0a6f463f3d4a574ab9df",
+        "textSample": "this.dismissed) { this.dismissed = false; } } }\" x-init=\"init()\" @scroll.window=\"opacity = 1.2 - window.pageYOffset / $el.offsetHeight\" x-cloak x-show=\"!dismissed\" x-collapse class=\"sticky top-0 bg-black\"> POTLOC ANNOUNCES END-TO-END AGENTIC PLATFORM Beta available this quarter, with a full launch i"
+      },
+      "similarity": {
+        "title": 0.24,
+        "text": 0,
+        "favicon": false,
+        "overall": 0.08
+      },
+      "listedOn": [],
+      "score": 28,
+      "severity": "low",
+      "label": "likely-false-positive",
+      "evidence": [
+        "Typosquat (omission) of the official domain",
+        "No brand content found on the page: probably unrelated (false positive)"
+      ],
+      "action": "No action (labelled false positive).",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "porlock.org",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "replacement",
+      "dns": {
+        "domain": "porlock.org",
+        "registered": true,
+        "a": [
+          "64.190.63.222"
+        ],
+        "aaaa": [],
+        "mx": [
+          "localhost"
+        ],
+        "ns": [
+          "ns2.sedoparking.com",
+          "ns1.sedoparking.com"
+        ]
+      },
+      "page": {
+        "url": "http://porlock.org/",
+        "finalUrl": "http://porlock.org/",
+        "status": 200,
+        "title": "porlock.org - Ta strona jest na sprzedaż! - porlock Zasoby i informacje.",
+        "scriptUrls": [],
+        "signals": {
+          "secretForm": false,
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "lure": [],
+          "drainerJs": [],
+          "parked": [
+            "na sprzedaż",
+            "Zasoby i informacje"
+          ],
+          "cryptoContext": [],
+          "interstitial": [],
+          "challenge": []
+        },
+        "brandMentions": 0,
+        "brandInTitle": false,
+        "bytes": 3064,
+        "renderedWith": "http",
+        "faviconUrl": "http://img.sedoparking.com/templates/logos/sedo_logo.png",
+        "faviconSha256": "95c427fa3143b1896faf42a6406686ce7602cb39052081bb32d12b51c9e047e4",
+        "textSample": ""
+      },
+      "similarity": {
+        "title": 0.13,
+        "text": 0,
+        "favicon": false,
+        "overall": 0.04
+      },
+      "listedOn": [],
+      "score": 26,
+      "severity": "low",
+      "label": "parked",
+      "evidence": [
+        "Typosquat (replacement) of the official domain",
+        "Parked / for-sale page"
+      ],
+      "action": "Monitor. Consider buying it defensively or a UDRP if it turns active.",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "potluck.org",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "vowel-swap",
+      "dns": {
+        "domain": "potluck.org",
+        "registered": true,
+        "a": [
+          "192.64.119.61"
+        ],
+        "aaaa": [],
+        "mx": [],
+        "ns": [
+          "dns1.registrar-servers.com",
+          "dns2.registrar-servers.com"
+        ]
+      },
+      "page": {
+        "url": "http://potluck.org/",
+        "finalUrl": "http://www.cyberfinder.com/",
+        "status": 200,
+        "title": "cyberfinder.com",
+        "scriptUrls": [
+          "http://www.cyberfinder.com/jquery-3.7.1.min.js",
+          "http://www.cyberfinder.com/cookie_checks_top_bar.js"
+        ],
+        "signals": {
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "secretForm": false,
+          "lure": [],
+          "drainerJs": [],
+          "parked": [],
+          "cryptoContext": [],
+          "interstitial": [],
+          "challenge": []
+        },
+        "brandMentions": 0,
+        "brandInTitle": false,
+        "bytes": 8464,
+        "renderedWith": "playwright",
+        "faviconUrl": "http://www.cyberfinder.com/favicon.ico",
+        "screenshot": "/Users/kacpergumieniuk/Projects/4b47/mimicwatch-near/data/scans/2026-11-01/domains/potlock-2026-11-01/shots/potluck.org.jpg",
+        "textSample": "This website uses cookies to ensure you get the best experience on our website. MORE INFO YES, I ACCEPT Reflex Publishing Domain Portfolio cyberfinder.com cyberfinder.com Reflex Publishing · Privacy Policy · © 2026 Reflex Publishing"
+      },
+      "similarity": {
+        "title": 0.07,
+        "text": 0,
+        "favicon": false,
+        "overall": 0.02
+      },
+      "listedOn": [],
+      "score": 26,
+      "severity": "low",
+      "label": "likely-false-positive",
+      "evidence": [
+        "Typosquat (vowel-swap) of the official domain",
+        "No brand content found on the page: probably unrelated (false positive)"
+      ],
+      "action": "No action (labelled false positive).",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "potlock.com",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "tld-swap",
+      "dns": {
+        "domain": "potlock.com",
+        "registered": true,
+        "a": [
+          "15.197.225.128",
+          "3.33.251.168"
+        ],
+        "aaaa": [],
+        "mx": [],
+        "ns": [
+          "ns48.domaincontrol.com",
+          "ns47.domaincontrol.com"
+        ]
+      },
+      "page": {
+        "url": "https://potlock.com/",
+        "finalUrl": "https://www.facebook.com/weedlock-128468115376337",
+        "status": 400,
+        "title": "Facebook",
+        "scriptUrls": [],
+        "signals": {
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "secretForm": false,
+          "lure": [],
+          "drainerJs": [],
+          "parked": [],
+          "cryptoContext": [],
+          "interstitial": [],
+          "challenge": []
+        },
+        "brandMentions": 0,
+        "brandInTitle": false,
+        "bytes": 1542,
+        "renderedWith": "playwright",
+        "faviconUrl": "https://www.facebook.com/favicon.ico",
+        "faviconSha256": "8924f44d76426a340b105cbdc5b93678c6b772e847b393f2568d94847c0d8d80",
+        "screenshot": "/Users/kacpergumieniuk/Projects/4b47/mimicwatch-near/data/scans/2026-11-01/domains/potlock-2026-11-01/shots/potlock.com.jpg",
+        "textSample": "Zaloguj się Zaloguj się Nie pamiętasz nazwy konta? Te materiały nie są teraz dostępne Dzieje się tak zwykle, gdy właściciel udostępnił zawartość tylko małej grupie osób, zmienił jej widoczność lub ją usunął. Przejdź do Aktualności Wstecz Odwiedź Centrum pomocy Zezwolić na użycie plików cookie z Face"
+      },
+      "similarity": {
+        "title": 0.25,
+        "text": 0,
+        "favicon": false,
+        "overall": 0.09
+      },
+      "listedOn": [],
+      "score": 20,
+      "severity": "low",
+      "label": "lookalike-unknown-content",
+      "evidence": [
+        "Official name on a different TLD",
+        "Page returned HTTP 400"
+      ],
+      "action": "Re-check next scan; the content was not visible to us (error, bot wall or empty page).",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "potlock.net",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "tld-swap",
+      "dns": {
+        "domain": "potlock.net",
+        "registered": true,
+        "a": [
+          "3.33.251.168",
+          "15.197.225.128"
+        ],
+        "aaaa": [],
+        "mx": [],
+        "ns": [
+          "ns09.domaincontrol.com",
+          "ns10.domaincontrol.com"
+        ]
+      },
+      "page": {
+        "url": "https://potlock.net/",
+        "finalUrl": "https://relishcaterers.com/",
+        "status": 403,
+        "title": "Caterers NYC | Corporate & Wedding Catering – Relish Catering",
+        "scriptUrls": [],
+        "signals": {
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "secretForm": false,
+          "lure": [],
+          "drainerJs": [],
+          "parked": [],
+          "cryptoContext": [],
+          "interstitial": [],
+          "challenge": []
+        },
+        "brandMentions": 0,
+        "brandInTitle": false,
+        "bytes": 103,
+        "renderedWith": "playwright",
+        "faviconUrl": "http://relishcaterers.com/favicon.ico",
+        "screenshot": "/Users/kacpergumieniuk/Projects/4b47/mimicwatch-near/data/scans/2026-11-01/domains/potlock-2026-11-01/shots/potlock.net.jpg",
+        "textSample": "Skip to main content 212-228-1672 Contact Services Corporate Events Conference Catering Workplace Dining Weddings Social Events Delivery Gallery Cocktails Hors D’oeuvres Small Plates Mains Chef’s Table Dessert Stations Desserts Venues All Venues → Exclusive Preferred Sustainability Trusted Partners "
+      },
+      "similarity": {
+        "title": 0.1,
+        "text": 0,
+        "favicon": false,
+        "overall": 0.04
+      },
+      "listedOn": [],
+      "score": 20,
+      "severity": "low",
+      "label": "lookalike-unknown-content",
+      "evidence": [
+        "Official name on a different TLD",
+        "Page returned HTTP 403"
+      ],
+      "action": "Re-check next scan; the content was not visible to us (error, bot wall or empty page).",
+      "alreadyBlocked": false
+    }
+  ],
+  "tokens": [],
+  "errors": []
+}

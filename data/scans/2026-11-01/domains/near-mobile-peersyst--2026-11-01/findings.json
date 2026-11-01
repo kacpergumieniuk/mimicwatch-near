@@ -1,0 +1,362 @@
+{
+  "brand": {
+    "name": "NEAR Mobile (Peersyst)",
+    "officialDomains": [
+      "nearmobile.app"
+    ],
+    "referenceUrl": "https://www.nearmobile.app",
+    "officialTokens": [],
+    "officialSocials": {
+      "x": "NEARMobile_app",
+      "github": "Peersyst"
+    },
+    "keywords": [
+      "nearmobile",
+      "near-mobile"
+    ],
+    "allowlist": [],
+    "tokenChains": [
+      "base"
+    ]
+  },
+  "startedAt": "2026-11-01T16:15:51.721Z",
+  "finishedAt": "2026-11-01T16:17:03.518Z",
+  "periodDays": 30,
+  "official": {
+    "url": "https://www.nearmobile.app/",
+    "title": "NEAR Mobile - Best NEAR crypto Wallet",
+    "faviconSha256": "4afae7904f367eb6baf29b8637e428569d8bac2a18e6886982c9f1209d951570"
+  },
+  "stats": {
+    "permutations": 1273,
+    "permutationsRegistered": 2,
+    "ctHosts": 0,
+    "nrdHits": 0,
+    "candidates": 2,
+    "pagesFetched": 2,
+    "pagesRendered": 1,
+    "tokensIndexed": {},
+    "tokenMatches": 0
+  },
+  "coverage": {
+    "ct": [
+      {
+        "q": "nearmobile%",
+        "rows": 0,
+        "error": "HTTP 400"
+      },
+      {
+        "q": "nearmobile.%",
+        "rows": 0,
+        "error": "HTTP 400"
+      },
+      {
+        "q": "nearmobile-%",
+        "rows": 0,
+        "error": "HTTP 400"
+      },
+      {
+        "q": "%nearmobile%",
+        "rows": 0,
+        "error": "HTTP 400"
+      },
+      {
+        "q": "near-mobile%",
+        "rows": 0,
+        "error": "HTTP 400"
+      },
+      {
+        "q": "near-mobile.%",
+        "rows": 0,
+        "error": "HTTP 400"
+      },
+      {
+        "q": "near-mobile-%",
+        "rows": 0,
+        "error": "HTTP 400"
+      },
+      {
+        "q": "%near-mobile%",
+        "rows": 0,
+        "error": "HTTP 400"
+      }
+    ],
+    "nrd": [
+      {
+        "day": "2026-10-31",
+        "domains": 70000
+      },
+      {
+        "day": "2026-10-30",
+        "domains": 70000
+      },
+      {
+        "day": "2026-10-29",
+        "domains": 70000
+      },
+      {
+        "day": "2026-10-28",
+        "domains": 70000
+      }
+    ],
+    "tokens": [],
+    "blocklists": [
+      "metamask",
+      "scamsniffer"
+    ]
+  },
+  "domains": [
+    {
+      "kind": "domain",
+      "host": "nearmobile-rewards.app",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "dictionary",
+      "dns": {
+        "domain": "nearmobile-rewards.app",
+        "registered": true,
+        "a": [
+          "104.21.48.149",
+          "172.67.153.7"
+        ],
+        "aaaa": [],
+        "mx": [],
+        "ns": [
+          "joan.ns.cloudflare.com",
+          "hugh.ns.cloudflare.com"
+        ]
+      },
+      "page": {
+        "url": "https://nearmobile-rewards.app/",
+        "finalUrl": "about:blank",
+        "status": 200,
+        "title": "NEAR Mobile - Best NEAR crypto Wallet",
+        "scriptUrls": [
+          "https://nearmobile-rewards.app/NEAR%20Mobile%20-%20Best%20NEAR%20crypto%20Wallet_files/analytics.js.download",
+          "https://nearmobile-rewards.app/NEAR%20Mobile%20-%20Best%20NEAR%20crypto%20Wallet_files/js",
+          "https://nearmobile-rewards.app/NEAR%20Mobile%20-%20Best%20NEAR%20crypto%20Wallet_files/js(1)",
+          "https://nearmobile-rewards.app/NEAR%20Mobile%20-%20Best%20NEAR%20crypto%20Wallet_files/js(2)",
+          "https://nearmobile-rewards.app/react-dom-18.2.0.min.js",
+          "https://cdn.jsdelivr.net/npm/disable-devtool/disable-devtool.min.js"
+        ],
+        "signals": {
+          "walletPrompt": [],
+          "seedPhrase": [
+            "seed phrase"
+          ],
+          "secretForm": false,
+          "lure": [
+            "Claim",
+            "Rewards"
+          ],
+          "drainerJs": [],
+          "parked": [],
+          "cryptoContext": [
+            "crypto",
+            "tokens",
+            "Swap",
+            "Wallet",
+            "Staking",
+            "blockchain",
+            "Ethereum",
+            "bridge"
+          ],
+          "interstitial": [],
+          "challenge": []
+        },
+        "brandMentions": 0,
+        "brandInTitle": false,
+        "bytes": 495371,
+        "renderedWith": "playwright",
+        "faviconUrl": "https://framerusercontent.com/images/7KIH2M7LtFBetBX6UQcVzneeIQI.png",
+        "faviconSha256": "68cba4fd113ed5a3c74e274d0505c3df09adae498f297bad3056941bd9cc5f2f",
+        "screenshot": "/Users/kacpergumieniuk/Projects/4b47/mimicwatch-near/data/scans/2026-11-01/domains/near-mobile-peersyst--2026-11-01/shots/nearmobile-rewards.app.jpg",
+        "textSample": "NEAR Mobile Get the app Staking Rewards are Live 🚀 Staking Rewards are Live 🚀 Claim Rewards One Wallet. All Chains. Powered by NEAR Your NEAR wallet for the multichain era — with NEAR Intents, cross-chain swaps, staking, and full support for the NEAR blockchain Buy, send, and manage NEAR and Near "
+      },
+      "similarity": {
+        "title": 1,
+        "text": 0.7,
+        "favicon": false,
+        "overall": 0.7
+      },
+      "listedOn": [
+        "metamask"
+      ],
+      "score": 80,
+      "severity": "critical",
+      "label": "phishing-likely",
+      "evidence": [
+        "Brand name plus a phishing lure word",
+        "Already on public wallet blocklist(s): metamask",
+        "Page title resembles the official title (100%)",
+        "Page text overlaps the official site (70% shingles)",
+        "Mentions seed phrase (no input form seen)",
+        "Lure text: Claim, Rewards"
+      ],
+      "action": "Already blocked (metamask). After client approval: file registrar and host abuse reports so the domain itself goes away (drafts attached).",
+      "alreadyBlocked": true,
+      "rdap": {
+        "domain": "nearmobile-rewards.app",
+        "registrar": "NICENIC INTERNATIONAL GROUP CO., LIMITED",
+        "ianaId": "3765",
+        "abuse": {
+          "name": "NICENIC INTERNATIONAL GROUP CO., LIMITED",
+          "email": "abuse@nicenic.net",
+          "phone": "+1.4006228300"
+        },
+        "registered": "2026-02-22T21:58:10.632Z",
+        "expires": "2027-02-22T21:58:10.632Z",
+        "status": [
+          "client delete prohibited",
+          "client transfer prohibited"
+        ],
+        "source": "https://pubapi.registry.google/rdap/domain/nearmobile-rewards.app"
+      },
+      "hosting": {
+        "ip": "104.21.48.149",
+        "network": "CLOUDFLARENET",
+        "org": "Cloudflare, Inc.",
+        "abuse": {
+          "name": "Abuse",
+          "email": "abuse@cloudflare.com",
+          "phone": "+1-650-319-8930",
+          "form": "https://abuse.cloudflare.com/"
+        }
+      },
+      "drafts": [
+        {
+          "channel": "registrar-abuse",
+          "title": "Registrar abuse report to NICENIC INTERNATIONAL GROUP CO., LIMITED",
+          "to": "abuse@nicenic.net",
+          "subject": "Phishing / brand impersonation: nearmobile-rewards.app impersonates NEAR Mobile (Peersyst)",
+          "body": "DRAFT - NOT FILED. File only after the brand owner approves it and has signed a Letter of Authorisation.\n\nHello NICENIC INTERNATIONAL GROUP CO., LIMITED abuse team,\n\nThe domain nearmobile-rewards[.]app (registered with you on 2026-02-22) is being used to impersonate NEAR Mobile (Peersyst), a crypto project whose official site is hxxps://nearmobile[.]app. We ask you to suspend the domain under your abuse policy and the RAA section 3.18 obligations.\n\nEvidence (observed 2026-11-01, read-only, URLs defanged):\n- URL: about:blank\n- Brand name plus a phishing lure word\n- Already on public wallet blocklist(s): metamask\n- Page title resembles the official title (100%)\n- Page text overlaps the official site (70% shingles)\n- Mentions seed phrase (no input form seen)\n- Lure text: Claim, Rewards\n- Resolves to 104.21.48.149, 172.67.153.7\n- Page title: \"NEAR Mobile - Best NEAR crypto Wallet\"\n- Screenshot: shots/nearmobile-rewards.app.jpg (attach)\n\nWe are not affiliated with the operator of nearmobile-rewards[.]app. NEAR Mobile (Peersyst) has not authorised its use of the brand. Screenshots and HTML captures are available on request.\n\nRegards,\n{{REPORTER_NAME}}\n{{REPORTER_ORG}}, acting for NEAR Mobile (Peersyst) under a Letter of Authorisation dated {{LOA_DATE}}\n{{REPORTER_EMAIL}}",
+          "notes": [
+            "Registrar IANA ID 3765, abuse phone +1.4006228300"
+          ]
+        },
+        {
+          "channel": "host-abuse",
+          "title": "Hosting abuse report to Cloudflare, Inc.",
+          "to": "https://abuse.cloudflare.com/",
+          "subject": "Phishing site hosted on your network: nearmobile-rewards.app (NEAR Mobile (Peersyst) impersonation)",
+          "body": "DRAFT - NOT FILED. File only after the brand owner approves it and has signed a Letter of Authorisation.\n\nHello Cloudflare, Inc.,\n\nabout:blank (104.21.48.149, 172.67.153.7) is hosted on your network and impersonates NEAR Mobile (Peersyst) (official: hxxps://nearmobile[.]app).\n\nEvidence (observed 2026-11-01):\n- Brand name plus a phishing lure word\n- Already on public wallet blocklist(s): metamask\n- Page title resembles the official title (100%)\n- Page text overlaps the official site (70% shingles)\n- Mentions seed phrase (no input form seen)\n- Lure text: Claim, Rewards\n- Resolves to 104.21.48.149, 172.67.153.7\n- Page title: \"NEAR Mobile - Best NEAR crypto Wallet\"\n- Screenshot: shots/nearmobile-rewards.app.jpg (attach)\n\nPlease take the content down under your acceptable use policy.\n\nRegards,\n{{REPORTER_NAME}}\n{{REPORTER_ORG}}, acting for NEAR Mobile (Peersyst) under a Letter of Authorisation dated {{LOA_DATE}}\n{{REPORTER_EMAIL}}",
+          "notes": [
+            "Email alternative: abuse@cloudflare.com"
+          ]
+        },
+        {
+          "channel": "google-safe-browsing",
+          "title": "Google Safe Browsing report",
+          "to": "https://safebrowsing.google.com/safebrowsing/report_phish/?url=about%3Ablank",
+          "fields": {
+            "Report Type": "This page is not safe",
+            "Threat Type": "Social engineering (phishing) - pick the closest option shown",
+            "Threat Category": "Pick the closest option shown (impersonation / phishing)",
+            "URL to report": "about:blank",
+            "Additional details (max 800)": "Impersonates NEAR Mobile (Peersyst) (official: https://nearmobile.app). Page text overlaps the official site (70% shingles); Page title resembles the official title (100%); Already on public wallet blocklist(s): metamask; Brand name plus a phishing lure word."
+          },
+          "body": "DRAFT - NOT FILED. File only after the brand owner approves it and has signed a Letter of Authorisation.\n\nImpersonates NEAR Mobile (Peersyst) (official: https://nearmobile.app). Page text overlaps the official site (70% shingles); Page title resembles the official title (100%); Already on public wallet blocklist(s): metamask; Brand name plus a phishing lure word.",
+          "notes": [
+            "Web form with reCAPTCHA: a person has to submit it."
+          ]
+        },
+        {
+          "channel": "netcraft",
+          "title": "Netcraft report",
+          "to": "https://report.netcraft.com/report",
+          "fields": {
+            "The URL of the site": "about:blank",
+            "Further details": "Impersonates NEAR Mobile (Peersyst) (official: https://nearmobile.app). Page text overlaps the official site (70% shingles); Page title resembles the official title (100%); Already on public wallet blocklist(s): metamask; Brand name plus a phishing lure word.",
+            "Your email address": "{{REPORTER_EMAIL}}"
+          },
+          "body": "DRAFT - NOT FILED. File only after the brand owner approves it and has signed a Letter of Authorisation.\n\nImpersonates NEAR Mobile (Peersyst) (official: https://nearmobile.app). Page text overlaps the official site (70% shingles); Page title resembles the official title (100%); Already on public wallet blocklist(s): metamask; Brand name plus a phishing lure word.",
+          "notes": [
+            "Web form with reCAPTCHA. Netcraft feeds many browser and registrar blocklists."
+          ]
+        },
+        {
+          "channel": "scamsniffer-issue",
+          "title": "ScamSniffer scam-database issue",
+          "to": "https://github.com/scamsniffer/scam-database/issues/new",
+          "subject": "[Phishing] nearmobile-rewards.app - NEAR Mobile (Peersyst) impersonation",
+          "body": "DRAFT - NOT FILED. File only after the brand owner approves it and has signed a Letter of Authorisation.\n\nDomain: nearmobile-rewards.app\nScam addresses (with chain): {{ADD IF KNOWN, e.g. from a victim's drain tx}}\nImpersonates: NEAR Mobile (Peersyst) (official: https://nearmobile.app)\n\nEvidence (observed 2026-11-01):\n- Brand name plus a phishing lure word\n- Already on public wallet blocklist(s): metamask\n- Page title resembles the official title (100%)\n- Page text overlaps the official site (70% shingles)\n- Mentions seed phrase (no input form seen)\n- Lure text: Claim, Rewards\n- Resolves to 104.21.48.149, 172.67.153.7\n- Page title: \"NEAR Mobile - Best NEAR crypto Wallet\"\n- Screenshot: shots/nearmobile-rewards.app.jpg (attach)",
+          "notes": [
+            "ScamSniffer asks for issues, not PRs (their JSON is regenerated). Attach the screenshot."
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "domain",
+      "host": "nearmobile.info",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "tld-swap",
+      "dns": {
+        "domain": "nearmobile.info",
+        "registered": true,
+        "a": [
+          "91.195.240.123"
+        ],
+        "aaaa": [],
+        "mx": [
+          "mx1.titan.email",
+          "mx2.titan.email"
+        ],
+        "ns": [
+          "ns2.dnsowl.com",
+          "ns3.dnsowl.com",
+          "ns1.dnsowl.com"
+        ]
+      },
+      "page": {
+        "url": "https://nearmobile.info/",
+        "finalUrl": "https://nearmobile.info/",
+        "status": 200,
+        "title": "nearmobile.info - nearmobile Zasoby i informacje.",
+        "scriptUrls": [],
+        "signals": {
+          "secretForm": false,
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "lure": [],
+          "drainerJs": [],
+          "parked": [
+            "Zasoby i informacje"
+          ],
+          "cryptoContext": [],
+          "interstitial": [],
+          "challenge": []
+        },
+        "brandMentions": 1,
+        "brandInTitle": true,
+        "bytes": 3024,
+        "renderedWith": "http",
+        "faviconUrl": "https://img.sedoparking.com/templates/logos/sedo_logo.png",
+        "faviconSha256": "95c427fa3143b1896faf42a6406686ce7602cb39052081bb32d12b51c9e047e4",
+        "textSample": ""
+      },
+      "similarity": {
+        "title": 0,
+        "text": 0,
+        "favicon": false,
+        "overall": 0
+      },
+      "listedOn": [],
+      "score": 20,
+      "severity": "low",
+      "label": "parked",
+      "evidence": [
+        "Official name on a different TLD",
+        "Parked / for-sale page",
+        "Brand word used without any crypto context (1x): probably an unrelated business"
+      ],
+      "action": "Monitor. Consider buying it defensively or a UDRP if it turns active.",
+      "alreadyBlocked": false
+    }
+  ],
+  "tokens": [],
+  "errors": []
+}

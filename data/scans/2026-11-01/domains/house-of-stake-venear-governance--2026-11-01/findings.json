@@ -1,0 +1,194 @@
+{
+  "brand": {
+    "name": "House of Stake (veNEAR governance)",
+    "officialDomains": [
+      "houseofstake.org"
+    ],
+    "referenceUrl": "https://houseofstake.org",
+    "officialTokens": [],
+    "officialSocials": {
+      "x": "neargovernance",
+      "github": "houseofstake"
+    },
+    "keywords": [
+      "houseofstake",
+      "house-of-stake",
+      "venear"
+    ],
+    "allowlist": [],
+    "tokenChains": [
+      "base"
+    ]
+  },
+  "startedAt": "2026-11-01T16:15:53.581Z",
+  "finishedAt": "2026-11-01T16:17:31.988Z",
+  "periodDays": 30,
+  "official": {
+    "url": "https://houseofstake.org/home",
+    "title": "About NEAR House of Stake",
+    "faviconSha256": "e9372821bea3a206410525085a7a6ef2c521675119807de3d67ad7b5c395b1c6"
+  },
+  "stats": {
+    "permutations": 1345,
+    "permutationsRegistered": 1,
+    "ctHosts": 0,
+    "nrdHits": 0,
+    "candidates": 1,
+    "pagesFetched": 1,
+    "pagesRendered": 0,
+    "tokensIndexed": {},
+    "tokenMatches": 0
+  },
+  "coverage": {
+    "ct": [
+      {
+        "q": "houseofstake%",
+        "rows": 0,
+        "error": "HTTP 400"
+      },
+      {
+        "q": "houseofstake.%",
+        "rows": 0,
+        "error": "HTTP 400"
+      },
+      {
+        "q": "houseofstake-%",
+        "rows": 0,
+        "error": "HTTP 400"
+      },
+      {
+        "q": "%houseofstake%",
+        "rows": 0,
+        "error": "HTTP 400"
+      },
+      {
+        "q": "house-of-stake%",
+        "rows": 0,
+        "error": "HTTP 400"
+      },
+      {
+        "q": "house-of-stake.%",
+        "rows": 0,
+        "error": "HTTP 400"
+      },
+      {
+        "q": "house-of-stake-%",
+        "rows": 0,
+        "error": "HTTP 400"
+      },
+      {
+        "q": "%house-of-stake%",
+        "rows": 0,
+        "error": "HTTP 400"
+      },
+      {
+        "q": "venear%",
+        "rows": 0,
+        "error": "HTTP 400"
+      },
+      {
+        "q": "venear.%",
+        "rows": 0,
+        "error": "HTTP 400"
+      },
+      {
+        "q": "venear-%",
+        "rows": 0,
+        "error": "HTTP 400"
+      },
+      {
+        "q": "%venear%",
+        "rows": 0,
+        "error": "HTTP 400"
+      }
+    ],
+    "nrd": [
+      {
+        "day": "2026-10-31",
+        "domains": 70000
+      },
+      {
+        "day": "2026-10-30",
+        "domains": 70000
+      },
+      {
+        "day": "2026-10-29",
+        "domains": 70000
+      },
+      {
+        "day": "2026-10-28",
+        "domains": 70000
+      }
+    ],
+    "tokens": [],
+    "blocklists": [
+      "metamask",
+      "scamsniffer"
+    ]
+  },
+  "domains": [
+    {
+      "kind": "domain",
+      "host": "houseofstake.com",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "tld-swap",
+      "dns": {
+        "domain": "houseofstake.com",
+        "registered": true,
+        "a": [
+          "162.255.119.202"
+        ],
+        "aaaa": [],
+        "mx": [
+          "eforward1.registrar-servers.com",
+          "eforward3.registrar-servers.com",
+          "eforward2.registrar-servers.com",
+          "eforward4.registrar-servers.com",
+          "eforward5.registrar-servers.com"
+        ],
+        "ns": [
+          "dns2.registrar-servers.com",
+          "dns1.registrar-servers.com"
+        ]
+      },
+      "page": {
+        "url": "https://houseofstake.com/",
+        "finalUrl": "https://houseofstake.com/",
+        "status": 0,
+        "title": "",
+        "scriptUrls": [],
+        "signals": {
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "secretForm": false,
+          "lure": [],
+          "drainerJs": [],
+          "parked": [],
+          "cryptoContext": [],
+          "interstitial": [],
+          "challenge": []
+        },
+        "brandMentions": 0,
+        "brandInTitle": false,
+        "bytes": 0,
+        "renderedWith": "http",
+        "error": "Connect Timeout Error (attempted address: houseofstake.com:443, timeout: 10000ms); http: getaddrinfo ENOTFOUND www.houseofstake.org",
+        "textSample": ""
+      },
+      "listedOn": [],
+      "score": 20,
+      "severity": "low",
+      "label": "lookalike-unknown-content",
+      "evidence": [
+        "Official name on a different TLD",
+        "Page not reachable: Connect Timeout Error (attempted address: houseofstake.com:443, timeout: 10000ms"
+      ],
+      "action": "Re-check next scan; the content was not visible to us (error, bot wall or empty page).",
+      "alreadyBlocked": false
+    }
+  ],
+  "tokens": [],
+  "errors": []
+}

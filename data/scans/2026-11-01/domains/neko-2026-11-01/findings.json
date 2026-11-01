@@ -1,0 +1,111 @@
+{
+  "brand": {
+    "name": "NEKO",
+    "officialDomains": [
+      "nekoonnear.com"
+    ],
+    "referenceUrl": "https://nekoonnear.com",
+    "officialTokens": [],
+    "officialSocials": {
+      "x": "nekotoken_xyz",
+      "telegram": "nekoisnear"
+    },
+    "keywords": [
+      "nekotoken",
+      "nekoonnear"
+    ],
+    "allowlist": [],
+    "tokenChains": [
+      "base"
+    ]
+  },
+  "startedAt": "2026-11-01T16:15:29.819Z",
+  "finishedAt": "2026-11-01T16:16:42.783Z",
+  "periodDays": 30,
+  "official": {
+    "url": "https://nekoonnear.com/",
+    "title": "NEKO on NEAR · Swap, Trade & Track NEAR Tokens",
+    "faviconSha256": "b5f4cb3b6e8e53c9bd875b59f6aa031826bf56f2199d0a77299abd540e858c68"
+  },
+  "stats": {
+    "permutations": 1262,
+    "permutationsRegistered": 0,
+    "ctHosts": 0,
+    "nrdHits": 0,
+    "candidates": 0,
+    "pagesFetched": 0,
+    "pagesRendered": 0,
+    "tokensIndexed": {},
+    "tokenMatches": 0
+  },
+  "coverage": {
+    "ct": [
+      {
+        "q": "nekotoken%",
+        "rows": 0,
+        "error": "HTTP 400"
+      },
+      {
+        "q": "nekotoken.%",
+        "rows": 0,
+        "error": "HTTP 400"
+      },
+      {
+        "q": "nekotoken-%",
+        "rows": 0,
+        "error": "HTTP 400"
+      },
+      {
+        "q": "%nekotoken%",
+        "rows": 0,
+        "error": "HTTP 400"
+      },
+      {
+        "q": "nekoonnear%",
+        "rows": 0,
+        "error": "HTTP 400"
+      },
+      {
+        "q": "nekoonnear.%",
+        "rows": 0,
+        "error": "HTTP 400"
+      },
+      {
+        "q": "nekoonnear-%",
+        "rows": 0,
+        "error": "HTTP 400"
+      },
+      {
+        "q": "%nekoonnear%",
+        "rows": 0,
+        "error": "HTTP 400"
+      }
+    ],
+    "nrd": [
+      {
+        "day": "2026-10-31",
+        "domains": 70000
+      },
+      {
+        "day": "2026-10-30",
+        "domains": 70000
+      },
+      {
+        "day": "2026-10-29",
+        "domains": 70000
+      },
+      {
+        "day": "2026-10-28",
+        "domains": 70000
+      }
+    ],
+    "tokens": [],
+    "blocklists": [
+      "metamask",
+      "scamsniffer"
+    ]
+  },
+  "domains": [],
+  "tokens": [],
+  "errors": []
+}

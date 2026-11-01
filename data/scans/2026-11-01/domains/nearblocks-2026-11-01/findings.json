@@ -1,0 +1,178 @@
+{
+  "brand": {
+    "name": "NearBlocks",
+    "officialDomains": [
+      "nearblocks.io"
+    ],
+    "referenceUrl": "https://nearblocks.io",
+    "officialTokens": [],
+    "officialSocials": {
+      "github": "Nearblocks"
+    },
+    "keywords": [
+      "nearblocks",
+      "near-blocks"
+    ],
+    "allowlist": [],
+    "tokenChains": [
+      "base"
+    ]
+  },
+  "startedAt": "2026-11-01T16:08:07.174Z",
+  "finishedAt": "2026-11-01T16:09:13.652Z",
+  "periodDays": 30,
+  "official": {
+    "url": "https://nearblocks.io/",
+    "title": "Just a moment...",
+    "faviconSha256": "12911f08689964924b557e208b1f99e98222b04bc97295dd86e1754f59affb89"
+  },
+  "stats": {
+    "permutations": 1260,
+    "permutationsRegistered": 1,
+    "ctHosts": 0,
+    "nrdHits": 0,
+    "candidates": 1,
+    "pagesFetched": 1,
+    "pagesRendered": 0,
+    "tokensIndexed": {},
+    "tokenMatches": 0
+  },
+  "coverage": {
+    "ct": [
+      {
+        "q": "nearblocks%",
+        "rows": 0,
+        "error": "HTTP 400"
+      },
+      {
+        "q": "nearblocks.%",
+        "rows": 0,
+        "error": "HTTP 400"
+      },
+      {
+        "q": "nearblocks-%",
+        "rows": 0,
+        "error": "HTTP 400"
+      },
+      {
+        "q": "%nearblocks%",
+        "rows": 0,
+        "error": "HTTP 400"
+      },
+      {
+        "q": "near-blocks%",
+        "rows": 0,
+        "error": "HTTP 400"
+      },
+      {
+        "q": "near-blocks.%",
+        "rows": 0,
+        "error": "HTTP 400"
+      },
+      {
+        "q": "near-blocks-%",
+        "rows": 0,
+        "error": "HTTP 400"
+      },
+      {
+        "q": "%near-blocks%",
+        "rows": 0,
+        "error": "HTTP 400"
+      }
+    ],
+    "nrd": [
+      {
+        "day": "2026-10-31",
+        "domains": 70000
+      },
+      {
+        "day": "2026-10-30",
+        "domains": 70000
+      },
+      {
+        "day": "2026-10-29",
+        "domains": 70000
+      },
+      {
+        "day": "2026-10-28",
+        "domains": 70000
+      }
+    ],
+    "tokens": [],
+    "blocklists": [
+      "metamask",
+      "scamsniffer"
+    ]
+  },
+  "domains": [
+    {
+      "kind": "domain",
+      "host": "nearblocks.com",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "tld-swap",
+      "dns": {
+        "domain": "nearblocks.com",
+        "registered": true,
+        "a": [
+          "44.232.173.249",
+          "52.40.42.113"
+        ],
+        "aaaa": [],
+        "mx": [],
+        "ns": [
+          "launch2.spaceship.net",
+          "launch1.spaceship.net"
+        ]
+      },
+      "page": {
+        "url": "https://nearblocks.com/",
+        "finalUrl": "https://nearblocks.com/",
+        "status": 200,
+        "title": "NearBlocks.com for sale | Spaceship.com",
+        "scriptUrls": [
+          "https://forsale.spaceship-cdn.com/static/latest/5.latest/main.js"
+        ],
+        "signals": {
+          "secretForm": false,
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "lure": [],
+          "drainerJs": [],
+          "parked": [
+            "for sale"
+          ],
+          "cryptoContext": [],
+          "interstitial": [],
+          "challenge": []
+        },
+        "brandMentions": 0,
+        "brandInTitle": false,
+        "bytes": 22519,
+        "renderedWith": "http",
+        "faviconUrl": "https://forsale.spaceship-cdn.com/static/latest/5.latest/assets/fonts/apple-touch-icon-57x57.png",
+        "faviconSha256": "774ab776c49cdd5d993e4da9e6216af9ece952135eb022ef0c7df223ff66989c",
+        "textSample": "Domain for sale NearBlocks.com Free transaction support Secure payments Spaceship reliability Listed with spaceship.com get this domain Buy now $5,488 Lease to own $457.33 x12 months Next Please select one of the options above You will be redirected to spaceship.com Listed with spaceship.com Buyer p"
+      },
+      "similarity": {
+        "title": 0.13,
+        "text": 0,
+        "favicon": false,
+        "overall": 0.04
+      },
+      "listedOn": [],
+      "score": 21,
+      "severity": "low",
+      "label": "parked",
+      "evidence": [
+        "Official name on a different TLD",
+        "Parked / for-sale page"
+      ],
+      "action": "Monitor. Consider buying it defensively or a UDRP if it turns active.",
+      "alreadyBlocked": false
+    }
+  ],
+  "tokens": [],
+  "errors": []
+}

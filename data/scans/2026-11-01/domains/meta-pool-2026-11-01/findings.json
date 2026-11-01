@@ -1,0 +1,1256 @@
+{
+  "brand": {
+    "name": "Meta Pool",
+    "officialDomains": [
+      "metapool.app"
+    ],
+    "referenceUrl": "https://www.metapool.app",
+    "officialTokens": [],
+    "officialSocials": {
+      "x": "meta_pool",
+      "telegram": "MetaPoolOfficialGroup",
+      "github": "Meta-Pool"
+    },
+    "keywords": [
+      "metapool",
+      "meta-pool",
+      "mpdao",
+      "stnear"
+    ],
+    "allowlist": [],
+    "tokenChains": [
+      "base"
+    ]
+  },
+  "startedAt": "2026-11-01T16:03:29.294Z",
+  "finishedAt": "2026-11-01T16:05:55.701Z",
+  "periodDays": 30,
+  "official": {
+    "url": "https://www.metapool.app/",
+    "title": "Meta Pool | Liquid Staking for NEAR, ETH & SOL since 2021",
+    "faviconSha256": "32c1598fcc88a3ea2ce9ed3d32f3dc617b9cb157f689677d1f777f2d8fde00d5"
+  },
+  "stats": {
+    "permutations": 1210,
+    "permutationsRegistered": 14,
+    "ctHosts": 0,
+    "nrdHits": 3,
+    "candidates": 17,
+    "pagesFetched": 11,
+    "pagesRendered": 7,
+    "tokensIndexed": {},
+    "tokenMatches": 0
+  },
+  "coverage": {
+    "ct": [
+      {
+        "q": "metapool%",
+        "rows": 0,
+        "error": "HTTP 400"
+      },
+      {
+        "q": "metapool.%",
+        "rows": 0,
+        "error": "HTTP 400"
+      },
+      {
+        "q": "metapool-%",
+        "rows": 0,
+        "error": "HTTP 400"
+      },
+      {
+        "q": "%metapool%",
+        "rows": 0,
+        "error": "HTTP 400"
+      },
+      {
+        "q": "meta-pool%",
+        "rows": 0,
+        "error": "HTTP 400"
+      },
+      {
+        "q": "meta-pool.%",
+        "rows": 0,
+        "error": "HTTP 400"
+      },
+      {
+        "q": "meta-pool-%",
+        "rows": 0,
+        "error": "HTTP 400"
+      },
+      {
+        "q": "%meta-pool%",
+        "rows": 0,
+        "error": "HTTP 400"
+      },
+      {
+        "q": "mpdao%",
+        "rows": 0,
+        "error": "HTTP 400"
+      },
+      {
+        "q": "mpdao.%",
+        "rows": 0,
+        "error": "HTTP 400"
+      },
+      {
+        "q": "mpdao-%",
+        "rows": 0,
+        "error": "HTTP 400"
+      },
+      {
+        "q": "%mpdao%",
+        "rows": 0,
+        "error": "HTTP 400"
+      },
+      {
+        "q": "stnear%",
+        "rows": 0,
+        "error": "HTTP 400"
+      },
+      {
+        "q": "stnear.%",
+        "rows": 0,
+        "error": "HTTP 400"
+      },
+      {
+        "q": "stnear-%",
+        "rows": 0,
+        "error": "HTTP 400"
+      },
+      {
+        "q": "%stnear%",
+        "rows": 0,
+        "error": "HTTP 400"
+      }
+    ],
+    "nrd": [
+      {
+        "day": "2026-10-31",
+        "domains": 70000
+      },
+      {
+        "day": "2026-10-30",
+        "domains": 70000
+      },
+      {
+        "day": "2026-10-29",
+        "domains": 70000
+      },
+      {
+        "day": "2026-10-28",
+        "domains": 70000
+      }
+    ],
+    "tokens": [],
+    "blocklists": [
+      "metamask",
+      "scamsniffer"
+    ]
+  },
+  "domains": [
+    {
+      "kind": "domain",
+      "host": "app-metapool.xyz",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "dictionary",
+      "dns": {
+        "domain": "app-metapool.xyz",
+        "registered": true,
+        "a": [
+          "188.114.97.3",
+          "188.114.96.3"
+        ],
+        "aaaa": [],
+        "mx": [],
+        "ns": [
+          "nena.ns.cloudflare.com",
+          "kianchau.ns.cloudflare.com"
+        ]
+      },
+      "page": {
+        "url": "https://app-metapool.xyz/",
+        "finalUrl": "https://app-metapool.xyz/",
+        "status": 502,
+        "title": "app-metapool.xyz | 502: Bad gateway",
+        "scriptUrls": [],
+        "signals": {
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "secretForm": false,
+          "lure": [],
+          "drainerJs": [],
+          "parked": [],
+          "cryptoContext": [],
+          "interstitial": [],
+          "challenge": []
+        },
+        "brandMentions": 0,
+        "brandInTitle": false,
+        "bytes": 6414,
+        "renderedWith": "playwright",
+        "faviconUrl": "https://app-metapool.xyz/favicon.ico",
+        "screenshot": "/Users/kacpergumieniuk/Projects/4b47/mimicwatch-near/data/scans/2026-11-01/domains/meta-pool-2026-11-01/shots/app-metapool.xyz.jpg",
+        "textSample": "Bad gateway Error code 502 Visit cloudflare.com for more information. 2026-11-01 16:05:08 UTC You Browser Working Warsaw Cloudflare Working app-metapool.xyz Host Error What happened? The web server reported a bad gateway error. What can I do? Please try again in a few minutes. Cloudflare Ray ID: a53"
+      },
+      "similarity": {
+        "title": 0,
+        "text": 0,
+        "favicon": false,
+        "overall": 0
+      },
+      "listedOn": [
+        "metamask"
+      ],
+      "score": 50,
+      "severity": "high",
+      "label": "phishing-likely",
+      "evidence": [
+        "Brand name plus a phishing lure word",
+        "Already on public wallet blocklist(s): metamask",
+        "Page returned HTTP 502"
+      ],
+      "action": "Already blocked (metamask). After client approval: file registrar and host abuse reports so the domain itself goes away (drafts attached).",
+      "alreadyBlocked": true,
+      "rdap": {
+        "domain": "app-metapool.xyz",
+        "registrar": "Dynadot Inc",
+        "ianaId": "472",
+        "abuse": {
+          "name": "Abuse Contact",
+          "email": "abuse@dynadot.com",
+          "phone": "+1.6502620100"
+        },
+        "registered": "2026-01-25T09:59:45.0Z",
+        "expires": "2027-01-25T23:59:59.0Z",
+        "status": [
+          "client transfer prohibited"
+        ],
+        "source": "https://rdap.centralnic.com/xyz/domain/app-metapool.xyz"
+      },
+      "hosting": {
+        "ip": "188.114.97.3",
+        "network": "CLOUDFLARENET-EU",
+        "org": "MNT-CLOUDFLARE",
+        "abuse": {
+          "name": "Cloudflare Abuse Contact",
+          "email": "abuse@cloudflare.com",
+          "form": "https://abuse.cloudflare.com/"
+        }
+      },
+      "drafts": [
+        {
+          "channel": "registrar-abuse",
+          "title": "Registrar abuse report to Dynadot Inc",
+          "to": "abuse@dynadot.com",
+          "subject": "Phishing / brand impersonation: app-metapool.xyz impersonates Meta Pool",
+          "body": "DRAFT - NOT FILED. File only after the brand owner approves it and has signed a Letter of Authorisation.\n\nHello Dynadot Inc abuse team,\n\nThe domain app-metapool[.]xyz (registered with you on 2026-01-25) is being used to impersonate Meta Pool, a crypto project whose official site is hxxps://metapool[.]app. We ask you to suspend the domain under your abuse policy and the RAA section 3.18 obligations.\n\nEvidence (observed 2026-11-01, read-only, URLs defanged):\n- URL: hxxps://app-metapool[.]xyz/\n- Brand name plus a phishing lure word\n- Already on public wallet blocklist(s): metamask\n- Page returned HTTP 502\n- Resolves to 188.114.97.3, 188.114.96.3\n- Page title: \"app-metapool.xyz | 502: Bad gateway\"\n- Screenshot: shots/app-metapool.xyz.jpg (attach)\n\nWe are not affiliated with the operator of app-metapool[.]xyz. Meta Pool has not authorised its use of the brand. Screenshots and HTML captures are available on request.\n\nRegards,\n{{REPORTER_NAME}}\n{{REPORTER_ORG}}, acting for Meta Pool under a Letter of Authorisation dated {{LOA_DATE}}\n{{REPORTER_EMAIL}}",
+          "notes": [
+            "Registrar IANA ID 472, abuse phone +1.6502620100"
+          ]
+        },
+        {
+          "channel": "host-abuse",
+          "title": "Hosting abuse report to MNT-CLOUDFLARE",
+          "to": "https://abuse.cloudflare.com/",
+          "subject": "Phishing site hosted on your network: app-metapool.xyz (Meta Pool impersonation)",
+          "body": "DRAFT - NOT FILED. File only after the brand owner approves it and has signed a Letter of Authorisation.\n\nHello MNT-CLOUDFLARE,\n\nhxxps://app-metapool[.]xyz/ (188.114.97.3, 188.114.96.3) is hosted on your network and impersonates Meta Pool (official: hxxps://metapool[.]app).\n\nEvidence (observed 2026-11-01):\n- Brand name plus a phishing lure word\n- Already on public wallet blocklist(s): metamask\n- Page returned HTTP 502\n- Resolves to 188.114.97.3, 188.114.96.3\n- Page title: \"app-metapool.xyz | 502: Bad gateway\"\n- Screenshot: shots/app-metapool.xyz.jpg (attach)\n\nPlease take the content down under your acceptable use policy.\n\nRegards,\n{{REPORTER_NAME}}\n{{REPORTER_ORG}}, acting for Meta Pool under a Letter of Authorisation dated {{LOA_DATE}}\n{{REPORTER_EMAIL}}",
+          "notes": [
+            "Email alternative: abuse@cloudflare.com"
+          ]
+        },
+        {
+          "channel": "google-safe-browsing",
+          "title": "Google Safe Browsing report",
+          "to": "https://safebrowsing.google.com/safebrowsing/report_phish/?url=https%3A%2F%2Fapp-metapool.xyz%2F",
+          "fields": {
+            "Report Type": "This page is not safe",
+            "Threat Type": "Social engineering (phishing) - pick the closest option shown",
+            "Threat Category": "Pick the closest option shown (impersonation / phishing)",
+            "URL to report": "https://app-metapool.xyz/",
+            "Additional details (max 800)": "Impersonates Meta Pool (official: https://metapool.app). Already on public wallet blocklist(s): metamask; Brand name plus a phishing lure word; Page returned HTTP 502."
+          },
+          "body": "DRAFT - NOT FILED. File only after the brand owner approves it and has signed a Letter of Authorisation.\n\nImpersonates Meta Pool (official: https://metapool.app). Already on public wallet blocklist(s): metamask; Brand name plus a phishing lure word; Page returned HTTP 502.",
+          "notes": [
+            "Web form with reCAPTCHA: a person has to submit it."
+          ]
+        },
+        {
+          "channel": "netcraft",
+          "title": "Netcraft report",
+          "to": "https://report.netcraft.com/report",
+          "fields": {
+            "The URL of the site": "https://app-metapool.xyz/",
+            "Further details": "Impersonates Meta Pool (official: https://metapool.app). Already on public wallet blocklist(s): metamask; Brand name plus a phishing lure word; Page returned HTTP 502.",
+            "Your email address": "{{REPORTER_EMAIL}}"
+          },
+          "body": "DRAFT - NOT FILED. File only after the brand owner approves it and has signed a Letter of Authorisation.\n\nImpersonates Meta Pool (official: https://metapool.app). Already on public wallet blocklist(s): metamask; Brand name plus a phishing lure word; Page returned HTTP 502.",
+          "notes": [
+            "Web form with reCAPTCHA. Netcraft feeds many browser and registrar blocklists."
+          ]
+        },
+        {
+          "channel": "scamsniffer-issue",
+          "title": "ScamSniffer scam-database issue",
+          "to": "https://github.com/scamsniffer/scam-database/issues/new",
+          "subject": "[Phishing] app-metapool.xyz - Meta Pool impersonation",
+          "body": "DRAFT - NOT FILED. File only after the brand owner approves it and has signed a Letter of Authorisation.\n\nDomain: app-metapool.xyz\nScam addresses (with chain): {{ADD IF KNOWN, e.g. from a victim's drain tx}}\nImpersonates: Meta Pool (official: https://metapool.app)\n\nEvidence (observed 2026-11-01):\n- Brand name plus a phishing lure word\n- Already on public wallet blocklist(s): metamask\n- Page returned HTTP 502\n- Resolves to 188.114.97.3, 188.114.96.3\n- Page title: \"app-metapool.xyz | 502: Bad gateway\"\n- Screenshot: shots/app-metapool.xyz.jpg (attach)",
+          "notes": [
+            "ScamSniffer asks for issues, not PRs (their JSON is regenerated). Attach the screenshot."
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "domain",
+      "host": "metapool.dev",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "tld-swap",
+      "dns": {
+        "domain": "metapool.dev",
+        "registered": true,
+        "a": [
+          "216.150.1.1"
+        ],
+        "aaaa": [],
+        "mx": [],
+        "ns": [
+          "ns46.domaincontrol.com",
+          "ns45.domaincontrol.com"
+        ]
+      },
+      "page": {
+        "url": "https://metapool.dev/",
+        "finalUrl": "https://metapool.dev/coming-soon",
+        "status": 200,
+        "title": "Meta Pool - Cross-Chain Prediction Markets",
+        "scriptUrls": [
+          "https://metapool.dev/_next/static/chunks/1489ca71-c9a5ecfa92afb632.js?dpl=dpl_77E3o3Er3aWEf6utT2J2QFthhJS1",
+          "https://metapool.dev/_next/static/chunks/1899-28894700057da169.js?dpl=dpl_77E3o3Er3aWEf6utT2J2QFthhJS1",
+          "https://metapool.dev/_next/static/chunks/main-app-355bd1d5eba6a484.js?dpl=dpl_77E3o3Er3aWEf6utT2J2QFthhJS1",
+          "https://metapool.dev/_next/static/chunks/app/page-7081bd6cb5417a4a.js?dpl=dpl_77E3o3Er3aWEf6utT2J2QFthhJS1",
+          "https://metapool.dev/_next/static/chunks/8190-12e0893e8f73ee9c.js?dpl=dpl_77E3o3Er3aWEf6utT2J2QFthhJS1",
+          "https://metapool.dev/_next/static/chunks/app/layout-85f0263c3f967353.js?dpl=dpl_77E3o3Er3aWEf6utT2J2QFthhJS1"
+        ],
+        "signals": {
+          "walletPrompt": [
+            "walletConnect",
+            "eth_requestAccounts",
+            "connectWallet",
+            "WALLETCONNECT",
+            "web3modal",
+            "AppKit",
+            "window.ethereum"
+          ],
+          "seedPhrase": [],
+          "secretForm": false,
+          "lure": [],
+          "drainerJs": [
+            "eth_signTypedData_v4"
+          ],
+          "parked": [],
+          "cryptoContext": [
+            "tokens",
+            "Liquidity",
+            "blockchain"
+          ],
+          "interstitial": [],
+          "challenge": []
+        },
+        "brandMentions": 4,
+        "brandInTitle": false,
+        "bytes": 7086,
+        "renderedWith": "playwright",
+        "faviconUrl": "https://metapool.dev/favicon.ico",
+        "screenshot": "/Users/kacpergumieniuk/Projects/4b47/mimicwatch-near/data/scans/2026-11-01/domains/meta-pool-2026-11-01/shots/metapool.dev.jpg",
+        "textSample": "MetaPool Docs Docs Global Prediction Market Liquidity Aggregator Across Chains Trade the most liquid Politics | Market in the World // In Documentation View on GitHub // Multifaceted and borderless Purpose-built for Prediction Markets Prediction markets enable instant, borderless, programmable betti"
+      },
+      "similarity": {
+        "title": 0.14,
+        "text": 0,
+        "favicon": false,
+        "overall": 0.05
+      },
+      "listedOn": [],
+      "score": 54,
+      "severity": "medium",
+      "label": "impersonation",
+      "evidence": [
+        "Official name on a different TLD",
+        "Brand named on the page (4x)",
+        "Wallet-connect prompt/library: walletConnect, eth_requestAccounts, connectWallet",
+        "Drainer-style JS: eth_signTypedData_v4"
+      ],
+      "action": "Review the screenshot. If it impersonates the brand, file registrar + host reports (drafts attached).",
+      "alreadyBlocked": false,
+      "rdap": {
+        "domain": "metapool.dev",
+        "registrar": "GoDaddy.com, LLC",
+        "ianaId": "146",
+        "abuse": {
+          "name": "GoDaddy Abuse",
+          "email": "abuse@godaddy.com",
+          "phone": "+1.4806242505"
+        },
+        "registered": "2025-12-11T18:35:15.987Z",
+        "expires": "2026-12-11T18:35:15.987Z",
+        "status": [
+          "client delete prohibited",
+          "client renew prohibited",
+          "client transfer prohibited",
+          "client update prohibited"
+        ],
+        "source": "https://pubapi.registry.google/rdap/domain/metapool.dev"
+      },
+      "hosting": {
+        "ip": "216.150.1.1",
+        "network": "VERCEL-09",
+        "org": "Vercel, Inc",
+        "abuse": {
+          "name": "Abuse",
+          "email": "abuse@vercel.com",
+          "phone": "+1-415-980-8007"
+        }
+      },
+      "drafts": [
+        {
+          "channel": "registrar-abuse",
+          "title": "Registrar abuse report to GoDaddy.com, LLC",
+          "to": "abuse@godaddy.com",
+          "subject": "Phishing / brand impersonation: metapool.dev impersonates Meta Pool",
+          "body": "DRAFT - NOT FILED. File only after the brand owner approves it and has signed a Letter of Authorisation.\n\nHello GoDaddy.com, LLC abuse team,\n\nThe domain metapool[.]dev (registered with you on 2025-12-11) is being used to impersonate Meta Pool, a crypto project whose official site is hxxps://metapool[.]app. We ask you to suspend the domain under your abuse policy and the RAA section 3.18 obligations.\n\nEvidence (observed 2026-11-01, read-only, URLs defanged):\n- URL: hxxps://metapool[.]dev/coming-soon\n- Official name on a different TLD\n- Brand named on the page (4x)\n- Wallet-connect prompt/library: walletConnect, eth_requestAccounts, connectWallet\n- Drainer-style JS: eth_signTypedData_v4\n- Resolves to 216.150.1.1\n- Page title: \"Meta Pool - Cross-Chain Prediction Markets\"\n- Screenshot: shots/metapool.dev.jpg (attach)\n\nWe are not affiliated with the operator of metapool[.]dev. Meta Pool has not authorised its use of the brand. Screenshots and HTML captures are available on request.\n\nRegards,\n{{REPORTER_NAME}}\n{{REPORTER_ORG}}, acting for Meta Pool under a Letter of Authorisation dated {{LOA_DATE}}\n{{REPORTER_EMAIL}}",
+          "notes": [
+            "Registrar IANA ID 146, abuse phone +1.4806242505"
+          ]
+        },
+        {
+          "channel": "host-abuse",
+          "title": "Hosting abuse report to Vercel, Inc",
+          "to": "abuse@vercel.com",
+          "subject": "Phishing site hosted on your network: metapool.dev (Meta Pool impersonation)",
+          "body": "DRAFT - NOT FILED. File only after the brand owner approves it and has signed a Letter of Authorisation.\n\nHello Vercel, Inc,\n\nhxxps://metapool[.]dev/coming-soon (216.150.1.1) is hosted on your network and impersonates Meta Pool (official: hxxps://metapool[.]app).\n\nEvidence (observed 2026-11-01):\n- Official name on a different TLD\n- Brand named on the page (4x)\n- Wallet-connect prompt/library: walletConnect, eth_requestAccounts, connectWallet\n- Drainer-style JS: eth_signTypedData_v4\n- Resolves to 216.150.1.1\n- Page title: \"Meta Pool - Cross-Chain Prediction Markets\"\n- Screenshot: shots/metapool.dev.jpg (attach)\n\nPlease take the content down under your acceptable use policy.\n\nRegards,\n{{REPORTER_NAME}}\n{{REPORTER_ORG}}, acting for Meta Pool under a Letter of Authorisation dated {{LOA_DATE}}\n{{REPORTER_EMAIL}}",
+          "notes": []
+        },
+        {
+          "channel": "google-safe-browsing",
+          "title": "Google Safe Browsing report",
+          "to": "https://safebrowsing.google.com/safebrowsing/report_phish/?url=https%3A%2F%2Fmetapool.dev%2Fcoming-soon",
+          "fields": {
+            "Report Type": "This page is not safe",
+            "Threat Type": "Social engineering (phishing) - pick the closest option shown",
+            "Threat Category": "Pick the closest option shown (impersonation / phishing)",
+            "URL to report": "https://metapool.dev/coming-soon",
+            "Additional details (max 800)": "Impersonates Meta Pool (official: https://metapool.app). Drainer-style JS: eth_signTypedData_v4; Wallet-connect prompt/library: walletConnect, eth_requestAccounts, connectWallet; Brand named on the page (4x); Official name on a different TLD."
+          },
+          "body": "DRAFT - NOT FILED. File only after the brand owner approves it and has signed a Letter of Authorisation.\n\nImpersonates Meta Pool (official: https://metapool.app). Drainer-style JS: eth_signTypedData_v4; Wallet-connect prompt/library: walletConnect, eth_requestAccounts, connectWallet; Brand named on the page (4x); Official name on a different TLD.",
+          "notes": [
+            "Web form with reCAPTCHA: a person has to submit it."
+          ]
+        },
+        {
+          "channel": "netcraft",
+          "title": "Netcraft report",
+          "to": "https://report.netcraft.com/report",
+          "fields": {
+            "The URL of the site": "https://metapool.dev/coming-soon",
+            "Further details": "Impersonates Meta Pool (official: https://metapool.app). Drainer-style JS: eth_signTypedData_v4; Wallet-connect prompt/library: walletConnect, eth_requestAccounts, connectWallet; Brand named on the page (4x); Official name on a different TLD.",
+            "Your email address": "{{REPORTER_EMAIL}}"
+          },
+          "body": "DRAFT - NOT FILED. File only after the brand owner approves it and has signed a Letter of Authorisation.\n\nImpersonates Meta Pool (official: https://metapool.app). Drainer-style JS: eth_signTypedData_v4; Wallet-connect prompt/library: walletConnect, eth_requestAccounts, connectWallet; Brand named on the page (4x); Official name on a different TLD.",
+          "notes": [
+            "Web form with reCAPTCHA. Netcraft feeds many browser and registrar blocklists."
+          ]
+        },
+        {
+          "channel": "metamask-issue",
+          "title": "MetaMask eth-phishing-detect: blocklist addition issue",
+          "to": "https://github.com/MetaMask/eth-phishing-detect/issues/new?template=01-blocklist-addition.yaml",
+          "fields": {
+            "Malicious domains, IPs, IPFS hashes, or IPNS names": "https://metapool.dev/coming-soon",
+            "Please explain why this content is malicious": "Impersonates Meta Pool (official: https://metapool.app). Drainer-style JS: eth_signTypedData_v4; Wallet-connect prompt/library: walletConnect, eth_requestAccounts, connectWallet; Brand named on the page (4x); Official name on a different TLD. Observed 2026-11-01. Reported on behalf of Meta Pool.",
+            "Is this a duplicate request?": "Search open issues for the domain first, then tick the box"
+          },
+          "body": "DRAFT - NOT FILED. File only after the brand owner approves it and has signed a Letter of Authorisation.\n\nImpersonates Meta Pool (official: https://metapool.app). Drainer-style JS: eth_signTypedData_v4; Wallet-connect prompt/library: walletConnect, eth_requestAccounts, connectWallet; Brand named on the page (4x); Official name on a different TLD."
+        },
+        {
+          "channel": "metamask-pr",
+          "title": "MetaMask eth-phishing-detect: alternative PR (slower; most merges are bot syncs)",
+          "to": "https://github.com/MetaMask/eth-phishing-detect",
+          "body": "DRAFT - NOT FILED. File only after the brand owner approves it and has signed a Letter of Authorisation.\n\ngit checkout -b block-metapool.dev\nyarn add:blocklist metapool.dev\n\nPR title: Block metapool.dev (Meta Pool impersonation)\nPR body: Impersonates Meta Pool (official: https://metapool.app). Drainer-style JS: eth_signTypedData_v4; Wallet-connect prompt/library: walletConnect, eth_requestAccounts, connectWallet; Brand named on the page (4x); Official name on a different TLD."
+        },
+        {
+          "channel": "scamsniffer-issue",
+          "title": "ScamSniffer scam-database issue",
+          "to": "https://github.com/scamsniffer/scam-database/issues/new",
+          "subject": "[Phishing] metapool.dev - Meta Pool impersonation",
+          "body": "DRAFT - NOT FILED. File only after the brand owner approves it and has signed a Letter of Authorisation.\n\nDomain: metapool.dev\nScam addresses (with chain): {{ADD IF KNOWN, e.g. from a victim's drain tx}}\nImpersonates: Meta Pool (official: https://metapool.app)\n\nEvidence (observed 2026-11-01):\n- Official name on a different TLD\n- Brand named on the page (4x)\n- Wallet-connect prompt/library: walletConnect, eth_requestAccounts, connectWallet\n- Drainer-style JS: eth_signTypedData_v4\n- Resolves to 216.150.1.1\n- Page title: \"Meta Pool - Cross-Chain Prediction Markets\"\n- Screenshot: shots/metapool.dev.jpg (attach)",
+          "notes": [
+            "ScamSniffer asks for issues, not PRs (their JSON is regenerated). Attach the screenshot."
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "domain",
+      "host": "megapool.app",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "replacement",
+      "dns": {
+        "domain": "megapool.app",
+        "registered": true,
+        "a": [
+          "172.67.141.40",
+          "104.21.38.248"
+        ],
+        "aaaa": [],
+        "mx": [],
+        "ns": [
+          "hans.ns.cloudflare.com",
+          "donna.ns.cloudflare.com"
+        ]
+      },
+      "page": {
+        "url": "https://megapool.app/",
+        "finalUrl": "https://megapool.app/",
+        "status": 0,
+        "title": "",
+        "scriptUrls": [],
+        "signals": {
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "secretForm": false,
+          "lure": [],
+          "drainerJs": [],
+          "parked": [],
+          "cryptoContext": [],
+          "interstitial": [],
+          "challenge": []
+        },
+        "brandMentions": 0,
+        "brandInTitle": false,
+        "bytes": 0,
+        "renderedWith": "http",
+        "error": "This operation was aborted; http: This operation was aborted",
+        "textSample": ""
+      },
+      "listedOn": [],
+      "score": 25,
+      "severity": "low",
+      "label": "lookalike-unknown-content",
+      "evidence": [
+        "Typosquat (replacement) of the official domain",
+        "Page not reachable: This operation was aborted; http: This operation was aborted"
+      ],
+      "action": "Re-check next scan; the content was not visible to us (error, bot wall or empty page).",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "metapoll.app",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "replacement",
+      "dns": {
+        "domain": "metapoll.app",
+        "registered": true,
+        "a": [
+          "52.223.52.2",
+          "35.71.142.77",
+          "192.64.119.150"
+        ],
+        "aaaa": [],
+        "mx": [
+          "eforward2.registrar-servers.com",
+          "eforward3.registrar-servers.com",
+          "eforward1.registrar-servers.com",
+          "eforward4.registrar-servers.com",
+          "eforward5.registrar-servers.com"
+        ],
+        "ns": [
+          "dns1.registrar-servers.com",
+          "dns2.registrar-servers.com"
+        ]
+      },
+      "page": {
+        "url": "https://metapoll.app/",
+        "finalUrl": "https://metapoll.app/",
+        "status": 0,
+        "title": "",
+        "scriptUrls": [],
+        "signals": {
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "secretForm": false,
+          "lure": [],
+          "drainerJs": [],
+          "parked": [],
+          "cryptoContext": [],
+          "interstitial": [],
+          "challenge": []
+        },
+        "brandMentions": 0,
+        "brandInTitle": false,
+        "bytes": 0,
+        "renderedWith": "http",
+        "error": "807F20EE01000000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:../deps/openssl/openssl/ssl/record/rec_layer_s3.c:918:SSL alert number 80\n; http: 807F20EE01000000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:../deps/openssl/openssl/ssl/record/rec_layer_s3.c:918:SSL alert number 80\n",
+        "textSample": ""
+      },
+      "listedOn": [],
+      "score": 25,
+      "severity": "low",
+      "label": "lookalike-unknown-content",
+      "evidence": [
+        "Typosquat (replacement) of the official domain",
+        "Page not reachable: 807F20EE01000000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert interna"
+      ],
+      "action": "Re-check next scan; the content was not visible to us (error, bot wall or empty page).",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "metapool-rewards.xyz",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "dictionary",
+      "dns": {
+        "domain": "metapool-rewards.xyz",
+        "registered": true,
+        "a": [
+          "76.223.54.146",
+          "13.248.169.48"
+        ],
+        "aaaa": [],
+        "mx": [
+          ""
+        ],
+        "ns": [
+          "ns6.afternic.com",
+          "ns5.afternic.com"
+        ]
+      },
+      "page": {
+        "url": "https://metapool-rewards.xyz/",
+        "finalUrl": "https://forsale.godaddy.com/forsale/metapool-rewards.xyz?utm_source=TDFS_BINNS2&utm_medium=parkedpages&utm_campaign=x_corp_tdfs-binns2_base&traffic_type=TDFS_BINNS2&traffic_id=binns2&",
+        "status": 200,
+        "title": "Access Denied",
+        "scriptUrls": [],
+        "signals": {
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "secretForm": false,
+          "lure": [
+            "rewards"
+          ],
+          "drainerJs": [],
+          "parked": [],
+          "cryptoContext": [],
+          "interstitial": [],
+          "challenge": [
+            "Access Denied"
+          ]
+        },
+        "brandMentions": 1,
+        "brandInTitle": false,
+        "bytes": 114,
+        "renderedWith": "playwright",
+        "faviconUrl": "https://metapool-rewards.xyz/favicon.ico",
+        "screenshot": "/Users/kacpergumieniuk/Projects/4b47/mimicwatch-near/data/scans/2026-11-01/domains/meta-pool-2026-11-01/shots/metapool-rewards.xyz.jpg",
+        "textSample": "Access Denied You don't have permission to access \"http://forsale.godaddy.com/forsale/metapool-rewards.xyz?\" on this server. Reference #18.2f0c4017.1793549138.4c44c5b9 https://errors.edgesuite.net/18.2f0c4017.1793549138.4c44c5b9"
+      },
+      "similarity": {
+        "title": 0.12,
+        "text": 0,
+        "favicon": false,
+        "overall": 0.04
+      },
+      "listedOn": [],
+      "score": 25,
+      "severity": "low",
+      "label": "lookalike-unknown-content",
+      "evidence": [
+        "Brand name plus a phishing lure word",
+        "Bot challenge or redirect stub (\"Access Denied\"): real content not visible"
+      ],
+      "action": "Re-check next scan; the content was not visible to us (error, bot wall or empty page).",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "metapool.com",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "tld-swap",
+      "dns": {
+        "domain": "metapool.com",
+        "registered": true,
+        "a": [],
+        "aaaa": [],
+        "mx": [],
+        "ns": [
+          "sns.lagler.de",
+          "dns.lagler.de"
+        ]
+      },
+      "listedOn": [],
+      "score": 20,
+      "severity": "low",
+      "label": "not-live",
+      "evidence": [
+        "Official name on a different TLD",
+        "One of 4 lookalikes on the same DNS account (dns.lagler.de + sns.lagler.de): a single operator"
+      ],
+      "action": "Monitor (registered, no website). Consider defensive registration.",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "metapool.org",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "tld-swap",
+      "dns": {
+        "domain": "metapool.org",
+        "registered": true,
+        "a": [],
+        "aaaa": [],
+        "mx": [],
+        "ns": [
+          "dns.lagler.de",
+          "sns.lagler.de"
+        ]
+      },
+      "listedOn": [],
+      "score": 20,
+      "severity": "low",
+      "label": "not-live",
+      "evidence": [
+        "Official name on a different TLD",
+        "One of 4 lookalikes on the same DNS account (dns.lagler.de + sns.lagler.de): a single operator"
+      ],
+      "action": "Monitor (registered, no website). Consider defensive registration.",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "metapool.net",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "tld-swap",
+      "dns": {
+        "domain": "metapool.net",
+        "registered": true,
+        "a": [],
+        "aaaa": [],
+        "mx": [],
+        "ns": [
+          "dns.lagler.de",
+          "sns.lagler.de"
+        ]
+      },
+      "listedOn": [],
+      "score": 20,
+      "severity": "low",
+      "label": "not-live",
+      "evidence": [
+        "Official name on a different TLD",
+        "One of 4 lookalikes on the same DNS account (dns.lagler.de + sns.lagler.de): a single operator"
+      ],
+      "action": "Monitor (registered, no website). Consider defensive registration.",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "metapool.finance",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "tld-swap",
+      "dns": {
+        "domain": "metapool.finance",
+        "registered": true,
+        "a": [],
+        "aaaa": [],
+        "mx": [],
+        "ns": [
+          "ns72.domaincontrol.com",
+          "ns71.domaincontrol.com"
+        ],
+        "error": "ETIMEOUT"
+      },
+      "listedOn": [],
+      "score": 20,
+      "severity": "low",
+      "label": "not-live",
+      "evidence": [
+        "Official name on a different TLD"
+      ],
+      "action": "Monitor (registered, no website). Consider defensive registration.",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "metapool.network",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "tld-swap",
+      "dns": {
+        "domain": "metapool.network",
+        "registered": true,
+        "a": [
+          "162.255.119.158"
+        ],
+        "aaaa": [],
+        "mx": [
+          "eforward1.registrar-servers.com",
+          "eforward3.registrar-servers.com",
+          "eforward2.registrar-servers.com",
+          "eforward4.registrar-servers.com",
+          "eforward5.registrar-servers.com"
+        ],
+        "ns": [
+          "dns2.registrar-servers.com",
+          "dns1.registrar-servers.com"
+        ]
+      },
+      "page": {
+        "url": "https://metapool.network/",
+        "finalUrl": "https://metapool.network/",
+        "status": 0,
+        "title": "",
+        "scriptUrls": [],
+        "signals": {
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "secretForm": false,
+          "lure": [],
+          "drainerJs": [],
+          "parked": [],
+          "cryptoContext": [],
+          "interstitial": [],
+          "challenge": []
+        },
+        "brandMentions": 0,
+        "brandInTitle": false,
+        "bytes": 0,
+        "renderedWith": "http",
+        "error": "Connect Timeout Error (attempted address: metapool.network:443, timeout: 10000ms); http: Connect Timeout Error (attempted addresses: 104.219.250.36:443, 2.59.170.19:443, timeout: 10000ms)",
+        "textSample": ""
+      },
+      "listedOn": [],
+      "score": 20,
+      "severity": "low",
+      "label": "lookalike-unknown-content",
+      "evidence": [
+        "Official name on a different TLD",
+        "Page not reachable: Connect Timeout Error (attempted address: metapool.network:443, timeout: 10000ms"
+      ],
+      "action": "Re-check next scan; the content was not visible to us (error, bot wall or empty page).",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "metapool.info",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "tld-swap",
+      "dns": {
+        "domain": "metapool.info",
+        "registered": true,
+        "a": [],
+        "aaaa": [],
+        "mx": [],
+        "ns": [
+          "dns.lagler.de",
+          "sns.lagler.de"
+        ]
+      },
+      "listedOn": [],
+      "score": 20,
+      "severity": "low",
+      "label": "not-live",
+      "evidence": [
+        "Official name on a different TLD",
+        "One of 4 lookalikes on the same DNS account (dns.lagler.de + sns.lagler.de): a single operator"
+      ],
+      "action": "Monitor (registered, no website). Consider defensive registration.",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "metapool.fi",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "tld-swap",
+      "dns": {
+        "domain": "metapool.fi",
+        "registered": true,
+        "a": [],
+        "aaaa": [],
+        "mx": [],
+        "ns": [
+          "ns-1781.awsdns-30.co.uk",
+          "ns-54.awsdns-06.com",
+          "ns-870.awsdns-44.net",
+          "ns-1412.awsdns-48.org"
+        ]
+      },
+      "listedOn": [],
+      "score": 20,
+      "severity": "low",
+      "label": "not-live",
+      "evidence": [
+        "Official name on a different TLD"
+      ],
+      "action": "Monitor (registered, no website). Consider defensive registration.",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "metapool.cloud",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "tld-swap",
+      "dns": {
+        "domain": "metapool.cloud",
+        "registered": true,
+        "a": [
+          "120.55.98.74"
+        ],
+        "aaaa": [],
+        "mx": [],
+        "ns": [
+          "cancer.dnspod.net",
+          "desert.dnspod.net"
+        ]
+      },
+      "page": {
+        "url": "https://metapool.cloud/",
+        "finalUrl": "https://metapool.cloud/",
+        "status": 200,
+        "title": "Merry Christmas - Interactive Particle Tree",
+        "scriptUrls": [],
+        "signals": {
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "secretForm": false,
+          "lure": [],
+          "drainerJs": [],
+          "parked": [],
+          "cryptoContext": [],
+          "interstitial": [],
+          "challenge": []
+        },
+        "brandMentions": 0,
+        "brandInTitle": false,
+        "bytes": 33971,
+        "renderedWith": "playwright",
+        "faviconUrl": "https://metapool.cloud/favicon.ico",
+        "screenshot": "/Users/kacpergumieniuk/Projects/4b47/mimicwatch-near/data/scans/2026-11-01/domains/meta-pool-2026-11-01/shots/metapool.cloud.jpg",
+        "textSample": "○ AI Gesture Off Upload Memories Start AI Merry Christmas May your days be merry and bright"
+      },
+      "similarity": {
+        "title": 0,
+        "text": 0,
+        "favicon": false,
+        "overall": 0
+      },
+      "listedOn": [],
+      "score": 20,
+      "severity": "low",
+      "label": "lookalike-unknown-content",
+      "evidence": [
+        "Official name on a different TLD",
+        "Almost empty page (91 chars of text, title \"Merry Christmas - Interactive Particle T\"): content not visible"
+      ],
+      "action": "Re-check next scan; the content was not visible to us (error, bot wall or empty page).",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "metapool.ai",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "tld-swap",
+      "dns": {
+        "domain": "metapool.ai",
+        "registered": true,
+        "a": [
+          "15.197.148.33",
+          "3.33.130.190"
+        ],
+        "aaaa": [],
+        "mx": [],
+        "ns": [
+          "ns05.domaincontrol.com",
+          "ns06.domaincontrol.com"
+        ]
+      },
+      "page": {
+        "url": "https://metapool.ai/",
+        "finalUrl": "https://metapool.ai/lander",
+        "status": 200,
+        "title": "",
+        "scriptUrls": [],
+        "signals": {
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "secretForm": false,
+          "lure": [],
+          "drainerJs": [],
+          "parked": [],
+          "cryptoContext": [],
+          "interstitial": [],
+          "challenge": []
+        },
+        "brandMentions": 0,
+        "brandInTitle": false,
+        "bytes": 114,
+        "renderedWith": "playwright",
+        "faviconUrl": "https://metapool.ai/favicon.ico",
+        "screenshot": "/Users/kacpergumieniuk/Projects/4b47/mimicwatch-near/data/scans/2026-11-01/domains/meta-pool-2026-11-01/shots/metapool.ai.jpg",
+        "textSample": ""
+      },
+      "similarity": {
+        "title": 0,
+        "text": 0,
+        "favicon": false,
+        "overall": 0
+      },
+      "listedOn": [],
+      "score": 20,
+      "severity": "low",
+      "label": "lookalike-unknown-content",
+      "evidence": [
+        "Official name on a different TLD",
+        "Almost empty page (0 chars of text, title \"\"): content not visible"
+      ],
+      "action": "Re-check next scan; the content was not visible to us (error, bot wall or empty page).",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "physicaltherapistnearme.online",
+      "sources": [
+        "nrd"
+      ],
+      "nrdDate": "2026-10-31",
+      "dns": {
+        "domain": "physicaltherapistnearme.online",
+        "registered": true,
+        "a": [
+          "18.116.171.3"
+        ],
+        "aaaa": [],
+        "mx": [
+          "mx-dfw.smtp.directrouter.com",
+          "mx-lon.smtp.directrouter.com"
+        ],
+        "ns": [
+          "ns2.rochendns.com",
+          "ns1.rochendns.com"
+        ]
+      },
+      "page": {
+        "url": "https://physicaltherapistnearme.online/",
+        "finalUrl": "https://physicaltherapistnearme.online/",
+        "status": 200,
+        "title": "Index of /",
+        "scriptUrls": [
+          "https://physicaltherapistnearme.online/_autoindex/assets/js/tablesort.js",
+          "https://physicaltherapistnearme.online/_autoindex/assets/js/tablesort.number.js"
+        ],
+        "signals": {
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "secretForm": false,
+          "lure": [],
+          "drainerJs": [],
+          "parked": [],
+          "cryptoContext": [],
+          "interstitial": [],
+          "challenge": []
+        },
+        "brandMentions": 0,
+        "brandInTitle": false,
+        "bytes": 1601,
+        "renderedWith": "playwright",
+        "faviconUrl": "https://physicaltherapistnearme.online/favicon.ico",
+        "screenshot": "/Users/kacpergumieniuk/Projects/4b47/mimicwatch-near/data/scans/2026-11-01/domains/meta-pool-2026-11-01/shots/physicaltherapistnearme.online.jpg",
+        "textSample": "Index of / Name Last Modified Size cgi-bin 2026-10-29 19:27 - php.ini 2026-10-29 19:28 1k Proudly Served by LiteSpeed Web Server at physicaltherapistnearme.online Port 443"
+      },
+      "similarity": {
+        "title": 0.09,
+        "text": 0,
+        "favicon": false,
+        "overall": 0.03
+      },
+      "listedOn": [],
+      "score": 15,
+      "severity": "info",
+      "label": "lookalike-unknown-content",
+      "evidence": [
+        "Hostname contains the brand name",
+        "Newly registered domain (WhoisDS daily list)",
+        "Almost empty page (171 chars of text, title \"Index of /\"): content not visible"
+      ],
+      "action": "Re-check next scan; the content was not visible to us (error, bot wall or empty page).",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "24emergencydentistnearme.my",
+      "sources": [
+        "nrd"
+      ],
+      "nrdDate": "2026-10-30",
+      "dns": {
+        "domain": "24emergencydentistnearme.my",
+        "registered": true,
+        "a": [
+          "210.16.64.164"
+        ],
+        "aaaa": [],
+        "mx": [
+          "24emergencydentistnearme.my"
+        ],
+        "ns": [
+          "ns2.shockhosting.com",
+          "ns1.shockhosting.com"
+        ]
+      },
+      "page": {
+        "url": "https://24emergencydentistnearme.my/",
+        "finalUrl": "https://24emergencydentistnearme.my/",
+        "status": 200,
+        "title": "Index of /",
+        "scriptUrls": [
+          "https://24emergencydentistnearme.my/_autoindex/assets/js/tablesort.js",
+          "https://24emergencydentistnearme.my/_autoindex/assets/js/tablesort.number.js"
+        ],
+        "signals": {
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "secretForm": false,
+          "lure": [],
+          "drainerJs": [],
+          "parked": [],
+          "cryptoContext": [],
+          "interstitial": [],
+          "challenge": []
+        },
+        "brandMentions": 0,
+        "brandInTitle": false,
+        "bytes": 1598,
+        "renderedWith": "playwright",
+        "faviconUrl": "https://24emergencydentistnearme.my/favicon.ico",
+        "screenshot": "/Users/kacpergumieniuk/Projects/4b47/mimicwatch-near/data/scans/2026-11-01/domains/meta-pool-2026-11-01/shots/24emergencydentistnearme.my.jpg",
+        "textSample": "Index of / Name Last Modified Size cgi-bin 2026-10-13 06:30 - php.ini 2026-10-13 06:30 1k Proudly Served by LiteSpeed Web Server at 24emergencydentistnearme.my Port 443"
+      },
+      "similarity": {
+        "title": 0.09,
+        "text": 0,
+        "favicon": false,
+        "overall": 0.03
+      },
+      "listedOn": [],
+      "score": 15,
+      "severity": "info",
+      "label": "lookalike-unknown-content",
+      "evidence": [
+        "Hostname contains the brand name",
+        "Newly registered domain (WhoisDS daily list)",
+        "Almost empty page (168 chars of text, title \"Index of /\"): content not visible"
+      ],
+      "action": "Re-check next scan; the content was not visible to us (error, bot wall or empty page).",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "spdao.wiki",
+      "sources": [
+        "nrd"
+      ],
+      "nrdDate": "2026-10-29",
+      "dns": {
+        "domain": "spdao.wiki",
+        "registered": true,
+        "a": [
+          "104.21.69.147",
+          "172.67.209.91"
+        ],
+        "aaaa": [],
+        "mx": [],
+        "ns": [
+          "amit.ns.cloudflare.com",
+          "marjory.ns.cloudflare.com"
+        ]
+      },
+      "page": {
+        "url": "https://spdao.wiki/",
+        "finalUrl": "https://spdao.wiki/",
+        "status": 200,
+        "title": "视频导航 | 全网影视资源智能入口 | 一键找片神器",
+        "scriptUrls": [
+          "https://spdao.wiki/common/js/jquery-3.3.1.min.js",
+          "https://spdao.wiki/common/js/fp-v4.6.2.min.js",
+          "https://spdao.wiki/common/js/app.js?v=202610132314",
+          "https://spdao.wiki/statics2/js/imgDecypt.js?v=202610132314",
+          "https://spdao.wiki/statics2/js/index.js?v=202610132314",
+          "https://spdao.wiki/statics2/js/bootstrap.bundle.min.js?v=202610132314"
+        ],
+        "signals": {
+          "secretForm": false,
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "lure": [],
+          "drainerJs": [],
+          "parked": [],
+          "cryptoContext": [],
+          "interstitial": [],
+          "challenge": []
+        },
+        "brandMentions": 0,
+        "brandInTitle": false,
+        "bytes": 692255,
+        "renderedWith": "http",
+        "faviconUrl": "https://spdao.wiki/favicon.ico",
+        "textSample": "视频导航 首页 甄选 妲己精选 绿帽淫妻 纯爱乱伦 母狗调教 探花大神 极品主播 爆料头条 强奸/迷奸 明星淫梦 ASMR 美腿丝足 经典三级 少女 校花女神 制服少女 尤物萝莉 粉红鲍鱼 清纯嫩妹 少女精选 母狗调教 处女开苞 福利姬 传媒 Xfree影视 麻豆传媒 糖心vlog 爆款收藏-JVID 果冻传媒 蜜桃传媒 91制片厂 星空无限 皇家华人 快播 天美传媒 爱豆传媒 扣扣传媒 日产 三上悠亞 河北彩花 渚光希 三尾芽久 三喜本希 三咲恭子 三原穂香 松下光 松雪佳苗 松雪乃 松永佐奈 柊木奈奈 竹內夏希 竹内真琴 素人 天使萌 中条花音 竹內有紀 真田美樹 槇原愛菜 凪沙雪乃 中森"
+      },
+      "similarity": {
+        "title": 0,
+        "text": 0,
+        "favicon": false,
+        "overall": 0
+      },
+      "listedOn": [],
+      "score": 15,
+      "severity": "info",
+      "label": "likely-false-positive",
+      "evidence": [
+        "Hostname contains the brand name",
+        "Newly registered domain (WhoisDS daily list)",
+        "No brand content found on the page: probably unrelated (false positive)"
+      ],
+      "action": "No action (labelled false positive).",
+      "alreadyBlocked": false
+    }
+  ],
+  "tokens": [],
+  "errors": []
+}

@@ -1,0 +1,5785 @@
+{
+  "brand": {
+    "name": "Sender Wallet",
+    "officialDomains": [
+      "senderwallet.io",
+      "sender.org"
+    ],
+    "referenceUrl": "https://senderwallet.io",
+    "officialTokens": [],
+    "officialSocials": {
+      "x": "SenderWallet",
+      "github": "SenderWallet"
+    },
+    "keywords": [
+      "senderwallet",
+      "sender-wallet"
+    ],
+    "allowlist": [],
+    "tokenChains": [
+      "base"
+    ]
+  },
+  "startedAt": "2026-11-01T16:10:00.232Z",
+  "finishedAt": "2026-11-01T16:12:33.484Z",
+  "periodDays": 30,
+  "official": {
+    "url": "https://senderwallet.io/",
+    "title": "Sender Wallet - Your favorite Web3 wallet.",
+    "faviconSha256": "452a96921a8c7751074f2798f8915b313be7a0933d4aaff3da1ea3d04c2ad4c8"
+  },
+  "stats": {
+    "permutations": 2472,
+    "permutationsRegistered": 92,
+    "ctHosts": 0,
+    "nrdHits": 0,
+    "candidates": 92,
+    "pagesFetched": 80,
+    "pagesRendered": 12,
+    "tokensIndexed": {},
+    "tokenMatches": 0
+  },
+  "coverage": {
+    "ct": [
+      {
+        "q": "senderwallet%",
+        "rows": 0,
+        "error": "HTTP 400"
+      },
+      {
+        "q": "senderwallet.%",
+        "rows": 0,
+        "error": "HTTP 400"
+      },
+      {
+        "q": "senderwallet-%",
+        "rows": 0,
+        "error": "HTTP 400"
+      },
+      {
+        "q": "%senderwallet%",
+        "rows": 0,
+        "error": "HTTP 400"
+      },
+      {
+        "q": "sender-wallet%",
+        "rows": 0,
+        "error": "HTTP 400"
+      },
+      {
+        "q": "sender-wallet.%",
+        "rows": 0,
+        "error": "HTTP 400"
+      },
+      {
+        "q": "sender-wallet-%",
+        "rows": 0,
+        "error": "HTTP 400"
+      },
+      {
+        "q": "%sender-wallet%",
+        "rows": 0,
+        "error": "HTTP 400"
+      }
+    ],
+    "nrd": [
+      {
+        "day": "2026-10-31",
+        "domains": 70000
+      },
+      {
+        "day": "2026-10-30",
+        "domains": 70000
+      },
+      {
+        "day": "2026-10-29",
+        "domains": 70000
+      },
+      {
+        "day": "2026-10-28",
+        "domains": 70000
+      }
+    ],
+    "tokens": [],
+    "blocklists": [
+      "metamask",
+      "scamsniffer"
+    ]
+  },
+  "domains": [
+    {
+      "kind": "domain",
+      "host": "senderwallet.org",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "tld-swap",
+      "dns": {
+        "domain": "senderwallet.org",
+        "registered": true,
+        "a": [
+          "15.197.148.33",
+          "3.33.130.190"
+        ],
+        "aaaa": [],
+        "mx": [],
+        "ns": [
+          "ns63.domaincontrol.com",
+          "ns64.domaincontrol.com"
+        ]
+      },
+      "page": {
+        "url": "https://senderwallet.org/",
+        "finalUrl": "https://senderwallet.org/lander",
+        "status": 200,
+        "title": "",
+        "scriptUrls": [],
+        "signals": {
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "secretForm": false,
+          "lure": [],
+          "drainerJs": [],
+          "parked": [
+            "parked",
+            "Related Searches"
+          ],
+          "cryptoContext": [
+            "wallet"
+          ],
+          "interstitial": [],
+          "challenge": []
+        },
+        "brandMentions": 0,
+        "brandInTitle": false,
+        "bytes": 114,
+        "renderedWith": "playwright",
+        "faviconUrl": "https://senderwallet.org/favicon.ico",
+        "screenshot": "/Users/kacpergumieniuk/Projects/4b47/mimicwatch-near/data/scans/2026-11-01/domains/sender-wallet-2026-11-01/shots/senderwallet.org.jpg",
+        "textSample": "Trustpilot senderwallet.org is parked free, courtesy of GoDaddy.com. Get This Domain Related Searches sender wallet Copyright © 1999-2026 GoDaddy, LLC. All rights reserved. Privacy Policy Disclaimer: References to any specific company, product or services on this Site are not controlled by GoDaddy.c"
+      },
+      "similarity": {
+        "title": 0,
+        "text": 0,
+        "favicon": false,
+        "overall": 0
+      },
+      "listedOn": [],
+      "score": 40,
+      "severity": "low",
+      "label": "parked",
+      "evidence": [
+        "Official name on a different TLD",
+        "Hostname contains a lure word (claim/airdrop/support/...)",
+        "Lookalike of your domain serving other crypto content (wallet)",
+        "Parked / for-sale page"
+      ],
+      "action": "Monitor. Consider buying it defensively or a UDRP if it turns active.",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "airdrop-sender.com",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "dictionary",
+      "dns": {
+        "domain": "airdrop-sender.com",
+        "registered": true,
+        "a": [
+          "92.205.61.144"
+        ],
+        "aaaa": [],
+        "mx": [
+          "smtp.secureserver.net",
+          "mailstore1.secureserver.net"
+        ],
+        "ns": [
+          "ns3.mijn.host",
+          "ns2.mijn.host",
+          "ns1.mijn.host"
+        ]
+      },
+      "page": {
+        "url": "https://airdrop-sender.com/",
+        "finalUrl": "https://airdropsender.com/",
+        "status": 200,
+        "title": "AirdropSender.com | Multisender & Token Distribution Platform",
+        "scriptUrls": [
+          "https://airdropsender.com/_next/static/chunks/0pqt~8bl3ukh4.js",
+          "https://airdropsender.com/_next/static/chunks/0eb3j_ttywob3.js",
+          "https://airdropsender.com/_next/static/chunks/0.6oe~-d53z80.js",
+          "https://airdropsender.com/_next/static/chunks/turbopack-0tcrw7j7v-x75.js",
+          "https://airdropsender.com/_next/static/chunks/0d4lpwqps6~2p.js",
+          "https://airdropsender.com/_next/static/chunks/02fl9lf417dzi.js"
+        ],
+        "signals": {
+          "walletPrompt": [
+            "Connect Wallet"
+          ],
+          "seedPhrase": [],
+          "secretForm": false,
+          "lure": [
+            "Airdrop"
+          ],
+          "drainerJs": [],
+          "parked": [],
+          "cryptoContext": [
+            "Token",
+            "wallet",
+            "Airdrop",
+            "Web3",
+            "blockchain",
+            "NFT",
+            "Ethereum"
+          ],
+          "interstitial": [],
+          "challenge": []
+        },
+        "brandMentions": 0,
+        "brandInTitle": false,
+        "bytes": 48278,
+        "renderedWith": "playwright",
+        "faviconUrl": "https://airdropsender.com/favicon.ico?v=2",
+        "faviconSha256": "2ff73480a24a840e1882d64649d2b632cfd5b93161f42827363ac06fb200f767",
+        "screenshot": "/Users/kacpergumieniuk/Projects/4b47/mimicwatch-near/data/scans/2026-11-01/domains/sender-wallet-2026-11-01/shots/airdrop-sender.com.jpg",
+        "textSample": "Tools Guides Pricing FAQ About Launch App Multisender · Multi-Chain · Now Live The Ultimate Multi-Chain Airdrop Platform The multisender built for Web3. Distribute tokens to thousands of wallets across Solana, Ethereum, BNB Chain and more — high-speed, low-cost, enterprise-grade. Solana — Live Ether"
+      },
+      "similarity": {
+        "title": 0,
+        "text": 0,
+        "favicon": false,
+        "overall": 0
+      },
+      "listedOn": [],
+      "score": 38,
+      "severity": "low",
+      "label": "lookalike-other-crypto",
+      "evidence": [
+        "Brand name plus a phishing lure word",
+        "One of 3 lookalikes on the same DNS account (ns1.mijn.host + ns2.mijn.host + ns3.mijn.host): a single operator",
+        "Lookalike of your domain serving other crypto content (Token, wallet, Airdrop), ends at https://airdropsender.com/",
+        "Wallet-connect prompt/library: Connect Wallet"
+      ],
+      "action": "Review: traffic for a lookalike of your name goes to other crypto content (a competitor, an affiliate, or a phishing kit for another brand). Report if it misleads your users.",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "airdropsender.com",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "dictionary",
+      "dns": {
+        "domain": "airdropsender.com",
+        "registered": true,
+        "a": [
+          "92.205.61.144"
+        ],
+        "aaaa": [],
+        "mx": [],
+        "ns": [
+          "ns2.mijn.host",
+          "ns1.mijn.host",
+          "ns3.mijn.host"
+        ]
+      },
+      "page": {
+        "url": "https://airdropsender.com/",
+        "finalUrl": "https://airdropsender.com/",
+        "status": 200,
+        "title": "AirdropSender.com | Multisender & Token Distribution Platform",
+        "scriptUrls": [
+          "https://airdropsender.com/_next/static/chunks/0pqt~8bl3ukh4.js",
+          "https://airdropsender.com/_next/static/chunks/0eb3j_ttywob3.js",
+          "https://airdropsender.com/_next/static/chunks/0.6oe~-d53z80.js",
+          "https://airdropsender.com/_next/static/chunks/turbopack-0tcrw7j7v-x75.js",
+          "https://airdropsender.com/_next/static/chunks/0d4lpwqps6~2p.js",
+          "https://airdropsender.com/_next/static/chunks/02fl9lf417dzi.js"
+        ],
+        "signals": {
+          "walletPrompt": [
+            "Connect Wallet"
+          ],
+          "seedPhrase": [],
+          "secretForm": false,
+          "lure": [
+            "Airdrop"
+          ],
+          "drainerJs": [],
+          "parked": [],
+          "cryptoContext": [
+            "Token",
+            "wallet",
+            "Airdrop",
+            "Web3",
+            "blockchain",
+            "NFT",
+            "Ethereum"
+          ],
+          "interstitial": [],
+          "challenge": []
+        },
+        "brandMentions": 0,
+        "brandInTitle": false,
+        "bytes": 48278,
+        "renderedWith": "playwright",
+        "faviconUrl": "https://airdropsender.com/favicon.ico?v=2",
+        "faviconSha256": "2ff73480a24a840e1882d64649d2b632cfd5b93161f42827363ac06fb200f767",
+        "screenshot": "/Users/kacpergumieniuk/Projects/4b47/mimicwatch-near/data/scans/2026-11-01/domains/sender-wallet-2026-11-01/shots/airdropsender.com.jpg",
+        "textSample": "Tools Guides Pricing FAQ About Launch App Multisender · Multi-Chain · Now Live The Ultimate Multi-Chain Airdrop Platform The multisender built for Web3. Distribute tokens to thousands of wallets across Solana, Ethereum, BNB Chain and more — high-speed, low-cost, enterprise-grade. Solana — Live Ether"
+      },
+      "similarity": {
+        "title": 0,
+        "text": 0,
+        "favicon": false,
+        "overall": 0
+      },
+      "listedOn": [],
+      "score": 38,
+      "severity": "low",
+      "label": "lookalike-other-crypto",
+      "evidence": [
+        "Brand name plus a phishing lure word",
+        "One of 3 lookalikes on the same DNS account (ns1.mijn.host + ns2.mijn.host + ns3.mijn.host): a single operator",
+        "Lookalike of your domain serving other crypto content (Token, wallet, Airdrop)",
+        "Wallet-connect prompt/library: Connect Wallet"
+      ],
+      "action": "Review: traffic for a lookalike of your name goes to other crypto content (a competitor, an affiliate, or a phishing kit for another brand). Report if it misleads your users.",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "airdropsender.app",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "dictionary",
+      "dns": {
+        "domain": "airdropsender.app",
+        "registered": true,
+        "a": [
+          "92.205.61.144"
+        ],
+        "aaaa": [],
+        "mx": [
+          "airdropsender-app.mail.protection.outlook.com"
+        ],
+        "ns": [
+          "ns2.mijn.host",
+          "ns3.mijn.host",
+          "ns1.mijn.host"
+        ]
+      },
+      "page": {
+        "url": "https://airdropsender.app/",
+        "finalUrl": "https://airdropsender.com/",
+        "status": 200,
+        "title": "AirdropSender.com | Multisender & Token Distribution Platform",
+        "scriptUrls": [
+          "https://airdropsender.com/_next/static/chunks/0pqt~8bl3ukh4.js",
+          "https://airdropsender.com/_next/static/chunks/0eb3j_ttywob3.js",
+          "https://airdropsender.com/_next/static/chunks/0.6oe~-d53z80.js",
+          "https://airdropsender.com/_next/static/chunks/turbopack-0tcrw7j7v-x75.js",
+          "https://airdropsender.com/_next/static/chunks/0d4lpwqps6~2p.js",
+          "https://airdropsender.com/_next/static/chunks/02fl9lf417dzi.js"
+        ],
+        "signals": {
+          "walletPrompt": [
+            "Connect Wallet"
+          ],
+          "seedPhrase": [],
+          "secretForm": false,
+          "lure": [
+            "Airdrop"
+          ],
+          "drainerJs": [],
+          "parked": [],
+          "cryptoContext": [
+            "Token",
+            "wallet",
+            "Airdrop",
+            "Web3",
+            "blockchain",
+            "NFT",
+            "Ethereum"
+          ],
+          "interstitial": [],
+          "challenge": []
+        },
+        "brandMentions": 0,
+        "brandInTitle": false,
+        "bytes": 48278,
+        "renderedWith": "playwright",
+        "faviconUrl": "https://airdropsender.com/favicon.ico?v=2",
+        "faviconSha256": "2ff73480a24a840e1882d64649d2b632cfd5b93161f42827363ac06fb200f767",
+        "screenshot": "/Users/kacpergumieniuk/Projects/4b47/mimicwatch-near/data/scans/2026-11-01/domains/sender-wallet-2026-11-01/shots/airdropsender.app.jpg",
+        "textSample": "Tools Guides Pricing FAQ About Launch App Multisender · Multi-Chain · Now Live The Ultimate Multi-Chain Airdrop Platform The multisender built for Web3. Distribute tokens to thousands of wallets across Solana, Ethereum, BNB Chain and more — high-speed, low-cost, enterprise-grade. Solana — Live Ether"
+      },
+      "similarity": {
+        "title": 0,
+        "text": 0,
+        "favicon": false,
+        "overall": 0
+      },
+      "listedOn": [],
+      "score": 38,
+      "severity": "low",
+      "label": "lookalike-other-crypto",
+      "evidence": [
+        "Brand name plus a phishing lure word",
+        "One of 3 lookalikes on the same DNS account (ns1.mijn.host + ns2.mijn.host + ns3.mijn.host): a single operator",
+        "Lookalike of your domain serving other crypto content (Token, wallet, Airdrop), ends at https://airdropsender.com/",
+        "Wallet-connect prompt/library: Connect Wallet"
+      ],
+      "action": "Review: traffic for a lookalike of your name goes to other crypto content (a competitor, an affiliate, or a phishing kit for another brand). Report if it misleads your users.",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "rewardsender.com",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "dictionary",
+      "dns": {
+        "domain": "rewardsender.com",
+        "registered": true,
+        "a": [
+          "202.177.214.117"
+        ],
+        "aaaa": [],
+        "mx": [
+          "ASPMX.L.GOOGLE.com",
+          "ALT1.ASPMX.L.GOOGLE.com",
+          "ALT2.ASPMX.L.GOOGLE.com",
+          "ALT3.ASPMX.L.GOOGLE.com",
+          "ALT4.ASPMX.L.GOOGLE.com"
+        ],
+        "ns": [
+          "ns2.mitdps.net",
+          "ns3.mitdps.net",
+          "ns1.mitdps.net"
+        ]
+      },
+      "page": {
+        "url": "https://rewardsender.com/",
+        "finalUrl": "https://rewardsender.com/",
+        "status": 200,
+        "title": "RewardSender",
+        "scriptUrls": [
+          "https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js",
+          "https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js",
+          "https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js",
+          "https://rewardsender.com/scripts/bootstrap.min.js",
+          "https://rewardsender.com/scripts/jquery.cookie.js"
+        ],
+        "signals": {
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "secretForm": false,
+          "lure": [
+            "rewards"
+          ],
+          "drainerJs": [],
+          "parked": [],
+          "cryptoContext": [
+            "wallet"
+          ],
+          "interstitial": [],
+          "challenge": []
+        },
+        "brandMentions": 0,
+        "brandInTitle": false,
+        "bytes": 16303,
+        "renderedWith": "playwright",
+        "faviconUrl": "https://rewardsender.com/favicon.ico",
+        "faviconSha256": "846034b349ac80444b43b3558c23fd3f6798dae70d3115cfa9dfa0c98d3e39d7",
+        "screenshot": "/Users/kacpergumieniuk/Projects/4b47/mimicwatch-near/data/scans/2026-11-01/domains/sender-wallet-2026-11-01/shots/rewardsender.com.jpg",
+        "textSample": "Toggle navigation Home Solutions Features Demo Pricing FAQ Australia Australia Select country New Zealand United States United Kingdom Sign Up Login Enjoy massive savings while issuing cash-equivalent rewards to your customers via email! RewardSender makes it simple to send cash-equivalent rewards t"
+      },
+      "similarity": {
+        "title": 0.18,
+        "text": 0,
+        "favicon": false,
+        "overall": 0.06
+      },
+      "listedOn": [],
+      "score": 37,
+      "severity": "low",
+      "label": "lookalike-other-crypto",
+      "evidence": [
+        "Brand name plus a phishing lure word",
+        "Lookalike of your domain serving other crypto content (wallet)"
+      ],
+      "action": "Review: traffic for a lookalike of your name goes to other crypto content (a competitor, an affiliate, or a phishing kit for another brand). Report if it misleads your users.",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "sender.gg",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "tld-swap",
+      "dns": {
+        "domain": "sender.gg",
+        "registered": true,
+        "a": [
+          "76.76.21.21"
+        ],
+        "aaaa": [],
+        "mx": [
+          "eforward2.registrar-servers.com",
+          "eforward1.registrar-servers.com",
+          "eforward3.registrar-servers.com",
+          "eforward4.registrar-servers.com",
+          "eforward5.registrar-servers.com"
+        ],
+        "ns": [
+          "pdns2.registrar-servers.com",
+          "pdns1.registrar-servers.com"
+        ]
+      },
+      "page": {
+        "url": "https://sender.gg/",
+        "finalUrl": "https://www.sender.gg/",
+        "status": 200,
+        "title": "",
+        "scriptUrls": [
+          "https://www.sender.gg/_next/static/chunks/polyfills-c67a75d1b6f99dc8.js",
+          "https://www.sender.gg/_next/static/chunks/webpack-ada9fb6b3600dd12.js",
+          "https://www.sender.gg/_next/static/chunks/framework-73b8966a3c579ab0.js",
+          "https://www.sender.gg/_next/static/chunks/main-6add0254a69411ca.js",
+          "https://www.sender.gg/_next/static/chunks/pages/_app-5e39852c9c44dbe3.js",
+          "https://www.sender.gg/_next/static/chunks/pages/index-b8a4bd8b60bea0d2.js"
+        ],
+        "signals": {
+          "walletPrompt": [
+            "connect your wallet",
+            "walletConnect",
+            "Web3Modal",
+            "RainbowKit",
+            "eth_requestAccounts",
+            "window.ethereum"
+          ],
+          "seedPhrase": [],
+          "secretForm": false,
+          "lure": [],
+          "drainerJs": [
+            "eth_signTypedData_v4"
+          ],
+          "parked": [],
+          "cryptoContext": [
+            "web3",
+            "NFT"
+          ],
+          "interstitial": [],
+          "challenge": []
+        },
+        "brandMentions": 0,
+        "brandInTitle": false,
+        "bytes": 13869,
+        "renderedWith": "playwright",
+        "faviconUrl": "https://www.sender.gg/favicon.ico",
+        "faviconSha256": "9d90c410db7f2c8ef20b50133dbba8bcacdfe4c4f4656b80aff84280acfd851e",
+        "screenshot": "/Users/kacpergumieniuk/Projects/4b47/mimicwatch-near/data/scans/2026-11-01/domains/sender-wallet-2026-11-01/shots/sender.gg.jpg",
+        "textSample": "On-chain notifications for dApps Cross-chain, gasless, and easy to integrate Read the docs More than notifications Communicate with your dApp and protocol users Flexible, out-of-the-box notifications Sender Protocol eliminates the need for dApps to build custom solutions for chat and notifications. "
+      },
+      "similarity": {
+        "title": 0,
+        "text": 0,
+        "favicon": false,
+        "overall": 0
+      },
+      "listedOn": [],
+      "score": 36,
+      "severity": "low",
+      "label": "lookalike-other-crypto",
+      "evidence": [
+        "Official name on a different TLD",
+        "Lookalike of your domain serving other crypto content (web3, NFT)",
+        "Wallet-connect prompt/library: connect your wallet, walletConnect, Web3Modal",
+        "Drainer-style JS: eth_signTypedData_v4"
+      ],
+      "action": "Review: traffic for a lookalike of your name goes to other crypto content (a competitor, an affiliate, or a phishing kit for another brand). Report if it misleads your users.",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "sender5.org",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "addition",
+      "dns": {
+        "domain": "sender5.org",
+        "registered": true,
+        "a": [
+          "207.207.210.50",
+          "207.207.210.36",
+          "207.207.210.23"
+        ],
+        "aaaa": [],
+        "mx": [],
+        "ns": [
+          "salvador.ns.porkbun.com",
+          "curitiba.ns.porkbun.com",
+          "maceio.ns.porkbun.com",
+          "fortaleza.ns.porkbun.com"
+        ]
+      },
+      "page": {
+        "url": "https://sender5.org/",
+        "finalUrl": "https://email5.org/",
+        "status": 200,
+        "title": "Email 5 | Programmable Email Built on Open Email Standards",
+        "scriptUrls": [
+          "https://email5.org/storage/cache/email5-org/7/c/3/8/e/e4c802d4f7c3bcb3db6b32d1942f6dc3-compressor-part.js",
+          "https://email5.org/template/onix/js/lib/jquery.min.js",
+          "https://email5.org/template/onix/js/lib/aos.js",
+          "https://email5.org/template/onix/js/lib/scroll-lock.min.js",
+          "https://email5.org/template/onix/js/lib/dragScroll.min.js",
+          "https://email5.org/template/onix/js/app.js"
+        ],
+        "signals": {
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "secretForm": false,
+          "lure": [
+            "eligibility"
+          ],
+          "drainerJs": [],
+          "parked": [],
+          "cryptoContext": [
+            "Token"
+          ],
+          "interstitial": [],
+          "challenge": []
+        },
+        "brandMentions": 0,
+        "brandInTitle": false,
+        "bytes": 21115,
+        "renderedWith": "playwright",
+        "faviconUrl": "https://email5.org/storage/email5/favicon.ico",
+        "faviconSha256": "fea4433edd9fd39e694425cede06ac4f3cfdefd743ca2e483b373c479473c798",
+        "screenshot": "/Users/kacpergumieniuk/Projects/4b47/mimicwatch-near/data/scans/2026-11-01/domains/sender-wallet-2026-11-01/shots/sender5.org.jpg",
+        "textSample": "Home Vision Standards Token Docs Blog Support Contact Explore Standards A New Standard EMAIL 5 Email for what’s next Programmable messaging with agentic AI mailbox management and distributed storage. Learn More Scroll to learn Email 5 — Introducing Open Email Standards 100M Public Distribution Alloc"
+      },
+      "similarity": {
+        "title": 0,
+        "text": 0,
+        "favicon": false,
+        "overall": 0
+      },
+      "listedOn": [],
+      "score": 35,
+      "severity": "low",
+      "label": "lookalike-other-crypto",
+      "evidence": [
+        "Typosquat (addition) of the official domain",
+        "Lookalike of your domain serving other crypto content (Token), ends at https://email5.org/"
+      ],
+      "action": "Review: traffic for a lookalike of your name goes to other crypto content (a competitor, an affiliate, or a phishing kit for another brand). Report if it misleads your users.",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "xender.org",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "replacement",
+      "dns": {
+        "domain": "xender.org",
+        "registered": true,
+        "a": [
+          "142.91.103.77"
+        ],
+        "aaaa": [],
+        "mx": [],
+        "ns": [
+          "dns1.registrar-servers.com",
+          "dns2.registrar-servers.com"
+        ]
+      },
+      "page": {
+        "url": "https://xender.org/",
+        "finalUrl": "https://xender.org/",
+        "status": 200,
+        "title": "Xender — Free Wireless File Transfer App (Android, iOS, PC, Mac)",
+        "scriptUrls": [
+          "https://tracking.braxeo.com/script.js"
+        ],
+        "signals": {
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "secretForm": false,
+          "lure": [
+            "AirDrop"
+          ],
+          "drainerJs": [],
+          "parked": [],
+          "cryptoContext": [
+            "AirDrop"
+          ],
+          "interstitial": [],
+          "challenge": []
+        },
+        "brandMentions": 0,
+        "brandInTitle": false,
+        "bytes": 43294,
+        "renderedWith": "playwright",
+        "faviconUrl": "https://xender.org/favicon.ico",
+        "faviconSha256": "15bf18dc06df47f8c68b7eaf57473ae2d9bb6d9a233313847137dfc72a01c5b0",
+        "screenshot": "/Users/kacpergumieniuk/Projects/4b47/mimicwatch-near/data/scans/2026-11-01/domains/sender-wallet-2026-11-01/shots/xender.org.jpg",
+        "textSample": "xender .org Download For PC APK Android Download Free Latest Version · v18.0.1 · Updated April 2026 Xender: Transfer at Lightning Speed Xender connects any two devices wirelessly and moves files at up to 40 MB/s — no cables, no internet, no limits. Works across Android, iOS, Windows and Mac, free fo"
+      },
+      "similarity": {
+        "title": 0,
+        "text": 0,
+        "favicon": false,
+        "overall": 0
+      },
+      "listedOn": [],
+      "score": 35,
+      "severity": "low",
+      "label": "lookalike-other-crypto",
+      "evidence": [
+        "Typosquat (replacement) of the official domain",
+        "Lookalike of your domain serving other crypto content (AirDrop)"
+      ],
+      "action": "Review: traffic for a lookalike of your name goes to other crypto content (a competitor, an affiliate, or a phishing kit for another brand). Report if it misleads your users.",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "senderbridge.xyz",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "dictionary",
+      "dns": {
+        "domain": "senderbridge.xyz",
+        "registered": true,
+        "a": [
+          "135.181.41.169"
+        ],
+        "aaaa": [],
+        "mx": [],
+        "ns": [
+          "parked2.uadns.com",
+          "parked1.uadns.com"
+        ]
+      },
+      "page": {
+        "url": "http://senderbridge.xyz/",
+        "finalUrl": "http://senderbridge.xyz/",
+        "status": 200,
+        "title": "Домен senderbridge.xyz підтримується сервісом NIC.UA",
+        "scriptUrls": [
+          "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4252993855973205"
+        ],
+        "signals": {
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "secretForm": false,
+          "lure": [
+            "Claim"
+          ],
+          "drainerJs": [],
+          "parked": [],
+          "cryptoContext": [
+            "bridge"
+          ],
+          "interstitial": [],
+          "challenge": []
+        },
+        "brandMentions": 0,
+        "brandInTitle": false,
+        "bytes": 8005,
+        "renderedWith": "playwright",
+        "faviconUrl": "http://senderbridge.xyz/apple-touch-icon.png",
+        "screenshot": "/Users/kacpergumieniuk/Projects/4b47/mimicwatch-near/data/scans/2026-11-01/domains/sender-wallet-2026-11-01/shots/senderbridge.xyz.jpg",
+        "textSample": "Customer support укр eng The domain senderbridge.xyz is powered by NIC.UA Who is the owner of this domain name? Buy domains Discounts, bonus points and referral program Buy hosting High productivity. Convenient control panel Trademark registration We protect your rights and help with the documents S"
+      },
+      "similarity": {
+        "title": 0,
+        "text": 0,
+        "favicon": false,
+        "overall": 0
+      },
+      "listedOn": [],
+      "score": 35,
+      "severity": "low",
+      "label": "lookalike-other-crypto",
+      "evidence": [
+        "Brand name plus a phishing lure word",
+        "Lookalike of your domain serving other crypto content (bridge)"
+      ],
+      "action": "Review: traffic for a lookalike of your name goes to other crypto content (a competitor, an affiliate, or a phishing kit for another brand). Report if it misleads your users.",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "semder.org",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "homoglyph",
+      "dns": {
+        "domain": "semder.org",
+        "registered": true,
+        "a": [
+          "93.89.226.17"
+        ],
+        "aaaa": [],
+        "mx": [
+          "mail.semder.org"
+        ],
+        "ns": [
+          "tr.dnsenable.com",
+          "eu.dnsenable.com",
+          "us.dnsenable.com"
+        ]
+      },
+      "page": {
+        "url": "http://semder.org/",
+        "finalUrl": "http://semder.org/",
+        "status": 200,
+        "title": "Untitled Page",
+        "scriptUrls": [],
+        "signals": {
+          "secretForm": false,
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "lure": [],
+          "drainerJs": [],
+          "parked": [],
+          "cryptoContext": [],
+          "interstitial": [],
+          "challenge": []
+        },
+        "brandMentions": 0,
+        "brandInTitle": false,
+        "bytes": 888,
+        "renderedWith": "http",
+        "faviconUrl": "http://semder.org/favicon.ico",
+        "textSample": "Domain veritabanında bulunamadıA network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named"
+      },
+      "similarity": {
+        "title": 0.21,
+        "text": 0,
+        "favicon": false,
+        "overall": 0.07
+      },
+      "listedOn": [],
+      "score": 32,
+      "severity": "low",
+      "label": "likely-false-positive",
+      "evidence": [
+        "Homoglyph lookalike of the official domain",
+        "No brand content found on the page: probably unrelated (false positive)"
+      ],
+      "action": "No action (labelled false positive).",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "senderwallet.com",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "tld-swap",
+      "dns": {
+        "domain": "senderwallet.com",
+        "registered": true,
+        "a": [
+          "76.223.54.146",
+          "13.248.169.48"
+        ],
+        "aaaa": [],
+        "mx": [
+          ""
+        ],
+        "ns": [
+          "ns2.afternic.com",
+          "ns1.afternic.com"
+        ]
+      },
+      "page": {
+        "url": "https://senderwallet.com/",
+        "finalUrl": "https://forsale.godaddy.com/forsale/senderwallet.com?utm_source=TDFS_BINNS2&utm_medium=parkedpages&utm_campaign=x_corp_tdfs-binns2_base&traffic_type=TDFS_BINNS2&traffic_id=binns2&",
+        "status": 200,
+        "title": "Access Denied",
+        "scriptUrls": [],
+        "signals": {
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "secretForm": false,
+          "lure": [],
+          "drainerJs": [],
+          "parked": [],
+          "cryptoContext": [],
+          "interstitial": [],
+          "challenge": [
+            "Access Denied"
+          ]
+        },
+        "brandMentions": 1,
+        "brandInTitle": false,
+        "bytes": 114,
+        "renderedWith": "playwright",
+        "faviconUrl": "https://senderwallet.com/favicon.ico",
+        "screenshot": "/Users/kacpergumieniuk/Projects/4b47/mimicwatch-near/data/scans/2026-11-01/domains/sender-wallet-2026-11-01/shots/senderwallet.com.jpg",
+        "textSample": "Access Denied You don't have permission to access \"http://forsale.godaddy.com/forsale/senderwallet.com?\" on this server. Reference #18.2f0c4017.1793549545.4c5e71c3 https://errors.edgesuite.net/18.2f0c4017.1793549545.4c5e71c3"
+      },
+      "similarity": {
+        "title": 0.12,
+        "text": 0,
+        "favicon": false,
+        "overall": 0.04
+      },
+      "listedOn": [],
+      "score": 30,
+      "severity": "low",
+      "label": "lookalike-unknown-content",
+      "evidence": [
+        "Official name on a different TLD",
+        "Hostname contains a lure word (claim/airdrop/support/...)",
+        "Bot challenge or redirect stub (\"Access Denied\"): real content not visible"
+      ],
+      "action": "Re-check next scan; the content was not visible to us (error, bot wall or empty page).",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "serder.org",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "homoglyph",
+      "dns": {
+        "domain": "serder.org",
+        "registered": true,
+        "a": [
+          "85.159.66.62"
+        ],
+        "aaaa": [],
+        "mx": [],
+        "ns": []
+      },
+      "page": {
+        "url": "http://serder.org/",
+        "finalUrl": "http://serder.org/",
+        "status": 200,
+        "title": "Türkiye’nin Lider Domain & Hosting Markası | Natro",
+        "scriptUrls": [],
+        "signals": {
+          "secretForm": false,
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "lure": [],
+          "drainerJs": [],
+          "parked": [
+            "domain is expired"
+          ],
+          "cryptoContext": [],
+          "interstitial": [],
+          "challenge": []
+        },
+        "brandMentions": 0,
+        "brandInTitle": false,
+        "bytes": 9341,
+        "renderedWith": "http",
+        "faviconUrl": "http://serder.org/favicon.ico",
+        "textSample": "serder.org Bu alan adının kayıt süresi dolmuştur. Alan adını yenilemek için lütfen kayıt firmasıyla bağlantı kurun. This domain is expired. Please contact the domain provider with questions."
+      },
+      "similarity": {
+        "title": 0,
+        "text": 0,
+        "favicon": false,
+        "overall": 0
+      },
+      "listedOn": [],
+      "score": 30,
+      "severity": "low",
+      "label": "parked",
+      "evidence": [
+        "Homoglyph lookalike of the official domain",
+        "Parked / for-sale page"
+      ],
+      "action": "Monitor. Consider buying it defensively or a UDRP if it turns active.",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "sendler.org",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "homoglyph",
+      "dns": {
+        "domain": "sendler.org",
+        "registered": true,
+        "a": [
+          "81.169.145.86"
+        ],
+        "aaaa": [],
+        "mx": [
+          "mx2.ex-relay.de"
+        ],
+        "ns": [
+          "shades20.rzone.de",
+          "docks10.rzone.de"
+        ]
+      },
+      "page": {
+        "url": "https://sendler.org/",
+        "finalUrl": "https://sendler.org/",
+        "status": 200,
+        "title": "STRATO - Domain reserved",
+        "scriptUrls": [],
+        "signals": {
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "secretForm": false,
+          "lure": [],
+          "drainerJs": [],
+          "parked": [],
+          "cryptoContext": [],
+          "interstitial": [],
+          "challenge": []
+        },
+        "brandMentions": 0,
+        "brandInTitle": false,
+        "bytes": 4602,
+        "renderedWith": "playwright",
+        "faviconUrl": "https://sendler.org/favicon.ico",
+        "screenshot": "/Users/kacpergumieniuk/Projects/4b47/mimicwatch-near/data/scans/2026-11-01/domains/sender-wallet-2026-11-01/shots/sendler.org.jpg",
+        "textSample": "English This domain is now reserved. As of now, no content has been uploaded. Deutsch Diese Domain wurde soeben freigeschaltet. Es wurden noch keine Inhalte hinterlegt. Espa&ntilde;ol Esta p&aacute;gina web acaba de ser activada y a&uacute;n no tiene contenido. Nederlands Deze website werd zojuist g"
+      },
+      "similarity": {
+        "title": 0,
+        "text": 0,
+        "favicon": false,
+        "overall": 0
+      },
+      "listedOn": [],
+      "score": 30,
+      "severity": "low",
+      "label": "likely-false-positive",
+      "evidence": [
+        "Homoglyph lookalike of the official domain",
+        "No brand content found on the page: probably unrelated (false positive)"
+      ],
+      "action": "No action (labelled false positive).",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "securesender.com",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "dictionary",
+      "dns": {
+        "domain": "securesender.com",
+        "registered": true,
+        "a": [
+          "66.254.102.128"
+        ],
+        "aaaa": [],
+        "mx": [
+          "mail.answer-pro.com"
+        ],
+        "ns": [
+          "ns1.reflected.net",
+          "ns0.reflected.net"
+        ]
+      },
+      "page": {
+        "url": "https://securesender.com/",
+        "finalUrl": "https://securesender.com/",
+        "status": 200,
+        "title": "Secure Sender",
+        "scriptUrls": [
+          "https://code.jquery.com/jquery-3.6.3.min.js"
+        ],
+        "signals": {
+          "secretForm": false,
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "lure": [],
+          "drainerJs": [],
+          "parked": [],
+          "cryptoContext": [],
+          "interstitial": [],
+          "challenge": []
+        },
+        "brandMentions": 0,
+        "brandInTitle": false,
+        "bytes": 8800,
+        "renderedWith": "http",
+        "faviconUrl": "https://securesender.com/favicon.ico",
+        "textSample": "SECURE SENDER Home Products Pricing Contact Us GET YOUR EMAILS DELIVERED ON TIME MAXIMIZE, INCREASE & IMPROVE Email Collection and List Hygiene Secure Sender only works with companies who opt-in or double opt-in their members. We consult with each client to make their Email collection as transparent"
+      },
+      "similarity": {
+        "title": 0.21,
+        "text": 0,
+        "favicon": false,
+        "overall": 0.07
+      },
+      "listedOn": [],
+      "score": 27,
+      "severity": "low",
+      "label": "likely-false-positive",
+      "evidence": [
+        "Brand name plus a phishing lure word",
+        "No brand content found on the page: probably unrelated (false positive)"
+      ],
+      "action": "No action (labelled false positive).",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "eventsender.com",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "dictionary",
+      "dns": {
+        "domain": "eventsender.com",
+        "registered": true,
+        "a": [
+          "209.173.135.61"
+        ],
+        "aaaa": [],
+        "mx": [
+          "aspmx.l.google.com",
+          "alt2.aspmx.l.google.com",
+          "alt1.aspmx.l.google.com",
+          "alt4.aspmx.l.google.com",
+          "alt3.aspmx.l.google.com"
+        ],
+        "ns": [
+          "ns57.domaincontrol.com",
+          "ns58.domaincontrol.com"
+        ]
+      },
+      "page": {
+        "url": "https://eventsender.com/",
+        "finalUrl": "https://eventsender.com/",
+        "status": 200,
+        "title": "Home - EventSender",
+        "scriptUrls": [
+          "https://code.jquery.com/jquery-3.7.1.min.js",
+          "https://eventsender.com/js/bootstrap.js",
+          "https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js",
+          "https://eventsender.com/js/custom.js"
+        ],
+        "signals": {
+          "secretForm": false,
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "lure": [],
+          "drainerJs": [],
+          "parked": [],
+          "cryptoContext": [],
+          "interstitial": [],
+          "challenge": []
+        },
+        "brandMentions": 0,
+        "brandInTitle": false,
+        "bytes": 14898,
+        "renderedWith": "http",
+        "faviconUrl": "https://eventsender.com/favicon.ico",
+        "textSample": "Email : sales@eventsender.com Home (current) About Contact Us Safeguard Attendees, Protect Emails, Secure Your Reputation: EventSender's Promise Are you exhausted from the constant risk of attendee email leaks, yet still obligated to fulfill exhibitor marketing agreements? Learn More Conference Comm"
+      },
+      "similarity": {
+        "title": 0.18,
+        "text": 0,
+        "favicon": false,
+        "overall": 0.06
+      },
+      "listedOn": [],
+      "score": 27,
+      "severity": "low",
+      "label": "likely-false-positive",
+      "evidence": [
+        "Brand name plus a phishing lure word",
+        "No brand content found on the page: probably unrelated (false positive)"
+      ],
+      "action": "No action (labelled false positive).",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "wsender.org",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "insertion",
+      "dns": {
+        "domain": "wsender.org",
+        "registered": true,
+        "a": [
+          "144.91.118.241"
+        ],
+        "aaaa": [],
+        "mx": [],
+        "ns": [
+          "lakas.ns.cloudflare.com",
+          "diana.ns.cloudflare.com"
+        ]
+      },
+      "page": {
+        "url": "https://wsender.org/",
+        "finalUrl": "https://wsender.org/",
+        "status": 200,
+        "title": "Home - wsender",
+        "scriptUrls": [
+          "https://wsender.org/assets/frontend/js/jquery.js",
+          "https://wsender.org/assets/frontend/js/waypoints.js",
+          "https://wsender.org/assets/frontend/js/bootstrap.bundle.min.js",
+          "https://wsender.org/assets/frontend/js/swiper-bundle.js",
+          "https://wsender.org/assets/frontend/js/slick.js",
+          "https://wsender.org/assets/frontend/js/magnific-popup.js"
+        ],
+        "signals": {
+          "secretForm": false,
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "lure": [],
+          "drainerJs": [],
+          "parked": [],
+          "cryptoContext": [],
+          "interstitial": [],
+          "challenge": []
+        },
+        "brandMentions": 0,
+        "brandInTitle": false,
+        "bytes": 37349,
+        "renderedWith": "http",
+        "faviconUrl": "https://wsender.org/uploads/favicon.png",
+        "faviconSha256": "e59060a542c49a981cde88ce287046f293ae929e0b22f81899b6eec2ee393d01",
+        "textSample": "Home About Us Pricing Features Blogs Contact Login Get Started Get In Touch Email wsender@bimoweb.com Phone 971507456169 Location Nad Al Sheba 3, Dubai Boost your marketing with WASender Have a query? Contact us Over 32K+ software businesses growing with WASender More than 13,000 teams use our platf"
+      },
+      "similarity": {
+        "title": 0.12,
+        "text": 0,
+        "favicon": false,
+        "overall": 0.04
+      },
+      "listedOn": [],
+      "score": 26,
+      "severity": "low",
+      "label": "likely-false-positive",
+      "evidence": [
+        "Typosquat (insertion) of the official domain",
+        "No brand content found on the page: probably unrelated (false positive)"
+      ],
+      "action": "No action (labelled false positive).",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "app-sender.com",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "dictionary",
+      "dns": {
+        "domain": "app-sender.com",
+        "registered": true,
+        "a": [
+          "164.92.112.29"
+        ],
+        "aaaa": [],
+        "mx": [
+          "app-sender.com"
+        ],
+        "ns": [
+          "ns6.webshn.com",
+          "ns5.webshn.com"
+        ]
+      },
+      "page": {
+        "url": "https://app-sender.com/",
+        "finalUrl": "https://app-sender.com/",
+        "status": 200,
+        "title": "AppSender | Boost your marketing | Automate WhatsApp | bots",
+        "scriptUrls": [
+          "https://app-sender.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1",
+          "https://app-sender.com/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js?ver=2.7.0-wc.11.2.1",
+          "https://app-sender.com/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js?ver=11.2.1",
+          "https://app-sender.com/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js?ver=2.1.4-wc.11.2.1",
+          "https://app-sender.com/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js?ver=11.2.1",
+          "https://app-sender.com/wp-content/plugins/woocommerce/assets/js/zoom/jquery.zoom.min.js?ver=1.7.21-wc.11.2.1"
+        ],
+        "signals": {
+          "secretForm": false,
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "lure": [
+            "refund"
+          ],
+          "drainerJs": [],
+          "parked": [],
+          "cryptoContext": [],
+          "interstitial": [],
+          "challenge": []
+        },
+        "brandMentions": 0,
+        "brandInTitle": false,
+        "bytes": 63513,
+        "renderedWith": "http",
+        "faviconUrl": "https://app-sender.com/wp-content/uploads/2023/08/cropped-icon-32x32.png",
+        "faviconSha256": "914fc67f873113dfb6a2e2bdf9ef67cce5f34d67268ff07a14b0c7c8136c52ac",
+        "textSample": "Home Features Pricing Help Download Boost your marketing with AppSender Amazing features 🔥 AppSender is a software for Windows® that runs on PC, a solution to automatically send messages to your clients and groups in bulk Features for WhatsApp Bulk sending of unlimited WhatsApp messages Sending mas"
+      },
+      "similarity": {
+        "title": 0.09,
+        "text": 0,
+        "favicon": false,
+        "overall": 0.03
+      },
+      "listedOn": [],
+      "score": 26,
+      "severity": "low",
+      "label": "likely-false-positive",
+      "evidence": [
+        "Brand name plus a phishing lure word",
+        "No brand content found on the page: probably unrelated (false positive)"
+      ],
+      "action": "No action (labelled false positive).",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "portalsender.com",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "dictionary",
+      "dns": {
+        "domain": "portalsender.com",
+        "registered": true,
+        "a": [
+          "104.21.86.70",
+          "172.67.216.141"
+        ],
+        "aaaa": [],
+        "mx": [
+          "smtp.google.com"
+        ],
+        "ns": [
+          "algin.ns.cloudflare.com",
+          "betty.ns.cloudflare.com"
+        ]
+      },
+      "page": {
+        "url": "https://portalsender.com/",
+        "finalUrl": "https://www.sender.net/",
+        "status": 200,
+        "title": "Sender – Email Marketing Platform for Growing Businesses",
+        "scriptUrls": [
+          "https://www.sender.net/assets/build/assets/main-D5xLTrIU.js"
+        ],
+        "signals": {
+          "secretForm": false,
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "lure": [
+            "Migration"
+          ],
+          "drainerJs": [],
+          "parked": [],
+          "cryptoContext": [],
+          "interstitial": [],
+          "challenge": []
+        },
+        "brandMentions": 0,
+        "brandInTitle": false,
+        "bytes": 350246,
+        "renderedWith": "http",
+        "faviconUrl": "https://www.sender.net/assets/favicon.png?v=1",
+        "faviconSha256": "13844632aec77d2c4e4750b3d0ccae38bb3157033962531399d99e2dbb92fa82",
+        "textSample": "Sender works with your AI assistant now. And it's free! See How &rarr; Features Resources Education Email marketing Email content ideas Email Deliverability Digital marketing tips All blog articles Support Help center 24/7 support Migration guide Training videos Product updates Free resources Email "
+      },
+      "similarity": {
+        "title": 0.09,
+        "text": 0,
+        "favicon": false,
+        "overall": 0.03
+      },
+      "listedOn": [],
+      "score": 26,
+      "severity": "low",
+      "label": "likely-false-positive",
+      "evidence": [
+        "Brand name plus a phishing lure word",
+        "No brand content found on the page: probably unrelated (false positive)"
+      ],
+      "action": "No action (labelled false positive).",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "sendera.org",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "addition",
+      "dns": {
+        "domain": "sendera.org",
+        "registered": true,
+        "a": [
+          "52.217.199.77",
+          "16.15.253.75",
+          "52.216.56.149",
+          "52.216.9.202",
+          "52.216.52.77",
+          "16.15.158.232",
+          "54.231.170.221",
+          "16.182.42.85"
+        ],
+        "aaaa": [],
+        "mx": [],
+        "ns": [
+          "ns-1772.awsdns-29.co.uk",
+          "ns-1423.awsdns-49.org",
+          "ns-1004.awsdns-61.net",
+          "ns-408.awsdns-51.com"
+        ]
+      },
+      "page": {
+        "url": "https://sendera.org/",
+        "finalUrl": "https://sendera.org/",
+        "status": 0,
+        "title": "",
+        "scriptUrls": [],
+        "signals": {
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "secretForm": false,
+          "lure": [],
+          "drainerJs": [],
+          "parked": [],
+          "cryptoContext": [],
+          "interstitial": [],
+          "challenge": []
+        },
+        "brandMentions": 0,
+        "brandInTitle": false,
+        "bytes": 0,
+        "renderedWith": "http",
+        "error": "read ECONNRESET; http: 807F20EE01000000:error:0A000410:SSL routines:ssl3_read_bytes:ssl/tls alert handshake failure:../deps/openssl/openssl/ssl/record/rec_layer_s3.c:918:SSL alert number 40\n",
+        "textSample": ""
+      },
+      "listedOn": [],
+      "score": 25,
+      "severity": "low",
+      "label": "lookalike-unknown-content",
+      "evidence": [
+        "Typosquat (addition) of the official domain",
+        "Page not reachable: read ECONNRESET; http: 807F20EE01000000:error:0A000410:SSL routines:ssl3_read_by"
+      ],
+      "action": "Re-check next scan; the content was not visible to us (error, bot wall or empty page).",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "senderi.org",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "addition",
+      "dns": {
+        "domain": "senderi.org",
+        "registered": true,
+        "a": [
+          "172.67.200.251",
+          "104.21.92.245"
+        ],
+        "aaaa": [],
+        "mx": [],
+        "ns": [
+          "sloan.ns.cloudflare.com",
+          "chris.ns.cloudflare.com"
+        ]
+      },
+      "page": {
+        "url": "https://senderi.org/",
+        "finalUrl": "https://www.limaolx.com/playn-go/",
+        "status": 200,
+        "title": "OLXTOTO 🏆 Platform Toto Togel Macau 5D & Prediksi Macau Paling Terbaru Hari Ini",
+        "scriptUrls": [
+          "https://app.backinstock.org/widget/91512_1746008386.js?category=bisu0026v=6u0026shop=istudio-elush-production.myshopify.com",
+          "https://app.backinstock.org/widget/91512_1746008386.js?category=bisu0026v=6u0026shop=istudio-elush-production.myshopify.com",
+          "https://www.istudiosg.com/cdn/shop/t/14/assets/jquery-latest.min.js?v=174441762609953228921742784888",
+          "https://www.istudiosg.com/cdn/shop/t/14/assets/constants.js?v=58251544750838685771742784887",
+          "https://www.istudiosg.com/cdn/shop/t/14/assets/pubsub.js?v=158357773527763999511742784889",
+          "https://www.istudiosg.com/cdn/shop/t/14/assets/global.js?v=86940198807662246831742784888"
+        ],
+        "signals": {
+          "secretForm": false,
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "lure": [],
+          "drainerJs": [],
+          "parked": [],
+          "cryptoContext": [],
+          "interstitial": [],
+          "challenge": []
+        },
+        "brandMentions": 0,
+        "brandInTitle": false,
+        "bytes": 420088,
+        "renderedWith": "http",
+        "faviconUrl": "https://imgstore.io/images/2025/12/18/icon-olxtoto.png",
+        "faviconSha256": "9c20535a5e7c88d81d48ac68283aba72f7b6232febca9b2d40e901c795947928",
+        "textSample": "Previous Kami Mempersembahkan Kepada Anda OLXTOTO 🏆 Platform Toto Togel Macau 5D & Prediksi Macau Paling Terbaru Hari Ini Daftar Disini ! Login Toto Macau Melalui Link Yang Sudah Kami Sediakan Akses Login Cepat, Aman, dan Stabil Tanpa Gangguan Data & Result Toto Macau Akurat Update Real-Time Sistem"
+      },
+      "similarity": {
+        "title": 0,
+        "text": 0,
+        "favicon": false,
+        "overall": 0
+      },
+      "listedOn": [],
+      "score": 25,
+      "severity": "low",
+      "label": "likely-false-positive",
+      "evidence": [
+        "Typosquat (addition) of the official domain",
+        "No brand content found on the page: probably unrelated (false positive)"
+      ],
+      "action": "No action (labelled false positive).",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "sendero.org",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "addition",
+      "dns": {
+        "domain": "sendero.org",
+        "registered": true,
+        "a": [
+          "54.84.240.235",
+          "44.208.83.180"
+        ],
+        "aaaa": [],
+        "mx": [
+          "mail1.namebrightmail.com",
+          "mail2.namebrightmail.com"
+        ],
+        "ns": [
+          "ns2.namebrightdns.com",
+          "ns1.namebrightdns.com"
+        ]
+      },
+      "page": {
+        "url": "https://sendero.org/",
+        "finalUrl": "https://sendero.org/",
+        "status": 200,
+        "title": "",
+        "scriptUrls": [],
+        "signals": {
+          "secretForm": false,
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "lure": [],
+          "drainerJs": [],
+          "parked": [],
+          "cryptoContext": [],
+          "interstitial": [],
+          "challenge": []
+        },
+        "brandMentions": 0,
+        "brandInTitle": false,
+        "bytes": 432,
+        "renderedWith": "http",
+        "faviconUrl": "data:,",
+        "textSample": ""
+      },
+      "similarity": {
+        "title": 0,
+        "text": 0,
+        "favicon": false,
+        "overall": 0
+      },
+      "listedOn": [],
+      "score": 25,
+      "severity": "low",
+      "label": "lookalike-unknown-content",
+      "evidence": [
+        "Typosquat (addition) of the official domain",
+        "Almost empty page (0 chars of text, title \"\"): content not visible"
+      ],
+      "action": "Re-check next scan; the content was not visible to us (error, bot wall or empty page).",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "senderp.org",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "addition",
+      "dns": {
+        "domain": "senderp.org",
+        "registered": true,
+        "a": [
+          "217.160.0.175"
+        ],
+        "aaaa": [],
+        "mx": [
+          "smtp.google.com"
+        ],
+        "ns": [
+          "ns1074.ui-dns.biz",
+          "ns1096.ui-dns.org",
+          "ns1117.ui-dns.com",
+          "ns1124.ui-dns.de"
+        ]
+      },
+      "page": {
+        "url": "http://senderp.org/",
+        "finalUrl": "http://senderp.org/",
+        "status": 200,
+        "title": "",
+        "scriptUrls": [],
+        "signals": {
+          "secretForm": false,
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "lure": [],
+          "drainerJs": [],
+          "parked": [
+            "This domain has been registered"
+          ],
+          "cryptoContext": [],
+          "interstitial": [],
+          "challenge": []
+        },
+        "brandMentions": 0,
+        "brandInTitle": false,
+        "bytes": 606271,
+        "renderedWith": "http",
+        "faviconUrl": "http://senderp.org/favicon.ico",
+        "textSample": "This domain is already registered This domain has been registered via IONOS and is not yet connected to a website. If you are the owner, you can manage it here: Manage this domain Find your domain now Check A host you can count on Take your ideas one step further with IONOS — your web hosting and cl"
+      },
+      "similarity": {
+        "title": 0,
+        "text": 0,
+        "favicon": false,
+        "overall": 0
+      },
+      "listedOn": [],
+      "score": 25,
+      "severity": "low",
+      "label": "parked",
+      "evidence": [
+        "Typosquat (addition) of the official domain",
+        "Parked / for-sale page"
+      ],
+      "action": "Monitor. Consider buying it defensively or a UDRP if it turns active.",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "senders.org",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "addition",
+      "dns": {
+        "domain": "senders.org",
+        "registered": true,
+        "a": [
+          "72.10.7.115"
+        ],
+        "aaaa": [],
+        "mx": [
+          "_dc-mx.8e6c30347757.senders.org"
+        ],
+        "ns": [
+          "romina.ns.cloudflare.com",
+          "kip.ns.cloudflare.com"
+        ]
+      },
+      "page": {
+        "url": "http://senders.org/",
+        "finalUrl": "http://senders.org/",
+        "status": 200,
+        "title": "Access Denied",
+        "scriptUrls": [],
+        "signals": {
+          "secretForm": false,
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "lure": [],
+          "drainerJs": [],
+          "parked": [],
+          "cryptoContext": [],
+          "interstitial": [],
+          "challenge": [
+            "Access Denied"
+          ]
+        },
+        "brandMentions": 0,
+        "brandInTitle": false,
+        "bytes": 2576,
+        "renderedWith": "http",
+        "faviconUrl": "http://senders.org/favicon.ico",
+        "textSample": "This site is currently suspended If you are the owner of this site, please contact support for more information."
+      },
+      "similarity": {
+        "title": 0.12,
+        "text": 0,
+        "favicon": false,
+        "overall": 0.04
+      },
+      "listedOn": [],
+      "score": 25,
+      "severity": "low",
+      "label": "lookalike-unknown-content",
+      "evidence": [
+        "Typosquat (addition) of the official domain",
+        "Bot challenge or redirect stub (\"Access Denied\"): real content not visible"
+      ],
+      "action": "Re-check next scan; the content was not visible to us (error, bot wall or empty page).",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "sender2.org",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "addition",
+      "dns": {
+        "domain": "sender2.org",
+        "registered": true,
+        "a": [
+          "23.83.66.53"
+        ],
+        "aaaa": [],
+        "mx": [
+          "sender2.org"
+        ],
+        "ns": [
+          "isaac.ns.cloudflare.com",
+          "alina.ns.cloudflare.com"
+        ]
+      },
+      "page": {
+        "url": "https://sender2.org/",
+        "finalUrl": "https://sender2.org/",
+        "status": 0,
+        "title": "",
+        "scriptUrls": [],
+        "signals": {
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "secretForm": false,
+          "lure": [],
+          "drainerJs": [],
+          "parked": [],
+          "cryptoContext": [],
+          "interstitial": [],
+          "challenge": []
+        },
+        "brandMentions": 0,
+        "brandInTitle": false,
+        "bytes": 0,
+        "renderedWith": "http",
+        "error": "connect ECONNREFUSED 23.83.66.53:443; http: connect ECONNREFUSED 23.83.66.53:80",
+        "textSample": ""
+      },
+      "listedOn": [],
+      "score": 25,
+      "severity": "low",
+      "label": "lookalike-unknown-content",
+      "evidence": [
+        "Typosquat (addition) of the official domain",
+        "Page not reachable: connect ECONNREFUSED 23.83.66.53:443; http: connect ECONNREFUSED 23.83.66.53:80"
+      ],
+      "action": "Re-check next scan; the content was not visible to us (error, bot wall or empty page).",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "esender.org",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "insertion",
+      "dns": {
+        "domain": "esender.org",
+        "registered": true,
+        "a": [
+          "176.57.65.248"
+        ],
+        "aaaa": [],
+        "mx": [
+          "mx.yandex.net"
+        ],
+        "ns": [
+          "ns2.tildadns.com",
+          "ns1.tildadns.com"
+        ]
+      },
+      "page": {
+        "url": "https://esender.org/",
+        "finalUrl": "https://esender.org/",
+        "status": 200,
+        "title": "Купить китайский номер телефона Esender",
+        "scriptUrls": [
+          "https://neo.tildacdn.com/js/tilda-fallback-1.0.min.js",
+          "https://static.tildacdn.com/js/tilda-polyfill-1.0.min.js",
+          "https://static.tildacdn.com/js/jquery-1.10.2.min.js",
+          "https://static.tildacdn.com/js/tilda-scripts-3.0.min.js",
+          "https://static.tildacdn.com/ws/project8267176/tilda-blocks-page41918416.min.js?t=1788528945",
+          "https://static.tildacdn.com/js/tilda-lazyload-1.0.min.js"
+        ],
+        "signals": {
+          "secretForm": false,
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "lure": [],
+          "drainerJs": [],
+          "parked": [],
+          "cryptoContext": [],
+          "interstitial": [],
+          "challenge": []
+        },
+        "brandMentions": 0,
+        "brandInTitle": false,
+        "bytes": 565781,
+        "renderedWith": "http",
+        "faviconUrl": "https://static.tildacdn.com/tild6461-3133-4564-a233-333537333039/Esender_logo.svg",
+        "textSample": "Узнать стоимость Главная Цены О eSender Наши парнеры eSender Главная Цены о eSender Наши партнеры Или звоните на номер: +7 929 949-12-33 Мы на связи в мессенджерах Max WhatsApp Telegram Приобрести номер Китайский номер телефона для СМС и регистрации Купить китайский номер телефона eSender Как получи"
+      },
+      "similarity": {
+        "title": 0,
+        "text": 0,
+        "favicon": false,
+        "overall": 0
+      },
+      "listedOn": [],
+      "score": 25,
+      "severity": "low",
+      "label": "likely-false-positive",
+      "evidence": [
+        "Typosquat (insertion) of the official domain",
+        "No brand content found on the page: probably unrelated (false positive)"
+      ],
+      "action": "No action (labelled false positive).",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "xsender.org",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "insertion",
+      "dns": {
+        "domain": "xsender.org",
+        "registered": true,
+        "a": [
+          "104.21.85.216",
+          "172.67.211.107"
+        ],
+        "aaaa": [],
+        "mx": [
+          "mail.xsender.org"
+        ],
+        "ns": [
+          "lex.ns.cloudflare.com",
+          "luciana.ns.cloudflare.com"
+        ]
+      },
+      "page": {
+        "url": "https://xsender.org/",
+        "finalUrl": "https://xsender.org/",
+        "status": 200,
+        "title": "Index of /",
+        "scriptUrls": [],
+        "signals": {
+          "secretForm": false,
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "lure": [],
+          "drainerJs": [],
+          "parked": [],
+          "cryptoContext": [],
+          "interstitial": [],
+          "challenge": []
+        },
+        "brandMentions": 0,
+        "brandInTitle": false,
+        "bytes": 482,
+        "renderedWith": "http",
+        "faviconUrl": "https://xsender.org/favicon.ico",
+        "textSample": "Index of / Name Last modified Size Description"
+      },
+      "similarity": {
+        "title": 0.15,
+        "text": 0,
+        "favicon": false,
+        "overall": 0.05
+      },
+      "listedOn": [],
+      "score": 25,
+      "severity": "low",
+      "label": "lookalike-unknown-content",
+      "evidence": [
+        "Typosquat (insertion) of the official domain",
+        "Almost empty page (46 chars of text, title \"Index of /\"): content not visible"
+      ],
+      "action": "Re-check next scan; the content was not visible to us (error, bot wall or empty page).",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "asender.org",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "insertion",
+      "dns": {
+        "domain": "asender.org",
+        "registered": true,
+        "a": [
+          "185.53.179.149"
+        ],
+        "aaaa": [],
+        "mx": [],
+        "ns": [
+          "ns1.dyna-ns.net",
+          "ns2.dyna-ns.net"
+        ]
+      },
+      "page": {
+        "url": "http://asender.org/",
+        "finalUrl": "http://asender.org/",
+        "status": 200,
+        "title": "asender.org",
+        "scriptUrls": [
+          "https://euob.northwavepoint.com/sxp/i/636f8b858f681acb7bfa6f583a96630a.js"
+        ],
+        "signals": {
+          "secretForm": false,
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "lure": [],
+          "drainerJs": [],
+          "parked": [],
+          "cryptoContext": [],
+          "interstitial": [],
+          "challenge": []
+        },
+        "brandMentions": 0,
+        "brandInTitle": false,
+        "bytes": 43745,
+        "renderedWith": "http",
+        "faviconUrl": "http://asender.org/favicon.ico",
+        "textSample": ""
+      },
+      "similarity": {
+        "title": 0.21,
+        "text": 0,
+        "favicon": false,
+        "overall": 0.07
+      },
+      "listedOn": [],
+      "score": 25,
+      "severity": "low",
+      "label": "lookalike-unknown-content",
+      "evidence": [
+        "Typosquat (insertion) of the official domain",
+        "Almost empty page (0 chars of text, title \"asender.org\"): content not visible"
+      ],
+      "action": "Re-check next scan; the content was not visible to us (error, bot wall or empty page).",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "seneder.org",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "insertion",
+      "dns": {
+        "domain": "seneder.org",
+        "registered": true,
+        "a": [
+          "82.29.172.222"
+        ],
+        "aaaa": [],
+        "mx": [
+          "mail.seneder.org"
+        ],
+        "ns": [
+          "ns2.dns-parking.com",
+          "ns1.dns-parking.com"
+        ]
+      },
+      "page": {
+        "url": "https://seneder.org/",
+        "finalUrl": "https://seneder.org/",
+        "status": 503,
+        "title": "",
+        "scriptUrls": [],
+        "signals": {
+          "secretForm": false,
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "lure": [],
+          "drainerJs": [],
+          "parked": [],
+          "cryptoContext": [],
+          "interstitial": [],
+          "challenge": []
+        },
+        "brandMentions": 0,
+        "brandInTitle": false,
+        "bytes": 20,
+        "renderedWith": "http",
+        "faviconUrl": "https://seneder.org/favicon.ico",
+        "textSample": "no available server"
+      },
+      "similarity": {
+        "title": 0,
+        "text": 0,
+        "favicon": false,
+        "overall": 0
+      },
+      "listedOn": [],
+      "score": 25,
+      "severity": "low",
+      "label": "lookalike-unknown-content",
+      "evidence": [
+        "Typosquat (insertion) of the official domain",
+        "Almost empty page (19 chars of text, title \"\"): content not visible"
+      ],
+      "action": "Re-check next scan; the content was not visible to us (error, bot wall or empty page).",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "ender.org",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "omission",
+      "dns": {
+        "domain": "ender.org",
+        "registered": true,
+        "a": [
+          "213.243.170.67"
+        ],
+        "aaaa": [],
+        "mx": [
+          "offline.dy.fi"
+        ],
+        "ns": [
+          "ns2.dy.fi",
+          "ns1.dy.fi"
+        ]
+      },
+      "page": {
+        "url": "https://ender.org/",
+        "finalUrl": "https://ender.org/",
+        "status": 0,
+        "title": "",
+        "scriptUrls": [],
+        "signals": {
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "secretForm": false,
+          "lure": [],
+          "drainerJs": [],
+          "parked": [],
+          "cryptoContext": [],
+          "interstitial": [],
+          "challenge": []
+        },
+        "brandMentions": 0,
+        "brandInTitle": false,
+        "bytes": 0,
+        "renderedWith": "http",
+        "error": "Connect Timeout Error (attempted address: ender.org:443, timeout: 10000ms); http: Connect Timeout Error (attempted address: ender.org:80, timeout: 10000ms)",
+        "textSample": ""
+      },
+      "listedOn": [],
+      "score": 25,
+      "severity": "low",
+      "label": "lookalike-unknown-content",
+      "evidence": [
+        "Typosquat (omission) of the official domain",
+        "Page not reachable: Connect Timeout Error (attempted address: ender.org:443, timeout: 10000ms); http"
+      ],
+      "action": "Re-check next scan; the content was not visible to us (error, bot wall or empty page).",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "seder.org",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "omission",
+      "dns": {
+        "domain": "seder.org",
+        "registered": true,
+        "a": [
+          "207.148.248.143"
+        ],
+        "aaaa": [],
+        "mx": [],
+        "ns": [],
+        "error": "ESERVFAIL"
+      },
+      "page": {
+        "url": "https://seder.org/",
+        "finalUrl": "https://seder.org/",
+        "status": 0,
+        "title": "",
+        "scriptUrls": [],
+        "signals": {
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "secretForm": false,
+          "lure": [],
+          "drainerJs": [],
+          "parked": [],
+          "cryptoContext": [],
+          "interstitial": [],
+          "challenge": []
+        },
+        "brandMentions": 0,
+        "brandInTitle": false,
+        "bytes": 0,
+        "renderedWith": "http",
+        "error": "Connect Timeout Error (attempted address: seder.org:443, timeout: 10000ms); http: read ECONNRESET",
+        "textSample": ""
+      },
+      "listedOn": [],
+      "score": 25,
+      "severity": "low",
+      "label": "lookalike-unknown-content",
+      "evidence": [
+        "Typosquat (omission) of the official domain",
+        "Page not reachable: Connect Timeout Error (attempted address: seder.org:443, timeout: 10000ms); http"
+      ],
+      "action": "Re-check next scan; the content was not visible to us (error, bot wall or empty page).",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "sener.org",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "omission",
+      "dns": {
+        "domain": "sener.org",
+        "registered": true,
+        "a": [
+          "76.223.54.146",
+          "13.248.169.48"
+        ],
+        "aaaa": [],
+        "mx": [
+          ""
+        ],
+        "ns": [
+          "ns2.afternic.com",
+          "ns1.afternic.com"
+        ]
+      },
+      "page": {
+        "url": "https://sener.org/",
+        "finalUrl": "https://sener.org/",
+        "status": 200,
+        "title": "",
+        "scriptUrls": [],
+        "signals": {
+          "secretForm": false,
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "lure": [],
+          "drainerJs": [],
+          "parked": [],
+          "cryptoContext": [],
+          "interstitial": [],
+          "challenge": []
+        },
+        "brandMentions": 0,
+        "brandInTitle": false,
+        "bytes": 114,
+        "renderedWith": "http",
+        "faviconUrl": "https://sener.org/favicon.ico",
+        "textSample": ""
+      },
+      "similarity": {
+        "title": 0,
+        "text": 0,
+        "favicon": false,
+        "overall": 0
+      },
+      "listedOn": [],
+      "score": 25,
+      "severity": "low",
+      "label": "lookalike-unknown-content",
+      "evidence": [
+        "Typosquat (omission) of the official domain",
+        "Almost empty page (0 chars of text, title \"\"): content not visible"
+      ],
+      "action": "Re-check next scan; the content was not visible to us (error, bot wall or empty page).",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "sendr.org",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "omission",
+      "dns": {
+        "domain": "sendr.org",
+        "registered": true,
+        "a": [
+          "76.223.54.146",
+          "13.248.169.48"
+        ],
+        "aaaa": [],
+        "mx": [
+          ""
+        ],
+        "ns": [
+          "ns2.afternic.com",
+          "ns1.afternic.com"
+        ]
+      },
+      "page": {
+        "url": "https://sendr.org/",
+        "finalUrl": "https://sendr.org/",
+        "status": 200,
+        "title": "",
+        "scriptUrls": [],
+        "signals": {
+          "secretForm": false,
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "lure": [],
+          "drainerJs": [],
+          "parked": [],
+          "cryptoContext": [],
+          "interstitial": [],
+          "challenge": []
+        },
+        "brandMentions": 0,
+        "brandInTitle": false,
+        "bytes": 114,
+        "renderedWith": "http",
+        "faviconUrl": "https://sendr.org/favicon.ico",
+        "textSample": ""
+      },
+      "similarity": {
+        "title": 0,
+        "text": 0,
+        "favicon": false,
+        "overall": 0
+      },
+      "listedOn": [],
+      "score": 25,
+      "severity": "low",
+      "label": "lookalike-unknown-content",
+      "evidence": [
+        "Typosquat (omission) of the official domain",
+        "Almost empty page (0 chars of text, title \"\"): content not visible"
+      ],
+      "action": "Re-check next scan; the content was not visible to us (error, bot wall or empty page).",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "sende.org",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "omission",
+      "dns": {
+        "domain": "sende.org",
+        "registered": true,
+        "a": [
+          "13.248.169.48",
+          "76.223.54.146"
+        ],
+        "aaaa": [],
+        "mx": [
+          ""
+        ],
+        "ns": [
+          "ns2.afternic.com",
+          "ns1.afternic.com"
+        ]
+      },
+      "page": {
+        "url": "https://sende.org/",
+        "finalUrl": "https://sende.org/",
+        "status": 200,
+        "title": "",
+        "scriptUrls": [],
+        "signals": {
+          "secretForm": false,
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "lure": [],
+          "drainerJs": [],
+          "parked": [],
+          "cryptoContext": [],
+          "interstitial": [],
+          "challenge": []
+        },
+        "brandMentions": 0,
+        "brandInTitle": false,
+        "bytes": 114,
+        "renderedWith": "http",
+        "faviconUrl": "https://sende.org/favicon.ico",
+        "textSample": ""
+      },
+      "similarity": {
+        "title": 0,
+        "text": 0,
+        "favicon": false,
+        "overall": 0
+      },
+      "listedOn": [],
+      "score": 25,
+      "severity": "low",
+      "label": "lookalike-unknown-content",
+      "evidence": [
+        "Typosquat (omission) of the official domain",
+        "Almost empty page (0 chars of text, title \"\"): content not visible"
+      ],
+      "action": "Re-check next scan; the content was not visible to us (error, bot wall or empty page).",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "sennder.org",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "repetition",
+      "dns": {
+        "domain": "sennder.org",
+        "registered": true,
+        "a": [
+          "76.223.54.146",
+          "13.248.169.48"
+        ],
+        "aaaa": [],
+        "mx": [
+          ""
+        ],
+        "ns": [
+          "ns3.afternic.com",
+          "ns4.afternic.com"
+        ]
+      },
+      "page": {
+        "url": "https://sennder.org/",
+        "finalUrl": "https://sennder.org/",
+        "status": 200,
+        "title": "",
+        "scriptUrls": [],
+        "signals": {
+          "secretForm": false,
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "lure": [],
+          "drainerJs": [],
+          "parked": [],
+          "cryptoContext": [],
+          "interstitial": [],
+          "challenge": []
+        },
+        "brandMentions": 0,
+        "brandInTitle": false,
+        "bytes": 114,
+        "renderedWith": "http",
+        "faviconUrl": "https://sennder.org/favicon.ico",
+        "textSample": ""
+      },
+      "similarity": {
+        "title": 0,
+        "text": 0,
+        "favicon": false,
+        "overall": 0
+      },
+      "listedOn": [],
+      "score": 25,
+      "severity": "low",
+      "label": "lookalike-unknown-content",
+      "evidence": [
+        "Typosquat (repetition) of the official domain",
+        "Almost empty page (0 chars of text, title \"\"): content not visible"
+      ],
+      "action": "Re-check next scan; the content was not visible to us (error, bot wall or empty page).",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "aender.org",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "replacement",
+      "dns": {
+        "domain": "aender.org",
+        "registered": true,
+        "a": [],
+        "aaaa": [],
+        "mx": [],
+        "ns": [
+          "georgia.ns.cloudflare.com",
+          "zeus.ns.cloudflare.com"
+        ]
+      },
+      "listedOn": [],
+      "score": 25,
+      "severity": "low",
+      "label": "not-live",
+      "evidence": [
+        "Typosquat (replacement) of the official domain"
+      ],
+      "action": "Monitor (registered, no website). Consider defensive registration.",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "sencer.org",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "replacement",
+      "dns": {
+        "domain": "sencer.org",
+        "registered": true,
+        "a": [
+          "81.22.98.100"
+        ],
+        "aaaa": [],
+        "mx": [
+          "mx1.kriweb.com"
+        ],
+        "ns": [
+          "ns2.kriweb.com",
+          "ns1.kriweb.com"
+        ]
+      },
+      "page": {
+        "url": "https://sencer.org/",
+        "finalUrl": "https://sencer.org/",
+        "status": 0,
+        "title": "",
+        "scriptUrls": [],
+        "signals": {
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "secretForm": false,
+          "lure": [],
+          "drainerJs": [],
+          "parked": [],
+          "cryptoContext": [],
+          "interstitial": [],
+          "challenge": []
+        },
+        "brandMentions": 0,
+        "brandInTitle": false,
+        "bytes": 0,
+        "renderedWith": "http",
+        "error": "connect ENETUNREACH 81.22.98.100:443; http: connect ENETUNREACH 81.22.98.100:80",
+        "textSample": ""
+      },
+      "listedOn": [],
+      "score": 25,
+      "severity": "low",
+      "label": "lookalike-unknown-content",
+      "evidence": [
+        "Typosquat (replacement) of the official domain",
+        "Page not reachable: connect ENETUNREACH 81.22.98.100:443; http: connect ENETUNREACH 81.22.98.100:80"
+      ],
+      "action": "Re-check next scan; the content was not visible to us (error, bot wall or empty page).",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "senser.org",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "replacement",
+      "dns": {
+        "domain": "senser.org",
+        "registered": true,
+        "a": [
+          "13.248.169.48",
+          "76.223.54.146"
+        ],
+        "aaaa": [],
+        "mx": [
+          ""
+        ],
+        "ns": [
+          "ns2.afternic.com",
+          "ns1.afternic.com"
+        ]
+      },
+      "page": {
+        "url": "https://senser.org/",
+        "finalUrl": "https://senser.org/",
+        "status": 200,
+        "title": "",
+        "scriptUrls": [],
+        "signals": {
+          "secretForm": false,
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "lure": [],
+          "drainerJs": [],
+          "parked": [],
+          "cryptoContext": [],
+          "interstitial": [],
+          "challenge": []
+        },
+        "brandMentions": 0,
+        "brandInTitle": false,
+        "bytes": 114,
+        "renderedWith": "http",
+        "faviconUrl": "https://senser.org/favicon.ico",
+        "textSample": ""
+      },
+      "similarity": {
+        "title": 0,
+        "text": 0,
+        "favicon": false,
+        "overall": 0
+      },
+      "listedOn": [],
+      "score": 25,
+      "severity": "low",
+      "label": "lookalike-unknown-content",
+      "evidence": [
+        "Typosquat (replacement) of the official domain",
+        "Almost empty page (0 chars of text, title \"\"): content not visible"
+      ],
+      "action": "Re-check next scan; the content was not visible to us (error, bot wall or empty page).",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "sended.org",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "replacement",
+      "dns": {
+        "domain": "sended.org",
+        "registered": true,
+        "a": [
+          "3.33.130.190",
+          "15.197.148.33"
+        ],
+        "aaaa": [],
+        "mx": [],
+        "ns": [
+          "ns25.domaincontrol.com",
+          "ns26.domaincontrol.com"
+        ]
+      },
+      "page": {
+        "url": "https://sended.org/",
+        "finalUrl": "https://sended.org/",
+        "status": 200,
+        "title": "",
+        "scriptUrls": [],
+        "signals": {
+          "secretForm": false,
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "lure": [],
+          "drainerJs": [],
+          "parked": [],
+          "cryptoContext": [],
+          "interstitial": [],
+          "challenge": []
+        },
+        "brandMentions": 0,
+        "brandInTitle": false,
+        "bytes": 114,
+        "renderedWith": "http",
+        "faviconUrl": "https://sended.org/favicon.ico",
+        "textSample": ""
+      },
+      "similarity": {
+        "title": 0,
+        "text": 0,
+        "favicon": false,
+        "overall": 0
+      },
+      "listedOn": [],
+      "score": 25,
+      "severity": "low",
+      "label": "lookalike-unknown-content",
+      "evidence": [
+        "Typosquat (replacement) of the official domain",
+        "Almost empty page (0 chars of text, title \"\"): content not visible"
+      ],
+      "action": "Re-check next scan; the content was not visible to us (error, bot wall or empty page).",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "sendre.org",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "transposition",
+      "dns": {
+        "domain": "sendre.org",
+        "registered": true,
+        "a": [
+          "185.230.63.186",
+          "185.230.63.171",
+          "185.230.63.107"
+        ],
+        "aaaa": [],
+        "mx": [],
+        "ns": [
+          "ns6.wixdns.net",
+          "ns7.wixdns.net"
+        ]
+      },
+      "page": {
+        "url": "https://sendre.org/",
+        "finalUrl": "https://sendre.org/",
+        "status": 404,
+        "title": "ConnectYourDomain Error | Wix.com",
+        "scriptUrls": [
+          "https://static.parastorage.com/polyfill/v2/polyfill.min.js?features=default,es6,es7,es2017&flags=gated&unknown=polyfill&rum=0",
+          "https://static.parastorage.com/unpkg-semver/fedops-logger@5/fedops-logger.bundle.min.js",
+          "https://static.parastorage.com/unpkg-semver/header-footer-provider/app.bundle.min.js",
+          "https://static.parastorage.com/unpkg/react@18.2.0/umd/react.production.min.js",
+          "https://static.parastorage.com/unpkg/react-dom@18.2.0/umd/react-dom.production.min.js",
+          "https://static.parastorage.com/services/classic-error-pages-statics/1.98.0/app.bundle.min.js"
+        ],
+        "signals": {
+          "secretForm": false,
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "lure": [],
+          "drainerJs": [],
+          "parked": [],
+          "cryptoContext": [],
+          "interstitial": [],
+          "challenge": []
+        },
+        "brandMentions": 0,
+        "brandInTitle": false,
+        "bytes": 2516,
+        "renderedWith": "http",
+        "faviconUrl": "https://www.wix.com/favicon.ico",
+        "faviconSha256": "295a1f6f927fd11a3842a4c9f508b4152eca150cb4c54d6cfb64736fad659b80",
+        "textSample": ""
+      },
+      "similarity": {
+        "title": 0,
+        "text": 0,
+        "favicon": false,
+        "overall": 0
+      },
+      "listedOn": [],
+      "score": 25,
+      "severity": "low",
+      "label": "lookalike-unknown-content",
+      "evidence": [
+        "Typosquat (transposition) of the official domain",
+        "Almost empty page (0 chars of text, title \"ConnectYourDomain Error | Wix.com\"): content not visible"
+      ],
+      "action": "Re-check next scan; the content was not visible to us (error, bot wall or empty page).",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "sinder.org",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "vowel-swap",
+      "dns": {
+        "domain": "sinder.org",
+        "registered": true,
+        "a": [
+          "13.248.169.48",
+          "76.223.54.146"
+        ],
+        "aaaa": [],
+        "mx": [
+          ""
+        ],
+        "ns": [
+          "ns2.afternic.com",
+          "ns1.afternic.com"
+        ]
+      },
+      "page": {
+        "url": "https://sinder.org/",
+        "finalUrl": "https://sinder.org/",
+        "status": 200,
+        "title": "",
+        "scriptUrls": [],
+        "signals": {
+          "secretForm": false,
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "lure": [],
+          "drainerJs": [],
+          "parked": [],
+          "cryptoContext": [],
+          "interstitial": [],
+          "challenge": []
+        },
+        "brandMentions": 0,
+        "brandInTitle": false,
+        "bytes": 114,
+        "renderedWith": "http",
+        "faviconUrl": "https://sinder.org/favicon.ico",
+        "textSample": ""
+      },
+      "similarity": {
+        "title": 0,
+        "text": 0,
+        "favicon": false,
+        "overall": 0
+      },
+      "listedOn": [],
+      "score": 25,
+      "severity": "low",
+      "label": "lookalike-unknown-content",
+      "evidence": [
+        "Typosquat (vowel-swap) of the official domain",
+        "Almost empty page (0 chars of text, title \"\"): content not visible"
+      ],
+      "action": "Re-check next scan; the content was not visible to us (error, bot wall or empty page).",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "sonder.org",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "vowel-swap",
+      "dns": {
+        "domain": "sonder.org",
+        "registered": true,
+        "a": [
+          "13.248.169.48",
+          "76.223.54.146"
+        ],
+        "aaaa": [],
+        "mx": [
+          ""
+        ],
+        "ns": [
+          "ns2.afternic.com",
+          "ns1.afternic.com"
+        ]
+      },
+      "page": {
+        "url": "https://sonder.org/",
+        "finalUrl": "https://sonder.org/",
+        "status": 200,
+        "title": "",
+        "scriptUrls": [],
+        "signals": {
+          "secretForm": false,
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "lure": [],
+          "drainerJs": [],
+          "parked": [],
+          "cryptoContext": [],
+          "interstitial": [],
+          "challenge": []
+        },
+        "brandMentions": 0,
+        "brandInTitle": false,
+        "bytes": 114,
+        "renderedWith": "http",
+        "faviconUrl": "https://sonder.org/favicon.ico",
+        "textSample": ""
+      },
+      "similarity": {
+        "title": 0,
+        "text": 0,
+        "favicon": false,
+        "overall": 0
+      },
+      "listedOn": [],
+      "score": 25,
+      "severity": "low",
+      "label": "lookalike-unknown-content",
+      "evidence": [
+        "Typosquat (vowel-swap) of the official domain",
+        "Almost empty page (0 chars of text, title \"\"): content not visible"
+      ],
+      "action": "Re-check next scan; the content was not visible to us (error, bot wall or empty page).",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "sendor.org",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "vowel-swap",
+      "dns": {
+        "domain": "sendor.org",
+        "registered": true,
+        "a": [],
+        "aaaa": [],
+        "mx": [
+          "aspmx.l.google.com"
+        ],
+        "ns": [
+          "ns3.stableserver.net",
+          "ns4.stableserver.net",
+          "ns1.stableserver.net",
+          "ns2.stableserver.net"
+        ]
+      },
+      "listedOn": [],
+      "score": 25,
+      "severity": "low",
+      "label": "not-live",
+      "evidence": [
+        "Typosquat (vowel-swap) of the official domain"
+      ],
+      "action": "Monitor (registered, no website). Consider defensive registration.",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "dropsender.com",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "dictionary",
+      "dns": {
+        "domain": "dropsender.com",
+        "registered": true,
+        "a": [],
+        "aaaa": [],
+        "mx": [
+          "redirect.ovh.net"
+        ],
+        "ns": [
+          "ns-cloud-b3.googledomains.com",
+          "ns-cloud-b4.googledomains.com",
+          "ns-cloud-b2.googledomains.com",
+          "ns-cloud-b1.googledomains.com"
+        ]
+      },
+      "listedOn": [],
+      "score": 25,
+      "severity": "low",
+      "label": "not-live",
+      "evidence": [
+        "Brand name plus a phishing lure word"
+      ],
+      "action": "Monitor (registered, no website). Consider defensive registration.",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "rewardssender.com",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "dictionary",
+      "dns": {
+        "domain": "rewardssender.com",
+        "registered": true,
+        "a": [
+          "27.124.125.171"
+        ],
+        "aaaa": [],
+        "mx": [],
+        "ns": [
+          "ns2.crazydomains.com",
+          "ns1.crazydomains.com"
+        ]
+      },
+      "page": {
+        "url": "http://rewardssender.com/",
+        "finalUrl": "http://rewardssender.com/",
+        "status": 200,
+        "title": "",
+        "scriptUrls": [],
+        "signals": {
+          "secretForm": false,
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "lure": [],
+          "drainerJs": [],
+          "parked": [],
+          "cryptoContext": [],
+          "interstitial": [],
+          "challenge": []
+        },
+        "brandMentions": 0,
+        "brandInTitle": false,
+        "bytes": 27434,
+        "renderedWith": "http",
+        "faviconUrl": "http://rewardssender.com/favicon.ico",
+        "textSample": "Do Not Sell or Share My Personal Information"
+      },
+      "similarity": {
+        "title": 0,
+        "text": 0,
+        "favicon": false,
+        "overall": 0
+      },
+      "listedOn": [],
+      "score": 25,
+      "severity": "low",
+      "label": "lookalike-unknown-content",
+      "evidence": [
+        "Brand name plus a phishing lure word",
+        "Almost empty page (44 chars of text, title \"\"): content not visible"
+      ],
+      "action": "Re-check next scan; the content was not visible to us (error, bot wall or empty page).",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "sendersupport.com",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "dictionary",
+      "dns": {
+        "domain": "sendersupport.com",
+        "registered": true,
+        "a": [
+          "77.93.196.105"
+        ],
+        "aaaa": [],
+        "mx": [],
+        "ns": [
+          "ns1a.dodns.net",
+          "ns2a.dodns.net"
+        ]
+      },
+      "page": {
+        "url": "https://sendersupport.com/",
+        "finalUrl": "https://sendersupport.com/",
+        "status": 0,
+        "title": "",
+        "scriptUrls": [],
+        "signals": {
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "secretForm": false,
+          "lure": [],
+          "drainerJs": [],
+          "parked": [],
+          "cryptoContext": [],
+          "interstitial": [],
+          "challenge": []
+        },
+        "brandMentions": 0,
+        "brandInTitle": false,
+        "bytes": 0,
+        "renderedWith": "http",
+        "error": "Connect Timeout Error (attempted address: sendersupport.com:443, timeout: 10000ms); http: Connect Timeout Error (attempted address: sendersupport.com:80, timeout: 10000ms)",
+        "textSample": ""
+      },
+      "listedOn": [],
+      "score": 25,
+      "severity": "low",
+      "label": "lookalike-unknown-content",
+      "evidence": [
+        "Brand name plus a phishing lure word",
+        "Page not reachable: Connect Timeout Error (attempted address: sendersupport.com:443, timeout: 10000m"
+      ],
+      "action": "Re-check next scan; the content was not visible to us (error, bot wall or empty page).",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "helpsender.com",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "dictionary",
+      "dns": {
+        "domain": "helpsender.com",
+        "registered": true,
+        "a": [
+          "162.159.140.166"
+        ],
+        "aaaa": [],
+        "mx": [
+          "mxa.mailgun.org",
+          "mxb.mailgun.org"
+        ],
+        "ns": [
+          "ns58.domaincontrol.com",
+          "ns57.domaincontrol.com"
+        ]
+      },
+      "page": {
+        "url": "https://helpsender.com/",
+        "finalUrl": "https://helpsender.com/",
+        "status": 200,
+        "title": "Help Sender",
+        "scriptUrls": [
+          "https://stcdn.leadconnectorhq.com/_preview/cuexcqRf.js"
+        ],
+        "signals": {
+          "secretForm": false,
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "lure": [],
+          "drainerJs": [],
+          "parked": [],
+          "cryptoContext": [],
+          "interstitial": [],
+          "challenge": []
+        },
+        "brandMentions": 0,
+        "brandInTitle": false,
+        "bytes": 79662,
+        "renderedWith": "http",
+        "faviconUrl": "https://stcdn.leadconnectorhq.com/funnel/icon/favicon.ico",
+        "faviconSha256": "b2e4d08754839510a3d77ddf8205a515e51e4277c323932b10441196744ce757",
+        "textSample": "help sender ethical email marketing solutions that deliver"
+      },
+      "similarity": {
+        "title": 0.17,
+        "text": 0,
+        "favicon": false,
+        "overall": 0.06
+      },
+      "listedOn": [],
+      "score": 25,
+      "severity": "low",
+      "label": "lookalike-unknown-content",
+      "evidence": [
+        "Brand name plus a phishing lure word",
+        "Almost empty page (58 chars of text, title \"Help Sender\"): content not visible"
+      ],
+      "action": "Re-check next scan; the content was not visible to us (error, bot wall or empty page).",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "helpsender.net",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "dictionary",
+      "dns": {
+        "domain": "helpsender.net",
+        "registered": true,
+        "a": [],
+        "aaaa": [],
+        "mx": [
+          "route1.mx.cloudflare.net",
+          "route2.mx.cloudflare.net",
+          "route3.mx.cloudflare.net"
+        ],
+        "ns": [
+          "isaac.ns.cloudflare.com",
+          "ryleigh.ns.cloudflare.com"
+        ]
+      },
+      "listedOn": [],
+      "score": 25,
+      "severity": "low",
+      "label": "not-live",
+      "evidence": [
+        "Brand name plus a phishing lure word"
+      ],
+      "action": "Monitor (registered, no website). Consider defensive registration.",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "senderconnect.com",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "dictionary",
+      "dns": {
+        "domain": "senderconnect.com",
+        "registered": true,
+        "a": [
+          "208.91.196.105"
+        ],
+        "aaaa": [],
+        "mx": [
+          "~"
+        ],
+        "ns": [
+          "sk.s5.cm.ns1.39.ztomy.com",
+          "sk.s5.cm.ns2.39.ztomy.com"
+        ]
+      },
+      "page": {
+        "url": "https://senderconnect.com/",
+        "finalUrl": "https://zairuc.com/fk?dat=mWsBxB68bcvtiRtAfeyQ5n49fm82citTcnJwNndxa1lNYjUza3pqRDBPYjBlZHR3RFp0Q21MMGJKaW1EM0hBbWFIZnRMaFljSU9TaDBjbno2bGhzL256UnhLcWdRTjNkazRsN3pveUhLWThiQUJmUEU0SHBFZjhhSmQ5TmtQZ2ErOU5rQTdjY2R3bVBxeWM4aVkrZkNJUE1ONEVjOTJORVVtNjdqeDhNd3NETjF2dStia2ZQSWczajRTNlhwOUtOTmZZVldyK3dSNXVFWVhpK1hsTldSbUZKNjVIRWhpTHk4ZFUvNi9XLzA0RmJrSmUwSk5KcWl4bzZwVnZRejY4UjdvR3lBM3krNUx5aGVOWkFOZW4rNHIzU25wbE14Ukl2TlNsNEZlTmttVkV5TVFUU0U0YUZPclpOS3ZHWEFNZitIek15dEUzaE1zODg3c29LS3pGMGo5aGt4TGhWMXQxMnppMWNpM2RpNi9oUWFWUlJ0UkdVWEpjakJuQjFmajNXOEdtMDZPZ1BHWmc5THhld3dyQkVKVzdXVHowRDMralY1cENQblp2ZUZDdllWNWsyem9nSEVNMklZRlpJV3hWZWVKdTVJZjV1dXF4RXNrRElmVHNKdVE5a29tWjExcFppMS93aE11YmUrV29BcWx4cnZ3eEorRno1ZDk5a3ZWR1pXUldzOUhiK1BoSXpNYnZpaVFMSVp1a2lLd3BLZlN0QVdhKzZSQWJTQT09",
+        "status": 200,
+        "title": "Verification",
+        "scriptUrls": [],
+        "signals": {
+          "secretForm": false,
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "lure": [],
+          "drainerJs": [],
+          "parked": [],
+          "cryptoContext": [],
+          "interstitial": [],
+          "challenge": []
+        },
+        "brandMentions": 0,
+        "brandInTitle": false,
+        "bytes": 1923,
+        "renderedWith": "http",
+        "faviconUrl": "https://zairuc.com/favicon.ico",
+        "textSample": "Verification Required Checking if you're a real user... Verifying JavaScript... JavaScript is disabled. Please enable it to continue."
+      },
+      "similarity": {
+        "title": 0.15,
+        "text": 0,
+        "favicon": false,
+        "overall": 0.05
+      },
+      "listedOn": [],
+      "score": 25,
+      "severity": "low",
+      "label": "lookalike-unknown-content",
+      "evidence": [
+        "Brand name plus a phishing lure word",
+        "Almost empty page (133 chars of text, title \"Verification\"): content not visible"
+      ],
+      "action": "Re-check next scan; the content was not visible to us (error, bot wall or empty page).",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "connectsender.com",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "dictionary",
+      "dns": {
+        "domain": "connectsender.com",
+        "registered": true,
+        "a": [
+          "104.21.34.136",
+          "172.67.161.134"
+        ],
+        "aaaa": [],
+        "mx": [
+          "mailserver.purelymail.com"
+        ],
+        "ns": [
+          "henry.ns.cloudflare.com",
+          "deb.ns.cloudflare.com"
+        ]
+      },
+      "page": {
+        "url": "https://connectsender.com/",
+        "finalUrl": "https://www.connectsender.com/",
+        "status": 200,
+        "title": "ConnectSender — Kendi gönderim hesabınızla kurumsal e-bülten",
+        "scriptUrls": [
+          "https://www.connectsender.com/assets/latin-ext-600-CIJRiU5J.js",
+          "https://www.connectsender.com/assets/site-CWqr8UR7.js"
+        ],
+        "signals": {
+          "secretForm": true,
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "lure": [],
+          "drainerJs": [],
+          "parked": [],
+          "cryptoContext": [],
+          "interstitial": [],
+          "challenge": []
+        },
+        "brandMentions": 0,
+        "brandInTitle": false,
+        "bytes": 33711,
+        "renderedWith": "http",
+        "faviconUrl": "https://www.connectsender.com/favicon.svg",
+        "textSample": "İçeriğe geç ConnectSender Özellikler Nasıl çalışır Fiyat İletişim EN Giriş Kurumsal e-bülten paneli Bültenleriniz kendi gönderim hesabınızdan çıksın. ConnectSender; listelerinizi, Türkçe ve İngilizce kampanyalarınızı ve raporlarınızı tek panelde toplar. Mailler sizin Amazon SES, Mailgun, SendGrid, P"
+      },
+      "similarity": {
+        "title": 0,
+        "text": 0,
+        "favicon": false,
+        "overall": 0
+      },
+      "listedOn": [],
+      "score": 25,
+      "severity": "low",
+      "label": "likely-false-positive",
+      "evidence": [
+        "Brand name plus a phishing lure word",
+        "No brand content found on the page: probably unrelated (false positive)"
+      ],
+      "action": "No action (labelled false positive).",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "sender-app.com",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "dictionary",
+      "dns": {
+        "domain": "sender-app.com",
+        "registered": true,
+        "a": [
+          "161.132.40.217"
+        ],
+        "aaaa": [],
+        "mx": [],
+        "ns": [
+          "ns53.domaincontrol.com",
+          "ns54.domaincontrol.com"
+        ]
+      },
+      "page": {
+        "url": "https://sender-app.com/",
+        "finalUrl": "https://sender-app.com/",
+        "status": 0,
+        "title": "",
+        "scriptUrls": [],
+        "signals": {
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "secretForm": false,
+          "lure": [],
+          "drainerJs": [],
+          "parked": [],
+          "cryptoContext": [],
+          "interstitial": [],
+          "challenge": []
+        },
+        "brandMentions": 0,
+        "brandInTitle": false,
+        "bytes": 0,
+        "renderedWith": "http",
+        "error": "Connect Timeout Error (attempted address: sender-app.com:443, timeout: 10000ms); http: Connect Timeout Error (attempted address: sender-app.com:80, timeout: 10000ms)",
+        "textSample": ""
+      },
+      "listedOn": [],
+      "score": 25,
+      "severity": "low",
+      "label": "lookalike-unknown-content",
+      "evidence": [
+        "Brand name plus a phishing lure word",
+        "Page not reachable: Connect Timeout Error (attempted address: sender-app.com:443, timeout: 10000ms);"
+      ],
+      "action": "Re-check next scan; the content was not visible to us (error, bot wall or empty page).",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "senderapp.com",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "dictionary",
+      "dns": {
+        "domain": "senderapp.com",
+        "registered": true,
+        "a": [
+          "76.223.54.146",
+          "13.248.169.48"
+        ],
+        "aaaa": [],
+        "mx": [
+          ""
+        ],
+        "ns": [
+          "ns2.afternic.com",
+          "ns1.afternic.com"
+        ]
+      },
+      "page": {
+        "url": "https://senderapp.com/",
+        "finalUrl": "https://senderapp.com/",
+        "status": 200,
+        "title": "",
+        "scriptUrls": [],
+        "signals": {
+          "secretForm": false,
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "lure": [],
+          "drainerJs": [],
+          "parked": [],
+          "cryptoContext": [],
+          "interstitial": [],
+          "challenge": []
+        },
+        "brandMentions": 0,
+        "brandInTitle": false,
+        "bytes": 114,
+        "renderedWith": "http",
+        "faviconUrl": "https://senderapp.com/favicon.ico",
+        "textSample": ""
+      },
+      "similarity": {
+        "title": 0,
+        "text": 0,
+        "favicon": false,
+        "overall": 0
+      },
+      "listedOn": [],
+      "score": 25,
+      "severity": "low",
+      "label": "lookalike-unknown-content",
+      "evidence": [
+        "Brand name plus a phishing lure word",
+        "Almost empty page (0 chars of text, title \"\"): content not visible"
+      ],
+      "action": "Re-check next scan; the content was not visible to us (error, bot wall or empty page).",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "appsender.com",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "dictionary",
+      "dns": {
+        "domain": "appsender.com",
+        "registered": true,
+        "a": [
+          "76.223.54.146",
+          "13.248.169.48"
+        ],
+        "aaaa": [],
+        "mx": [
+          ""
+        ],
+        "ns": [
+          "ns3.afternic.com",
+          "ns4.afternic.com"
+        ]
+      },
+      "page": {
+        "url": "https://appsender.com/",
+        "finalUrl": "https://appsender.com/",
+        "status": 200,
+        "title": "",
+        "scriptUrls": [],
+        "signals": {
+          "secretForm": false,
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "lure": [],
+          "drainerJs": [],
+          "parked": [],
+          "cryptoContext": [],
+          "interstitial": [],
+          "challenge": []
+        },
+        "brandMentions": 0,
+        "brandInTitle": false,
+        "bytes": 114,
+        "renderedWith": "http",
+        "faviconUrl": "https://appsender.com/favicon.ico",
+        "textSample": ""
+      },
+      "similarity": {
+        "title": 0,
+        "text": 0,
+        "favicon": false,
+        "overall": 0
+      },
+      "listedOn": [],
+      "score": 25,
+      "severity": "low",
+      "label": "lookalike-unknown-content",
+      "evidence": [
+        "Brand name plus a phishing lure word",
+        "Almost empty page (0 chars of text, title \"\"): content not visible"
+      ],
+      "action": "Re-check next scan; the content was not visible to us (error, bot wall or empty page).",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "senderapp.net",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "dictionary",
+      "dns": {
+        "domain": "senderapp.net",
+        "registered": true,
+        "a": [],
+        "aaaa": [],
+        "mx": [
+          "smtp.google.com"
+        ],
+        "ns": [
+          "edna.ns.cloudflare.com",
+          "james.ns.cloudflare.com"
+        ]
+      },
+      "listedOn": [],
+      "score": 25,
+      "severity": "low",
+      "label": "not-live",
+      "evidence": [
+        "Brand name plus a phishing lure word",
+        "One of 4 lookalikes on the same DNS account (edna.ns.cloudflare.com + james.ns.cloudflare.com): a single operator"
+      ],
+      "action": "Monitor (registered, no website). Consider defensive registration.",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "appsender.net",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "dictionary",
+      "dns": {
+        "domain": "appsender.net",
+        "registered": true,
+        "a": [
+          "185.66.36.184"
+        ],
+        "aaaa": [],
+        "mx": [
+          "mail.scrumware.eu"
+        ],
+        "ns": [
+          "2.ns.gigaserver.cz",
+          "4.ns.gigaserver.cz",
+          "1.ns.gigaserver.cz",
+          "3.ns.gigaserver.cz"
+        ]
+      },
+      "page": {
+        "url": "http://appsender.net/",
+        "finalUrl": "http://appsender.net/",
+        "status": 404,
+        "title": "",
+        "scriptUrls": [],
+        "signals": {
+          "secretForm": false,
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "lure": [],
+          "drainerJs": [],
+          "parked": [],
+          "cryptoContext": [],
+          "interstitial": [],
+          "challenge": []
+        },
+        "brandMentions": 0,
+        "brandInTitle": false,
+        "bytes": 16,
+        "renderedWith": "http",
+        "faviconUrl": "http://appsender.net/favicon.ico",
+        "textSample": "File not found."
+      },
+      "similarity": {
+        "title": 0,
+        "text": 0,
+        "favicon": false,
+        "overall": 0
+      },
+      "listedOn": [],
+      "score": 25,
+      "severity": "low",
+      "label": "lookalike-unknown-content",
+      "evidence": [
+        "Brand name plus a phishing lure word",
+        "Almost empty page (15 chars of text, title \"\"): content not visible"
+      ],
+      "action": "Re-check next scan; the content was not visible to us (error, bot wall or empty page).",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "officialsender.com",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "dictionary",
+      "dns": {
+        "domain": "officialsender.com",
+        "registered": true,
+        "a": [
+          "104.21.73.71",
+          "172.67.158.181"
+        ],
+        "aaaa": [],
+        "mx": [],
+        "ns": [
+          "dave.ns.cloudflare.com",
+          "dana.ns.cloudflare.com"
+        ]
+      },
+      "page": {
+        "url": "https://officialsender.com/",
+        "finalUrl": "https://officialsender.com/",
+        "status": 200,
+        "title": "Welcome - Speed Solutions",
+        "scriptUrls": [
+          "https://officialsender.com/dist/js/common-vendorlibs.js?sign=0efe29b95e9d6298209dc085b99f20de29a7641f",
+          "https://officialsender.com/dist/js/vendorlibs.js?sign=f70a2fb9d1c9c9c34947475137e917d3ab9d8ae0",
+          "https://officialsender.com/dist/packages/bootstrap/js/bootstrap.bundle.min.js?sign=69f688858b7149c561c4a1fbc496e9e66b3df2fe",
+          "https://officialsender.com/dist/js/jsware.js?sign=7ec532ec1d813ec1c92c58ed6065f419136a717e",
+          "https://officialsender.com/cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js"
+        ],
+        "signals": {
+          "secretForm": false,
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "lure": [],
+          "drainerJs": [],
+          "parked": [],
+          "cryptoContext": [],
+          "interstitial": [],
+          "challenge": []
+        },
+        "brandMentions": 0,
+        "brandInTitle": false,
+        "bytes": 59684,
+        "renderedWith": "http",
+        "faviconUrl": "https://officialsender.com/media-storage/favicon/69f4ae62565c0---logo-file.png",
+        "faviconSha256": "90a86a57adde53fcb896178a6c84c52da8c8ad15c754fcbdf665f036e06081e7",
+        "textSample": "Menu Features Pricing Contact Choose Mode System Dark Light Register Login Transform Customer Engagement with WhatsApp – Experience the Power of Speed Solutions Unlock the full potential of customer engagement with Speed Solutions your comprehensive WhatsApp Marketing Platform. Get Started Learn mor"
+      },
+      "similarity": {
+        "title": 0,
+        "text": 0,
+        "favicon": false,
+        "overall": 0
+      },
+      "listedOn": [],
+      "score": 25,
+      "severity": "low",
+      "label": "likely-false-positive",
+      "evidence": [
+        "Brand name plus a phishing lure word",
+        "No brand content found on the page: probably unrelated (false positive)"
+      ],
+      "action": "No action (labelled false positive).",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "senderverify.com",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "dictionary",
+      "dns": {
+        "domain": "senderverify.com",
+        "registered": true,
+        "a": [],
+        "aaaa": [],
+        "mx": [],
+        "ns": [
+          "norah.ns.cloudflare.com",
+          "lou.ns.cloudflare.com"
+        ]
+      },
+      "listedOn": [],
+      "score": 25,
+      "severity": "low",
+      "label": "not-live",
+      "evidence": [
+        "Brand name plus a phishing lure word"
+      ],
+      "action": "Monitor (registered, no website). Consider defensive registration.",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "verifysender.com",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "dictionary",
+      "dns": {
+        "domain": "verifysender.com",
+        "registered": true,
+        "a": [
+          "74.208.236.143"
+        ],
+        "aaaa": [],
+        "mx": [
+          "mx01.ionos.com",
+          "mx00.ionos.com"
+        ],
+        "ns": [
+          "ns1102.ui-dns.com",
+          "ns1080.ui-dns.de",
+          "ns1042.ui-dns.biz",
+          "ns1024.ui-dns.org"
+        ]
+      },
+      "page": {
+        "url": "http://verifysender.com/",
+        "finalUrl": "http://verifysender.com/",
+        "status": 200,
+        "title": "verifysender.com(SM) by verifysender(TM)",
+        "scriptUrls": [],
+        "signals": {
+          "secretForm": false,
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "lure": [],
+          "drainerJs": [],
+          "parked": [],
+          "cryptoContext": [],
+          "interstitial": [],
+          "challenge": []
+        },
+        "brandMentions": 0,
+        "brandInTitle": false,
+        "bytes": 810,
+        "renderedWith": "http",
+        "faviconUrl": "http://verifysender.com/favicon.ico",
+        "textSample": "verifysender&trade; \"verifysender\" and \"verifysender.com\" are service marks (SM) of Ratio Corp.. \"verifysender\" is a trademark (TM) of Ratio Corp.. &copy;1998-2026 by Ratio Corp., All Rights Reserved."
+      },
+      "similarity": {
+        "title": 0,
+        "text": 0,
+        "favicon": false,
+        "overall": 0
+      },
+      "listedOn": [],
+      "score": 25,
+      "severity": "low",
+      "label": "likely-false-positive",
+      "evidence": [
+        "Brand name plus a phishing lure word",
+        "No brand content found on the page: probably unrelated (false positive)"
+      ],
+      "action": "No action (labelled false positive).",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "senderverify.xyz",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "dictionary",
+      "dns": {
+        "domain": "senderverify.xyz",
+        "registered": true,
+        "a": [],
+        "aaaa": [],
+        "mx": [],
+        "ns": [
+          "karl.ns.cloudflare.com",
+          "sureena.ns.cloudflare.com"
+        ]
+      },
+      "listedOn": [],
+      "score": 25,
+      "severity": "low",
+      "label": "not-live",
+      "evidence": [
+        "Brand name plus a phishing lure word"
+      ],
+      "action": "Monitor (registered, no website). Consider defensive registration.",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "sendersync.org",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "dictionary",
+      "dns": {
+        "domain": "sendersync.org",
+        "registered": true,
+        "a": [
+          "188.114.97.3",
+          "188.114.96.3"
+        ],
+        "aaaa": [],
+        "mx": [
+          "smtp.google.com"
+        ],
+        "ns": [
+          "sonia.ns.cloudflare.com",
+          "huxley.ns.cloudflare.com"
+        ]
+      },
+      "page": {
+        "url": "https://sendersync.org/",
+        "finalUrl": "https://sendersync.org/",
+        "status": 0,
+        "title": "",
+        "scriptUrls": [],
+        "signals": {
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "secretForm": false,
+          "lure": [],
+          "drainerJs": [],
+          "parked": [],
+          "cryptoContext": [],
+          "interstitial": [],
+          "challenge": []
+        },
+        "brandMentions": 0,
+        "brandInTitle": false,
+        "bytes": 0,
+        "renderedWith": "http",
+        "error": "Connect Timeout Error (attempted address: example.com:443, timeout: 10000ms); http: Connect Timeout Error (attempted address: example.com:443, timeout: 10000ms)",
+        "textSample": ""
+      },
+      "listedOn": [],
+      "score": 25,
+      "severity": "low",
+      "label": "lookalike-unknown-content",
+      "evidence": [
+        "Brand name plus a phishing lure word",
+        "Page not reachable: Connect Timeout Error (attempted address: example.com:443, timeout: 10000ms); ht"
+      ],
+      "action": "Re-check next scan; the content was not visible to us (error, bot wall or empty page).",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "sendersync.com",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "dictionary",
+      "dns": {
+        "domain": "sendersync.com",
+        "registered": true,
+        "a": [
+          "75.2.60.5"
+        ],
+        "aaaa": [],
+        "mx": [
+          "mx1.hostinger.com",
+          "mx2.hostinger.com"
+        ],
+        "ns": [
+          "ns2.dns-parking.com",
+          "ns1.dns-parking.com"
+        ]
+      },
+      "page": {
+        "url": "https://sendersync.com/",
+        "finalUrl": "https://sendersync.com/",
+        "status": 0,
+        "title": "",
+        "scriptUrls": [],
+        "signals": {
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "secretForm": false,
+          "lure": [],
+          "drainerJs": [],
+          "parked": [],
+          "cryptoContext": [],
+          "interstitial": [],
+          "challenge": []
+        },
+        "brandMentions": 0,
+        "brandInTitle": false,
+        "bytes": 0,
+        "renderedWith": "http",
+        "error": "Hostname/IP does not match certificate's altnames: Host: sendersync.com. is not in the cert's altnames: DNS:*.netlify.app, DNS:netlify.app; http: Hostname/IP does not match certificate's altnames: Host: sendersync.com. is not in the cert's altnames: DNS:*.netlify.app, DNS:netlify.app",
+        "textSample": ""
+      },
+      "listedOn": [],
+      "score": 25,
+      "severity": "low",
+      "label": "lookalike-unknown-content",
+      "evidence": [
+        "Brand name plus a phishing lure word",
+        "Page not reachable: Hostname/IP does not match certificate's altnames: Host: sendersync.com. is not "
+      ],
+      "action": "Re-check next scan; the content was not visible to us (error, bot wall or empty page).",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "senderbridge.com",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "dictionary",
+      "dns": {
+        "domain": "senderbridge.com",
+        "registered": true,
+        "a": [],
+        "aaaa": [],
+        "mx": [
+          "aspmx.l.google.com",
+          "smtp.google.com",
+          "alt2.aspmx.l.google.com",
+          "alt1.aspmx.l.google.com",
+          "alt3.aspmx.l.google.com",
+          "alt4.aspmx.l.google.com"
+        ],
+        "ns": [
+          "pns73.cloudns.net",
+          "pns74.cloudns.uk",
+          "pns72.cloudns.com",
+          "pns71.cloudns.net"
+        ]
+      },
+      "listedOn": [],
+      "score": 25,
+      "severity": "low",
+      "label": "not-live",
+      "evidence": [
+        "Brand name plus a phishing lure word"
+      ],
+      "action": "Monitor (registered, no website). Consider defensive registration.",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "senderportal.com",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "dictionary",
+      "dns": {
+        "domain": "senderportal.com",
+        "registered": true,
+        "a": [
+          "76.223.54.146",
+          "13.248.169.48"
+        ],
+        "aaaa": [],
+        "mx": [
+          ""
+        ],
+        "ns": [
+          "ns3.afternic.com",
+          "ns4.afternic.com"
+        ]
+      },
+      "page": {
+        "url": "https://senderportal.com/",
+        "finalUrl": "https://senderportal.com/",
+        "status": 200,
+        "title": "",
+        "scriptUrls": [],
+        "signals": {
+          "secretForm": false,
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "lure": [],
+          "drainerJs": [],
+          "parked": [],
+          "cryptoContext": [],
+          "interstitial": [],
+          "challenge": []
+        },
+        "brandMentions": 0,
+        "brandInTitle": false,
+        "bytes": 114,
+        "renderedWith": "http",
+        "faviconUrl": "https://senderportal.com/favicon.ico",
+        "textSample": ""
+      },
+      "similarity": {
+        "title": 0,
+        "text": 0,
+        "favicon": false,
+        "overall": 0
+      },
+      "listedOn": [],
+      "score": 25,
+      "severity": "low",
+      "label": "lookalike-unknown-content",
+      "evidence": [
+        "Brand name plus a phishing lure word",
+        "Almost empty page (0 chars of text, title \"\"): content not visible"
+      ],
+      "action": "Re-check next scan; the content was not visible to us (error, bot wall or empty page).",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "govsender.com",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "dictionary",
+      "dns": {
+        "domain": "govsender.com",
+        "registered": true,
+        "a": [
+          "79.98.25.1"
+        ],
+        "aaaa": [],
+        "mx": [
+          "mx-parked.serveriai.lt",
+          "mx-backup.serveriai.lt"
+        ],
+        "ns": [
+          "ns3.serveriai.lt",
+          "ns4.serveriai.lt",
+          "ns1.serveriai.lt",
+          "ns2.serveriai.lt"
+        ]
+      },
+      "page": {
+        "url": "https://govsender.com/",
+        "finalUrl": "https://govsender.com/",
+        "status": 0,
+        "title": "",
+        "scriptUrls": [],
+        "signals": {
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "secretForm": false,
+          "lure": [],
+          "drainerJs": [],
+          "parked": [],
+          "cryptoContext": [],
+          "interstitial": [],
+          "challenge": []
+        },
+        "brandMentions": 0,
+        "brandInTitle": false,
+        "bytes": 0,
+        "renderedWith": "http",
+        "error": "Connect Timeout Error (attempted address: govsender.com:443, timeout: 10000ms); http: Connect Timeout Error (attempted address: govsender.com:80, timeout: 10000ms)",
+        "textSample": ""
+      },
+      "listedOn": [],
+      "score": 25,
+      "severity": "low",
+      "label": "lookalike-unknown-content",
+      "evidence": [
+        "Brand name plus a phishing lure word",
+        "Page not reachable: Connect Timeout Error (attempted address: govsender.com:443, timeout: 10000ms); "
+      ],
+      "action": "Re-check next scan; the content was not visible to us (error, bot wall or empty page).",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "tokensender.com",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "dictionary",
+      "dns": {
+        "domain": "tokensender.com",
+        "registered": true,
+        "a": [
+          "13.248.169.48",
+          "76.223.54.146"
+        ],
+        "aaaa": [],
+        "mx": [
+          ""
+        ],
+        "ns": [
+          "ns2.afternic.com",
+          "ns1.afternic.com"
+        ]
+      },
+      "page": {
+        "url": "https://tokensender.com/",
+        "finalUrl": "https://tokensender.com/",
+        "status": 200,
+        "title": "",
+        "scriptUrls": [],
+        "signals": {
+          "secretForm": false,
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "lure": [],
+          "drainerJs": [],
+          "parked": [],
+          "cryptoContext": [],
+          "interstitial": [],
+          "challenge": []
+        },
+        "brandMentions": 0,
+        "brandInTitle": false,
+        "bytes": 114,
+        "renderedWith": "http",
+        "faviconUrl": "https://tokensender.com/favicon.ico",
+        "textSample": ""
+      },
+      "similarity": {
+        "title": 0,
+        "text": 0,
+        "favicon": false,
+        "overall": 0
+      },
+      "listedOn": [],
+      "score": 25,
+      "severity": "low",
+      "label": "lookalike-unknown-content",
+      "evidence": [
+        "Brand name plus a phishing lure word",
+        "Almost empty page (0 chars of text, title \"\"): content not visible"
+      ],
+      "action": "Re-check next scan; the content was not visible to us (error, bot wall or empty page).",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "tokensender.xyz",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "dictionary",
+      "dns": {
+        "domain": "tokensender.xyz",
+        "registered": true,
+        "a": [
+          "143.244.211.82"
+        ],
+        "aaaa": [],
+        "mx": [],
+        "ns": [
+          "ns1.doma.xyz",
+          "ns2.doma.xyz"
+        ]
+      },
+      "page": {
+        "url": "https://tokensender.xyz/",
+        "finalUrl": "https://tokensender.xyz/",
+        "status": 200,
+        "title": "tokensender.xyz — For Sale on Doma",
+        "scriptUrls": [
+          "https://cdn.doma.xyz/_next/static/chunks/1-6co3ex4pm9j.js?dpl=ac8c93b6411d80fc71999994b1abd4b3ba5f3d36",
+          "https://cdn.doma.xyz/_next/static/chunks/1nxqf0dpe367u.js?dpl=ac8c93b6411d80fc71999994b1abd4b3ba5f3d36",
+          "https://cdn.doma.xyz/_next/static/chunks/1y7l8s5jlziwp.js?dpl=ac8c93b6411d80fc71999994b1abd4b3ba5f3d36",
+          "https://cdn.doma.xyz/_next/static/chunks/30-8v3krt3ln4.js?dpl=ac8c93b6411d80fc71999994b1abd4b3ba5f3d36",
+          "https://cdn.doma.xyz/_next/static/chunks/turbopack-2zh371a9yrbxz.js?dpl=ac8c93b6411d80fc71999994b1abd4b3ba5f3d36",
+          "https://cdn.doma.xyz/_next/static/chunks/1hiwrb845g0df.js?dpl=ac8c93b6411d80fc71999994b1abd4b3ba5f3d36"
+        ],
+        "signals": {
+          "secretForm": false,
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "lure": [],
+          "drainerJs": [],
+          "parked": [
+            "For Sale"
+          ],
+          "cryptoContext": [],
+          "interstitial": [],
+          "challenge": []
+        },
+        "brandMentions": 0,
+        "brandInTitle": false,
+        "bytes": 52970,
+        "renderedWith": "http",
+        "faviconUrl": "https://tokensender.xyz/favicon.ico?favicon.2otkkazd__k84.ico?dpl=ac8c93b6411d80fc71999994b1abd4b3ba5f3d36",
+        "faviconSha256": "1ee4e2b494a0d907a5de795b1b659b3ea676ce7dcccf7f6357cb479e628621b9",
+        "textSample": "tokensender.xyz Buy on Doma Agentic tools on AgentRoot"
+      },
+      "similarity": {
+        "title": 0,
+        "text": 0,
+        "favicon": false,
+        "overall": 0
+      },
+      "listedOn": [],
+      "score": 25,
+      "severity": "low",
+      "label": "parked",
+      "evidence": [
+        "Brand name plus a phishing lure word",
+        "Parked / for-sale page"
+      ],
+      "action": "Monitor. Consider buying it defensively or a UDRP if it turns active.",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "tokensender.net",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "dictionary",
+      "dns": {
+        "domain": "tokensender.net",
+        "registered": true,
+        "a": [
+          "188.93.10.93"
+        ],
+        "aaaa": [],
+        "mx": [
+          "mxlb.ispgateway.de"
+        ],
+        "ns": [
+          "ns.inwx.de",
+          "ns3.inwx.eu",
+          "ns2.inwx.de"
+        ]
+      },
+      "page": {
+        "url": "http://tokensender.net/",
+        "finalUrl": "http://tokensender.net/",
+        "status": 403,
+        "title": "403 Forbidden",
+        "scriptUrls": [],
+        "signals": {
+          "secretForm": false,
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "lure": [],
+          "drainerJs": [],
+          "parked": [],
+          "cryptoContext": [],
+          "interstitial": [],
+          "challenge": [
+            "403 Forbidden"
+          ]
+        },
+        "brandMentions": 0,
+        "brandInTitle": false,
+        "bytes": 318,
+        "renderedWith": "http",
+        "faviconUrl": "http://tokensender.net/favicon.ico",
+        "textSample": "Forbidden You don't have permission to access this resource. Additionally, a 403 Forbidden error was encountered while trying to use an ErrorDocument to handle the request."
+      },
+      "similarity": {
+        "title": 0.15,
+        "text": 0,
+        "favicon": false,
+        "overall": 0.05
+      },
+      "listedOn": [],
+      "score": 25,
+      "severity": "low",
+      "label": "lookalike-unknown-content",
+      "evidence": [
+        "Brand name plus a phishing lure word",
+        "Bot challenge or redirect stub (\"403 Forbidden\"): real content not visible"
+      ],
+      "action": "Re-check next scan; the content was not visible to us (error, bot wall or empty page).",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "secure-sender.org",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "dictionary",
+      "dns": {
+        "domain": "secure-sender.org",
+        "registered": true,
+        "a": [
+          "217.160.0.86"
+        ],
+        "aaaa": [],
+        "mx": [
+          "mx00.ionos.de",
+          "mx01.ionos.de"
+        ],
+        "ns": [
+          "ns1105.ui-dns.biz",
+          "ns1094.ui-dns.de",
+          "ns1105.ui-dns.com",
+          "ns1108.ui-dns.org"
+        ]
+      },
+      "page": {
+        "url": "http://secure-sender.org/",
+        "finalUrl": "http://secure-sender.org/",
+        "status": 200,
+        "title": "",
+        "scriptUrls": [],
+        "signals": {
+          "secretForm": false,
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "lure": [],
+          "drainerJs": [],
+          "parked": [
+            "This domain has been registered"
+          ],
+          "cryptoContext": [],
+          "interstitial": [],
+          "challenge": []
+        },
+        "brandMentions": 0,
+        "brandInTitle": false,
+        "bytes": 606271,
+        "renderedWith": "http",
+        "faviconUrl": "http://secure-sender.org/favicon.ico",
+        "textSample": "This domain is already registered This domain has been registered via IONOS and is not yet connected to a website. If you are the owner, you can manage it here: Manage this domain Find your domain now Check A host you can count on Take your ideas one step further with IONOS — your web hosting and cl"
+      },
+      "similarity": {
+        "title": 0,
+        "text": 0,
+        "favicon": false,
+        "overall": 0
+      },
+      "listedOn": [],
+      "score": 25,
+      "severity": "low",
+      "label": "parked",
+      "evidence": [
+        "Brand name plus a phishing lure word",
+        "Parked / for-sale page"
+      ],
+      "action": "Monitor. Consider buying it defensively or a UDRP if it turns active.",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "securesender.org",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "dictionary",
+      "dns": {
+        "domain": "securesender.org",
+        "registered": true,
+        "a": [],
+        "aaaa": [],
+        "mx": [
+          "eforward1.registrar-servers.com",
+          "eforward3.registrar-servers.com",
+          "eforward2.registrar-servers.com",
+          "eforward4.registrar-servers.com",
+          "eforward5.registrar-servers.com"
+        ],
+        "ns": [
+          "dns2.registrar-servers.com",
+          "dns1.registrar-servers.com"
+        ]
+      },
+      "listedOn": [],
+      "score": 25,
+      "severity": "low",
+      "label": "not-live",
+      "evidence": [
+        "Brand name plus a phishing lure word"
+      ],
+      "action": "Monitor (registered, no website). Consider defensive registration.",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "sender-secure.com",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "dictionary",
+      "dns": {
+        "domain": "sender-secure.com",
+        "registered": true,
+        "a": [
+          "104.21.60.91",
+          "172.67.195.3"
+        ],
+        "aaaa": [],
+        "mx": [
+          "email.wombatsilver.com"
+        ],
+        "ns": [
+          "ada.ns.cloudflare.com",
+          "piotr.ns.cloudflare.com"
+        ]
+      },
+      "page": {
+        "url": "https://sender-secure.com/",
+        "finalUrl": "https://sender-secure.com/",
+        "status": 0,
+        "title": "",
+        "scriptUrls": [],
+        "signals": {
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "secretForm": false,
+          "lure": [],
+          "drainerJs": [],
+          "parked": [],
+          "cryptoContext": [],
+          "interstitial": [],
+          "challenge": []
+        },
+        "brandMentions": 0,
+        "brandInTitle": false,
+        "bytes": 0,
+        "renderedWith": "http",
+        "error": "redirect count exceeded; http: redirect count exceeded",
+        "textSample": ""
+      },
+      "listedOn": [],
+      "score": 25,
+      "severity": "low",
+      "label": "lookalike-unknown-content",
+      "evidence": [
+        "Brand name plus a phishing lure word",
+        "Page not reachable: redirect count exceeded; http: redirect count exceeded"
+      ],
+      "action": "Re-check next scan; the content was not visible to us (error, bot wall or empty page).",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "sendersecure.com",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "dictionary",
+      "dns": {
+        "domain": "sendersecure.com",
+        "registered": true,
+        "a": [
+          "104.219.250.37",
+          "2.59.170.20"
+        ],
+        "aaaa": [],
+        "mx": [],
+        "ns": [
+          "ns1.lander.d.parity.domains",
+          "ns2.lander.d.parity.domains"
+        ]
+      },
+      "page": {
+        "url": "http://sendersecure.com/",
+        "finalUrl": "http://sendersecure.com/",
+        "status": 200,
+        "title": "",
+        "scriptUrls": [
+          "http://sendersecure.com/assets/index-BuG04mTK.js",
+          "https://lander.parity.domains/js/pa-6FZUe2Iv3m6Yx_KBS2sv2.js"
+        ],
+        "signals": {
+          "secretForm": false,
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "lure": [],
+          "drainerJs": [],
+          "parked": [],
+          "cryptoContext": [],
+          "interstitial": [],
+          "challenge": []
+        },
+        "brandMentions": 0,
+        "brandInTitle": false,
+        "bytes": 4728,
+        "renderedWith": "http",
+        "faviconUrl": "http://sendersecure.com/favicon.ico",
+        "textSample": "Domain registration has expired. Renewal instructions If you own this domain , you may still be able to renew it through your Namecheap account. To renew: sign in, open Domain List , select this domain , and choose Renew . Sign in · Renewal help · Renewal and redemption fees Renew this domain Want a"
+      },
+      "similarity": {
+        "title": 0,
+        "text": 0,
+        "favicon": false,
+        "overall": 0
+      },
+      "listedOn": [],
+      "score": 25,
+      "severity": "low",
+      "label": "likely-false-positive",
+      "evidence": [
+        "Brand name plus a phishing lure word",
+        "No brand content found on the page: probably unrelated (false positive)"
+      ],
+      "action": "No action (labelled false positive).",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "secure-sender.net",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "dictionary",
+      "dns": {
+        "domain": "secure-sender.net",
+        "registered": true,
+        "a": [
+          "192.64.119.8"
+        ],
+        "aaaa": [],
+        "mx": [
+          "aspmx.l.google.com",
+          "alt1.aspmx.l.google.com",
+          "alt2.aspmx.l.google.com",
+          "aspmx2.googlemail.com",
+          "aspmx3.googlemail.com"
+        ],
+        "ns": [
+          "dns2.registrar-servers.com",
+          "dns1.registrar-servers.com"
+        ]
+      },
+      "page": {
+        "url": "https://secure-sender.net/",
+        "finalUrl": "https://secure-sender.net/",
+        "status": 0,
+        "title": "",
+        "scriptUrls": [],
+        "signals": {
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "secretForm": false,
+          "lure": [],
+          "drainerJs": [],
+          "parked": [],
+          "cryptoContext": [],
+          "interstitial": [],
+          "challenge": []
+        },
+        "brandMentions": 0,
+        "brandInTitle": false,
+        "bytes": 0,
+        "renderedWith": "http",
+        "error": "Connect Timeout Error (attempted address: secure-sender.net:443, timeout: 10000ms); http: Connect Timeout Error (attempted address: secure-sender.net:80, timeout: 10000ms)",
+        "textSample": ""
+      },
+      "listedOn": [],
+      "score": 25,
+      "severity": "low",
+      "label": "lookalike-unknown-content",
+      "evidence": [
+        "Brand name plus a phishing lure word",
+        "Page not reachable: Connect Timeout Error (attempted address: secure-sender.net:443, timeout: 10000m"
+      ],
+      "action": "Re-check next scan; the content was not visible to us (error, bot wall or empty page).",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "securesender.net",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "dictionary",
+      "dns": {
+        "domain": "securesender.net",
+        "registered": true,
+        "a": [
+          "139.59.164.6"
+        ],
+        "aaaa": [],
+        "mx": [
+          "mail.securesender.net"
+        ],
+        "ns": []
+      },
+      "page": {
+        "url": "https://securesender.net/",
+        "finalUrl": "https://securesender.net/",
+        "status": 0,
+        "title": "",
+        "scriptUrls": [],
+        "signals": {
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "secretForm": false,
+          "lure": [],
+          "drainerJs": [],
+          "parked": [],
+          "cryptoContext": [],
+          "interstitial": [],
+          "challenge": []
+        },
+        "brandMentions": 0,
+        "brandInTitle": false,
+        "bytes": 0,
+        "renderedWith": "http",
+        "error": "certificate has expired; http: certificate has expired",
+        "textSample": ""
+      },
+      "listedOn": [],
+      "score": 25,
+      "severity": "low",
+      "label": "lookalike-unknown-content",
+      "evidence": [
+        "Brand name plus a phishing lure word",
+        "Page not reachable: certificate has expired; http: certificate has expired"
+      ],
+      "action": "Re-check next scan; the content was not visible to us (error, bot wall or empty page).",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "sender.net",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "tld-swap",
+      "dns": {
+        "domain": "sender.net",
+        "registered": true,
+        "a": [
+          "104.20.33.17",
+          "172.66.174.167"
+        ],
+        "aaaa": [],
+        "mx": [
+          "aspmx.l.google.com",
+          "alt1.aspmx.l.google.com",
+          "alt2.aspmx.l.google.com",
+          "alt4.aspmx.l.google.com",
+          "alt3.aspmx.l.google.com"
+        ],
+        "ns": [
+          "james.ns.cloudflare.com",
+          "edna.ns.cloudflare.com"
+        ]
+      },
+      "page": {
+        "url": "http://sender.net/",
+        "finalUrl": "https://www.sender.net/",
+        "status": 200,
+        "title": "Sender – Email Marketing Platform for Growing Businesses",
+        "scriptUrls": [
+          "https://www.sender.net/assets/build/assets/main-D5xLTrIU.js"
+        ],
+        "signals": {
+          "secretForm": false,
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "lure": [
+            "Migration"
+          ],
+          "drainerJs": [],
+          "parked": [],
+          "cryptoContext": [],
+          "interstitial": [],
+          "challenge": []
+        },
+        "brandMentions": 0,
+        "brandInTitle": false,
+        "bytes": 350246,
+        "renderedWith": "http",
+        "faviconUrl": "https://www.sender.net/assets/favicon.png?v=1",
+        "faviconSha256": "13844632aec77d2c4e4750b3d0ccae38bb3157033962531399d99e2dbb92fa82",
+        "textSample": "Sender works with your AI assistant now. And it's free! See How &rarr; Features Resources Education Email marketing Email content ideas Email Deliverability Digital marketing tips All blog articles Support Help center 24/7 support Migration guide Training videos Product updates Free resources Email "
+      },
+      "similarity": {
+        "title": 0.09,
+        "text": 0,
+        "favicon": false,
+        "overall": 0.03
+      },
+      "listedOn": [],
+      "score": 21,
+      "severity": "low",
+      "label": "likely-false-positive",
+      "evidence": [
+        "Official name on a different TLD",
+        "One of 4 lookalikes on the same DNS account (edna.ns.cloudflare.com + james.ns.cloudflare.com): a single operator",
+        "No brand content found on the page: probably unrelated (false positive)"
+      ],
+      "action": "No action (labelled false positive).",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "sender.xyz",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "tld-swap",
+      "dns": {
+        "domain": "sender.xyz",
+        "registered": true,
+        "a": [
+          "44.232.173.249",
+          "52.40.42.113"
+        ],
+        "aaaa": [],
+        "mx": [],
+        "ns": [
+          "launch1.spaceship.net",
+          "launch2.spaceship.net"
+        ]
+      },
+      "page": {
+        "url": "http://sender.xyz/",
+        "finalUrl": "http://sender.xyz/",
+        "status": 200,
+        "title": "Sender.xyz for sale | Spaceship.com",
+        "scriptUrls": [
+          "https://forsale.spaceship-cdn.com/static/latest/5.latest/main.js"
+        ],
+        "signals": {
+          "secretForm": false,
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "lure": [],
+          "drainerJs": [],
+          "parked": [
+            "for sale"
+          ],
+          "cryptoContext": [],
+          "interstitial": [],
+          "challenge": []
+        },
+        "brandMentions": 0,
+        "brandInTitle": false,
+        "bytes": 23803,
+        "renderedWith": "http",
+        "faviconUrl": "https://forsale.spaceship-cdn.com/static/latest/5.latest/assets/fonts/apple-touch-icon-57x57.png",
+        "faviconSha256": "774ab776c49cdd5d993e4da9e6216af9ece952135eb022ef0c7df223ff66989c",
+        "textSample": "Domain for sale Sender.xyz Free transaction support Secure payments Spaceship reliability Listed with spaceship.com get this domain Buy now $148,795 Make offer $ Please enter an offer amount up to 9 digits. Your offer must be higher than the seller’s minimum price. Next Please select one of the opti"
+      },
+      "similarity": {
+        "title": 0.1,
+        "text": 0,
+        "favicon": false,
+        "overall": 0.03
+      },
+      "listedOn": [],
+      "score": 21,
+      "severity": "low",
+      "label": "parked",
+      "evidence": [
+        "Official name on a different TLD",
+        "Parked / for-sale page"
+      ],
+      "action": "Monitor. Consider buying it defensively or a UDRP if it turns active.",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "sender.co",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "tld-swap",
+      "dns": {
+        "domain": "sender.co",
+        "registered": true,
+        "a": [
+          "104.21.63.75",
+          "172.67.170.69"
+        ],
+        "aaaa": [],
+        "mx": [],
+        "ns": [
+          "edna.ns.cloudflare.com",
+          "james.ns.cloudflare.com"
+        ]
+      },
+      "page": {
+        "url": "https://sender.co/",
+        "finalUrl": "https://www.sender.net/",
+        "status": 200,
+        "title": "Sender – Email Marketing Platform for Growing Businesses",
+        "scriptUrls": [
+          "https://www.sender.net/assets/build/assets/main-D5xLTrIU.js"
+        ],
+        "signals": {
+          "secretForm": false,
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "lure": [
+            "Migration"
+          ],
+          "drainerJs": [],
+          "parked": [],
+          "cryptoContext": [],
+          "interstitial": [],
+          "challenge": []
+        },
+        "brandMentions": 0,
+        "brandInTitle": false,
+        "bytes": 350246,
+        "renderedWith": "http",
+        "faviconUrl": "https://www.sender.net/assets/favicon.png?v=1",
+        "faviconSha256": "13844632aec77d2c4e4750b3d0ccae38bb3157033962531399d99e2dbb92fa82",
+        "textSample": "Sender works with your AI assistant now. And it's free! See How &rarr; Features Resources Education Email marketing Email content ideas Email Deliverability Digital marketing tips All blog articles Support Help center 24/7 support Migration guide Training videos Product updates Free resources Email "
+      },
+      "similarity": {
+        "title": 0.09,
+        "text": 0,
+        "favicon": false,
+        "overall": 0.03
+      },
+      "listedOn": [],
+      "score": 21,
+      "severity": "low",
+      "label": "likely-false-positive",
+      "evidence": [
+        "Official name on a different TLD",
+        "One of 4 lookalikes on the same DNS account (edna.ns.cloudflare.com + james.ns.cloudflare.com): a single operator",
+        "No brand content found on the page: probably unrelated (false positive)"
+      ],
+      "action": "No action (labelled false positive).",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "sender.site",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "tld-swap",
+      "dns": {
+        "domain": "sender.site",
+        "registered": true,
+        "a": [
+          "188.114.96.3",
+          "188.114.97.3"
+        ],
+        "aaaa": [],
+        "mx": [],
+        "ns": [
+          "edna.ns.cloudflare.com",
+          "james.ns.cloudflare.com"
+        ]
+      },
+      "page": {
+        "url": "https://sender.site/",
+        "finalUrl": "https://www.sender.net/",
+        "status": 200,
+        "title": "Sender – Email Marketing Platform for Growing Businesses",
+        "scriptUrls": [
+          "https://www.sender.net/assets/build/assets/main-D5xLTrIU.js"
+        ],
+        "signals": {
+          "secretForm": false,
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "lure": [
+            "Migration"
+          ],
+          "drainerJs": [],
+          "parked": [],
+          "cryptoContext": [],
+          "interstitial": [],
+          "challenge": []
+        },
+        "brandMentions": 0,
+        "brandInTitle": false,
+        "bytes": 350246,
+        "renderedWith": "http",
+        "faviconUrl": "https://www.sender.net/assets/favicon.png?v=1",
+        "faviconSha256": "13844632aec77d2c4e4750b3d0ccae38bb3157033962531399d99e2dbb92fa82",
+        "textSample": "Sender works with your AI assistant now. And it's free! See How &rarr; Features Resources Education Email marketing Email content ideas Email Deliverability Digital marketing tips All blog articles Support Help center 24/7 support Migration guide Training videos Product updates Free resources Email "
+      },
+      "similarity": {
+        "title": 0.09,
+        "text": 0,
+        "favicon": false,
+        "overall": 0.03
+      },
+      "listedOn": [],
+      "score": 21,
+      "severity": "low",
+      "label": "likely-false-positive",
+      "evidence": [
+        "Official name on a different TLD",
+        "One of 4 lookalikes on the same DNS account (edna.ns.cloudflare.com + james.ns.cloudflare.com): a single operator",
+        "No brand content found on the page: probably unrelated (false positive)"
+      ],
+      "action": "No action (labelled false positive).",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "sender.dev",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "tld-swap",
+      "dns": {
+        "domain": "sender.dev",
+        "registered": true,
+        "a": [
+          "52.40.42.113",
+          "44.232.173.249"
+        ],
+        "aaaa": [],
+        "mx": [],
+        "ns": [
+          "launch1.spaceship.net",
+          "launch2.spaceship.net"
+        ]
+      },
+      "page": {
+        "url": "https://sender.dev/",
+        "finalUrl": "https://sender.dev/",
+        "status": 200,
+        "title": "Sender.dev for sale | Spaceship.com",
+        "scriptUrls": [
+          "https://forsale.spaceship-cdn.com/static/latest/5.latest/main.js"
+        ],
+        "signals": {
+          "secretForm": false,
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "lure": [],
+          "drainerJs": [],
+          "parked": [
+            "for sale"
+          ],
+          "cryptoContext": [],
+          "interstitial": [],
+          "challenge": []
+        },
+        "brandMentions": 0,
+        "brandInTitle": false,
+        "bytes": 22447,
+        "renderedWith": "http",
+        "faviconUrl": "https://forsale.spaceship-cdn.com/static/latest/5.latest/assets/fonts/apple-touch-icon-57x57.png",
+        "faviconSha256": "774ab776c49cdd5d993e4da9e6216af9ece952135eb022ef0c7df223ff66989c",
+        "textSample": "Domain for sale Sender.dev Free transaction support Secure payments Spaceship reliability Listed with spaceship.com get this domain Buy now $2,895 Lease to own $482.5 x6 months Next Please select one of the options above You will be redirected to spaceship.com Listed with spaceship.com Buyer protect"
+      },
+      "similarity": {
+        "title": 0.1,
+        "text": 0,
+        "favicon": false,
+        "overall": 0.03
+      },
+      "listedOn": [],
+      "score": 21,
+      "severity": "low",
+      "label": "parked",
+      "evidence": [
+        "Official name on a different TLD",
+        "Parked / for-sale page"
+      ],
+      "action": "Monitor. Consider buying it defensively or a UDRP if it turns active.",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "sender.cloud",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "tld-swap",
+      "dns": {
+        "domain": "sender.cloud",
+        "registered": true,
+        "a": [
+          "165.22.123.139"
+        ],
+        "aaaa": [],
+        "mx": [
+          "sender.cloud"
+        ],
+        "ns": [
+          "ns2.helloserver.win",
+          "ns1.helloserver.win"
+        ]
+      },
+      "page": {
+        "url": "https://sender.cloud/",
+        "finalUrl": "https://sender.cloud/",
+        "status": 200,
+        "title": "Sender dot Cloud: premium domain name (Buy now) - sender.cloud",
+        "scriptUrls": [
+          "https://sender.cloud/script/jquery/jquery-3.7.1.min.js",
+          "https://sender.cloud/script/jquery/jquery-ui.min.js",
+          "https://sender.cloud/script/jquery/jquery.ui.touch-punch.min.js",
+          "https://sender.cloud/script/script.js"
+        ],
+        "signals": {
+          "secretForm": false,
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "lure": [],
+          "drainerJs": [],
+          "parked": [
+            "for sale"
+          ],
+          "cryptoContext": [],
+          "interstitial": [],
+          "challenge": []
+        },
+        "brandMentions": 0,
+        "brandInTitle": false,
+        "bytes": 63432,
+        "renderedWith": "http",
+        "faviconUrl": "https://sender.cloud/img/favicon.png",
+        "faviconSha256": "30e8b908eff58d0754231b77d6b9d7c7f1163bd0b05e0207df59e65a6601786e",
+        "textSample": "TOPDOMAINS Available! sender . cloud Sender dot Cloud is a premium domain name for sale Buy Now! $6 , 499 Secure transaction with Prefer monthly payments? Learn more Secure transaction with Prefer monthly payments? Learn more Sender is a premium name of the .cloud TLD. To purchase the domain, use th"
+      },
+      "similarity": {
+        "title": 0.08,
+        "text": 0,
+        "favicon": false,
+        "overall": 0.03
+      },
+      "listedOn": [],
+      "score": 21,
+      "severity": "low",
+      "label": "parked",
+      "evidence": [
+        "Official name on a different TLD",
+        "Parked / for-sale page"
+      ],
+      "action": "Monitor. Consider buying it defensively or a UDRP if it turns active.",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "sender.com",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "tld-swap",
+      "dns": {
+        "domain": "sender.com",
+        "registered": true,
+        "a": [
+          "3.33.243.145"
+        ],
+        "aaaa": [],
+        "mx": [],
+        "ns": [
+          "pdns1.ultradns.net",
+          "pdns4.ultradns.org",
+          "pdns5.ultradns.info",
+          "pdns3.ultradns.org",
+          "pdns2.ultradns.net",
+          "pdns6.ultradns.co.uk"
+        ]
+      },
+      "page": {
+        "url": "https://sender.com/",
+        "finalUrl": "https://sender.com/",
+        "status": 200,
+        "title": "",
+        "scriptUrls": [],
+        "signals": {
+          "secretForm": false,
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "lure": [],
+          "drainerJs": [],
+          "parked": [],
+          "cryptoContext": [],
+          "interstitial": [],
+          "challenge": []
+        },
+        "brandMentions": 0,
+        "brandInTitle": false,
+        "bytes": 114,
+        "renderedWith": "http",
+        "faviconUrl": "https://sender.com/favicon.ico",
+        "textSample": ""
+      },
+      "similarity": {
+        "title": 0,
+        "text": 0,
+        "favicon": false,
+        "overall": 0
+      },
+      "listedOn": [],
+      "score": 20,
+      "severity": "low",
+      "label": "lookalike-unknown-content",
+      "evidence": [
+        "Official name on a different TLD",
+        "Almost empty page (0 chars of text, title \"\"): content not visible"
+      ],
+      "action": "Re-check next scan; the content was not visible to us (error, bot wall or empty page).",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "sender.io",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "tld-swap",
+      "dns": {
+        "domain": "sender.io",
+        "registered": true,
+        "a": [],
+        "aaaa": [],
+        "mx": [
+          "route2.mx.cloudflare.net",
+          "route3.mx.cloudflare.net",
+          "route1.mx.cloudflare.net"
+        ],
+        "ns": [
+          "nina.ns.cloudflare.com",
+          "hank.ns.cloudflare.com"
+        ]
+      },
+      "listedOn": [],
+      "score": 20,
+      "severity": "low",
+      "label": "not-live",
+      "evidence": [
+        "Official name on a different TLD"
+      ],
+      "action": "Monitor (registered, no website). Consider defensive registration.",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "sender.app",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "tld-swap",
+      "dns": {
+        "domain": "sender.app",
+        "registered": true,
+        "a": [
+          "76.223.54.146",
+          "13.248.169.48"
+        ],
+        "aaaa": [],
+        "mx": [
+          ""
+        ],
+        "ns": [
+          "ns1.afternic.com",
+          "ns2.afternic.com"
+        ]
+      },
+      "page": {
+        "url": "https://sender.app/",
+        "finalUrl": "https://sender.app/",
+        "status": 200,
+        "title": "",
+        "scriptUrls": [],
+        "signals": {
+          "secretForm": false,
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "lure": [],
+          "drainerJs": [],
+          "parked": [],
+          "cryptoContext": [],
+          "interstitial": [],
+          "challenge": []
+        },
+        "brandMentions": 0,
+        "brandInTitle": false,
+        "bytes": 114,
+        "renderedWith": "http",
+        "faviconUrl": "https://sender.app/favicon.ico",
+        "textSample": ""
+      },
+      "similarity": {
+        "title": 0,
+        "text": 0,
+        "favicon": false,
+        "overall": 0
+      },
+      "listedOn": [],
+      "score": 20,
+      "severity": "low",
+      "label": "lookalike-unknown-content",
+      "evidence": [
+        "Official name on a different TLD",
+        "Almost empty page (0 chars of text, title \"\"): content not visible"
+      ],
+      "action": "Re-check next scan; the content was not visible to us (error, bot wall or empty page).",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "sender.finance",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "tld-swap",
+      "dns": {
+        "domain": "sender.finance",
+        "registered": true,
+        "a": [
+          "52.20.84.62"
+        ],
+        "aaaa": [],
+        "mx": [],
+        "ns": [
+          "ns1.atom.com",
+          "ns2.atom.com"
+        ]
+      },
+      "page": {
+        "url": "https://sender.finance/",
+        "finalUrl": "https://domains.atom.com/lpd/name/sender.finance",
+        "status": 403,
+        "title": "Just a moment...",
+        "scriptUrls": [],
+        "signals": {
+          "secretForm": false,
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "lure": [],
+          "drainerJs": [],
+          "parked": [],
+          "cryptoContext": [],
+          "interstitial": [],
+          "challenge": [
+            "Just a moment..."
+          ]
+        },
+        "brandMentions": 0,
+        "brandInTitle": false,
+        "bytes": 5827,
+        "renderedWith": "http",
+        "faviconUrl": "https://domains.atom.com/favicon.ico",
+        "faviconSha256": "7eda937d9cabb3e3b4da756c81226e3431f9b0751e9247b9e9b24c4f50ba3b97",
+        "textSample": ""
+      },
+      "similarity": {
+        "title": 0.15,
+        "text": 0,
+        "favicon": false,
+        "overall": 0.05
+      },
+      "listedOn": [],
+      "score": 20,
+      "severity": "low",
+      "label": "lookalike-unknown-content",
+      "evidence": [
+        "Official name on a different TLD",
+        "Bot challenge or redirect stub (\"Just a moment...\"): real content not visible"
+      ],
+      "action": "Re-check next scan; the content was not visible to us (error, bot wall or empty page).",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "sender.network",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "tld-swap",
+      "dns": {
+        "domain": "sender.network",
+        "registered": true,
+        "a": [
+          "46.4.148.71"
+        ],
+        "aaaa": [],
+        "mx": [],
+        "ns": [
+          "ns2.checkdomain.de",
+          "ns.checkdomain.de"
+        ]
+      },
+      "page": {
+        "url": "http://sender.network/",
+        "finalUrl": "http://sender.network/",
+        "status": 200,
+        "title": "Coming Soon",
+        "scriptUrls": [],
+        "signals": {
+          "secretForm": false,
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "lure": [],
+          "drainerJs": [],
+          "parked": [],
+          "cryptoContext": [],
+          "interstitial": [],
+          "challenge": []
+        },
+        "brandMentions": 0,
+        "brandInTitle": false,
+        "bytes": 2494,
+        "renderedWith": "http",
+        "faviconUrl": "http://sender.network/favicon.ico",
+        "textSample": "We're working on it! This site is currently under construction. Please check back soon. Domain: sender.network"
+      },
+      "similarity": {
+        "title": 0.06,
+        "text": 0,
+        "favicon": false,
+        "overall": 0.02
+      },
+      "listedOn": [],
+      "score": 20,
+      "severity": "low",
+      "label": "lookalike-unknown-content",
+      "evidence": [
+        "Official name on a different TLD",
+        "Almost empty page (110 chars of text, title \"Coming Soon\"): content not visible"
+      ],
+      "action": "Re-check next scan; the content was not visible to us (error, bot wall or empty page).",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "sender.live",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "tld-swap",
+      "dns": {
+        "domain": "sender.live",
+        "registered": true,
+        "a": [
+          "198.49.23.145",
+          "198.185.159.144",
+          "198.185.159.145",
+          "198.49.23.144"
+        ],
+        "aaaa": [],
+        "mx": [
+          "aspmx.l.google.com",
+          "alt2.aspmx.l.google.com",
+          "alt1.aspmx.l.google.com",
+          "aspmx3.googlemail.com",
+          "aspmx2.googlemail.com"
+        ],
+        "ns": [
+          "ns04.squarespacedns.com",
+          "ns02.squarespacedns.com",
+          "dns4.p05.nsone.net",
+          "dns3.p05.nsone.net",
+          "dns1.p05.nsone.net",
+          "ns03.squarespacedns.com",
+          "ns01.squarespacedns.com",
+          "dns2.p05.nsone.net"
+        ]
+      },
+      "page": {
+        "url": "https://sender.live/",
+        "finalUrl": "https://www.sender.live/",
+        "status": 404,
+        "title": "Squarespace - Website Expired",
+        "scriptUrls": [
+          "https://assets.squarespace.com/@sqs/polyfiller/1.7.7/modern.js",
+          "https://assets.squarespace.com/universal/scripts-compressed/extract-css-runtime-2dbade1c2d524017-min.en-US.js",
+          "https://assets.squarespace.com/universal/scripts-compressed/extract-css-moment-js-vendor-5b1fd9aed201e910-min.en-US.js",
+          "https://assets.squarespace.com/universal/scripts-compressed/cldr-resource-pack-88f72d5f001c770b-min.en-US.js",
+          "https://assets.squarespace.com/universal/scripts-compressed/common-vendors-stable-2e71e68f6532e2b6-min.en-US.js",
+          "https://assets.squarespace.com/universal/scripts-compressed/common-vendors-971e4598d508fad2-min.en-US.js"
+        ],
+        "signals": {
+          "secretForm": false,
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "lure": [],
+          "drainerJs": [],
+          "parked": [],
+          "cryptoContext": [],
+          "interstitial": [],
+          "challenge": []
+        },
+        "brandMentions": 0,
+        "brandInTitle": false,
+        "bytes": 3177,
+        "renderedWith": "http",
+        "faviconUrl": "https://www.sender.live/favicon.ico",
+        "faviconSha256": "992f3104dcf20cb7713e3c667036c8217934bf6a79b98d5a92ca1bb159830e75",
+        "textSample": ""
+      },
+      "similarity": {
+        "title": 0,
+        "text": 0,
+        "favicon": false,
+        "overall": 0
+      },
+      "listedOn": [],
+      "score": 20,
+      "severity": "low",
+      "label": "lookalike-unknown-content",
+      "evidence": [
+        "Official name on a different TLD",
+        "Almost empty page (0 chars of text, title \"Squarespace - Website Expired\"): content not visible"
+      ],
+      "action": "Re-check next scan; the content was not visible to us (error, bot wall or empty page).",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "sender.cc",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "tld-swap",
+      "dns": {
+        "domain": "sender.cc",
+        "registered": true,
+        "a": [],
+        "aaaa": [],
+        "mx": [],
+        "ns": [
+          "bizcn2.dnspod.net",
+          "bizcn1.dnspod.net"
+        ]
+      },
+      "listedOn": [],
+      "score": 20,
+      "severity": "low",
+      "label": "not-live",
+      "evidence": [
+        "Official name on a different TLD"
+      ],
+      "action": "Monitor (registered, no website). Consider defensive registration.",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "sender.us",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "tld-swap",
+      "dns": {
+        "domain": "sender.us",
+        "registered": true,
+        "a": [
+          "13.248.169.48",
+          "76.223.54.146"
+        ],
+        "aaaa": [],
+        "mx": [
+          ""
+        ],
+        "ns": [
+          "ns1.afternic.com",
+          "ns2.afternic.com"
+        ]
+      },
+      "page": {
+        "url": "https://sender.us/",
+        "finalUrl": "https://sender.us/",
+        "status": 200,
+        "title": "",
+        "scriptUrls": [],
+        "signals": {
+          "secretForm": false,
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "lure": [],
+          "drainerJs": [],
+          "parked": [],
+          "cryptoContext": [],
+          "interstitial": [],
+          "challenge": []
+        },
+        "brandMentions": 0,
+        "brandInTitle": false,
+        "bytes": 114,
+        "renderedWith": "http",
+        "faviconUrl": "https://sender.us/favicon.ico",
+        "textSample": ""
+      },
+      "similarity": {
+        "title": 0,
+        "text": 0,
+        "favicon": false,
+        "overall": 0
+      },
+      "listedOn": [],
+      "score": 20,
+      "severity": "low",
+      "label": "lookalike-unknown-content",
+      "evidence": [
+        "Official name on a different TLD",
+        "Almost empty page (0 chars of text, title \"\"): content not visible"
+      ],
+      "action": "Re-check next scan; the content was not visible to us (error, bot wall or empty page).",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "sender.me",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "tld-swap",
+      "dns": {
+        "domain": "sender.me",
+        "registered": true,
+        "a": [
+          "54.215.31.113"
+        ],
+        "aaaa": [],
+        "mx": [],
+        "ns": [
+          "ns2.dyna-ns.net",
+          "ns1.dyna-ns.net"
+        ]
+      },
+      "page": {
+        "url": "https://sender.me/",
+        "finalUrl": "https://premium-me.netlify.app/",
+        "status": 200,
+        "title": "Domain For Sale",
+        "scriptUrls": [
+          "https://premium-me.netlify.app/assets/index-BUc6sD49.js"
+        ],
+        "signals": {
+          "secretForm": false,
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "lure": [],
+          "drainerJs": [],
+          "parked": [
+            "For Sale"
+          ],
+          "cryptoContext": [],
+          "interstitial": [],
+          "challenge": []
+        },
+        "brandMentions": 0,
+        "brandInTitle": false,
+        "bytes": 1496,
+        "renderedWith": "http",
+        "faviconUrl": "https://premium-me.netlify.app/vite.svg",
+        "textSample": ""
+      },
+      "similarity": {
+        "title": 0,
+        "text": 0,
+        "favicon": false,
+        "overall": 0
+      },
+      "listedOn": [],
+      "score": 20,
+      "severity": "low",
+      "label": "parked",
+      "evidence": [
+        "Official name on a different TLD",
+        "Parked / for-sale page"
+      ],
+      "action": "Monitor. Consider buying it defensively or a UDRP if it turns active.",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "sender.club",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "tld-swap",
+      "dns": {
+        "domain": "sender.club",
+        "registered": true,
+        "a": [],
+        "aaaa": [],
+        "mx": [],
+        "ns": [
+          "lila.ns.cloudflare.com",
+          "armfazh.ns.cloudflare.com"
+        ]
+      },
+      "listedOn": [],
+      "score": 20,
+      "severity": "low",
+      "label": "not-live",
+      "evidence": [
+        "Official name on a different TLD"
+      ],
+      "action": "Monitor (registered, no website). Consider defensive registration.",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "sender.world",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "tld-swap",
+      "dns": {
+        "domain": "sender.world",
+        "registered": true,
+        "a": [
+          "76.223.54.146",
+          "13.248.169.48"
+        ],
+        "aaaa": [],
+        "mx": [
+          ""
+        ],
+        "ns": [
+          "ns1.afternic.com",
+          "ns2.afternic.com"
+        ]
+      },
+      "page": {
+        "url": "https://sender.world/",
+        "finalUrl": "https://sender.world/",
+        "status": 200,
+        "title": "",
+        "scriptUrls": [],
+        "signals": {
+          "secretForm": false,
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "lure": [],
+          "drainerJs": [],
+          "parked": [],
+          "cryptoContext": [],
+          "interstitial": [],
+          "challenge": []
+        },
+        "brandMentions": 0,
+        "brandInTitle": false,
+        "bytes": 114,
+        "renderedWith": "http",
+        "faviconUrl": "https://sender.world/favicon.ico",
+        "textSample": ""
+      },
+      "similarity": {
+        "title": 0,
+        "text": 0,
+        "favicon": false,
+        "overall": 0
+      },
+      "listedOn": [],
+      "score": 20,
+      "severity": "low",
+      "label": "lookalike-unknown-content",
+      "evidence": [
+        "Official name on a different TLD",
+        "Almost empty page (0 chars of text, title \"\"): content not visible"
+      ],
+      "action": "Re-check next scan; the content was not visible to us (error, bot wall or empty page).",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "sender.biz",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "tld-swap",
+      "dns": {
+        "domain": "sender.biz",
+        "registered": true,
+        "a": [
+          "54.237.57.21"
+        ],
+        "aaaa": [],
+        "mx": [],
+        "ns": [
+          "ns2.f5f895r3r6zmmpsm2h92.ns.namepros-dns.is",
+          "ns1.namepros-dns.com"
+        ]
+      },
+      "page": {
+        "url": "https://sender.biz/",
+        "finalUrl": "https://www.namepros.com/parked/sender.biz?domain=sender.biz&v=20260831a",
+        "status": 403,
+        "title": "Just a moment...",
+        "scriptUrls": [],
+        "signals": {
+          "secretForm": false,
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "lure": [],
+          "drainerJs": [],
+          "parked": [],
+          "cryptoContext": [],
+          "interstitial": [],
+          "challenge": [
+            "Just a moment..."
+          ]
+        },
+        "brandMentions": 0,
+        "brandInTitle": false,
+        "bytes": 5929,
+        "renderedWith": "http",
+        "faviconUrl": "https://www.namepros.com/favicon.ico",
+        "faviconSha256": "f96ccb89cae813c9b5c90a2164e71f5a681c359f92c744a4e97ba17e027aa591",
+        "textSample": ""
+      },
+      "similarity": {
+        "title": 0.15,
+        "text": 0,
+        "favicon": false,
+        "overall": 0.05
+      },
+      "listedOn": [],
+      "score": 20,
+      "severity": "low",
+      "label": "lookalike-unknown-content",
+      "evidence": [
+        "Official name on a different TLD",
+        "Bot challenge or redirect stub (\"Just a moment...\"): real content not visible"
+      ],
+      "action": "Re-check next scan; the content was not visible to us (error, bot wall or empty page).",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "sender.ai",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "tld-swap",
+      "dns": {
+        "domain": "sender.ai",
+        "registered": true,
+        "a": [
+          "52.20.84.62"
+        ],
+        "aaaa": [],
+        "mx": [],
+        "ns": [
+          "ns2.atom.com",
+          "ns1.atom.com"
+        ]
+      },
+      "page": {
+        "url": "https://sender.ai/",
+        "finalUrl": "https://www.atom.com/name/Sender.ai",
+        "status": 403,
+        "title": "Just a moment...",
+        "scriptUrls": [],
+        "signals": {
+          "secretForm": false,
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "lure": [],
+          "drainerJs": [],
+          "parked": [],
+          "cryptoContext": [],
+          "interstitial": [],
+          "challenge": [
+            "Just a moment..."
+          ]
+        },
+        "brandMentions": 0,
+        "brandInTitle": false,
+        "bytes": 5775,
+        "renderedWith": "http",
+        "faviconUrl": "https://www.atom.com/favicon.ico",
+        "faviconSha256": "7eda937d9cabb3e3b4da756c81226e3431f9b0751e9247b9e9b24c4f50ba3b97",
+        "textSample": ""
+      },
+      "similarity": {
+        "title": 0.15,
+        "text": 0,
+        "favicon": false,
+        "overall": 0.05
+      },
+      "listedOn": [],
+      "score": 20,
+      "severity": "low",
+      "label": "lookalike-unknown-content",
+      "evidence": [
+        "Official name on a different TLD",
+        "Bot challenge or redirect stub (\"Just a moment...\"): real content not visible"
+      ],
+      "action": "Re-check next scan; the content was not visible to us (error, bot wall or empty page).",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "senderdao.io",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "dictionary",
+      "dns": {
+        "domain": "senderdao.io",
+        "registered": true,
+        "a": [
+          "188.114.96.3",
+          "188.114.97.3"
+        ],
+        "aaaa": [],
+        "mx": [],
+        "ns": [
+          "javon.ns.cloudflare.com",
+          "elma.ns.cloudflare.com"
+        ]
+      },
+      "page": {
+        "url": "https://senderdao.io/",
+        "finalUrl": "https://www.senderdao.io/",
+        "status": 200,
+        "title": "SenderDAO - Incentive for Sender Contributors.",
+        "scriptUrls": [
+          "https://www.senderdao.io/assets/index-Lcf9NDqi.js"
+        ],
+        "signals": {
+          "secretForm": false,
+          "walletPrompt": [
+            "Connect wallet",
+            "WalletConnect"
+          ],
+          "seedPhrase": [],
+          "lure": [],
+          "drainerJs": [],
+          "parked": [],
+          "cryptoContext": [],
+          "interstitial": [],
+          "challenge": []
+        },
+        "brandMentions": 0,
+        "brandInTitle": false,
+        "bytes": 1210,
+        "renderedWith": "http",
+        "faviconUrl": "https://www.senderdao.io/assets/sender-bsk-NPUA.png",
+        "faviconSha256": "d5dc455b6de1df28d9f063e38c8b51cb17e202023a162bb5077d10e734ca6d9c",
+        "textSample": ""
+      },
+      "similarity": {
+        "title": 0.11,
+        "text": 0,
+        "favicon": false,
+        "overall": 0.04
+      },
+      "listedOn": [],
+      "score": 10,
+      "severity": "info",
+      "label": "brand-owned-redirect",
+      "evidence": [
+        "Brand name plus a phishing lure word",
+        "Same nameservers as the official domain: probably registered by the brand itself",
+        "Lookalike of your domain serving other crypto content (wallet UI)",
+        "Wallet-connect prompt/library: Connect wallet, WalletConnect"
+      ],
+      "action": "No action. Confirm the client owns this domain and add it to the allowlist.",
+      "alreadyBlocked": false
+    }
+  ],
+  "tokens": [],
+  "errors": []
+}

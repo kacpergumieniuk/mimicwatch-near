@@ -1,0 +1,2735 @@
+{
+  "brand": {
+    "name": "MyNearWallet",
+    "officialDomains": [
+      "mynearwallet.com"
+    ],
+    "referenceUrl": "https://app.mynearwallet.com",
+    "officialTokens": [],
+    "officialSocials": {
+      "x": "mynearwallet",
+      "github": "mynearwallet"
+    },
+    "keywords": [
+      "mynearwallet",
+      "my-near-wallet"
+    ],
+    "allowlist": [],
+    "tokenChains": [
+      "base"
+    ]
+  },
+  "startedAt": "2026-11-01T16:05:56.239Z",
+  "finishedAt": "2026-11-01T16:07:41.831Z",
+  "periodDays": 30,
+  "official": {
+    "url": "https://app.mynearwallet.com/",
+    "title": "MyNearWallet"
+  },
+  "stats": {
+    "permutations": 1303,
+    "permutationsRegistered": 39,
+    "ctHosts": 0,
+    "nrdHits": 0,
+    "candidates": 39,
+    "pagesFetched": 37,
+    "pagesRendered": 12,
+    "tokensIndexed": {},
+    "tokenMatches": 0
+  },
+  "coverage": {
+    "ct": [
+      {
+        "q": "mynearwallet%",
+        "rows": 0,
+        "error": "HTTP 400"
+      },
+      {
+        "q": "mynearwallet.%",
+        "rows": 0,
+        "error": "HTTP 400"
+      },
+      {
+        "q": "mynearwallet-%",
+        "rows": 0,
+        "error": "HTTP 400"
+      },
+      {
+        "q": "%mynearwallet%",
+        "rows": 0,
+        "error": "HTTP 400"
+      },
+      {
+        "q": "my-near-wallet%",
+        "rows": 0,
+        "error": "HTTP 400"
+      },
+      {
+        "q": "my-near-wallet.%",
+        "rows": 0,
+        "error": "HTTP 400"
+      },
+      {
+        "q": "my-near-wallet-%",
+        "rows": 0,
+        "error": "HTTP 400"
+      },
+      {
+        "q": "%my-near-wallet%",
+        "rows": 0,
+        "error": "HTTP 400"
+      }
+    ],
+    "nrd": [
+      {
+        "day": "2026-10-31",
+        "domains": 70000
+      },
+      {
+        "day": "2026-10-30",
+        "domains": 70000
+      },
+      {
+        "day": "2026-10-29",
+        "domains": 70000
+      },
+      {
+        "day": "2026-10-28",
+        "domains": 70000
+      }
+    ],
+    "tokens": [],
+    "blocklists": [
+      "metamask",
+      "scamsniffer"
+    ]
+  },
+  "domains": [
+    {
+      "kind": "domain",
+      "host": "mynearwallet.xyz",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "tld-swap",
+      "dns": {
+        "domain": "mynearwallet.xyz",
+        "registered": true,
+        "a": [
+          "188.114.97.3",
+          "188.114.96.3"
+        ],
+        "aaaa": [],
+        "mx": [],
+        "ns": [
+          "dolly.ns.cloudflare.com",
+          "micah.ns.cloudflare.com"
+        ]
+      },
+      "page": {
+        "url": "https://mynearwallet.xyz/",
+        "finalUrl": "https://mynearwallet.xyz/",
+        "status": 200,
+        "title": "Mynearwallet",
+        "scriptUrls": [],
+        "signals": {
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "secretForm": false,
+          "lure": [],
+          "drainerJs": [],
+          "parked": [],
+          "cryptoContext": [],
+          "interstitial": [],
+          "challenge": []
+        },
+        "brandMentions": 3,
+        "brandInTitle": true,
+        "bytes": 9548,
+        "renderedWith": "playwright",
+        "faviconUrl": "https://mynearwallet.xyz/favicon.ico",
+        "screenshot": "/Users/kacpergumieniuk/Projects/4b47/mimicwatch-near/data/scans/2026-11-01/domains/mynearwallet-2026-11-01/shots/mynearwallet.xyz.jpg",
+        "textSample": "Mynearwallet Teknoloji & Dijital Anasayfa Tüm Yazılar Künye İletişim Teknoloji & Dijital Öne Çıkan Yemek ve mutfak konusunda sıkça yapılan beş hata Çevremizde yemek ve mutfak hakkında pek çok farklı görüş bulunsa da kanıta dayalı bilgilere yönelmek en sağlıklı yol. Modaya kapılmak yerine kalıcı çözü"
+      },
+      "similarity": {
+        "title": 1,
+        "text": 0,
+        "favicon": false,
+        "overall": 0.35
+      },
+      "listedOn": [],
+      "score": 62,
+      "severity": "high",
+      "label": "impersonation",
+      "evidence": [
+        "Official name on a different TLD",
+        "Hostname contains a lure word (claim/airdrop/support/...)",
+        "Page title resembles the official title (100%)",
+        "Brand named on the page (3x), including the title"
+      ],
+      "action": "Review the screenshot. If it impersonates the brand, file registrar + host reports (drafts attached).",
+      "alreadyBlocked": false,
+      "rdap": {
+        "domain": "mynearwallet.xyz",
+        "registrar": "Global Domain Group LLC",
+        "ianaId": "3956",
+        "abuse": {
+          "name": "Abuse Contact",
+          "email": "abuse@globaldomaingroup.com",
+          "phone": "+1.8053943992"
+        },
+        "registered": "2026-07-15T02:09:58.0Z",
+        "expires": "2027-07-15T23:59:59.0Z",
+        "status": [
+          "client transfer prohibited"
+        ],
+        "source": "https://rdap.centralnic.com/xyz/domain/mynearwallet.xyz"
+      },
+      "hosting": {
+        "ip": "188.114.97.3",
+        "network": "CLOUDFLARENET-EU",
+        "org": "MNT-CLOUDFLARE",
+        "abuse": {
+          "name": "Cloudflare Abuse Contact",
+          "email": "abuse@cloudflare.com",
+          "form": "https://abuse.cloudflare.com/"
+        }
+      },
+      "drafts": [
+        {
+          "channel": "registrar-abuse",
+          "title": "Registrar abuse report to Global Domain Group LLC",
+          "to": "abuse@globaldomaingroup.com",
+          "subject": "Phishing / brand impersonation: mynearwallet.xyz impersonates MyNearWallet",
+          "body": "DRAFT - NOT FILED. File only after the brand owner approves it and has signed a Letter of Authorisation.\n\nHello Global Domain Group LLC abuse team,\n\nThe domain mynearwallet[.]xyz (registered with you on 2026-07-15) is being used to impersonate MyNearWallet, a crypto project whose official site is hxxps://mynearwallet[.]com. We ask you to suspend the domain under your abuse policy and the RAA section 3.18 obligations.\n\nEvidence (observed 2026-11-01, read-only, URLs defanged):\n- URL: hxxps://mynearwallet[.]xyz/\n- Official name on a different TLD\n- Hostname contains a lure word (claim/airdrop/support/...)\n- Page title resembles the official title (100%)\n- Brand named on the page (3x), including the title\n- Resolves to 188.114.97.3, 188.114.96.3\n- Page title: \"Mynearwallet\"\n- Screenshot: shots/mynearwallet.xyz.jpg (attach)\n\nWe are not affiliated with the operator of mynearwallet[.]xyz. MyNearWallet has not authorised its use of the brand. Screenshots and HTML captures are available on request.\n\nRegards,\n{{REPORTER_NAME}}\n{{REPORTER_ORG}}, acting for MyNearWallet under a Letter of Authorisation dated {{LOA_DATE}}\n{{REPORTER_EMAIL}}",
+          "notes": [
+            "Registrar IANA ID 3956, abuse phone +1.8053943992"
+          ]
+        },
+        {
+          "channel": "host-abuse",
+          "title": "Hosting abuse report to MNT-CLOUDFLARE",
+          "to": "https://abuse.cloudflare.com/",
+          "subject": "Phishing site hosted on your network: mynearwallet.xyz (MyNearWallet impersonation)",
+          "body": "DRAFT - NOT FILED. File only after the brand owner approves it and has signed a Letter of Authorisation.\n\nHello MNT-CLOUDFLARE,\n\nhxxps://mynearwallet[.]xyz/ (188.114.97.3, 188.114.96.3) is hosted on your network and impersonates MyNearWallet (official: hxxps://mynearwallet[.]com).\n\nEvidence (observed 2026-11-01):\n- Official name on a different TLD\n- Hostname contains a lure word (claim/airdrop/support/...)\n- Page title resembles the official title (100%)\n- Brand named on the page (3x), including the title\n- Resolves to 188.114.97.3, 188.114.96.3\n- Page title: \"Mynearwallet\"\n- Screenshot: shots/mynearwallet.xyz.jpg (attach)\n\nPlease take the content down under your acceptable use policy.\n\nRegards,\n{{REPORTER_NAME}}\n{{REPORTER_ORG}}, acting for MyNearWallet under a Letter of Authorisation dated {{LOA_DATE}}\n{{REPORTER_EMAIL}}",
+          "notes": [
+            "Email alternative: abuse@cloudflare.com"
+          ]
+        },
+        {
+          "channel": "google-safe-browsing",
+          "title": "Google Safe Browsing report",
+          "to": "https://safebrowsing.google.com/safebrowsing/report_phish/?url=https%3A%2F%2Fmynearwallet.xyz%2F",
+          "fields": {
+            "Report Type": "This page is not safe",
+            "Threat Type": "Social engineering (phishing) - pick the closest option shown",
+            "Threat Category": "Pick the closest option shown (impersonation / phishing)",
+            "URL to report": "https://mynearwallet.xyz/",
+            "Additional details (max 800)": "Impersonates MyNearWallet (official: https://mynearwallet.com). Page title resembles the official title (100%); Brand named on the page (3x), including the title; Official name on a different TLD."
+          },
+          "body": "DRAFT - NOT FILED. File only after the brand owner approves it and has signed a Letter of Authorisation.\n\nImpersonates MyNearWallet (official: https://mynearwallet.com). Page title resembles the official title (100%); Brand named on the page (3x), including the title; Official name on a different TLD.",
+          "notes": [
+            "Web form with reCAPTCHA: a person has to submit it."
+          ]
+        },
+        {
+          "channel": "netcraft",
+          "title": "Netcraft report",
+          "to": "https://report.netcraft.com/report",
+          "fields": {
+            "The URL of the site": "https://mynearwallet.xyz/",
+            "Further details": "Impersonates MyNearWallet (official: https://mynearwallet.com). Page title resembles the official title (100%); Brand named on the page (3x), including the title; Official name on a different TLD.",
+            "Your email address": "{{REPORTER_EMAIL}}"
+          },
+          "body": "DRAFT - NOT FILED. File only after the brand owner approves it and has signed a Letter of Authorisation.\n\nImpersonates MyNearWallet (official: https://mynearwallet.com). Page title resembles the official title (100%); Brand named on the page (3x), including the title; Official name on a different TLD.",
+          "notes": [
+            "Web form with reCAPTCHA. Netcraft feeds many browser and registrar blocklists."
+          ]
+        },
+        {
+          "channel": "metamask-issue",
+          "title": "MetaMask eth-phishing-detect: blocklist addition issue",
+          "to": "https://github.com/MetaMask/eth-phishing-detect/issues/new?template=01-blocklist-addition.yaml",
+          "fields": {
+            "Malicious domains, IPs, IPFS hashes, or IPNS names": "https://mynearwallet.xyz/",
+            "Please explain why this content is malicious": "Impersonates MyNearWallet (official: https://mynearwallet.com). Page title resembles the official title (100%); Brand named on the page (3x), including the title; Official name on a different TLD. Observed 2026-11-01. Reported on behalf of MyNearWallet.",
+            "Is this a duplicate request?": "Search open issues for the domain first, then tick the box"
+          },
+          "body": "DRAFT - NOT FILED. File only after the brand owner approves it and has signed a Letter of Authorisation.\n\nImpersonates MyNearWallet (official: https://mynearwallet.com). Page title resembles the official title (100%); Brand named on the page (3x), including the title; Official name on a different TLD."
+        },
+        {
+          "channel": "metamask-pr",
+          "title": "MetaMask eth-phishing-detect: alternative PR (slower; most merges are bot syncs)",
+          "to": "https://github.com/MetaMask/eth-phishing-detect",
+          "body": "DRAFT - NOT FILED. File only after the brand owner approves it and has signed a Letter of Authorisation.\n\ngit checkout -b block-mynearwallet.xyz\nyarn add:blocklist mynearwallet.xyz\n\nPR title: Block mynearwallet.xyz (MyNearWallet impersonation)\nPR body: Impersonates MyNearWallet (official: https://mynearwallet.com). Page title resembles the official title (100%); Brand named on the page (3x), including the title; Official name on a different TLD."
+        },
+        {
+          "channel": "scamsniffer-issue",
+          "title": "ScamSniffer scam-database issue",
+          "to": "https://github.com/scamsniffer/scam-database/issues/new",
+          "subject": "[Phishing] mynearwallet.xyz - MyNearWallet impersonation",
+          "body": "DRAFT - NOT FILED. File only after the brand owner approves it and has signed a Letter of Authorisation.\n\nDomain: mynearwallet.xyz\nScam addresses (with chain): {{ADD IF KNOWN, e.g. from a victim's drain tx}}\nImpersonates: MyNearWallet (official: https://mynearwallet.com)\n\nEvidence (observed 2026-11-01):\n- Official name on a different TLD\n- Hostname contains a lure word (claim/airdrop/support/...)\n- Page title resembles the official title (100%)\n- Brand named on the page (3x), including the title\n- Resolves to 188.114.97.3, 188.114.96.3\n- Page title: \"Mynearwallet\"\n- Screenshot: shots/mynearwallet.xyz.jpg (attach)",
+          "notes": [
+            "ScamSniffer asks for issues, not PRs (their JSON is regenerated). Attach the screenshot."
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "domain",
+      "host": "mnearwallet.com",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "omission",
+      "dns": {
+        "domain": "mnearwallet.com",
+        "registered": true,
+        "a": [
+          "104.21.33.216",
+          "172.67.192.215"
+        ],
+        "aaaa": [],
+        "mx": [],
+        "ns": [
+          "vita.ns.cloudflare.com",
+          "rocco.ns.cloudflare.com"
+        ]
+      },
+      "page": {
+        "url": "https://mnearwallet.com/",
+        "finalUrl": "https://mnearwallet.com/",
+        "status": 404,
+        "title": "404 Not Found",
+        "scriptUrls": [],
+        "signals": {
+          "secretForm": false,
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "lure": [],
+          "drainerJs": [],
+          "parked": [],
+          "cryptoContext": [],
+          "interstitial": [],
+          "challenge": []
+        },
+        "brandMentions": 0,
+        "brandInTitle": false,
+        "bytes": 146,
+        "renderedWith": "http",
+        "faviconUrl": "https://mnearwallet.com/favicon.ico",
+        "textSample": "404 Not Found nginx"
+      },
+      "similarity": {
+        "title": 0,
+        "text": 0,
+        "favicon": false,
+        "overall": 0
+      },
+      "listedOn": [
+        "scamsniffer"
+      ],
+      "score": 60,
+      "severity": "high",
+      "label": "phishing-likely",
+      "evidence": [
+        "Typosquat (omission) of the official domain",
+        "Hostname contains a lure word (claim/airdrop/support/...)",
+        "One of 33 lookalikes on the same DNS account (rocco.ns.cloudflare.com + vita.ns.cloudflare.com): a single operator",
+        "Already on public wallet blocklist(s): scamsniffer",
+        "Almost empty page (19 chars of text, title \"404 Not Found\"): content not visible"
+      ],
+      "action": "Already blocked (scamsniffer). After client approval: file registrar and host abuse reports so the domain itself goes away (drafts attached).",
+      "alreadyBlocked": true,
+      "rdap": {
+        "domain": "mnearwallet.com",
+        "registrar": "Tucows Domains Inc.",
+        "ianaId": "69",
+        "abuse": {
+          "email": "domainabuse@tucows.com",
+          "phone": "+1.4165350123"
+        },
+        "registered": "2025-03-23T23:25:16Z",
+        "expires": "2027-03-23T23:25:16Z",
+        "status": [
+          "client transfer prohibited",
+          "client update prohibited"
+        ],
+        "source": "https://rdap.verisign.com/com/v1/domain/mnearwallet.com"
+      },
+      "hosting": {
+        "ip": "104.21.33.216",
+        "network": "CLOUDFLARENET",
+        "org": "Cloudflare, Inc.",
+        "abuse": {
+          "name": "Abuse",
+          "email": "abuse@cloudflare.com",
+          "phone": "+1-650-319-8930",
+          "form": "https://abuse.cloudflare.com/"
+        }
+      },
+      "drafts": [
+        {
+          "channel": "registrar-abuse",
+          "title": "Registrar abuse report to Tucows Domains Inc.",
+          "to": "domainabuse@tucows.com",
+          "subject": "Phishing / brand impersonation: mnearwallet.com impersonates MyNearWallet",
+          "body": "DRAFT - NOT FILED. File only after the brand owner approves it and has signed a Letter of Authorisation.\n\nHello Tucows Domains Inc. abuse team,\n\nThe domain mnearwallet[.]com (registered with you on 2025-03-23) is being used to impersonate MyNearWallet, a crypto project whose official site is hxxps://mynearwallet[.]com. We ask you to suspend the domain under your abuse policy and the RAA section 3.18 obligations.\n\nEvidence (observed 2026-11-01, read-only, URLs defanged):\n- URL: hxxps://mnearwallet[.]com/\n- Typosquat (omission) of the official domain\n- Hostname contains a lure word (claim/airdrop/support/...)\n- One of 33 lookalikes on the same DNS account (rocco.ns.cloudflare.com + vita.ns.cloudflare.com): a single operator\n- Already on public wallet blocklist(s): scamsniffer\n- Almost empty page (19 chars of text, title \"404 Not Found\"): content not visible\n- Resolves to 104.21.33.216, 172.67.192.215\n- Page title: \"404 Not Found\"\n\nWe are not affiliated with the operator of mnearwallet[.]com. MyNearWallet has not authorised its use of the brand. Screenshots and HTML captures are available on request.\n\nRegards,\n{{REPORTER_NAME}}\n{{REPORTER_ORG}}, acting for MyNearWallet under a Letter of Authorisation dated {{LOA_DATE}}\n{{REPORTER_EMAIL}}",
+          "notes": [
+            "Registrar IANA ID 69, abuse phone +1.4165350123"
+          ]
+        },
+        {
+          "channel": "host-abuse",
+          "title": "Hosting abuse report to Cloudflare, Inc.",
+          "to": "https://abuse.cloudflare.com/",
+          "subject": "Phishing site hosted on your network: mnearwallet.com (MyNearWallet impersonation)",
+          "body": "DRAFT - NOT FILED. File only after the brand owner approves it and has signed a Letter of Authorisation.\n\nHello Cloudflare, Inc.,\n\nhxxps://mnearwallet[.]com/ (104.21.33.216, 172.67.192.215) is hosted on your network and impersonates MyNearWallet (official: hxxps://mynearwallet[.]com).\n\nEvidence (observed 2026-11-01):\n- Typosquat (omission) of the official domain\n- Hostname contains a lure word (claim/airdrop/support/...)\n- One of 33 lookalikes on the same DNS account (rocco.ns.cloudflare.com + vita.ns.cloudflare.com): a single operator\n- Already on public wallet blocklist(s): scamsniffer\n- Almost empty page (19 chars of text, title \"404 Not Found\"): content not visible\n- Resolves to 104.21.33.216, 172.67.192.215\n- Page title: \"404 Not Found\"\n\nPlease take the content down under your acceptable use policy.\n\nRegards,\n{{REPORTER_NAME}}\n{{REPORTER_ORG}}, acting for MyNearWallet under a Letter of Authorisation dated {{LOA_DATE}}\n{{REPORTER_EMAIL}}",
+          "notes": [
+            "Email alternative: abuse@cloudflare.com"
+          ]
+        },
+        {
+          "channel": "google-safe-browsing",
+          "title": "Google Safe Browsing report",
+          "to": "https://safebrowsing.google.com/safebrowsing/report_phish/?url=https%3A%2F%2Fmnearwallet.com%2F",
+          "fields": {
+            "Report Type": "This page is not safe",
+            "Threat Type": "Social engineering (phishing) - pick the closest option shown",
+            "Threat Category": "Pick the closest option shown (impersonation / phishing)",
+            "URL to report": "https://mnearwallet.com/",
+            "Additional details (max 800)": "Impersonates MyNearWallet (official: https://mynearwallet.com). Already on public wallet blocklist(s): scamsniffer; Typosquat (omission) of the official domain; One of 33 lookalikes on the same DNS account (rocco.ns.cloudflare.com + vita.ns.cloudflare.com): a single operator; Almost empty page (19 chars of text, title \"404 Not Found\"): content not visible."
+          },
+          "body": "DRAFT - NOT FILED. File only after the brand owner approves it and has signed a Letter of Authorisation.\n\nImpersonates MyNearWallet (official: https://mynearwallet.com). Already on public wallet blocklist(s): scamsniffer; Typosquat (omission) of the official domain; One of 33 lookalikes on the same DNS account (rocco.ns.cloudflare.com + vita.ns.cloudflare.com): a single operator; Almost empty page (19 chars of text, title \"404 Not Found\"): content not visible.",
+          "notes": [
+            "Web form with reCAPTCHA: a person has to submit it."
+          ]
+        },
+        {
+          "channel": "netcraft",
+          "title": "Netcraft report",
+          "to": "https://report.netcraft.com/report",
+          "fields": {
+            "The URL of the site": "https://mnearwallet.com/",
+            "Further details": "Impersonates MyNearWallet (official: https://mynearwallet.com). Already on public wallet blocklist(s): scamsniffer; Typosquat (omission) of the official domain; One of 33 lookalikes on the same DNS account (rocco.ns.cloudflare.com + vita.ns.cloudflare.com): a single operator; Almost empty page (19 chars of text, title \"404 Not Found\"): content not visible.",
+            "Your email address": "{{REPORTER_EMAIL}}"
+          },
+          "body": "DRAFT - NOT FILED. File only after the brand owner approves it and has signed a Letter of Authorisation.\n\nImpersonates MyNearWallet (official: https://mynearwallet.com). Already on public wallet blocklist(s): scamsniffer; Typosquat (omission) of the official domain; One of 33 lookalikes on the same DNS account (rocco.ns.cloudflare.com + vita.ns.cloudflare.com): a single operator; Almost empty page (19 chars of text, title \"404 Not Found\"): content not visible.",
+          "notes": [
+            "Web form with reCAPTCHA. Netcraft feeds many browser and registrar blocklists."
+          ]
+        },
+        {
+          "channel": "metamask-issue",
+          "title": "MetaMask eth-phishing-detect: blocklist addition issue",
+          "to": "https://github.com/MetaMask/eth-phishing-detect/issues/new?template=01-blocklist-addition.yaml",
+          "fields": {
+            "Malicious domains, IPs, IPFS hashes, or IPNS names": "https://mnearwallet.com/",
+            "Please explain why this content is malicious": "Impersonates MyNearWallet (official: https://mynearwallet.com). Already on public wallet blocklist(s): scamsniffer; Typosquat (omission) of the official domain; One of 33 lookalikes on the same DNS account (rocco.ns.cloudflare.com + vita.ns.cloudflare.com): a single operator; Almost empty page (19 chars of text, title \"404 Not Found\"): content not visible. Observed 2026-11-01. Reported on behalf of MyNearWallet.",
+            "Is this a duplicate request?": "Search open issues for the domain first, then tick the box"
+          },
+          "body": "DRAFT - NOT FILED. File only after the brand owner approves it and has signed a Letter of Authorisation.\n\nImpersonates MyNearWallet (official: https://mynearwallet.com). Already on public wallet blocklist(s): scamsniffer; Typosquat (omission) of the official domain; One of 33 lookalikes on the same DNS account (rocco.ns.cloudflare.com + vita.ns.cloudflare.com): a single operator; Almost empty page (19 chars of text, title \"404 Not Found\"): content not visible."
+        },
+        {
+          "channel": "metamask-pr",
+          "title": "MetaMask eth-phishing-detect: alternative PR (slower; most merges are bot syncs)",
+          "to": "https://github.com/MetaMask/eth-phishing-detect",
+          "body": "DRAFT - NOT FILED. File only after the brand owner approves it and has signed a Letter of Authorisation.\n\ngit checkout -b block-mnearwallet.com\nyarn add:blocklist mnearwallet.com\n\nPR title: Block mnearwallet.com (MyNearWallet impersonation)\nPR body: Impersonates MyNearWallet (official: https://mynearwallet.com). Already on public wallet blocklist(s): scamsniffer; Typosquat (omission) of the official domain; One of 33 lookalikes on the same DNS account (rocco.ns.cloudflare.com + vita.ns.cloudflare.com): a single operator; Almost empty page (19 chars of text, title \"404 Not Found\"): content not visible."
+        }
+      ]
+    },
+    {
+      "kind": "domain",
+      "host": "xn--mynarwallet-4qb.com",
+      "unicode": "mynėarwallet.com",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "homoglyph",
+      "dns": {
+        "domain": "xn--mynarwallet-4qb.com",
+        "registered": true,
+        "a": [],
+        "aaaa": [],
+        "mx": [],
+        "ns": [
+          "dalary.ns.cloudflare.com",
+          "steven.ns.cloudflare.com"
+        ]
+      },
+      "listedOn": [],
+      "score": 40,
+      "severity": "low",
+      "label": "not-live",
+      "evidence": [
+        "Homoglyph lookalike of the official domain",
+        "Hostname contains a lure word (claim/airdrop/support/...)"
+      ],
+      "action": "Monitor (registered, no website). Consider defensive registration.",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "mynearwallett.com",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "addition",
+      "dns": {
+        "domain": "mynearwallett.com",
+        "registered": true,
+        "a": [
+          "104.21.91.70",
+          "172.67.211.95"
+        ],
+        "aaaa": [],
+        "mx": [],
+        "ns": [
+          "vita.ns.cloudflare.com",
+          "rocco.ns.cloudflare.com"
+        ]
+      },
+      "page": {
+        "url": "https://mynearwallett.com/",
+        "finalUrl": "https://mynearwallett.com/",
+        "status": 404,
+        "title": "404 Not Found",
+        "scriptUrls": [],
+        "signals": {
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "secretForm": false,
+          "lure": [],
+          "drainerJs": [],
+          "parked": [],
+          "cryptoContext": [],
+          "interstitial": [],
+          "challenge": []
+        },
+        "brandMentions": 0,
+        "brandInTitle": false,
+        "bytes": 146,
+        "renderedWith": "playwright",
+        "faviconUrl": "https://mynearwallett.com/favicon.ico",
+        "screenshot": "/Users/kacpergumieniuk/Projects/4b47/mimicwatch-near/data/scans/2026-11-01/domains/mynearwallet-2026-11-01/shots/mynearwallett.com.jpg",
+        "textSample": "404 Not Found nginx"
+      },
+      "similarity": {
+        "title": 0,
+        "text": 0,
+        "favicon": false,
+        "overall": 0
+      },
+      "listedOn": [],
+      "score": 35,
+      "severity": "low",
+      "label": "lookalike-unknown-content",
+      "evidence": [
+        "Typosquat (addition) of the official domain",
+        "Hostname contains a lure word (claim/airdrop/support/...)",
+        "One of 33 lookalikes on the same DNS account (rocco.ns.cloudflare.com + vita.ns.cloudflare.com): a single operator",
+        "Almost empty page (19 chars of text, title \"404 Not Found\"): content not visible"
+      ],
+      "action": "Re-check next scan; the content was not visible to us (error, bot wall or empty page).",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "mynearwwallet.com",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "insertion",
+      "dns": {
+        "domain": "mynearwwallet.com",
+        "registered": true,
+        "a": [
+          "188.114.97.3",
+          "188.114.96.3"
+        ],
+        "aaaa": [],
+        "mx": [],
+        "ns": [
+          "vita.ns.cloudflare.com",
+          "rocco.ns.cloudflare.com"
+        ]
+      },
+      "page": {
+        "url": "https://mynearwwallet.com/",
+        "finalUrl": "https://mynearwwallet.com/",
+        "status": 404,
+        "title": "404 Not Found",
+        "scriptUrls": [],
+        "signals": {
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "secretForm": false,
+          "lure": [],
+          "drainerJs": [],
+          "parked": [],
+          "cryptoContext": [],
+          "interstitial": [],
+          "challenge": []
+        },
+        "brandMentions": 0,
+        "brandInTitle": false,
+        "bytes": 146,
+        "renderedWith": "playwright",
+        "faviconUrl": "https://mynearwwallet.com/favicon.ico",
+        "screenshot": "/Users/kacpergumieniuk/Projects/4b47/mimicwatch-near/data/scans/2026-11-01/domains/mynearwallet-2026-11-01/shots/mynearwwallet.com.jpg",
+        "textSample": "404 Not Found nginx"
+      },
+      "similarity": {
+        "title": 0,
+        "text": 0,
+        "favicon": false,
+        "overall": 0
+      },
+      "listedOn": [],
+      "score": 35,
+      "severity": "low",
+      "label": "lookalike-unknown-content",
+      "evidence": [
+        "Typosquat (insertion) of the official domain",
+        "Hostname contains a lure word (claim/airdrop/support/...)",
+        "One of 33 lookalikes on the same DNS account (rocco.ns.cloudflare.com + vita.ns.cloudflare.com): a single operator",
+        "Almost empty page (19 chars of text, title \"404 Not Found\"): content not visible"
+      ],
+      "action": "Re-check next scan; the content was not visible to us (error, bot wall or empty page).",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "ynearwallet.com",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "omission",
+      "dns": {
+        "domain": "ynearwallet.com",
+        "registered": true,
+        "a": [
+          "172.67.220.137",
+          "104.21.94.66"
+        ],
+        "aaaa": [],
+        "mx": [],
+        "ns": [
+          "rocco.ns.cloudflare.com",
+          "vita.ns.cloudflare.com"
+        ]
+      },
+      "page": {
+        "url": "https://ynearwallet.com/",
+        "finalUrl": "https://ynearwallet.com/",
+        "status": 404,
+        "title": "404 Not Found",
+        "scriptUrls": [],
+        "signals": {
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "secretForm": false,
+          "lure": [],
+          "drainerJs": [],
+          "parked": [],
+          "cryptoContext": [],
+          "interstitial": [],
+          "challenge": []
+        },
+        "brandMentions": 0,
+        "brandInTitle": false,
+        "bytes": 146,
+        "renderedWith": "playwright",
+        "faviconUrl": "https://ynearwallet.com/favicon.ico",
+        "screenshot": "/Users/kacpergumieniuk/Projects/4b47/mimicwatch-near/data/scans/2026-11-01/domains/mynearwallet-2026-11-01/shots/ynearwallet.com.jpg",
+        "textSample": "404 Not Found nginx"
+      },
+      "similarity": {
+        "title": 0,
+        "text": 0,
+        "favicon": false,
+        "overall": 0
+      },
+      "listedOn": [],
+      "score": 35,
+      "severity": "low",
+      "label": "lookalike-unknown-content",
+      "evidence": [
+        "Typosquat (omission) of the official domain",
+        "Hostname contains a lure word (claim/airdrop/support/...)",
+        "One of 33 lookalikes on the same DNS account (rocco.ns.cloudflare.com + vita.ns.cloudflare.com): a single operator",
+        "Almost empty page (19 chars of text, title \"404 Not Found\"): content not visible"
+      ],
+      "action": "Re-check next scan; the content was not visible to us (error, bot wall or empty page).",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "myearwallet.com",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "omission",
+      "dns": {
+        "domain": "myearwallet.com",
+        "registered": true,
+        "a": [
+          "188.114.96.3",
+          "188.114.97.3"
+        ],
+        "aaaa": [],
+        "mx": [],
+        "ns": [
+          "vita.ns.cloudflare.com",
+          "rocco.ns.cloudflare.com"
+        ]
+      },
+      "page": {
+        "url": "https://myearwallet.com/",
+        "finalUrl": "https://myearwallet.com/",
+        "status": 404,
+        "title": "404 Not Found",
+        "scriptUrls": [],
+        "signals": {
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "secretForm": false,
+          "lure": [],
+          "drainerJs": [],
+          "parked": [],
+          "cryptoContext": [],
+          "interstitial": [],
+          "challenge": []
+        },
+        "brandMentions": 0,
+        "brandInTitle": false,
+        "bytes": 146,
+        "renderedWith": "playwright",
+        "faviconUrl": "https://myearwallet.com/favicon.ico",
+        "screenshot": "/Users/kacpergumieniuk/Projects/4b47/mimicwatch-near/data/scans/2026-11-01/domains/mynearwallet-2026-11-01/shots/myearwallet.com.jpg",
+        "textSample": "404 Not Found nginx"
+      },
+      "similarity": {
+        "title": 0,
+        "text": 0,
+        "favicon": false,
+        "overall": 0
+      },
+      "listedOn": [],
+      "score": 35,
+      "severity": "low",
+      "label": "lookalike-unknown-content",
+      "evidence": [
+        "Typosquat (omission) of the official domain",
+        "Hostname contains a lure word (claim/airdrop/support/...)",
+        "One of 33 lookalikes on the same DNS account (rocco.ns.cloudflare.com + vita.ns.cloudflare.com): a single operator",
+        "Almost empty page (19 chars of text, title \"404 Not Found\"): content not visible"
+      ],
+      "action": "Re-check next scan; the content was not visible to us (error, bot wall or empty page).",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "mynarwallet.com",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "omission",
+      "dns": {
+        "domain": "mynarwallet.com",
+        "registered": true,
+        "a": [
+          "104.21.13.98",
+          "172.67.132.203"
+        ],
+        "aaaa": [],
+        "mx": [],
+        "ns": [
+          "vita.ns.cloudflare.com",
+          "rocco.ns.cloudflare.com"
+        ]
+      },
+      "page": {
+        "url": "https://mynarwallet.com/",
+        "finalUrl": "https://mynarwallet.com/",
+        "status": 404,
+        "title": "404 Not Found",
+        "scriptUrls": [],
+        "signals": {
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "secretForm": false,
+          "lure": [],
+          "drainerJs": [],
+          "parked": [],
+          "cryptoContext": [],
+          "interstitial": [],
+          "challenge": []
+        },
+        "brandMentions": 0,
+        "brandInTitle": false,
+        "bytes": 146,
+        "renderedWith": "playwright",
+        "faviconUrl": "https://mynarwallet.com/favicon.ico",
+        "screenshot": "/Users/kacpergumieniuk/Projects/4b47/mimicwatch-near/data/scans/2026-11-01/domains/mynearwallet-2026-11-01/shots/mynarwallet.com.jpg",
+        "textSample": "404 Not Found nginx"
+      },
+      "similarity": {
+        "title": 0,
+        "text": 0,
+        "favicon": false,
+        "overall": 0
+      },
+      "listedOn": [],
+      "score": 35,
+      "severity": "low",
+      "label": "lookalike-unknown-content",
+      "evidence": [
+        "Typosquat (omission) of the official domain",
+        "Hostname contains a lure word (claim/airdrop/support/...)",
+        "One of 33 lookalikes on the same DNS account (rocco.ns.cloudflare.com + vita.ns.cloudflare.com): a single operator",
+        "Almost empty page (19 chars of text, title \"404 Not Found\"): content not visible"
+      ],
+      "action": "Re-check next scan; the content was not visible to us (error, bot wall or empty page).",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "mynerwallet.com",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "omission",
+      "dns": {
+        "domain": "mynerwallet.com",
+        "registered": true,
+        "a": [
+          "188.114.96.3",
+          "188.114.97.3"
+        ],
+        "aaaa": [],
+        "mx": [],
+        "ns": [
+          "rocco.ns.cloudflare.com",
+          "vita.ns.cloudflare.com"
+        ]
+      },
+      "page": {
+        "url": "https://mynerwallet.com/",
+        "finalUrl": "https://mynerwallet.com/",
+        "status": 404,
+        "title": "404 Not Found",
+        "scriptUrls": [],
+        "signals": {
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "secretForm": false,
+          "lure": [],
+          "drainerJs": [],
+          "parked": [],
+          "cryptoContext": [],
+          "interstitial": [],
+          "challenge": []
+        },
+        "brandMentions": 0,
+        "brandInTitle": false,
+        "bytes": 146,
+        "renderedWith": "playwright",
+        "faviconUrl": "https://mynerwallet.com/favicon.ico",
+        "screenshot": "/Users/kacpergumieniuk/Projects/4b47/mimicwatch-near/data/scans/2026-11-01/domains/mynearwallet-2026-11-01/shots/mynerwallet.com.jpg",
+        "textSample": "404 Not Found nginx"
+      },
+      "similarity": {
+        "title": 0,
+        "text": 0,
+        "favicon": false,
+        "overall": 0
+      },
+      "listedOn": [],
+      "score": 35,
+      "severity": "low",
+      "label": "lookalike-unknown-content",
+      "evidence": [
+        "Typosquat (omission) of the official domain",
+        "Hostname contains a lure word (claim/airdrop/support/...)",
+        "One of 33 lookalikes on the same DNS account (rocco.ns.cloudflare.com + vita.ns.cloudflare.com): a single operator",
+        "Almost empty page (19 chars of text, title \"404 Not Found\"): content not visible"
+      ],
+      "action": "Re-check next scan; the content was not visible to us (error, bot wall or empty page).",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "myneawallet.com",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "omission",
+      "dns": {
+        "domain": "myneawallet.com",
+        "registered": true,
+        "a": [
+          "172.67.201.99",
+          "104.21.36.245"
+        ],
+        "aaaa": [],
+        "mx": [],
+        "ns": [
+          "rocco.ns.cloudflare.com",
+          "vita.ns.cloudflare.com"
+        ]
+      },
+      "page": {
+        "url": "https://myneawallet.com/",
+        "finalUrl": "https://myneawallet.com/",
+        "status": 404,
+        "title": "404 Not Found",
+        "scriptUrls": [],
+        "signals": {
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "secretForm": false,
+          "lure": [],
+          "drainerJs": [],
+          "parked": [],
+          "cryptoContext": [],
+          "interstitial": [],
+          "challenge": []
+        },
+        "brandMentions": 0,
+        "brandInTitle": false,
+        "bytes": 146,
+        "renderedWith": "playwright",
+        "faviconUrl": "https://myneawallet.com/favicon.ico",
+        "screenshot": "/Users/kacpergumieniuk/Projects/4b47/mimicwatch-near/data/scans/2026-11-01/domains/mynearwallet-2026-11-01/shots/myneawallet.com.jpg",
+        "textSample": "404 Not Found nginx"
+      },
+      "similarity": {
+        "title": 0,
+        "text": 0,
+        "favicon": false,
+        "overall": 0
+      },
+      "listedOn": [],
+      "score": 35,
+      "severity": "low",
+      "label": "lookalike-unknown-content",
+      "evidence": [
+        "Typosquat (omission) of the official domain",
+        "Hostname contains a lure word (claim/airdrop/support/...)",
+        "One of 33 lookalikes on the same DNS account (rocco.ns.cloudflare.com + vita.ns.cloudflare.com): a single operator",
+        "Almost empty page (19 chars of text, title \"404 Not Found\"): content not visible"
+      ],
+      "action": "Re-check next scan; the content was not visible to us (error, bot wall or empty page).",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "mmynearwallet.com",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "repetition",
+      "dns": {
+        "domain": "mmynearwallet.com",
+        "registered": true,
+        "a": [
+          "172.67.153.220",
+          "104.21.72.186"
+        ],
+        "aaaa": [],
+        "mx": [],
+        "ns": [
+          "vita.ns.cloudflare.com",
+          "rocco.ns.cloudflare.com"
+        ]
+      },
+      "page": {
+        "url": "https://mmynearwallet.com/",
+        "finalUrl": "https://mmynearwallet.com/",
+        "status": 404,
+        "title": "404 Not Found",
+        "scriptUrls": [],
+        "signals": {
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "secretForm": false,
+          "lure": [],
+          "drainerJs": [],
+          "parked": [],
+          "cryptoContext": [],
+          "interstitial": [],
+          "challenge": []
+        },
+        "brandMentions": 0,
+        "brandInTitle": false,
+        "bytes": 146,
+        "renderedWith": "playwright",
+        "faviconUrl": "https://mmynearwallet.com/favicon.ico",
+        "screenshot": "/Users/kacpergumieniuk/Projects/4b47/mimicwatch-near/data/scans/2026-11-01/domains/mynearwallet-2026-11-01/shots/mmynearwallet.com.jpg",
+        "textSample": "404 Not Found nginx"
+      },
+      "similarity": {
+        "title": 0,
+        "text": 0,
+        "favicon": false,
+        "overall": 0
+      },
+      "listedOn": [],
+      "score": 35,
+      "severity": "low",
+      "label": "lookalike-unknown-content",
+      "evidence": [
+        "Typosquat (repetition) of the official domain",
+        "Hostname contains a lure word (claim/airdrop/support/...)",
+        "One of 33 lookalikes on the same DNS account (rocco.ns.cloudflare.com + vita.ns.cloudflare.com): a single operator",
+        "Almost empty page (19 chars of text, title \"404 Not Found\"): content not visible"
+      ],
+      "action": "Re-check next scan; the content was not visible to us (error, bot wall or empty page).",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "myynearwallet.com",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "repetition",
+      "dns": {
+        "domain": "myynearwallet.com",
+        "registered": true,
+        "a": [
+          "188.114.96.3",
+          "188.114.97.3"
+        ],
+        "aaaa": [],
+        "mx": [],
+        "ns": [
+          "vita.ns.cloudflare.com",
+          "rocco.ns.cloudflare.com"
+        ]
+      },
+      "page": {
+        "url": "https://myynearwallet.com/",
+        "finalUrl": "https://myynearwallet.com/",
+        "status": 404,
+        "title": "404 Not Found",
+        "scriptUrls": [],
+        "signals": {
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "secretForm": false,
+          "lure": [],
+          "drainerJs": [],
+          "parked": [],
+          "cryptoContext": [],
+          "interstitial": [],
+          "challenge": []
+        },
+        "brandMentions": 0,
+        "brandInTitle": false,
+        "bytes": 146,
+        "renderedWith": "playwright",
+        "faviconUrl": "https://myynearwallet.com/favicon.ico",
+        "screenshot": "/Users/kacpergumieniuk/Projects/4b47/mimicwatch-near/data/scans/2026-11-01/domains/mynearwallet-2026-11-01/shots/myynearwallet.com.jpg",
+        "textSample": "404 Not Found nginx"
+      },
+      "similarity": {
+        "title": 0,
+        "text": 0,
+        "favicon": false,
+        "overall": 0
+      },
+      "listedOn": [],
+      "score": 35,
+      "severity": "low",
+      "label": "lookalike-unknown-content",
+      "evidence": [
+        "Typosquat (repetition) of the official domain",
+        "Hostname contains a lure word (claim/airdrop/support/...)",
+        "One of 33 lookalikes on the same DNS account (rocco.ns.cloudflare.com + vita.ns.cloudflare.com): a single operator",
+        "Almost empty page (19 chars of text, title \"404 Not Found\"): content not visible"
+      ],
+      "action": "Re-check next scan; the content was not visible to us (error, bot wall or empty page).",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "mynnearwallet.com",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "repetition",
+      "dns": {
+        "domain": "mynnearwallet.com",
+        "registered": true,
+        "a": [
+          "104.21.87.89",
+          "172.67.169.47"
+        ],
+        "aaaa": [],
+        "mx": [],
+        "ns": [
+          "vita.ns.cloudflare.com",
+          "rocco.ns.cloudflare.com"
+        ]
+      },
+      "page": {
+        "url": "https://mynnearwallet.com/",
+        "finalUrl": "https://mynnearwallet.com/",
+        "status": 404,
+        "title": "404 Not Found",
+        "scriptUrls": [],
+        "signals": {
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "secretForm": false,
+          "lure": [],
+          "drainerJs": [],
+          "parked": [],
+          "cryptoContext": [],
+          "interstitial": [],
+          "challenge": []
+        },
+        "brandMentions": 0,
+        "brandInTitle": false,
+        "bytes": 146,
+        "renderedWith": "playwright",
+        "faviconUrl": "https://mynnearwallet.com/favicon.ico",
+        "screenshot": "/Users/kacpergumieniuk/Projects/4b47/mimicwatch-near/data/scans/2026-11-01/domains/mynearwallet-2026-11-01/shots/mynnearwallet.com.jpg",
+        "textSample": "404 Not Found nginx"
+      },
+      "similarity": {
+        "title": 0,
+        "text": 0,
+        "favicon": false,
+        "overall": 0
+      },
+      "listedOn": [],
+      "score": 35,
+      "severity": "low",
+      "label": "lookalike-unknown-content",
+      "evidence": [
+        "Typosquat (repetition) of the official domain",
+        "Hostname contains a lure word (claim/airdrop/support/...)",
+        "One of 33 lookalikes on the same DNS account (rocco.ns.cloudflare.com + vita.ns.cloudflare.com): a single operator",
+        "Almost empty page (19 chars of text, title \"404 Not Found\"): content not visible"
+      ],
+      "action": "Re-check next scan; the content was not visible to us (error, bot wall or empty page).",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "myneearwallet.com",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "repetition",
+      "dns": {
+        "domain": "myneearwallet.com",
+        "registered": true,
+        "a": [
+          "172.67.192.14",
+          "104.21.20.97"
+        ],
+        "aaaa": [],
+        "mx": [],
+        "ns": [
+          "vita.ns.cloudflare.com",
+          "rocco.ns.cloudflare.com"
+        ]
+      },
+      "page": {
+        "url": "https://myneearwallet.com/",
+        "finalUrl": "https://myneearwallet.com/",
+        "status": 404,
+        "title": "404 Not Found",
+        "scriptUrls": [],
+        "signals": {
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "secretForm": false,
+          "lure": [],
+          "drainerJs": [],
+          "parked": [],
+          "cryptoContext": [],
+          "interstitial": [],
+          "challenge": []
+        },
+        "brandMentions": 0,
+        "brandInTitle": false,
+        "bytes": 146,
+        "renderedWith": "playwright",
+        "faviconUrl": "https://myneearwallet.com/favicon.ico",
+        "screenshot": "/Users/kacpergumieniuk/Projects/4b47/mimicwatch-near/data/scans/2026-11-01/domains/mynearwallet-2026-11-01/shots/myneearwallet.com.jpg",
+        "textSample": "404 Not Found nginx"
+      },
+      "similarity": {
+        "title": 0,
+        "text": 0,
+        "favicon": false,
+        "overall": 0
+      },
+      "listedOn": [],
+      "score": 35,
+      "severity": "low",
+      "label": "lookalike-unknown-content",
+      "evidence": [
+        "Typosquat (repetition) of the official domain",
+        "Hostname contains a lure word (claim/airdrop/support/...)",
+        "One of 33 lookalikes on the same DNS account (rocco.ns.cloudflare.com + vita.ns.cloudflare.com): a single operator",
+        "Almost empty page (19 chars of text, title \"404 Not Found\"): content not visible"
+      ],
+      "action": "Re-check next scan; the content was not visible to us (error, bot wall or empty page).",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "myneaarwallet.com",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "repetition",
+      "dns": {
+        "domain": "myneaarwallet.com",
+        "registered": true,
+        "a": [
+          "188.114.97.3",
+          "188.114.96.3"
+        ],
+        "aaaa": [],
+        "mx": [],
+        "ns": [
+          "rocco.ns.cloudflare.com",
+          "vita.ns.cloudflare.com"
+        ]
+      },
+      "page": {
+        "url": "https://myneaarwallet.com/",
+        "finalUrl": "https://myneaarwallet.com/",
+        "status": 404,
+        "title": "404 Not Found",
+        "scriptUrls": [],
+        "signals": {
+          "secretForm": false,
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "lure": [],
+          "drainerJs": [],
+          "parked": [],
+          "cryptoContext": [],
+          "interstitial": [],
+          "challenge": []
+        },
+        "brandMentions": 0,
+        "brandInTitle": false,
+        "bytes": 146,
+        "renderedWith": "http",
+        "faviconUrl": "https://myneaarwallet.com/favicon.ico",
+        "textSample": "404 Not Found nginx"
+      },
+      "similarity": {
+        "title": 0,
+        "text": 0,
+        "favicon": false,
+        "overall": 0
+      },
+      "listedOn": [],
+      "score": 35,
+      "severity": "low",
+      "label": "lookalike-unknown-content",
+      "evidence": [
+        "Typosquat (repetition) of the official domain",
+        "Hostname contains a lure word (claim/airdrop/support/...)",
+        "One of 33 lookalikes on the same DNS account (rocco.ns.cloudflare.com + vita.ns.cloudflare.com): a single operator",
+        "Almost empty page (19 chars of text, title \"404 Not Found\"): content not visible"
+      ],
+      "action": "Re-check next scan; the content was not visible to us (error, bot wall or empty page).",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "mynearrwallet.com",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "repetition",
+      "dns": {
+        "domain": "mynearrwallet.com",
+        "registered": true,
+        "a": [
+          "172.67.147.46",
+          "104.21.87.225"
+        ],
+        "aaaa": [],
+        "mx": [],
+        "ns": [
+          "vita.ns.cloudflare.com",
+          "rocco.ns.cloudflare.com"
+        ]
+      },
+      "page": {
+        "url": "https://mynearrwallet.com/",
+        "finalUrl": "https://mynearrwallet.com/",
+        "status": 404,
+        "title": "404 Not Found",
+        "scriptUrls": [],
+        "signals": {
+          "secretForm": false,
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "lure": [],
+          "drainerJs": [],
+          "parked": [],
+          "cryptoContext": [],
+          "interstitial": [],
+          "challenge": []
+        },
+        "brandMentions": 0,
+        "brandInTitle": false,
+        "bytes": 146,
+        "renderedWith": "http",
+        "faviconUrl": "https://mynearrwallet.com/favicon.ico",
+        "textSample": "404 Not Found nginx"
+      },
+      "similarity": {
+        "title": 0,
+        "text": 0,
+        "favicon": false,
+        "overall": 0
+      },
+      "listedOn": [],
+      "score": 35,
+      "severity": "low",
+      "label": "lookalike-unknown-content",
+      "evidence": [
+        "Typosquat (repetition) of the official domain",
+        "Hostname contains a lure word (claim/airdrop/support/...)",
+        "One of 33 lookalikes on the same DNS account (rocco.ns.cloudflare.com + vita.ns.cloudflare.com): a single operator",
+        "Almost empty page (19 chars of text, title \"404 Not Found\"): content not visible"
+      ],
+      "action": "Re-check next scan; the content was not visible to us (error, bot wall or empty page).",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "ymnearwallet.com",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "transposition",
+      "dns": {
+        "domain": "ymnearwallet.com",
+        "registered": true,
+        "a": [
+          "172.67.221.192",
+          "104.21.86.163"
+        ],
+        "aaaa": [],
+        "mx": [],
+        "ns": [
+          "vita.ns.cloudflare.com",
+          "rocco.ns.cloudflare.com"
+        ]
+      },
+      "page": {
+        "url": "https://ymnearwallet.com/",
+        "finalUrl": "https://ymnearwallet.com/",
+        "status": 404,
+        "title": "404 Not Found",
+        "scriptUrls": [],
+        "signals": {
+          "secretForm": false,
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "lure": [],
+          "drainerJs": [],
+          "parked": [],
+          "cryptoContext": [],
+          "interstitial": [],
+          "challenge": []
+        },
+        "brandMentions": 0,
+        "brandInTitle": false,
+        "bytes": 146,
+        "renderedWith": "http",
+        "faviconUrl": "https://ymnearwallet.com/favicon.ico",
+        "textSample": "404 Not Found nginx"
+      },
+      "similarity": {
+        "title": 0,
+        "text": 0,
+        "favicon": false,
+        "overall": 0
+      },
+      "listedOn": [],
+      "score": 35,
+      "severity": "low",
+      "label": "lookalike-unknown-content",
+      "evidence": [
+        "Typosquat (transposition) of the official domain",
+        "Hostname contains a lure word (claim/airdrop/support/...)",
+        "One of 33 lookalikes on the same DNS account (rocco.ns.cloudflare.com + vita.ns.cloudflare.com): a single operator",
+        "Almost empty page (19 chars of text, title \"404 Not Found\"): content not visible"
+      ],
+      "action": "Re-check next scan; the content was not visible to us (error, bot wall or empty page).",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "mnyearwallet.com",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "transposition",
+      "dns": {
+        "domain": "mnyearwallet.com",
+        "registered": true,
+        "a": [
+          "172.67.191.238",
+          "104.21.89.239"
+        ],
+        "aaaa": [],
+        "mx": [],
+        "ns": [
+          "rocco.ns.cloudflare.com",
+          "vita.ns.cloudflare.com"
+        ]
+      },
+      "page": {
+        "url": "https://mnyearwallet.com/",
+        "finalUrl": "https://mnyearwallet.com/",
+        "status": 404,
+        "title": "404 Not Found",
+        "scriptUrls": [],
+        "signals": {
+          "secretForm": false,
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "lure": [],
+          "drainerJs": [],
+          "parked": [],
+          "cryptoContext": [],
+          "interstitial": [],
+          "challenge": []
+        },
+        "brandMentions": 0,
+        "brandInTitle": false,
+        "bytes": 146,
+        "renderedWith": "http",
+        "faviconUrl": "https://mnyearwallet.com/favicon.ico",
+        "textSample": "404 Not Found nginx"
+      },
+      "similarity": {
+        "title": 0,
+        "text": 0,
+        "favicon": false,
+        "overall": 0
+      },
+      "listedOn": [],
+      "score": 35,
+      "severity": "low",
+      "label": "lookalike-unknown-content",
+      "evidence": [
+        "Typosquat (transposition) of the official domain",
+        "Hostname contains a lure word (claim/airdrop/support/...)",
+        "One of 33 lookalikes on the same DNS account (rocco.ns.cloudflare.com + vita.ns.cloudflare.com): a single operator",
+        "Almost empty page (19 chars of text, title \"404 Not Found\"): content not visible"
+      ],
+      "action": "Re-check next scan; the content was not visible to us (error, bot wall or empty page).",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "myenarwallet.com",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "transposition",
+      "dns": {
+        "domain": "myenarwallet.com",
+        "registered": true,
+        "a": [
+          "104.21.93.120",
+          "172.67.209.212"
+        ],
+        "aaaa": [],
+        "mx": [],
+        "ns": [
+          "vita.ns.cloudflare.com",
+          "rocco.ns.cloudflare.com"
+        ]
+      },
+      "page": {
+        "url": "https://myenarwallet.com/",
+        "finalUrl": "https://myenarwallet.com/",
+        "status": 404,
+        "title": "404 Not Found",
+        "scriptUrls": [],
+        "signals": {
+          "secretForm": false,
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "lure": [],
+          "drainerJs": [],
+          "parked": [],
+          "cryptoContext": [],
+          "interstitial": [],
+          "challenge": []
+        },
+        "brandMentions": 0,
+        "brandInTitle": false,
+        "bytes": 146,
+        "renderedWith": "http",
+        "faviconUrl": "https://myenarwallet.com/favicon.ico",
+        "textSample": "404 Not Found nginx"
+      },
+      "similarity": {
+        "title": 0,
+        "text": 0,
+        "favicon": false,
+        "overall": 0
+      },
+      "listedOn": [],
+      "score": 35,
+      "severity": "low",
+      "label": "lookalike-unknown-content",
+      "evidence": [
+        "Typosquat (transposition) of the official domain",
+        "Hostname contains a lure word (claim/airdrop/support/...)",
+        "One of 33 lookalikes on the same DNS account (rocco.ns.cloudflare.com + vita.ns.cloudflare.com): a single operator",
+        "Almost empty page (19 chars of text, title \"404 Not Found\"): content not visible"
+      ],
+      "action": "Re-check next scan; the content was not visible to us (error, bot wall or empty page).",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "mynaerwallet.com",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "transposition",
+      "dns": {
+        "domain": "mynaerwallet.com",
+        "registered": true,
+        "a": [
+          "104.21.83.136",
+          "172.67.176.158"
+        ],
+        "aaaa": [],
+        "mx": [],
+        "ns": [
+          "rocco.ns.cloudflare.com",
+          "vita.ns.cloudflare.com"
+        ]
+      },
+      "page": {
+        "url": "https://mynaerwallet.com/",
+        "finalUrl": "https://mynaerwallet.com/",
+        "status": 404,
+        "title": "404 Not Found",
+        "scriptUrls": [],
+        "signals": {
+          "secretForm": false,
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "lure": [],
+          "drainerJs": [],
+          "parked": [],
+          "cryptoContext": [],
+          "interstitial": [],
+          "challenge": []
+        },
+        "brandMentions": 0,
+        "brandInTitle": false,
+        "bytes": 146,
+        "renderedWith": "http",
+        "faviconUrl": "https://mynaerwallet.com/favicon.ico",
+        "textSample": "404 Not Found nginx"
+      },
+      "similarity": {
+        "title": 0,
+        "text": 0,
+        "favicon": false,
+        "overall": 0
+      },
+      "listedOn": [],
+      "score": 35,
+      "severity": "low",
+      "label": "lookalike-unknown-content",
+      "evidence": [
+        "Typosquat (transposition) of the official domain",
+        "Hostname contains a lure word (claim/airdrop/support/...)",
+        "One of 33 lookalikes on the same DNS account (rocco.ns.cloudflare.com + vita.ns.cloudflare.com): a single operator",
+        "Almost empty page (19 chars of text, title \"404 Not Found\"): content not visible"
+      ],
+      "action": "Re-check next scan; the content was not visible to us (error, bot wall or empty page).",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "mynerawallet.com",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "transposition",
+      "dns": {
+        "domain": "mynerawallet.com",
+        "registered": true,
+        "a": [
+          "104.21.70.97",
+          "172.67.222.124"
+        ],
+        "aaaa": [],
+        "mx": [],
+        "ns": [
+          "vita.ns.cloudflare.com",
+          "rocco.ns.cloudflare.com"
+        ]
+      },
+      "page": {
+        "url": "https://mynerawallet.com/",
+        "finalUrl": "https://mynerawallet.com/",
+        "status": 404,
+        "title": "404 Not Found",
+        "scriptUrls": [],
+        "signals": {
+          "secretForm": false,
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "lure": [],
+          "drainerJs": [],
+          "parked": [],
+          "cryptoContext": [],
+          "interstitial": [],
+          "challenge": []
+        },
+        "brandMentions": 0,
+        "brandInTitle": false,
+        "bytes": 146,
+        "renderedWith": "http",
+        "faviconUrl": "https://mynerawallet.com/favicon.ico",
+        "textSample": "404 Not Found nginx"
+      },
+      "similarity": {
+        "title": 0,
+        "text": 0,
+        "favicon": false,
+        "overall": 0
+      },
+      "listedOn": [],
+      "score": 35,
+      "severity": "low",
+      "label": "lookalike-unknown-content",
+      "evidence": [
+        "Typosquat (transposition) of the official domain",
+        "Hostname contains a lure word (claim/airdrop/support/...)",
+        "One of 33 lookalikes on the same DNS account (rocco.ns.cloudflare.com + vita.ns.cloudflare.com): a single operator",
+        "Almost empty page (19 chars of text, title \"404 Not Found\"): content not visible"
+      ],
+      "action": "Re-check next scan; the content was not visible to us (error, bot wall or empty page).",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "mynearwallet.org",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "tld-swap",
+      "dns": {
+        "domain": "mynearwallet.org",
+        "registered": true,
+        "a": [
+          "188.114.96.11",
+          "188.114.97.11"
+        ],
+        "aaaa": [],
+        "mx": [],
+        "ns": [
+          "vita.ns.cloudflare.com",
+          "rocco.ns.cloudflare.com"
+        ]
+      },
+      "page": {
+        "url": "https://mynearwallet.org/",
+        "finalUrl": "https://mynearwallet.org/",
+        "status": 404,
+        "title": "404 Not Found",
+        "scriptUrls": [],
+        "signals": {
+          "secretForm": false,
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "lure": [],
+          "drainerJs": [],
+          "parked": [],
+          "cryptoContext": [],
+          "interstitial": [],
+          "challenge": []
+        },
+        "brandMentions": 0,
+        "brandInTitle": false,
+        "bytes": 146,
+        "renderedWith": "http",
+        "faviconUrl": "https://mynearwallet.org/favicon.ico",
+        "textSample": "404 Not Found nginx"
+      },
+      "similarity": {
+        "title": 0,
+        "text": 0,
+        "favicon": false,
+        "overall": 0
+      },
+      "listedOn": [],
+      "score": 30,
+      "severity": "low",
+      "label": "lookalike-unknown-content",
+      "evidence": [
+        "Official name on a different TLD",
+        "Hostname contains a lure word (claim/airdrop/support/...)",
+        "One of 33 lookalikes on the same DNS account (rocco.ns.cloudflare.com + vita.ns.cloudflare.com): a single operator",
+        "Almost empty page (19 chars of text, title \"404 Not Found\"): content not visible"
+      ],
+      "action": "Re-check next scan; the content was not visible to us (error, bot wall or empty page).",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "mynearwallet.net",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "tld-swap",
+      "dns": {
+        "domain": "mynearwallet.net",
+        "registered": true,
+        "a": [
+          "104.21.94.85",
+          "172.67.221.74"
+        ],
+        "aaaa": [],
+        "mx": [],
+        "ns": [
+          "vita.ns.cloudflare.com",
+          "rocco.ns.cloudflare.com"
+        ]
+      },
+      "page": {
+        "url": "https://mynearwallet.net/",
+        "finalUrl": "https://mynearwallet.net/",
+        "status": 404,
+        "title": "404 Not Found",
+        "scriptUrls": [],
+        "signals": {
+          "secretForm": false,
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "lure": [],
+          "drainerJs": [],
+          "parked": [],
+          "cryptoContext": [],
+          "interstitial": [],
+          "challenge": []
+        },
+        "brandMentions": 0,
+        "brandInTitle": false,
+        "bytes": 146,
+        "renderedWith": "http",
+        "faviconUrl": "https://mynearwallet.net/favicon.ico",
+        "textSample": "404 Not Found nginx"
+      },
+      "similarity": {
+        "title": 0,
+        "text": 0,
+        "favicon": false,
+        "overall": 0
+      },
+      "listedOn": [],
+      "score": 30,
+      "severity": "low",
+      "label": "lookalike-unknown-content",
+      "evidence": [
+        "Official name on a different TLD",
+        "Hostname contains a lure word (claim/airdrop/support/...)",
+        "One of 33 lookalikes on the same DNS account (rocco.ns.cloudflare.com + vita.ns.cloudflare.com): a single operator",
+        "Almost empty page (19 chars of text, title \"404 Not Found\"): content not visible"
+      ],
+      "action": "Re-check next scan; the content was not visible to us (error, bot wall or empty page).",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "mynearwallet.app",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "tld-swap",
+      "dns": {
+        "domain": "mynearwallet.app",
+        "registered": true,
+        "a": [
+          "52.223.13.41"
+        ],
+        "aaaa": [],
+        "mx": [],
+        "ns": [
+          "ns2.renewyourname.net",
+          "ns1.renewyourname.net"
+        ]
+      },
+      "page": {
+        "url": "https://mynearwallet.app/",
+        "finalUrl": "https://mynearwallet.app/",
+        "status": 200,
+        "title": "",
+        "scriptUrls": [],
+        "signals": {
+          "secretForm": false,
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "lure": [],
+          "drainerJs": [],
+          "parked": [],
+          "cryptoContext": [],
+          "interstitial": [],
+          "challenge": []
+        },
+        "brandMentions": 0,
+        "brandInTitle": false,
+        "bytes": 114,
+        "renderedWith": "http",
+        "faviconUrl": "https://mynearwallet.app/favicon.ico",
+        "textSample": ""
+      },
+      "similarity": {
+        "title": 0,
+        "text": 0,
+        "favicon": false,
+        "overall": 0
+      },
+      "listedOn": [],
+      "score": 30,
+      "severity": "low",
+      "label": "lookalike-unknown-content",
+      "evidence": [
+        "Official name on a different TLD",
+        "Hostname contains a lure word (claim/airdrop/support/...)",
+        "Almost empty page (0 chars of text, title \"\"): content not visible"
+      ],
+      "action": "Re-check next scan; the content was not visible to us (error, bot wall or empty page).",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "mynearwallet.co",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "tld-swap",
+      "dns": {
+        "domain": "mynearwallet.co",
+        "registered": true,
+        "a": [
+          "5.135.23.164"
+        ],
+        "aaaa": [],
+        "mx": [
+          "mx0.mail.ovh.net",
+          "mx1.mail.ovh.net",
+          "mx2.mail.ovh.net",
+          "mx3.mail.ovh.net"
+        ],
+        "ns": [
+          "dns16.ovh.net",
+          "ns16.ovh.net"
+        ]
+      },
+      "page": {
+        "url": "https://mynearwallet.co/",
+        "finalUrl": "https://mynearwallet.co/",
+        "status": 403,
+        "title": "403 Forbidden",
+        "scriptUrls": [],
+        "signals": {
+          "secretForm": false,
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "lure": [],
+          "drainerJs": [],
+          "parked": [],
+          "cryptoContext": [],
+          "interstitial": [],
+          "challenge": [
+            "403 Forbidden"
+          ]
+        },
+        "brandMentions": 0,
+        "brandInTitle": false,
+        "bytes": 261,
+        "renderedWith": "http",
+        "faviconUrl": "https://mynearwallet.co/favicon.ico",
+        "textSample": "Forbidden You don't have permission to access this resource.Server unable to read htaccess file, denying access to be safe"
+      },
+      "similarity": {
+        "title": 0.17,
+        "text": 0,
+        "favicon": false,
+        "overall": 0.06
+      },
+      "listedOn": [],
+      "score": 30,
+      "severity": "low",
+      "label": "lookalike-unknown-content",
+      "evidence": [
+        "Official name on a different TLD",
+        "Hostname contains a lure word (claim/airdrop/support/...)",
+        "Bot challenge or redirect stub (\"403 Forbidden\"): real content not visible"
+      ],
+      "action": "Re-check next scan; the content was not visible to us (error, bot wall or empty page).",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "mynearwaallet.com",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "insertion",
+      "dns": {
+        "domain": "mynearwaallet.com",
+        "registered": true,
+        "a": [
+          "188.114.97.0",
+          "188.114.96.0"
+        ],
+        "aaaa": [],
+        "mx": [],
+        "ns": [
+          "rocco.ns.cloudflare.com",
+          "vita.ns.cloudflare.com"
+        ]
+      },
+      "page": {
+        "url": "https://mynearwaallet.com/",
+        "finalUrl": "https://mynearwaallet.com/",
+        "status": 404,
+        "title": "404 Not Found",
+        "scriptUrls": [],
+        "signals": {
+          "secretForm": false,
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "lure": [],
+          "drainerJs": [],
+          "parked": [],
+          "cryptoContext": [],
+          "interstitial": [],
+          "challenge": []
+        },
+        "brandMentions": 0,
+        "brandInTitle": false,
+        "bytes": 146,
+        "renderedWith": "http",
+        "faviconUrl": "https://mynearwaallet.com/favicon.ico",
+        "textSample": "404 Not Found nginx"
+      },
+      "similarity": {
+        "title": 0,
+        "text": 0,
+        "favicon": false,
+        "overall": 0
+      },
+      "listedOn": [],
+      "score": 25,
+      "severity": "low",
+      "label": "lookalike-unknown-content",
+      "evidence": [
+        "Typosquat (insertion) of the official domain",
+        "One of 33 lookalikes on the same DNS account (rocco.ns.cloudflare.com + vita.ns.cloudflare.com): a single operator",
+        "Almost empty page (19 chars of text, title \"404 Not Found\"): content not visible"
+      ],
+      "action": "Re-check next scan; the content was not visible to us (error, bot wall or empty page).",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "mynearallet.com",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "omission",
+      "dns": {
+        "domain": "mynearallet.com",
+        "registered": true,
+        "a": [
+          "188.114.96.3",
+          "188.114.97.3"
+        ],
+        "aaaa": [],
+        "mx": [],
+        "ns": [
+          "rocco.ns.cloudflare.com",
+          "vita.ns.cloudflare.com"
+        ]
+      },
+      "page": {
+        "url": "https://mynearallet.com/",
+        "finalUrl": "https://mynearallet.com/",
+        "status": 404,
+        "title": "404 Not Found",
+        "scriptUrls": [],
+        "signals": {
+          "secretForm": false,
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "lure": [],
+          "drainerJs": [],
+          "parked": [],
+          "cryptoContext": [],
+          "interstitial": [],
+          "challenge": []
+        },
+        "brandMentions": 0,
+        "brandInTitle": false,
+        "bytes": 146,
+        "renderedWith": "http",
+        "faviconUrl": "https://mynearallet.com/favicon.ico",
+        "textSample": "404 Not Found nginx"
+      },
+      "similarity": {
+        "title": 0,
+        "text": 0,
+        "favicon": false,
+        "overall": 0
+      },
+      "listedOn": [],
+      "score": 25,
+      "severity": "low",
+      "label": "lookalike-unknown-content",
+      "evidence": [
+        "Typosquat (omission) of the official domain",
+        "One of 33 lookalikes on the same DNS account (rocco.ns.cloudflare.com + vita.ns.cloudflare.com): a single operator",
+        "Almost empty page (19 chars of text, title \"404 Not Found\"): content not visible"
+      ],
+      "action": "Re-check next scan; the content was not visible to us (error, bot wall or empty page).",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "mynearwllet.com",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "omission",
+      "dns": {
+        "domain": "mynearwllet.com",
+        "registered": true,
+        "a": [
+          "188.114.96.3",
+          "188.114.97.3"
+        ],
+        "aaaa": [],
+        "mx": [],
+        "ns": [
+          "vita.ns.cloudflare.com",
+          "rocco.ns.cloudflare.com"
+        ]
+      },
+      "page": {
+        "url": "https://mynearwllet.com/",
+        "finalUrl": "https://mynearwllet.com/",
+        "status": 404,
+        "title": "404 Not Found",
+        "scriptUrls": [],
+        "signals": {
+          "secretForm": false,
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "lure": [],
+          "drainerJs": [],
+          "parked": [],
+          "cryptoContext": [],
+          "interstitial": [],
+          "challenge": []
+        },
+        "brandMentions": 0,
+        "brandInTitle": false,
+        "bytes": 146,
+        "renderedWith": "http",
+        "faviconUrl": "https://mynearwllet.com/favicon.ico",
+        "textSample": "404 Not Found nginx"
+      },
+      "similarity": {
+        "title": 0,
+        "text": 0,
+        "favicon": false,
+        "overall": 0
+      },
+      "listedOn": [],
+      "score": 25,
+      "severity": "low",
+      "label": "lookalike-unknown-content",
+      "evidence": [
+        "Typosquat (omission) of the official domain",
+        "One of 33 lookalikes on the same DNS account (rocco.ns.cloudflare.com + vita.ns.cloudflare.com): a single operator",
+        "Almost empty page (19 chars of text, title \"404 Not Found\"): content not visible"
+      ],
+      "action": "Re-check next scan; the content was not visible to us (error, bot wall or empty page).",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "mynearwalet.com",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "omission",
+      "dns": {
+        "domain": "mynearwalet.com",
+        "registered": true,
+        "a": [
+          "188.114.96.3",
+          "188.114.97.3"
+        ],
+        "aaaa": [],
+        "mx": [],
+        "ns": [
+          "vita.ns.cloudflare.com",
+          "rocco.ns.cloudflare.com"
+        ]
+      },
+      "page": {
+        "url": "https://mynearwalet.com/",
+        "finalUrl": "https://mynearwalet.com/",
+        "status": 404,
+        "title": "404 Not Found",
+        "scriptUrls": [],
+        "signals": {
+          "secretForm": false,
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "lure": [],
+          "drainerJs": [],
+          "parked": [],
+          "cryptoContext": [],
+          "interstitial": [],
+          "challenge": []
+        },
+        "brandMentions": 0,
+        "brandInTitle": false,
+        "bytes": 146,
+        "renderedWith": "http",
+        "faviconUrl": "https://mynearwalet.com/favicon.ico",
+        "textSample": "404 Not Found nginx"
+      },
+      "similarity": {
+        "title": 0,
+        "text": 0,
+        "favicon": false,
+        "overall": 0
+      },
+      "listedOn": [],
+      "score": 25,
+      "severity": "low",
+      "label": "lookalike-unknown-content",
+      "evidence": [
+        "Typosquat (omission) of the official domain",
+        "One of 33 lookalikes on the same DNS account (rocco.ns.cloudflare.com + vita.ns.cloudflare.com): a single operator",
+        "Almost empty page (19 chars of text, title \"404 Not Found\"): content not visible"
+      ],
+      "action": "Re-check next scan; the content was not visible to us (error, bot wall or empty page).",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "mynearwallt.com",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "omission",
+      "dns": {
+        "domain": "mynearwallt.com",
+        "registered": true,
+        "a": [
+          "104.21.65.173",
+          "172.67.164.242"
+        ],
+        "aaaa": [],
+        "mx": [],
+        "ns": [
+          "vita.ns.cloudflare.com",
+          "rocco.ns.cloudflare.com"
+        ]
+      },
+      "page": {
+        "url": "https://mynearwallt.com/",
+        "finalUrl": "https://mynearwallt.com/",
+        "status": 404,
+        "title": "404 Not Found",
+        "scriptUrls": [],
+        "signals": {
+          "secretForm": false,
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "lure": [],
+          "drainerJs": [],
+          "parked": [],
+          "cryptoContext": [],
+          "interstitial": [],
+          "challenge": []
+        },
+        "brandMentions": 0,
+        "brandInTitle": false,
+        "bytes": 146,
+        "renderedWith": "http",
+        "faviconUrl": "https://mynearwallt.com/favicon.ico",
+        "textSample": "404 Not Found nginx"
+      },
+      "similarity": {
+        "title": 0,
+        "text": 0,
+        "favicon": false,
+        "overall": 0
+      },
+      "listedOn": [],
+      "score": 25,
+      "severity": "low",
+      "label": "lookalike-unknown-content",
+      "evidence": [
+        "Typosquat (omission) of the official domain",
+        "One of 33 lookalikes on the same DNS account (rocco.ns.cloudflare.com + vita.ns.cloudflare.com): a single operator",
+        "Almost empty page (19 chars of text, title \"404 Not Found\"): content not visible"
+      ],
+      "action": "Re-check next scan; the content was not visible to us (error, bot wall or empty page).",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "mynearwalle.com",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "omission",
+      "dns": {
+        "domain": "mynearwalle.com",
+        "registered": true,
+        "a": [
+          "188.114.96.0",
+          "188.114.97.0"
+        ],
+        "aaaa": [],
+        "mx": [],
+        "ns": [
+          "vita.ns.cloudflare.com",
+          "rocco.ns.cloudflare.com"
+        ]
+      },
+      "page": {
+        "url": "https://mynearwalle.com/",
+        "finalUrl": "https://mynearwalle.com/",
+        "status": 404,
+        "title": "404 Not Found",
+        "scriptUrls": [],
+        "signals": {
+          "secretForm": false,
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "lure": [],
+          "drainerJs": [],
+          "parked": [],
+          "cryptoContext": [],
+          "interstitial": [],
+          "challenge": []
+        },
+        "brandMentions": 0,
+        "brandInTitle": false,
+        "bytes": 146,
+        "renderedWith": "http",
+        "faviconUrl": "https://mynearwalle.com/favicon.ico",
+        "textSample": "404 Not Found nginx"
+      },
+      "similarity": {
+        "title": 0,
+        "text": 0,
+        "favicon": false,
+        "overall": 0
+      },
+      "listedOn": [],
+      "score": 25,
+      "severity": "low",
+      "label": "lookalike-unknown-content",
+      "evidence": [
+        "Typosquat (omission) of the official domain",
+        "One of 33 lookalikes on the same DNS account (rocco.ns.cloudflare.com + vita.ns.cloudflare.com): a single operator",
+        "Almost empty page (19 chars of text, title \"404 Not Found\"): content not visible"
+      ],
+      "action": "Re-check next scan; the content was not visible to us (error, bot wall or empty page).",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "mynearwalllet.com",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "repetition",
+      "dns": {
+        "domain": "mynearwalllet.com",
+        "registered": true,
+        "a": [
+          "104.21.70.122",
+          "172.67.223.102"
+        ],
+        "aaaa": [],
+        "mx": [],
+        "ns": [
+          "vita.ns.cloudflare.com",
+          "rocco.ns.cloudflare.com"
+        ]
+      },
+      "page": {
+        "url": "https://mynearwalllet.com/",
+        "finalUrl": "https://mynearwalllet.com/",
+        "status": 404,
+        "title": "404 Not Found",
+        "scriptUrls": [],
+        "signals": {
+          "secretForm": false,
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "lure": [],
+          "drainerJs": [],
+          "parked": [],
+          "cryptoContext": [],
+          "interstitial": [],
+          "challenge": []
+        },
+        "brandMentions": 0,
+        "brandInTitle": false,
+        "bytes": 146,
+        "renderedWith": "http",
+        "faviconUrl": "https://mynearwalllet.com/favicon.ico",
+        "textSample": "404 Not Found nginx"
+      },
+      "similarity": {
+        "title": 0,
+        "text": 0,
+        "favicon": false,
+        "overall": 0
+      },
+      "listedOn": [],
+      "score": 25,
+      "severity": "low",
+      "label": "lookalike-unknown-content",
+      "evidence": [
+        "Typosquat (repetition) of the official domain",
+        "One of 33 lookalikes on the same DNS account (rocco.ns.cloudflare.com + vita.ns.cloudflare.com): a single operator",
+        "Almost empty page (19 chars of text, title \"404 Not Found\"): content not visible"
+      ],
+      "action": "Re-check next scan; the content was not visible to us (error, bot wall or empty page).",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "mynearwalleet.com",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "repetition",
+      "dns": {
+        "domain": "mynearwalleet.com",
+        "registered": true,
+        "a": [
+          "188.114.96.0",
+          "188.114.97.0"
+        ],
+        "aaaa": [],
+        "mx": [],
+        "ns": [
+          "rocco.ns.cloudflare.com",
+          "vita.ns.cloudflare.com"
+        ]
+      },
+      "page": {
+        "url": "https://mynearwalleet.com/",
+        "finalUrl": "https://mynearwalleet.com/",
+        "status": 404,
+        "title": "404 Not Found",
+        "scriptUrls": [],
+        "signals": {
+          "secretForm": false,
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "lure": [],
+          "drainerJs": [],
+          "parked": [],
+          "cryptoContext": [],
+          "interstitial": [],
+          "challenge": []
+        },
+        "brandMentions": 0,
+        "brandInTitle": false,
+        "bytes": 146,
+        "renderedWith": "http",
+        "faviconUrl": "https://mynearwalleet.com/favicon.ico",
+        "textSample": "404 Not Found nginx"
+      },
+      "similarity": {
+        "title": 0,
+        "text": 0,
+        "favicon": false,
+        "overall": 0
+      },
+      "listedOn": [],
+      "score": 25,
+      "severity": "low",
+      "label": "lookalike-unknown-content",
+      "evidence": [
+        "Typosquat (repetition) of the official domain",
+        "One of 33 lookalikes on the same DNS account (rocco.ns.cloudflare.com + vita.ns.cloudflare.com): a single operator",
+        "Almost empty page (19 chars of text, title \"404 Not Found\"): content not visible"
+      ],
+      "action": "Re-check next scan; the content was not visible to us (error, bot wall or empty page).",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "mynearwaller.com",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "replacement",
+      "dns": {
+        "domain": "mynearwaller.com",
+        "registered": true,
+        "a": [],
+        "aaaa": [],
+        "mx": [],
+        "ns": [
+          "dns16.ovh.net",
+          "ns16.ovh.net"
+        ]
+      },
+      "listedOn": [],
+      "score": 25,
+      "severity": "low",
+      "label": "not-live",
+      "evidence": [
+        "Typosquat (replacement) of the official domain"
+      ],
+      "action": "Monitor (registered, no website). Consider defensive registration.",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "myneawrallet.com",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "transposition",
+      "dns": {
+        "domain": "myneawrallet.com",
+        "registered": true,
+        "a": [
+          "188.114.96.0",
+          "188.114.97.0"
+        ],
+        "aaaa": [],
+        "mx": [],
+        "ns": [
+          "vita.ns.cloudflare.com",
+          "rocco.ns.cloudflare.com"
+        ]
+      },
+      "page": {
+        "url": "https://myneawrallet.com/",
+        "finalUrl": "https://myneawrallet.com/",
+        "status": 404,
+        "title": "404 Not Found",
+        "scriptUrls": [],
+        "signals": {
+          "secretForm": false,
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "lure": [],
+          "drainerJs": [],
+          "parked": [],
+          "cryptoContext": [],
+          "interstitial": [],
+          "challenge": []
+        },
+        "brandMentions": 0,
+        "brandInTitle": false,
+        "bytes": 146,
+        "renderedWith": "http",
+        "faviconUrl": "https://myneawrallet.com/favicon.ico",
+        "textSample": "404 Not Found nginx"
+      },
+      "similarity": {
+        "title": 0,
+        "text": 0,
+        "favicon": false,
+        "overall": 0
+      },
+      "listedOn": [],
+      "score": 25,
+      "severity": "low",
+      "label": "lookalike-unknown-content",
+      "evidence": [
+        "Typosquat (transposition) of the official domain",
+        "One of 33 lookalikes on the same DNS account (rocco.ns.cloudflare.com + vita.ns.cloudflare.com): a single operator",
+        "Almost empty page (19 chars of text, title \"404 Not Found\"): content not visible"
+      ],
+      "action": "Re-check next scan; the content was not visible to us (error, bot wall or empty page).",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "mynearawllet.com",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "transposition",
+      "dns": {
+        "domain": "mynearawllet.com",
+        "registered": true,
+        "a": [
+          "172.67.131.218",
+          "104.21.12.10"
+        ],
+        "aaaa": [],
+        "mx": [],
+        "ns": [
+          "vita.ns.cloudflare.com",
+          "rocco.ns.cloudflare.com"
+        ]
+      },
+      "page": {
+        "url": "https://mynearawllet.com/",
+        "finalUrl": "https://mynearawllet.com/",
+        "status": 404,
+        "title": "404 Not Found",
+        "scriptUrls": [],
+        "signals": {
+          "secretForm": false,
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "lure": [],
+          "drainerJs": [],
+          "parked": [],
+          "cryptoContext": [],
+          "interstitial": [],
+          "challenge": []
+        },
+        "brandMentions": 0,
+        "brandInTitle": false,
+        "bytes": 146,
+        "renderedWith": "http",
+        "faviconUrl": "https://mynearawllet.com/favicon.ico",
+        "textSample": "404 Not Found nginx"
+      },
+      "similarity": {
+        "title": 0,
+        "text": 0,
+        "favicon": false,
+        "overall": 0
+      },
+      "listedOn": [],
+      "score": 25,
+      "severity": "low",
+      "label": "lookalike-unknown-content",
+      "evidence": [
+        "Typosquat (transposition) of the official domain",
+        "One of 33 lookalikes on the same DNS account (rocco.ns.cloudflare.com + vita.ns.cloudflare.com): a single operator",
+        "Almost empty page (19 chars of text, title \"404 Not Found\"): content not visible"
+      ],
+      "action": "Re-check next scan; the content was not visible to us (error, bot wall or empty page).",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "mynearwlalet.com",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "transposition",
+      "dns": {
+        "domain": "mynearwlalet.com",
+        "registered": true,
+        "a": [
+          "188.114.97.0",
+          "188.114.96.0"
+        ],
+        "aaaa": [],
+        "mx": [],
+        "ns": [
+          "rocco.ns.cloudflare.com",
+          "vita.ns.cloudflare.com"
+        ]
+      },
+      "page": {
+        "url": "https://mynearwlalet.com/",
+        "finalUrl": "https://mynearwlalet.com/",
+        "status": 404,
+        "title": "404 Not Found",
+        "scriptUrls": [],
+        "signals": {
+          "secretForm": false,
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "lure": [],
+          "drainerJs": [],
+          "parked": [],
+          "cryptoContext": [],
+          "interstitial": [],
+          "challenge": []
+        },
+        "brandMentions": 0,
+        "brandInTitle": false,
+        "bytes": 146,
+        "renderedWith": "http",
+        "faviconUrl": "https://mynearwlalet.com/favicon.ico",
+        "textSample": "404 Not Found nginx"
+      },
+      "similarity": {
+        "title": 0,
+        "text": 0,
+        "favicon": false,
+        "overall": 0
+      },
+      "listedOn": [],
+      "score": 25,
+      "severity": "low",
+      "label": "lookalike-unknown-content",
+      "evidence": [
+        "Typosquat (transposition) of the official domain",
+        "One of 33 lookalikes on the same DNS account (rocco.ns.cloudflare.com + vita.ns.cloudflare.com): a single operator",
+        "Almost empty page (19 chars of text, title \"404 Not Found\"): content not visible"
+      ],
+      "action": "Re-check next scan; the content was not visible to us (error, bot wall or empty page).",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "mynearwallte.com",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "transposition",
+      "dns": {
+        "domain": "mynearwallte.com",
+        "registered": true,
+        "a": [
+          "188.114.96.3",
+          "188.114.97.3"
+        ],
+        "aaaa": [],
+        "mx": [],
+        "ns": [
+          "vita.ns.cloudflare.com",
+          "rocco.ns.cloudflare.com"
+        ]
+      },
+      "page": {
+        "url": "https://mynearwallte.com/",
+        "finalUrl": "https://mynearwallte.com/",
+        "status": 404,
+        "title": "404 Not Found",
+        "scriptUrls": [],
+        "signals": {
+          "secretForm": false,
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "lure": [],
+          "drainerJs": [],
+          "parked": [],
+          "cryptoContext": [],
+          "interstitial": [],
+          "challenge": []
+        },
+        "brandMentions": 0,
+        "brandInTitle": false,
+        "bytes": 146,
+        "renderedWith": "http",
+        "faviconUrl": "https://mynearwallte.com/favicon.ico",
+        "textSample": "404 Not Found nginx"
+      },
+      "similarity": {
+        "title": 0,
+        "text": 0,
+        "favicon": false,
+        "overall": 0
+      },
+      "listedOn": [],
+      "score": 25,
+      "severity": "low",
+      "label": "lookalike-unknown-content",
+      "evidence": [
+        "Typosquat (transposition) of the official domain",
+        "One of 33 lookalikes on the same DNS account (rocco.ns.cloudflare.com + vita.ns.cloudflare.com): a single operator",
+        "Almost empty page (19 chars of text, title \"404 Not Found\"): content not visible"
+      ],
+      "action": "Re-check next scan; the content was not visible to us (error, bot wall or empty page).",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "appmynearwallet.com",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "dictionary",
+      "dns": {
+        "domain": "appmynearwallet.com",
+        "registered": true,
+        "a": [
+          "88.216.191.68"
+        ],
+        "aaaa": [],
+        "mx": [],
+        "ns": [
+          "carioca.ns.cloudflare.com",
+          "junade.ns.cloudflare.com"
+        ]
+      },
+      "page": {
+        "url": "https://appmynearwallet.com/",
+        "finalUrl": "https://appmynearwallet.com/",
+        "status": 0,
+        "title": "",
+        "scriptUrls": [],
+        "signals": {
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "secretForm": false,
+          "lure": [],
+          "drainerJs": [],
+          "parked": [],
+          "cryptoContext": [],
+          "interstitial": [],
+          "challenge": []
+        },
+        "brandMentions": 0,
+        "brandInTitle": false,
+        "bytes": 0,
+        "renderedWith": "http",
+        "error": "Connect Timeout Error (attempted address: appmynearwallet.com:443, timeout: 10000ms); http: Connect Timeout Error (attempted address: appmynearwallet.com:80, timeout: 10000ms)",
+        "textSample": ""
+      },
+      "listedOn": [],
+      "score": 25,
+      "severity": "low",
+      "label": "lookalike-unknown-content",
+      "evidence": [
+        "Brand name plus a phishing lure word",
+        "Page not reachable: Connect Timeout Error (attempted address: appmynearwallet.com:443, timeout: 1000"
+      ],
+      "action": "Re-check next scan; the content was not visible to us (error, bot wall or empty page).",
+      "alreadyBlocked": false
+    }
+  ],
+  "tokens": [],
+  "errors": []
+}

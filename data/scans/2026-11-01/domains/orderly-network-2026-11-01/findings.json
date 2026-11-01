@@ -1,0 +1,2216 @@
+{
+  "brand": {
+    "name": "Orderly Network",
+    "officialDomains": [
+      "orderly.network"
+    ],
+    "referenceUrl": "https://orderly.network",
+    "officialTokens": [],
+    "officialSocials": {
+      "x": "OrderlyNetwork",
+      "github": "OrderlyNetwork"
+    },
+    "keywords": [
+      "orderly.network",
+      "orderlynetwork"
+    ],
+    "allowlist": [],
+    "tokenChains": [
+      "base"
+    ]
+  },
+  "startedAt": "2026-11-01T16:12:16.206Z",
+  "finishedAt": "2026-11-01T16:13:58.127Z",
+  "periodDays": 30,
+  "official": {
+    "url": "https://orderly.network/",
+    "title": "Orderly | Perp DEX Infrastructure for Builders"
+  },
+  "stats": {
+    "permutations": 1357,
+    "permutationsRegistered": 34,
+    "ctHosts": 0,
+    "nrdHits": 0,
+    "candidates": 34,
+    "pagesFetched": 27,
+    "pagesRendered": 12,
+    "tokensIndexed": {},
+    "tokenMatches": 0
+  },
+  "coverage": {
+    "ct": [
+      {
+        "q": "orderly.network%",
+        "rows": 0,
+        "error": "HTTP 400"
+      },
+      {
+        "q": "orderly.network.%",
+        "rows": 0,
+        "error": "HTTP 400"
+      },
+      {
+        "q": "orderly.network-%",
+        "rows": 0,
+        "error": "HTTP 400"
+      },
+      {
+        "q": "%orderly.network%",
+        "rows": 0,
+        "error": "HTTP 400"
+      },
+      {
+        "q": "orderlynetwork%",
+        "rows": 0,
+        "error": "HTTP 400"
+      },
+      {
+        "q": "orderlynetwork.%",
+        "rows": 0,
+        "error": "HTTP 400"
+      },
+      {
+        "q": "orderlynetwork-%",
+        "rows": 0,
+        "error": "HTTP 400"
+      },
+      {
+        "q": "%orderlynetwork%",
+        "rows": 0,
+        "error": "HTTP 400"
+      }
+    ],
+    "nrd": [
+      {
+        "day": "2026-10-31",
+        "domains": 70000
+      },
+      {
+        "day": "2026-10-30",
+        "domains": 70000
+      },
+      {
+        "day": "2026-10-29",
+        "domains": 70000
+      },
+      {
+        "day": "2026-10-28",
+        "domains": 70000
+      }
+    ],
+    "tokens": [],
+    "blocklists": [
+      "metamask",
+      "scamsniffer"
+    ]
+  },
+  "domains": [
+    {
+      "kind": "domain",
+      "host": "orderlyreward.network",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "dictionary",
+      "dns": {
+        "domain": "orderlyreward.network",
+        "registered": true,
+        "a": [
+          "172.67.214.20",
+          "104.21.42.249"
+        ],
+        "aaaa": [],
+        "mx": [],
+        "ns": [
+          "kyrie.ns.cloudflare.com",
+          "aisha.ns.cloudflare.com"
+        ]
+      },
+      "page": {
+        "url": "https://orderlyreward.network/",
+        "finalUrl": "https://orderlyreward.network/",
+        "status": 403,
+        "title": "Suspected Phishing | Cloudflare",
+        "scriptUrls": [
+          "https://challenges.cloudflare.com/turnstile/v0/api.js"
+        ],
+        "signals": {
+          "secretForm": false,
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "lure": [],
+          "drainerJs": [],
+          "parked": [],
+          "cryptoContext": [],
+          "interstitial": [
+            "Suspected Phishing | Cloudflare"
+          ],
+          "challenge": []
+        },
+        "brandMentions": 0,
+        "brandInTitle": false,
+        "bytes": 6182,
+        "renderedWith": "http",
+        "faviconUrl": "https://orderlyreward.network/favicon.ico",
+        "textSample": "Please enable cookies. Warning Suspected Phishing This website has been reported for potential phishing. Phishing is when a site attempts to steal sensitive information by falsely presenting as a safe source. Learn More Ignore & Proceed Cloudflare Ray ID: a53c2fabbd85704f &bull; Your IP: Click to re"
+      },
+      "similarity": {
+        "title": 0,
+        "text": 0,
+        "favicon": false,
+        "overall": 0
+      },
+      "listedOn": [
+        "scamsniffer"
+      ],
+      "score": 70,
+      "severity": "high",
+      "label": "phishing-likely",
+      "evidence": [
+        "Brand name plus a phishing lure word",
+        "Already on public wallet blocklist(s): scamsniffer",
+        "Host already shows a phishing warning instead of the site (\"Suspected Phishing | Cloudflare\")"
+      ],
+      "action": "Already blocked (scamsniffer + host warning page). After client approval: file registrar and host abuse reports so the domain itself goes away (drafts attached).",
+      "alreadyBlocked": true,
+      "rdap": {
+        "domain": "orderlyreward.network",
+        "registrar": "NICENIC INTERNATIONAL GROUP CO., LIMITED",
+        "ianaId": "3765",
+        "abuse": {
+          "email": "abuse@nicenic.net",
+          "phone": "+852.68584411"
+        },
+        "registered": "2026-03-29T23:35:40.933Z",
+        "expires": "2027-03-29T23:35:40.933Z",
+        "status": [
+          "client delete prohibited",
+          "client transfer prohibited"
+        ],
+        "source": "https://rdap.identitydigital.services/rdap/domain/orderlyreward.network"
+      },
+      "hosting": {
+        "ip": "172.67.214.20",
+        "network": "CLOUDFLARENET",
+        "org": "Cloudflare, Inc.",
+        "abuse": {
+          "name": "Abuse",
+          "email": "abuse@cloudflare.com",
+          "phone": "+1-650-319-8930",
+          "form": "https://abuse.cloudflare.com/"
+        }
+      },
+      "drafts": [
+        {
+          "channel": "registrar-abuse",
+          "title": "Registrar abuse report to NICENIC INTERNATIONAL GROUP CO., LIMITED",
+          "to": "abuse@nicenic.net",
+          "subject": "Phishing / brand impersonation: orderlyreward.network impersonates Orderly Network",
+          "body": "DRAFT - NOT FILED. File only after the brand owner approves it and has signed a Letter of Authorisation.\n\nHello NICENIC INTERNATIONAL GROUP CO., LIMITED abuse team,\n\nThe domain orderlyreward[.]network (registered with you on 2026-03-29) is being used to impersonate Orderly Network, a crypto project whose official site is hxxps://orderly[.]network. We ask you to suspend the domain under your abuse policy and the RAA section 3.18 obligations.\n\nEvidence (observed 2026-11-01, read-only, URLs defanged):\n- URL: hxxps://orderlyreward[.]network/\n- Brand name plus a phishing lure word\n- Already on public wallet blocklist(s): scamsniffer\n- Host already shows a phishing warning instead of the site (\"Suspected Phishing | Cloudflare\")\n- Resolves to 172.67.214.20, 104.21.42.249\n- Page title: \"Suspected Phishing | Cloudflare\"\n\nWe are not affiliated with the operator of orderlyreward[.]network. Orderly Network has not authorised its use of the brand. Screenshots and HTML captures are available on request.\n\nRegards,\n{{REPORTER_NAME}}\n{{REPORTER_ORG}}, acting for Orderly Network under a Letter of Authorisation dated {{LOA_DATE}}\n{{REPORTER_EMAIL}}",
+          "notes": [
+            "Registrar IANA ID 3765, abuse phone +852.68584411"
+          ]
+        },
+        {
+          "channel": "host-abuse",
+          "title": "Hosting abuse report to Cloudflare, Inc.",
+          "to": "https://abuse.cloudflare.com/",
+          "subject": "Phishing site hosted on your network: orderlyreward.network (Orderly Network impersonation)",
+          "body": "DRAFT - NOT FILED. File only after the brand owner approves it and has signed a Letter of Authorisation.\n\nHello Cloudflare, Inc.,\n\nhxxps://orderlyreward[.]network/ (172.67.214.20, 104.21.42.249) is hosted on your network and impersonates Orderly Network (official: hxxps://orderly[.]network).\n\nEvidence (observed 2026-11-01):\n- Brand name plus a phishing lure word\n- Already on public wallet blocklist(s): scamsniffer\n- Host already shows a phishing warning instead of the site (\"Suspected Phishing | Cloudflare\")\n- Resolves to 172.67.214.20, 104.21.42.249\n- Page title: \"Suspected Phishing | Cloudflare\"\n\nPlease take the content down under your acceptable use policy.\n\nRegards,\n{{REPORTER_NAME}}\n{{REPORTER_ORG}}, acting for Orderly Network under a Letter of Authorisation dated {{LOA_DATE}}\n{{REPORTER_EMAIL}}",
+          "notes": [
+            "Email alternative: abuse@cloudflare.com"
+          ]
+        },
+        {
+          "channel": "google-safe-browsing",
+          "title": "Google Safe Browsing report",
+          "to": "https://safebrowsing.google.com/safebrowsing/report_phish/?url=https%3A%2F%2Forderlyreward.network%2F",
+          "fields": {
+            "Report Type": "This page is not safe",
+            "Threat Type": "Social engineering (phishing) - pick the closest option shown",
+            "Threat Category": "Pick the closest option shown (impersonation / phishing)",
+            "URL to report": "https://orderlyreward.network/",
+            "Additional details (max 800)": "Impersonates Orderly Network (official: https://orderly.network). Already on public wallet blocklist(s): scamsniffer; Host already shows a phishing warning instead of the site (\"Suspected Phishing | Cloudflare\"); Brand name plus a phishing lure word."
+          },
+          "body": "DRAFT - NOT FILED. File only after the brand owner approves it and has signed a Letter of Authorisation.\n\nImpersonates Orderly Network (official: https://orderly.network). Already on public wallet blocklist(s): scamsniffer; Host already shows a phishing warning instead of the site (\"Suspected Phishing | Cloudflare\"); Brand name plus a phishing lure word.",
+          "notes": [
+            "Web form with reCAPTCHA: a person has to submit it."
+          ]
+        },
+        {
+          "channel": "netcraft",
+          "title": "Netcraft report",
+          "to": "https://report.netcraft.com/report",
+          "fields": {
+            "The URL of the site": "https://orderlyreward.network/",
+            "Further details": "Impersonates Orderly Network (official: https://orderly.network). Already on public wallet blocklist(s): scamsniffer; Host already shows a phishing warning instead of the site (\"Suspected Phishing | Cloudflare\"); Brand name plus a phishing lure word.",
+            "Your email address": "{{REPORTER_EMAIL}}"
+          },
+          "body": "DRAFT - NOT FILED. File only after the brand owner approves it and has signed a Letter of Authorisation.\n\nImpersonates Orderly Network (official: https://orderly.network). Already on public wallet blocklist(s): scamsniffer; Host already shows a phishing warning instead of the site (\"Suspected Phishing | Cloudflare\"); Brand name plus a phishing lure word.",
+          "notes": [
+            "Web form with reCAPTCHA. Netcraft feeds many browser and registrar blocklists."
+          ]
+        },
+        {
+          "channel": "metamask-issue",
+          "title": "MetaMask eth-phishing-detect: blocklist addition issue",
+          "to": "https://github.com/MetaMask/eth-phishing-detect/issues/new?template=01-blocklist-addition.yaml",
+          "fields": {
+            "Malicious domains, IPs, IPFS hashes, or IPNS names": "https://orderlyreward.network/",
+            "Please explain why this content is malicious": "Impersonates Orderly Network (official: https://orderly.network). Already on public wallet blocklist(s): scamsniffer; Host already shows a phishing warning instead of the site (\"Suspected Phishing | Cloudflare\"); Brand name plus a phishing lure word. Observed 2026-11-01. Reported on behalf of Orderly Network.",
+            "Is this a duplicate request?": "Search open issues for the domain first, then tick the box"
+          },
+          "body": "DRAFT - NOT FILED. File only after the brand owner approves it and has signed a Letter of Authorisation.\n\nImpersonates Orderly Network (official: https://orderly.network). Already on public wallet blocklist(s): scamsniffer; Host already shows a phishing warning instead of the site (\"Suspected Phishing | Cloudflare\"); Brand name plus a phishing lure word."
+        },
+        {
+          "channel": "metamask-pr",
+          "title": "MetaMask eth-phishing-detect: alternative PR (slower; most merges are bot syncs)",
+          "to": "https://github.com/MetaMask/eth-phishing-detect",
+          "body": "DRAFT - NOT FILED. File only after the brand owner approves it and has signed a Letter of Authorisation.\n\ngit checkout -b block-orderlyreward.network\nyarn add:blocklist orderlyreward.network\n\nPR title: Block orderlyreward.network (Orderly Network impersonation)\nPR body: Impersonates Orderly Network (official: https://orderly.network). Already on public wallet blocklist(s): scamsniffer; Host already shows a phishing warning instead of the site (\"Suspected Phishing | Cloudflare\"); Brand name plus a phishing lure word."
+        }
+      ]
+    },
+    {
+      "kind": "domain",
+      "host": "orderly.top",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "tld-swap",
+      "dns": {
+        "domain": "orderly.top",
+        "registered": true,
+        "a": [
+          "188.114.97.3",
+          "188.114.96.3"
+        ],
+        "aaaa": [],
+        "mx": [
+          "route3.mx.cloudflare.net",
+          "route1.mx.cloudflare.net",
+          "route2.mx.cloudflare.net"
+        ],
+        "ns": [
+          "luciane.ns.cloudflare.com",
+          "jacob.ns.cloudflare.com"
+        ]
+      },
+      "page": {
+        "url": "http://orderly.top/",
+        "finalUrl": "http://orderly.top/",
+        "status": 200,
+        "title": "Parking Page",
+        "scriptUrls": [
+          "http://orderly.top/index.7a42f9813d6414655daf.module.js"
+        ],
+        "signals": {
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "secretForm": false,
+          "lure": [],
+          "drainerJs": [],
+          "parked": [],
+          "cryptoContext": [
+            "crypto"
+          ],
+          "interstitial": [],
+          "challenge": []
+        },
+        "brandMentions": 0,
+        "brandInTitle": false,
+        "bytes": 38693,
+        "renderedWith": "playwright",
+        "faviconUrl": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAsSAAALEgHS3X78AAABj0lEQVRYhe2XwXGDMBBFfzK5Jx3Y7sBnXexUIEpICe4gSQdOB5RgKgi5cE4HSTqwK8AjWDECs7CSUcghfwYzFsvusvskwU1ZlphTt7NG/wsJ3IXcpDTWAF4AaBrKzP8iw6evL28GlMYSqALddy6dAKyLDN8+/kJasO8JDhrb+zrzqoDS2AJ4HzF7LDLkUp++FUgnsvFPQOkKuoXAdEG2IolaMAAeJzGQ0gpw4HESAzlaASF4nEaBlFTACyrfewcT8ACP0yiQbAsCwOM0CORQBdIJgoN8sK3oTUBpJAA2EwS32pDPC120QGk8UOmv6X2ffqgVR/daXwV2EYKDfO66g60KEHhfEYK7WrlAditwzZyXqhWjSSACeJxaQFYtiAgepwZIW4FY4HFqgHQT+G1VMW0LQr9OPugcys4q5LXcvIIfzGEXFWIooUOPu6hlpqNN4BXAM2N3sgEB5N2VDLWjI02vlJLZOglx+8mb+WkWIto2nwgQQ2lOT3mQPlGfaMollJT1nRZZvU3/f5zOmwCAM25mhAUkYQn5AAAAAElFTkSuQmCC",
+        "faviconSha256": "0bf8d5c15ffa99397d8cf9a4be13c120f43b487bdf0bae592c3138e0a2f00208",
+        "screenshot": "/Users/kacpergumieniuk/Projects/4b47/mimicwatch-near/data/scans/2026-11-01/domains/orderly-network-2026-11-01/shots/orderly.top.jpg",
+        "textSample": "yourwebsite.com Registered at Is this your domain? Get it online with cloud-based Shared Hosting, complete with high-performance servers, scalable plans, and free SSL. See hosting plans Want a similar domain for your brand? Find similar domains Tools to start a website Domains Discover similar domai"
+      },
+      "similarity": {
+        "title": 0.15,
+        "text": 0,
+        "favicon": false,
+        "overall": 0.05
+      },
+      "listedOn": [],
+      "score": 32,
+      "severity": "low",
+      "label": "lookalike-other-crypto",
+      "evidence": [
+        "Official name on a different TLD",
+        "Lookalike of your domain serving other crypto content (crypto)"
+      ],
+      "action": "Review: traffic for a lookalike of your name goes to other crypto content (a competitor, an affiliate, or a phishing kit for another brand). Report if it misleads your users.",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "orderlysupport.com",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "dictionary",
+      "dns": {
+        "domain": "orderlysupport.com",
+        "registered": true,
+        "a": [
+          "209.170.211.182"
+        ],
+        "aaaa": [],
+        "mx": [
+          "orderlysupport-com.mail.protection.outlook.com"
+        ],
+        "ns": [
+          "bayan.ns.cloudflare.com",
+          "novalee.ns.cloudflare.com"
+        ]
+      },
+      "page": {
+        "url": "https://orderlysupport.com/",
+        "finalUrl": "https://orderlysupport.com/login?referrer=https%3A%2F%2Forderlysupport.com%2F",
+        "status": 200,
+        "title": "Support Portal",
+        "scriptUrls": [
+          "https://alcdn.msauth.net/browser/2.0.0-beta.0/js/msal-browser.js",
+          "https://accounts.google.com/gsi/client",
+          "https://connect.facebook.net/en_US/sdk.js",
+          "https://optassets.ontraport.com/opt_assets/elements_v3/common/materialize/js/materialize.min.js",
+          "https://optassets.ontraport.com/opt_assets/static/js/membership_site.js",
+          "https://optassets.ontraport.com/tracking.js"
+        ],
+        "signals": {
+          "secretForm": false,
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "lure": [],
+          "drainerJs": [],
+          "parked": [],
+          "cryptoContext": [],
+          "interstitial": [],
+          "challenge": []
+        },
+        "brandMentions": 0,
+        "brandInTitle": false,
+        "bytes": 21097,
+        "renderedWith": "http",
+        "faviconUrl": "https://orderlysupport.com/favicon.ico",
+        "textSample": "Log in to get started Log in or sign up to get started You're currently logged in If you wish to log out just click the button below. Forgotten password Please enter your email address and we'll send you a link to reset it. Check your inbox Click the link in the email to reset your password. Your ac"
+      },
+      "similarity": {
+        "title": 0.18,
+        "text": 0,
+        "favicon": false,
+        "overall": 0.06
+      },
+      "listedOn": [],
+      "score": 27,
+      "severity": "low",
+      "label": "likely-false-positive",
+      "evidence": [
+        "Brand name plus a phishing lure word",
+        "No brand content found on the page: probably unrelated (false positive)"
+      ],
+      "action": "No action (labelled false positive).",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "orderlyapp.app",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "dictionary",
+      "dns": {
+        "domain": "orderlyapp.app",
+        "registered": true,
+        "a": [
+          "188.114.96.3",
+          "188.114.97.3"
+        ],
+        "aaaa": [],
+        "mx": [
+          "route2.mx.cloudflare.net",
+          "route3.mx.cloudflare.net",
+          "route1.mx.cloudflare.net"
+        ],
+        "ns": [
+          "milan.ns.cloudflare.com",
+          "aida.ns.cloudflare.com"
+        ]
+      },
+      "page": {
+        "url": "https://orderlyapp.app/",
+        "finalUrl": "https://orderlyapp.app/",
+        "status": 200,
+        "title": "Order Tracking App for Small Businesses on iOS and Android | Orderly",
+        "scriptUrls": [
+          "https://orderlyapp.app/_next/static/chunks/0s2cptn1mmf6r.js",
+          "https://orderlyapp.app/_next/static/chunks/0x4nmxvar48nu.js",
+          "https://orderlyapp.app/_next/static/chunks/1b0cgmpq_3q5f.js",
+          "https://orderlyapp.app/_next/static/chunks/turbopack-2c3mg3r-05n1w.js",
+          "https://orderlyapp.app/_next/static/chunks/42onvq6nokjl2.js",
+          "https://orderlyapp.app/_next/static/chunks/2_45nubiwtf9o.js"
+        ],
+        "signals": {
+          "secretForm": false,
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "lure": [
+            "Refund"
+          ],
+          "drainerJs": [],
+          "parked": [],
+          "cryptoContext": [],
+          "interstitial": [],
+          "challenge": []
+        },
+        "brandMentions": 0,
+        "brandInTitle": false,
+        "bytes": 214034,
+        "renderedWith": "http",
+        "faviconUrl": "https://orderlyapp.app/favicon.ico?favicon.3imekse65w3gu.ico",
+        "faviconSha256": "7303448e1c1fb9b04f33e154a323bc86f1456c5c8d463cb42b5088484bd4f5dd",
+        "textSample": "Skip to content Orderly Features Guides Tools Pricing FAQ Download Made for people running small businesses Your orders, payments, and customers. Finally in one place. Orderly helps you manage orders, attach and securely sync order photos, archive past work, track balances, and share PDF receipts—ev"
+      },
+      "similarity": {
+        "title": 0.13,
+        "text": 0,
+        "favicon": false,
+        "overall": 0.05
+      },
+      "listedOn": [],
+      "score": 27,
+      "severity": "low",
+      "label": "likely-false-positive",
+      "evidence": [
+        "Brand name plus a phishing lure word",
+        "No brand content found on the page: probably unrelated (false positive)"
+      ],
+      "action": "No action (labelled false positive).",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "ordely.network",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "omission",
+      "dns": {
+        "domain": "ordely.network",
+        "registered": true,
+        "a": [
+          "54.215.31.113"
+        ],
+        "aaaa": [],
+        "mx": [],
+        "ns": [
+          "ns1.dyna-ns.net",
+          "ns2.dyna-ns.net"
+        ]
+      },
+      "page": {
+        "url": "https://ordely.network/",
+        "finalUrl": "https://hypurfi.com/",
+        "status": 200,
+        "title": "CloudFlare - Verify that you are a human",
+        "scriptUrls": [],
+        "signals": {
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "secretForm": false,
+          "lure": [],
+          "drainerJs": [],
+          "parked": [],
+          "cryptoContext": [],
+          "interstitial": [],
+          "challenge": [
+            "Verify that you are a human"
+          ]
+        },
+        "brandMentions": 0,
+        "brandInTitle": false,
+        "bytes": 4851,
+        "renderedWith": "playwright",
+        "faviconUrl": "https://www.cloudflare.com/favicon.ico",
+        "faviconSha256": "5414bc6e4b3f6e10f99b5d37abf4420da4dcaece66f8f2c08e090e87267adbc5",
+        "screenshot": "/Users/kacpergumieniuk/Projects/4b47/mimicwatch-near/data/scans/2026-11-01/domains/orderly-network-2026-11-01/shots/ordely.network.jpg",
+        "textSample": "Please complete the following CAPTCHA security challenge to continue! I am not a bot Why do I see CAPTCHA challenges? Due to current firewall security rules, you need to complete the CAPTCHA security challenge to continue access! Event ID: 5a03170f5c671cdd • Your IP: 194.42.118.8"
+      },
+      "similarity": {
+        "title": 0,
+        "text": 0,
+        "favicon": false,
+        "overall": 0
+      },
+      "listedOn": [],
+      "score": 25,
+      "severity": "low",
+      "label": "lookalike-unknown-content",
+      "evidence": [
+        "Typosquat (omission) of the official domain",
+        "Bot challenge or redirect stub (\"Verify that you are a human\"): real content not visible"
+      ],
+      "action": "Re-check next scan; the content was not visible to us (error, bot wall or empty page).",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "orderly-app.com",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "dictionary",
+      "dns": {
+        "domain": "orderly-app.com",
+        "registered": true,
+        "a": [
+          "89.37.212.249"
+        ],
+        "aaaa": [],
+        "mx": [],
+        "ns": [
+          "ns2.dns-parking.com",
+          "ns1.dns-parking.com"
+        ]
+      },
+      "page": {
+        "url": "http://orderly-app.com/",
+        "finalUrl": "http://orderly-app.com/cgi-sys/defaultwebpage.cgi",
+        "status": 200,
+        "title": "Default Web Site Page",
+        "scriptUrls": [],
+        "signals": {
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "secretForm": false,
+          "lure": [],
+          "drainerJs": [],
+          "parked": [],
+          "cryptoContext": [],
+          "interstitial": [],
+          "challenge": []
+        },
+        "brandMentions": 0,
+        "brandInTitle": false,
+        "bytes": 163,
+        "renderedWith": "playwright",
+        "faviconUrl": "http://orderly-app.com/favicon.ico",
+        "screenshot": "/Users/kacpergumieniuk/Projects/4b47/mimicwatch-near/data/scans/2026-11-01/domains/orderly-network-2026-11-01/shots/orderly-app.com.jpg",
+        "textSample": "SORRY! If you are the owner of this website, please contact your hosting provider: webmaster@orderly-app.com It is possible you have reached this page because: The IP address has changed. The IP address for this domain may have changed recently. Check your DNS settings to verify that the domain is s"
+      },
+      "similarity": {
+        "title": 0,
+        "text": 0,
+        "favicon": false,
+        "overall": 0
+      },
+      "listedOn": [],
+      "score": 25,
+      "severity": "low",
+      "label": "likely-false-positive",
+      "evidence": [
+        "Brand name plus a phishing lure word",
+        "No brand content found on the page: probably unrelated (false positive)"
+      ],
+      "action": "No action (labelled false positive).",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "orderlyapp.com",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "dictionary",
+      "dns": {
+        "domain": "orderlyapp.com",
+        "registered": true,
+        "a": [],
+        "aaaa": [],
+        "mx": [],
+        "ns": [
+          "ns-925.awsdns-51.net",
+          "ns-449.awsdns-56.com",
+          "ns-1180.awsdns-19.org",
+          "ns-2001.awsdns-58.co.uk"
+        ]
+      },
+      "listedOn": [],
+      "score": 25,
+      "severity": "low",
+      "label": "not-live",
+      "evidence": [
+        "Brand name plus a phishing lure word"
+      ],
+      "action": "Monitor (registered, no website). Consider defensive registration.",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "app-orderly.xyz",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "dictionary",
+      "dns": {
+        "domain": "app-orderly.xyz",
+        "registered": true,
+        "a": [
+          "162.4.84.255"
+        ],
+        "aaaa": [],
+        "mx": [
+          "mx156.hostedmxserver.com"
+        ],
+        "ns": [
+          "ns1.parklogic.com",
+          "ns2.parklogic.com"
+        ]
+      },
+      "page": {
+        "url": "http://app-orderly.xyz/",
+        "finalUrl": "http://app-orderly.xyz/",
+        "status": 200,
+        "title": "Redirecting...",
+        "scriptUrls": [],
+        "signals": {
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "secretForm": false,
+          "lure": [],
+          "drainerJs": [],
+          "parked": [],
+          "cryptoContext": [],
+          "interstitial": [],
+          "challenge": [
+            "Redirecting"
+          ]
+        },
+        "brandMentions": 0,
+        "brandInTitle": false,
+        "bytes": 5572,
+        "renderedWith": "playwright",
+        "faviconUrl": "http://app-orderly.xyz/favicon.ico",
+        "screenshot": "/Users/kacpergumieniuk/Projects/4b47/mimicwatch-near/data/scans/2026-11-01/domains/orderly-network-2026-11-01/shots/app-orderly.xyz.jpg",
+        "textSample": "This domain name has expired and may be renewed by the owner. . app-orderly.xyz Style & Fashion Personal Finance Real Estate Education Communication Books and Literature Television Hobbies & Interests Travel © 2026 ParkLogic.com. All rights reserved. About Us | Contact Us | Privacy Policy | Terms of"
+      },
+      "similarity": {
+        "title": 0.21,
+        "text": 0,
+        "favicon": false,
+        "overall": 0.07
+      },
+      "listedOn": [],
+      "score": 25,
+      "severity": "low",
+      "label": "lookalike-unknown-content",
+      "evidence": [
+        "Brand name plus a phishing lure word",
+        "Bot challenge or redirect stub (\"Redirecting\"): real content not visible"
+      ],
+      "action": "Re-check next scan; the content was not visible to us (error, bot wall or empty page).",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "orderly-app.io",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "dictionary",
+      "dns": {
+        "domain": "orderly-app.io",
+        "registered": true,
+        "a": [],
+        "aaaa": [],
+        "mx": [
+          "mx.ukraine.com.ua"
+        ],
+        "ns": [
+          "ns35.inhostedns.org",
+          "ns25.inhostedns.net",
+          "ns15.inhostedns.com"
+        ]
+      },
+      "listedOn": [],
+      "score": 25,
+      "severity": "low",
+      "label": "not-live",
+      "evidence": [
+        "Brand name plus a phishing lure word"
+      ],
+      "action": "Monitor (registered, no website). Consider defensive registration.",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "orderlyapp.net",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "dictionary",
+      "dns": {
+        "domain": "orderlyapp.net",
+        "registered": true,
+        "a": [
+          "198.49.23.145",
+          "198.49.23.144",
+          "198.185.159.145",
+          "198.185.159.144"
+        ],
+        "aaaa": [],
+        "mx": [
+          "smtp.google.com"
+        ],
+        "ns": [
+          "ns-cloud-b2.googledomains.com",
+          "ns-cloud-b1.googledomains.com",
+          "ns-cloud-b3.googledomains.com",
+          "ns-cloud-b4.googledomains.com"
+        ]
+      },
+      "page": {
+        "url": "https://orderlyapp.net/",
+        "finalUrl": "https://orderlyapp.net/",
+        "status": 200,
+        "title": "Coming Soon",
+        "scriptUrls": [
+          "https://assets.squarespace.com/@sqs/polyfiller/1.7.7/modern.js",
+          "https://assets.squarespace.com/universal/scripts-compressed/extract-css-runtime-2dbade1c2d524017-min.en-US.js",
+          "https://assets.squarespace.com/universal/scripts-compressed/extract-css-moment-js-vendor-5b1fd9aed201e910-min.en-US.js",
+          "https://assets.squarespace.com/universal/scripts-compressed/cldr-resource-pack-88f72d5f001c770b-min.en-US.js",
+          "https://assets.squarespace.com/universal/scripts-compressed/parking-page-6c7860981554f7db-min.en-US.js"
+        ],
+        "signals": {
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "secretForm": false,
+          "lure": [],
+          "drainerJs": [],
+          "parked": [],
+          "cryptoContext": [],
+          "interstitial": [],
+          "challenge": []
+        },
+        "brandMentions": 0,
+        "brandInTitle": false,
+        "bytes": 3000,
+        "renderedWith": "playwright",
+        "faviconUrl": "https://orderlyapp.net/favicon.ico",
+        "faviconSha256": "0d75fa1c9f78745b408f55992519c9bd64dfdd5c1b456c5f48b5dc7c43184a8a",
+        "screenshot": "/Users/kacpergumieniuk/Projects/4b47/mimicwatch-near/data/scans/2026-11-01/domains/orderly-network-2026-11-01/shots/orderlyapp.net.jpg",
+        "textSample": "orderlyapp.net We're under construction. Please check back for an update soon."
+      },
+      "similarity": {
+        "title": 0.1,
+        "text": 0,
+        "favicon": false,
+        "overall": 0.04
+      },
+      "listedOn": [],
+      "score": 25,
+      "severity": "low",
+      "label": "lookalike-unknown-content",
+      "evidence": [
+        "Brand name plus a phishing lure word",
+        "Almost empty page (78 chars of text, title \"Coming Soon\"): content not visible"
+      ],
+      "action": "Re-check next scan; the content was not visible to us (error, bot wall or empty page).",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "orderlystake.xyz",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "dictionary",
+      "dns": {
+        "domain": "orderlystake.xyz",
+        "registered": true,
+        "a": [
+          "76.223.54.146",
+          "13.248.169.48"
+        ],
+        "aaaa": [],
+        "mx": [
+          ""
+        ],
+        "ns": [
+          "ns5.afternic.com",
+          "ns6.afternic.com"
+        ]
+      },
+      "page": {
+        "url": "https://orderlystake.xyz/",
+        "finalUrl": "https://forsale.godaddy.com/forsale/orderlystake.xyz?utm_source=TDFS_BINNS2&utm_medium=parkedpages&utm_campaign=x_corp_tdfs-binns2_base&traffic_type=TDFS_BINNS2&traffic_id=binns2&",
+        "status": 200,
+        "title": "Access Denied",
+        "scriptUrls": [],
+        "signals": {
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "secretForm": false,
+          "lure": [],
+          "drainerJs": [],
+          "parked": [],
+          "cryptoContext": [],
+          "interstitial": [],
+          "challenge": [
+            "Access Denied"
+          ]
+        },
+        "brandMentions": 0,
+        "brandInTitle": false,
+        "bytes": 114,
+        "renderedWith": "playwright",
+        "faviconUrl": "https://orderlystake.xyz/favicon.ico",
+        "screenshot": "/Users/kacpergumieniuk/Projects/4b47/mimicwatch-near/data/scans/2026-11-01/domains/orderly-network-2026-11-01/shots/orderlystake.xyz.jpg",
+        "textSample": "Access Denied You don't have permission to access \"http://forsale.godaddy.com/forsale/orderlystake.xyz?\" on this server. Reference #18.2f0c4017.1793549628.4c639495 https://errors.edgesuite.net/18.2f0c4017.1793549628.4c639495"
+      },
+      "similarity": {
+        "title": 0.15,
+        "text": 0,
+        "favicon": false,
+        "overall": 0.05
+      },
+      "listedOn": [],
+      "score": 25,
+      "severity": "low",
+      "label": "lookalike-unknown-content",
+      "evidence": [
+        "Brand name plus a phishing lure word",
+        "Bot challenge or redirect stub (\"Access Denied\"): real content not visible"
+      ],
+      "action": "Re-check next scan; the content was not visible to us (error, bot wall or empty page).",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "orderly.xyz",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "tld-swap",
+      "dns": {
+        "domain": "orderly.xyz",
+        "registered": true,
+        "a": [
+          "52.40.42.113",
+          "44.232.173.249"
+        ],
+        "aaaa": [],
+        "mx": [],
+        "ns": [
+          "launch1.spaceship.net",
+          "launch2.spaceship.net"
+        ]
+      },
+      "page": {
+        "url": "https://orderly.xyz/",
+        "finalUrl": "https://orderly.xyz/",
+        "status": 200,
+        "title": "Orderly.xyz for sale | Spaceship.com",
+        "scriptUrls": [
+          "https://forsale.spaceship-cdn.com/static/latest/5.latest/main.js"
+        ],
+        "signals": {
+          "secretForm": false,
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "lure": [],
+          "drainerJs": [],
+          "parked": [
+            "for sale"
+          ],
+          "cryptoContext": [],
+          "interstitial": [],
+          "challenge": []
+        },
+        "brandMentions": 0,
+        "brandInTitle": false,
+        "bytes": 23565,
+        "renderedWith": "http",
+        "faviconUrl": "https://forsale.spaceship-cdn.com/static/latest/5.latest/assets/fonts/apple-touch-icon-57x57.png",
+        "faviconSha256": "774ab776c49cdd5d993e4da9e6216af9ece952135eb022ef0c7df223ff66989c",
+        "textSample": "Domain for sale Orderly.xyz Free transaction support Secure payments Spaceship reliability Listed with spaceship.com get this domain Buy now $98,888 Down payment: $5,000 Lease to own $2,400 x50 months Next Please select one of the options above You will be redirected to spaceship.com Prefer to discu"
+      },
+      "similarity": {
+        "title": 0.2,
+        "text": 0,
+        "favicon": false,
+        "overall": 0.07
+      },
+      "listedOn": [],
+      "score": 22,
+      "severity": "low",
+      "label": "parked",
+      "evidence": [
+        "Official name on a different TLD",
+        "Parked / for-sale page"
+      ],
+      "action": "Monitor. Consider buying it defensively or a UDRP if it turns active.",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "orderly.io",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "tld-swap",
+      "dns": {
+        "domain": "orderly.io",
+        "registered": true,
+        "a": [
+          "104.20.43.42",
+          "172.66.174.71"
+        ],
+        "aaaa": [],
+        "mx": [
+          "aspmx.l.google.com",
+          "alt2.aspmx.l.google.com",
+          "alt1.aspmx.l.google.com",
+          "alt4.aspmx.l.google.com",
+          "alt3.aspmx.l.google.com"
+        ],
+        "ns": [
+          "ruth.ns.cloudflare.com",
+          "alec.ns.cloudflare.com"
+        ]
+      },
+      "page": {
+        "url": "https://orderly.io/",
+        "finalUrl": "https://orderly.io/",
+        "status": 200,
+        "title": "Orderly | Smarter Store & Supply Chain Operations",
+        "scriptUrls": [
+          "https://orderly.io/avljl2rk9q5pNjgwZjhhYzlkNWRkOTVmZDQxYTQ5MmJj/tKbb6YfRMCfDG33a1U7a6fEv1Zo",
+          "https://www.google.com/recaptcha/api.js",
+          "https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js",
+          "https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js",
+          "https://cdn.prod.website-files.com/680f8ac9d5dd95fd41a492bc%2F66ba5a08efe71070f98dd10a%2F682ef14bb26e83393d95065f%2Ftmj3rm88-1.1.1.js",
+          "https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=680f8ac9d5dd95fd41a492bc"
+        ],
+        "signals": {
+          "secretForm": false,
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "lure": [],
+          "drainerJs": [],
+          "parked": [],
+          "cryptoContext": [],
+          "interstitial": [],
+          "challenge": []
+        },
+        "brandMentions": 0,
+        "brandInTitle": false,
+        "bytes": 57883,
+        "renderedWith": "http",
+        "faviconUrl": "https://cdn.prod.website-files.com/680f8ac9d5dd95fd41a492bc/682ee4e3506ae962abbff764_66c359a31002d766c7f54ebb_Small%20Favicon.png",
+        "faviconSha256": "64a8a38483711a3d47726e90eef79796e54b46fd0261b39a8c41edbca18d6a2b",
+        "textSample": "Solutions For Stores For Distributors Platform Overview Feature List Blog About Us Contact Us Book a demo Book a Demo Smarter Stores. Sustainable Supply Chains. One platform for forecasting, replenishment, stock and store operations - reducing waste and increasing profit in thousands of sites and di"
+      },
+      "similarity": {
+        "title": 0.09,
+        "text": 0,
+        "favicon": false,
+        "overall": 0.03
+      },
+      "listedOn": [],
+      "score": 21,
+      "severity": "low",
+      "label": "likely-false-positive",
+      "evidence": [
+        "Official name on a different TLD",
+        "No brand content found on the page: probably unrelated (false positive)"
+      ],
+      "action": "No action (labelled false positive).",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "orderly.world",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "tld-swap",
+      "dns": {
+        "domain": "orderly.world",
+        "registered": true,
+        "a": [
+          "15.197.142.173",
+          "3.33.152.147"
+        ],
+        "aaaa": [],
+        "mx": [],
+        "ns": [
+          "ns29.domaincontrol.com",
+          "ns30.domaincontrol.com"
+        ]
+      },
+      "page": {
+        "url": "http://orderly.world/",
+        "finalUrl": "https://orderly.io/",
+        "status": 200,
+        "title": "Orderly | Smarter Store & Supply Chain Operations",
+        "scriptUrls": [
+          "https://orderly.io/avljl2rk9q5pNjgwZjhhYzlkNWRkOTVmZDQxYTQ5MmJj/tKbb6YfRMCfDG33a1U7a6fEv1Zo",
+          "https://www.google.com/recaptcha/api.js",
+          "https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js",
+          "https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js",
+          "https://cdn.prod.website-files.com/680f8ac9d5dd95fd41a492bc%2F66ba5a08efe71070f98dd10a%2F682ef14bb26e83393d95065f%2Ftmj3rm88-1.1.1.js",
+          "https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=680f8ac9d5dd95fd41a492bc"
+        ],
+        "signals": {
+          "secretForm": false,
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "lure": [],
+          "drainerJs": [],
+          "parked": [],
+          "cryptoContext": [],
+          "interstitial": [],
+          "challenge": []
+        },
+        "brandMentions": 0,
+        "brandInTitle": false,
+        "bytes": 57883,
+        "renderedWith": "http",
+        "faviconUrl": "https://cdn.prod.website-files.com/680f8ac9d5dd95fd41a492bc/682ee4e3506ae962abbff764_66c359a31002d766c7f54ebb_Small%20Favicon.png",
+        "faviconSha256": "64a8a38483711a3d47726e90eef79796e54b46fd0261b39a8c41edbca18d6a2b",
+        "textSample": "Solutions For Stores For Distributors Platform Overview Feature List Blog About Us Contact Us Book a demo Book a Demo Smarter Stores. Sustainable Supply Chains. One platform for forecasting, replenishment, stock and store operations - reducing waste and increasing profit in thousands of sites and di"
+      },
+      "similarity": {
+        "title": 0.09,
+        "text": 0,
+        "favicon": false,
+        "overall": 0.03
+      },
+      "listedOn": [],
+      "score": 21,
+      "severity": "low",
+      "label": "likely-false-positive",
+      "evidence": [
+        "Official name on a different TLD",
+        "No brand content found on the page: probably unrelated (false positive)"
+      ],
+      "action": "No action (labelled false positive).",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "orderly.com",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "tld-swap",
+      "dns": {
+        "domain": "orderly.com",
+        "registered": true,
+        "a": [
+          "188.114.96.3",
+          "188.114.97.3"
+        ],
+        "aaaa": [],
+        "mx": [
+          ""
+        ],
+        "ns": [
+          "haley.ns.cloudflare.com",
+          "shane.ns.cloudflare.com"
+        ]
+      },
+      "page": {
+        "url": "https://orderly.com/",
+        "finalUrl": "https://leap.ca/?utm_source=orderly.com",
+        "status": 200,
+        "title": "Leap of Faith Financial Services Inc.",
+        "scriptUrls": [
+          "https://leap.ca/rw_common/themes/magnesium/javascript.js",
+          "https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"
+        ],
+        "signals": {
+          "secretForm": false,
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "lure": [],
+          "drainerJs": [],
+          "parked": [],
+          "cryptoContext": [],
+          "interstitial": [],
+          "challenge": []
+        },
+        "brandMentions": 0,
+        "brandInTitle": false,
+        "bytes": 6014,
+        "renderedWith": "http",
+        "faviconUrl": "https://leap.ca/favicon.ico",
+        "textSample": "Leap of Faith Financial Services Inc. Home Contact Us Leap of Faith Financial Services Inc. is a privately held company based in Toronto, Canada. Our Privacy Policy can be found here . Your browser can't play this video. Download the showreel (MP4) . &copy; Leap of Faith Financial Services Inc."
+      },
+      "similarity": {
+        "title": 0,
+        "text": 0,
+        "favicon": false,
+        "overall": 0
+      },
+      "listedOn": [],
+      "score": 20,
+      "severity": "low",
+      "label": "likely-false-positive",
+      "evidence": [
+        "Official name on a different TLD",
+        "No brand content found on the page: probably unrelated (false positive)"
+      ],
+      "action": "No action (labelled false positive).",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "orderly.app",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "tld-swap",
+      "dns": {
+        "domain": "orderly.app",
+        "registered": true,
+        "a": [
+          "13.248.169.48",
+          "76.223.54.146"
+        ],
+        "aaaa": [],
+        "mx": [
+          ""
+        ],
+        "ns": [
+          "ns2.afternic.com",
+          "ns1.afternic.com"
+        ]
+      },
+      "page": {
+        "url": "https://orderly.app/",
+        "finalUrl": "https://forsale.godaddy.com/forsale/orderly.app?utm_source=TDFS_BINNS2&utm_medium=parkedpages&utm_campaign=x_corp_tdfs-binns2_base&traffic_type=TDFS_BINNS2&traffic_id=binns2&",
+        "status": 200,
+        "title": "Access Denied",
+        "scriptUrls": [],
+        "signals": {
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "secretForm": false,
+          "lure": [],
+          "drainerJs": [],
+          "parked": [],
+          "cryptoContext": [],
+          "interstitial": [],
+          "challenge": [
+            "Access Denied"
+          ]
+        },
+        "brandMentions": 0,
+        "brandInTitle": false,
+        "bytes": 114,
+        "renderedWith": "playwright",
+        "faviconUrl": "https://orderly.app/favicon.ico",
+        "screenshot": "/Users/kacpergumieniuk/Projects/4b47/mimicwatch-near/data/scans/2026-11-01/domains/orderly-network-2026-11-01/shots/orderly.app.jpg",
+        "textSample": "Access Denied You don't have permission to access \"http://forsale.godaddy.com/forsale/orderly.app?\" on this server. Reference #18.2f0c4017.1793549630.4c63bc99 https://errors.edgesuite.net/18.2f0c4017.1793549630.4c63bc99"
+      },
+      "similarity": {
+        "title": 0.15,
+        "text": 0,
+        "favicon": false,
+        "overall": 0.05
+      },
+      "listedOn": [],
+      "score": 20,
+      "severity": "low",
+      "label": "lookalike-unknown-content",
+      "evidence": [
+        "Official name on a different TLD",
+        "Bot challenge or redirect stub (\"Access Denied\"): real content not visible"
+      ],
+      "action": "Re-check next scan; the content was not visible to us (error, bot wall or empty page).",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "orderly.co",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "tld-swap",
+      "dns": {
+        "domain": "orderly.co",
+        "registered": true,
+        "a": [
+          "86.105.245.69"
+        ],
+        "aaaa": [],
+        "mx": [],
+        "ns": [
+          "ns2.eftydns.com",
+          "ns1.eftydns.com"
+        ]
+      },
+      "page": {
+        "url": "http://orderly.co/",
+        "finalUrl": "https://efty.com/domain-not-found/orderly.co/",
+        "status": 403,
+        "title": "orderly.co Is No Longer Listed | Efty",
+        "scriptUrls": [],
+        "signals": {
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "secretForm": false,
+          "lure": [],
+          "drainerJs": [
+            "obfuscated-js(375 _0x identifiers)"
+          ],
+          "parked": [],
+          "cryptoContext": [],
+          "interstitial": [],
+          "challenge": []
+        },
+        "brandMentions": 0,
+        "brandInTitle": false,
+        "bytes": 5813,
+        "renderedWith": "playwright",
+        "faviconUrl": "https://efty.com/favicon.ico",
+        "faviconSha256": "6c4b62d26228f5618b1d9600761fa95b43a345151dfe18db046c527c0ddae62b",
+        "screenshot": "/Users/kacpergumieniuk/Projects/4b47/mimicwatch-near/data/scans/2026-11-01/domains/orderly-network-2026-11-01/shots/orderly.co.jpg",
+        "textSample": "Buy domains Sell domains Login Start selling Start selling orderly.co is no longer listed. The good stuff moves fast Someone moved first. Happens fast around here. Strong names rarely sit still. Show me similar names Browse the full marketplace Same kind of swagger A few names with the same energy. "
+      },
+      "similarity": {
+        "title": 0.08,
+        "text": 0,
+        "favicon": false,
+        "overall": 0.03
+      },
+      "listedOn": [],
+      "score": 20,
+      "severity": "low",
+      "label": "lookalike-unknown-content",
+      "evidence": [
+        "Official name on a different TLD",
+        "Page returned HTTP 403"
+      ],
+      "action": "Re-check next scan; the content was not visible to us (error, bot wall or empty page).",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "orderly.live",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "tld-swap",
+      "dns": {
+        "domain": "orderly.live",
+        "registered": true,
+        "a": [
+          "76.223.54.146",
+          "13.248.169.48"
+        ],
+        "aaaa": [],
+        "mx": [
+          ""
+        ],
+        "ns": [
+          "ns2.afternic.com",
+          "ns1.afternic.com"
+        ]
+      },
+      "page": {
+        "url": "https://orderly.live/",
+        "finalUrl": "https://forsale.godaddy.com/forsale/orderly.live?utm_source=TDFS_BINNS2&utm_medium=parkedpages&utm_campaign=x_corp_tdfs-binns2_base&traffic_type=TDFS_BINNS2&traffic_id=binns2&",
+        "status": 200,
+        "title": "Access Denied",
+        "scriptUrls": [],
+        "signals": {
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "secretForm": false,
+          "lure": [],
+          "drainerJs": [],
+          "parked": [],
+          "cryptoContext": [],
+          "interstitial": [],
+          "challenge": [
+            "Access Denied"
+          ]
+        },
+        "brandMentions": 0,
+        "brandInTitle": false,
+        "bytes": 114,
+        "renderedWith": "playwright",
+        "faviconUrl": "https://orderly.live/favicon.ico",
+        "screenshot": "/Users/kacpergumieniuk/Projects/4b47/mimicwatch-near/data/scans/2026-11-01/domains/orderly-network-2026-11-01/shots/orderly.live.jpg",
+        "textSample": "Access Denied You don't have permission to access \"http://forsale.godaddy.com/forsale/orderly.live?\" on this server. Reference #18.2f0c4017.1793549631.4c63c891 https://errors.edgesuite.net/18.2f0c4017.1793549631.4c63c891"
+      },
+      "similarity": {
+        "title": 0.15,
+        "text": 0,
+        "favicon": false,
+        "overall": 0.05
+      },
+      "listedOn": [],
+      "score": 20,
+      "severity": "low",
+      "label": "lookalike-unknown-content",
+      "evidence": [
+        "Official name on a different TLD",
+        "Bot challenge or redirect stub (\"Access Denied\"): real content not visible"
+      ],
+      "action": "Re-check next scan; the content was not visible to us (error, bot wall or empty page).",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "orderly.site",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "tld-swap",
+      "dns": {
+        "domain": "orderly.site",
+        "registered": true,
+        "a": [
+          "197.245.223.76"
+        ],
+        "aaaa": [],
+        "mx": [
+          "mail.orderly.site"
+        ],
+        "ns": [
+          "ns.dns2.co.za",
+          "ns.otherdns.net",
+          "ns.otherdns.com",
+          "ns.dns1.co.za"
+        ]
+      },
+      "page": {
+        "url": "https://orderly.site/",
+        "finalUrl": "https://orderly.site/",
+        "status": 200,
+        "title": "OrderlyX | Pharmacy Stock Management & Rebalancing Software, South Africa",
+        "scriptUrls": [],
+        "signals": {
+          "secretForm": true,
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "lure": [],
+          "drainerJs": [],
+          "parked": [],
+          "cryptoContext": [],
+          "interstitial": [],
+          "challenge": []
+        },
+        "brandMentions": 0,
+        "brandInTitle": false,
+        "bytes": 31476,
+        "renderedWith": "http",
+        "faviconUrl": "https://orderly.site/favicon.ico",
+        "textSample": "Platform How it works Integrations FAQ Log in &rarr; Pharmacy inventory software · South Africa Pharmacy stock that thinks ahead. OrderlyX is pharmacy inventory management and stock-rebalancing software for South African pharmacy groups. It reads the stock and sales your dispensing system already re"
+      },
+      "similarity": {
+        "title": 0,
+        "text": 0,
+        "favicon": false,
+        "overall": 0
+      },
+      "listedOn": [],
+      "score": 20,
+      "severity": "low",
+      "label": "likely-false-positive",
+      "evidence": [
+        "Official name on a different TLD",
+        "No brand content found on the page: probably unrelated (false positive)"
+      ],
+      "action": "No action (labelled false positive).",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "orderly.online",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "tld-swap",
+      "dns": {
+        "domain": "orderly.online",
+        "registered": true,
+        "a": [
+          "27.124.118.252"
+        ],
+        "aaaa": [],
+        "mx": [],
+        "ns": [
+          "ns2.crazydomains.com",
+          "ns1.crazydomains.com"
+        ]
+      },
+      "page": {
+        "url": "https://orderly.online/",
+        "finalUrl": "https://orderly.online/",
+        "status": 0,
+        "title": "",
+        "scriptUrls": [],
+        "signals": {
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "secretForm": false,
+          "lure": [],
+          "drainerJs": [],
+          "parked": [],
+          "cryptoContext": [],
+          "interstitial": [],
+          "challenge": []
+        },
+        "brandMentions": 0,
+        "brandInTitle": false,
+        "bytes": 0,
+        "renderedWith": "http",
+        "error": "Connect Timeout Error (attempted address: orderly.online:443, timeout: 10000ms); http: Connect Timeout Error (attempted address: orderly.online:80, timeout: 10000ms)",
+        "textSample": ""
+      },
+      "listedOn": [],
+      "score": 20,
+      "severity": "low",
+      "label": "lookalike-unknown-content",
+      "evidence": [
+        "Official name on a different TLD",
+        "Page not reachable: Connect Timeout Error (attempted address: orderly.online:443, timeout: 10000ms);"
+      ],
+      "action": "Re-check next scan; the content was not visible to us (error, bot wall or empty page).",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "orderly.cc",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "tld-swap",
+      "dns": {
+        "domain": "orderly.cc",
+        "registered": true,
+        "a": [
+          "185.199.109.153",
+          "185.199.111.153",
+          "185.199.108.153",
+          "185.199.110.153"
+        ],
+        "aaaa": [],
+        "mx": [],
+        "ns": [
+          "dns1.registrar-servers.com",
+          "dns2.registrar-servers.com"
+        ]
+      },
+      "page": {
+        "url": "https://orderly.cc/",
+        "finalUrl": "https://orderly.cc/",
+        "status": 200,
+        "title": "Orderly",
+        "scriptUrls": [],
+        "signals": {
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "secretForm": false,
+          "lure": [],
+          "drainerJs": [],
+          "parked": [],
+          "cryptoContext": [],
+          "interstitial": [],
+          "challenge": []
+        },
+        "brandMentions": 0,
+        "brandInTitle": false,
+        "bytes": 918,
+        "renderedWith": "playwright",
+        "faviconUrl": "https://orderly.cc/favicon.ico",
+        "screenshot": "/Users/kacpergumieniuk/Projects/4b47/mimicwatch-near/data/scans/2026-11-01/domains/orderly-network-2026-11-01/shots/orderly.cc.jpg",
+        "textSample": "We create the best digital menus for incredible hospitality businesses."
+      },
+      "similarity": {
+        "title": 0.18,
+        "text": 0,
+        "favicon": false,
+        "overall": 0.06
+      },
+      "listedOn": [],
+      "score": 20,
+      "severity": "low",
+      "label": "lookalike-unknown-content",
+      "evidence": [
+        "Official name on a different TLD",
+        "Almost empty page (71 chars of text, title \"Orderly\"): content not visible"
+      ],
+      "action": "Re-check next scan; the content was not visible to us (error, bot wall or empty page).",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "orderly.info",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "tld-swap",
+      "dns": {
+        "domain": "orderly.info",
+        "registered": true,
+        "a": [
+          "76.223.54.146",
+          "13.248.169.48"
+        ],
+        "aaaa": [],
+        "mx": [
+          ""
+        ],
+        "ns": [
+          "ns2.afternic.com",
+          "ns1.afternic.com"
+        ]
+      },
+      "page": {
+        "url": "https://orderly.info/",
+        "finalUrl": "https://forsale.godaddy.com/forsale/orderly.info?utm_source=TDFS_BINNS2&utm_medium=parkedpages&utm_campaign=x_corp_tdfs-binns2_base&traffic_type=TDFS_BINNS2&traffic_id=binns2&",
+        "status": 200,
+        "title": "Access Denied",
+        "scriptUrls": [],
+        "signals": {
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "secretForm": false,
+          "lure": [],
+          "drainerJs": [],
+          "parked": [],
+          "cryptoContext": [],
+          "interstitial": [],
+          "challenge": [
+            "Access Denied"
+          ]
+        },
+        "brandMentions": 0,
+        "brandInTitle": false,
+        "bytes": 114,
+        "renderedWith": "playwright",
+        "faviconUrl": "https://orderly.info/favicon.ico",
+        "screenshot": "/Users/kacpergumieniuk/Projects/4b47/mimicwatch-near/data/scans/2026-11-01/domains/orderly-network-2026-11-01/shots/orderly.info.jpg",
+        "textSample": "Access Denied You don't have permission to access \"http://forsale.godaddy.com/forsale/orderly.info?\" on this server. Reference #18.2f0c4017.1793549634.4c63f811 https://errors.edgesuite.net/18.2f0c4017.1793549634.4c63f811"
+      },
+      "similarity": {
+        "title": 0.15,
+        "text": 0,
+        "favicon": false,
+        "overall": 0.05
+      },
+      "listedOn": [],
+      "score": 20,
+      "severity": "low",
+      "label": "lookalike-unknown-content",
+      "evidence": [
+        "Official name on a different TLD",
+        "Bot challenge or redirect stub (\"Access Denied\"): real content not visible"
+      ],
+      "action": "Re-check next scan; the content was not visible to us (error, bot wall or empty page).",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "orderly.us",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "tld-swap",
+      "dns": {
+        "domain": "orderly.us",
+        "registered": true,
+        "a": [
+          "13.248.169.48",
+          "76.223.54.146"
+        ],
+        "aaaa": [],
+        "mx": [
+          ""
+        ],
+        "ns": [
+          "ns2.afternic.com",
+          "ns1.afternic.com"
+        ]
+      },
+      "page": {
+        "url": "http://orderly.us/",
+        "finalUrl": "https://forsale.godaddy.com/forsale/orderly.us?utm_source=TDFS_BINNS2&utm_medium=parkedpages&utm_campaign=x_corp_tdfs-binns2_base&traffic_type=TDFS_BINNS2&traffic_id=binns2&",
+        "status": 200,
+        "title": "Access Denied",
+        "scriptUrls": [],
+        "signals": {
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "secretForm": false,
+          "lure": [],
+          "drainerJs": [],
+          "parked": [],
+          "cryptoContext": [],
+          "interstitial": [],
+          "challenge": [
+            "Access Denied"
+          ]
+        },
+        "brandMentions": 0,
+        "brandInTitle": false,
+        "bytes": 114,
+        "renderedWith": "playwright",
+        "faviconUrl": "http://orderly.us/favicon.ico",
+        "screenshot": "/Users/kacpergumieniuk/Projects/4b47/mimicwatch-near/data/scans/2026-11-01/domains/orderly-network-2026-11-01/shots/orderly.us.jpg",
+        "textSample": "Access Denied You don't have permission to access \"http://forsale.godaddy.com/forsale/orderly.us?\" on this server. Reference #18.2f0c4017.1793549634.4c63fbab https://errors.edgesuite.net/18.2f0c4017.1793549634.4c63fbab"
+      },
+      "similarity": {
+        "title": 0.15,
+        "text": 0,
+        "favicon": false,
+        "overall": 0.05
+      },
+      "listedOn": [],
+      "score": 20,
+      "severity": "low",
+      "label": "lookalike-unknown-content",
+      "evidence": [
+        "Official name on a different TLD",
+        "Bot challenge or redirect stub (\"Access Denied\"): real content not visible"
+      ],
+      "action": "Re-check next scan; the content was not visible to us (error, bot wall or empty page).",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "orderly.me",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "tld-swap",
+      "dns": {
+        "domain": "orderly.me",
+        "registered": true,
+        "a": [
+          "3.33.130.190",
+          "15.197.148.33"
+        ],
+        "aaaa": [],
+        "mx": [],
+        "ns": [
+          "ns32.domaincontrol.com",
+          "ns31.domaincontrol.com"
+        ]
+      },
+      "page": {
+        "url": "https://orderly.me/",
+        "finalUrl": "https://orderly.me/",
+        "status": 200,
+        "title": "",
+        "scriptUrls": [],
+        "signals": {
+          "secretForm": false,
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "lure": [],
+          "drainerJs": [],
+          "parked": [],
+          "cryptoContext": [],
+          "interstitial": [],
+          "challenge": []
+        },
+        "brandMentions": 0,
+        "brandInTitle": false,
+        "bytes": 114,
+        "renderedWith": "http",
+        "faviconUrl": "https://orderly.me/favicon.ico",
+        "textSample": ""
+      },
+      "similarity": {
+        "title": 0,
+        "text": 0,
+        "favicon": false,
+        "overall": 0
+      },
+      "listedOn": [],
+      "score": 20,
+      "severity": "low",
+      "label": "lookalike-unknown-content",
+      "evidence": [
+        "Official name on a different TLD",
+        "Almost empty page (0 chars of text, title \"\"): content not visible"
+      ],
+      "action": "Re-check next scan; the content was not visible to us (error, bot wall or empty page).",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "orderly.dev",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "tld-swap",
+      "dns": {
+        "domain": "orderly.dev",
+        "registered": true,
+        "a": [],
+        "aaaa": [],
+        "mx": [],
+        "ns": [
+          "ns-cloud-b3.googledomains.com",
+          "ns-cloud-b2.googledomains.com",
+          "ns-cloud-b4.googledomains.com",
+          "ns-cloud-b1.googledomains.com"
+        ]
+      },
+      "listedOn": [],
+      "score": 20,
+      "severity": "low",
+      "label": "not-live",
+      "evidence": [
+        "Official name on a different TLD"
+      ],
+      "action": "Monitor (registered, no website). Consider defensive registration.",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "orderly.cloud",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "tld-swap",
+      "dns": {
+        "domain": "orderly.cloud",
+        "registered": true,
+        "a": [
+          "76.223.54.146",
+          "13.248.169.48"
+        ],
+        "aaaa": [],
+        "mx": [
+          ""
+        ],
+        "ns": [
+          "ns2.afternic.com",
+          "ns1.afternic.com"
+        ]
+      },
+      "page": {
+        "url": "https://orderly.cloud/",
+        "finalUrl": "https://orderly.cloud/",
+        "status": 200,
+        "title": "",
+        "scriptUrls": [],
+        "signals": {
+          "secretForm": false,
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "lure": [],
+          "drainerJs": [],
+          "parked": [],
+          "cryptoContext": [],
+          "interstitial": [],
+          "challenge": []
+        },
+        "brandMentions": 0,
+        "brandInTitle": false,
+        "bytes": 114,
+        "renderedWith": "http",
+        "faviconUrl": "https://orderly.cloud/favicon.ico",
+        "textSample": ""
+      },
+      "similarity": {
+        "title": 0,
+        "text": 0,
+        "favicon": false,
+        "overall": 0
+      },
+      "listedOn": [],
+      "score": 20,
+      "severity": "low",
+      "label": "lookalike-unknown-content",
+      "evidence": [
+        "Official name on a different TLD",
+        "Almost empty page (0 chars of text, title \"\"): content not visible"
+      ],
+      "action": "Re-check next scan; the content was not visible to us (error, bot wall or empty page).",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "orderly.global",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "tld-swap",
+      "dns": {
+        "domain": "orderly.global",
+        "registered": true,
+        "a": [],
+        "aaaa": [],
+        "mx": [
+          "aspmx.l.google.com",
+          "alt2.aspmx.l.google.com",
+          "alt3.aspmx.l.google.com"
+        ],
+        "ns": [
+          "archer.ns.cloudflare.com",
+          "sasha.ns.cloudflare.com"
+        ]
+      },
+      "listedOn": [],
+      "score": 20,
+      "severity": "low",
+      "label": "not-live",
+      "evidence": [
+        "Official name on a different TLD"
+      ],
+      "action": "Monitor (registered, no website). Consider defensive registration.",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "orderly.digital",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "tld-swap",
+      "dns": {
+        "domain": "orderly.digital",
+        "registered": true,
+        "a": [
+          "87.106.167.36"
+        ],
+        "aaaa": [],
+        "mx": [],
+        "ns": [
+          "ns3.stratoserver.net",
+          "ns4.stratoserver.net"
+        ]
+      },
+      "page": {
+        "url": "https://orderly.digital/",
+        "finalUrl": "https://orderly.digital/",
+        "status": 0,
+        "title": "",
+        "scriptUrls": [],
+        "signals": {
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "secretForm": false,
+          "lure": [],
+          "drainerJs": [],
+          "parked": [],
+          "cryptoContext": [],
+          "interstitial": [],
+          "challenge": []
+        },
+        "brandMentions": 0,
+        "brandInTitle": false,
+        "bytes": 0,
+        "renderedWith": "http",
+        "error": "807F20EE01000000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:../deps/openssl/openssl/ssl/record/rec_layer_s3.c:918:SSL alert number 80\n; http: 807F20EE01000000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:../deps/openssl/openssl/ssl/record/rec_layer_s3.c:918:SSL alert number 80\n",
+        "textSample": ""
+      },
+      "listedOn": [],
+      "score": 20,
+      "severity": "low",
+      "label": "lookalike-unknown-content",
+      "evidence": [
+        "Official name on a different TLD",
+        "Page not reachable: 807F20EE01000000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert interna"
+      ],
+      "action": "Re-check next scan; the content was not visible to us (error, bot wall or empty page).",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "orderly.space",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "tld-swap",
+      "dns": {
+        "domain": "orderly.space",
+        "registered": true,
+        "a": [],
+        "aaaa": [],
+        "mx": [
+          "aspmx.l.google.com",
+          "alt2.aspmx.l.google.com",
+          "alt1.aspmx.l.google.com",
+          "alt4.aspmx.l.google.com",
+          "alt3.aspmx.l.google.com"
+        ],
+        "ns": [
+          "hal.ns.cloudflare.com",
+          "mary.ns.cloudflare.com"
+        ]
+      },
+      "listedOn": [],
+      "score": 20,
+      "severity": "low",
+      "label": "not-live",
+      "evidence": [
+        "Official name on a different TLD"
+      ],
+      "action": "Monitor (registered, no website). Consider defensive registration.",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "orderly.website",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "tld-swap",
+      "dns": {
+        "domain": "orderly.website",
+        "registered": true,
+        "a": [
+          "13.248.169.48",
+          "76.223.54.146"
+        ],
+        "aaaa": [],
+        "mx": [
+          ""
+        ],
+        "ns": [
+          "ns4.afternic.com",
+          "ns3.afternic.com"
+        ]
+      },
+      "page": {
+        "url": "https://orderly.website/",
+        "finalUrl": "https://orderly.website/",
+        "status": 200,
+        "title": "",
+        "scriptUrls": [],
+        "signals": {
+          "secretForm": false,
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "lure": [],
+          "drainerJs": [],
+          "parked": [],
+          "cryptoContext": [],
+          "interstitial": [],
+          "challenge": []
+        },
+        "brandMentions": 0,
+        "brandInTitle": false,
+        "bytes": 114,
+        "renderedWith": "http",
+        "faviconUrl": "https://orderly.website/favicon.ico",
+        "textSample": ""
+      },
+      "similarity": {
+        "title": 0,
+        "text": 0,
+        "favicon": false,
+        "overall": 0
+      },
+      "listedOn": [],
+      "score": 20,
+      "severity": "low",
+      "label": "lookalike-unknown-content",
+      "evidence": [
+        "Official name on a different TLD",
+        "Almost empty page (0 chars of text, title \"\"): content not visible"
+      ],
+      "action": "Re-check next scan; the content was not visible to us (error, bot wall or empty page).",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "orderly.store",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "tld-swap",
+      "dns": {
+        "domain": "orderly.store",
+        "registered": true,
+        "a": [
+          "13.248.169.48",
+          "76.223.54.146"
+        ],
+        "aaaa": [],
+        "mx": [],
+        "ns": [
+          "ns1.dan.com",
+          "ns2.dan.com"
+        ]
+      },
+      "page": {
+        "url": "https://orderly.store/",
+        "finalUrl": "https://orderly.store/",
+        "status": 200,
+        "title": "",
+        "scriptUrls": [],
+        "signals": {
+          "secretForm": false,
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "lure": [],
+          "drainerJs": [],
+          "parked": [],
+          "cryptoContext": [],
+          "interstitial": [],
+          "challenge": []
+        },
+        "brandMentions": 0,
+        "brandInTitle": false,
+        "bytes": 114,
+        "renderedWith": "http",
+        "faviconUrl": "https://orderly.store/favicon.ico",
+        "textSample": ""
+      },
+      "similarity": {
+        "title": 0,
+        "text": 0,
+        "favicon": false,
+        "overall": 0
+      },
+      "listedOn": [],
+      "score": 20,
+      "severity": "low",
+      "label": "lookalike-unknown-content",
+      "evidence": [
+        "Official name on a different TLD",
+        "Almost empty page (0 chars of text, title \"\"): content not visible"
+      ],
+      "action": "Re-check next scan; the content was not visible to us (error, bot wall or empty page).",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "orderly.biz",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "tld-swap",
+      "dns": {
+        "domain": "orderly.biz",
+        "registered": true,
+        "a": [],
+        "aaaa": [],
+        "mx": [],
+        "ns": [
+          "ns4-02.azure-dns.info",
+          "ns3-02.azure-dns.org",
+          "ns2-02.azure-dns.net",
+          "ns1-02.azure-dns.com"
+        ]
+      },
+      "listedOn": [],
+      "score": 20,
+      "severity": "low",
+      "label": "not-live",
+      "evidence": [
+        "Official name on a different TLD"
+      ],
+      "action": "Monitor (registered, no website). Consider defensive registration.",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "orderly.ai",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "tld-swap",
+      "dns": {
+        "domain": "orderly.ai",
+        "registered": true,
+        "a": [
+          "150.171.109.101"
+        ],
+        "aaaa": [],
+        "mx": [
+          "orderly-ai.mail.protection.outlook.com"
+        ],
+        "ns": [
+          "ns3-04.azure-dns.org",
+          "ns2-04.azure-dns.net",
+          "ns4-04.azure-dns.info",
+          "ns1-04.azure-dns.com"
+        ]
+      },
+      "page": {
+        "url": "https://orderly.ai/",
+        "finalUrl": "https://orderly.ai/",
+        "status": 200,
+        "title": "",
+        "scriptUrls": [],
+        "signals": {
+          "secretForm": false,
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "lure": [],
+          "drainerJs": [],
+          "parked": [],
+          "cryptoContext": [],
+          "interstitial": [],
+          "challenge": []
+        },
+        "brandMentions": 0,
+        "brandInTitle": false,
+        "bytes": 186,
+        "renderedWith": "http",
+        "faviconUrl": "https://orderly.ai/favicon.ico",
+        "textSample": "{ \"applinks\": { \"apps\": [], \"details\": [ { \"appID\": \"UTC8QSQM9F.ai.orderly.warehouse\", \"paths\": [ \"/*\" ] } ] } }"
+      },
+      "similarity": {
+        "title": 0,
+        "text": 0,
+        "favicon": false,
+        "overall": 0
+      },
+      "listedOn": [],
+      "score": 20,
+      "severity": "low",
+      "label": "lookalike-unknown-content",
+      "evidence": [
+        "Official name on a different TLD",
+        "Almost empty page (112 chars of text, title \"\"): content not visible"
+      ],
+      "action": "Re-check next scan; the content was not visible to us (error, bot wall or empty page).",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "orderly.org",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "tld-swap",
+      "dns": {
+        "domain": "orderly.org",
+        "registered": true,
+        "a": [],
+        "aaaa": [],
+        "mx": [],
+        "ns": [
+          "heather.ns.cloudflare.com",
+          "simon.ns.cloudflare.com"
+        ]
+      },
+      "listedOn": [],
+      "score": 10,
+      "severity": "info",
+      "label": "brand-owned-redirect",
+      "evidence": [
+        "Official name on a different TLD",
+        "Same nameservers as the official domain: probably registered by the brand itself"
+      ],
+      "action": "No action. Confirm the client owns this domain and add it to the allowlist.",
+      "alreadyBlocked": false
+    }
+  ],
+  "tokens": [],
+  "errors": []
+}

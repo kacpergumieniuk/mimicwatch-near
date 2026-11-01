@@ -1,0 +1,781 @@
+{
+  "brand": {
+    "name": "NEAR Intents",
+    "officialDomains": [
+      "near-intents.org",
+      "chaindefuser.com"
+    ],
+    "referenceUrl": "https://near-intents.org",
+    "officialTokens": [],
+    "officialSocials": {
+      "telegram": "near_intents",
+      "github": "near/intents"
+    },
+    "keywords": [
+      "near-intents",
+      "nearintents",
+      "chaindefuser",
+      "defuse"
+    ],
+    "allowlist": [],
+    "tokenChains": [
+      "base"
+    ]
+  },
+  "startedAt": "2026-11-01T16:02:42.688Z",
+  "finishedAt": "2026-11-01T16:04:50.914Z",
+  "periodDays": 30,
+  "official": {
+    "url": "https://near-intents.org/",
+    "title": "NEAR Intents | The Smartest Way to Trade Across Chains",
+    "faviconSha256": "f30ec0c5933c7aebdbacfbf422f461e88a02c4b0b0ff4ef9c97bc873c186426a"
+  },
+  "stats": {
+    "permutations": 2622,
+    "permutationsRegistered": 6,
+    "ctHosts": 0,
+    "nrdHits": 1,
+    "candidates": 7,
+    "pagesFetched": 6,
+    "pagesRendered": 3,
+    "tokensIndexed": {},
+    "tokenMatches": 0
+  },
+  "coverage": {
+    "ct": [
+      {
+        "q": "near-intents%",
+        "rows": 0,
+        "error": "HTTP 400"
+      },
+      {
+        "q": "near-intents.%",
+        "rows": 0,
+        "error": "HTTP 400"
+      },
+      {
+        "q": "near-intents-%",
+        "rows": 0,
+        "error": "HTTP 400"
+      },
+      {
+        "q": "%near-intents%",
+        "rows": 0,
+        "error": "HTTP 400"
+      },
+      {
+        "q": "nearintents%",
+        "rows": 0,
+        "error": "HTTP 400"
+      },
+      {
+        "q": "nearintents.%",
+        "rows": 0,
+        "error": "HTTP 400"
+      },
+      {
+        "q": "nearintents-%",
+        "rows": 0,
+        "error": "HTTP 400"
+      },
+      {
+        "q": "%nearintents%",
+        "rows": 0,
+        "error": "HTTP 400"
+      },
+      {
+        "q": "chaindefuser%",
+        "rows": 0,
+        "error": "HTTP 400"
+      },
+      {
+        "q": "chaindefuser.%",
+        "rows": 0,
+        "error": "HTTP 400"
+      },
+      {
+        "q": "chaindefuser-%",
+        "rows": 0,
+        "error": "HTTP 400"
+      },
+      {
+        "q": "%chaindefuser%",
+        "rows": 0,
+        "error": "HTTP 400"
+      },
+      {
+        "q": "defuse%",
+        "rows": 0,
+        "error": "HTTP 400"
+      },
+      {
+        "q": "defuse.%",
+        "rows": 0,
+        "error": "HTTP 400"
+      },
+      {
+        "q": "defuse-%",
+        "rows": 0,
+        "error": "HTTP 400"
+      },
+      {
+        "q": "%defuse%",
+        "rows": 0,
+        "error": "HTTP 400"
+      }
+    ],
+    "nrd": [
+      {
+        "day": "2026-10-31",
+        "domains": 70000
+      },
+      {
+        "day": "2026-10-30",
+        "domains": 70000
+      },
+      {
+        "day": "2026-10-29",
+        "domains": 70000
+      },
+      {
+        "day": "2026-10-28",
+        "domains": 70000
+      }
+    ],
+    "tokens": [],
+    "blocklists": [
+      "metamask",
+      "scamsniffer"
+    ]
+  },
+  "domains": [
+    {
+      "kind": "domain",
+      "host": "near-intents.net",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "tld-swap",
+      "dns": {
+        "domain": "near-intents.net",
+        "registered": true,
+        "a": [
+          "188.114.97.3",
+          "188.114.96.3"
+        ],
+        "aaaa": [],
+        "mx": [],
+        "ns": [
+          "matias.ns.cloudflare.com",
+          "blakely.ns.cloudflare.com"
+        ]
+      },
+      "page": {
+        "url": "https://near-intents.net/",
+        "finalUrl": "https://near-intents.net/",
+        "status": 200,
+        "title": "Near Intents | Cross-Chain Token Swap Platform",
+        "scriptUrls": [],
+        "signals": {
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "secretForm": false,
+          "lure": [],
+          "drainerJs": [],
+          "parked": [],
+          "cryptoContext": [
+            "DeFi",
+            "Token",
+            "Swap",
+            "liquidity",
+            "blockchain",
+            "Ethereum",
+            "bridge"
+          ],
+          "interstitial": [],
+          "challenge": []
+        },
+        "brandMentions": 0,
+        "brandInTitle": false,
+        "bytes": 2063,
+        "renderedWith": "playwright",
+        "faviconUrl": "https://near-intents.net/favicon.ico",
+        "screenshot": "/Users/kacpergumieniuk/Projects/4b47/mimicwatch-near/data/scans/2026-11-01/domains/near-intents-2026-11-01/shots/near-intents.net.jpg",
+        "textSample": "Near Intents Trade FAQ About Intent-Based Cross-Chain Trading About Near Intents Near Intents is redefining how traders interact with decentralized finance — making cross-chain swaps smarter, faster, and more efficient through an intent-based architecture powered by NEAR Protocol. Our Mission At Nea"
+      },
+      "similarity": {
+        "title": 0.14,
+        "text": 0,
+        "favicon": false,
+        "overall": 0.05
+      },
+      "listedOn": [
+        "metamask"
+      ],
+      "score": 57,
+      "severity": "high",
+      "label": "phishing-likely",
+      "evidence": [
+        "Official name on a different TLD",
+        "Already on public wallet blocklist(s): metamask",
+        "Lookalike of your domain serving other crypto content (DeFi, Token, Swap)"
+      ],
+      "action": "Already blocked (metamask). After client approval: file registrar and host abuse reports so the domain itself goes away (drafts attached).",
+      "alreadyBlocked": true,
+      "rdap": {
+        "domain": "near-intents.net",
+        "registrar": "Atak Domain Bilgi Teknolojileri A.S.",
+        "ianaId": "1601",
+        "abuse": {
+          "email": "domain@apiname.com",
+          "phone": "+90.2623259222"
+        },
+        "registered": "2026-05-18T23:14:55Z",
+        "expires": "2027-05-18T23:14:55Z",
+        "status": [
+          "active"
+        ],
+        "source": "https://rdap.verisign.com/net/v1/domain/near-intents.net"
+      },
+      "hosting": {
+        "ip": "188.114.97.3",
+        "network": "CLOUDFLARENET-EU",
+        "org": "MNT-CLOUDFLARE",
+        "abuse": {
+          "name": "Cloudflare Abuse Contact",
+          "email": "abuse@cloudflare.com",
+          "form": "https://abuse.cloudflare.com/"
+        }
+      },
+      "drafts": [
+        {
+          "channel": "registrar-abuse",
+          "title": "Registrar abuse report to Atak Domain Bilgi Teknolojileri A.S.",
+          "to": "domain@apiname.com",
+          "subject": "Phishing / brand impersonation: near-intents.net impersonates NEAR Intents",
+          "body": "DRAFT - NOT FILED. File only after the brand owner approves it and has signed a Letter of Authorisation.\n\nHello Atak Domain Bilgi Teknolojileri A.S. abuse team,\n\nThe domain near-intents[.]net (registered with you on 2026-05-18) is being used to impersonate NEAR Intents, a crypto project whose official site is hxxps://near-intents[.]org, https://chaindefuser[.]com. We ask you to suspend the domain under your abuse policy and the RAA section 3.18 obligations.\n\nEvidence (observed 2026-11-01, read-only, URLs defanged):\n- URL: hxxps://near-intents[.]net/\n- Official name on a different TLD\n- Already on public wallet blocklist(s): metamask\n- Lookalike of your domain serving other crypto content (DeFi, Token, Swap)\n- Resolves to 188.114.97.3, 188.114.96.3\n- Page title: \"Near Intents | Cross-Chain Token Swap Platform\"\n- Screenshot: shots/near-intents.net.jpg (attach)\n\nWe are not affiliated with the operator of near-intents[.]net. NEAR Intents has not authorised its use of the brand. Screenshots and HTML captures are available on request.\n\nRegards,\n{{REPORTER_NAME}}\n{{REPORTER_ORG}}, acting for NEAR Intents under a Letter of Authorisation dated {{LOA_DATE}}\n{{REPORTER_EMAIL}}",
+          "notes": [
+            "Registrar IANA ID 1601, abuse phone +90.2623259222"
+          ]
+        },
+        {
+          "channel": "host-abuse",
+          "title": "Hosting abuse report to MNT-CLOUDFLARE",
+          "to": "https://abuse.cloudflare.com/",
+          "subject": "Phishing site hosted on your network: near-intents.net (NEAR Intents impersonation)",
+          "body": "DRAFT - NOT FILED. File only after the brand owner approves it and has signed a Letter of Authorisation.\n\nHello MNT-CLOUDFLARE,\n\nhxxps://near-intents[.]net/ (188.114.97.3, 188.114.96.3) is hosted on your network and impersonates NEAR Intents (official: hxxps://near-intents[.]org, https://chaindefuser[.]com).\n\nEvidence (observed 2026-11-01):\n- Official name on a different TLD\n- Already on public wallet blocklist(s): metamask\n- Lookalike of your domain serving other crypto content (DeFi, Token, Swap)\n- Resolves to 188.114.97.3, 188.114.96.3\n- Page title: \"Near Intents | Cross-Chain Token Swap Platform\"\n- Screenshot: shots/near-intents.net.jpg (attach)\n\nPlease take the content down under your acceptable use policy.\n\nRegards,\n{{REPORTER_NAME}}\n{{REPORTER_ORG}}, acting for NEAR Intents under a Letter of Authorisation dated {{LOA_DATE}}\n{{REPORTER_EMAIL}}",
+          "notes": [
+            "Email alternative: abuse@cloudflare.com"
+          ]
+        },
+        {
+          "channel": "google-safe-browsing",
+          "title": "Google Safe Browsing report",
+          "to": "https://safebrowsing.google.com/safebrowsing/report_phish/?url=https%3A%2F%2Fnear-intents.net%2F",
+          "fields": {
+            "Report Type": "This page is not safe",
+            "Threat Type": "Social engineering (phishing) - pick the closest option shown",
+            "Threat Category": "Pick the closest option shown (impersonation / phishing)",
+            "URL to report": "https://near-intents.net/",
+            "Additional details (max 800)": "Impersonates NEAR Intents (official: https://near-intents.org, https://chaindefuser.com). Already on public wallet blocklist(s): metamask; Official name on a different TLD; Lookalike of your domain serving other crypto content (DeFi, Token, Swap)."
+          },
+          "body": "DRAFT - NOT FILED. File only after the brand owner approves it and has signed a Letter of Authorisation.\n\nImpersonates NEAR Intents (official: https://near-intents.org, https://chaindefuser.com). Already on public wallet blocklist(s): metamask; Official name on a different TLD; Lookalike of your domain serving other crypto content (DeFi, Token, Swap).",
+          "notes": [
+            "Web form with reCAPTCHA: a person has to submit it."
+          ]
+        },
+        {
+          "channel": "netcraft",
+          "title": "Netcraft report",
+          "to": "https://report.netcraft.com/report",
+          "fields": {
+            "The URL of the site": "https://near-intents.net/",
+            "Further details": "Impersonates NEAR Intents (official: https://near-intents.org, https://chaindefuser.com). Already on public wallet blocklist(s): metamask; Official name on a different TLD; Lookalike of your domain serving other crypto content (DeFi, Token, Swap).",
+            "Your email address": "{{REPORTER_EMAIL}}"
+          },
+          "body": "DRAFT - NOT FILED. File only after the brand owner approves it and has signed a Letter of Authorisation.\n\nImpersonates NEAR Intents (official: https://near-intents.org, https://chaindefuser.com). Already on public wallet blocklist(s): metamask; Official name on a different TLD; Lookalike of your domain serving other crypto content (DeFi, Token, Swap).",
+          "notes": [
+            "Web form with reCAPTCHA. Netcraft feeds many browser and registrar blocklists."
+          ]
+        },
+        {
+          "channel": "scamsniffer-issue",
+          "title": "ScamSniffer scam-database issue",
+          "to": "https://github.com/scamsniffer/scam-database/issues/new",
+          "subject": "[Phishing] near-intents.net - NEAR Intents impersonation",
+          "body": "DRAFT - NOT FILED. File only after the brand owner approves it and has signed a Letter of Authorisation.\n\nDomain: near-intents.net\nScam addresses (with chain): {{ADD IF KNOWN, e.g. from a victim's drain tx}}\nImpersonates: NEAR Intents (official: https://near-intents.org, https://chaindefuser.com)\n\nEvidence (observed 2026-11-01):\n- Official name on a different TLD\n- Already on public wallet blocklist(s): metamask\n- Lookalike of your domain serving other crypto content (DeFi, Token, Swap)\n- Resolves to 188.114.97.3, 188.114.96.3\n- Page title: \"Near Intents | Cross-Chain Token Swap Platform\"\n- Screenshot: shots/near-intents.net.jpg (attach)",
+          "notes": [
+            "ScamSniffer asks for issues, not PRs (their JSON is regenerated). Attach the screenshot."
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "domain",
+      "host": "near-intents.dev",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "tld-swap",
+      "dns": {
+        "domain": "near-intents.dev",
+        "registered": true,
+        "a": [
+          "172.67.218.187",
+          "104.21.45.202"
+        ],
+        "aaaa": [],
+        "mx": [],
+        "ns": [
+          "lauryn.ns.cloudflare.com",
+          "igor.ns.cloudflare.com"
+        ]
+      },
+      "page": {
+        "url": "https://near-intents.dev/",
+        "finalUrl": "https://near-intents.dev/",
+        "status": 403,
+        "title": "Just a moment...",
+        "scriptUrls": [],
+        "signals": {
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "secretForm": false,
+          "lure": [],
+          "drainerJs": [
+            "obfuscated-js(5944 _0x identifiers)"
+          ],
+          "parked": [],
+          "cryptoContext": [],
+          "interstitial": [],
+          "challenge": [
+            "Just a moment..."
+          ]
+        },
+        "brandMentions": 0,
+        "brandInTitle": false,
+        "bytes": 5587,
+        "renderedWith": "playwright",
+        "faviconUrl": "https://near-intents.dev/favicon.ico",
+        "screenshot": "/Users/kacpergumieniuk/Projects/4b47/mimicwatch-near/data/scans/2026-11-01/domains/near-intents-2026-11-01/shots/near-intents.dev.jpg",
+        "textSample": "near-intents.dev Performing security verification This website uses a security service to protect against malicious bots. This page is displayed while the website verifies you are not a bot. Verification successful. Waiting for near-intents.dev to respond Ray ID: a53c231ded357057 Performance and Sec"
+      },
+      "similarity": {
+        "title": 0.14,
+        "text": 0,
+        "favicon": false,
+        "overall": 0.05
+      },
+      "listedOn": [
+        "metamask"
+      ],
+      "score": 45,
+      "severity": "high",
+      "label": "phishing-likely",
+      "evidence": [
+        "Official name on a different TLD",
+        "Already on public wallet blocklist(s): metamask",
+        "Bot challenge or redirect stub (\"Just a moment...\"): real content not visible"
+      ],
+      "action": "Already blocked (metamask). After client approval: file registrar and host abuse reports so the domain itself goes away (drafts attached).",
+      "alreadyBlocked": true,
+      "rdap": {
+        "domain": "near-intents.dev",
+        "registrar": "Web Commerce Communications Limited dba WebNic.cc",
+        "ianaId": "460",
+        "abuse": {
+          "name": "Web Commerce Communications Ltd.",
+          "email": "compliance_abuse@webnic.cc",
+          "phone": "+603.89966788"
+        },
+        "registered": "2026-01-28T21:25:00.117Z",
+        "expires": "2027-01-28T21:25:00.117Z",
+        "status": [
+          "client delete prohibited",
+          "client transfer prohibited",
+          "client update prohibited"
+        ],
+        "source": "https://pubapi.registry.google/rdap/domain/near-intents.dev"
+      },
+      "hosting": {
+        "ip": "172.67.218.187",
+        "network": "CLOUDFLARENET",
+        "org": "Cloudflare, Inc.",
+        "abuse": {
+          "name": "Abuse",
+          "email": "abuse@cloudflare.com",
+          "phone": "+1-650-319-8930",
+          "form": "https://abuse.cloudflare.com/"
+        }
+      },
+      "drafts": [
+        {
+          "channel": "registrar-abuse",
+          "title": "Registrar abuse report to Web Commerce Communications Limited dba WebNic.cc",
+          "to": "compliance_abuse@webnic.cc",
+          "subject": "Phishing / brand impersonation: near-intents.dev impersonates NEAR Intents",
+          "body": "DRAFT - NOT FILED. File only after the brand owner approves it and has signed a Letter of Authorisation.\n\nHello Web Commerce Communications Limited dba WebNic.cc abuse team,\n\nThe domain near-intents[.]dev (registered with you on 2026-01-28) is being used to impersonate NEAR Intents, a crypto project whose official site is hxxps://near-intents[.]org, https://chaindefuser[.]com. We ask you to suspend the domain under your abuse policy and the RAA section 3.18 obligations.\n\nEvidence (observed 2026-11-01, read-only, URLs defanged):\n- URL: hxxps://near-intents[.]dev/\n- Official name on a different TLD\n- Already on public wallet blocklist(s): metamask\n- Bot challenge or redirect stub (\"Just a moment...\"): real content not visible\n- Resolves to 172.67.218.187, 104.21.45.202\n- Page title: \"Just a moment...\"\n- Screenshot: shots/near-intents.dev.jpg (attach)\n\nWe are not affiliated with the operator of near-intents[.]dev. NEAR Intents has not authorised its use of the brand. Screenshots and HTML captures are available on request.\n\nRegards,\n{{REPORTER_NAME}}\n{{REPORTER_ORG}}, acting for NEAR Intents under a Letter of Authorisation dated {{LOA_DATE}}\n{{REPORTER_EMAIL}}",
+          "notes": [
+            "Registrar IANA ID 460, abuse phone +603.89966788"
+          ]
+        },
+        {
+          "channel": "host-abuse",
+          "title": "Hosting abuse report to Cloudflare, Inc.",
+          "to": "https://abuse.cloudflare.com/",
+          "subject": "Phishing site hosted on your network: near-intents.dev (NEAR Intents impersonation)",
+          "body": "DRAFT - NOT FILED. File only after the brand owner approves it and has signed a Letter of Authorisation.\n\nHello Cloudflare, Inc.,\n\nhxxps://near-intents[.]dev/ (172.67.218.187, 104.21.45.202) is hosted on your network and impersonates NEAR Intents (official: hxxps://near-intents[.]org, https://chaindefuser[.]com).\n\nEvidence (observed 2026-11-01):\n- Official name on a different TLD\n- Already on public wallet blocklist(s): metamask\n- Bot challenge or redirect stub (\"Just a moment...\"): real content not visible\n- Resolves to 172.67.218.187, 104.21.45.202\n- Page title: \"Just a moment...\"\n- Screenshot: shots/near-intents.dev.jpg (attach)\n\nPlease take the content down under your acceptable use policy.\n\nRegards,\n{{REPORTER_NAME}}\n{{REPORTER_ORG}}, acting for NEAR Intents under a Letter of Authorisation dated {{LOA_DATE}}\n{{REPORTER_EMAIL}}",
+          "notes": [
+            "Email alternative: abuse@cloudflare.com"
+          ]
+        },
+        {
+          "channel": "google-safe-browsing",
+          "title": "Google Safe Browsing report",
+          "to": "https://safebrowsing.google.com/safebrowsing/report_phish/?url=https%3A%2F%2Fnear-intents.dev%2F",
+          "fields": {
+            "Report Type": "This page is not safe",
+            "Threat Type": "Social engineering (phishing) - pick the closest option shown",
+            "Threat Category": "Pick the closest option shown (impersonation / phishing)",
+            "URL to report": "https://near-intents.dev/",
+            "Additional details (max 800)": "Impersonates NEAR Intents (official: https://near-intents.org, https://chaindefuser.com). Already on public wallet blocklist(s): metamask; Official name on a different TLD; Bot challenge or redirect stub (\"Just a moment...\"): real content not visible."
+          },
+          "body": "DRAFT - NOT FILED. File only after the brand owner approves it and has signed a Letter of Authorisation.\n\nImpersonates NEAR Intents (official: https://near-intents.org, https://chaindefuser.com). Already on public wallet blocklist(s): metamask; Official name on a different TLD; Bot challenge or redirect stub (\"Just a moment...\"): real content not visible.",
+          "notes": [
+            "Web form with reCAPTCHA: a person has to submit it."
+          ]
+        },
+        {
+          "channel": "netcraft",
+          "title": "Netcraft report",
+          "to": "https://report.netcraft.com/report",
+          "fields": {
+            "The URL of the site": "https://near-intents.dev/",
+            "Further details": "Impersonates NEAR Intents (official: https://near-intents.org, https://chaindefuser.com). Already on public wallet blocklist(s): metamask; Official name on a different TLD; Bot challenge or redirect stub (\"Just a moment...\"): real content not visible.",
+            "Your email address": "{{REPORTER_EMAIL}}"
+          },
+          "body": "DRAFT - NOT FILED. File only after the brand owner approves it and has signed a Letter of Authorisation.\n\nImpersonates NEAR Intents (official: https://near-intents.org, https://chaindefuser.com). Already on public wallet blocklist(s): metamask; Official name on a different TLD; Bot challenge or redirect stub (\"Just a moment...\"): real content not visible.",
+          "notes": [
+            "Web form with reCAPTCHA. Netcraft feeds many browser and registrar blocklists."
+          ]
+        },
+        {
+          "channel": "scamsniffer-issue",
+          "title": "ScamSniffer scam-database issue",
+          "to": "https://github.com/scamsniffer/scam-database/issues/new",
+          "subject": "[Phishing] near-intents.dev - NEAR Intents impersonation",
+          "body": "DRAFT - NOT FILED. File only after the brand owner approves it and has signed a Letter of Authorisation.\n\nDomain: near-intents.dev\nScam addresses (with chain): {{ADD IF KNOWN, e.g. from a victim's drain tx}}\nImpersonates: NEAR Intents (official: https://near-intents.org, https://chaindefuser.com)\n\nEvidence (observed 2026-11-01):\n- Official name on a different TLD\n- Already on public wallet blocklist(s): metamask\n- Bot challenge or redirect stub (\"Just a moment...\"): real content not visible\n- Resolves to 172.67.218.187, 104.21.45.202\n- Page title: \"Just a moment...\"\n- Screenshot: shots/near-intents.dev.jpg (attach)",
+          "notes": [
+            "ScamSniffer asks for issues, not PRs (their JSON is regenerated). Attach the screenshot."
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "domain",
+      "host": "near-lntents.org",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "homoglyph",
+      "dns": {
+        "domain": "near-lntents.org",
+        "registered": true,
+        "a": [
+          "185.193.126.22"
+        ],
+        "aaaa": [],
+        "mx": [],
+        "ns": [
+          "1-you.njalla.no",
+          "2-can.njalla.in",
+          "3-get.njalla.fo"
+        ]
+      },
+      "page": {
+        "url": "http://near-lntents.org/",
+        "finalUrl": "http://near-lntents.org/",
+        "status": 200,
+        "title": "Service unavailable",
+        "scriptUrls": [],
+        "signals": {
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "secretForm": false,
+          "lure": [],
+          "drainerJs": [],
+          "parked": [],
+          "cryptoContext": [],
+          "interstitial": [],
+          "challenge": []
+        },
+        "brandMentions": 0,
+        "brandInTitle": false,
+        "bytes": 245,
+        "renderedWith": "playwright",
+        "faviconUrl": "http://near-lntents.org/favicon.ico",
+        "screenshot": "/Users/kacpergumieniuk/Projects/4b47/mimicwatch-near/data/scans/2026-11-01/domains/near-intents-2026-11-01/shots/near-lntents.org.jpg",
+        "textSample": ""
+      },
+      "similarity": {
+        "title": 0.14,
+        "text": 0,
+        "favicon": false,
+        "overall": 0.05
+      },
+      "listedOn": [],
+      "score": 30,
+      "severity": "low",
+      "label": "lookalike-unknown-content",
+      "evidence": [
+        "Homoglyph lookalike of the official domain",
+        "Almost empty page (0 chars of text, title \"Service unavailable\"): content not visible"
+      ],
+      "action": "Re-check next scan; the content was not visible to us (error, bot wall or empty page).",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "near-intent.org",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "omission",
+      "dns": {
+        "domain": "near-intent.org",
+        "registered": true,
+        "a": [
+          "91.195.240.94"
+        ],
+        "aaaa": [],
+        "mx": [],
+        "ns": [
+          "ns3bgq.name.com",
+          "ns4htz.name.com",
+          "ns1jlp.name.com",
+          "ns2jrt.name.com"
+        ]
+      },
+      "page": {
+        "url": "http://near-intent.org/",
+        "finalUrl": "http://near-intent.org/",
+        "status": 200,
+        "title": "near-intent.org - near intent Zasoby i informacje.",
+        "scriptUrls": [],
+        "signals": {
+          "secretForm": false,
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "lure": [],
+          "drainerJs": [],
+          "parked": [
+            "Zasoby i informacje"
+          ],
+          "cryptoContext": [],
+          "interstitial": [],
+          "challenge": []
+        },
+        "brandMentions": 0,
+        "brandInTitle": false,
+        "bytes": 3080,
+        "renderedWith": "http",
+        "faviconUrl": "http://img.sedoparking.com/templates/logos/sedo_logo.png",
+        "faviconSha256": "95c427fa3143b1896faf42a6406686ce7602cb39052081bb32d12b51c9e047e4",
+        "textSample": ""
+      },
+      "similarity": {
+        "title": 0.08,
+        "text": 0,
+        "favicon": false,
+        "overall": 0.03
+      },
+      "listedOn": [],
+      "score": 26,
+      "severity": "low",
+      "label": "parked",
+      "evidence": [
+        "Typosquat (omission) of the official domain",
+        "Parked / for-sale page"
+      ],
+      "action": "Monitor. Consider buying it defensively or a UDRP if it turns active.",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "defuselabs.com.br",
+      "sources": [
+        "nrd"
+      ],
+      "nrdDate": "2026-10-30",
+      "dns": {
+        "domain": "defuselabs.com.br",
+        "registered": true,
+        "a": [],
+        "aaaa": [],
+        "mx": [
+          ""
+        ],
+        "ns": [
+          "veronica.ns.cloudflare.com",
+          "merlin.ns.cloudflare.com"
+        ]
+      },
+      "listedOn": [],
+      "score": 15,
+      "severity": "info",
+      "label": "not-live",
+      "evidence": [
+        "Hostname contains the brand name",
+        "Newly registered domain (WhoisDS daily list)"
+      ],
+      "action": "Monitor (registered, no website). Consider defensive registration.",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "nearintents.org",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "omission",
+      "dns": {
+        "domain": "nearintents.org",
+        "registered": true,
+        "a": [
+          "188.114.97.3",
+          "188.114.96.3"
+        ],
+        "aaaa": [],
+        "mx": [],
+        "ns": [
+          "gene.ns.cloudflare.com",
+          "nero.ns.cloudflare.com"
+        ]
+      },
+      "page": {
+        "url": "https://nearintents.org/",
+        "finalUrl": "https://near-intents.org/",
+        "status": 200,
+        "title": "NEAR Intents | The Smartest Way to Trade Across Chains",
+        "scriptUrls": [
+          "https://near-intents.org/_next/static/chunks/13k577em9fwgy.js?dpl=dpl_ANS2SjGTC5b3szdpsn1F9CMr3dYg",
+          "https://near-intents.org/_next/static/chunks/03uz9h6zcjv45.js?dpl=dpl_ANS2SjGTC5b3szdpsn1F9CMr3dYg",
+          "https://near-intents.org/_next/static/chunks/04z~ccjp3p59p.js?dpl=dpl_ANS2SjGTC5b3szdpsn1F9CMr3dYg",
+          "https://near-intents.org/_next/static/chunks/turbopack-09wow5~tu5r12.js?dpl=dpl_ANS2SjGTC5b3szdpsn1F9CMr3dYg",
+          "https://near-intents.org/_next/static/chunks/0w6df-cuo2uv-.js?dpl=dpl_ANS2SjGTC5b3szdpsn1F9CMr3dYg",
+          "https://near-intents.org/_next/static/chunks/0pjo.b4ox9.ls.js?dpl=dpl_ANS2SjGTC5b3szdpsn1F9CMr3dYg"
+        ],
+        "signals": {
+          "secretForm": false,
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "lure": [],
+          "drainerJs": [],
+          "parked": [],
+          "cryptoContext": [],
+          "interstitial": [],
+          "challenge": []
+        },
+        "brandMentions": 0,
+        "brandInTitle": false,
+        "bytes": 91757,
+        "renderedWith": "http",
+        "faviconUrl": "https://near-intents.org/favicons/near-intents/favicon-32x32.png",
+        "faviconSha256": "f30ec0c5933c7aebdbacfbf422f461e88a02c4b0b0ff4ef9c97bc873c186426a",
+        "textSample": ""
+      },
+      "similarity": {
+        "title": 1,
+        "text": 0,
+        "favicon": true,
+        "overall": 0.65
+      },
+      "listedOn": [],
+      "score": 10,
+      "severity": "info",
+      "label": "brand-owned-redirect",
+      "evidence": [
+        "Typosquat (omission) of the official domain",
+        "Same nameservers as the official domain: probably registered by the brand itself",
+        "Almost empty page (0 chars of text, title \"NEAR Intents | The Smartest Way to Trade\"): content not visible",
+        "Redirects to the official site (probably a defensive registration by the brand)"
+      ],
+      "action": "No action. Confirm the client owns this domain and add it to the allowlist.",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "near-intents.com",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "tld-swap",
+      "dns": {
+        "domain": "near-intents.com",
+        "registered": true,
+        "a": [
+          "188.114.97.3",
+          "188.114.96.3"
+        ],
+        "aaaa": [],
+        "mx": [],
+        "ns": [
+          "gene.ns.cloudflare.com",
+          "nero.ns.cloudflare.com"
+        ]
+      },
+      "page": {
+        "url": "https://near-intents.com/",
+        "finalUrl": "https://near-intents.org/",
+        "status": 200,
+        "title": "NEAR Intents | The Smartest Way to Trade Across Chains",
+        "scriptUrls": [
+          "https://near-intents.org/_next/static/chunks/13k577em9fwgy.js?dpl=dpl_ANS2SjGTC5b3szdpsn1F9CMr3dYg",
+          "https://near-intents.org/_next/static/chunks/03uz9h6zcjv45.js?dpl=dpl_ANS2SjGTC5b3szdpsn1F9CMr3dYg",
+          "https://near-intents.org/_next/static/chunks/04z~ccjp3p59p.js?dpl=dpl_ANS2SjGTC5b3szdpsn1F9CMr3dYg",
+          "https://near-intents.org/_next/static/chunks/turbopack-09wow5~tu5r12.js?dpl=dpl_ANS2SjGTC5b3szdpsn1F9CMr3dYg",
+          "https://near-intents.org/_next/static/chunks/0w6df-cuo2uv-.js?dpl=dpl_ANS2SjGTC5b3szdpsn1F9CMr3dYg",
+          "https://near-intents.org/_next/static/chunks/0pjo.b4ox9.ls.js?dpl=dpl_ANS2SjGTC5b3szdpsn1F9CMr3dYg"
+        ],
+        "signals": {
+          "secretForm": false,
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "lure": [],
+          "drainerJs": [],
+          "parked": [],
+          "cryptoContext": [],
+          "interstitial": [],
+          "challenge": []
+        },
+        "brandMentions": 0,
+        "brandInTitle": false,
+        "bytes": 91714,
+        "renderedWith": "http",
+        "faviconUrl": "https://near-intents.org/favicons/near-intents/favicon-32x32.png",
+        "faviconSha256": "f30ec0c5933c7aebdbacfbf422f461e88a02c4b0b0ff4ef9c97bc873c186426a",
+        "textSample": ""
+      },
+      "similarity": {
+        "title": 1,
+        "text": 0,
+        "favicon": true,
+        "overall": 0.65
+      },
+      "listedOn": [],
+      "score": 10,
+      "severity": "info",
+      "label": "brand-owned-redirect",
+      "evidence": [
+        "Official name on a different TLD",
+        "Same nameservers as the official domain: probably registered by the brand itself",
+        "Almost empty page (0 chars of text, title \"NEAR Intents | The Smartest Way to Trade\"): content not visible",
+        "Redirects to the official site (probably a defensive registration by the brand)"
+      ],
+      "action": "No action. Confirm the client owns this domain and add it to the allowlist.",
+      "alreadyBlocked": false
+    }
+  ],
+  "tokens": [],
+  "errors": []
+}

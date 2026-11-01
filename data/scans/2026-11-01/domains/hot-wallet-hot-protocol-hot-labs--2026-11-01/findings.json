@@ -1,0 +1,1674 @@
+{
+  "brand": {
+    "name": "HOT Wallet / HOT Protocol (HOT Labs)",
+    "officialDomains": [
+      "hot-labs.org",
+      "hotdao.ai",
+      "hotscan.org",
+      "hotcraft.art"
+    ],
+    "referenceUrl": "https://app.hot-labs.org",
+    "officialTokens": [],
+    "officialSocials": {
+      "x": "hotdao_",
+      "telegram": "hot_wallet",
+      "github": "hot-dao",
+      "youtube": "@hot-labs"
+    },
+    "keywords": [
+      "hot-labs",
+      "hotlabs",
+      "hotdao",
+      "hotwallet",
+      "hot-wallet",
+      "hotscan",
+      "hotcraft"
+    ],
+    "allowlist": [],
+    "tokenChains": [
+      "base"
+    ]
+  },
+  "startedAt": "2026-11-01T15:58:47.067Z",
+  "finishedAt": "2026-11-01T16:03:28.770Z",
+  "periodDays": 30,
+  "official": {
+    "url": "https://app.hot-labs.org/",
+    "title": "HOT Wallet",
+    "faviconSha256": "a1c14ad8e1afec1cc73f863030d06e49b5bcb0659cbd83511b27bfb61953a10f"
+  },
+  "stats": {
+    "permutations": 5131,
+    "permutationsRegistered": 22,
+    "ctHosts": 0,
+    "nrdHits": 3,
+    "candidates": 25,
+    "pagesFetched": 20,
+    "pagesRendered": 12,
+    "tokensIndexed": {},
+    "tokenMatches": 0
+  },
+  "coverage": {
+    "ct": [
+      {
+        "q": "hot-labs%",
+        "rows": 0,
+        "error": "HTTP 400"
+      },
+      {
+        "q": "hot-labs.%",
+        "rows": 0,
+        "error": "HTTP 400"
+      },
+      {
+        "q": "hot-labs-%",
+        "rows": 0,
+        "error": "HTTP 400"
+      },
+      {
+        "q": "%hot-labs%",
+        "rows": 0,
+        "error": "HTTP 400"
+      },
+      {
+        "q": "hotlabs%",
+        "rows": 0,
+        "error": "HTTP 400"
+      },
+      {
+        "q": "hotlabs.%",
+        "rows": 0,
+        "error": "HTTP 400"
+      },
+      {
+        "q": "hotlabs-%",
+        "rows": 0,
+        "error": "HTTP 400"
+      },
+      {
+        "q": "%hotlabs%",
+        "rows": 0,
+        "error": "HTTP 400"
+      },
+      {
+        "q": "hotdao%",
+        "rows": 0,
+        "error": "HTTP 400"
+      },
+      {
+        "q": "hotdao.%",
+        "rows": 0,
+        "error": "HTTP 400"
+      },
+      {
+        "q": "hotdao-%",
+        "rows": 0,
+        "error": "HTTP 400"
+      },
+      {
+        "q": "%hotdao%",
+        "rows": 0,
+        "error": "HTTP 400"
+      },
+      {
+        "q": "hotwallet%",
+        "rows": 0,
+        "error": "HTTP 400"
+      },
+      {
+        "q": "hotwallet.%",
+        "rows": 0,
+        "error": "HTTP 400"
+      },
+      {
+        "q": "hotwallet-%",
+        "rows": 0,
+        "error": "HTTP 400"
+      },
+      {
+        "q": "%hotwallet%",
+        "rows": 0,
+        "error": "HTTP 400"
+      },
+      {
+        "q": "hot-wallet%",
+        "rows": 0,
+        "error": "HTTP 400"
+      },
+      {
+        "q": "hot-wallet.%",
+        "rows": 0,
+        "error": "HTTP 400"
+      },
+      {
+        "q": "hot-wallet-%",
+        "rows": 0,
+        "error": "HTTP 400"
+      },
+      {
+        "q": "%hot-wallet%",
+        "rows": 0,
+        "error": "HTTP 400"
+      },
+      {
+        "q": "hotscan%",
+        "rows": 0,
+        "error": "HTTP 400"
+      },
+      {
+        "q": "hotscan.%",
+        "rows": 0,
+        "error": "HTTP 400"
+      },
+      {
+        "q": "hotscan-%",
+        "rows": 0,
+        "error": "HTTP 400"
+      },
+      {
+        "q": "%hotscan%",
+        "rows": 0,
+        "error": "HTTP 400"
+      },
+      {
+        "q": "hotcraft%",
+        "rows": 0,
+        "error": "HTTP 400"
+      },
+      {
+        "q": "hotcraft.%",
+        "rows": 0,
+        "error": "HTTP 400"
+      },
+      {
+        "q": "hotcraft-%",
+        "rows": 0,
+        "error": "HTTP 400"
+      },
+      {
+        "q": "%hotcraft%",
+        "rows": 0,
+        "error": "HTTP 400"
+      }
+    ],
+    "nrd": [
+      {
+        "day": "2026-10-31",
+        "domains": 70000
+      },
+      {
+        "day": "2026-10-30",
+        "domains": 70000
+      },
+      {
+        "day": "2026-10-29",
+        "domains": 70000
+      },
+      {
+        "day": "2026-10-28",
+        "domains": 70000
+      }
+    ],
+    "tokens": [],
+    "blocklists": [
+      "metamask",
+      "scamsniffer"
+    ]
+  },
+  "domains": [
+    {
+      "kind": "domain",
+      "host": "botdao.ai",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "replacement",
+      "dns": {
+        "domain": "botdao.ai",
+        "registered": true,
+        "a": [
+          "76.223.105.230",
+          "13.248.243.5"
+        ],
+        "aaaa": [],
+        "mx": [],
+        "ns": [
+          "ns15.domaincontrol.com",
+          "ns16.domaincontrol.com"
+        ]
+      },
+      "page": {
+        "url": "https://botdao.ai/",
+        "finalUrl": "https://botdao.ai/",
+        "status": 200,
+        "title": "botdao.ai",
+        "scriptUrls": [
+          "https://img1.wsimg.com/blobby/go/c40fa53c-115b-4633-8699-fc8178e199ee/gpub/5d9c78fcf30cf2b2/script.js",
+          "https://img1.wsimg.com/ceph-p3-01/website-builder-data-prod/static/widgets/UX.4.48.0.js",
+          "https://img1.wsimg.com/blobby/go/c40fa53c-115b-4633-8699-fc8178e199ee/gpub/2678cc24dedd91c7/script.js",
+          "https://img1.wsimg.com/signals/js/clients/scc-c2/scc-c2.min.js"
+        ],
+        "signals": {
+          "secretForm": true,
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "lure": [],
+          "drainerJs": [],
+          "parked": [],
+          "cryptoContext": [],
+          "interstitial": [],
+          "challenge": []
+        },
+        "brandMentions": 0,
+        "brandInTitle": false,
+        "bytes": 86332,
+        "renderedWith": "http",
+        "faviconUrl": "https://img1.wsimg.com/isteam/ip/static/pwa-app/logo-default.png/:/rs=w:57,h:57,m",
+        "faviconSha256": "927fa0f5bb903288cef129ca1a5a8a77c46456fe5fec58ea900fc49552246416",
+        "textSample": "机器人道 机器人道 机器人道 机器人道 机器人道 机器人道 机器人道 机器人道 更多 即将推出 即将推出 即将推出 即将推出 即将推出 即将推出 即将推出 即将推出 Contact Us Drop us a line! Name Email* Sign up for our email list for updates, promotions, and more. Send 版权© 2025 机器人道 -保留所有权利。 由 提供技术支持 此网站使用 Cookie。 我们使用 cookie 来分析网站流量并优化您的网站体验。通过接受我们对 cookie 的使用，您的数据将与所有其他用户数据进行汇"
+      },
+      "similarity": {
+        "title": 0.33,
+        "text": 0,
+        "favicon": false,
+        "overall": 0.12
+      },
+      "listedOn": [],
+      "score": 29,
+      "severity": "low",
+      "label": "likely-false-positive",
+      "evidence": [
+        "Typosquat (replacement) of the official domain",
+        "No brand content found on the page: probably unrelated (false positive)"
+      ],
+      "action": "No action (labelled false positive).",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "hitscan.org",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "replacement",
+      "dns": {
+        "domain": "hitscan.org",
+        "registered": true,
+        "a": [
+          "188.114.96.3",
+          "188.114.97.3"
+        ],
+        "aaaa": [],
+        "mx": [
+          "route2.mx.cloudflare.net",
+          "route1.mx.cloudflare.net",
+          "route3.mx.cloudflare.net"
+        ],
+        "ns": [
+          "nelly.ns.cloudflare.com",
+          "troy.ns.cloudflare.com"
+        ]
+      },
+      "page": {
+        "url": "https://hitscan.org/",
+        "finalUrl": "https://www.hitscan.org/",
+        "status": 200,
+        "title": "Home - hitscan.org",
+        "scriptUrls": [
+          "https://www.hitscan.org/assets/scripts/scripts.js",
+          "https://www.hitscan.org/assets/scripts/bannerFunctions.js",
+          "https://www.hitscan.org/assets/scripts/navFunctions.js",
+          "https://www.hitscan.org/assets/scripts/content/banners.js",
+          "https://www.hitscan.org/assets/scripts/content/sidebar.js",
+          "https://www.hitscan.org/assets/scripts/content/navbar.js"
+        ],
+        "signals": {
+          "secretForm": false,
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "lure": [],
+          "drainerJs": [],
+          "parked": [],
+          "cryptoContext": [],
+          "interstitial": [],
+          "challenge": []
+        },
+        "brandMentions": 0,
+        "brandInTitle": false,
+        "bytes": 5437,
+        "renderedWith": "http",
+        "faviconUrl": "https://www.hitscan.org/assets/favicon.png",
+        "faviconSha256": "8aa6057ed561c2a4bba771dad2216f0ac43e606f4cd5636a665120fc8cb409e4",
+        "textSample": "This site is WIP, if anything is off, that's why... Loading... If you're seeing this then something has gone wrong... The traffic cone marquee may be gone, but this site remains WIP. It will probably also be completely redesigned soon (hopefully (if I'm not lazy)). Check out the Guestbook please :D "
+      },
+      "similarity": {
+        "title": 0.29,
+        "text": 0,
+        "favicon": false,
+        "overall": 0.1
+      },
+      "listedOn": [],
+      "score": 29,
+      "severity": "low",
+      "label": "likely-false-positive",
+      "evidence": [
+        "Typosquat (replacement) of the official domain",
+        "No brand content found on the page: probably unrelated (false positive)"
+      ],
+      "action": "No action (labelled false positive).",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "hotdao.net",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "tld-swap",
+      "dns": {
+        "domain": "hotdao.net",
+        "registered": true,
+        "a": [
+          "185.53.179.128"
+        ],
+        "aaaa": [],
+        "mx": [],
+        "ns": [
+          "ns1.dyna-ns.net",
+          "ns2.dyna-ns.net"
+        ]
+      },
+      "page": {
+        "url": "http://hotdao.net/",
+        "finalUrl": "http://hotdao.net/",
+        "status": 200,
+        "title": "hotdao.net",
+        "scriptUrls": [
+          "https://euob.northwavepoint.com/sxp/i/636f8b858f681acb7bfa6f583a96630a.js"
+        ],
+        "signals": {
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "secretForm": false,
+          "lure": [],
+          "drainerJs": [],
+          "parked": [
+            "This domain is registered"
+          ],
+          "cryptoContext": [],
+          "interstitial": [],
+          "challenge": []
+        },
+        "brandMentions": 0,
+        "brandInTitle": false,
+        "bytes": 43740,
+        "renderedWith": "playwright",
+        "faviconUrl": "http://hotdao.net/favicon.ico",
+        "screenshot": "/Users/kacpergumieniuk/Projects/4b47/mimicwatch-near/data/scans/2026-11-01/domains/hot-wallet-hot-protocol-hot-labs--2026-11-01/shots/hotdao.net.jpg",
+        "textSample": "___ This domain is registered at Dynadot.com . Website coming soon. Privacy Policy 2026 Copyright | All Rights Reserved."
+      },
+      "similarity": {
+        "title": 0.67,
+        "text": 0,
+        "favicon": false,
+        "overall": 0.23
+      },
+      "listedOn": [],
+      "score": 28,
+      "severity": "low",
+      "label": "parked",
+      "evidence": [
+        "Official name on a different TLD",
+        "Page title resembles the official title (67%)",
+        "Parked / for-sale page"
+      ],
+      "action": "Monitor. Consider buying it defensively or a UDRP if it turns active.",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "hit-labs.org",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "replacement",
+      "dns": {
+        "domain": "hit-labs.org",
+        "registered": true,
+        "a": [
+          "3.33.130.190",
+          "15.197.148.33"
+        ],
+        "aaaa": [],
+        "mx": [],
+        "ns": [
+          "ns36.domaincontrol.com",
+          "ns35.domaincontrol.com"
+        ]
+      },
+      "page": {
+        "url": "https://hit-labs.org/",
+        "finalUrl": "https://hit-labs.org/lander",
+        "status": 200,
+        "title": "",
+        "scriptUrls": [],
+        "signals": {
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "secretForm": false,
+          "lure": [],
+          "drainerJs": [],
+          "parked": [
+            "parked",
+            "Related Searches"
+          ],
+          "cryptoContext": [],
+          "interstitial": [],
+          "challenge": []
+        },
+        "brandMentions": 0,
+        "brandInTitle": false,
+        "bytes": 114,
+        "renderedWith": "playwright",
+        "faviconUrl": "https://hit-labs.org/favicon.ico",
+        "screenshot": "/Users/kacpergumieniuk/Projects/4b47/mimicwatch-near/data/scans/2026-11-01/domains/hot-wallet-hot-protocol-hot-labs--2026-11-01/shots/hit-labs.org.jpg",
+        "textSample": "hit-labs.org is parked free, courtesy of GoDaddy.com. Get This Domain Related Searches hit labs Copyright © 1999-2026 GoDaddy, LLC. All rights reserved. Privacy Policy Disclaimer: References to any specific company, product or services on this Site are not controlled by GoDaddy.com LLC and do not co"
+      },
+      "similarity": {
+        "title": 0,
+        "text": 0,
+        "favicon": false,
+        "overall": 0
+      },
+      "listedOn": [],
+      "score": 25,
+      "severity": "low",
+      "label": "parked",
+      "evidence": [
+        "Typosquat (replacement) of the official domain",
+        "Parked / for-sale page"
+      ],
+      "action": "Monitor. Consider buying it defensively or a UDRP if it turns active.",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "botscan.org",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "replacement",
+      "dns": {
+        "domain": "botscan.org",
+        "registered": true,
+        "a": [
+          "52.20.84.62"
+        ],
+        "aaaa": [],
+        "mx": [],
+        "ns": [
+          "ns1.atom.com",
+          "ns2.atom.com"
+        ]
+      },
+      "page": {
+        "url": "https://botscan.org/",
+        "finalUrl": "https://www.atom.com/name/Botscan.ai",
+        "status": 403,
+        "title": "Botscan.ai — Premium Domain For Sale | Atom",
+        "scriptUrls": [],
+        "signals": {
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "secretForm": true,
+          "lure": [
+            "refund"
+          ],
+          "drainerJs": [],
+          "parked": [
+            "For Sale"
+          ],
+          "cryptoContext": [],
+          "interstitial": [],
+          "challenge": []
+        },
+        "brandMentions": 0,
+        "brandInTitle": false,
+        "bytes": 5797,
+        "renderedWith": "playwright",
+        "faviconUrl": "https://domains.atom.com/favicon.ico",
+        "faviconSha256": "7eda937d9cabb3e3b4da756c81226e3431f9b0751e9247b9e9b24c4f50ba3b97",
+        "screenshot": "/Users/kacpergumieniuk/Projects/4b47/mimicwatch-near/data/scans/2026-11-01/domains/hot-wallet-hot-protocol-hot-labs--2026-11-01/shots/botscan.org.jpg",
+        "textSample": "We use essential cookies to make our site work. With your consent, we may also use non-essential cookies to improve user experience and analyze website traffic. By clicking “Accept,” you agree to our website's cookie use as described in our Cookie Policy and Privacy Policy . You can change your cook"
+      },
+      "similarity": {
+        "title": 0.18,
+        "text": 0,
+        "favicon": false,
+        "overall": 0.06
+      },
+      "listedOn": [],
+      "score": 25,
+      "severity": "low",
+      "label": "lookalike-unknown-content",
+      "evidence": [
+        "Typosquat (replacement) of the official domain",
+        "Page returned HTTP 403"
+      ],
+      "action": "Re-check next scan; the content was not visible to us (error, bot wall or empty page).",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "hotscan.net",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "tld-swap",
+      "dns": {
+        "domain": "hotscan.net",
+        "registered": true,
+        "a": [
+          "27.254.86.109"
+        ],
+        "aaaa": [],
+        "mx": [
+          "mail.hotscan.net"
+        ],
+        "ns": [
+          "cs86.hostingberry.com",
+          "cs86.hostneverdie.com"
+        ]
+      },
+      "page": {
+        "url": "https://hotscan.net/",
+        "finalUrl": "https://hotscan.net/",
+        "status": 200,
+        "title": "Hotscan.net - สร้าง QR Code จากลิงก์ย่อของคุณ",
+        "scriptUrls": [
+          "https://cdn.rawgit.com/davidshimjs/qrcodejs/gh-pages/qrcode.min.js"
+        ],
+        "signals": {
+          "secretForm": false,
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "lure": [],
+          "drainerJs": [],
+          "parked": [],
+          "cryptoContext": [],
+          "interstitial": [],
+          "challenge": []
+        },
+        "brandMentions": 0,
+        "brandInTitle": false,
+        "bytes": 17126,
+        "renderedWith": "http",
+        "faviconUrl": "https://hotscan.net/favicon.ico",
+        "textSample": "Hotscan.net การเชื่อมต่อที่รวดเร็วและมีประสิทธิภาพ เชื่อมต่อทุกสิ่งอย่างรวดเร็ว ด้วย QR Code ที่เหนือกว่า Hotscan.net นำเสนอการเชื่อมต่อที่ฉับไวและแม่นยำ เพียงสแกน QR Code คุณก็พร้อมเข้าถึงปลายทางได้ทันที ไม่ต้องพิมพ์ ไม่ต้องรอ เริ่มต้นสร้าง QR Code ของคุณเลย! สร้าง QR Code จากลิงก์ย่อของคุณ สร้างลิ"
+      },
+      "similarity": {
+        "title": 0.38,
+        "text": 0,
+        "favicon": false,
+        "overall": 0.13
+      },
+      "listedOn": [],
+      "score": 25,
+      "severity": "low",
+      "label": "likely-false-positive",
+      "evidence": [
+        "Official name on a different TLD",
+        "No brand content found on the page: probably unrelated (false positive)"
+      ],
+      "action": "No action (labelled false positive).",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "hotcraft-event.com",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "dictionary",
+      "dns": {
+        "domain": "hotcraft-event.com",
+        "registered": true,
+        "a": [],
+        "aaaa": [],
+        "mx": [],
+        "ns": [
+          "dns02.muumuu-domain.com",
+          "dns01.muumuu-domain.com"
+        ]
+      },
+      "listedOn": [],
+      "score": 25,
+      "severity": "low",
+      "label": "not-live",
+      "evidence": [
+        "Brand name plus a phishing lure word"
+      ],
+      "action": "Monitor (registered, no website). Consider defensive registration.",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "hot-labs.com",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "tld-swap",
+      "dns": {
+        "domain": "hot-labs.com",
+        "registered": true,
+        "a": [
+          "44.232.173.249",
+          "52.40.42.113"
+        ],
+        "aaaa": [],
+        "mx": [],
+        "ns": [
+          "launch2.spaceship.net",
+          "launch1.spaceship.net"
+        ]
+      },
+      "page": {
+        "url": "https://hot-labs.com/",
+        "finalUrl": "https://hot-labs.com/",
+        "status": 200,
+        "title": "hot-labs.com for sale | Spaceship.com",
+        "scriptUrls": [
+          "https://forsale.spaceship-cdn.com/static/latest/5.latest/main.js"
+        ],
+        "signals": {
+          "secretForm": false,
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "lure": [],
+          "drainerJs": [],
+          "parked": [
+            "for sale"
+          ],
+          "cryptoContext": [],
+          "interstitial": [],
+          "challenge": []
+        },
+        "brandMentions": 0,
+        "brandInTitle": false,
+        "bytes": 24705,
+        "renderedWith": "http",
+        "faviconUrl": "https://forsale.spaceship-cdn.com/static/latest/5.latest/assets/fonts/apple-touch-icon-57x57.png",
+        "faviconSha256": "774ab776c49cdd5d993e4da9e6216af9ece952135eb022ef0c7df223ff66989c",
+        "textSample": "Domain for sale hot-labs.com Free transaction support Secure payments Spaceship reliability Listed with spaceship.com get this domain Buy now $3,000 Make offer $ Please enter an offer amount up to 9 digits. Your offer must be higher than the seller’s minimum price. Next Please select one of the opti"
+      },
+      "similarity": {
+        "title": 0.21,
+        "text": 0,
+        "favicon": false,
+        "overall": 0.07
+      },
+      "listedOn": [],
+      "score": 22,
+      "severity": "low",
+      "label": "parked",
+      "evidence": [
+        "Official name on a different TLD",
+        "Parked / for-sale page"
+      ],
+      "action": "Monitor. Consider buying it defensively or a UDRP if it turns active.",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "hotcraft.com",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "tld-swap",
+      "dns": {
+        "domain": "hotcraft.com",
+        "registered": true,
+        "a": [
+          "172.104.203.186",
+          "139.162.174.209",
+          "139.162.181.76",
+          "172.104.251.198",
+          "172.104.149.86"
+        ],
+        "aaaa": [],
+        "mx": [
+          "mail.mailerhost.net"
+        ],
+        "ns": [
+          "damao.ns.giantpanda.com",
+          "yangguang.ns.giantpanda.com"
+        ]
+      },
+      "page": {
+        "url": "http://hotcraft.com/",
+        "finalUrl": "http://hotcraft.com/",
+        "status": 200,
+        "title": "hotcraft.com - Coming Soon",
+        "scriptUrls": [],
+        "signals": {
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "secretForm": false,
+          "lure": [],
+          "drainerJs": [],
+          "parked": [],
+          "cryptoContext": [],
+          "interstitial": [],
+          "challenge": []
+        },
+        "brandMentions": 0,
+        "brandInTitle": false,
+        "bytes": 35783,
+        "renderedWith": "playwright",
+        "faviconUrl": "http://hotcraft.com/favicon.ico",
+        "screenshot": "/Users/kacpergumieniuk/Projects/4b47/mimicwatch-near/data/scans/2026-11-01/domains/hot-wallet-hot-protocol-hot-labs--2026-11-01/shots/hotcraft.com.jpg",
+        "textSample": "Verification Security check Checking your browser Before you can access this site, we need to verify you&rsquo;re human. Checking your browser&hellip; Verification failed. Please refresh and try again. Privacy &bull; Security"
+      },
+      "similarity": {
+        "title": 0.19,
+        "text": 0,
+        "favicon": false,
+        "overall": 0.07
+      },
+      "listedOn": [],
+      "score": 22,
+      "severity": "low",
+      "label": "likely-false-positive",
+      "evidence": [
+        "Official name on a different TLD",
+        "No brand content found on the page: probably unrelated (false positive)"
+      ],
+      "action": "No action (labelled false positive).",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "hot-labs.net",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "tld-swap",
+      "dns": {
+        "domain": "hot-labs.net",
+        "registered": true,
+        "a": [
+          "188.114.97.3",
+          "188.114.96.3"
+        ],
+        "aaaa": [],
+        "mx": [],
+        "ns": [
+          "dell.ns.cloudflare.com",
+          "ned.ns.cloudflare.com"
+        ]
+      },
+      "page": {
+        "url": "https://hot-labs.net/",
+        "finalUrl": "https://hot-labs.net/",
+        "status": 0,
+        "title": "",
+        "scriptUrls": [],
+        "signals": {
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "secretForm": false,
+          "lure": [],
+          "drainerJs": [],
+          "parked": [],
+          "cryptoContext": [],
+          "interstitial": [],
+          "challenge": []
+        },
+        "brandMentions": 0,
+        "brandInTitle": false,
+        "bytes": 0,
+        "renderedWith": "http",
+        "error": "This operation was aborted; http: This operation was aborted",
+        "textSample": ""
+      },
+      "listedOn": [],
+      "score": 20,
+      "severity": "low",
+      "label": "lookalike-unknown-content",
+      "evidence": [
+        "Official name on a different TLD",
+        "Page not reachable: This operation was aborted; http: This operation was aborted"
+      ],
+      "action": "Re-check next scan; the content was not visible to us (error, bot wall or empty page).",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "hot-labs.xyz",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "tld-swap",
+      "dns": {
+        "domain": "hot-labs.xyz",
+        "registered": true,
+        "a": [
+          "76.223.54.146",
+          "13.248.169.48"
+        ],
+        "aaaa": [],
+        "mx": [
+          ""
+        ],
+        "ns": [
+          "ns6.afternic.com",
+          "ns5.afternic.com"
+        ]
+      },
+      "page": {
+        "url": "https://hot-labs.xyz/",
+        "finalUrl": "https://forsale.godaddy.com/forsale/hot-labs.xyz?utm_source=TDFS_BINNS2&utm_medium=parkedpages&utm_campaign=x_corp_tdfs-binns2_base&traffic_type=TDFS_BINNS2&traffic_id=binns2&",
+        "status": 200,
+        "title": "Access Denied",
+        "scriptUrls": [],
+        "signals": {
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "secretForm": false,
+          "lure": [],
+          "drainerJs": [],
+          "parked": [],
+          "cryptoContext": [],
+          "interstitial": [],
+          "challenge": [
+            "Access Denied"
+          ]
+        },
+        "brandMentions": 1,
+        "brandInTitle": false,
+        "bytes": 114,
+        "renderedWith": "playwright",
+        "faviconUrl": "https://hot-labs.xyz/favicon.ico",
+        "screenshot": "/Users/kacpergumieniuk/Projects/4b47/mimicwatch-near/data/scans/2026-11-01/domains/hot-wallet-hot-protocol-hot-labs--2026-11-01/shots/hot-labs.xyz.jpg",
+        "textSample": "Access Denied You don't have permission to access \"http://forsale.godaddy.com/forsale/hot-labs.xyz?\" on this server. Reference #18.8a3c655f.1793548994.50197f83 https://errors.edgesuite.net/18.8a3c655f.1793548994.50197f83"
+      },
+      "similarity": {
+        "title": 0.08,
+        "text": 0,
+        "favicon": false,
+        "overall": 0.03
+      },
+      "listedOn": [],
+      "score": 20,
+      "severity": "low",
+      "label": "lookalike-unknown-content",
+      "evidence": [
+        "Official name on a different TLD",
+        "Bot challenge or redirect stub (\"Access Denied\"): real content not visible"
+      ],
+      "action": "Re-check next scan; the content was not visible to us (error, bot wall or empty page).",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "hotdao.com",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "tld-swap",
+      "dns": {
+        "domain": "hotdao.com",
+        "registered": true,
+        "a": [],
+        "aaaa": [],
+        "mx": [
+          "inbound-smtp.eu-west-1.amazonaws.com"
+        ],
+        "ns": [
+          "dora.ns.cloudflare.com",
+          "duke.ns.cloudflare.com"
+        ]
+      },
+      "listedOn": [],
+      "score": 20,
+      "severity": "low",
+      "label": "not-live",
+      "evidence": [
+        "Official name on a different TLD"
+      ],
+      "action": "Monitor (registered, no website). Consider defensive registration.",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "hotdao.xyz",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "tld-swap",
+      "dns": {
+        "domain": "hotdao.xyz",
+        "registered": true,
+        "a": [
+          "13.248.169.48",
+          "76.223.54.146"
+        ],
+        "aaaa": [],
+        "mx": [
+          ""
+        ],
+        "ns": [
+          "ns5.afternic.com",
+          "ns6.afternic.com"
+        ]
+      },
+      "page": {
+        "url": "https://hotdao.xyz/",
+        "finalUrl": "https://forsale.godaddy.com/forsale/hotdao.xyz?utm_source=TDFS_BINNS2&utm_medium=parkedpages&utm_campaign=x_corp_tdfs-binns2_base&traffic_type=TDFS_BINNS2&traffic_id=binns2&",
+        "status": 200,
+        "title": "Access Denied",
+        "scriptUrls": [],
+        "signals": {
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "secretForm": false,
+          "lure": [],
+          "drainerJs": [],
+          "parked": [],
+          "cryptoContext": [],
+          "interstitial": [],
+          "challenge": [
+            "Access Denied"
+          ]
+        },
+        "brandMentions": 1,
+        "brandInTitle": false,
+        "bytes": 114,
+        "renderedWith": "playwright",
+        "faviconUrl": "https://hotdao.xyz/favicon.ico",
+        "screenshot": "/Users/kacpergumieniuk/Projects/4b47/mimicwatch-near/data/scans/2026-11-01/domains/hot-wallet-hot-protocol-hot-labs--2026-11-01/shots/hotdao.xyz.jpg",
+        "textSample": "Access Denied You don't have permission to access \"http://forsale.godaddy.com/forsale/hotdao.xyz?\" on this server. Reference #18.8a3c655f.1793548997.5019ae57 https://errors.edgesuite.net/18.8a3c655f.1793548997.5019ae57"
+      },
+      "similarity": {
+        "title": 0.08,
+        "text": 0,
+        "favicon": false,
+        "overall": 0.03
+      },
+      "listedOn": [],
+      "score": 20,
+      "severity": "low",
+      "label": "lookalike-unknown-content",
+      "evidence": [
+        "Official name on a different TLD",
+        "Bot challenge or redirect stub (\"Access Denied\"): real content not visible"
+      ],
+      "action": "Re-check next scan; the content was not visible to us (error, bot wall or empty page).",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "hotdao.co",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "tld-swap",
+      "dns": {
+        "domain": "hotdao.co",
+        "registered": true,
+        "a": [
+          "13.248.169.48",
+          "76.223.54.146"
+        ],
+        "aaaa": [],
+        "mx": [],
+        "ns": [
+          "ns1.dan.com",
+          "ns2.dan.com"
+        ]
+      },
+      "page": {
+        "url": "https://hotdao.co/",
+        "finalUrl": "https://forsale.godaddy.com/forsale/hotdao.co?utm_source=TDFS_BINNS2&utm_medium=parkedpages&utm_campaign=x_corp_tdfs-binns2_base&traffic_type=TDFS_BINNS2&traffic_id=binns2&",
+        "status": 200,
+        "title": "Access Denied",
+        "scriptUrls": [],
+        "signals": {
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "secretForm": false,
+          "lure": [],
+          "drainerJs": [],
+          "parked": [],
+          "cryptoContext": [],
+          "interstitial": [],
+          "challenge": [
+            "Access Denied"
+          ]
+        },
+        "brandMentions": 1,
+        "brandInTitle": false,
+        "bytes": 114,
+        "renderedWith": "playwright",
+        "faviconUrl": "https://hotdao.co/favicon.ico",
+        "screenshot": "/Users/kacpergumieniuk/Projects/4b47/mimicwatch-near/data/scans/2026-11-01/domains/hot-wallet-hot-protocol-hot-labs--2026-11-01/shots/hotdao.co.jpg",
+        "textSample": "Access Denied You don't have permission to access \"http://forsale.godaddy.com/forsale/hotdao.co?\" on this server. Reference #18.8a3c655f.1793548999.5019c016 https://errors.edgesuite.net/18.8a3c655f.1793548999.5019c016"
+      },
+      "similarity": {
+        "title": 0.08,
+        "text": 0,
+        "favicon": false,
+        "overall": 0.03
+      },
+      "listedOn": [],
+      "score": 20,
+      "severity": "low",
+      "label": "lookalike-unknown-content",
+      "evidence": [
+        "Official name on a different TLD",
+        "Bot challenge or redirect stub (\"Access Denied\"): real content not visible"
+      ],
+      "action": "Re-check next scan; the content was not visible to us (error, bot wall or empty page).",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "hotdao.pro",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "tld-swap",
+      "dns": {
+        "domain": "hotdao.pro",
+        "registered": true,
+        "a": [
+          "212.92.105.27"
+        ],
+        "aaaa": [],
+        "mx": [],
+        "ns": [
+          "ns2.hostresolver.com",
+          "ns1.hostresolver.com"
+        ]
+      },
+      "page": {
+        "url": "https://hotdao.pro/",
+        "finalUrl": "http://ww547.hotdao.pro/?tkn=19vnMT3S",
+        "status": 401,
+        "title": "",
+        "scriptUrls": [],
+        "signals": {
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "secretForm": false,
+          "lure": [],
+          "drainerJs": [],
+          "parked": [],
+          "cryptoContext": [],
+          "interstitial": [],
+          "challenge": []
+        },
+        "brandMentions": 0,
+        "brandInTitle": false,
+        "bytes": 9,
+        "renderedWith": "playwright",
+        "faviconUrl": "http://ww547.hotdao.pro/favicon.ico",
+        "screenshot": "/Users/kacpergumieniuk/Projects/4b47/mimicwatch-near/data/scans/2026-11-01/domains/hot-wallet-hot-protocol-hot-labs--2026-11-01/shots/hotdao.pro.jpg",
+        "textSample": "Forbidden"
+      },
+      "similarity": {
+        "title": 0,
+        "text": 0,
+        "favicon": false,
+        "overall": 0
+      },
+      "listedOn": [],
+      "score": 20,
+      "severity": "low",
+      "label": "lookalike-unknown-content",
+      "evidence": [
+        "Official name on a different TLD",
+        "Almost empty page (9 chars of text, title \"\"): content not visible"
+      ],
+      "action": "Re-check next scan; the content was not visible to us (error, bot wall or empty page).",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "hotdao.dev",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "tld-swap",
+      "dns": {
+        "domain": "hotdao.dev",
+        "registered": true,
+        "a": [
+          "162.255.119.196"
+        ],
+        "aaaa": [],
+        "mx": [
+          "eforward1.registrar-servers.com",
+          "eforward2.registrar-servers.com",
+          "eforward3.registrar-servers.com",
+          "eforward4.registrar-servers.com",
+          "eforward5.registrar-servers.com"
+        ],
+        "ns": [
+          "dns1.registrar-servers.com",
+          "dns2.registrar-servers.com"
+        ]
+      },
+      "page": {
+        "url": "https://hotdao.dev/",
+        "finalUrl": "https://hotdao.dev/",
+        "status": 0,
+        "title": "",
+        "scriptUrls": [],
+        "signals": {
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "secretForm": false,
+          "lure": [],
+          "drainerJs": [],
+          "parked": [],
+          "cryptoContext": [],
+          "interstitial": [],
+          "challenge": []
+        },
+        "brandMentions": 0,
+        "brandInTitle": false,
+        "bytes": 0,
+        "renderedWith": "http",
+        "error": "Connect Timeout Error (attempted address: hotdao.dev:443, timeout: 10000ms); http: Connect Timeout Error (attempted addresses: 104.219.250.36:80, 2.59.170.19:80, timeout: 10000ms)",
+        "textSample": ""
+      },
+      "listedOn": [],
+      "score": 20,
+      "severity": "low",
+      "label": "lookalike-unknown-content",
+      "evidence": [
+        "Official name on a different TLD",
+        "Page not reachable: Connect Timeout Error (attempted address: hotdao.dev:443, timeout: 10000ms); htt"
+      ],
+      "action": "Re-check next scan; the content was not visible to us (error, bot wall or empty page).",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "hotscan.com",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "tld-swap",
+      "dns": {
+        "domain": "hotscan.com",
+        "registered": true,
+        "a": [
+          "75.126.101.229"
+        ],
+        "aaaa": [],
+        "mx": [],
+        "ns": [
+          "ns4htz.name.com",
+          "ns2kry.name.com",
+          "ns1kwy.name.com",
+          "ns3bfm.name.com"
+        ]
+      },
+      "page": {
+        "url": "http://hotscan.com/",
+        "finalUrl": "http://hotscan.com/",
+        "status": 200,
+        "title": "Hello!",
+        "scriptUrls": [],
+        "signals": {
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "secretForm": false,
+          "lure": [],
+          "drainerJs": [],
+          "parked": [],
+          "cryptoContext": [],
+          "interstitial": [],
+          "challenge": []
+        },
+        "brandMentions": 0,
+        "brandInTitle": false,
+        "bytes": 375,
+        "renderedWith": "playwright",
+        "faviconUrl": "http://hotscan.com/favicon.ico",
+        "screenshot": "/Users/kacpergumieniuk/Projects/4b47/mimicwatch-near/data/scans/2026-11-01/domains/hot-wallet-hot-protocol-hot-labs--2026-11-01/shots/hotscan.com.jpg",
+        "textSample": ""
+      },
+      "similarity": {
+        "title": 0.33,
+        "text": 0,
+        "favicon": false,
+        "overall": 0.12
+      },
+      "listedOn": [],
+      "score": 20,
+      "severity": "low",
+      "label": "lookalike-unknown-content",
+      "evidence": [
+        "Official name on a different TLD",
+        "Almost empty page (0 chars of text, title \"Hello!\"): content not visible"
+      ],
+      "action": "Re-check next scan; the content was not visible to us (error, bot wall or empty page).",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "hotscan.xyz",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "tld-swap",
+      "dns": {
+        "domain": "hotscan.xyz",
+        "registered": true,
+        "a": [
+          "76.223.54.146",
+          "13.248.169.48"
+        ],
+        "aaaa": [],
+        "mx": [
+          ""
+        ],
+        "ns": [
+          "ns5.afternic.com",
+          "ns6.afternic.com"
+        ]
+      },
+      "page": {
+        "url": "https://hotscan.xyz/",
+        "finalUrl": "https://forsale.godaddy.com/forsale/hotscan.xyz?utm_source=TDFS_BINNS2&utm_medium=parkedpages&utm_campaign=x_corp_tdfs-binns2_base&traffic_type=TDFS_BINNS2&traffic_id=binns2&",
+        "status": 200,
+        "title": "Access Denied",
+        "scriptUrls": [],
+        "signals": {
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "secretForm": false,
+          "lure": [],
+          "drainerJs": [],
+          "parked": [],
+          "cryptoContext": [],
+          "interstitial": [],
+          "challenge": [
+            "Access Denied"
+          ]
+        },
+        "brandMentions": 1,
+        "brandInTitle": false,
+        "bytes": 114,
+        "renderedWith": "playwright",
+        "faviconUrl": "https://hotscan.xyz/favicon.ico",
+        "screenshot": "/Users/kacpergumieniuk/Projects/4b47/mimicwatch-near/data/scans/2026-11-01/domains/hot-wallet-hot-protocol-hot-labs--2026-11-01/shots/hotscan.xyz.jpg",
+        "textSample": "Access Denied You don't have permission to access \"http://forsale.godaddy.com/forsale/hotscan.xyz?\" on this server. Reference #18.8a3c655f.1793549002.5019e581 https://errors.edgesuite.net/18.8a3c655f.1793549002.5019e581"
+      },
+      "similarity": {
+        "title": 0.08,
+        "text": 0,
+        "favicon": false,
+        "overall": 0.03
+      },
+      "listedOn": [],
+      "score": 20,
+      "severity": "low",
+      "label": "lookalike-unknown-content",
+      "evidence": [
+        "Official name on a different TLD",
+        "Bot challenge or redirect stub (\"Access Denied\"): real content not visible"
+      ],
+      "action": "Re-check next scan; the content was not visible to us (error, bot wall or empty page).",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "hotcraft.xyz",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "tld-swap",
+      "dns": {
+        "domain": "hotcraft.xyz",
+        "registered": true,
+        "a": [
+          "76.223.54.146",
+          "13.248.169.48"
+        ],
+        "aaaa": [],
+        "mx": [
+          ""
+        ],
+        "ns": [
+          "ns5.afternic.com",
+          "ns6.afternic.com"
+        ]
+      },
+      "page": {
+        "url": "https://hotcraft.xyz/",
+        "finalUrl": "https://forsale.godaddy.com/forsale/hotcraft.xyz?utm_source=TDFS_BINNS2&utm_medium=parkedpages&utm_campaign=x_corp_tdfs-binns2_base&traffic_type=TDFS_BINNS2&traffic_id=binns2&",
+        "status": 200,
+        "title": "Access Denied",
+        "scriptUrls": [],
+        "signals": {
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "secretForm": false,
+          "lure": [],
+          "drainerJs": [],
+          "parked": [],
+          "cryptoContext": [],
+          "interstitial": [],
+          "challenge": [
+            "Access Denied"
+          ]
+        },
+        "brandMentions": 1,
+        "brandInTitle": false,
+        "bytes": 114,
+        "renderedWith": "playwright",
+        "faviconUrl": "https://hotcraft.xyz/favicon.ico",
+        "screenshot": "/Users/kacpergumieniuk/Projects/4b47/mimicwatch-near/data/scans/2026-11-01/domains/hot-wallet-hot-protocol-hot-labs--2026-11-01/shots/hotcraft.xyz.jpg",
+        "textSample": "Access Denied You don't have permission to access \"http://forsale.godaddy.com/forsale/hotcraft.xyz?\" on this server. Reference #18.8a3c655f.1793549005.501a1288 https://errors.edgesuite.net/18.8a3c655f.1793549005.501a1288"
+      },
+      "similarity": {
+        "title": 0.08,
+        "text": 0,
+        "favicon": false,
+        "overall": 0.03
+      },
+      "listedOn": [],
+      "score": 20,
+      "severity": "low",
+      "label": "lookalike-unknown-content",
+      "evidence": [
+        "Official name on a different TLD",
+        "Bot challenge or redirect stub (\"Access Denied\"): real content not visible"
+      ],
+      "action": "Re-check next scan; the content was not visible to us (error, bot wall or empty page).",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "hotcraft.info",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "tld-swap",
+      "dns": {
+        "domain": "hotcraft.info",
+        "registered": true,
+        "a": [
+          "45.221.68.133"
+        ],
+        "aaaa": [],
+        "mx": [
+          "mail.hotcraft.info"
+        ],
+        "ns": [
+          "ns1.skydns04.info",
+          "ns2.skydns04.info"
+        ]
+      },
+      "page": {
+        "url": "https://hotcraft.info/",
+        "finalUrl": "https://hotcraft.info/",
+        "status": 0,
+        "title": "",
+        "scriptUrls": [],
+        "signals": {
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "secretForm": false,
+          "lure": [],
+          "drainerJs": [],
+          "parked": [],
+          "cryptoContext": [],
+          "interstitial": [],
+          "challenge": []
+        },
+        "brandMentions": 0,
+        "brandInTitle": false,
+        "bytes": 0,
+        "renderedWith": "http",
+        "error": "Connect Timeout Error (attempted address: hotcraft.info:443, timeout: 10000ms); http: Connect Timeout Error (attempted address: hotcraft.info:80, timeout: 10000ms)",
+        "textSample": ""
+      },
+      "listedOn": [],
+      "score": 20,
+      "severity": "low",
+      "label": "lookalike-unknown-content",
+      "evidence": [
+        "Official name on a different TLD",
+        "Page not reachable: Connect Timeout Error (attempted address: hotcraft.info:443, timeout: 10000ms); "
+      ],
+      "action": "Re-check next scan; the content was not visible to us (error, bot wall or empty page).",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "botcraft.site",
+      "sources": [
+        "nrd"
+      ],
+      "nrdDate": "2026-10-29",
+      "dns": {
+        "domain": "botcraft.site",
+        "registered": true,
+        "a": [
+          "217.160.0.57"
+        ],
+        "aaaa": [],
+        "mx": [
+          "smtpin.rzone.de"
+        ],
+        "ns": [
+          "docks11.rzone.de",
+          "shades13.rzone.de"
+        ]
+      },
+      "page": {
+        "url": "http://botcraft.site/",
+        "finalUrl": "http://botcraft.site/",
+        "status": 200,
+        "title": "STRATO - Domain reserved",
+        "scriptUrls": [],
+        "signals": {
+          "secretForm": false,
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "lure": [],
+          "drainerJs": [],
+          "parked": [],
+          "cryptoContext": [],
+          "interstitial": [],
+          "challenge": []
+        },
+        "brandMentions": 0,
+        "brandInTitle": false,
+        "bytes": 4545,
+        "renderedWith": "http",
+        "faviconUrl": "http://botcraft.site/favicon.ico",
+        "textSample": "English This domain is now reserved. As of now, no content has been uploaded. Deutsch Diese Domain wurde soeben freigeschaltet. Es wurden noch keine Inhalte hinterlegt. Espa&ntilde;ol Esta p&aacute;gina web acaba de ser activada y a&uacute;n no tiene contenido. Nederlands Deze website werd zojuist g"
+      },
+      "similarity": {
+        "title": 0.15,
+        "text": 0,
+        "favicon": false,
+        "overall": 0.05
+      },
+      "listedOn": [],
+      "score": 17,
+      "severity": "info",
+      "label": "likely-false-positive",
+      "evidence": [
+        "Hostname contains the brand name",
+        "Newly registered domain (WhoisDS daily list)",
+        "No brand content found on the page: probably unrelated (false positive)"
+      ],
+      "action": "No action (labelled false positive).",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "botlabs.co",
+      "sources": [
+        "nrd"
+      ],
+      "nrdDate": "2026-10-31",
+      "dns": {
+        "domain": "botlabs.co",
+        "registered": true,
+        "a": [
+          "76.223.54.146",
+          "13.248.169.48"
+        ],
+        "aaaa": [],
+        "mx": [
+          ""
+        ],
+        "ns": [
+          "ns2.afternic.com",
+          "ns1.afternic.com"
+        ]
+      },
+      "page": {
+        "url": "https://botlabs.co/",
+        "finalUrl": "https://forsale.godaddy.com/forsale/botlabs.co?utm_source=TDFS_BINNS2&utm_medium=parkedpages&utm_campaign=x_corp_tdfs-binns2_base&traffic_type=TDFS_BINNS2&traffic_id=binns2&",
+        "status": 200,
+        "title": "Access Denied",
+        "scriptUrls": [],
+        "signals": {
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "secretForm": false,
+          "lure": [],
+          "drainerJs": [],
+          "parked": [],
+          "cryptoContext": [],
+          "interstitial": [],
+          "challenge": [
+            "Access Denied"
+          ]
+        },
+        "brandMentions": 0,
+        "brandInTitle": false,
+        "bytes": 114,
+        "renderedWith": "playwright",
+        "faviconUrl": "https://botlabs.co/favicon.ico",
+        "screenshot": "/Users/kacpergumieniuk/Projects/4b47/mimicwatch-near/data/scans/2026-11-01/domains/hot-wallet-hot-protocol-hot-labs--2026-11-01/shots/botlabs.co.jpg",
+        "textSample": "Access Denied You don't have permission to access \"http://forsale.godaddy.com/forsale/botlabs.co?\" on this server. Reference #18.8a3c655f.1793549006.501a1fea https://errors.edgesuite.net/18.8a3c655f.1793549006.501a1fea"
+      },
+      "similarity": {
+        "title": 0.08,
+        "text": 0,
+        "favicon": false,
+        "overall": 0.03
+      },
+      "listedOn": [],
+      "score": 15,
+      "severity": "info",
+      "label": "lookalike-unknown-content",
+      "evidence": [
+        "Hostname contains the brand name",
+        "Newly registered domain (WhoisDS daily list)",
+        "Bot challenge or redirect stub (\"Access Denied\"): real content not visible"
+      ],
+      "action": "Re-check next scan; the content was not visible to us (error, bot wall or empty page).",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "dotcraft.org",
+      "sources": [
+        "nrd"
+      ],
+      "nrdDate": "2026-10-30",
+      "dns": {
+        "domain": "dotcraft.org",
+        "registered": true,
+        "a": [],
+        "aaaa": [],
+        "mx": [],
+        "ns": [
+          "alexandra.ns.cloudflare.com",
+          "michael.ns.cloudflare.com"
+        ]
+      },
+      "listedOn": [],
+      "score": 15,
+      "severity": "info",
+      "label": "not-live",
+      "evidence": [
+        "Hostname contains the brand name",
+        "Newly registered domain (WhoisDS daily list)"
+      ],
+      "action": "Monitor (registered, no website). Consider defensive registration.",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "hotlabs.org",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "omission",
+      "dns": {
+        "domain": "hotlabs.org",
+        "registered": true,
+        "a": [],
+        "aaaa": [],
+        "mx": [],
+        "ns": [
+          "jacob.ns.cloudflare.com",
+          "paislee.ns.cloudflare.com"
+        ]
+      },
+      "listedOn": [],
+      "score": 10,
+      "severity": "info",
+      "label": "brand-owned-redirect",
+      "evidence": [
+        "Typosquat (omission) of the official domain",
+        "Same nameservers as the official domain: probably registered by the brand itself"
+      ],
+      "action": "No action. Confirm the client owns this domain and add it to the allowlist.",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "hot-lab.org",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "omission",
+      "dns": {
+        "domain": "hot-lab.org",
+        "registered": true,
+        "a": [],
+        "aaaa": [],
+        "mx": [],
+        "ns": [
+          "jacob.ns.cloudflare.com",
+          "paislee.ns.cloudflare.com"
+        ]
+      },
+      "listedOn": [],
+      "score": 10,
+      "severity": "info",
+      "label": "brand-owned-redirect",
+      "evidence": [
+        "Typosquat (omission) of the official domain",
+        "Same nameservers as the official domain: probably registered by the brand itself"
+      ],
+      "action": "No action. Confirm the client owns this domain and add it to the allowlist.",
+      "alreadyBlocked": false
+    }
+  ],
+  "tokens": [],
+  "errors": []
+}

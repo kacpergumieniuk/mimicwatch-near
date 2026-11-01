@@ -1,0 +1,108 @@
+{
+  "brand": {
+    "name": "HEX Exchange (by HOT Labs)",
+    "officialDomains": [
+      "hex.exchange"
+    ],
+    "referenceUrl": "https://hex.exchange",
+    "officialTokens": [],
+    "officialSocials": {},
+    "keywords": [
+      "hex.exchange",
+      "hexexchange"
+    ],
+    "allowlist": [],
+    "tokenChains": [
+      "base"
+    ]
+  },
+  "startedAt": "2026-11-01T16:01:04.676Z",
+  "finishedAt": "2026-11-01T16:02:42.172Z",
+  "periodDays": 30,
+  "official": {
+    "url": "https://hex.exchange/?from=near%3Anative&to=near%3Ausdt.tether-token.near",
+    "title": "HEX Exchange by HOT Labs | Cross-Chain Swaps & GNK",
+    "faviconSha256": "8d36c9f1ad6a5b40ca387c481cad4b0bd00389bb152edb6c8f9ec310480d0c83"
+  },
+  "stats": {
+    "permutations": 0,
+    "permutationsRegistered": 0,
+    "ctHosts": 0,
+    "nrdHits": 0,
+    "candidates": 0,
+    "pagesFetched": 0,
+    "pagesRendered": 0,
+    "tokensIndexed": {},
+    "tokenMatches": 0
+  },
+  "coverage": {
+    "ct": [
+      {
+        "q": "hex.exchange%",
+        "rows": 0,
+        "error": "HTTP 400"
+      },
+      {
+        "q": "hex.exchange.%",
+        "rows": 0,
+        "error": "HTTP 400"
+      },
+      {
+        "q": "hex.exchange-%",
+        "rows": 0,
+        "error": "HTTP 400"
+      },
+      {
+        "q": "%hex.exchange%",
+        "rows": 0,
+        "error": "HTTP 400"
+      },
+      {
+        "q": "hexexchange%",
+        "rows": 0,
+        "error": "HTTP 400"
+      },
+      {
+        "q": "hexexchange.%",
+        "rows": 0,
+        "error": "HTTP 400"
+      },
+      {
+        "q": "hexexchange-%",
+        "rows": 0,
+        "error": "HTTP 400"
+      },
+      {
+        "q": "%hexexchange%",
+        "rows": 0,
+        "error": "HTTP 400"
+      }
+    ],
+    "nrd": [
+      {
+        "day": "2026-10-31",
+        "domains": 70000
+      },
+      {
+        "day": "2026-10-30",
+        "domains": 70000
+      },
+      {
+        "day": "2026-10-29",
+        "domains": 70000
+      },
+      {
+        "day": "2026-10-28",
+        "domains": 70000
+      }
+    ],
+    "tokens": [],
+    "blocklists": [
+      "metamask",
+      "scamsniffer"
+    ]
+  },
+  "domains": [],
+  "tokens": [],
+  "errors": []
+}

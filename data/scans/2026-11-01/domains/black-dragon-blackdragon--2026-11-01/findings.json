@@ -1,0 +1,1861 @@
+{
+  "brand": {
+    "name": "Black Dragon (BLACKDRAGON)",
+    "officialDomains": [
+      "blackdragon.meme"
+    ],
+    "referenceUrl": "https://blackdragon.meme",
+    "officialTokens": [],
+    "officialSocials": {
+      "x": "dragonisnear (CoinGecko-listed; secondary source)",
+      "telegram": "dragonisnear (CoinGecko-listed)"
+    },
+    "keywords": [
+      "blackdragon",
+      "black-dragon"
+    ],
+    "allowlist": [],
+    "tokenChains": [
+      "base"
+    ]
+  },
+  "startedAt": "2026-11-01T16:14:23.716Z",
+  "finishedAt": "2026-11-01T16:15:53.039Z",
+  "periodDays": 30,
+  "official": {
+    "url": "https://blackdragon.meme/",
+    "title": "Blackdragon",
+    "faviconSha256": "b0d33c895c89f0a41bec4dc5bed5ffefffca48e95f1b44bd9526e5426657d2a6"
+  },
+  "stats": {
+    "permutations": 1445,
+    "permutationsRegistered": 28,
+    "ctHosts": 0,
+    "nrdHits": 0,
+    "candidates": 28,
+    "pagesFetched": 22,
+    "pagesRendered": 12,
+    "tokensIndexed": {},
+    "tokenMatches": 0
+  },
+  "coverage": {
+    "ct": [
+      {
+        "q": "blackdragon%",
+        "rows": 0,
+        "error": "HTTP 400"
+      },
+      {
+        "q": "blackdragon.%",
+        "rows": 0,
+        "error": "HTTP 400"
+      },
+      {
+        "q": "blackdragon-%",
+        "rows": 0,
+        "error": "HTTP 400"
+      },
+      {
+        "q": "%blackdragon%",
+        "rows": 0,
+        "error": "HTTP 400"
+      },
+      {
+        "q": "black-dragon%",
+        "rows": 0,
+        "error": "HTTP 400"
+      },
+      {
+        "q": "black-dragon.%",
+        "rows": 0,
+        "error": "HTTP 400"
+      },
+      {
+        "q": "black-dragon-%",
+        "rows": 0,
+        "error": "HTTP 400"
+      },
+      {
+        "q": "%black-dragon%",
+        "rows": 0,
+        "error": "HTTP 400"
+      }
+    ],
+    "nrd": [
+      {
+        "day": "2026-10-31",
+        "domains": 70000
+      },
+      {
+        "day": "2026-10-30",
+        "domains": 70000
+      },
+      {
+        "day": "2026-10-29",
+        "domains": 70000
+      },
+      {
+        "day": "2026-10-28",
+        "domains": 70000
+      }
+    ],
+    "tokens": [],
+    "blocklists": [
+      "metamask",
+      "scamsniffer"
+    ]
+  },
+  "domains": [
+    {
+      "kind": "domain",
+      "host": "blackdragon.io",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "tld-swap",
+      "dns": {
+        "domain": "blackdragon.io",
+        "registered": true,
+        "a": [
+          "188.114.96.3",
+          "188.114.97.3"
+        ],
+        "aaaa": [],
+        "mx": [
+          "mail.blackdragon.io"
+        ],
+        "ns": [
+          "virginia.ns.cloudflare.com",
+          "titan.ns.cloudflare.com"
+        ]
+      },
+      "page": {
+        "url": "https://blackdragon.io/",
+        "finalUrl": "https://www.blackdragon.io/",
+        "status": 200,
+        "title": "Home - BlackDragon Platform : BlackDragon Platform",
+        "scriptUrls": [
+          "https://www.blackdragon.io/wp-content/themes/blackdragon/dist/js/jquery-3.5.1.min.js?ver=3.5.1",
+          "https://www.blackdragon.io/wp-content/themes/blackdragon/dist/js/bootstrap.bundle.min.js?ver=4.6.0",
+          "https://www.blackdragon.io/wp-content/themes/blackdragon/dist/js/slick.min.js?ver=1.8.1",
+          "https://www.blackdragon.io/wp-content/themes/blackdragon/dist/js/lity.min.js?ver=2.4.1",
+          "https://www.blackdragon.io/wp-content/themes/blackdragon/dist/js/sticky.min.js?ver=1.0.0",
+          "https://www.blackdragon.io/wp-content/themes/blackdragon/dist/js/readingtime.min.js?ver=1.0.0"
+        ],
+        "signals": {
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "secretForm": false,
+          "lure": [],
+          "drainerJs": [],
+          "parked": [],
+          "cryptoContext": [
+            "Crypto",
+            "Token",
+            "Swap"
+          ],
+          "interstitial": [],
+          "challenge": []
+        },
+        "brandMentions": 16,
+        "brandInTitle": true,
+        "bytes": 55974,
+        "renderedWith": "playwright",
+        "faviconUrl": "https://www.blackdragon.io/wp-content/themes/blackdragon/dist/img/favicon.ico",
+        "faviconSha256": "5e554f150f34ea02c3ed31ae556737f1ddc90d7d5a9765976c093000ac4259f4",
+        "screenshot": "/Users/kacpergumieniuk/Projects/4b47/mimicwatch-near/data/scans/2026-11-01/domains/black-dragon-blackdragon--2026-11-01/shots/blackdragon.io.jpg",
+        "textSample": "\"> About Portfolio Blog Docs Community Twitter Keep up to date with new stuff coming out from BlackDragon ecosystem. Join us Discord Join community chat, research and have fun. Join us Telegram Join public discussions area and get to know BlackDragon. Join us Email If you reaaaaly have to, send us e"
+      },
+      "similarity": {
+        "title": 0.8,
+        "text": 0,
+        "favicon": false,
+        "overall": 0.28
+      },
+      "listedOn": [],
+      "score": 50,
+      "severity": "high",
+      "label": "impersonation",
+      "evidence": [
+        "Official name on a different TLD",
+        "Page title resembles the official title (80%)",
+        "Brand named on the page (16x), including the title"
+      ],
+      "action": "Review the screenshot. If it impersonates the brand, file registrar + host reports (drafts attached).",
+      "alreadyBlocked": false,
+      "rdap": {
+        "domain": "blackdragon.io",
+        "abuse": {},
+        "status": [],
+        "error": "no RDAP server for .io (use WHOIS)"
+      },
+      "hosting": {
+        "ip": "188.114.96.3",
+        "network": "CLOUDFLARENET-EU",
+        "org": "MNT-CLOUDFLARE",
+        "abuse": {
+          "name": "Cloudflare Abuse Contact",
+          "email": "abuse@cloudflare.com",
+          "form": "https://abuse.cloudflare.com/"
+        }
+      },
+      "drafts": [
+        {
+          "channel": "registrar-abuse",
+          "title": "Registrar abuse report",
+          "to": "(registrar abuse address not found via RDAP: look it up at https://lookup.icann.org)",
+          "subject": "Phishing / brand impersonation: blackdragon.io impersonates Black Dragon (BLACKDRAGON)",
+          "body": "DRAFT - NOT FILED. File only after the brand owner approves it and has signed a Letter of Authorisation.\n\nHello Abuse Team abuse team,\n\nThe domain blackdragon[.]io (registered with you) is being used to impersonate Black Dragon (BLACKDRAGON), a crypto project whose official site is hxxps://blackdragon[.]meme. We ask you to suspend the domain under your abuse policy and the RAA section 3.18 obligations.\n\nEvidence (observed 2026-11-01, read-only, URLs defanged):\n- URL: hxxps://www[.]blackdragon[.]io/\n- Official name on a different TLD\n- Page title resembles the official title (80%)\n- Brand named on the page (16x), including the title\n- Resolves to 188.114.96.3, 188.114.97.3\n- Page title: \"Home - BlackDragon Platform : BlackDragon Platform\"\n- Screenshot: shots/blackdragon.io.jpg (attach)\n\nWe are not affiliated with the operator of blackdragon[.]io. Black Dragon (BLACKDRAGON) has not authorised its use of the brand. Screenshots and HTML captures are available on request.\n\nRegards,\n{{REPORTER_NAME}}\n{{REPORTER_ORG}}, acting for Black Dragon (BLACKDRAGON) under a Letter of Authorisation dated {{LOA_DATE}}\n{{REPORTER_EMAIL}}"
+        },
+        {
+          "channel": "host-abuse",
+          "title": "Hosting abuse report to MNT-CLOUDFLARE",
+          "to": "https://abuse.cloudflare.com/",
+          "subject": "Phishing site hosted on your network: blackdragon.io (Black Dragon (BLACKDRAGON) impersonation)",
+          "body": "DRAFT - NOT FILED. File only after the brand owner approves it and has signed a Letter of Authorisation.\n\nHello MNT-CLOUDFLARE,\n\nhxxps://www[.]blackdragon[.]io/ (188.114.96.3, 188.114.97.3) is hosted on your network and impersonates Black Dragon (BLACKDRAGON) (official: hxxps://blackdragon[.]meme).\n\nEvidence (observed 2026-11-01):\n- Official name on a different TLD\n- Page title resembles the official title (80%)\n- Brand named on the page (16x), including the title\n- Resolves to 188.114.96.3, 188.114.97.3\n- Page title: \"Home - BlackDragon Platform : BlackDragon Platform\"\n- Screenshot: shots/blackdragon.io.jpg (attach)\n\nPlease take the content down under your acceptable use policy.\n\nRegards,\n{{REPORTER_NAME}}\n{{REPORTER_ORG}}, acting for Black Dragon (BLACKDRAGON) under a Letter of Authorisation dated {{LOA_DATE}}\n{{REPORTER_EMAIL}}",
+          "notes": [
+            "Email alternative: abuse@cloudflare.com"
+          ]
+        },
+        {
+          "channel": "google-safe-browsing",
+          "title": "Google Safe Browsing report",
+          "to": "https://safebrowsing.google.com/safebrowsing/report_phish/?url=https%3A%2F%2Fwww.blackdragon.io%2F",
+          "fields": {
+            "Report Type": "This page is not safe",
+            "Threat Type": "Social engineering (phishing) - pick the closest option shown",
+            "Threat Category": "Pick the closest option shown (impersonation / phishing)",
+            "URL to report": "https://www.blackdragon.io/",
+            "Additional details (max 800)": "Impersonates Black Dragon (BLACKDRAGON) (official: https://blackdragon.meme). Page title resembles the official title (80%); Brand named on the page (16x), including the title; Official name on a different TLD."
+          },
+          "body": "DRAFT - NOT FILED. File only after the brand owner approves it and has signed a Letter of Authorisation.\n\nImpersonates Black Dragon (BLACKDRAGON) (official: https://blackdragon.meme). Page title resembles the official title (80%); Brand named on the page (16x), including the title; Official name on a different TLD.",
+          "notes": [
+            "Web form with reCAPTCHA: a person has to submit it."
+          ]
+        },
+        {
+          "channel": "netcraft",
+          "title": "Netcraft report",
+          "to": "https://report.netcraft.com/report",
+          "fields": {
+            "The URL of the site": "https://www.blackdragon.io/",
+            "Further details": "Impersonates Black Dragon (BLACKDRAGON) (official: https://blackdragon.meme). Page title resembles the official title (80%); Brand named on the page (16x), including the title; Official name on a different TLD.",
+            "Your email address": "{{REPORTER_EMAIL}}"
+          },
+          "body": "DRAFT - NOT FILED. File only after the brand owner approves it and has signed a Letter of Authorisation.\n\nImpersonates Black Dragon (BLACKDRAGON) (official: https://blackdragon.meme). Page title resembles the official title (80%); Brand named on the page (16x), including the title; Official name on a different TLD.",
+          "notes": [
+            "Web form with reCAPTCHA. Netcraft feeds many browser and registrar blocklists."
+          ]
+        },
+        {
+          "channel": "metamask-issue",
+          "title": "MetaMask eth-phishing-detect: blocklist addition issue",
+          "to": "https://github.com/MetaMask/eth-phishing-detect/issues/new?template=01-blocklist-addition.yaml",
+          "fields": {
+            "Malicious domains, IPs, IPFS hashes, or IPNS names": "https://www.blackdragon.io/",
+            "Please explain why this content is malicious": "Impersonates Black Dragon (BLACKDRAGON) (official: https://blackdragon.meme). Page title resembles the official title (80%); Brand named on the page (16x), including the title; Official name on a different TLD. Observed 2026-11-01. Reported on behalf of Black Dragon (BLACKDRAGON).",
+            "Is this a duplicate request?": "Search open issues for the domain first, then tick the box"
+          },
+          "body": "DRAFT - NOT FILED. File only after the brand owner approves it and has signed a Letter of Authorisation.\n\nImpersonates Black Dragon (BLACKDRAGON) (official: https://blackdragon.meme). Page title resembles the official title (80%); Brand named on the page (16x), including the title; Official name on a different TLD."
+        },
+        {
+          "channel": "metamask-pr",
+          "title": "MetaMask eth-phishing-detect: alternative PR (slower; most merges are bot syncs)",
+          "to": "https://github.com/MetaMask/eth-phishing-detect",
+          "body": "DRAFT - NOT FILED. File only after the brand owner approves it and has signed a Letter of Authorisation.\n\ngit checkout -b block-blackdragon.io\nyarn add:blocklist blackdragon.io\n\nPR title: Block blackdragon.io (Black Dragon (BLACKDRAGON) impersonation)\nPR body: Impersonates Black Dragon (BLACKDRAGON) (official: https://blackdragon.meme). Page title resembles the official title (80%); Brand named on the page (16x), including the title; Official name on a different TLD."
+        },
+        {
+          "channel": "scamsniffer-issue",
+          "title": "ScamSniffer scam-database issue",
+          "to": "https://github.com/scamsniffer/scam-database/issues/new",
+          "subject": "[Phishing] blackdragon.io - Black Dragon (BLACKDRAGON) impersonation",
+          "body": "DRAFT - NOT FILED. File only after the brand owner approves it and has signed a Letter of Authorisation.\n\nDomain: blackdragon.io\nScam addresses (with chain): {{ADD IF KNOWN, e.g. from a victim's drain tx}}\nImpersonates: Black Dragon (BLACKDRAGON) (official: https://blackdragon.meme)\n\nEvidence (observed 2026-11-01):\n- Official name on a different TLD\n- Page title resembles the official title (80%)\n- Brand named on the page (16x), including the title\n- Resolves to 188.114.96.3, 188.114.97.3\n- Page title: \"Home - BlackDragon Platform : BlackDragon Platform\"\n- Screenshot: shots/blackdragon.io.jpg (attach)",
+          "notes": [
+            "ScamSniffer asks for issues, not PRs (their JSON is regenerated). Attach the screenshot."
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "domain",
+      "host": "blackdragon.cloud",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "tld-swap",
+      "dns": {
+        "domain": "blackdragon.cloud",
+        "registered": true,
+        "a": [
+          "217.70.184.38"
+        ],
+        "aaaa": [],
+        "mx": [
+          "mail.protonmail.ch",
+          "mailsec.protonmail.ch"
+        ],
+        "ns": [
+          "ns-74-c.gandi.net",
+          "ns-30-a.gandi.net",
+          "ns-82-b.gandi.net"
+        ]
+      },
+      "page": {
+        "url": "http://blackdragon.cloud/",
+        "finalUrl": "http://blackdragon.cloud/",
+        "status": 200,
+        "title": "blackdragon.cloud",
+        "scriptUrls": [],
+        "signals": {
+          "secretForm": false,
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "lure": [],
+          "drainerJs": [],
+          "parked": [
+            "This domain name has been registered"
+          ],
+          "cryptoContext": [],
+          "interstitial": [],
+          "challenge": []
+        },
+        "brandMentions": 0,
+        "brandInTitle": false,
+        "bytes": 2360,
+        "renderedWith": "http",
+        "faviconUrl": "http://blackdragon.cloud/favicon.ico",
+        "faviconSha256": "2ca8a7d5bf257b1522cc51f7c192f63132bead19555afd3149bfb63d5203ac5a",
+        "textSample": "This domain name has been registered with Gandi.net View the WHOIS results of blackdragon.cloud to get the domain’s public registration information. blackdragon.cloud is unavailable Want your own domain name? Learn more about the domain name extensions we manage Find a domain name similar to blackdr"
+      },
+      "similarity": {
+        "title": 0.8,
+        "text": 0,
+        "favicon": false,
+        "overall": 0.28
+      },
+      "listedOn": [],
+      "score": 30,
+      "severity": "low",
+      "label": "parked",
+      "evidence": [
+        "Official name on a different TLD",
+        "Page title resembles the official title (80%)",
+        "Parked / for-sale page"
+      ],
+      "action": "Monitor. Consider buying it defensively or a UDRP if it turns active.",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "blackdragon.digital",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "tld-swap",
+      "dns": {
+        "domain": "blackdragon.digital",
+        "registered": true,
+        "a": [
+          "75.2.60.5"
+        ],
+        "aaaa": [],
+        "mx": [],
+        "ns": [
+          "helios.dns-parking.com",
+          "aster.dns-parking.com"
+        ]
+      },
+      "page": {
+        "url": "https://blackdragon.digital/",
+        "finalUrl": "https://blackdragon.digital/",
+        "status": 200,
+        "title": "BlackDragon | A Melhor Lista IPTV do Brasil",
+        "scriptUrls": [
+          "https://cdn.tailwindcss.com/",
+          "https://blackdragon.digital/.netlify/scripts/hud?variant=public"
+        ],
+        "signals": {
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "secretForm": false,
+          "lure": [],
+          "drainerJs": [],
+          "parked": [],
+          "cryptoContext": [],
+          "interstitial": [],
+          "challenge": []
+        },
+        "brandMentions": 7,
+        "brandInTitle": true,
+        "bytes": 33287,
+        "renderedWith": "playwright",
+        "faviconUrl": "https://blackdragon.digital/favicon.ico",
+        "screenshot": "/Users/kacpergumieniuk/Projects/4b47/mimicwatch-near/data/scans/2026-11-01/domains/black-dragon-blackdragon--2026-11-01/shots/blackdragon.digital.jpg",
+        "textSample": "Black Dragon Recursos Planos FAQ Teste Grátis Recursos Planos FAQ Solicitar Teste Servidores Atualizados - Sem Travamentos A Melhor Lista IPTV Do Brasil Acesso completo a +18.000 canais ao vivo, +50.000 filmes e séries em 4K HDR. Sem antenas, sem fidelidade. Solicite seu teste grátis em minutos e co"
+      },
+      "similarity": {
+        "title": 0.8,
+        "text": 0,
+        "favicon": false,
+        "overall": 0.28
+      },
+      "listedOn": [],
+      "score": 30,
+      "severity": "low",
+      "label": "likely-false-positive",
+      "evidence": [
+        "Official name on a different TLD",
+        "Page title resembles the official title (80%)",
+        "Brand word used without any crypto context (7x): probably an unrelated business"
+      ],
+      "action": "No action (labelled false positive).",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "blackdragon.ai",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "tld-swap",
+      "dns": {
+        "domain": "blackdragon.ai",
+        "registered": true,
+        "a": [
+          "198.49.23.144",
+          "198.185.159.144",
+          "198.185.159.145",
+          "198.49.23.145"
+        ],
+        "aaaa": [],
+        "mx": [
+          "aspmx.l.google.com",
+          "alt1.aspmx.l.google.com",
+          "alt2.aspmx.l.google.com",
+          "alt4.aspmx.l.googlemail.com",
+          "alt3.aspmx.l.googlemail.com"
+        ],
+        "ns": [
+          "ns34.domaincontrol.com",
+          "ns33.domaincontrol.com"
+        ]
+      },
+      "page": {
+        "url": "https://blackdragon.ai/",
+        "finalUrl": "https://www.blackdragon.ai/",
+        "status": 200,
+        "title": "Black Dragon Systems",
+        "scriptUrls": [
+          "https://use.typekit.net/ik/pMlA4DBs1YgZc3tm-N1gD_qGb28XA0Sv73CsvYlBWDtfeGJIfFHN4UJLFRbh52jhWDmcjDZy5Q6DZejUwDJhwQFKjc9ujRJDZg7ZMkG0jAFu-WsoShFGZAsude80ZkoRdhXCHKoyjamTiY8Djhy8ZYmC-Ao1Oco8if37OcBDOcu8OfG0ZAUC-WgDdh8qOAFzjcBCifXXjhbuO1FUiABkZWF3jAF8OcFzdP37O1FUiABkZWF3jAF8ShFGZAsude80ZkoRdhXCjAFu-WsoShFGZAsude80ZkoRdhXCjAFu-WsoShFGZAsude80Zko0ZWbCjWw0dA9CjcUyjhlqScB1dht0jAqCZAUC-WgDdh8qOAFzjcBCifXXjhbuO1FUiABkZWF3jAF8OcFzdPUCdhFydeyzSabCSaBujW48SagyjhmDjhy8ZYmC-Ao1OcFzdPUaiaS0jAFu-WsoShFGZAsude80ZkoRdhXCiaiaOcBRiA8XpWFR-emqiAUTdcS0dcmXOYiaikoySkolZPUaiaS0jcUyjhlqScB1dht0jAqCiaiaOcmCde83ShNTZfuRdh4ydYblFeFqFPoDSWmyScmDSeBRZPoRdhXCiaiaO1FUiABkZWF3jAF8ShFGZAsude80ZkoRdhXKfeo8dkuDjAoDH6GJ0ObfIMMjgPMfH6GJC_bfIMMjgkMfH6GJ0dbfIMMj2kMfH6GJlObfIMMjIPMfqMeLuTnrgb.js",
+          "https://assets.squarespace.com/@sqs/polyfiller/1.7.7/modern.js",
+          "https://assets.squarespace.com/universal/scripts-compressed/visitor-site-error-reporter-70c095566385eee0-min.en-US.js",
+          "https://assets.squarespace.com/universal/scripts-compressed/extract-css-runtime-2dbade1c2d524017-min.en-US.js",
+          "https://assets.squarespace.com/universal/scripts-compressed/extract-css-moment-js-vendor-5b1fd9aed201e910-min.en-US.js",
+          "https://assets.squarespace.com/universal/scripts-compressed/cldr-resource-pack-88f72d5f001c770b-min.en-US.js"
+        ],
+        "signals": {
+          "secretForm": false,
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "lure": [],
+          "drainerJs": [],
+          "parked": [],
+          "cryptoContext": [],
+          "interstitial": [],
+          "challenge": []
+        },
+        "brandMentions": 0,
+        "brandInTitle": false,
+        "bytes": 117429,
+        "renderedWith": "http",
+        "faviconUrl": "https://images.squarespace-cdn.com/content/v1/5fc6a983df132613bbe5b23d/1612479365221-B7VVXPBCWLM0YAIS845M/favicon.ico?format=100w",
+        "faviconSha256": "7e1bc23cc5b5554c64ba5fa4b5cc0bcdcf7d62406563ac1cfd274c389f79cc9e",
+        "textSample": "0 Skip to Content Black Dragon Systems Home Open Menu Close Menu Black Dragon Systems Home Open Menu Close Menu Home Stand by... Our new website is on its way! Squamish, BC, Canada | +1(778) 990-5105 | info@blackdragon.ai"
+      },
+      "similarity": {
+        "title": 0.61,
+        "text": 0.01,
+        "favicon": false,
+        "overall": 0.22
+      },
+      "listedOn": [],
+      "score": 28,
+      "severity": "low",
+      "label": "likely-false-positive",
+      "evidence": [
+        "Official name on a different TLD",
+        "Page title resembles the official title (61%)",
+        "No brand content found on the page: probably unrelated (false positive)"
+      ],
+      "action": "No action (labelled false positive).",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "blackdragon.us",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "tld-swap",
+      "dns": {
+        "domain": "blackdragon.us",
+        "registered": true,
+        "a": [
+          "38.113.1.97"
+        ],
+        "aaaa": [],
+        "mx": [
+          "mail.blackdragon.us"
+        ],
+        "ns": [
+          "ns2.bizland.com",
+          "ns1.bizland.com"
+        ]
+      },
+      "page": {
+        "url": "https://blackdragon.us/",
+        "finalUrl": "https://blackdragon.us/",
+        "status": 200,
+        "title": "Black Dragon Martial Arts",
+        "scriptUrls": [
+          "https://assets.mywebsitebuilder.com/assets/t.js?brand=bizland&v=g-202607141007122069",
+          "https://components.mywebsitebuilder.com/g-202607141007122069/viewer/viewer.js",
+          "https://storage.googleapis.com/wzukusers/user-35116664/sites/49938213/574df790f3314e79aa5d4bd9c648f9b8/5dcf8f3c1db04874845607962793b624.js?1787452778",
+          "https://storage.googleapis.com/wzukusers/user-35116664/sites/49938213/574df790f3314e79aa5d4bd9c648f9b8/e681a07293794118b04794d983e4b1e8.js?1787452778",
+          "https://storage.googleapis.com/wzukusers/user-35116664/sites/49938213/574df790f3314e79aa5d4bd9c648f9b8/a830081a3d6f4716898bd4cd0a30c5ef.js?1787452778"
+        ],
+        "signals": {
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "secretForm": false,
+          "lure": [],
+          "drainerJs": [],
+          "parked": [],
+          "cryptoContext": [],
+          "interstitial": [],
+          "challenge": []
+        },
+        "brandMentions": 0,
+        "brandInTitle": false,
+        "bytes": 26065,
+        "renderedWith": "playwright",
+        "faviconUrl": "https://storage.googleapis.com/wzukusers/user-35116664/images/fav-5989b5a18a2b4afd99e21951863e2095/favicon.ico?v=fav-5989b5a18a2b4afd99e21951863e2095",
+        "faviconSha256": "4ef8e3c50501c2a5566915b0eacd22ba6fb25d8c6b21ad88da3b570157671f1b",
+        "screenshot": "/Users/kacpergumieniuk/Projects/4b47/mimicwatch-near/data/scans/2026-11-01/domains/black-dragon-blackdragon--2026-11-01/shots/blackdragon.us.jpg",
+        "textSample": "Home Contact Us About BDMA Prices Schedule More  Black Dragon Martial Arts Providing quality and affordable Self Defense classes for students ages 5 and up! Class Prices Free Trial Registration Schedule Programs Junior Dragons Students ages 5-9 Schedule Junior Dragons NinBuKai Students ages 10+ Sch"
+      },
+      "similarity": {
+        "title": 0.5,
+        "text": 0,
+        "favicon": false,
+        "overall": 0.18
+      },
+      "listedOn": [],
+      "score": 26,
+      "severity": "low",
+      "label": "likely-false-positive",
+      "evidence": [
+        "Official name on a different TLD",
+        "Page title resembles the official title (50%)",
+        "No brand content found on the page: probably unrelated (false positive)"
+      ],
+      "action": "No action (labelled false positive).",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "blackdragonevent.com",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "dictionary",
+      "dns": {
+        "domain": "blackdragonevent.com",
+        "registered": true,
+        "a": [],
+        "aaaa": [],
+        "mx": [],
+        "ns": [
+          "ns05.domaincontrol.com",
+          "ns06.domaincontrol.com"
+        ]
+      },
+      "listedOn": [],
+      "score": 25,
+      "severity": "low",
+      "label": "not-live",
+      "evidence": [
+        "Brand name plus a phishing lure word"
+      ],
+      "action": "Monitor (registered, no website). Consider defensive registration.",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "blackdragon.pro",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "tld-swap",
+      "dns": {
+        "domain": "blackdragon.pro",
+        "registered": true,
+        "a": [
+          "176.57.67.194"
+        ],
+        "aaaa": [],
+        "mx": [],
+        "ns": [
+          "ns2.reg.ru",
+          "ns1.reg.ru"
+        ]
+      },
+      "page": {
+        "url": "https://blackdragon.pro/",
+        "finalUrl": "https://blackdragon.pro/",
+        "status": 200,
+        "title": "Black Dragon: Command & Control и Project Management Framework для этичного хакинга",
+        "scriptUrls": [
+          "https://neo.tildacdn.com/js/tilda-fallback-1.0.min.js",
+          "https://static.tildacdn.com/js/tilda-polyfill-1.0.min.js",
+          "https://static.tildacdn.com/js/tilda-scripts-3.0.min.js",
+          "https://static.tildacdn.com/ws/project14720666/tilda-blocks-page77187346.min.js?t=1782910859",
+          "https://static.tildacdn.com/js/tilda-lazyload-1.0.min.js",
+          "https://static.tildacdn.com/js/tilda-animation-2.0.min.js"
+        ],
+        "signals": {
+          "secretForm": true,
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "lure": [],
+          "drainerJs": [],
+          "parked": [],
+          "cryptoContext": [],
+          "interstitial": [],
+          "challenge": []
+        },
+        "brandMentions": 0,
+        "brandInTitle": false,
+        "bytes": 227898,
+        "renderedWith": "http",
+        "faviconUrl": "https://static.tildacdn.com/tild3438-3739-4161-b033-326663333833/blackdragon_1-croppe.png",
+        "faviconSha256": "c0efb7cf33806528e59c56c8de621f798c0ebca214382ff9b7cffd99b7283201",
+        "textSample": "Функции Преимущества Контакты +7 (911) 996-55-60 Отправить заявку Заявка на пилот Project Management Framework Command & Control Framework Обе лицензии Отправить Первое корпоративное программное решение на российском рынке для экспертов по тестированию информационных ресурсов включающее в себя два к"
+      },
+      "similarity": {
+        "title": 0.18,
+        "text": 0,
+        "favicon": false,
+        "overall": 0.06
+      },
+      "listedOn": [],
+      "score": 22,
+      "severity": "low",
+      "label": "likely-false-positive",
+      "evidence": [
+        "Official name on a different TLD",
+        "No brand content found on the page: probably unrelated (false positive)"
+      ],
+      "action": "No action (labelled false positive).",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "blackdragon.site",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "tld-swap",
+      "dns": {
+        "domain": "blackdragon.site",
+        "registered": true,
+        "a": [
+          "54.215.31.113"
+        ],
+        "aaaa": [],
+        "mx": [],
+        "ns": [
+          "ns1.dyna-ns.net",
+          "ns2.dyna-ns.net"
+        ]
+      },
+      "page": {
+        "url": "http://blackdragon.site/",
+        "finalUrl": "http://blackdragon.site/",
+        "status": 200,
+        "title": "Domain registered | Dynadot",
+        "scriptUrls": [
+          "http://widget.trustpilot.com/bootstrap/v5/tp.widget.bootstrap.min.js"
+        ],
+        "signals": {
+          "secretForm": false,
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "lure": [],
+          "drainerJs": [],
+          "parked": [
+            "This domain is registered"
+          ],
+          "cryptoContext": [],
+          "interstitial": [],
+          "challenge": []
+        },
+        "brandMentions": 0,
+        "brandInTitle": false,
+        "bytes": 131072,
+        "renderedWith": "http",
+        "faviconUrl": "http://blackdragon.site/favicon.ico",
+        "textSample": "Trustpilot blackdragon.site This domain is registered, but may still be available. Get this domain i If you recently set your name servers, please wait a few minutes and try again. Sometimes restarting your browser helps. i If you require further assistance, please contact our Customer Support team "
+      },
+      "similarity": {
+        "title": 0.17,
+        "text": 0.01,
+        "favicon": false,
+        "overall": 0.07
+      },
+      "listedOn": [],
+      "score": 22,
+      "severity": "low",
+      "label": "parked",
+      "evidence": [
+        "Official name on a different TLD",
+        "Parked / for-sale page"
+      ],
+      "action": "Monitor. Consider buying it defensively or a UDRP if it turns active.",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "blackdragon.club",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "tld-swap",
+      "dns": {
+        "domain": "blackdragon.club",
+        "registered": true,
+        "a": [
+          "195.161.41.115"
+        ],
+        "aaaa": [],
+        "mx": [],
+        "ns": [
+          "ns4.jino.ru",
+          "ns1.jino.ru",
+          "ns2.jino.ru",
+          "ns3.jino.ru"
+        ]
+      },
+      "page": {
+        "url": "https://blackdragon.club/",
+        "finalUrl": "https://blackdragon.club/",
+        "status": 200,
+        "title": "Клуб «Чёрный Дракон» — закрытый деловой клуб",
+        "scriptUrls": [],
+        "signals": {
+          "secretForm": false,
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "lure": [],
+          "drainerJs": [],
+          "parked": [],
+          "cryptoContext": [],
+          "interstitial": [],
+          "challenge": []
+        },
+        "brandMentions": 1,
+        "brandInTitle": false,
+        "bytes": 84923,
+        "renderedWith": "http",
+        "faviconUrl": "https://blackdragon.club/favicon.ico",
+        "faviconSha256": "9ecef0580f9625aa682ebde056975f4a23e9304f851c93ba792243c4f661bab2",
+        "textSample": "Перейти к содержанию Клуб Альянс Уровни Платформа Как вступить FAQ RU Войти на платформу Международный клуб «Чёрный Дракон» Закрытый деловой клуб для владельцев бизнеса, банков и инвесторов Клуб — это люди и доверие: участники знают друг друга лично и общаются за закрытыми дверями. Альянс — это инст"
+      },
+      "similarity": {
+        "title": 0.18,
+        "text": 0,
+        "favicon": false,
+        "overall": 0.06
+      },
+      "listedOn": [],
+      "score": 22,
+      "severity": "low",
+      "label": "likely-false-positive",
+      "evidence": [
+        "Official name on a different TLD",
+        "Brand word used without any crypto context (1x): probably an unrelated business"
+      ],
+      "action": "No action (labelled false positive).",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "blackdragon.com",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "tld-swap",
+      "dns": {
+        "domain": "blackdragon.com",
+        "registered": true,
+        "a": [],
+        "aaaa": [],
+        "mx": [
+          "mx.jd.com"
+        ],
+        "ns": [
+          "ns2.jdcache.com",
+          "ns5.jdcache.com",
+          "ns4.jdcache.com",
+          "ns1.jdcache.com",
+          "ns3.jdcache.com"
+        ]
+      },
+      "listedOn": [],
+      "score": 20,
+      "severity": "low",
+      "label": "not-live",
+      "evidence": [
+        "Official name on a different TLD"
+      ],
+      "action": "Monitor (registered, no website). Consider defensive registration.",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "blackdragon.org",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "tld-swap",
+      "dns": {
+        "domain": "blackdragon.org",
+        "registered": true,
+        "a": [
+          "15.197.225.128",
+          "3.33.251.168"
+        ],
+        "aaaa": [],
+        "mx": [
+          "smtp.secureserver.net",
+          "mailstore1.secureserver.net"
+        ],
+        "ns": [
+          "ns14.domaincontrol.com",
+          "ns13.domaincontrol.com"
+        ]
+      },
+      "page": {
+        "url": "https://blackdragon.org/",
+        "finalUrl": "https://blackdragon.org/",
+        "status": 200,
+        "title": "http://www.blackdragon.org",
+        "scriptUrls": [],
+        "signals": {
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "secretForm": false,
+          "lure": [],
+          "drainerJs": [],
+          "parked": [],
+          "cryptoContext": [],
+          "interstitial": [],
+          "challenge": []
+        },
+        "brandMentions": 0,
+        "brandInTitle": false,
+        "bytes": 362,
+        "renderedWith": "playwright",
+        "faviconUrl": "https://blackdragon.org/favicon.ico",
+        "screenshot": "/Users/kacpergumieniuk/Projects/4b47/mimicwatch-near/data/scans/2026-11-01/domains/black-dragon-blackdragon--2026-11-01/shots/blackdragon.org.jpg",
+        "textSample": ""
+      },
+      "similarity": {
+        "title": 0.8,
+        "text": 0,
+        "favicon": false,
+        "overall": 0.28
+      },
+      "listedOn": [],
+      "score": 20,
+      "severity": "low",
+      "label": "lookalike-unknown-content",
+      "evidence": [
+        "Official name on a different TLD",
+        "Almost empty page (0 chars of text, title \"http://www.blackdragon.org\"): content not visible"
+      ],
+      "action": "Re-check next scan; the content was not visible to us (error, bot wall or empty page).",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "blackdragon.net",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "tld-swap",
+      "dns": {
+        "domain": "blackdragon.net",
+        "registered": true,
+        "a": [
+          "192.64.151.235"
+        ],
+        "aaaa": [],
+        "mx": [
+          "mail.computer.com"
+        ],
+        "ns": [
+          "ns3.anydns.com",
+          "ns1.anydns.com",
+          "ns2.anydns.com",
+          "ns4.anydns.com"
+        ]
+      },
+      "page": {
+        "url": "https://blackdragon.net/",
+        "finalUrl": "https://blackdragon.net/",
+        "status": 200,
+        "title": "",
+        "scriptUrls": [],
+        "signals": {
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "secretForm": false,
+          "lure": [],
+          "drainerJs": [],
+          "parked": [],
+          "cryptoContext": [],
+          "interstitial": [],
+          "challenge": []
+        },
+        "brandMentions": 0,
+        "brandInTitle": false,
+        "bytes": 41,
+        "renderedWith": "playwright",
+        "faviconUrl": "https://blackdragon.net/favicon.ico",
+        "faviconSha256": "17bf068c76eb2d552b4eea51a7f9c02d251c4a9c3b30c6a9aa322cc8eea70529",
+        "screenshot": "/Users/kacpergumieniuk/Projects/4b47/mimicwatch-near/data/scans/2026-11-01/domains/black-dragon-blackdragon--2026-11-01/shots/blackdragon.net.jpg",
+        "textSample": "{\"detail\":\"Failed to process the data.\"}"
+      },
+      "similarity": {
+        "title": 0,
+        "text": 0,
+        "favicon": false,
+        "overall": 0
+      },
+      "listedOn": [],
+      "score": 20,
+      "severity": "low",
+      "label": "lookalike-unknown-content",
+      "evidence": [
+        "Official name on a different TLD",
+        "Almost empty page (40 chars of text, title \"\"): content not visible"
+      ],
+      "action": "Re-check next scan; the content was not visible to us (error, bot wall or empty page).",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "blackdragon.app",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "tld-swap",
+      "dns": {
+        "domain": "blackdragon.app",
+        "registered": true,
+        "a": [
+          "76.223.54.146",
+          "13.248.169.48"
+        ],
+        "aaaa": [],
+        "mx": [
+          ""
+        ],
+        "ns": [
+          "ns3.afternic.com",
+          "ns4.afternic.com"
+        ]
+      },
+      "page": {
+        "url": "https://blackdragon.app/",
+        "finalUrl": "https://forsale.godaddy.com/forsale/blackdragon.app?utm_source=TDFS_DASLNC&utm_medium=parkedpages&utm_campaign=x_corp_tdfs-daslnc_base&traffic_type=TDFS_DASLNC&traffic_id=daslnc&",
+        "status": 200,
+        "title": "Access Denied",
+        "scriptUrls": [],
+        "signals": {
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "secretForm": false,
+          "lure": [],
+          "drainerJs": [],
+          "parked": [],
+          "cryptoContext": [],
+          "interstitial": [],
+          "challenge": [
+            "Access Denied"
+          ]
+        },
+        "brandMentions": 1,
+        "brandInTitle": false,
+        "bytes": 114,
+        "renderedWith": "playwright",
+        "faviconUrl": "https://blackdragon.app/favicon.ico",
+        "screenshot": "/Users/kacpergumieniuk/Projects/4b47/mimicwatch-near/data/scans/2026-11-01/domains/black-dragon-blackdragon--2026-11-01/shots/blackdragon.app.jpg",
+        "textSample": "Access Denied You don't have permission to access \"http://forsale.godaddy.com/forsale/blackdragon.app?\" on this server. Reference #18.2f0c4017.1793549739.4c6a7eeb https://errors.edgesuite.net/18.2f0c4017.1793549739.4c6a7eeb"
+      },
+      "similarity": {
+        "title": 0.08,
+        "text": 0,
+        "favicon": false,
+        "overall": 0.03
+      },
+      "listedOn": [],
+      "score": 20,
+      "severity": "low",
+      "label": "lookalike-unknown-content",
+      "evidence": [
+        "Official name on a different TLD",
+        "Bot challenge or redirect stub (\"Access Denied\"): real content not visible"
+      ],
+      "action": "Re-check next scan; the content was not visible to us (error, bot wall or empty page).",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "blackdragon.co",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "tld-swap",
+      "dns": {
+        "domain": "blackdragon.co",
+        "registered": true,
+        "a": [
+          "13.248.169.48",
+          "76.223.54.146"
+        ],
+        "aaaa": [],
+        "mx": [
+          ""
+        ],
+        "ns": [
+          "ns2.afternic.com",
+          "ns1.afternic.com"
+        ]
+      },
+      "page": {
+        "url": "https://blackdragon.co/",
+        "finalUrl": "https://forsale.godaddy.com/forsale/blackdragon.co?utm_source=TDFS_BINNS2&utm_medium=parkedpages&utm_campaign=x_corp_tdfs-binns2_base&traffic_type=TDFS_BINNS2&traffic_id=binns2&",
+        "status": 200,
+        "title": "Access Denied",
+        "scriptUrls": [],
+        "signals": {
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "secretForm": false,
+          "lure": [],
+          "drainerJs": [],
+          "parked": [],
+          "cryptoContext": [],
+          "interstitial": [],
+          "challenge": [
+            "Access Denied"
+          ]
+        },
+        "brandMentions": 1,
+        "brandInTitle": false,
+        "bytes": 114,
+        "renderedWith": "playwright",
+        "faviconUrl": "https://blackdragon.co/favicon.ico",
+        "screenshot": "/Users/kacpergumieniuk/Projects/4b47/mimicwatch-near/data/scans/2026-11-01/domains/black-dragon-blackdragon--2026-11-01/shots/blackdragon.co.jpg",
+        "textSample": "Access Denied You don't have permission to access \"http://forsale.godaddy.com/forsale/blackdragon.co?\" on this server. Reference #18.2f0c4017.1793549740.4c6a8ea2 https://errors.edgesuite.net/18.2f0c4017.1793549740.4c6a8ea2"
+      },
+      "similarity": {
+        "title": 0.08,
+        "text": 0,
+        "favicon": false,
+        "overall": 0.03
+      },
+      "listedOn": [],
+      "score": 20,
+      "severity": "low",
+      "label": "lookalike-unknown-content",
+      "evidence": [
+        "Official name on a different TLD",
+        "Bot challenge or redirect stub (\"Access Denied\"): real content not visible"
+      ],
+      "action": "Re-check next scan; the content was not visible to us (error, bot wall or empty page).",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "blackdragon.live",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "tld-swap",
+      "dns": {
+        "domain": "blackdragon.live",
+        "registered": true,
+        "a": [
+          "103.169.142.0"
+        ],
+        "aaaa": [],
+        "mx": [],
+        "ns": [
+          "ns2.domainesia.net",
+          "ns1.domainesia.net"
+        ]
+      },
+      "page": {
+        "url": "http://blackdragon.live/",
+        "finalUrl": "http://blackdragon.live/",
+        "status": 409,
+        "title": "DNS resolution error | blackdragon.live | Cloudflare",
+        "scriptUrls": [
+          "https://performance.radar.cloudflare.com/beacon.js"
+        ],
+        "signals": {
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "secretForm": false,
+          "lure": [],
+          "drainerJs": [],
+          "parked": [],
+          "cryptoContext": [],
+          "interstitial": [],
+          "challenge": []
+        },
+        "brandMentions": 0,
+        "brandInTitle": false,
+        "bytes": 7877,
+        "renderedWith": "playwright",
+        "faviconUrl": "http://blackdragon.live/favicon.ico",
+        "screenshot": "/Users/kacpergumieniuk/Projects/4b47/mimicwatch-near/data/scans/2026-11-01/domains/black-dragon-blackdragon--2026-11-01/shots/blackdragon.live.jpg",
+        "textSample": "Please enable cookies. Error 1001 Ray ID: a53c32d43cf41e5d &bull; 2026-11-01 16:15:29 UTC DNS resolution error What happened? You've requested a page on a website (blackdragon.live) that is on the Cloudflare network. Cloudflare is currently unable to resolve your requested domain (blackdragon.live)."
+      },
+      "similarity": {
+        "title": 0.8,
+        "text": 0,
+        "favicon": false,
+        "overall": 0.28
+      },
+      "listedOn": [],
+      "score": 20,
+      "severity": "low",
+      "label": "lookalike-unknown-content",
+      "evidence": [
+        "Official name on a different TLD",
+        "Page returned HTTP 409"
+      ],
+      "action": "Re-check next scan; the content was not visible to us (error, bot wall or empty page).",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "blackdragon.online",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "tld-swap",
+      "dns": {
+        "domain": "blackdragon.online",
+        "registered": true,
+        "a": [
+          "76.223.54.146",
+          "13.248.169.48"
+        ],
+        "aaaa": [],
+        "mx": [
+          ""
+        ],
+        "ns": [
+          "ns2.afternic.com",
+          "ns1.afternic.com"
+        ]
+      },
+      "page": {
+        "url": "https://blackdragon.online/",
+        "finalUrl": "https://forsale.godaddy.com/forsale/blackdragon.online?utm_source=TDFS_BINNS2&utm_medium=parkedpages&utm_campaign=x_corp_tdfs-binns2_base&traffic_type=TDFS_BINNS2&traffic_id=binns2&",
+        "status": 200,
+        "title": "Access Denied",
+        "scriptUrls": [],
+        "signals": {
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "secretForm": false,
+          "lure": [],
+          "drainerJs": [],
+          "parked": [],
+          "cryptoContext": [],
+          "interstitial": [],
+          "challenge": [
+            "Access Denied"
+          ]
+        },
+        "brandMentions": 1,
+        "brandInTitle": false,
+        "bytes": 114,
+        "renderedWith": "playwright",
+        "faviconUrl": "https://blackdragon.online/favicon.ico",
+        "screenshot": "/Users/kacpergumieniuk/Projects/4b47/mimicwatch-near/data/scans/2026-11-01/domains/black-dragon-blackdragon--2026-11-01/shots/blackdragon.online.jpg",
+        "textSample": "Access Denied You don't have permission to access \"http://forsale.godaddy.com/forsale/blackdragon.online?\" on this server. Reference #18.2f0c4017.1793549743.4c6abbfb https://errors.edgesuite.net/18.2f0c4017.1793549743.4c6abbfb"
+      },
+      "similarity": {
+        "title": 0.08,
+        "text": 0,
+        "favicon": false,
+        "overall": 0.03
+      },
+      "listedOn": [],
+      "score": 20,
+      "severity": "low",
+      "label": "lookalike-unknown-content",
+      "evidence": [
+        "Official name on a different TLD",
+        "Bot challenge or redirect stub (\"Access Denied\"): real content not visible"
+      ],
+      "action": "Re-check next scan; the content was not visible to us (error, bot wall or empty page).",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "blackdragon.top",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "tld-swap",
+      "dns": {
+        "domain": "blackdragon.top",
+        "registered": true,
+        "a": [],
+        "aaaa": [],
+        "mx": [],
+        "ns": [
+          "ns1.julydns.com",
+          "ns2.julydns.com"
+        ]
+      },
+      "listedOn": [],
+      "score": 20,
+      "severity": "low",
+      "label": "not-live",
+      "evidence": [
+        "Official name on a different TLD"
+      ],
+      "action": "Monitor (registered, no website). Consider defensive registration.",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "blackdragon.cc",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "tld-swap",
+      "dns": {
+        "domain": "blackdragon.cc",
+        "registered": true,
+        "a": [],
+        "aaaa": [],
+        "mx": [
+          "aspmx.l.google.com",
+          "alt1.aspmx.l.google.com",
+          "alt2.aspmx.l.google.com",
+          "alt3.aspmx.l.google.com",
+          "alt4.aspmx.l.google.com"
+        ],
+        "ns": [
+          "dns2.registrar-servers.com",
+          "dns1.registrar-servers.com"
+        ]
+      },
+      "listedOn": [],
+      "score": 20,
+      "severity": "low",
+      "label": "not-live",
+      "evidence": [
+        "Official name on a different TLD"
+      ],
+      "action": "Monitor (registered, no website). Consider defensive registration.",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "blackdragon.info",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "tld-swap",
+      "dns": {
+        "domain": "blackdragon.info",
+        "registered": true,
+        "a": [
+          "76.223.54.146",
+          "13.248.169.48"
+        ],
+        "aaaa": [],
+        "mx": [
+          ""
+        ],
+        "ns": [
+          "ns1.afternic.com",
+          "ns2.afternic.com"
+        ]
+      },
+      "page": {
+        "url": "https://blackdragon.info/",
+        "finalUrl": "https://forsale.godaddy.com/forsale/blackdragon.info?utm_source=TDFS_BINNS2&utm_medium=parkedpages&utm_campaign=x_corp_tdfs-binns2_base&traffic_type=TDFS_BINNS2&traffic_id=binns2&",
+        "status": 200,
+        "title": "Access Denied",
+        "scriptUrls": [],
+        "signals": {
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "secretForm": false,
+          "lure": [],
+          "drainerJs": [],
+          "parked": [],
+          "cryptoContext": [],
+          "interstitial": [],
+          "challenge": [
+            "Access Denied"
+          ]
+        },
+        "brandMentions": 1,
+        "brandInTitle": false,
+        "bytes": 114,
+        "renderedWith": "playwright",
+        "faviconUrl": "https://blackdragon.info/favicon.ico",
+        "screenshot": "/Users/kacpergumieniuk/Projects/4b47/mimicwatch-near/data/scans/2026-11-01/domains/black-dragon-blackdragon--2026-11-01/shots/blackdragon.info.jpg",
+        "textSample": "Access Denied You don't have permission to access \"http://forsale.godaddy.com/forsale/blackdragon.info?\" on this server. Reference #18.2f0c4017.1793549743.4c6ac2f0 https://errors.edgesuite.net/18.2f0c4017.1793549743.4c6ac2f0"
+      },
+      "similarity": {
+        "title": 0.08,
+        "text": 0,
+        "favicon": false,
+        "overall": 0.03
+      },
+      "listedOn": [],
+      "score": 20,
+      "severity": "low",
+      "label": "lookalike-unknown-content",
+      "evidence": [
+        "Official name on a different TLD",
+        "Bot challenge or redirect stub (\"Access Denied\"): real content not visible"
+      ],
+      "action": "Re-check next scan; the content was not visible to us (error, bot wall or empty page).",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "blackdragon.me",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "tld-swap",
+      "dns": {
+        "domain": "blackdragon.me",
+        "registered": true,
+        "a": [
+          "76.223.54.146",
+          "13.248.169.48"
+        ],
+        "aaaa": [],
+        "mx": [
+          ""
+        ],
+        "ns": [
+          "ns2.afternic.com",
+          "ns1.afternic.com"
+        ]
+      },
+      "page": {
+        "url": "https://blackdragon.me/",
+        "finalUrl": "https://forsale.godaddy.com/forsale/blackdragon.me?utm_source=TDFS_BINNS2&utm_medium=parkedpages&utm_campaign=x_corp_tdfs-binns2_base&traffic_type=TDFS_BINNS2&traffic_id=binns2&",
+        "status": 200,
+        "title": "Access Denied",
+        "scriptUrls": [],
+        "signals": {
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "secretForm": false,
+          "lure": [],
+          "drainerJs": [],
+          "parked": [],
+          "cryptoContext": [],
+          "interstitial": [],
+          "challenge": [
+            "Access Denied"
+          ]
+        },
+        "brandMentions": 1,
+        "brandInTitle": false,
+        "bytes": 114,
+        "renderedWith": "playwright",
+        "faviconUrl": "https://blackdragon.me/favicon.ico",
+        "screenshot": "/Users/kacpergumieniuk/Projects/4b47/mimicwatch-near/data/scans/2026-11-01/domains/black-dragon-blackdragon--2026-11-01/shots/blackdragon.me.jpg",
+        "textSample": "Access Denied You don't have permission to access \"http://forsale.godaddy.com/forsale/blackdragon.me?\" on this server. Reference #18.2f0c4017.1793549746.4c6ae3c1 https://errors.edgesuite.net/18.2f0c4017.1793549746.4c6ae3c1"
+      },
+      "similarity": {
+        "title": 0.08,
+        "text": 0,
+        "favicon": false,
+        "overall": 0.03
+      },
+      "listedOn": [],
+      "score": 20,
+      "severity": "low",
+      "label": "lookalike-unknown-content",
+      "evidence": [
+        "Official name on a different TLD",
+        "Bot challenge or redirect stub (\"Access Denied\"): real content not visible"
+      ],
+      "action": "Re-check next scan; the content was not visible to us (error, bot wall or empty page).",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "blackdragon.dev",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "tld-swap",
+      "dns": {
+        "domain": "blackdragon.dev",
+        "registered": true,
+        "a": [
+          "188.114.96.3",
+          "188.114.97.3"
+        ],
+        "aaaa": [],
+        "mx": [
+          "mail.synergyhost.com"
+        ],
+        "ns": [
+          "amy.ns.cloudflare.com",
+          "eric.ns.cloudflare.com"
+        ]
+      },
+      "page": {
+        "url": "https://blackdragon.dev/",
+        "finalUrl": "https://blackdragon.dev/",
+        "status": 523,
+        "title": "blackdragon.dev | 523: Origin is unreachable",
+        "scriptUrls": [],
+        "signals": {
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "secretForm": false,
+          "lure": [],
+          "drainerJs": [],
+          "parked": [],
+          "cryptoContext": [],
+          "interstitial": [],
+          "challenge": []
+        },
+        "brandMentions": 0,
+        "brandInTitle": false,
+        "bytes": 7191,
+        "renderedWith": "playwright",
+        "faviconUrl": "https://blackdragon.dev/favicon.ico",
+        "screenshot": "/Users/kacpergumieniuk/Projects/4b47/mimicwatch-near/data/scans/2026-11-01/domains/black-dragon-blackdragon--2026-11-01/shots/blackdragon.dev.jpg",
+        "textSample": "Origin is unreachable Error code 523 Visit cloudflare.com for more information. 2026-11-01 16:15:31 UTC You Browser Working Warsaw Cloudflare Working blackdragon.dev Host Error What happened? The origin web server is not reachable. What can I do? If you're a visitor of this website: Please try again"
+      },
+      "similarity": {
+        "title": 0.8,
+        "text": 0,
+        "favicon": false,
+        "overall": 0.28
+      },
+      "listedOn": [],
+      "score": 20,
+      "severity": "low",
+      "label": "lookalike-unknown-content",
+      "evidence": [
+        "Official name on a different TLD",
+        "Page returned HTTP 523"
+      ],
+      "action": "Re-check next scan; the content was not visible to us (error, bot wall or empty page).",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "blackdragon.tech",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "tld-swap",
+      "dns": {
+        "domain": "blackdragon.tech",
+        "registered": true,
+        "a": [
+          "103.227.176.20"
+        ],
+        "aaaa": [],
+        "mx": [
+          "mail.blackdragon.tech"
+        ],
+        "ns": [
+          "ns1.supercp.com",
+          "ns2.supercp.com",
+          "ns4.supercp.com",
+          "ns3.supercp.com"
+        ]
+      },
+      "page": {
+        "url": "https://blackdragon.tech/",
+        "finalUrl": "https://blackdragon.tech/",
+        "status": 403,
+        "title": "403 Forbidden",
+        "scriptUrls": [],
+        "signals": {
+          "secretForm": false,
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "lure": [],
+          "drainerJs": [],
+          "parked": [],
+          "cryptoContext": [],
+          "interstitial": [],
+          "challenge": [
+            "403 Forbidden"
+          ]
+        },
+        "brandMentions": 0,
+        "brandInTitle": false,
+        "bytes": 1242,
+        "renderedWith": "http",
+        "faviconUrl": "https://blackdragon.tech/favicon.ico",
+        "textSample": "403 Forbidden Access to this resource on the server is denied! Proudly powered by LiteSpeed Web Server Please be advised that LiteSpeed Technologies Inc. is not a web hosting company and, as such, has no control over content found on this site."
+      },
+      "similarity": {
+        "title": 0.08,
+        "text": 0,
+        "favicon": false,
+        "overall": 0.03
+      },
+      "listedOn": [],
+      "score": 20,
+      "severity": "low",
+      "label": "lookalike-unknown-content",
+      "evidence": [
+        "Official name on a different TLD",
+        "Bot challenge or redirect stub (\"403 Forbidden\"): real content not visible"
+      ],
+      "action": "Re-check next scan; the content was not visible to us (error, bot wall or empty page).",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "blackdragon.vip",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "tld-swap",
+      "dns": {
+        "domain": "blackdragon.vip",
+        "registered": true,
+        "a": [],
+        "aaaa": [],
+        "mx": [],
+        "ns": [
+          "dns28.hichina.com",
+          "dns27.hichina.com"
+        ]
+      },
+      "listedOn": [],
+      "score": 20,
+      "severity": "low",
+      "label": "not-live",
+      "evidence": [
+        "Official name on a different TLD"
+      ],
+      "action": "Monitor (registered, no website). Consider defensive registration.",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "blackdragon.icu",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "tld-swap",
+      "dns": {
+        "domain": "blackdragon.icu",
+        "registered": true,
+        "a": [],
+        "aaaa": [],
+        "mx": [],
+        "ns": [
+          "a.share-dns.com",
+          "b.share-dns.net"
+        ]
+      },
+      "listedOn": [],
+      "score": 20,
+      "severity": "low",
+      "label": "not-live",
+      "evidence": [
+        "Official name on a different TLD"
+      ],
+      "action": "Monitor (registered, no website). Consider defensive registration.",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "blackdragon.space",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "tld-swap",
+      "dns": {
+        "domain": "blackdragon.space",
+        "registered": true,
+        "a": [
+          "15.197.172.60"
+        ],
+        "aaaa": [],
+        "mx": [],
+        "ns": [
+          "dns4.name-services.com",
+          "dns3.name-services.com",
+          "dns5.name-services.com",
+          "dns1.name-services.com",
+          "dns2.name-services.com"
+        ]
+      },
+      "page": {
+        "url": "https://blackdragon.space/",
+        "finalUrl": "https://blackdragon.space/",
+        "status": 200,
+        "title": "",
+        "scriptUrls": [],
+        "signals": {
+          "secretForm": false,
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "lure": [],
+          "drainerJs": [],
+          "parked": [],
+          "cryptoContext": [],
+          "interstitial": [],
+          "challenge": []
+        },
+        "brandMentions": 0,
+        "brandInTitle": false,
+        "bytes": 114,
+        "renderedWith": "http",
+        "faviconUrl": "https://blackdragon.space/favicon.ico",
+        "textSample": ""
+      },
+      "similarity": {
+        "title": 0,
+        "text": 0,
+        "favicon": false,
+        "overall": 0
+      },
+      "listedOn": [],
+      "score": 20,
+      "severity": "low",
+      "label": "lookalike-unknown-content",
+      "evidence": [
+        "Official name on a different TLD",
+        "Almost empty page (0 chars of text, title \"\"): content not visible"
+      ],
+      "action": "Re-check next scan; the content was not visible to us (error, bot wall or empty page).",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "blackdragon.store",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "tld-swap",
+      "dns": {
+        "domain": "blackdragon.store",
+        "registered": true,
+        "a": [
+          "76.223.67.189",
+          "13.248.213.45"
+        ],
+        "aaaa": [],
+        "mx": [],
+        "ns": [
+          "ns36.domaincontrol.com",
+          "ns35.domaincontrol.com"
+        ]
+      },
+      "page": {
+        "url": "https://blackdragon.store/",
+        "finalUrl": "https://blackdragon.store/",
+        "status": 200,
+        "title": "",
+        "scriptUrls": [],
+        "signals": {
+          "secretForm": false,
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "lure": [],
+          "drainerJs": [],
+          "parked": [],
+          "cryptoContext": [],
+          "interstitial": [],
+          "challenge": []
+        },
+        "brandMentions": 0,
+        "brandInTitle": false,
+        "bytes": 114,
+        "renderedWith": "http",
+        "faviconUrl": "https://blackdragon.store/favicon.ico",
+        "textSample": ""
+      },
+      "similarity": {
+        "title": 0,
+        "text": 0,
+        "favicon": false,
+        "overall": 0
+      },
+      "listedOn": [],
+      "score": 20,
+      "severity": "low",
+      "label": "lookalike-unknown-content",
+      "evidence": [
+        "Official name on a different TLD",
+        "Almost empty page (0 chars of text, title \"\"): content not visible"
+      ],
+      "action": "Re-check next scan; the content was not visible to us (error, bot wall or empty page).",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "blackdragon.fun",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "tld-swap",
+      "dns": {
+        "domain": "blackdragon.fun",
+        "registered": true,
+        "a": [
+          "15.197.148.33",
+          "3.33.130.190"
+        ],
+        "aaaa": [],
+        "mx": [],
+        "ns": [
+          "ns46.domaincontrol.com",
+          "ns45.domaincontrol.com"
+        ]
+      },
+      "page": {
+        "url": "https://blackdragon.fun/",
+        "finalUrl": "https://blackdragon.fun/",
+        "status": 200,
+        "title": "",
+        "scriptUrls": [],
+        "signals": {
+          "secretForm": false,
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "lure": [],
+          "drainerJs": [],
+          "parked": [],
+          "cryptoContext": [],
+          "interstitial": [],
+          "challenge": []
+        },
+        "brandMentions": 0,
+        "brandInTitle": false,
+        "bytes": 114,
+        "renderedWith": "http",
+        "faviconUrl": "https://blackdragon.fun/favicon.ico",
+        "textSample": ""
+      },
+      "similarity": {
+        "title": 0,
+        "text": 0,
+        "favicon": false,
+        "overall": 0
+      },
+      "listedOn": [],
+      "score": 20,
+      "severity": "low",
+      "label": "lookalike-unknown-content",
+      "evidence": [
+        "Official name on a different TLD",
+        "Almost empty page (0 chars of text, title \"\"): content not visible"
+      ],
+      "action": "Re-check next scan; the content was not visible to us (error, bot wall or empty page).",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "blackdragon.gg",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "tld-swap",
+      "dns": {
+        "domain": "blackdragon.gg",
+        "registered": true,
+        "a": [
+          "104.21.79.8",
+          "172.67.139.79"
+        ],
+        "aaaa": [],
+        "mx": [
+          "mail.blackdragon.gg"
+        ],
+        "ns": [
+          "thomas.ns.cloudflare.com",
+          "paige.ns.cloudflare.com"
+        ]
+      },
+      "page": {
+        "url": "https://blackdragon.gg/",
+        "finalUrl": "https://blackdragon.gg/",
+        "status": 503,
+        "title": "",
+        "scriptUrls": [],
+        "signals": {
+          "secretForm": false,
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "lure": [],
+          "drainerJs": [],
+          "parked": [],
+          "cryptoContext": [],
+          "interstitial": [],
+          "challenge": []
+        },
+        "brandMentions": 0,
+        "brandInTitle": false,
+        "bytes": 20,
+        "renderedWith": "http",
+        "faviconUrl": "https://blackdragon.gg/favicon.ico",
+        "textSample": "no available server"
+      },
+      "similarity": {
+        "title": 0,
+        "text": 0,
+        "favicon": false,
+        "overall": 0
+      },
+      "listedOn": [],
+      "score": 20,
+      "severity": "low",
+      "label": "lookalike-unknown-content",
+      "evidence": [
+        "Official name on a different TLD",
+        "Almost empty page (19 chars of text, title \"\"): content not visible"
+      ],
+      "action": "Re-check next scan; the content was not visible to us (error, bot wall or empty page).",
+      "alreadyBlocked": false
+    }
+  ],
+  "tokens": [],
+  "errors": []
+}

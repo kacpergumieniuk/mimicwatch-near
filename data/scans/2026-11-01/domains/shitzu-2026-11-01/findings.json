@@ -1,0 +1,112 @@
+{
+  "brand": {
+    "name": "SHITZU",
+    "officialDomains": [
+      "shitzuapes.xyz"
+    ],
+    "referenceUrl": "https://app.shitzuapes.xyz",
+    "officialTokens": [],
+    "officialSocials": {
+      "x": "shitzuonnear",
+      "telegram": "Shitzu_Community",
+      "github": "Shitzu-Apes"
+    },
+    "keywords": [
+      "shitzu",
+      "shitzuapes"
+    ],
+    "allowlist": [],
+    "tokenChains": [
+      "base"
+    ]
+  },
+  "startedAt": "2026-11-01T16:14:52.331Z",
+  "finishedAt": "2026-11-01T16:15:51.207Z",
+  "periodDays": 30,
+  "official": {
+    "url": "https://app.shitzuapes.xyz/",
+    "title": "Shitzu App",
+    "faviconSha256": "171b0bf929c45a63dbbc4d018d867273860e52146d5ca0cc33a2674b4a0c2443"
+  },
+  "stats": {
+    "permutations": 1269,
+    "permutationsRegistered": 0,
+    "ctHosts": 0,
+    "nrdHits": 0,
+    "candidates": 0,
+    "pagesFetched": 0,
+    "pagesRendered": 0,
+    "tokensIndexed": {},
+    "tokenMatches": 0
+  },
+  "coverage": {
+    "ct": [
+      {
+        "q": "shitzu%",
+        "rows": 0,
+        "error": "HTTP 400"
+      },
+      {
+        "q": "shitzu.%",
+        "rows": 0,
+        "error": "HTTP 400"
+      },
+      {
+        "q": "shitzu-%",
+        "rows": 0,
+        "error": "HTTP 400"
+      },
+      {
+        "q": "%shitzu%",
+        "rows": 0,
+        "error": "HTTP 400"
+      },
+      {
+        "q": "shitzuapes%",
+        "rows": 0,
+        "error": "HTTP 400"
+      },
+      {
+        "q": "shitzuapes.%",
+        "rows": 0,
+        "error": "HTTP 400"
+      },
+      {
+        "q": "shitzuapes-%",
+        "rows": 0,
+        "error": "HTTP 400"
+      },
+      {
+        "q": "%shitzuapes%",
+        "rows": 0,
+        "error": "HTTP 400"
+      }
+    ],
+    "nrd": [
+      {
+        "day": "2026-10-31",
+        "domains": 70000
+      },
+      {
+        "day": "2026-10-30",
+        "domains": 70000
+      },
+      {
+        "day": "2026-10-29",
+        "domains": 70000
+      },
+      {
+        "day": "2026-10-28",
+        "domains": 70000
+      }
+    ],
+    "tokens": [],
+    "blocklists": [
+      "metamask",
+      "scamsniffer"
+    ]
+  },
+  "domains": [],
+  "tokens": [],
+  "errors": []
+}

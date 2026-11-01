@@ -1,0 +1,1200 @@
+{
+  "brand": {
+    "name": "Sweat Economy",
+    "officialDomains": [
+      "swe.at",
+      "sweateconomy.com",
+      "sweatco.in"
+    ],
+    "referenceUrl": "https://swe.at",
+    "officialTokens": [],
+    "officialSocials": {
+      "x": "SweatEconomy",
+      "telegram": "SweatEconomyAnnouncements",
+      "github": "sweatco"
+    },
+    "keywords": [
+      "sweateconomy",
+      "sweatcoin",
+      "sweatco",
+      "sweatwallet"
+    ],
+    "allowlist": [],
+    "tokenChains": [
+      "base"
+    ]
+  },
+  "startedAt": "2026-11-01T16:07:25.235Z",
+  "finishedAt": "2026-11-01T16:09:28.992Z",
+  "periodDays": 30,
+  "official": {
+    "url": "https://swe.at/",
+    "title": "Sweat Wallet: Earn Crypto by Walking",
+    "faviconSha256": "261f042970ceadfac5fc7b96ec19acc636341f9c74cf58eb632d85f9d5a2a0fb"
+  },
+  "stats": {
+    "permutations": 2693,
+    "permutationsRegistered": 12,
+    "ctHosts": 0,
+    "nrdHits": 2,
+    "candidates": 14,
+    "pagesFetched": 11,
+    "pagesRendered": 7,
+    "tokensIndexed": {},
+    "tokenMatches": 0
+  },
+  "coverage": {
+    "ct": [
+      {
+        "q": "sweateconomy%",
+        "rows": 0,
+        "error": "HTTP 400"
+      },
+      {
+        "q": "sweateconomy.%",
+        "rows": 0,
+        "error": "HTTP 400"
+      },
+      {
+        "q": "sweateconomy-%",
+        "rows": 0,
+        "error": "HTTP 400"
+      },
+      {
+        "q": "%sweateconomy%",
+        "rows": 0,
+        "error": "HTTP 400"
+      },
+      {
+        "q": "sweatcoin%",
+        "rows": 0,
+        "error": "HTTP 400"
+      },
+      {
+        "q": "sweatcoin.%",
+        "rows": 0,
+        "error": "HTTP 400"
+      },
+      {
+        "q": "sweatcoin-%",
+        "rows": 0,
+        "error": "HTTP 400"
+      },
+      {
+        "q": "%sweatcoin%",
+        "rows": 0,
+        "error": "HTTP 400"
+      },
+      {
+        "q": "sweatco%",
+        "rows": 0,
+        "error": "HTTP 400"
+      },
+      {
+        "q": "sweatco.%",
+        "rows": 0,
+        "error": "HTTP 400"
+      },
+      {
+        "q": "sweatco-%",
+        "rows": 0,
+        "error": "HTTP 400"
+      },
+      {
+        "q": "%sweatco%",
+        "rows": 0,
+        "error": "HTTP 400"
+      },
+      {
+        "q": "sweatwallet%",
+        "rows": 0,
+        "error": "HTTP 400"
+      },
+      {
+        "q": "sweatwallet.%",
+        "rows": 0,
+        "error": "HTTP 400"
+      },
+      {
+        "q": "sweatwallet-%",
+        "rows": 0,
+        "error": "HTTP 400"
+      },
+      {
+        "q": "%sweatwallet%",
+        "rows": 0,
+        "error": "HTTP 400"
+      }
+    ],
+    "nrd": [
+      {
+        "day": "2026-10-31",
+        "domains": 70000
+      },
+      {
+        "day": "2026-10-30",
+        "domains": 70000
+      },
+      {
+        "day": "2026-10-29",
+        "domains": 70000
+      },
+      {
+        "day": "2026-10-28",
+        "domains": 70000
+      }
+    ],
+    "tokens": [],
+    "blocklists": [
+      "metamask",
+      "scamsniffer"
+    ]
+  },
+  "domains": [
+    {
+      "kind": "domain",
+      "host": "sweatcoincentral.com",
+      "sources": [
+        "nrd"
+      ],
+      "nrdDate": "2026-10-29",
+      "dns": {
+        "domain": "sweatcoincentral.com",
+        "registered": true,
+        "a": [
+          "52.22.81.197"
+        ],
+        "aaaa": [],
+        "mx": [
+          "smtp.google.com"
+        ],
+        "ns": [
+          "ns1.sweatcoinhub.com",
+          "ns2.sweatcoinhub.com"
+        ]
+      },
+      "page": {
+        "url": "https://sweatcoincentral.com/",
+        "finalUrl": "https://sweatcoincentral.com/",
+        "status": 200,
+        "title": "Sweatcoin: Healthier planet. Healthier, wealthier you",
+        "scriptUrls": [
+          "https://sweatcoincentral.com/static/js/client.186f6c16.js"
+        ],
+        "signals": {
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "secretForm": false,
+          "lure": [
+            "rewards"
+          ],
+          "drainerJs": [],
+          "parked": [],
+          "cryptoContext": [
+            "crypto"
+          ],
+          "interstitial": [],
+          "challenge": []
+        },
+        "brandMentions": 31,
+        "brandInTitle": true,
+        "bytes": 118170,
+        "renderedWith": "playwright",
+        "faviconUrl": "https://sweatcoincentral.com/static/media/favicon.f1ebc748.ico",
+        "faviconSha256": "6e8743fc89e83f9ecffdec0bcb8cf52d30ffcfc7ca0fa38ed99dde5c843f2709",
+        "screenshot": "/Users/kacpergumieniuk/Projects/4b47/mimicwatch-near/data/scans/2026-11-01/domains/sweat-economy-2026-11-01/shots/sweatcoincentral.com.jpg",
+        "textSample": "We use cookies 🍪 to provide the best experience. By continuing to use our website, you agree to our cookies policy Menu Partner with Us Become an Influencer Health Partner with Us Become an Influencer Health Download the App It pays to walk Turn your steps into real-life rewards Download the App Wa"
+      },
+      "similarity": {
+        "title": 0,
+        "text": 0,
+        "favicon": false,
+        "overall": 0
+      },
+      "listedOn": [],
+      "score": 40,
+      "severity": "medium",
+      "label": "impersonation",
+      "evidence": [
+        "Hostname contains the brand name",
+        "Newly registered domain (WhoisDS daily list)",
+        "Brand named on the page (31x), including the title",
+        "Lure text: rewards"
+      ],
+      "action": "Review the screenshot. If it impersonates the brand, file registrar + host reports (drafts attached).",
+      "alreadyBlocked": false,
+      "rdap": {
+        "domain": "sweatcoincentral.com",
+        "registrar": "Dynadot Inc",
+        "ianaId": "472",
+        "abuse": {
+          "email": "abuse@dynadot.com",
+          "phone": "+16502620100"
+        },
+        "registered": "2026-10-27T19:48:29Z",
+        "expires": "2027-10-27T19:48:29Z",
+        "status": [
+          "client transfer prohibited"
+        ],
+        "source": "https://rdap.verisign.com/com/v1/domain/sweatcoincentral.com"
+      },
+      "hosting": {
+        "ip": "52.22.81.197",
+        "network": "AT-88-Z",
+        "org": "Amazon Technologies Inc.",
+        "abuse": {
+          "name": "Amazon EC2 Abuse",
+          "email": "trustandsafety@support.aws.com",
+          "phone": "+1-206-555-0000"
+        }
+      },
+      "drafts": [
+        {
+          "channel": "registrar-abuse",
+          "title": "Registrar abuse report to Dynadot Inc",
+          "to": "abuse@dynadot.com",
+          "subject": "Phishing / brand impersonation: sweatcoincentral.com impersonates Sweat Economy",
+          "body": "DRAFT - NOT FILED. File only after the brand owner approves it and has signed a Letter of Authorisation.\n\nHello Dynadot Inc abuse team,\n\nThe domain sweatcoincentral[.]com (registered with you on 2026-10-27) is being used to impersonate Sweat Economy, a crypto project whose official site is hxxps://swe[.]at, https://sweateconomy[.]com, https://sweatco[.]in. We ask you to suspend the domain under your abuse policy and the RAA section 3.18 obligations.\n\nEvidence (observed 2026-11-01, read-only, URLs defanged):\n- URL: hxxps://sweatcoincentral[.]com/\n- Hostname contains the brand name\n- Newly registered domain (WhoisDS daily list)\n- Brand named on the page (31x), including the title\n- Lure text: rewards\n- Resolves to 52.22.81.197\n- Page title: \"Sweatcoin: Healthier planet. Healthier, wealthier you\"\n- Screenshot: shots/sweatcoincentral.com.jpg (attach)\n\nWe are not affiliated with the operator of sweatcoincentral[.]com. Sweat Economy has not authorised its use of the brand. Screenshots and HTML captures are available on request.\n\nRegards,\n{{REPORTER_NAME}}\n{{REPORTER_ORG}}, acting for Sweat Economy under a Letter of Authorisation dated {{LOA_DATE}}\n{{REPORTER_EMAIL}}",
+          "notes": [
+            "Registrar IANA ID 472, abuse phone +16502620100"
+          ]
+        },
+        {
+          "channel": "host-abuse",
+          "title": "Hosting abuse report to Amazon Technologies Inc.",
+          "to": "trustandsafety@support.aws.com",
+          "subject": "Phishing site hosted on your network: sweatcoincentral.com (Sweat Economy impersonation)",
+          "body": "DRAFT - NOT FILED. File only after the brand owner approves it and has signed a Letter of Authorisation.\n\nHello Amazon Technologies Inc.,\n\nhxxps://sweatcoincentral[.]com/ (52.22.81.197) is hosted on your network and impersonates Sweat Economy (official: hxxps://swe[.]at, https://sweateconomy[.]com, https://sweatco[.]in).\n\nEvidence (observed 2026-11-01):\n- Hostname contains the brand name\n- Newly registered domain (WhoisDS daily list)\n- Brand named on the page (31x), including the title\n- Lure text: rewards\n- Resolves to 52.22.81.197\n- Page title: \"Sweatcoin: Healthier planet. Healthier, wealthier you\"\n- Screenshot: shots/sweatcoincentral.com.jpg (attach)\n\nPlease take the content down under your acceptable use policy.\n\nRegards,\n{{REPORTER_NAME}}\n{{REPORTER_ORG}}, acting for Sweat Economy under a Letter of Authorisation dated {{LOA_DATE}}\n{{REPORTER_EMAIL}}",
+          "notes": []
+        },
+        {
+          "channel": "google-safe-browsing",
+          "title": "Google Safe Browsing report",
+          "to": "https://safebrowsing.google.com/safebrowsing/report_phish/?url=https%3A%2F%2Fsweatcoincentral.com%2F",
+          "fields": {
+            "Report Type": "This page is not safe",
+            "Threat Type": "Social engineering (phishing) - pick the closest option shown",
+            "Threat Category": "Pick the closest option shown (impersonation / phishing)",
+            "URL to report": "https://sweatcoincentral.com/",
+            "Additional details (max 800)": "Impersonates Sweat Economy (official: https://swe.at, https://sweateconomy.com, https://sweatco.in). Brand named on the page (31x), including the title; Newly registered domain (WhoisDS daily list); Lure text: rewards."
+          },
+          "body": "DRAFT - NOT FILED. File only after the brand owner approves it and has signed a Letter of Authorisation.\n\nImpersonates Sweat Economy (official: https://swe.at, https://sweateconomy.com, https://sweatco.in). Brand named on the page (31x), including the title; Newly registered domain (WhoisDS daily list); Lure text: rewards.",
+          "notes": [
+            "Web form with reCAPTCHA: a person has to submit it."
+          ]
+        },
+        {
+          "channel": "netcraft",
+          "title": "Netcraft report",
+          "to": "https://report.netcraft.com/report",
+          "fields": {
+            "The URL of the site": "https://sweatcoincentral.com/",
+            "Further details": "Impersonates Sweat Economy (official: https://swe.at, https://sweateconomy.com, https://sweatco.in). Brand named on the page (31x), including the title; Newly registered domain (WhoisDS daily list); Lure text: rewards.",
+            "Your email address": "{{REPORTER_EMAIL}}"
+          },
+          "body": "DRAFT - NOT FILED. File only after the brand owner approves it and has signed a Letter of Authorisation.\n\nImpersonates Sweat Economy (official: https://swe.at, https://sweateconomy.com, https://sweatco.in). Brand named on the page (31x), including the title; Newly registered domain (WhoisDS daily list); Lure text: rewards.",
+          "notes": [
+            "Web form with reCAPTCHA. Netcraft feeds many browser and registrar blocklists."
+          ]
+        },
+        {
+          "channel": "metamask-issue",
+          "title": "MetaMask eth-phishing-detect: blocklist addition issue",
+          "to": "https://github.com/MetaMask/eth-phishing-detect/issues/new?template=01-blocklist-addition.yaml",
+          "fields": {
+            "Malicious domains, IPs, IPFS hashes, or IPNS names": "https://sweatcoincentral.com/",
+            "Please explain why this content is malicious": "Impersonates Sweat Economy (official: https://swe.at, https://sweateconomy.com, https://sweatco.in). Brand named on the page (31x), including the title; Newly registered domain (WhoisDS daily list); Lure text: rewards. Observed 2026-11-01. Reported on behalf of Sweat Economy.",
+            "Is this a duplicate request?": "Search open issues for the domain first, then tick the box"
+          },
+          "body": "DRAFT - NOT FILED. File only after the brand owner approves it and has signed a Letter of Authorisation.\n\nImpersonates Sweat Economy (official: https://swe.at, https://sweateconomy.com, https://sweatco.in). Brand named on the page (31x), including the title; Newly registered domain (WhoisDS daily list); Lure text: rewards."
+        },
+        {
+          "channel": "metamask-pr",
+          "title": "MetaMask eth-phishing-detect: alternative PR (slower; most merges are bot syncs)",
+          "to": "https://github.com/MetaMask/eth-phishing-detect",
+          "body": "DRAFT - NOT FILED. File only after the brand owner approves it and has signed a Letter of Authorisation.\n\ngit checkout -b block-sweatcoincentral.com\nyarn add:blocklist sweatcoincentral.com\n\nPR title: Block sweatcoincentral.com (Sweat Economy impersonation)\nPR body: Impersonates Sweat Economy (official: https://swe.at, https://sweateconomy.com, https://sweatco.in). Brand named on the page (31x), including the title; Newly registered domain (WhoisDS daily list); Lure text: rewards."
+        },
+        {
+          "channel": "scamsniffer-issue",
+          "title": "ScamSniffer scam-database issue",
+          "to": "https://github.com/scamsniffer/scam-database/issues/new",
+          "subject": "[Phishing] sweatcoincentral.com - Sweat Economy impersonation",
+          "body": "DRAFT - NOT FILED. File only after the brand owner approves it and has signed a Letter of Authorisation.\n\nDomain: sweatcoincentral.com\nScam addresses (with chain): {{ADD IF KNOWN, e.g. from a victim's drain tx}}\nImpersonates: Sweat Economy (official: https://swe.at, https://sweateconomy.com, https://sweatco.in)\n\nEvidence (observed 2026-11-01):\n- Hostname contains the brand name\n- Newly registered domain (WhoisDS daily list)\n- Brand named on the page (31x), including the title\n- Lure text: rewards\n- Resolves to 52.22.81.197\n- Page title: \"Sweatcoin: Healthier planet. Healthier, wealthier you\"\n- Screenshot: shots/sweatcoincentral.com.jpg (attach)",
+          "notes": [
+            "ScamSniffer asks for issues, not PRs (their JSON is regenerated). Attach the screenshot."
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "domain",
+      "host": "sweatcoinhub.com",
+      "sources": [
+        "nrd"
+      ],
+      "nrdDate": "2026-10-29",
+      "dns": {
+        "domain": "sweatcoinhub.com",
+        "registered": true,
+        "a": [
+          "100.31.34.117"
+        ],
+        "aaaa": [],
+        "mx": [
+          "smtp.google.com"
+        ],
+        "ns": [
+          "ns1.sweatcoinhub.com",
+          "ns2.sweatcoinhub.com"
+        ]
+      },
+      "page": {
+        "url": "https://sweatcoinhub.com/",
+        "finalUrl": "https://sweatcoinhub.com/",
+        "status": 200,
+        "title": "Sweatcoin: Healthier planet. Healthier, wealthier you",
+        "scriptUrls": [
+          "https://sweatcoinhub.com/static/js/client.186f6c16.js"
+        ],
+        "signals": {
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "secretForm": false,
+          "lure": [
+            "rewards"
+          ],
+          "drainerJs": [],
+          "parked": [],
+          "cryptoContext": [
+            "crypto"
+          ],
+          "interstitial": [],
+          "challenge": []
+        },
+        "brandMentions": 31,
+        "brandInTitle": true,
+        "bytes": 118170,
+        "renderedWith": "playwright",
+        "faviconUrl": "https://sweatcoinhub.com/static/media/favicon.f1ebc748.ico",
+        "faviconSha256": "6e8743fc89e83f9ecffdec0bcb8cf52d30ffcfc7ca0fa38ed99dde5c843f2709",
+        "screenshot": "/Users/kacpergumieniuk/Projects/4b47/mimicwatch-near/data/scans/2026-11-01/domains/sweat-economy-2026-11-01/shots/sweatcoinhub.com.jpg",
+        "textSample": "We use cookies 🍪 to provide the best experience. By continuing to use our website, you agree to our cookies policy Menu Partner with Us Become an Influencer Health Partner with Us Become an Influencer Health Download the App It pays to walk Turn your steps into real-life rewards Download the App Wa"
+      },
+      "similarity": {
+        "title": 0,
+        "text": 0,
+        "favicon": false,
+        "overall": 0
+      },
+      "listedOn": [],
+      "score": 40,
+      "severity": "medium",
+      "label": "impersonation",
+      "evidence": [
+        "Hostname contains the brand name",
+        "Newly registered domain (WhoisDS daily list)",
+        "Brand named on the page (31x), including the title",
+        "Lure text: rewards"
+      ],
+      "action": "Review the screenshot. If it impersonates the brand, file registrar + host reports (drafts attached).",
+      "alreadyBlocked": false,
+      "rdap": {
+        "domain": "sweatcoinhub.com",
+        "registrar": "Dynadot Inc",
+        "ianaId": "472",
+        "abuse": {
+          "email": "abuse@dynadot.com",
+          "phone": "+16502620100"
+        },
+        "registered": "2026-10-27T20:09:16Z",
+        "expires": "2027-10-27T20:09:16Z",
+        "status": [
+          "client transfer prohibited"
+        ],
+        "source": "https://rdap.verisign.com/com/v1/domain/sweatcoinhub.com"
+      },
+      "hosting": {
+        "ip": "100.31.34.117",
+        "network": "AMAZON-IAD",
+        "org": "Amazon Data Services Northern Virginia",
+        "abuse": {
+          "name": "Amazon EC2 Abuse",
+          "email": "trustandsafety@support.aws.com",
+          "phone": "+1-206-555-0000"
+        }
+      },
+      "drafts": [
+        {
+          "channel": "registrar-abuse",
+          "title": "Registrar abuse report to Dynadot Inc",
+          "to": "abuse@dynadot.com",
+          "subject": "Phishing / brand impersonation: sweatcoinhub.com impersonates Sweat Economy",
+          "body": "DRAFT - NOT FILED. File only after the brand owner approves it and has signed a Letter of Authorisation.\n\nHello Dynadot Inc abuse team,\n\nThe domain sweatcoinhub[.]com (registered with you on 2026-10-27) is being used to impersonate Sweat Economy, a crypto project whose official site is hxxps://swe[.]at, https://sweateconomy[.]com, https://sweatco[.]in. We ask you to suspend the domain under your abuse policy and the RAA section 3.18 obligations.\n\nEvidence (observed 2026-11-01, read-only, URLs defanged):\n- URL: hxxps://sweatcoinhub[.]com/\n- Hostname contains the brand name\n- Newly registered domain (WhoisDS daily list)\n- Brand named on the page (31x), including the title\n- Lure text: rewards\n- Resolves to 100.31.34.117\n- Page title: \"Sweatcoin: Healthier planet. Healthier, wealthier you\"\n- Screenshot: shots/sweatcoinhub.com.jpg (attach)\n\nWe are not affiliated with the operator of sweatcoinhub[.]com. Sweat Economy has not authorised its use of the brand. Screenshots and HTML captures are available on request.\n\nRegards,\n{{REPORTER_NAME}}\n{{REPORTER_ORG}}, acting for Sweat Economy under a Letter of Authorisation dated {{LOA_DATE}}\n{{REPORTER_EMAIL}}",
+          "notes": [
+            "Registrar IANA ID 472, abuse phone +16502620100"
+          ]
+        },
+        {
+          "channel": "host-abuse",
+          "title": "Hosting abuse report to Amazon Data Services Northern Virginia",
+          "to": "trustandsafety@support.aws.com",
+          "subject": "Phishing site hosted on your network: sweatcoinhub.com (Sweat Economy impersonation)",
+          "body": "DRAFT - NOT FILED. File only after the brand owner approves it and has signed a Letter of Authorisation.\n\nHello Amazon Data Services Northern Virginia,\n\nhxxps://sweatcoinhub[.]com/ (100.31.34.117) is hosted on your network and impersonates Sweat Economy (official: hxxps://swe[.]at, https://sweateconomy[.]com, https://sweatco[.]in).\n\nEvidence (observed 2026-11-01):\n- Hostname contains the brand name\n- Newly registered domain (WhoisDS daily list)\n- Brand named on the page (31x), including the title\n- Lure text: rewards\n- Resolves to 100.31.34.117\n- Page title: \"Sweatcoin: Healthier planet. Healthier, wealthier you\"\n- Screenshot: shots/sweatcoinhub.com.jpg (attach)\n\nPlease take the content down under your acceptable use policy.\n\nRegards,\n{{REPORTER_NAME}}\n{{REPORTER_ORG}}, acting for Sweat Economy under a Letter of Authorisation dated {{LOA_DATE}}\n{{REPORTER_EMAIL}}",
+          "notes": []
+        },
+        {
+          "channel": "google-safe-browsing",
+          "title": "Google Safe Browsing report",
+          "to": "https://safebrowsing.google.com/safebrowsing/report_phish/?url=https%3A%2F%2Fsweatcoinhub.com%2F",
+          "fields": {
+            "Report Type": "This page is not safe",
+            "Threat Type": "Social engineering (phishing) - pick the closest option shown",
+            "Threat Category": "Pick the closest option shown (impersonation / phishing)",
+            "URL to report": "https://sweatcoinhub.com/",
+            "Additional details (max 800)": "Impersonates Sweat Economy (official: https://swe.at, https://sweateconomy.com, https://sweatco.in). Brand named on the page (31x), including the title; Newly registered domain (WhoisDS daily list); Lure text: rewards."
+          },
+          "body": "DRAFT - NOT FILED. File only after the brand owner approves it and has signed a Letter of Authorisation.\n\nImpersonates Sweat Economy (official: https://swe.at, https://sweateconomy.com, https://sweatco.in). Brand named on the page (31x), including the title; Newly registered domain (WhoisDS daily list); Lure text: rewards.",
+          "notes": [
+            "Web form with reCAPTCHA: a person has to submit it."
+          ]
+        },
+        {
+          "channel": "netcraft",
+          "title": "Netcraft report",
+          "to": "https://report.netcraft.com/report",
+          "fields": {
+            "The URL of the site": "https://sweatcoinhub.com/",
+            "Further details": "Impersonates Sweat Economy (official: https://swe.at, https://sweateconomy.com, https://sweatco.in). Brand named on the page (31x), including the title; Newly registered domain (WhoisDS daily list); Lure text: rewards.",
+            "Your email address": "{{REPORTER_EMAIL}}"
+          },
+          "body": "DRAFT - NOT FILED. File only after the brand owner approves it and has signed a Letter of Authorisation.\n\nImpersonates Sweat Economy (official: https://swe.at, https://sweateconomy.com, https://sweatco.in). Brand named on the page (31x), including the title; Newly registered domain (WhoisDS daily list); Lure text: rewards.",
+          "notes": [
+            "Web form with reCAPTCHA. Netcraft feeds many browser and registrar blocklists."
+          ]
+        },
+        {
+          "channel": "metamask-issue",
+          "title": "MetaMask eth-phishing-detect: blocklist addition issue",
+          "to": "https://github.com/MetaMask/eth-phishing-detect/issues/new?template=01-blocklist-addition.yaml",
+          "fields": {
+            "Malicious domains, IPs, IPFS hashes, or IPNS names": "https://sweatcoinhub.com/",
+            "Please explain why this content is malicious": "Impersonates Sweat Economy (official: https://swe.at, https://sweateconomy.com, https://sweatco.in). Brand named on the page (31x), including the title; Newly registered domain (WhoisDS daily list); Lure text: rewards. Observed 2026-11-01. Reported on behalf of Sweat Economy.",
+            "Is this a duplicate request?": "Search open issues for the domain first, then tick the box"
+          },
+          "body": "DRAFT - NOT FILED. File only after the brand owner approves it and has signed a Letter of Authorisation.\n\nImpersonates Sweat Economy (official: https://swe.at, https://sweateconomy.com, https://sweatco.in). Brand named on the page (31x), including the title; Newly registered domain (WhoisDS daily list); Lure text: rewards."
+        },
+        {
+          "channel": "metamask-pr",
+          "title": "MetaMask eth-phishing-detect: alternative PR (slower; most merges are bot syncs)",
+          "to": "https://github.com/MetaMask/eth-phishing-detect",
+          "body": "DRAFT - NOT FILED. File only after the brand owner approves it and has signed a Letter of Authorisation.\n\ngit checkout -b block-sweatcoinhub.com\nyarn add:blocklist sweatcoinhub.com\n\nPR title: Block sweatcoinhub.com (Sweat Economy impersonation)\nPR body: Impersonates Sweat Economy (official: https://swe.at, https://sweateconomy.com, https://sweatco.in). Brand named on the page (31x), including the title; Newly registered domain (WhoisDS daily list); Lure text: rewards."
+        },
+        {
+          "channel": "scamsniffer-issue",
+          "title": "ScamSniffer scam-database issue",
+          "to": "https://github.com/scamsniffer/scam-database/issues/new",
+          "subject": "[Phishing] sweatcoinhub.com - Sweat Economy impersonation",
+          "body": "DRAFT - NOT FILED. File only after the brand owner approves it and has signed a Letter of Authorisation.\n\nDomain: sweatcoinhub.com\nScam addresses (with chain): {{ADD IF KNOWN, e.g. from a victim's drain tx}}\nImpersonates: Sweat Economy (official: https://swe.at, https://sweateconomy.com, https://sweatco.in)\n\nEvidence (observed 2026-11-01):\n- Hostname contains the brand name\n- Newly registered domain (WhoisDS daily list)\n- Brand named on the page (31x), including the title\n- Lure text: rewards\n- Resolves to 100.31.34.117\n- Page title: \"Sweatcoin: Healthier planet. Healthier, wealthier you\"\n- Screenshot: shots/sweatcoinhub.com.jpg (attach)",
+          "notes": [
+            "ScamSniffer asks for issues, not PRs (their JSON is regenerated). Attach the screenshot."
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "domain",
+      "host": "sweteconomy.com",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "omission",
+      "dns": {
+        "domain": "sweteconomy.com",
+        "registered": true,
+        "a": [
+          "217.160.233.50"
+        ],
+        "aaaa": [],
+        "mx": [
+          "mx01.ionos.co.uk",
+          "mx00.ionos.co.uk"
+        ],
+        "ns": [
+          "ns1079.ui-dns.org",
+          "ns1054.ui-dns.com",
+          "ns1075.ui-dns.de",
+          "ns1117.ui-dns.biz"
+        ]
+      },
+      "page": {
+        "url": "http://sweteconomy.com/",
+        "finalUrl": "http://sweteconomy.com/",
+        "status": 200,
+        "title": "Web hosting, domain name registration and web services by 1&1 Internet",
+        "scriptUrls": [],
+        "signals": {
+          "secretForm": false,
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "lure": [],
+          "drainerJs": [],
+          "parked": [],
+          "cryptoContext": [],
+          "interstitial": [],
+          "challenge": []
+        },
+        "brandMentions": 0,
+        "brandInTitle": false,
+        "bytes": 6605,
+        "renderedWith": "http",
+        "faviconUrl": "http://sweteconomy.com/favicon.ico",
+        "textSample": "THIS DOMAIN NAME HAS JUST BEEN REGISTERED FOR ONE OF OUR CUSTOMERS! Do you need affordable web hosting or a domain name? 1&1 Internet is trusted by millions. Find out why. 1&1 offers a one-stop shop for all your domain name and web hosting needs so you can maximize your full web potential &mdash; wi"
+      },
+      "similarity": {
+        "title": 0.07,
+        "text": 0,
+        "favicon": false,
+        "overall": 0.03
+      },
+      "listedOn": [],
+      "score": 26,
+      "severity": "low",
+      "label": "likely-false-positive",
+      "evidence": [
+        "Typosquat (omission) of the official domain",
+        "No brand content found on the page: probably unrelated (false positive)"
+      ],
+      "action": "No action (labelled false positive).",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "weatco.in",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "omission",
+      "dns": {
+        "domain": "weatco.in",
+        "registered": true,
+        "a": [
+          "172.104.149.86",
+          "172.104.251.198",
+          "139.162.174.209",
+          "172.104.203.186",
+          "139.162.181.76"
+        ],
+        "aaaa": [],
+        "mx": [
+          "mail.mailerhost.net"
+        ],
+        "ns": [
+          "meisheng.ns.giantpanda.com",
+          "anan.ns.giantpanda.com"
+        ]
+      },
+      "page": {
+        "url": "http://weatco.in/",
+        "finalUrl": "http://weatco.in/",
+        "status": 200,
+        "title": "weatco.in - Coming Soon",
+        "scriptUrls": [],
+        "signals": {
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "secretForm": false,
+          "lure": [],
+          "drainerJs": [],
+          "parked": [],
+          "cryptoContext": [],
+          "interstitial": [],
+          "challenge": []
+        },
+        "brandMentions": 0,
+        "brandInTitle": false,
+        "bytes": 35893,
+        "renderedWith": "playwright",
+        "faviconUrl": "http://weatco.in/favicon.ico",
+        "screenshot": "/Users/kacpergumieniuk/Projects/4b47/mimicwatch-near/data/scans/2026-11-01/domains/sweat-economy-2026-11-01/shots/weatco.in.jpg",
+        "textSample": "Verification Security check Checking your browser Before you can access this site, we need to verify you&rsquo;re human. Checking your browser&hellip; Verification failed. Please refresh and try again. Privacy &bull; Security"
+      },
+      "similarity": {
+        "title": 0,
+        "text": 0,
+        "favicon": false,
+        "overall": 0
+      },
+      "listedOn": [],
+      "score": 25,
+      "severity": "low",
+      "label": "likely-false-positive",
+      "evidence": [
+        "Typosquat (omission) of the official domain",
+        "One of 4 lookalikes on the same DNS account (anan.ns.giantpanda.com + meisheng.ns.giantpanda.com): a single operator",
+        "No brand content found on the page: probably unrelated (false positive)"
+      ],
+      "action": "No action (labelled false positive).",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "seatco.in",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "omission",
+      "dns": {
+        "domain": "seatco.in",
+        "registered": true,
+        "a": [
+          "103.20.127.61"
+        ],
+        "aaaa": [],
+        "mx": [
+          "us2.mx2.mailhostbox.com",
+          "us2.mx3.mailhostbox.com",
+          "us2.mx1.mailhostbox.com"
+        ],
+        "ns": [
+          "dns4.bigrock.in",
+          "dns1.bigrock.in",
+          "dns3.bigrock.in",
+          "dns2.bigrock.in"
+        ]
+      },
+      "page": {
+        "url": "http://seatco.in/",
+        "finalUrl": "http://www.seatco.in/",
+        "status": 200,
+        "title": "Seatcos Akshay Urja Shop - Top Solar Energy System Dealer in Amravati HO, Amravati, Maharashtra, India",
+        "scriptUrls": [
+          "https://static3.jdomni.in/mpstatic/jd-angular/client/scripts/libs/jquery/jquery.min.js",
+          "https://static1.jdomni.in/mpstatic/webstore/36296.46b5eed5.js",
+          "https://static1.jdomni.in/mpstatic/webstore/64644.8d065181.js",
+          "https://static1.jdomni.in/mpstatic/webstore/86446.23034850.js",
+          "https://static1.jdomni.in/mpstatic/webstore/74909.c4e18026.js",
+          "https://static1.jdomni.in/mpstatic/webstore/4589.9eaca72b.js"
+        ],
+        "signals": {
+          "secretForm": false,
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "lure": [],
+          "drainerJs": [],
+          "parked": [],
+          "cryptoContext": [],
+          "interstitial": [],
+          "challenge": []
+        },
+        "brandMentions": 0,
+        "brandInTitle": false,
+        "bytes": 188653,
+        "renderedWith": "http",
+        "faviconUrl": "https://image1.jdomni.in/favicon/06012022/5B/D8/1E/E090D17BE09058AAB01C4E8747_1641454341882.ico",
+        "faviconSha256": "59b2450af0de75b78a1368f77d736e9a9c5f5d8fa575bac693f859d97c2e53a1",
+        "textSample": "+91-9422914636 seatcosolar@gmail.com Amravati HO Log In | Sign Up Hi Switch to Clean Energy & Save up to 90% on Monthly Electricity Bills Complete On-Grid, Off-Grid & Hybrid Solar Solutions with PM Surya Ghar Subsidy Assistance. Book Free Site Visit Get Instant Quote 0 Cart About Us Welcome To Seatc"
+      },
+      "similarity": {
+        "title": 0,
+        "text": 0,
+        "favicon": false,
+        "overall": 0
+      },
+      "listedOn": [],
+      "score": 25,
+      "severity": "low",
+      "label": "likely-false-positive",
+      "evidence": [
+        "Typosquat (omission) of the official domain",
+        "No brand content found on the page: probably unrelated (false positive)"
+      ],
+      "action": "No action (labelled false positive).",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "swetco.in",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "omission",
+      "dns": {
+        "domain": "swetco.in",
+        "registered": true,
+        "a": [],
+        "aaaa": [],
+        "mx": [],
+        "ns": [
+          "sharon.ns.cloudflare.com",
+          "grant.ns.cloudflare.com"
+        ]
+      },
+      "listedOn": [],
+      "score": 25,
+      "severity": "low",
+      "label": "not-live",
+      "evidence": [
+        "Typosquat (omission) of the official domain"
+      ],
+      "action": "Monitor (registered, no website). Consider defensive registration.",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "sweato.in",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "omission",
+      "dns": {
+        "domain": "sweato.in",
+        "registered": true,
+        "a": [
+          "172.104.203.186",
+          "172.104.251.198",
+          "172.104.149.86",
+          "139.162.174.209",
+          "139.162.181.76"
+        ],
+        "aaaa": [],
+        "mx": [
+          "mail.mailerhost.net"
+        ],
+        "ns": [
+          "meisheng.ns.giantpanda.com",
+          "anan.ns.giantpanda.com"
+        ]
+      },
+      "page": {
+        "url": "http://sweato.in/",
+        "finalUrl": "http://sweato.in/",
+        "status": 200,
+        "title": "sweato.in - Coming Soon",
+        "scriptUrls": [],
+        "signals": {
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "secretForm": false,
+          "lure": [],
+          "drainerJs": [],
+          "parked": [],
+          "cryptoContext": [],
+          "interstitial": [],
+          "challenge": []
+        },
+        "brandMentions": 0,
+        "brandInTitle": false,
+        "bytes": 35842,
+        "renderedWith": "playwright",
+        "faviconUrl": "http://sweato.in/favicon.ico",
+        "screenshot": "/Users/kacpergumieniuk/Projects/4b47/mimicwatch-near/data/scans/2026-11-01/domains/sweat-economy-2026-11-01/shots/sweato.in.jpg",
+        "textSample": "Verification Security check Checking your browser Before you can access this site, we need to verify you&rsquo;re human. Checking your browser&hellip; Verification failed. Please refresh and try again. Privacy &bull; Security"
+      },
+      "similarity": {
+        "title": 0,
+        "text": 0,
+        "favicon": false,
+        "overall": 0
+      },
+      "listedOn": [],
+      "score": 25,
+      "severity": "low",
+      "label": "likely-false-positive",
+      "evidence": [
+        "Typosquat (omission) of the official domain",
+        "One of 4 lookalikes on the same DNS account (anan.ns.giantpanda.com + meisheng.ns.giantpanda.com): a single operator",
+        "No brand content found on the page: probably unrelated (false positive)"
+      ],
+      "action": "No action (labelled false positive).",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "sweatc.in",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "omission",
+      "dns": {
+        "domain": "sweatc.in",
+        "registered": true,
+        "a": [
+          "172.104.203.186",
+          "172.104.149.86",
+          "139.162.174.209",
+          "172.104.251.198",
+          "139.162.181.76"
+        ],
+        "aaaa": [],
+        "mx": [
+          "mail.mailerhost.net"
+        ],
+        "ns": [
+          "anan.ns.giantpanda.com",
+          "meisheng.ns.giantpanda.com"
+        ]
+      },
+      "page": {
+        "url": "http://sweatc.in/",
+        "finalUrl": "http://sweatc.in/",
+        "status": 200,
+        "title": "sweatc.in - Coming Soon",
+        "scriptUrls": [],
+        "signals": {
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "secretForm": false,
+          "lure": [],
+          "drainerJs": [],
+          "parked": [],
+          "cryptoContext": [],
+          "interstitial": [],
+          "challenge": []
+        },
+        "brandMentions": 0,
+        "brandInTitle": false,
+        "bytes": 35833,
+        "renderedWith": "playwright",
+        "faviconUrl": "http://sweatc.in/favicon.ico",
+        "screenshot": "/Users/kacpergumieniuk/Projects/4b47/mimicwatch-near/data/scans/2026-11-01/domains/sweat-economy-2026-11-01/shots/sweatc.in.jpg",
+        "textSample": "Verification Security check Checking your browser Before you can access this site, we need to verify you&rsquo;re human. Checking your browser&hellip; Verification failed. Please refresh and try again. Privacy &bull; Security"
+      },
+      "similarity": {
+        "title": 0,
+        "text": 0,
+        "favicon": false,
+        "overall": 0
+      },
+      "listedOn": [],
+      "score": 25,
+      "severity": "low",
+      "label": "likely-false-positive",
+      "evidence": [
+        "Typosquat (omission) of the official domain",
+        "One of 4 lookalikes on the same DNS account (anan.ns.giantpanda.com + meisheng.ns.giantpanda.com): a single operator",
+        "No brand content found on the page: probably unrelated (false positive)"
+      ],
+      "action": "No action (labelled false positive).",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "swetaco.in",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "transposition",
+      "dns": {
+        "domain": "swetaco.in",
+        "registered": true,
+        "a": [
+          "172.104.251.198",
+          "172.104.203.186",
+          "172.104.149.86",
+          "139.162.174.209",
+          "139.162.181.76"
+        ],
+        "aaaa": [],
+        "mx": [
+          "mail.mailerhost.net"
+        ],
+        "ns": [
+          "anan.ns.giantpanda.com",
+          "meisheng.ns.giantpanda.com"
+        ]
+      },
+      "page": {
+        "url": "http://swetaco.in/",
+        "finalUrl": "http://swetaco.in/",
+        "status": 200,
+        "title": "swetaco.in - Coming Soon",
+        "scriptUrls": [],
+        "signals": {
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "secretForm": false,
+          "lure": [],
+          "drainerJs": [],
+          "parked": [],
+          "cryptoContext": [],
+          "interstitial": [],
+          "challenge": []
+        },
+        "brandMentions": 0,
+        "brandInTitle": false,
+        "bytes": 35956,
+        "renderedWith": "playwright",
+        "faviconUrl": "http://swetaco.in/favicon.ico",
+        "screenshot": "/Users/kacpergumieniuk/Projects/4b47/mimicwatch-near/data/scans/2026-11-01/domains/sweat-economy-2026-11-01/shots/swetaco.in.jpg",
+        "textSample": "Verification Security check Checking your browser Before you can access this site, we need to verify you&rsquo;re human. Checking your browser&hellip; Verification failed. Please refresh and try again. Privacy &bull; Security"
+      },
+      "similarity": {
+        "title": 0,
+        "text": 0,
+        "favicon": false,
+        "overall": 0
+      },
+      "listedOn": [],
+      "score": 25,
+      "severity": "low",
+      "label": "likely-false-positive",
+      "evidence": [
+        "Typosquat (transposition) of the official domain",
+        "One of 4 lookalikes on the same DNS account (anan.ns.giantpanda.com + meisheng.ns.giantpanda.com): a single operator",
+        "No brand content found on the page: probably unrelated (false positive)"
+      ],
+      "action": "No action (labelled false positive).",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "support-sweatco.in",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "dictionary",
+      "dns": {
+        "domain": "support-sweatco.in",
+        "registered": true,
+        "a": [],
+        "aaaa": [],
+        "mx": [
+          "aspmx.l.google.com",
+          "alt1.aspmx.l.google.com",
+          "alt2.aspmx.l.google.com",
+          "alt3.aspmx.l.google.com",
+          "alt4.aspmx.l.google.com"
+        ],
+        "ns": [
+          "ns-cloud-b4.googledomains.com",
+          "ns-cloud-b1.googledomains.com",
+          "ns-cloud-b2.googledomains.com",
+          "ns-cloud-b3.googledomains.com"
+        ]
+      },
+      "listedOn": [],
+      "score": 25,
+      "severity": "low",
+      "label": "not-live",
+      "evidence": [
+        "Brand name plus a phishing lure word"
+      ],
+      "action": "Monitor (registered, no website). Consider defensive registration.",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "sweatco.app",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "tld-swap",
+      "dns": {
+        "domain": "sweatco.app",
+        "registered": true,
+        "a": [
+          "91.108.98.1",
+          "77.37.53.170"
+        ],
+        "aaaa": [],
+        "mx": [],
+        "ns": [
+          "ns2.dns-parking.com",
+          "ns1.dns-parking.com"
+        ]
+      },
+      "page": {
+        "url": "https://sweatco.app/",
+        "finalUrl": "https://sweatco.app/",
+        "status": 200,
+        "title": "Sweatcoin - Earn Rewards For Walking",
+        "scriptUrls": [
+          "https://unpkg.com/@tailwindcss/browser@4",
+          "https://unpkg.com/lucide@latest"
+        ],
+        "signals": {
+          "secretForm": false,
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "lure": [
+            "Rewards"
+          ],
+          "drainerJs": [],
+          "parked": [],
+          "cryptoContext": [],
+          "interstitial": [],
+          "challenge": []
+        },
+        "brandMentions": 4,
+        "brandInTitle": true,
+        "bytes": 24927,
+        "renderedWith": "http",
+        "faviconUrl": "https://sweatco.app/favicon.ico",
+        "textSample": "Sweatcoin Download Now Over 100M+ Users Worldwide Turn your steps into real rewards. 100M+ users are already earning with their steps—join them today! Connect your favorite devices and easily earn value for your daily movement. Download for iOS / Apple Download for Android OS Watch it in action U 84"
+      },
+      "similarity": {
+        "title": 0.22,
+        "text": 0,
+        "favicon": false,
+        "overall": 0.08
+      },
+      "listedOn": [],
+      "score": 23,
+      "severity": "low",
+      "label": "likely-false-positive",
+      "evidence": [
+        "Official name on a different TLD",
+        "Brand word used without any crypto context (4x): probably an unrelated business"
+      ],
+      "action": "No action (labelled false positive).",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "sweatco.com",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "tld-swap",
+      "dns": {
+        "domain": "sweatco.com",
+        "registered": true,
+        "a": [
+          "3.33.243.145",
+          "15.197.204.56"
+        ],
+        "aaaa": [],
+        "mx": [],
+        "ns": [
+          "ns37.domaincontrol.com",
+          "ns38.domaincontrol.com"
+        ]
+      },
+      "page": {
+        "url": "https://sweatco.com/",
+        "finalUrl": "https://sweatco.com/lander",
+        "status": 200,
+        "title": "",
+        "scriptUrls": [],
+        "signals": {
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "secretForm": false,
+          "lure": [],
+          "drainerJs": [],
+          "parked": [],
+          "cryptoContext": [],
+          "interstitial": [],
+          "challenge": []
+        },
+        "brandMentions": 0,
+        "brandInTitle": false,
+        "bytes": 114,
+        "renderedWith": "playwright",
+        "faviconUrl": "https://sweatco.com/favicon.ico",
+        "screenshot": "/Users/kacpergumieniuk/Projects/4b47/mimicwatch-near/data/scans/2026-11-01/domains/sweat-economy-2026-11-01/shots/sweatco.com.jpg",
+        "textSample": ""
+      },
+      "similarity": {
+        "title": 0,
+        "text": 0,
+        "favicon": false,
+        "overall": 0
+      },
+      "listedOn": [],
+      "score": 20,
+      "severity": "low",
+      "label": "lookalike-unknown-content",
+      "evidence": [
+        "Official name on a different TLD",
+        "Almost empty page (0 chars of text, title \"\"): content not visible"
+      ],
+      "action": "Re-check next scan; the content was not visible to us (error, bot wall or empty page).",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "sweatco.cc",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "tld-swap",
+      "dns": {
+        "domain": "sweatco.cc",
+        "registered": true,
+        "a": [],
+        "aaaa": [],
+        "mx": [],
+        "ns": [
+          "ns-1678.awsdns-17.co.uk",
+          "ns-415.awsdns-51.com",
+          "ns-1299.awsdns-34.org",
+          "ns-519.awsdns-00.net"
+        ]
+      },
+      "listedOn": [],
+      "score": 20,
+      "severity": "low",
+      "label": "not-live",
+      "evidence": [
+        "Official name on a different TLD"
+      ],
+      "action": "Monitor (registered, no website). Consider defensive registration.",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "sweatco.store",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "tld-swap",
+      "dns": {
+        "domain": "sweatco.store",
+        "registered": true,
+        "a": [
+          "127.0.0.1"
+        ],
+        "aaaa": [],
+        "mx": [],
+        "ns": []
+      },
+      "page": {
+        "url": "https://sweatco.store/",
+        "finalUrl": "https://sweatco.store/",
+        "status": 0,
+        "title": "",
+        "scriptUrls": [],
+        "signals": {
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "secretForm": false,
+          "lure": [],
+          "drainerJs": [],
+          "parked": [],
+          "cryptoContext": [],
+          "interstitial": [],
+          "challenge": []
+        },
+        "brandMentions": 0,
+        "brandInTitle": false,
+        "bytes": 0,
+        "renderedWith": "http",
+        "error": "connect ECONNREFUSED 127.0.0.1:443; http: connect ECONNREFUSED 127.0.0.1:80",
+        "textSample": ""
+      },
+      "listedOn": [],
+      "score": 20,
+      "severity": "low",
+      "label": "lookalike-unknown-content",
+      "evidence": [
+        "Official name on a different TLD",
+        "Page not reachable: connect ECONNREFUSED 127.0.0.1:443; http: connect ECONNREFUSED 127.0.0.1:80"
+      ],
+      "action": "Re-check next scan; the content was not visible to us (error, bot wall or empty page).",
+      "alreadyBlocked": false
+    }
+  ],
+  "tokens": [],
+  "errors": []
+}

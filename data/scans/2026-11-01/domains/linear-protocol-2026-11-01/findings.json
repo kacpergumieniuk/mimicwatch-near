@@ -1,0 +1,390 @@
+{
+  "brand": {
+    "name": "LiNEAR Protocol",
+    "officialDomains": [
+      "linearprotocol.org"
+    ],
+    "referenceUrl": "https://app.linearprotocol.org",
+    "officialTokens": [],
+    "officialSocials": {
+      "x": "LinearProtocol",
+      "github": "linear-protocol"
+    },
+    "keywords": [
+      "linearprotocol",
+      "linear-protocol"
+    ],
+    "allowlist": [],
+    "tokenChains": [
+      "base"
+    ]
+  },
+  "startedAt": "2026-11-01T16:02:59.360Z",
+  "finishedAt": "2026-11-01T16:04:43.592Z",
+  "periodDays": 30,
+  "official": {
+    "url": "https://app.linearprotocol.org/",
+    "title": "LiNEAR - Omnichain Liquid (Re)Staking"
+  },
+  "stats": {
+    "permutations": 1369,
+    "permutationsRegistered": 3,
+    "ctHosts": 0,
+    "nrdHits": 0,
+    "candidates": 3,
+    "pagesFetched": 2,
+    "pagesRendered": 1,
+    "tokensIndexed": {},
+    "tokenMatches": 0
+  },
+  "coverage": {
+    "ct": [
+      {
+        "q": "linearprotocol%",
+        "rows": 0,
+        "error": "HTTP 400"
+      },
+      {
+        "q": "linearprotocol.%",
+        "rows": 0,
+        "error": "HTTP 400"
+      },
+      {
+        "q": "linearprotocol-%",
+        "rows": 0,
+        "error": "HTTP 400"
+      },
+      {
+        "q": "%linearprotocol%",
+        "rows": 0,
+        "error": "HTTP 400"
+      },
+      {
+        "q": "linear-protocol%",
+        "rows": 0,
+        "error": "HTTP 400"
+      },
+      {
+        "q": "linear-protocol.%",
+        "rows": 0,
+        "error": "HTTP 400"
+      },
+      {
+        "q": "linear-protocol-%",
+        "rows": 0,
+        "error": "HTTP 400"
+      },
+      {
+        "q": "%linear-protocol%",
+        "rows": 0,
+        "error": "HTTP 400"
+      }
+    ],
+    "nrd": [
+      {
+        "day": "2026-10-31",
+        "domains": 70000
+      },
+      {
+        "day": "2026-10-30",
+        "domains": 70000
+      },
+      {
+        "day": "2026-10-29",
+        "domains": 70000
+      },
+      {
+        "day": "2026-10-28",
+        "domains": 70000
+      }
+    ],
+    "tokens": [],
+    "blocklists": [
+      "metamask",
+      "scamsniffer"
+    ]
+  },
+  "domains": [
+    {
+      "kind": "domain",
+      "host": "linearprotocol.io",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "tld-swap",
+      "dns": {
+        "domain": "linearprotocol.io",
+        "registered": true,
+        "a": [
+          "63.176.8.218",
+          "35.157.26.135"
+        ],
+        "aaaa": [],
+        "mx": [],
+        "ns": [
+          "dns4.p09.nsone.net",
+          "dns3.p09.nsone.net",
+          "dns1.p09.nsone.net",
+          "dns2.p09.nsone.net"
+        ]
+      },
+      "page": {
+        "url": "https://linearprotocol.io/",
+        "finalUrl": "https://linearprotocol.io/",
+        "status": 200,
+        "title": "LiNEAR - Omnichain Liquid (Re)Staking",
+        "scriptUrls": [
+          "https://linearprotocol.io/static/js/main.7479206d.js"
+        ],
+        "signals": {
+          "walletPrompt": [
+            "connectWallet",
+            "WalletConnect",
+            "Web3Modal",
+            "eth_requestAccounts",
+            "Connect wallet"
+          ],
+          "seedPhrase": [],
+          "secretForm": false,
+          "lure": [
+            "rewards"
+          ],
+          "drainerJs": [
+            "eth_signTypedData_v4"
+          ],
+          "parked": [],
+          "cryptoContext": [
+            "Staking",
+            "wallet"
+          ],
+          "interstitial": [],
+          "challenge": []
+        },
+        "brandMentions": 0,
+        "brandInTitle": false,
+        "bytes": 1673,
+        "renderedWith": "playwright",
+        "faviconUrl": "https://linearprotocol.io/favicon.svg",
+        "screenshot": "/Users/kacpergumieniuk/Projects/4b47/mimicwatch-near/data/scans/2026-11-01/domains/linear-protocol-2026-11-01/shots/linearprotocol.io.jpg",
+        "textSample": "Stake My Account Docs Connect wallet Total $NEAR Staked 13.76M $NEAR ~ $ 59.61M $LiNEAR / $NEAR Price 1.42912 $NEAR ~ $ 6.19 APY - % Validators Staked 448 Stake Your $NEAR Stake $NEAR and receive $LiNEAR while earning staking rewards Stake Unstake NEAR MAX Balance: - $NEAR Connect wallet You will re"
+      },
+      "similarity": {
+        "title": 1,
+        "text": 0.57,
+        "favicon": false,
+        "overall": 0.7
+      },
+      "listedOn": [],
+      "score": 72,
+      "severity": "high",
+      "label": "phishing-likely",
+      "evidence": [
+        "Official name on a different TLD",
+        "Page title resembles the official title (100%)",
+        "Page text overlaps the official site (57% shingles)",
+        "Wallet-connect prompt/library: connectWallet, WalletConnect, Web3Modal",
+        "Drainer-style JS: eth_signTypedData_v4",
+        "Lure text: rewards"
+      ],
+      "action": "After client approval: file registrar + host abuse reports, Google Safe Browsing / Netcraft, and wallet blocklist submissions (drafts attached).",
+      "alreadyBlocked": false,
+      "rdap": {
+        "domain": "linearprotocol.io",
+        "abuse": {},
+        "status": [],
+        "error": "no RDAP server for .io (use WHOIS)"
+      },
+      "hosting": {
+        "ip": "63.176.8.218",
+        "network": "AMAZON-FRA",
+        "org": "A100 ROW GmbH",
+        "abuse": {
+          "name": "Amazon EC2 Abuse",
+          "email": "trustandsafety@support.aws.com",
+          "phone": "+1-206-555-0000"
+        }
+      },
+      "drafts": [
+        {
+          "channel": "registrar-abuse",
+          "title": "Registrar abuse report",
+          "to": "(registrar abuse address not found via RDAP: look it up at https://lookup.icann.org)",
+          "subject": "Phishing / brand impersonation: linearprotocol.io impersonates LiNEAR Protocol",
+          "body": "DRAFT - NOT FILED. File only after the brand owner approves it and has signed a Letter of Authorisation.\n\nHello Abuse Team abuse team,\n\nThe domain linearprotocol[.]io (registered with you) is being used to impersonate LiNEAR Protocol, a crypto project whose official site is hxxps://linearprotocol[.]org. We ask you to suspend the domain under your abuse policy and the RAA section 3.18 obligations.\n\nEvidence (observed 2026-11-01, read-only, URLs defanged):\n- URL: hxxps://linearprotocol[.]io/\n- Official name on a different TLD\n- Page title resembles the official title (100%)\n- Page text overlaps the official site (57% shingles)\n- Wallet-connect prompt/library: connectWallet, WalletConnect, Web3Modal\n- Drainer-style JS: eth_signTypedData_v4\n- Lure text: rewards\n- Resolves to 63.176.8.218, 35.157.26.135\n- Page title: \"LiNEAR - Omnichain Liquid (Re)Staking\"\n- Screenshot: shots/linearprotocol.io.jpg (attach)\n\nWe are not affiliated with the operator of linearprotocol[.]io. LiNEAR Protocol has not authorised its use of the brand. Screenshots and HTML captures are available on request.\n\nRegards,\n{{REPORTER_NAME}}\n{{REPORTER_ORG}}, acting for LiNEAR Protocol under a Letter of Authorisation dated {{LOA_DATE}}\n{{REPORTER_EMAIL}}"
+        },
+        {
+          "channel": "host-abuse",
+          "title": "Hosting abuse report to A100 ROW GmbH",
+          "to": "trustandsafety@support.aws.com",
+          "subject": "Phishing site hosted on your network: linearprotocol.io (LiNEAR Protocol impersonation)",
+          "body": "DRAFT - NOT FILED. File only after the brand owner approves it and has signed a Letter of Authorisation.\n\nHello A100 ROW GmbH,\n\nhxxps://linearprotocol[.]io/ (63.176.8.218, 35.157.26.135) is hosted on your network and impersonates LiNEAR Protocol (official: hxxps://linearprotocol[.]org).\n\nEvidence (observed 2026-11-01):\n- Official name on a different TLD\n- Page title resembles the official title (100%)\n- Page text overlaps the official site (57% shingles)\n- Wallet-connect prompt/library: connectWallet, WalletConnect, Web3Modal\n- Drainer-style JS: eth_signTypedData_v4\n- Lure text: rewards\n- Resolves to 63.176.8.218, 35.157.26.135\n- Page title: \"LiNEAR - Omnichain Liquid (Re)Staking\"\n- Screenshot: shots/linearprotocol.io.jpg (attach)\n\nPlease take the content down under your acceptable use policy.\n\nRegards,\n{{REPORTER_NAME}}\n{{REPORTER_ORG}}, acting for LiNEAR Protocol under a Letter of Authorisation dated {{LOA_DATE}}\n{{REPORTER_EMAIL}}",
+          "notes": []
+        },
+        {
+          "channel": "google-safe-browsing",
+          "title": "Google Safe Browsing report",
+          "to": "https://safebrowsing.google.com/safebrowsing/report_phish/?url=https%3A%2F%2Flinearprotocol.io%2F",
+          "fields": {
+            "Report Type": "This page is not safe",
+            "Threat Type": "Social engineering (phishing) - pick the closest option shown",
+            "Threat Category": "Pick the closest option shown (impersonation / phishing)",
+            "URL to report": "https://linearprotocol.io/",
+            "Additional details (max 800)": "Impersonates LiNEAR Protocol (official: https://linearprotocol.org). Page text overlaps the official site (57% shingles); Drainer-style JS: eth_signTypedData_v4; Wallet-connect prompt/library: connectWallet, WalletConnect, Web3Modal; Page title resembles the official title (100%)."
+          },
+          "body": "DRAFT - NOT FILED. File only after the brand owner approves it and has signed a Letter of Authorisation.\n\nImpersonates LiNEAR Protocol (official: https://linearprotocol.org). Page text overlaps the official site (57% shingles); Drainer-style JS: eth_signTypedData_v4; Wallet-connect prompt/library: connectWallet, WalletConnect, Web3Modal; Page title resembles the official title (100%).",
+          "notes": [
+            "Web form with reCAPTCHA: a person has to submit it."
+          ]
+        },
+        {
+          "channel": "netcraft",
+          "title": "Netcraft report",
+          "to": "https://report.netcraft.com/report",
+          "fields": {
+            "The URL of the site": "https://linearprotocol.io/",
+            "Further details": "Impersonates LiNEAR Protocol (official: https://linearprotocol.org). Page text overlaps the official site (57% shingles); Drainer-style JS: eth_signTypedData_v4; Wallet-connect prompt/library: connectWallet, WalletConnect, Web3Modal; Page title resembles the official title (100%).",
+            "Your email address": "{{REPORTER_EMAIL}}"
+          },
+          "body": "DRAFT - NOT FILED. File only after the brand owner approves it and has signed a Letter of Authorisation.\n\nImpersonates LiNEAR Protocol (official: https://linearprotocol.org). Page text overlaps the official site (57% shingles); Drainer-style JS: eth_signTypedData_v4; Wallet-connect prompt/library: connectWallet, WalletConnect, Web3Modal; Page title resembles the official title (100%).",
+          "notes": [
+            "Web form with reCAPTCHA. Netcraft feeds many browser and registrar blocklists."
+          ]
+        },
+        {
+          "channel": "metamask-issue",
+          "title": "MetaMask eth-phishing-detect: blocklist addition issue",
+          "to": "https://github.com/MetaMask/eth-phishing-detect/issues/new?template=01-blocklist-addition.yaml",
+          "fields": {
+            "Malicious domains, IPs, IPFS hashes, or IPNS names": "https://linearprotocol.io/",
+            "Please explain why this content is malicious": "Impersonates LiNEAR Protocol (official: https://linearprotocol.org). Page text overlaps the official site (57% shingles); Drainer-style JS: eth_signTypedData_v4; Wallet-connect prompt/library: connectWallet, WalletConnect, Web3Modal; Page title resembles the official title (100%). Observed 2026-11-01. Reported on behalf of LiNEAR Protocol.",
+            "Is this a duplicate request?": "Search open issues for the domain first, then tick the box"
+          },
+          "body": "DRAFT - NOT FILED. File only after the brand owner approves it and has signed a Letter of Authorisation.\n\nImpersonates LiNEAR Protocol (official: https://linearprotocol.org). Page text overlaps the official site (57% shingles); Drainer-style JS: eth_signTypedData_v4; Wallet-connect prompt/library: connectWallet, WalletConnect, Web3Modal; Page title resembles the official title (100%)."
+        },
+        {
+          "channel": "metamask-pr",
+          "title": "MetaMask eth-phishing-detect: alternative PR (slower; most merges are bot syncs)",
+          "to": "https://github.com/MetaMask/eth-phishing-detect",
+          "body": "DRAFT - NOT FILED. File only after the brand owner approves it and has signed a Letter of Authorisation.\n\ngit checkout -b block-linearprotocol.io\nyarn add:blocklist linearprotocol.io\n\nPR title: Block linearprotocol.io (LiNEAR Protocol impersonation)\nPR body: Impersonates LiNEAR Protocol (official: https://linearprotocol.org). Page text overlaps the official site (57% shingles); Drainer-style JS: eth_signTypedData_v4; Wallet-connect prompt/library: connectWallet, WalletConnect, Web3Modal; Page title resembles the official title (100%)."
+        },
+        {
+          "channel": "scamsniffer-issue",
+          "title": "ScamSniffer scam-database issue",
+          "to": "https://github.com/scamsniffer/scam-database/issues/new",
+          "subject": "[Phishing] linearprotocol.io - LiNEAR Protocol impersonation",
+          "body": "DRAFT - NOT FILED. File only after the brand owner approves it and has signed a Letter of Authorisation.\n\nDomain: linearprotocol.io\nScam addresses (with chain): {{ADD IF KNOWN, e.g. from a victim's drain tx}}\nImpersonates: LiNEAR Protocol (official: https://linearprotocol.org)\n\nEvidence (observed 2026-11-01):\n- Official name on a different TLD\n- Page title resembles the official title (100%)\n- Page text overlaps the official site (57% shingles)\n- Wallet-connect prompt/library: connectWallet, WalletConnect, Web3Modal\n- Drainer-style JS: eth_signTypedData_v4\n- Lure text: rewards\n- Resolves to 63.176.8.218, 35.157.26.135\n- Page title: \"LiNEAR - Omnichain Liquid (Re)Staking\"\n- Screenshot: shots/linearprotocol.io.jpg (attach)",
+          "notes": [
+            "ScamSniffer asks for issues, not PRs (their JSON is regenerated). Attach the screenshot."
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "domain",
+      "host": "linearprotocol.ai",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "tld-swap",
+      "dns": {
+        "domain": "linearprotocol.ai",
+        "registered": true,
+        "a": [
+          "162.255.119.44"
+        ],
+        "aaaa": [],
+        "mx": [
+          "eforward3.registrar-servers.com",
+          "eforward2.registrar-servers.com",
+          "eforward1.registrar-servers.com",
+          "eforward4.registrar-servers.com",
+          "eforward5.registrar-servers.com"
+        ],
+        "ns": [
+          "dns1.registrar-servers.com",
+          "dns2.registrar-servers.com"
+        ]
+      },
+      "page": {
+        "url": "http://linearprotocol.ai/",
+        "finalUrl": "http://www.linearprotocol.ai/",
+        "status": 200,
+        "title": "",
+        "scriptUrls": [
+          "http://www.linearprotocol.ai/assets/index-BuG04mTK.js",
+          "https://lander.parity.domains/js/pa-6FZUe2Iv3m6Yx_KBS2sv2.js"
+        ],
+        "signals": {
+          "secretForm": false,
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "lure": [],
+          "drainerJs": [],
+          "parked": [],
+          "cryptoContext": [],
+          "interstitial": [],
+          "challenge": []
+        },
+        "brandMentions": 0,
+        "brandInTitle": false,
+        "bytes": 2963,
+        "renderedWith": "http",
+        "faviconUrl": "http://www.linearprotocol.ai/favicon.ico",
+        "textSample": "has been recently registered with namecheap.com Want a domain name like this? Discover domains on auction now See all auctions Download the Namecheap Auctions app Take auctions with you wherever you go"
+      },
+      "similarity": {
+        "title": 0,
+        "text": 0,
+        "favicon": false,
+        "overall": 0
+      },
+      "listedOn": [],
+      "score": 20,
+      "severity": "low",
+      "label": "likely-false-positive",
+      "evidence": [
+        "Official name on a different TLD",
+        "No brand content found on the page: probably unrelated (false positive)"
+      ],
+      "action": "No action (labelled false positive).",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "linearprotocol.com",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "tld-swap",
+      "dns": {
+        "domain": "linearprotocol.com",
+        "registered": true,
+        "a": [],
+        "aaaa": [],
+        "mx": [
+          "eforward1.registrar-servers.com",
+          "eforward3.registrar-servers.com",
+          "eforward2.registrar-servers.com",
+          "eforward4.registrar-servers.com",
+          "eforward5.registrar-servers.com"
+        ],
+        "ns": [
+          "javier.ns.cloudflare.com",
+          "rachel.ns.cloudflare.com"
+        ]
+      },
+      "listedOn": [],
+      "score": 10,
+      "severity": "info",
+      "label": "brand-owned-redirect",
+      "evidence": [
+        "Official name on a different TLD",
+        "Same nameservers as the official domain: probably registered by the brand itself"
+      ],
+      "action": "No action. Confirm the client owns this domain and add it to the allowlist.",
+      "alreadyBlocked": false
+    }
+  ],
+  "tokens": [],
+  "errors": []
+}

@@ -1,0 +1,432 @@
+{
+  "brand": {
+    "name": "Meteor Wallet",
+    "officialDomains": [
+      "meteorwallet.app"
+    ],
+    "referenceUrl": "https://wallet.meteorwallet.app",
+    "officialTokens": [],
+    "officialSocials": {
+      "github": "Meteor-Wallet"
+    },
+    "keywords": [
+      "meteorwallet",
+      "meteor-wallet"
+    ],
+    "allowlist": [],
+    "tokenChains": [
+      "base"
+    ]
+  },
+  "startedAt": "2026-11-01T15:57:19.106Z",
+  "finishedAt": "2026-11-01T15:58:46.525Z",
+  "periodDays": 30,
+  "official": {
+    "url": "https://wallet.meteorwallet.app/add_wallet/create_new",
+    "title": "Meteor Wallet"
+  },
+  "stats": {
+    "permutations": 1321,
+    "permutationsRegistered": 3,
+    "ctHosts": 0,
+    "nrdHits": 0,
+    "candidates": 3,
+    "pagesFetched": 3,
+    "pagesRendered": 3,
+    "tokensIndexed": {},
+    "tokenMatches": 0
+  },
+  "coverage": {
+    "ct": [
+      {
+        "q": "meteorwallet%",
+        "rows": 0,
+        "error": "HTTP 400"
+      },
+      {
+        "q": "meteorwallet.%",
+        "rows": 0,
+        "error": "HTTP 400"
+      },
+      {
+        "q": "meteorwallet-%",
+        "rows": 0,
+        "error": "HTTP 400"
+      },
+      {
+        "q": "%meteorwallet%",
+        "rows": 0,
+        "error": "HTTP 400"
+      },
+      {
+        "q": "meteor-wallet%",
+        "rows": 0,
+        "error": "HTTP 400"
+      },
+      {
+        "q": "meteor-wallet.%",
+        "rows": 0,
+        "error": "HTTP 400"
+      },
+      {
+        "q": "meteor-wallet-%",
+        "rows": 0,
+        "error": "HTTP 400"
+      },
+      {
+        "q": "%meteor-wallet%",
+        "rows": 0,
+        "error": "HTTP 400"
+      }
+    ],
+    "nrd": [
+      {
+        "day": "2026-10-31",
+        "domains": 70000
+      },
+      {
+        "day": "2026-10-30",
+        "domains": 70000
+      },
+      {
+        "day": "2026-10-29",
+        "domains": 70000
+      },
+      {
+        "day": "2026-10-28",
+        "domains": 70000
+      }
+    ],
+    "tokens": [],
+    "blocklists": [
+      "metamask",
+      "scamsniffer"
+    ]
+  },
+  "domains": [
+    {
+      "kind": "domain",
+      "host": "wallet-meteorwallet.com",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "dictionary",
+      "dns": {
+        "domain": "wallet-meteorwallet.com",
+        "registered": true,
+        "a": [
+          "188.114.97.11",
+          "188.114.96.11"
+        ],
+        "aaaa": [],
+        "mx": [],
+        "ns": [
+          "lochlan.ns.cloudflare.com",
+          "anna.ns.cloudflare.com"
+        ]
+      },
+      "page": {
+        "url": "https://wallet-meteorwallet.com/",
+        "finalUrl": "https://wallet-meteorwallet.com/",
+        "status": 200,
+        "title": "Meteor Wallet – Secure NEAR Crypto Wallet for Web3",
+        "scriptUrls": [
+          "https://wallet-meteorwallet.com/_next/static/chunks/415v1k1k0ht5h.js",
+          "https://wallet-meteorwallet.com/_next/static/chunks/1gsc7z-31ah2f.js",
+          "https://wallet-meteorwallet.com/_next/static/chunks/0q86lrgjjhz4f.js",
+          "https://wallet-meteorwallet.com/_next/static/chunks/turbopack-2qes2lxy0x369.js",
+          "https://wallet-meteorwallet.com/_next/static/chunks/3tmjgl3c3d6mm.js",
+          "https://wallet-meteorwallet.com/_next/static/chunks/2pvhk79kisb1h.js"
+        ],
+        "signals": {
+          "walletPrompt": [],
+          "seedPhrase": [
+            "seed phrase"
+          ],
+          "secretForm": false,
+          "lure": [
+            "Airdrop",
+            "rewards"
+          ],
+          "drainerJs": [],
+          "parked": [],
+          "cryptoContext": [
+            "Crypto",
+            "DeFi",
+            "swap",
+            "Wallet",
+            "Airdrop",
+            "Web3"
+          ],
+          "interstitial": [],
+          "challenge": []
+        },
+        "brandMentions": 5,
+        "brandInTitle": false,
+        "bytes": 166651,
+        "renderedWith": "playwright",
+        "faviconUrl": "https://wallet-meteorwallet.com/favicon.ico",
+        "screenshot": "/Users/kacpergumieniuk/Projects/4b47/mimicwatch-near/data/scans/2026-11-01/domains/meteor-wallet-2026-11-01/shots/wallet-meteorwallet.com.jpg",
+        "textSample": "Security Support User Guide Open Wallet The Most Trusted Wallet for NEAR Backed by NEAR FOUNDATION PROXIMITY ORDERLY NETWORK METAVEST CAPITAL BANTER CAPITAL OV NEAR FOUNDATION PROXIMITY ORDERLY NETWORK METAVEST CAPITAL BANTER CAPITAL OV Video Showcase Meteor Wallet A powerful, self-custody wallet bu"
+      },
+      "similarity": {
+        "title": 0.8,
+        "text": 0,
+        "favicon": false,
+        "overall": 0.28
+      },
+      "listedOn": [],
+      "score": 50,
+      "severity": "medium",
+      "label": "impersonation",
+      "evidence": [
+        "Brand name plus a phishing lure word",
+        "Page title resembles the official title (80%)",
+        "Brand named on the page (5x)",
+        "Mentions seed phrase (no input form seen)",
+        "Lure text: Airdrop, rewards"
+      ],
+      "action": "Review the screenshot. If it impersonates the brand, file registrar + host reports (drafts attached).",
+      "alreadyBlocked": false,
+      "rdap": {
+        "domain": "wallet-meteorwallet.com",
+        "registrar": "Tucows Domains Inc.",
+        "ianaId": "69",
+        "abuse": {
+          "email": "domainabuse@tucows.com",
+          "phone": "+1.4165350123"
+        },
+        "registered": "2026-10-26T11:05:42Z",
+        "expires": "2027-10-26T11:05:42Z",
+        "status": [
+          "client transfer prohibited",
+          "client update prohibited"
+        ],
+        "source": "https://rdap.verisign.com/com/v1/domain/wallet-meteorwallet.com"
+      },
+      "hosting": {
+        "ip": "188.114.97.11",
+        "network": "CLOUDFLARENET-EU",
+        "org": "MNT-CLOUDFLARE",
+        "abuse": {
+          "name": "Cloudflare Abuse Contact",
+          "email": "abuse@cloudflare.com",
+          "form": "https://abuse.cloudflare.com/"
+        }
+      },
+      "drafts": [
+        {
+          "channel": "registrar-abuse",
+          "title": "Registrar abuse report to Tucows Domains Inc.",
+          "to": "domainabuse@tucows.com",
+          "subject": "Phishing / brand impersonation: wallet-meteorwallet.com impersonates Meteor Wallet",
+          "body": "DRAFT - NOT FILED. File only after the brand owner approves it and has signed a Letter of Authorisation.\n\nHello Tucows Domains Inc. abuse team,\n\nThe domain wallet-meteorwallet[.]com (registered with you on 2026-10-26) is being used to impersonate Meteor Wallet, a crypto project whose official site is hxxps://meteorwallet[.]app. We ask you to suspend the domain under your abuse policy and the RAA section 3.18 obligations.\n\nEvidence (observed 2026-11-01, read-only, URLs defanged):\n- URL: hxxps://wallet-meteorwallet[.]com/\n- Brand name plus a phishing lure word\n- Page title resembles the official title (80%)\n- Brand named on the page (5x)\n- Mentions seed phrase (no input form seen)\n- Lure text: Airdrop, rewards\n- Resolves to 188.114.97.11, 188.114.96.11\n- Page title: \"Meteor Wallet – Secure NEAR Crypto Wallet for Web3\"\n- Screenshot: shots/wallet-meteorwallet.com.jpg (attach)\n\nWe are not affiliated with the operator of wallet-meteorwallet[.]com. Meteor Wallet has not authorised its use of the brand. Screenshots and HTML captures are available on request.\n\nRegards,\n{{REPORTER_NAME}}\n{{REPORTER_ORG}}, acting for Meteor Wallet under a Letter of Authorisation dated {{LOA_DATE}}\n{{REPORTER_EMAIL}}",
+          "notes": [
+            "Registrar IANA ID 69, abuse phone +1.4165350123"
+          ]
+        },
+        {
+          "channel": "host-abuse",
+          "title": "Hosting abuse report to MNT-CLOUDFLARE",
+          "to": "https://abuse.cloudflare.com/",
+          "subject": "Phishing site hosted on your network: wallet-meteorwallet.com (Meteor Wallet impersonation)",
+          "body": "DRAFT - NOT FILED. File only after the brand owner approves it and has signed a Letter of Authorisation.\n\nHello MNT-CLOUDFLARE,\n\nhxxps://wallet-meteorwallet[.]com/ (188.114.97.11, 188.114.96.11) is hosted on your network and impersonates Meteor Wallet (official: hxxps://meteorwallet[.]app).\n\nEvidence (observed 2026-11-01):\n- Brand name plus a phishing lure word\n- Page title resembles the official title (80%)\n- Brand named on the page (5x)\n- Mentions seed phrase (no input form seen)\n- Lure text: Airdrop, rewards\n- Resolves to 188.114.97.11, 188.114.96.11\n- Page title: \"Meteor Wallet – Secure NEAR Crypto Wallet for Web3\"\n- Screenshot: shots/wallet-meteorwallet.com.jpg (attach)\n\nPlease take the content down under your acceptable use policy.\n\nRegards,\n{{REPORTER_NAME}}\n{{REPORTER_ORG}}, acting for Meteor Wallet under a Letter of Authorisation dated {{LOA_DATE}}\n{{REPORTER_EMAIL}}",
+          "notes": [
+            "Email alternative: abuse@cloudflare.com"
+          ]
+        },
+        {
+          "channel": "google-safe-browsing",
+          "title": "Google Safe Browsing report",
+          "to": "https://safebrowsing.google.com/safebrowsing/report_phish/?url=https%3A%2F%2Fwallet-meteorwallet.com%2F",
+          "fields": {
+            "Report Type": "This page is not safe",
+            "Threat Type": "Social engineering (phishing) - pick the closest option shown",
+            "Threat Category": "Pick the closest option shown (impersonation / phishing)",
+            "URL to report": "https://wallet-meteorwallet.com/",
+            "Additional details (max 800)": "Impersonates Meteor Wallet (official: https://meteorwallet.app). Page title resembles the official title (80%); Brand named on the page (5x); Brand name plus a phishing lure word; Mentions seed phrase (no input form seen)."
+          },
+          "body": "DRAFT - NOT FILED. File only after the brand owner approves it and has signed a Letter of Authorisation.\n\nImpersonates Meteor Wallet (official: https://meteorwallet.app). Page title resembles the official title (80%); Brand named on the page (5x); Brand name plus a phishing lure word; Mentions seed phrase (no input form seen).",
+          "notes": [
+            "Web form with reCAPTCHA: a person has to submit it."
+          ]
+        },
+        {
+          "channel": "netcraft",
+          "title": "Netcraft report",
+          "to": "https://report.netcraft.com/report",
+          "fields": {
+            "The URL of the site": "https://wallet-meteorwallet.com/",
+            "Further details": "Impersonates Meteor Wallet (official: https://meteorwallet.app). Page title resembles the official title (80%); Brand named on the page (5x); Brand name plus a phishing lure word; Mentions seed phrase (no input form seen).",
+            "Your email address": "{{REPORTER_EMAIL}}"
+          },
+          "body": "DRAFT - NOT FILED. File only after the brand owner approves it and has signed a Letter of Authorisation.\n\nImpersonates Meteor Wallet (official: https://meteorwallet.app). Page title resembles the official title (80%); Brand named on the page (5x); Brand name plus a phishing lure word; Mentions seed phrase (no input form seen).",
+          "notes": [
+            "Web form with reCAPTCHA. Netcraft feeds many browser and registrar blocklists."
+          ]
+        },
+        {
+          "channel": "metamask-issue",
+          "title": "MetaMask eth-phishing-detect: blocklist addition issue",
+          "to": "https://github.com/MetaMask/eth-phishing-detect/issues/new?template=01-blocklist-addition.yaml",
+          "fields": {
+            "Malicious domains, IPs, IPFS hashes, or IPNS names": "https://wallet-meteorwallet.com/",
+            "Please explain why this content is malicious": "Impersonates Meteor Wallet (official: https://meteorwallet.app). Page title resembles the official title (80%); Brand named on the page (5x); Brand name plus a phishing lure word; Mentions seed phrase (no input form seen). Observed 2026-11-01. Reported on behalf of Meteor Wallet.",
+            "Is this a duplicate request?": "Search open issues for the domain first, then tick the box"
+          },
+          "body": "DRAFT - NOT FILED. File only after the brand owner approves it and has signed a Letter of Authorisation.\n\nImpersonates Meteor Wallet (official: https://meteorwallet.app). Page title resembles the official title (80%); Brand named on the page (5x); Brand name plus a phishing lure word; Mentions seed phrase (no input form seen)."
+        },
+        {
+          "channel": "metamask-pr",
+          "title": "MetaMask eth-phishing-detect: alternative PR (slower; most merges are bot syncs)",
+          "to": "https://github.com/MetaMask/eth-phishing-detect",
+          "body": "DRAFT - NOT FILED. File only after the brand owner approves it and has signed a Letter of Authorisation.\n\ngit checkout -b block-wallet-meteorwallet.com\nyarn add:blocklist wallet-meteorwallet.com\n\nPR title: Block wallet-meteorwallet.com (Meteor Wallet impersonation)\nPR body: Impersonates Meteor Wallet (official: https://meteorwallet.app). Page title resembles the official title (80%); Brand named on the page (5x); Brand name plus a phishing lure word; Mentions seed phrase (no input form seen)."
+        },
+        {
+          "channel": "scamsniffer-issue",
+          "title": "ScamSniffer scam-database issue",
+          "to": "https://github.com/scamsniffer/scam-database/issues/new",
+          "subject": "[Phishing] wallet-meteorwallet.com - Meteor Wallet impersonation",
+          "body": "DRAFT - NOT FILED. File only after the brand owner approves it and has signed a Letter of Authorisation.\n\nDomain: wallet-meteorwallet.com\nScam addresses (with chain): {{ADD IF KNOWN, e.g. from a victim's drain tx}}\nImpersonates: Meteor Wallet (official: https://meteorwallet.app)\n\nEvidence (observed 2026-11-01):\n- Brand name plus a phishing lure word\n- Page title resembles the official title (80%)\n- Brand named on the page (5x)\n- Mentions seed phrase (no input form seen)\n- Lure text: Airdrop, rewards\n- Resolves to 188.114.97.11, 188.114.96.11\n- Page title: \"Meteor Wallet – Secure NEAR Crypto Wallet for Web3\"\n- Screenshot: shots/wallet-meteorwallet.com.jpg (attach)",
+          "notes": [
+            "ScamSniffer asks for issues, not PRs (their JSON is regenerated). Attach the screenshot."
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "domain",
+      "host": "meteorwallet.com",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "tld-swap",
+      "dns": {
+        "domain": "meteorwallet.com",
+        "registered": true,
+        "a": [
+          "52.20.84.62"
+        ],
+        "aaaa": [],
+        "mx": [],
+        "ns": [
+          "ns1.squadhelp.com",
+          "ns2.squadhelp.com"
+        ]
+      },
+      "page": {
+        "url": "https://meteorwallet.com/",
+        "finalUrl": "https://www.atom.com/name/MeteorWallet",
+        "status": 403,
+        "title": "MeteorWallet.com — Premium Domain For Sale | Atom",
+        "scriptUrls": [],
+        "signals": {
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "secretForm": false,
+          "lure": [
+            "refund"
+          ],
+          "drainerJs": [],
+          "parked": [
+            "For Sale"
+          ],
+          "cryptoContext": [],
+          "interstitial": [],
+          "challenge": []
+        },
+        "brandMentions": 5,
+        "brandInTitle": true,
+        "bytes": 5784,
+        "renderedWith": "playwright",
+        "faviconUrl": "https://www.atom.com/favicon.ico",
+        "faviconSha256": "7eda937d9cabb3e3b4da756c81226e3431f9b0751e9247b9e9b24c4f50ba3b97",
+        "screenshot": "/Users/kacpergumieniuk/Projects/4b47/mimicwatch-near/data/scans/2026-11-01/domains/meteor-wallet-2026-11-01/shots/meteorwallet.com.jpg",
+        "textSample": "We use essential cookies to make our site work. With your consent, we may also use non-essential cookies to improve user experience and analyze website traffic. By clicking “Accept,” you agree to our website's cookie use as described in our Cookie Policy and Privacy Policy . You can change your cook"
+      },
+      "similarity": {
+        "title": 0.31,
+        "text": 0,
+        "favicon": false,
+        "overall": 0.11
+      },
+      "listedOn": [],
+      "score": 30,
+      "severity": "low",
+      "label": "lookalike-unknown-content",
+      "evidence": [
+        "Official name on a different TLD",
+        "Hostname contains a lure word (claim/airdrop/support/...)",
+        "Page returned HTTP 403"
+      ],
+      "action": "Re-check next scan; the content was not visible to us (error, bot wall or empty page).",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "meteorwallet.xyz",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "tld-swap",
+      "dns": {
+        "domain": "meteorwallet.xyz",
+        "registered": true,
+        "a": [
+          "188.114.97.11",
+          "188.114.96.11"
+        ],
+        "aaaa": [],
+        "mx": [],
+        "ns": [
+          "sevki.ns.cloudflare.com",
+          "lindsey.ns.cloudflare.com"
+        ]
+      },
+      "page": {
+        "url": "https://meteorwallet.xyz/",
+        "finalUrl": "https://meteorwallet.xyz/",
+        "status": 400,
+        "title": "400 Bad Request",
+        "scriptUrls": [],
+        "signals": {
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "secretForm": false,
+          "lure": [],
+          "drainerJs": [],
+          "parked": [],
+          "cryptoContext": [],
+          "interstitial": [],
+          "challenge": []
+        },
+        "brandMentions": 0,
+        "brandInTitle": false,
+        "bytes": 552,
+        "renderedWith": "playwright",
+        "faviconUrl": "https://meteorwallet.xyz/favicon.ico",
+        "screenshot": "/Users/kacpergumieniuk/Projects/4b47/mimicwatch-near/data/scans/2026-11-01/domains/meteor-wallet-2026-11-01/shots/meteorwallet.xyz.jpg",
+        "textSample": "400 Bad Request nginx"
+      },
+      "similarity": {
+        "title": 0.15,
+        "text": 0,
+        "favicon": false,
+        "overall": 0.05
+      },
+      "listedOn": [],
+      "score": 30,
+      "severity": "low",
+      "label": "lookalike-unknown-content",
+      "evidence": [
+        "Official name on a different TLD",
+        "Hostname contains a lure word (claim/airdrop/support/...)",
+        "Almost empty page (21 chars of text, title \"400 Bad Request\"): content not visible"
+      ],
+      "action": "Re-check next scan; the content was not visible to us (error, bot wall or empty page).",
+      "alreadyBlocked": false
+    }
+  ],
+  "tokens": [],
+  "errors": []
+}

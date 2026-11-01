@@ -1,0 +1,747 @@
+{
+  "brand": {
+    "name": "OutLayer",
+    "officialDomains": [
+      "outlayer.ai"
+    ],
+    "referenceUrl": "https://app.outlayer.ai",
+    "officialTokens": [],
+    "officialSocials": {
+      "x": "out_layer",
+      "github": "out-layer"
+    },
+    "keywords": [
+      "outlayer"
+    ],
+    "allowlist": [],
+    "tokenChains": [
+      "base"
+    ]
+  },
+  "startedAt": "2026-11-01T16:13:58.671Z",
+  "finishedAt": "2026-11-01T16:14:51.818Z",
+  "periodDays": 30,
+  "official": {
+    "url": "https://app.outlayer.ai/",
+    "title": "OutLayer Dashboard",
+    "faviconSha256": "58947a58624362b6e9592fa3bb074267fff1df6d9437beb86530ecddfda1bff6"
+  },
+  "stats": {
+    "permutations": 1397,
+    "permutationsRegistered": 11,
+    "ctHosts": 0,
+    "nrdHits": 0,
+    "candidates": 11,
+    "pagesFetched": 9,
+    "pagesRendered": 4,
+    "tokensIndexed": {},
+    "tokenMatches": 0
+  },
+  "coverage": {
+    "ct": [
+      {
+        "q": "outlayer%",
+        "rows": 0,
+        "error": "HTTP 400"
+      },
+      {
+        "q": "outlayer.%",
+        "rows": 0,
+        "error": "HTTP 400"
+      },
+      {
+        "q": "outlayer-%",
+        "rows": 0,
+        "error": "HTTP 400"
+      },
+      {
+        "q": "%outlayer%",
+        "rows": 0,
+        "error": "HTTP 400"
+      }
+    ],
+    "nrd": [
+      {
+        "day": "2026-10-31",
+        "domains": 70000
+      },
+      {
+        "day": "2026-10-30",
+        "domains": 70000
+      },
+      {
+        "day": "2026-10-29",
+        "domains": 70000
+      },
+      {
+        "day": "2026-10-28",
+        "domains": 70000
+      }
+    ],
+    "tokens": [],
+    "blocklists": [
+      "metamask",
+      "scamsniffer"
+    ]
+  },
+  "domains": [
+    {
+      "kind": "domain",
+      "host": "outplayer.ai",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "insertion",
+      "dns": {
+        "domain": "outplayer.ai",
+        "registered": true,
+        "a": [
+          "13.248.243.5",
+          "76.223.105.230"
+        ],
+        "aaaa": [],
+        "mx": [],
+        "ns": [
+          "ns09.domaincontrol.com",
+          "ns10.domaincontrol.com"
+        ]
+      },
+      "page": {
+        "url": "https://outplayer.ai/",
+        "finalUrl": "https://outplayer.ai/",
+        "status": 200,
+        "title": "outplayer.ai",
+        "scriptUrls": [
+          "https://img1.wsimg.com/blobby/go/44944fff-d1be-42c3-90ad-95ad0fd96f43/gpub/315f1ab7978e4036/script.js",
+          "https://img1.wsimg.com/ceph-p3-01/website-builder-data-prod/static/widgets/UX.4.45.1.js",
+          "https://img1.wsimg.com/blobby/go/44944fff-d1be-42c3-90ad-95ad0fd96f43/gpub/aa58e9629ab2d2cc/script.js",
+          "https://img1.wsimg.com/signals/js/clients/scc-c2/scc-c2.min.js"
+        ],
+        "signals": {
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "secretForm": false,
+          "lure": [],
+          "drainerJs": [],
+          "parked": [],
+          "cryptoContext": [],
+          "interstitial": [],
+          "challenge": []
+        },
+        "brandMentions": 0,
+        "brandInTitle": false,
+        "bytes": 80730,
+        "renderedWith": "playwright",
+        "faviconUrl": "https://img1.wsimg.com/isteam/ip/static/pwa-app/logo-default.png/:/rs=w:57,h:57,m",
+        "faviconSha256": "927fa0f5bb903288cef129ca1a5a8a77c46456fe5fec58ea900fc49552246416",
+        "screenshot": "/Users/kacpergumieniuk/Projects/4b47/mimicwatch-near/data/scans/2026-11-01/domains/outlayer-2026-11-01/shots/outplayer.ai.jpg",
+        "textSample": "Go from idea to live site in minutes. Get 50 free credits Try Airo AI Builder | Start for free Start for free Out Player Out Player Out Player Out Player Out Player Out Player Out Player Out Player More Launching Soon Launching Soon Launching Soon Launching Soon Launching Soon Launching Soon Launchi"
+      },
+      "similarity": {
+        "title": 0.47,
+        "text": 0,
+        "favicon": false,
+        "overall": 0.16
+      },
+      "listedOn": [],
+      "score": 31,
+      "severity": "low",
+      "label": "likely-false-positive",
+      "evidence": [
+        "Typosquat (insertion) of the official domain",
+        "No brand content found on the page: probably unrelated (false positive)"
+      ],
+      "action": "No action (labelled false positive).",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "outlyer.ai",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "omission",
+      "dns": {
+        "domain": "outlyer.ai",
+        "registered": true,
+        "a": [
+          "54.215.31.113"
+        ],
+        "aaaa": [],
+        "mx": [],
+        "ns": [
+          "ns1.dyna-ns.net",
+          "ns2.dyna-ns.net"
+        ]
+      },
+      "page": {
+        "url": "https://outlyer.ai/",
+        "finalUrl": "https://forsale.dynadot.com/outlyer.ai?drefid=2071",
+        "status": 200,
+        "title": "For Sale Domain: outlyer.ai",
+        "scriptUrls": [
+          "https://forsale.dynadot.com/tr/jquery-3.6.3.min.js",
+          "https://forsale.dynadot.com/tr/bootstrap.min.js",
+          "https://forsale.dynadot.com/tr/lazysizes.min.js",
+          "https://forsale.dynadot.com/account/script/cp.lib.js",
+          "https://forsale.dynadot.com/account/script/dotlottie-loading.js",
+          "https://forsale.dynadot.com/account/script/cp.overlayV2.js"
+        ],
+        "signals": {
+          "secretForm": true,
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "lure": [],
+          "drainerJs": [],
+          "parked": [
+            "domain name is for sale",
+            "For Sale"
+          ],
+          "cryptoContext": [],
+          "interstitial": [],
+          "challenge": []
+        },
+        "brandMentions": 0,
+        "brandInTitle": false,
+        "bytes": 16273,
+        "renderedWith": "http",
+        "faviconUrl": "https://forsale.dynadot.com/favicon.ico",
+        "faviconSha256": "ba6df22053c98e9d924e4b7b4e917bd036899292d43f2609cacc92f5b01720a6",
+        "textSample": "Trustpilot Add to Watchlist Remove from Watchlist outlyer.ai Uppercase Lowercase This domain name is for sale! Verified Domain Get this domain now Verified Domain $ USD € EUR ¥ CNY C$ CAD MX$ MXN £ GBP R$ BRL Rs. INR Rp IDR AU$ AUD ฿ THB ₱ PHP ₩ KRW Buy Now $49 Buy Now Accepted payment methods: More"
+      },
+      "similarity": {
+        "title": 0.18,
+        "text": 0,
+        "favicon": false,
+        "overall": 0.06
+      },
+      "listedOn": [],
+      "score": 27,
+      "severity": "low",
+      "label": "parked",
+      "evidence": [
+        "Typosquat (omission) of the official domain",
+        "Parked / for-sale page"
+      ],
+      "action": "Monitor. Consider buying it defensively or a UDRP if it turns active.",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "outlayer.tech",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "tld-swap",
+      "dns": {
+        "domain": "outlayer.tech",
+        "registered": true,
+        "a": [
+          "76.223.105.230",
+          "13.248.243.5"
+        ],
+        "aaaa": [],
+        "mx": [
+          "outlayer-tech.mail.protection.outlook.com"
+        ],
+        "ns": [
+          "ns15.domaincontrol.com",
+          "ns16.domaincontrol.com"
+        ]
+      },
+      "page": {
+        "url": "https://outlayer.tech/",
+        "finalUrl": "https://outlayer.tech/",
+        "status": 200,
+        "title": "Outlayer Technologies",
+        "scriptUrls": [
+          "https://img1.wsimg.com/blobby/go/9a946b0e-37de-4d7a-a0a5-72f89506d385/gpub/a00aedf6d416c66/script.js",
+          "https://img1.wsimg.com/ceph-p3-01/website-builder-data-prod/static/widgets/UX.4.50.3.js",
+          "https://img1.wsimg.com/blobby/go/9a946b0e-37de-4d7a-a0a5-72f89506d385/gpub/6a83a5a9f9a05a2d/script.js",
+          "https://img1.wsimg.com/signals/js/clients/scc-c2/scc-c2.min.js"
+        ],
+        "signals": {
+          "secretForm": true,
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "lure": [],
+          "drainerJs": [],
+          "parked": [],
+          "cryptoContext": [],
+          "interstitial": [],
+          "challenge": []
+        },
+        "brandMentions": 10,
+        "brandInTitle": true,
+        "bytes": 89766,
+        "renderedWith": "http",
+        "faviconUrl": "https://img1.wsimg.com/isteam/ip/static/pwa-app/logo-default.png/:/rs=w:57,h:57,m",
+        "faviconSha256": "927fa0f5bb903288cef129ca1a5a8a77c46456fe5fec58ea900fc49552246416",
+        "textSample": "Outlayer Technologies Outlayer Technologies Outlayer Technologies Outlayer Technologies Outlayer Technologies Outlayer Technologies Outlayer Technologies Outlayer Technologies Transforming Technology for Your Business Transforming Technology for Your Business Transforming Technology for Your Busines"
+      },
+      "similarity": {
+        "title": 0.5,
+        "text": 0,
+        "favicon": false,
+        "overall": 0.18
+      },
+      "listedOn": [],
+      "score": 26,
+      "severity": "low",
+      "label": "likely-false-positive",
+      "evidence": [
+        "Official name on a different TLD",
+        "Page title resembles the official title (50%)",
+        "Brand word used without any crypto context (10x): probably an unrelated business"
+      ],
+      "action": "No action (labelled false positive).",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "outlayerapp.com",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "dictionary",
+      "dns": {
+        "domain": "outlayerapp.com",
+        "registered": true,
+        "a": [],
+        "aaaa": [],
+        "mx": [],
+        "ns": [
+          "lisa.ns.cloudflare.com",
+          "jake.ns.cloudflare.com"
+        ]
+      },
+      "listedOn": [],
+      "score": 25,
+      "severity": "low",
+      "label": "not-live",
+      "evidence": [
+        "Brand name plus a phishing lure word"
+      ],
+      "action": "Monitor (registered, no website). Consider defensive registration.",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "outlayer.dev",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "tld-swap",
+      "dns": {
+        "domain": "outlayer.dev",
+        "registered": true,
+        "a": [
+          "216.198.79.1"
+        ],
+        "aaaa": [],
+        "mx": [],
+        "ns": [
+          "augustus.ns.cloudflare.com",
+          "laura.ns.cloudflare.com"
+        ]
+      },
+      "page": {
+        "url": "https://outlayer.dev/",
+        "finalUrl": "https://outlayer.dev/",
+        "status": 200,
+        "title": "Outlayer — see every recurring charge in ten seconds",
+        "scriptUrls": [
+          "https://outlayer.dev/_next/static/chunks/fd9d1056-88c8a1669018f964.js",
+          "https://outlayer.dev/_next/static/chunks/117-9776bcfde68b9ed6.js",
+          "https://outlayer.dev/_next/static/chunks/main-app-2dcde4753ea0d175.js",
+          "https://outlayer.dev/_next/static/chunks/app/page-70de174a82e03937.js",
+          "https://outlayer.dev/_next/static/chunks/app/layout-c7f37c7c933ccace.js",
+          "https://outlayer.dev/_next/static/chunks/polyfills-42372ed130431b0a.js"
+        ],
+        "signals": {
+          "secretForm": false,
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "lure": [],
+          "drainerJs": [],
+          "parked": [],
+          "cryptoContext": [],
+          "interstitial": [],
+          "challenge": []
+        },
+        "brandMentions": 4,
+        "brandInTitle": true,
+        "bytes": 15156,
+        "renderedWith": "http",
+        "faviconUrl": "https://outlayer.dev/favicon.ico",
+        "textSample": "Out layer How it works What it can&#x27;t see Sign in No account · nothing ever uploaded Every recurring charge, in ten seconds. Drop in a bank or card statement. Get one list of everything that repeats, where two tools overlap, and what renews next. Drop your statement here CSV or PDF — whatever yo"
+      },
+      "similarity": {
+        "title": 0.26,
+        "text": 0,
+        "favicon": false,
+        "overall": 0.09
+      },
+      "listedOn": [],
+      "score": 23,
+      "severity": "low",
+      "label": "likely-false-positive",
+      "evidence": [
+        "Official name on a different TLD",
+        "Brand word used without any crypto context (4x): probably an unrelated business"
+      ],
+      "action": "No action (labelled false positive).",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "outlayer.org",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "tld-swap",
+      "dns": {
+        "domain": "outlayer.org",
+        "registered": true,
+        "a": [
+          "2.57.91.91"
+        ],
+        "aaaa": [],
+        "mx": [],
+        "ns": [
+          "solar.dns-parking.com",
+          "lunar.dns-parking.com"
+        ]
+      },
+      "page": {
+        "url": "https://outlayer.org/",
+        "finalUrl": "https://outlayer.org/",
+        "status": 200,
+        "title": "Parked Domain name on Hostinger DNS system",
+        "scriptUrls": [],
+        "signals": {
+          "secretForm": false,
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "lure": [],
+          "drainerJs": [],
+          "parked": [
+            "Parked"
+          ],
+          "cryptoContext": [],
+          "interstitial": [],
+          "challenge": []
+        },
+        "brandMentions": 0,
+        "brandInTitle": false,
+        "bytes": 32079,
+        "renderedWith": "http",
+        "faviconUrl": "https://outlayer.org/favicon.ico",
+        "textSample": "Registered at If this is your domain, you can manage it in your Hostinger account. Manage domain Start your online journey Build your website today Launch your business with WordPress or Website Builder using AI tools, templates, and reliable hosting. Get Web hosting Prompt your website Chat with AI"
+      },
+      "similarity": {
+        "title": 0.17,
+        "text": 0,
+        "favicon": false,
+        "overall": 0.06
+      },
+      "listedOn": [],
+      "score": 22,
+      "severity": "low",
+      "label": "parked",
+      "evidence": [
+        "Official name on a different TLD",
+        "Parked / for-sale page"
+      ],
+      "action": "Monitor. Consider buying it defensively or a UDRP if it turns active.",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "outlayer.com",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "tld-swap",
+      "dns": {
+        "domain": "outlayer.com",
+        "registered": true,
+        "a": [],
+        "aaaa": [],
+        "mx": [],
+        "ns": [
+          "carl.ns.cloudflare.com",
+          "meiling.ns.cloudflare.com"
+        ]
+      },
+      "listedOn": [],
+      "score": 20,
+      "severity": "low",
+      "label": "not-live",
+      "evidence": [
+        "Official name on a different TLD"
+      ],
+      "action": "Monitor (registered, no website). Consider defensive registration.",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "outlayer.net",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "tld-swap",
+      "dns": {
+        "domain": "outlayer.net",
+        "registered": true,
+        "a": [
+          "207.246.114.112"
+        ],
+        "aaaa": [],
+        "mx": [
+          "mx1.privateemail.com",
+          "mx2.privateemail.com"
+        ],
+        "ns": [
+          "dns1.registrar-servers.com",
+          "dns2.registrar-servers.com"
+        ]
+      },
+      "page": {
+        "url": "https://outlayer.net/",
+        "finalUrl": "https://outlayer.net/",
+        "status": 0,
+        "title": "",
+        "scriptUrls": [],
+        "signals": {
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "secretForm": false,
+          "lure": [],
+          "drainerJs": [],
+          "parked": [],
+          "cryptoContext": [],
+          "interstitial": [],
+          "challenge": []
+        },
+        "brandMentions": 0,
+        "brandInTitle": false,
+        "bytes": 0,
+        "renderedWith": "http",
+        "error": "connect ECONNREFUSED 207.246.114.112:443; http: connect ECONNREFUSED 207.246.114.112:80",
+        "textSample": ""
+      },
+      "listedOn": [],
+      "score": 20,
+      "severity": "low",
+      "label": "lookalike-unknown-content",
+      "evidence": [
+        "Official name on a different TLD",
+        "Page not reachable: connect ECONNREFUSED 207.246.114.112:443; http: connect ECONNREFUSED 207.246.114"
+      ],
+      "action": "Re-check next scan; the content was not visible to us (error, bot wall or empty page).",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "outlayer.xyz",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "tld-swap",
+      "dns": {
+        "domain": "outlayer.xyz",
+        "registered": true,
+        "a": [
+          "13.248.169.48",
+          "76.223.54.146"
+        ],
+        "aaaa": [],
+        "mx": [
+          ""
+        ],
+        "ns": [
+          "ns6.afternic.com",
+          "ns5.afternic.com"
+        ]
+      },
+      "page": {
+        "url": "https://outlayer.xyz/",
+        "finalUrl": "https://forsale.godaddy.com/forsale/outlayer.xyz?utm_source=TDFS_BINNS2&utm_medium=parkedpages&utm_campaign=x_corp_tdfs-binns2_base&traffic_type=TDFS_BINNS2&traffic_id=binns2&",
+        "status": 200,
+        "title": "Access Denied",
+        "scriptUrls": [],
+        "signals": {
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "secretForm": false,
+          "lure": [],
+          "drainerJs": [],
+          "parked": [],
+          "cryptoContext": [],
+          "interstitial": [],
+          "challenge": [
+            "Access Denied"
+          ]
+        },
+        "brandMentions": 1,
+        "brandInTitle": false,
+        "bytes": 114,
+        "renderedWith": "playwright",
+        "faviconUrl": "https://outlayer.xyz/favicon.ico",
+        "screenshot": "/Users/kacpergumieniuk/Projects/4b47/mimicwatch-near/data/scans/2026-11-01/domains/outlayer-2026-11-01/shots/outlayer.xyz.jpg",
+        "textSample": "Access Denied You don't have permission to access \"http://forsale.godaddy.com/forsale/outlayer.xyz?\" on this server. Reference #18.2f0c4017.1793549685.4c672093 https://errors.edgesuite.net/18.2f0c4017.1793549685.4c672093"
+      },
+      "similarity": {
+        "title": 0.18,
+        "text": 0,
+        "favicon": false,
+        "overall": 0.06
+      },
+      "listedOn": [],
+      "score": 20,
+      "severity": "low",
+      "label": "lookalike-unknown-content",
+      "evidence": [
+        "Official name on a different TLD",
+        "Bot challenge or redirect stub (\"Access Denied\"): real content not visible"
+      ],
+      "action": "Re-check next scan; the content was not visible to us (error, bot wall or empty page).",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "outlayer.app",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "tld-swap",
+      "dns": {
+        "domain": "outlayer.app",
+        "registered": true,
+        "a": [
+          "172.67.165.33",
+          "104.21.11.39"
+        ],
+        "aaaa": [],
+        "mx": [
+          "aspmx1.migadu.com",
+          "aspmx2.migadu.com"
+        ],
+        "ns": [
+          "jake.ns.cloudflare.com",
+          "lisa.ns.cloudflare.com"
+        ]
+      },
+      "page": {
+        "url": "https://outlayer.app/",
+        "finalUrl": "https://outlayer.app/",
+        "status": 200,
+        "title": "Mileplanner | Weather-based Clothing Guide",
+        "scriptUrls": [
+          "https://outlayer.app/assets/index-B8jD0pEu.js",
+          "https://outlayer.app/registerSW.js"
+        ],
+        "signals": {
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "secretForm": false,
+          "lure": [],
+          "drainerJs": [],
+          "parked": [],
+          "cryptoContext": [],
+          "interstitial": [],
+          "challenge": []
+        },
+        "brandMentions": 0,
+        "brandInTitle": false,
+        "bytes": 2615,
+        "renderedWith": "playwright",
+        "faviconUrl": "https://outlayer.app/favicon.svg",
+        "screenshot": "/Users/kacpergumieniuk/Projects/4b47/mimicwatch-near/data/scans/2026-11-01/domains/outlayer-2026-11-01/shots/outlayer.app.jpg",
+        "textSample": "Mileplanner What to wear for your next run Find your Parkrun Find Events Near Me © 2026 Mileplanner • Feedback"
+      },
+      "similarity": {
+        "title": 0.25,
+        "text": 0,
+        "favicon": false,
+        "overall": 0.09
+      },
+      "listedOn": [],
+      "score": 20,
+      "severity": "low",
+      "label": "lookalike-unknown-content",
+      "evidence": [
+        "Official name on a different TLD",
+        "Almost empty page (110 chars of text, title \"Mileplanner | Weather-based Clothing Gui\"): content not visible"
+      ],
+      "action": "Re-check next scan; the content was not visible to us (error, bot wall or empty page).",
+      "alreadyBlocked": false
+    },
+    {
+      "kind": "domain",
+      "host": "outlayer.us",
+      "sources": [
+        "permutation"
+      ],
+      "fuzzer": "tld-swap",
+      "dns": {
+        "domain": "outlayer.us",
+        "registered": true,
+        "a": [
+          "3.33.130.190",
+          "15.197.148.33"
+        ],
+        "aaaa": [],
+        "mx": [],
+        "ns": [
+          "ns46.domaincontrol.com",
+          "ns45.domaincontrol.com"
+        ]
+      },
+      "page": {
+        "url": "https://outlayer.us/",
+        "finalUrl": "https://outlayer.us/lander",
+        "status": 200,
+        "title": "",
+        "scriptUrls": [],
+        "signals": {
+          "walletPrompt": [],
+          "seedPhrase": [],
+          "secretForm": false,
+          "lure": [],
+          "drainerJs": [],
+          "parked": [],
+          "cryptoContext": [],
+          "interstitial": [],
+          "challenge": []
+        },
+        "brandMentions": 0,
+        "brandInTitle": false,
+        "bytes": 114,
+        "renderedWith": "playwright",
+        "faviconUrl": "https://outlayer.us/favicon.ico",
+        "screenshot": "/Users/kacpergumieniuk/Projects/4b47/mimicwatch-near/data/scans/2026-11-01/domains/outlayer-2026-11-01/shots/outlayer.us.jpg",
+        "textSample": ""
+      },
+      "similarity": {
+        "title": 0,
+        "text": 0,
+        "favicon": false,
+        "overall": 0
+      },
+      "listedOn": [],
+      "score": 20,
+      "severity": "low",
+      "label": "lookalike-unknown-content",
+      "evidence": [
+        "Official name on a different TLD",
+        "Almost empty page (0 chars of text, title \"\"): content not visible"
+      ],
+      "action": "Re-check next scan; the content was not visible to us (error, bot wall or empty page).",
+      "alreadyBlocked": false
+    }
+  ],
+  "tokens": [],
+  "errors": []
+}
