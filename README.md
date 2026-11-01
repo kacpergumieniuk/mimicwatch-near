@@ -2,9 +2,9 @@
 
 # Mimicwatch for NEAR: lookalike accounts and phishing domains, checked before you send
 
-Scammers register names that look like NEAR projects: `ref-flnance.near` for `ref-finance.near`, `v2-ref-finance.near`
-for the contract `v2.ref-finance.near`, `rhea-finance.claims` for `rhea.finance`. A wallet's send screen and an AI agent
-cannot tell them apart. **Mimicwatch for NEAR** finds these lookalikes, has a person review them, and publishes the
+Scammers use names that look like NEAR projects: `linear_protocol.near` (a fake LiNEAR "rewards" token in 2,205
+wallets) next to the real `linear-protocol.near`, or `rheaswap[.]finance` (a Rhea app clone that asks for seed phrases)
+next to `rhea.finance`. A wallet's send screen and an AI agent cannot tell them apart. **Mimicwatch for NEAR** finds these lookalikes, has a person review them, and publishes the
 confirmed ones to an **on-chain registry contract** that any wallet or agent can query with one view call before it
 sends funds or opens a link.
 
@@ -29,7 +29,23 @@ wallets on NEAR, by the same author. It is a separate, independent project and s
 and no dependency between them. PurseStrings limits what one agent's wallet may do; Mimicwatch finds impersonators across
 the ecosystem and publishes a registry anyone can read.
 
-<!-- FINDINGS_SUMMARY -->
+**What the first scan found** (NEAR mainnet, 2026-11-01, read-only; [details](#findings-from-the-2026-11-01-scan)):
+
+- **507** of 32,547 generated lookalike account names exist on mainnet.
+- **A fake-airdrop campaign:** three NEP-141 tokens named after LiNEAR, Meta Pool and Burrow (`linear_protocol.near`,
+  `metapools.near`, `burrowfinancedao.near`), each advertising a lookalike website in its token name, held by **2,205**,
+  **9,434** and **7,079** accounts. `burrowfinancedao.near` created the other two.
+- **A clone of the Rhea app** (`rheaswap[.]finance`, registered 2026-09-30) that asks for seed phrases and private keys,
+  and was not on the MetaMask or ScamSniffer blocklists at scan time.
+- **14 Rhea typosquat domains on one DNS account**, registered 2026-09-27 to 09-30. Most are already on MetaMask's list.
+- **One creator registered 92 typo lookalikes** of 7 NEAR brands (`titiku.near`). Its key also controls 50+ other names.
+- **False positives, labelled:** someone's own trading account hit by address poisoning, brands' defensive registrations,
+  long-used personal names, a pet-loss community called Rainbow Bridge, and POTLOCK's own alternate domains.
+
+**Nothing from the real scan is in the live registry yet.** Every real finding waits in
+[`review/queue.json`](review/queue.json) as `pending`, with the agent's recommendation in its note, for the owner to
+approve or reject. The live testnet registry holds only clearly marked synthetic test entries. The demo and the video
+publish the real findings to a **local** NEAR node, using recorded review decisions.
 
 ## Try it (do X, see Y)
 
@@ -38,7 +54,7 @@ No API keys, no accounts, no paid services.
 
 ```bash
 npm ci
-npm test                    # 130 TypeScript tests: 41 for the NEAR code + 89 of the pre-existing engine (network mocked)
+npm test                    # 134 TypeScript tests: 45 for the NEAR code + 89 of the pre-existing engine (network mocked)
 npm run test:contract       # 39 contract unit tests + 1 end-to-end test on a local NEAR node (builds the wasm)
 npm run demo                # the whole story, offline: recorded scan -> review -> local NEAR node -> agent checks
 npm run demo -- --memory    # same story without the sandbox binary (in-memory registry with the contract's lookup rules)
@@ -58,9 +74,10 @@ What `npm run demo` shows, step by step (the same run is in the [video](#demo-vi
 Read-only checks against the **live testnet registry** (no keys):
 
 ```bash
-npm run check -- ref-flnance.near          # WARN or BLOCK, with reasons
+npm run check -- ref-flnance.near          # WARN: a lookalike of ref-finance.near that nobody has reviewed yet
 npm run check -- v2.ref-finance.near       # ALLOW: official account of Rhea Finance
-npm run check -- https://rhea-finance.claims/connect
+npm run check -- https://app.rhea-claim-test.example/connect   # a synthetic test entry and its subdomain
+npm run check -- ref-flnance.mimicwatch-e7iig5g5.testnet          # BLOCK: synthetic test entry (our own account)
 npm run check -- <id> --json               # machine-readable
 npm run api                                # GET http://127.0.0.1:8787/check?id=ref-flnance.near
 npm run mcp                                # MCP server (stdio) with the tool check_near_recipient
@@ -82,7 +99,8 @@ npm run publish:registry -- --send         # testnet only; signs report_batch as
 ```
 
 Deploy your own registry on testnet: `npm run build:contract && npm run testnet:setup` (one throwaway faucet account;
-keys go to `.mimicwatch-local/testnet.json`, gitignored, mode 0600, never printed).
+keys go to `.mimicwatch-local/testnet.json`, gitignored, mode 0600, never printed). Then `npm run testnet:demo` runs
+every registry flow with synthetic entries (report, self-dispute, keep, third-party dispute, clear and refund).
 
 ## Live testnet deployment
 
@@ -93,7 +111,16 @@ keys go to `.mimicwatch-local/testnet.json`, gitignored, mode 0600, never printe
 | Approved reporter (the publisher signs as this account) | [`reporter.mimicwatch-e7iig5g5.testnet`](https://testnet.nearblocks.io/address/reporter.mimicwatch-e7iig5g5.testnet) |
 | Deploy + `new` in one transaction | [`FHG5428…`](https://testnet.nearblocks.io/txns/FHG5428RjGgMYMMhYcFXd6Cdem2r51JGDg66Cg3KG9TL) |
 | `add_reporter` | [`7mZQ7Hi…`](https://testnet.nearblocks.io/txns/7mZQ7Hi6C1CcgYGfM8oc2NvMg3pBbKq2uAjnkAGc4W65) |
-<!-- LIVE_TXS -->
+| Synthetic test entries, `report_batch` | [`rjR1QgX…`](https://testnet.nearblocks.io/txns/rjR1QgXXRyBv3VGjfRWrtoaJ6m2y4ruWuTG42P3EcSz) |
+| The flagged test account disputes itself (`by_subject: true`) | [`GMKNqTW…`](https://testnet.nearblocks.io/txns/GMKNqTW3pg5BHgX2Z3jM95R1kEc7eME2KasURRaPHZ4X) |
+| Owner keeps the entry | [`A11PNQZ…`](https://testnet.nearblocks.io/txns/A11PNQZDN3Z3neY4vqVyd5CtyEYLEPt48sWrDU5ue7So) |
+| A third party disputes the test domain | [`3bB8F4D…`](https://testnet.nearblocks.io/txns/3bB8F4DhHQeDEFjJkvaHhwrbnHPLejiokacfVVscQ93H) |
+| Owner accepts: entry cleared, deposit refunded | [`2m3g6WC…`](https://testnet.nearblocks.io/txns/2m3g6WCcMichTrSBivUsxfeVz9bpMxW2gGPPrkLZGkgX) |
+
+The test entries are `ref-flnance.mimicwatch-e7iig5g5.testnet` (our own account) and `rhea-claim-test.example` (a
+reserved TLD); `npm run testnet:demo` creates them, and its log is in
+[`docs/testnet-demo-output.txt`](docs/testnet-demo-output.txt). Real findings go on chain only after the owner's review
+(`npm run publish:registry -- --send`).
 
 Query it without this repo:
 
@@ -103,7 +130,68 @@ curl -s https://test.rpc.fastnear.com -H 'content-type: application/json' -d '{"
 ```
 
 
-<!-- FINDINGS_DETAIL -->
+## Findings from the 2026-11-01 scan
+
+Recorded data: [`data/scans/2026-11-01/`](data/scans/2026-11-01). It contains `accounts-raw.json` (every on-chain fact
+collected), `accounts.json` (scored), `domains.json` (normalised domain findings) and one engine report per brand
+(`domains/<brand>/report.html`, with screenshots of medium and higher findings). Domains are written defanged
+(`[.]`); do not open them. These are **risk signals from public data, not accusations**. Each still needs the owner's
+review.
+
+**Scope:** 34 brands and 72 official accounts ([`brands/near-brands.json`](brands/near-brands.json); each account was
+checked with `view_account` and tied to a primary source; see its `method` field). There were 30,026 generated names
+plus 2,521 official sub-account names probed under lookalikes that exist. Lookalike domains were checked for 28 brands
+(45,098 permutations, plus newly registered domains and blocklists).
+
+### Accounts (507 exist)
+
+| Label | Count | |
+|---|---|---|
+| `fake-token` | 3 | all critical, see below |
+| `impersonation-likely` | 0 | no close copy showed contract, payment-collection or cluster evidence without also being old and busy |
+| `lookalike-active` | 165 | 34 medium (close copies, active), 129 low, 2 info (locked) |
+| `lookalike-dormant` | 314 | 5 medium (close copies that once moved money for others, e.g. `ref-flnance.near`), 110 low, 199 info |
+| `brand-owned` | 4 | e.g. `sputnikdao.near` shares a key with `sputnik-dao.near`; `orderlynetwork.near` was created by `orderly-network.near` |
+| `likely-unrelated` | 21 | e.g. `herewalletapp.near` (3,978 transactions since 2022), `meteor-wallet.near` |
+
+| Finding | Severity | Evidence (abridged) |
+|---|---|---|
+| `linear_protocol.near` | critical, fake-token | Separator copy of `linear-protocol.near`. NEP-141 "$Linear Protocol Rewards (https://linearprotocol[.]net)", held by 2,205 accounts. Created 2024-05-18 by `burrowfinancedao.near`. |
+| `metapools.near` | critical, fake-token | Copy of the Meta Pool name. NEP-141 "$Meta Pool Rewards (https://metapools[.]org)", held by 9,434 accounts. Created by `burrowfinancedao.near`. |
+| `burrowfinancedao.near` | critical, fake-token | NEP-141 "Burrow Finance Rewards (https://burrowfi[.]com)", held by 7,079 accounts, including `contract.main.burrow.near`. Created 2024-05-16 by `nearrewards.near`. |
+| `ref-flnance.near` | medium, dormant | Homoglyph of `ref-finance.near`. On 2024-02-08 it received 629 NEAR and sent 628.9 on within a minute. That fits a collection account, or the owner's own pass-through. Dormant since. |
+| `nearprotocolreward.near`, `bl4ckdragon.near`, `circle_usdc.near` | medium | Lure-word or close copies created 1 to 40 days before the scan, with no activity yet. Watch. |
+| `neta-pool.near` and 91 more | medium/low | All created by `titiku.near` (92 lookalikes across 7 brands, Nov 2025 to Feb 2026). Its key controls 50+ other names. A name collector. |
+| `v2-ref-finance.near` | low (false positive) | Looks like the Rhea contract `v2.ref-finance.near`, but it is someone's trading account. The "senders" were 0.001 NEAR dust from lookalike implicit accounts: address poisoning aimed at its owner. |
+
+### Domains (53 medium or higher, 38 of them high or critical, 30 of those already on a wallet blocklist)
+
+| Finding | Severity | Evidence (abridged) |
+|---|---|---|
+| `rheaswap[.]finance` | critical | Copies the Rhea app's title, with a wallet-connect prompt, a **seed-phrase / private-key form** and "claim / airdrop / migration" lure text. Registered 2026-09-30 at Namecheap, hosted on GitHub Pages. **Not on MetaMask or ScamSniffer lists** at scan time. |
+| `potlocktoken[.]org` | critical (agent: ask POTLOCK) | "Welcome to the Potlock!" token-eligibility page with wallet-connect and `eth_signTypedData_v4`. Registered 2025-09-05. Not on lists. |
+| `nearmobile-rewards[.]app` | critical | Copies 70% of NEAR Mobile's text, with a claim/rewards lure. On MetaMask's list. |
+| 14 Rhea typosquats (`rehea`, `rhe`, `rrhea`, `fhea`, `reha`, `apprhea` … `.finance`) | high | One Cloudflare DNS account, registered 2026-09-27 to 09-30, Rhea's title. On MetaMask's list. |
+| `near-intents[.]net`, `near-intents[.]dev`, `app-metapool[.]xyz`, `orderlyreward[.]network`, `mnearwallet[.]com`, `rewards-rhea[.]xyz`, `near-rewards[.]com` … | high | Already on MetaMask's or ScamSniffer's list. |
+| `wallet-meteorwallet[.]com` | medium (agent: raise to high) | Registered 2026-10-26, copies Meteor Wallet's title, mentions seed phrases, airdrop lure. |
+| `sweatcoinhub[.]com`, `sweatcoincentral[.]com` | medium | Registered 2026-10-27 with copies of Sweatcoin's title. Watch. |
+| `linearprotocol[.]io` | high (agent: ask LiNEAR) | Copies LiNEAR's title and 57% of its text, with wallet code. Could be an alternate LiNEAR domain. |
+| `potlock[.]app`, `potlock[.]io`, `potlock[.]xyz` | high → **false positive** | They serve POTLOCK's own site and were registered with its other domains. Likely POTLOCK's. |
+| `rainbowbridge[.]com`, `rainbowbridgeapp[.]com`, `rainbowbridge[.]co`, `rainbow-bridge[.]app`, `blackdragon[.]io`, `syncnear[.]com` | **false positives** | A pet-loss community, a pet memorial site, a music academy, a Slack connector, an unrelated business, a jobs site. |
+
+The scanner fetched suspect pages only read-only. **Nothing was reported or filed anywhere.** Reporting the new ones
+(`rheaswap[.]finance`, `potlocktoken[.]org` after a check, the fake tokens) to MetaMask, ScamSniffer and the affected
+projects is the owner's decision.
+
+## Demo video
+
+[`docs/video/mimicwatch-demo.mp4`](docs/video/mimicwatch-demo.mp4) (1:54, 1080p, 8 MB, English voice-over and burned-in
+subtitles, plus [`mimicwatch-demo.en.srt`](docs/video/mimicwatch-demo.en.srt)). It is `npm run demo` recorded
+(`npm run demo:record` → [`mimicwatch-demo.cast`](docs/video/mimicwatch-demo.cast), [`viewer.html`](docs/video/viewer.html))
+and rendered frame by frame (`npm run demo:render`): headless Chromium seeks the viewer, ffmpeg encodes. The voice is
+synthetic (macOS `say -v Samantha`), one clip per subtitle line, and each line starts when its event appears on screen.
+The registry in the video runs on a **local NEAR node**; the scan data is the recorded 2026-11-01 mainnet scan; the review
+decisions are recorded demo decisions. Stills of each scene: [`docs/video/shots/`](docs/video/shots).
 
 ## Architecture
 
@@ -219,7 +307,7 @@ WARN; registry unreachable → WARN (fail closed to a human).
 |---|---|---|
 | Contract unit tests (39) | `cd contracts && cargo test --lib` | reporter auth, severity floor (medium/low refused), validation (account ids, top-level accounts, domains, https/ipfs evidence URLs, sha256 hashes, note length), normalisation (case, URL → host, ports, credentials), parent matching (sub-accounts, subdomains; similar names and bare top-level names never match; implicit accounts exact), re-reports keep first-seen time and open disputes, batch limit, disputes (deposit, one at a time, by-subject flag), owner keeps or clears (refund receipt), removal tombstones (reporters cannot re-add; owner can; `unclear`), 1-yoctoNEAR owner calls, ownership transfer, NEP-297 event shape |
 | Sandbox end-to-end (1) | `cd contracts && cargo test --test sandbox` | the real wasm on a local node: unapproved reporter refused, owner approves reporter, medium refused on chain, high stored with event, `is_flagged` exact / sub-account / clean, `check_many`, the flagged account disputes itself with a deposit, a stranger cannot resolve, the owner clears it and the deposit is refunded to the account, a reporter cannot re-add it |
-| NEAR code (41) | `npm test` (project `near`) | generator (valid ASCII ids only, every trick, short-stem limits, fake sub-accounts, probes, official names never proposed), scoring (impersonation-likely, fake-token, brand-owned by creator and by shared key, dust vs payments, pass-through, locked, unrelated history, same-operator, determinism), review queue (always pending, reviewer required, approval reset on changed evidence, rejections stick), publisher (pending / rejected / watched / medium / brand-owned / false-positive never published, reviewer severity override, evidence file sha256 = on-chain hash, idempotent, dry run, chunks of 20), check (BLOCK / WARN disputed / ALLOW official / WARN unlisted lookalikes / domains / fail closed when the registry is down), RPC pool (missing vs existing, 429 failover, unsupported-method errors are not "missing"), MCP tool over an in-memory transport |
+| NEAR code (45) | `npm test` (project `near`) | generator (valid ASCII ids only, every trick, short-stem limits, fake sub-accounts, probes, official names never proposed), scoring (impersonation-likely, fake-token, brand-owned by creator and by shared key, dust vs payments, pass-through, locked, unrelated history, same-operator, determinism), review queue (always pending, reviewer required, approval reset on changed evidence, rejections stick), publisher (pending / rejected / watched / medium / brand-owned / false-positive never published, reviewer severity override, evidence file sha256 = on-chain hash, idempotent, dry run, chunks of 20), check (BLOCK / WARN disputed / ALLOW official / WARN unlisted lookalikes / domains / fail closed when the registry is down), RPC pool (missing vs existing, 429 failover, unsupported-method errors are not "missing"), MCP tool over an in-memory transport, and the offline demo itself (same output twice, expected verdict sequence) |
 | Pre-existing engine (89) | `npm test` (project `engine`) | the vendored engine's own suite, unchanged (network mocked) |
 
 
