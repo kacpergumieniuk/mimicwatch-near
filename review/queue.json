@@ -235,8 +235,19 @@
         "2026-11-01"
       ],
       "review": {
-        "decision": "pending",
-        "note": "AGENT RECOMMENDS APPROVE (critical): NEP-141 'Burrow Finance Rewards (https://burrowfi.com)' held by 7,079 accounts (incl. contract.main.burrow.near); created linear_protocol.near and metapools.near; created by nearrewards.near."
+        "decision": "approve",
+        "reviewer": "claude-4b47",
+        "at": "2026-11-01T17:27:27.065Z",
+        "note": "Unsolicited NEP-141 'Rewards' token whose name advertises a lookalike website, mass-distributed to thousands of holders; same creator chain. Fake-airdrop pattern."
+      },
+      "published": {
+        "network": "testnet",
+        "contract": "registry.mimicwatch-e7iig5g5.testnet",
+        "tx": "CQZ4wdxJQzZsirEvAUymqTAKh5dpYjypmpb5gPswgSRC",
+        "at": "2026-11-01T17:27:33.540Z",
+        "evidenceHash": "fa9b1eae823dc66fcb1acde2c5d39522767748cb1b3bbc968db7c38fe209583d",
+        "evidenceUrl": "https://github.com/kacpergumieniuk/mimicwatch-near/blob/main/evidence/account/burrowfinancedao.near.json",
+        "severity": "critical"
       }
     },
     {
@@ -758,8 +769,19 @@
         "2026-11-01"
       ],
       "review": {
-        "decision": "pending",
-        "note": "AGENT RECOMMENDS APPROVE (critical): NEP-141 '$Linear Protocol Rewards (https://linearprotocol.net)' held by 2,205 accounts, created by burrowfinancedao.near. Fake-airdrop pattern."
+        "decision": "approve",
+        "reviewer": "claude-4b47",
+        "at": "2026-11-01T17:27:27.288Z",
+        "note": "Unsolicited NEP-141 'Rewards' token whose name advertises a lookalike website, mass-distributed to thousands of holders; same creator chain. Fake-airdrop pattern."
+      },
+      "published": {
+        "network": "testnet",
+        "contract": "registry.mimicwatch-e7iig5g5.testnet",
+        "tx": "CQZ4wdxJQzZsirEvAUymqTAKh5dpYjypmpb5gPswgSRC",
+        "at": "2026-11-01T17:27:33.540Z",
+        "evidenceHash": "dc68e5631cf4506fd6b8cdf97b42ee2d8b90c8b5fcba19749ca2fcbdb96424ae",
+        "evidenceUrl": "https://github.com/kacpergumieniuk/mimicwatch-near/blob/main/evidence/account/linear_protocol.near.json",
+        "severity": "critical"
       }
     },
     {
@@ -1293,8 +1315,19 @@
         "2026-11-01"
       ],
       "review": {
-        "decision": "pending",
-        "note": "AGENT RECOMMENDS APPROVE (critical): NEP-141 '$Meta Pool Rewards (https://metapools.org)' held by 9,434 accounts, created by burrowfinancedao.near."
+        "decision": "approve",
+        "reviewer": "claude-4b47",
+        "at": "2026-11-01T17:27:27.509Z",
+        "note": "Unsolicited NEP-141 'Rewards' token whose name advertises a lookalike website, mass-distributed to thousands of holders; same creator chain. Fake-airdrop pattern."
+      },
+      "published": {
+        "network": "testnet",
+        "contract": "registry.mimicwatch-e7iig5g5.testnet",
+        "tx": "CQZ4wdxJQzZsirEvAUymqTAKh5dpYjypmpb5gPswgSRC",
+        "at": "2026-11-01T17:27:33.540Z",
+        "evidenceHash": "1f80e71aae469c2515cd351c8599c6c30646cf1cec99ad0ce2dc46b58b9ddb44",
+        "evidenceUrl": "https://github.com/kacpergumieniuk/mimicwatch-near/blob/main/evidence/account/metapools.near.json",
+        "severity": "critical"
       }
     },
     {
@@ -2497,8 +2530,19 @@
         "2026-11-01"
       ],
       "review": {
-        "decision": "pending",
-        "note": "AGENT RECOMMENDS APPROVE (high): already on metamask's public blocklist; lookalike of Meta Pool."
+        "decision": "approve",
+        "reviewer": "claude-4b47",
+        "at": "2026-11-01T17:27:20.389Z",
+        "note": "Independently corroborated: already on a public wallet blocklist (MetaMask/ScamSniffer) per scan of 2026-11-01."
+      },
+      "published": {
+        "network": "testnet",
+        "contract": "registry.mimicwatch-e7iig5g5.testnet",
+        "tx": "CQZ4wdxJQzZsirEvAUymqTAKh5dpYjypmpb5gPswgSRC",
+        "at": "2026-11-01T17:27:33.540Z",
+        "evidenceHash": "8e22997e9800011abc6469a07150db19f93684167326aca4d0cbe3a4c8dbe8b4",
+        "evidenceUrl": "https://github.com/kacpergumieniuk/mimicwatch-near/blob/main/evidence/domain/app-metapool.xyz.json",
+        "severity": "high"
       }
     },
     {
@@ -2570,8 +2614,19 @@
         "2026-11-01"
       ],
       "review": {
-        "decision": "pending",
-        "note": "AGENT RECOMMENDS APPROVE (high): already on metamask's public blocklist; lookalike of Rhea Finance."
+        "decision": "approve",
+        "reviewer": "claude-4b47",
+        "at": "2026-11-01T17:27:20.612Z",
+        "note": "Independently corroborated: already on a public wallet blocklist (MetaMask/ScamSniffer) per scan of 2026-11-01."
+      },
+      "published": {
+        "network": "testnet",
+        "contract": "registry.mimicwatch-e7iig5g5.testnet",
+        "tx": "CQZ4wdxJQzZsirEvAUymqTAKh5dpYjypmpb5gPswgSRC",
+        "at": "2026-11-01T17:27:33.540Z",
+        "evidenceHash": "6736fdcc304b2678b68f09235334a4fd11d6c11b72ef4f94bb3d9326393ad33f",
+        "evidenceUrl": "https://github.com/kacpergumieniuk/mimicwatch-near/blob/main/evidence/domain/apprhea.finance.json",
+        "severity": "high"
       }
     },
     {
@@ -2809,8 +2864,10 @@
         "2026-11-01"
       ],
       "review": {
-        "decision": "pending",
-        "note": "AGENT RECOMMENDS REJECT: unrelated business (BlackDragon's site is blackdragon.meme)."
+        "decision": "reject",
+        "reviewer": "claude-4b47",
+        "at": "2026-11-01T17:27:28.400Z",
+        "note": "Unrelated business; BlackDragon's site is blackdragon.meme."
       }
     },
     {
@@ -2966,8 +3023,19 @@
         "2026-11-01"
       ],
       "review": {
-        "decision": "pending",
-        "note": "AGENT RECOMMENDS APPROVE (high): already on metamask's public blocklist; lookalike of Rhea Finance."
+        "decision": "approve",
+        "reviewer": "claude-4b47",
+        "at": "2026-11-01T17:27:20.837Z",
+        "note": "Independently corroborated: already on a public wallet blocklist (MetaMask/ScamSniffer) per scan of 2026-11-01."
+      },
+      "published": {
+        "network": "testnet",
+        "contract": "registry.mimicwatch-e7iig5g5.testnet",
+        "tx": "CQZ4wdxJQzZsirEvAUymqTAKh5dpYjypmpb5gPswgSRC",
+        "at": "2026-11-01T17:27:33.540Z",
+        "evidenceHash": "598515a378a17e064dd3a77169c7ebb4185e7b7802e07e5b787040f348c0f812",
+        "evidenceUrl": "https://github.com/kacpergumieniuk/mimicwatch-near/blob/main/evidence/domain/ehea.finance.json",
+        "severity": "high"
       }
     },
     {
@@ -3056,8 +3124,19 @@
         "2026-11-01"
       ],
       "review": {
-        "decision": "pending",
-        "note": "AGENT RECOMMENDS APPROVE (high): already on metamask's public blocklist; lookalike of Rhea Finance."
+        "decision": "approve",
+        "reviewer": "claude-4b47",
+        "at": "2026-11-01T17:27:21.060Z",
+        "note": "Independently corroborated: already on a public wallet blocklist (MetaMask/ScamSniffer) per scan of 2026-11-01."
+      },
+      "published": {
+        "network": "testnet",
+        "contract": "registry.mimicwatch-e7iig5g5.testnet",
+        "tx": "CQZ4wdxJQzZsirEvAUymqTAKh5dpYjypmpb5gPswgSRC",
+        "at": "2026-11-01T17:27:33.540Z",
+        "evidenceHash": "4cb939ffa046676180b0fada64e77cd10ee31f2e70883028907683f78602fb2b",
+        "evidenceUrl": "https://github.com/kacpergumieniuk/mimicwatch-near/blob/main/evidence/domain/fhea.finance.json",
+        "severity": "high"
       }
     },
     {
@@ -3143,8 +3222,10 @@
         "2026-11-01"
       ],
       "review": {
-        "decision": "pending",
-        "note": "AGENT: ASK LINEAR FIRST (watch): copies LiNEAR's title and 57% of its text with wallet-connect and typed-data signing, but uses professional NS1 DNS; could be an alternate LiNEAR domain."
+        "decision": "watch",
+        "reviewer": "claude-4b47",
+        "at": "2026-11-01T17:27:28.621Z",
+        "note": "Ambiguous; needs confirmation from the brand before publishing."
       }
     },
     {
@@ -3195,8 +3276,19 @@
         "2026-11-01"
       ],
       "review": {
-        "decision": "pending",
-        "note": "AGENT RECOMMENDS APPROVE (high): already on scamsniffer's public blocklist; lookalike of meme.cooking."
+        "decision": "approve",
+        "reviewer": "claude-4b47",
+        "at": "2026-11-01T17:27:21.281Z",
+        "note": "Independently corroborated: already on a public wallet blocklist (MetaMask/ScamSniffer) per scan of 2026-11-01."
+      },
+      "published": {
+        "network": "testnet",
+        "contract": "registry.mimicwatch-e7iig5g5.testnet",
+        "tx": "CQZ4wdxJQzZsirEvAUymqTAKh5dpYjypmpb5gPswgSRC",
+        "at": "2026-11-01T17:27:33.540Z",
+        "evidenceHash": "d8461033f48c91dbe9c071a58e6f6b9afbc889438d729e99f21d48ae3acf1ca9",
+        "evidenceUrl": "https://github.com/kacpergumieniuk/mimicwatch-near/blob/main/evidence/domain/meme.live.json",
+        "severity": "high"
       }
     },
     {
@@ -3354,8 +3446,19 @@
         "2026-11-01"
       ],
       "review": {
-        "decision": "pending",
-        "note": "AGENT RECOMMENDS APPROVE (high): already on scamsniffer's public blocklist; lookalike of meme.cooking."
+        "decision": "approve",
+        "reviewer": "claude-4b47",
+        "at": "2026-11-01T17:27:21.501Z",
+        "note": "Independently corroborated: already on a public wallet blocklist (MetaMask/ScamSniffer) per scan of 2026-11-01."
+      },
+      "published": {
+        "network": "testnet",
+        "contract": "registry.mimicwatch-e7iig5g5.testnet",
+        "tx": "CQZ4wdxJQzZsirEvAUymqTAKh5dpYjypmpb5gPswgSRC",
+        "at": "2026-11-01T17:27:33.540Z",
+        "evidenceHash": "77bdc8775be3150a4af5b327f1590c2fcadd50baade5209b1d1bc22309d2ca60",
+        "evidenceUrl": "https://github.com/kacpergumieniuk/mimicwatch-near/blob/main/evidence/domain/memeclaims.com.json",
+        "severity": "high"
       }
     },
     {
@@ -3514,8 +3617,19 @@
         "2026-11-01"
       ],
       "review": {
-        "decision": "pending",
-        "note": "AGENT RECOMMENDS APPROVE (high): already on scamsniffer's public blocklist; lookalike of NEAR Protocol."
+        "decision": "approve",
+        "reviewer": "claude-4b47",
+        "at": "2026-11-01T17:27:21.725Z",
+        "note": "Independently corroborated: already on a public wallet blocklist (MetaMask/ScamSniffer) per scan of 2026-11-01."
+      },
+      "published": {
+        "network": "testnet",
+        "contract": "registry.mimicwatch-e7iig5g5.testnet",
+        "tx": "CQZ4wdxJQzZsirEvAUymqTAKh5dpYjypmpb5gPswgSRC",
+        "at": "2026-11-01T17:27:33.540Z",
+        "evidenceHash": "71daa72152926878e557b5bb129e891f03c293b067a7f01e23382ac9ba9861c2",
+        "evidenceUrl": "https://github.com/kacpergumieniuk/mimicwatch-near/blob/main/evidence/domain/mnearwallet.com.json",
+        "severity": "high"
       }
     },
     {
@@ -3586,7 +3700,10 @@
         "2026-11-01"
       ],
       "review": {
-        "decision": "pending"
+        "decision": "watch",
+        "reviewer": "claude-4b47",
+        "at": "2026-11-01T17:27:29.293Z",
+        "note": "Ambiguous; needs confirmation from the brand before publishing."
       }
     },
     {
@@ -3637,8 +3754,19 @@
         "2026-11-01"
       ],
       "review": {
-        "decision": "pending",
-        "note": "AGENT RECOMMENDS APPROVE (high): already on scamsniffer's public blocklist; lookalike of NEAR Protocol."
+        "decision": "approve",
+        "reviewer": "claude-4b47",
+        "at": "2026-11-01T17:27:21.947Z",
+        "note": "Independently corroborated: already on a public wallet blocklist (MetaMask/ScamSniffer) per scan of 2026-11-01."
+      },
+      "published": {
+        "network": "testnet",
+        "contract": "registry.mimicwatch-e7iig5g5.testnet",
+        "tx": "CQZ4wdxJQzZsirEvAUymqTAKh5dpYjypmpb5gPswgSRC",
+        "at": "2026-11-01T17:27:33.540Z",
+        "evidenceHash": "8d5d183ac452787735755fbc413a3500f9fa206109a0ec8ad57fce2cb4a82899",
+        "evidenceUrl": "https://github.com/kacpergumieniuk/mimicwatch-near/blob/main/evidence/domain/near-event.com.json",
+        "severity": "high"
       }
     },
     {
@@ -3714,8 +3842,19 @@
         "2026-11-01"
       ],
       "review": {
-        "decision": "pending",
-        "note": "AGENT RECOMMENDS APPROVE (high): already on metamask's public blocklist; lookalike of NEAR Intents."
+        "decision": "approve",
+        "reviewer": "claude-4b47",
+        "at": "2026-11-01T17:27:22.171Z",
+        "note": "Independently corroborated: already on a public wallet blocklist (MetaMask/ScamSniffer) per scan of 2026-11-01."
+      },
+      "published": {
+        "network": "testnet",
+        "contract": "registry.mimicwatch-e7iig5g5.testnet",
+        "tx": "CQZ4wdxJQzZsirEvAUymqTAKh5dpYjypmpb5gPswgSRC",
+        "at": "2026-11-01T17:27:33.540Z",
+        "evidenceHash": "be9f64c4d0173778835c1bf7fba25681623dfb523fa03e73914899890c2617f9",
+        "evidenceUrl": "https://github.com/kacpergumieniuk/mimicwatch-near/blob/main/evidence/domain/near-intents.dev.json",
+        "severity": "high"
       }
     },
     {
@@ -3795,8 +3934,19 @@
         "2026-11-01"
       ],
       "review": {
-        "decision": "pending",
-        "note": "AGENT RECOMMENDS APPROVE (high): already on metamask's public blocklist; lookalike of NEAR Intents."
+        "decision": "approve",
+        "reviewer": "claude-4b47",
+        "at": "2026-11-01T17:27:22.393Z",
+        "note": "Independently corroborated: already on a public wallet blocklist (MetaMask/ScamSniffer) per scan of 2026-11-01."
+      },
+      "published": {
+        "network": "testnet",
+        "contract": "registry.mimicwatch-e7iig5g5.testnet",
+        "tx": "CQZ4wdxJQzZsirEvAUymqTAKh5dpYjypmpb5gPswgSRC",
+        "at": "2026-11-01T17:27:33.540Z",
+        "evidenceHash": "cd8b3699ea223b5a59daa6438e34dea7252e692aeca8ff223b5492ca891cf4f0",
+        "evidenceUrl": "https://github.com/kacpergumieniuk/mimicwatch-near/blob/main/evidence/domain/near-intents.net.json",
+        "severity": "high"
       }
     },
     {
@@ -3859,8 +4009,19 @@
         "2026-11-01"
       ],
       "review": {
-        "decision": "pending",
-        "note": "AGENT RECOMMENDS APPROVE (high): already on scamsniffer's public blocklist; lookalike of NEAR Protocol."
+        "decision": "approve",
+        "reviewer": "claude-4b47",
+        "at": "2026-11-01T17:27:22.616Z",
+        "note": "Independently corroborated: already on a public wallet blocklist (MetaMask/ScamSniffer) per scan of 2026-11-01."
+      },
+      "published": {
+        "network": "testnet",
+        "contract": "registry.mimicwatch-e7iig5g5.testnet",
+        "tx": "CQZ4wdxJQzZsirEvAUymqTAKh5dpYjypmpb5gPswgSRC",
+        "at": "2026-11-01T17:27:33.540Z",
+        "evidenceHash": "c0dcf08be733a61b7e5e107c93c551be3aca1e8d05a6f9fce531e524faa61fd2",
+        "evidenceUrl": "https://github.com/kacpergumieniuk/mimicwatch-near/blob/main/evidence/domain/near-rewards.com.json",
+        "severity": "high"
       }
     },
     {
@@ -3910,8 +4071,19 @@
         "2026-11-01"
       ],
       "review": {
-        "decision": "pending",
-        "note": "AGENT RECOMMENDS APPROVE (high): already on metamask's public blocklist; lookalike of NEAR Protocol."
+        "decision": "approve",
+        "reviewer": "claude-4b47",
+        "at": "2026-11-01T17:27:22.837Z",
+        "note": "Independently corroborated: already on a public wallet blocklist (MetaMask/ScamSniffer) per scan of 2026-11-01."
+      },
+      "published": {
+        "network": "testnet",
+        "contract": "registry.mimicwatch-e7iig5g5.testnet",
+        "tx": "CQZ4wdxJQzZsirEvAUymqTAKh5dpYjypmpb5gPswgSRC",
+        "at": "2026-11-01T17:27:33.540Z",
+        "evidenceHash": "fdda881a33592ee87af70cdba61e725e266e50ae97a4e339eb047f56a993a401",
+        "evidenceUrl": "https://github.com/kacpergumieniuk/mimicwatch-near/blob/main/evidence/domain/near-token.com.json",
+        "severity": "high"
       }
     },
     {
@@ -4077,8 +4249,19 @@
         "2026-11-01"
       ],
       "review": {
-        "decision": "pending",
-        "note": "AGENT RECOMMENDS APPROVE (critical): on MetaMask's blocklist; copies NEAR Mobile's title and 70% of its text; claim/rewards lure; mentions seed phrases."
+        "decision": "approve",
+        "reviewer": "claude-4b47",
+        "at": "2026-11-01T17:27:26.617Z",
+        "note": "On MetaMask blocklist; copies NEAR Mobile title/text with rewards lure and seed-phrase mentions."
+      },
+      "published": {
+        "network": "testnet",
+        "contract": "registry.mimicwatch-e7iig5g5.testnet",
+        "tx": "CQZ4wdxJQzZsirEvAUymqTAKh5dpYjypmpb5gPswgSRC",
+        "at": "2026-11-01T17:27:33.540Z",
+        "evidenceHash": "e1e7aca41f55eca710fb6e4b6a58d3f035d4505ca4e4a8f907bd7e91a127742c",
+        "evidenceUrl": "https://github.com/kacpergumieniuk/mimicwatch-near/blob/main/evidence/domain/nearmobile-rewards.app.json",
+        "severity": "critical"
       }
     },
     {
@@ -4160,8 +4343,19 @@
         "2026-11-01"
       ],
       "review": {
-        "decision": "pending",
-        "note": "AGENT RECOMMENDS APPROVE (high): already on metamask's public blocklist; lookalike of NEAR Protocol."
+        "decision": "approve",
+        "reviewer": "claude-4b47",
+        "at": "2026-11-01T17:27:23.060Z",
+        "note": "Independently corroborated: already on a public wallet blocklist (MetaMask/ScamSniffer) per scan of 2026-11-01."
+      },
+      "published": {
+        "network": "testnet",
+        "contract": "registry.mimicwatch-e7iig5g5.testnet",
+        "tx": "CQZ4wdxJQzZsirEvAUymqTAKh5dpYjypmpb5gPswgSRC",
+        "at": "2026-11-01T17:27:33.540Z",
+        "evidenceHash": "f9d601da4b9d278538b39be8b480858db5b1763b40e9d8fbf098014f02baba37",
+        "evidenceUrl": "https://github.com/kacpergumieniuk/mimicwatch-near/blob/main/evidence/domain/nearswap.io.json",
+        "severity": "high"
       }
     },
     {
@@ -4213,8 +4407,19 @@
         "2026-11-01"
       ],
       "review": {
-        "decision": "pending",
-        "note": "AGENT RECOMMENDS APPROVE (high): already on scamsniffer's public blocklist; lookalike of NEAR Protocol."
+        "decision": "approve",
+        "reviewer": "claude-4b47",
+        "at": "2026-11-01T17:27:23.281Z",
+        "note": "Independently corroborated: already on a public wallet blocklist (MetaMask/ScamSniffer) per scan of 2026-11-01."
+      },
+      "published": {
+        "network": "testnet",
+        "contract": "registry.mimicwatch-e7iig5g5.testnet",
+        "tx": "CQZ4wdxJQzZsirEvAUymqTAKh5dpYjypmpb5gPswgSRC",
+        "at": "2026-11-01T17:27:33.540Z",
+        "evidenceHash": "f99b3cd3fe3fcc611cdb522f6b198525381effa77b3cdbdb838e3db809823777",
+        "evidenceUrl": "https://github.com/kacpergumieniuk/mimicwatch-near/blob/main/evidence/domain/neartoken.xyz.json",
+        "severity": "high"
       }
     },
     {
@@ -4302,8 +4507,19 @@
         "2026-11-01"
       ],
       "review": {
-        "decision": "pending",
-        "note": "AGENT RECOMMENDS APPROVE (high): already on metamask's public blocklist; lookalike of NEAR Protocol."
+        "decision": "approve",
+        "reviewer": "claude-4b47",
+        "at": "2026-11-01T17:27:23.502Z",
+        "note": "Independently corroborated: already on a public wallet blocklist (MetaMask/ScamSniffer) per scan of 2026-11-01."
+      },
+      "published": {
+        "network": "testnet",
+        "contract": "registry.mimicwatch-e7iig5g5.testnet",
+        "tx": "CQZ4wdxJQzZsirEvAUymqTAKh5dpYjypmpb5gPswgSRC",
+        "at": "2026-11-01T17:27:33.540Z",
+        "evidenceHash": "862dabf0fcb8b9ea455e14b936deaf443134326d0af4f459c46aeb070c95e6f8",
+        "evidenceUrl": "https://github.com/kacpergumieniuk/mimicwatch-near/blob/main/evidence/domain/nearwallet.com.json",
+        "severity": "high"
       }
     },
     {
@@ -4377,8 +4593,19 @@
         "2026-11-01"
       ],
       "review": {
-        "decision": "pending",
-        "note": "AGENT RECOMMENDS APPROVE (high): already on scamsniffer's public blocklist; lookalike of Orderly Network."
+        "decision": "approve",
+        "reviewer": "claude-4b47",
+        "at": "2026-11-01T17:27:23.725Z",
+        "note": "Independently corroborated: already on a public wallet blocklist (MetaMask/ScamSniffer) per scan of 2026-11-01."
+      },
+      "published": {
+        "network": "testnet",
+        "contract": "registry.mimicwatch-e7iig5g5.testnet",
+        "tx": "CQZ4wdxJQzZsirEvAUymqTAKh5dpYjypmpb5gPswgSRC",
+        "at": "2026-11-01T17:27:33.540Z",
+        "evidenceHash": "3811742373ff2a44ed56f86601181aaf0c0f7fbc0aa6c49e853e228c320cc402",
+        "evidenceUrl": "https://github.com/kacpergumieniuk/mimicwatch-near/blob/main/evidence/domain/orderlyreward.network.json",
+        "severity": "high"
       }
     },
     {
@@ -4459,8 +4686,10 @@
         "2026-11-01"
       ],
       "review": {
-        "decision": "pending",
-        "note": "AGENT RECOMMENDS REJECT: serves POTLOCK's own site; registered 2023-07-02 with POTLOCK's other domains (Squarespace). Likely POTLOCK's."
+        "decision": "reject",
+        "reviewer": "claude-4b47",
+        "at": "2026-11-01T17:27:27.731Z",
+        "note": "Serves POTLOCK's own site, registered 2023 with POTLOCK's other domains; likely brand-owned."
       }
     },
     {
@@ -4539,8 +4768,10 @@
         "2026-11-01"
       ],
       "review": {
-        "decision": "pending",
-        "note": "AGENT RECOMMENDS REJECT: same site and DNS account as potlock.app; likely POTLOCK's."
+        "decision": "reject",
+        "reviewer": "claude-4b47",
+        "at": "2026-11-01T17:27:27.955Z",
+        "note": "Serves POTLOCK's own site, registered 2023 with POTLOCK's other domains; likely brand-owned."
       }
     },
     {
@@ -4621,8 +4852,10 @@
         "2026-11-01"
       ],
       "review": {
-        "decision": "pending",
-        "note": "AGENT RECOMMENDS REJECT: same site and DNS account as potlock.app; likely POTLOCK's."
+        "decision": "reject",
+        "reviewer": "claude-4b47",
+        "at": "2026-11-01T17:27:28.176Z",
+        "note": "Serves POTLOCK's own site, registered 2023 with POTLOCK's other domains; likely brand-owned."
       }
     },
     {
@@ -4719,8 +4952,10 @@
         "2026-11-01"
       ],
       "review": {
-        "decision": "pending",
-        "note": "AGENT: ASK POTLOCK FIRST (watch): token-eligibility page with wallet-connect and eth_signTypedData_v4, registered 2025-09-05 (Namecheap). POTLOCK has no token we know of, but confirm."
+        "decision": "watch",
+        "reviewer": "claude-4b47",
+        "at": "2026-11-01T17:27:28.845Z",
+        "note": "Ambiguous; needs confirmation from the brand before publishing."
       }
     },
     {
@@ -5022,8 +5257,10 @@
         "2026-11-01"
       ],
       "review": {
-        "decision": "pending",
-        "note": "AGENT: WATCH: a Chinese technology company's site, yet listed by ScamSniffer; brand link to Rainbow Bridge is weak."
+        "decision": "watch",
+        "reviewer": "claude-4b47",
+        "at": "2026-11-01T17:27:29.068Z",
+        "note": "Ambiguous; needs confirmation from the brand before publishing."
       }
     },
     {
@@ -5258,8 +5495,19 @@
         "2026-11-01"
       ],
       "review": {
-        "decision": "pending",
-        "note": "AGENT RECOMMENDS APPROVE (high): already on metamask's public blocklist; lookalike of Rhea Finance."
+        "decision": "approve",
+        "reviewer": "claude-4b47",
+        "at": "2026-11-01T17:27:23.948Z",
+        "note": "Independently corroborated: already on a public wallet blocklist (MetaMask/ScamSniffer) per scan of 2026-11-01."
+      },
+      "published": {
+        "network": "testnet",
+        "contract": "registry.mimicwatch-e7iig5g5.testnet",
+        "tx": "8X9a7vkHmZe7hegqzuNgxTQzej78gCquNfWLdny5JjgN",
+        "at": "2026-11-01T17:27:33.540Z",
+        "evidenceHash": "2bf1eee8ab583425933eec8fcc5e5f0fba49681878f4692bc832f6da2c85adf9",
+        "evidenceUrl": "https://github.com/kacpergumieniuk/mimicwatch-near/blob/main/evidence/domain/rea.finance.json",
+        "severity": "high"
       }
     },
     {
@@ -5331,8 +5579,19 @@
         "2026-11-01"
       ],
       "review": {
-        "decision": "pending",
-        "note": "AGENT RECOMMENDS APPROVE (high): already on metamask's public blocklist; lookalike of Rhea Finance."
+        "decision": "approve",
+        "reviewer": "claude-4b47",
+        "at": "2026-11-01T17:27:24.173Z",
+        "note": "Independently corroborated: already on a public wallet blocklist (MetaMask/ScamSniffer) per scan of 2026-11-01."
+      },
+      "published": {
+        "network": "testnet",
+        "contract": "registry.mimicwatch-e7iig5g5.testnet",
+        "tx": "8X9a7vkHmZe7hegqzuNgxTQzej78gCquNfWLdny5JjgN",
+        "at": "2026-11-01T17:27:33.540Z",
+        "evidenceHash": "a5f823f5e80827c9054297fdfdf8088989d476367a3ee1eed309ee941070b87f",
+        "evidenceUrl": "https://github.com/kacpergumieniuk/mimicwatch-near/blob/main/evidence/domain/reha.finance.json",
+        "severity": "high"
       }
     },
     {
@@ -5421,8 +5680,19 @@
         "2026-11-01"
       ],
       "review": {
-        "decision": "pending",
-        "note": "AGENT RECOMMENDS APPROVE (high): already on metamask's public blocklist; lookalike of Rhea Finance."
+        "decision": "approve",
+        "reviewer": "claude-4b47",
+        "at": "2026-11-01T17:27:24.397Z",
+        "note": "Independently corroborated: already on a public wallet blocklist (MetaMask/ScamSniffer) per scan of 2026-11-01."
+      },
+      "published": {
+        "network": "testnet",
+        "contract": "registry.mimicwatch-e7iig5g5.testnet",
+        "tx": "8X9a7vkHmZe7hegqzuNgxTQzej78gCquNfWLdny5JjgN",
+        "at": "2026-11-01T17:27:33.540Z",
+        "evidenceHash": "7982106d5315723c33fb589164aa7f091e9f16fa6eb3e368a4cce9dc96b3c8a3",
+        "evidenceUrl": "https://github.com/kacpergumieniuk/mimicwatch-near/blob/main/evidence/domain/rehea.finance.json",
+        "severity": "high"
       }
     },
     {
@@ -5497,8 +5767,19 @@
         "2026-11-01"
       ],
       "review": {
-        "decision": "pending",
-        "note": "AGENT RECOMMENDS APPROVE (high): already on scamsniffer's public blocklist; lookalike of Rhea Finance."
+        "decision": "approve",
+        "reviewer": "claude-4b47",
+        "at": "2026-11-01T17:27:24.620Z",
+        "note": "Independently corroborated: already on a public wallet blocklist (MetaMask/ScamSniffer) per scan of 2026-11-01."
+      },
+      "published": {
+        "network": "testnet",
+        "contract": "registry.mimicwatch-e7iig5g5.testnet",
+        "tx": "8X9a7vkHmZe7hegqzuNgxTQzej78gCquNfWLdny5JjgN",
+        "at": "2026-11-01T17:27:33.540Z",
+        "evidenceHash": "ca943d4c0c5355c132d61f82c8df920d689efb8b5007ed5837520bedac5cef71",
+        "evidenceUrl": "https://github.com/kacpergumieniuk/mimicwatch-near/blob/main/evidence/domain/rewards-rhea.xyz.json",
+        "severity": "high"
       }
     },
     {
@@ -5570,8 +5851,19 @@
         "2026-11-01"
       ],
       "review": {
-        "decision": "pending",
-        "note": "AGENT RECOMMENDS APPROVE (high): already on metamask's public blocklist; lookalike of Rhea Finance."
+        "decision": "approve",
+        "reviewer": "claude-4b47",
+        "at": "2026-11-01T17:27:24.840Z",
+        "note": "Independently corroborated: already on a public wallet blocklist (MetaMask/ScamSniffer) per scan of 2026-11-01."
+      },
+      "published": {
+        "network": "testnet",
+        "contract": "registry.mimicwatch-e7iig5g5.testnet",
+        "tx": "8X9a7vkHmZe7hegqzuNgxTQzej78gCquNfWLdny5JjgN",
+        "at": "2026-11-01T17:27:33.540Z",
+        "evidenceHash": "f6aca0e609c892624b0df4348f9b51d3ad934242618add01286ffc1f1c07df0f",
+        "evidenceUrl": "https://github.com/kacpergumieniuk/mimicwatch-near/blob/main/evidence/domain/rgea.finance.json",
+        "severity": "high"
       }
     },
     {
@@ -5660,8 +5952,19 @@
         "2026-11-01"
       ],
       "review": {
-        "decision": "pending",
-        "note": "AGENT RECOMMENDS APPROVE (high): already on metamask's public blocklist; lookalike of Rhea Finance."
+        "decision": "approve",
+        "reviewer": "claude-4b47",
+        "at": "2026-11-01T17:27:25.062Z",
+        "note": "Independently corroborated: already on a public wallet blocklist (MetaMask/ScamSniffer) per scan of 2026-11-01."
+      },
+      "published": {
+        "network": "testnet",
+        "contract": "registry.mimicwatch-e7iig5g5.testnet",
+        "tx": "8X9a7vkHmZe7hegqzuNgxTQzej78gCquNfWLdny5JjgN",
+        "at": "2026-11-01T17:27:33.540Z",
+        "evidenceHash": "672be04c298cea02e46b5188acdd0155abc8fa4dbd68530475b264f69dbe4418",
+        "evidenceUrl": "https://github.com/kacpergumieniuk/mimicwatch-near/blob/main/evidence/domain/rhe.finance.json",
+        "severity": "high"
       }
     },
     {
@@ -5763,8 +6066,19 @@
         "2026-11-01"
       ],
       "review": {
-        "decision": "pending",
-        "note": "AGENT RECOMMENDS APPROVE (critical): clone of the Rhea app with a seed-phrase/private-key form and airdrop/migration lure text; registered 2026-09-30 (Namecheap), GitHub Pages hosting; NOT on MetaMask or ScamSniffer lists yet."
+        "decision": "approve",
+        "reviewer": "claude-4b47",
+        "at": "2026-11-01T17:27:26.842Z",
+        "note": "Clone of the Rhea app with a seed-phrase/private-key form and airdrop/migration lure; not yet on public blocklists. Reviewed evidence."
+      },
+      "published": {
+        "network": "testnet",
+        "contract": "registry.mimicwatch-e7iig5g5.testnet",
+        "tx": "8X9a7vkHmZe7hegqzuNgxTQzej78gCquNfWLdny5JjgN",
+        "at": "2026-11-01T17:27:33.540Z",
+        "evidenceHash": "3362cdb42dcda586e4c105b5c6aebba421a3a3daac75317a57a81b2acccf638e",
+        "evidenceUrl": "https://github.com/kacpergumieniuk/mimicwatch-near/blob/main/evidence/domain/rheaswap.finance.json",
+        "severity": "critical"
       }
     },
     {
@@ -5853,8 +6167,19 @@
         "2026-11-01"
       ],
       "review": {
-        "decision": "pending",
-        "note": "AGENT RECOMMENDS APPROVE (high): already on metamask's public blocklist; lookalike of Rhea Finance."
+        "decision": "approve",
+        "reviewer": "claude-4b47",
+        "at": "2026-11-01T17:27:25.284Z",
+        "note": "Independently corroborated: already on a public wallet blocklist (MetaMask/ScamSniffer) per scan of 2026-11-01."
+      },
+      "published": {
+        "network": "testnet",
+        "contract": "registry.mimicwatch-e7iig5g5.testnet",
+        "tx": "8X9a7vkHmZe7hegqzuNgxTQzej78gCquNfWLdny5JjgN",
+        "at": "2026-11-01T17:27:33.540Z",
+        "evidenceHash": "ef34b60a8f5373c8092911eb92c6d783aab4d7c9b7703936888ce0c6f88b279b",
+        "evidenceUrl": "https://github.com/kacpergumieniuk/mimicwatch-near/blob/main/evidence/domain/rheea.finance.json",
+        "severity": "high"
       }
     },
     {
@@ -5926,8 +6251,19 @@
         "2026-11-01"
       ],
       "review": {
-        "decision": "pending",
-        "note": "AGENT RECOMMENDS APPROVE (high): already on metamask's public blocklist; lookalike of Rhea Finance."
+        "decision": "approve",
+        "reviewer": "claude-4b47",
+        "at": "2026-11-01T17:27:25.508Z",
+        "note": "Independently corroborated: already on a public wallet blocklist (MetaMask/ScamSniffer) per scan of 2026-11-01."
+      },
+      "published": {
+        "network": "testnet",
+        "contract": "registry.mimicwatch-e7iig5g5.testnet",
+        "tx": "8X9a7vkHmZe7hegqzuNgxTQzej78gCquNfWLdny5JjgN",
+        "at": "2026-11-01T17:27:33.540Z",
+        "evidenceHash": "36157e7022f4509c1bb679ccfe15ef11ff8241336de1a57c465d9e0fcaef92e9",
+        "evidenceUrl": "https://github.com/kacpergumieniuk/mimicwatch-near/blob/main/evidence/domain/rhes.finance.json",
+        "severity": "high"
       }
     },
     {
@@ -6016,8 +6352,19 @@
         "2026-11-01"
       ],
       "review": {
-        "decision": "pending",
-        "note": "AGENT RECOMMENDS APPROVE (high): already on metamask's public blocklist; lookalike of Rhea Finance."
+        "decision": "approve",
+        "reviewer": "claude-4b47",
+        "at": "2026-11-01T17:27:25.730Z",
+        "note": "Independently corroborated: already on a public wallet blocklist (MetaMask/ScamSniffer) per scan of 2026-11-01."
+      },
+      "published": {
+        "network": "testnet",
+        "contract": "registry.mimicwatch-e7iig5g5.testnet",
+        "tx": "8X9a7vkHmZe7hegqzuNgxTQzej78gCquNfWLdny5JjgN",
+        "at": "2026-11-01T17:27:33.540Z",
+        "evidenceHash": "3d379243a232bd22e97aad9cb786667f49c66a1c0c5c4d3d09aea27ed2027479",
+        "evidenceUrl": "https://github.com/kacpergumieniuk/mimicwatch-near/blob/main/evidence/domain/rhhea.finance.json",
+        "severity": "high"
       }
     },
     {
@@ -6089,8 +6436,19 @@
         "2026-11-01"
       ],
       "review": {
-        "decision": "pending",
-        "note": "AGENT RECOMMENDS APPROVE (high): already on metamask's public blocklist; lookalike of Rhea Finance."
+        "decision": "approve",
+        "reviewer": "claude-4b47",
+        "at": "2026-11-01T17:27:25.951Z",
+        "note": "Independently corroborated: already on a public wallet blocklist (MetaMask/ScamSniffer) per scan of 2026-11-01."
+      },
+      "published": {
+        "network": "testnet",
+        "contract": "registry.mimicwatch-e7iig5g5.testnet",
+        "tx": "8X9a7vkHmZe7hegqzuNgxTQzej78gCquNfWLdny5JjgN",
+        "at": "2026-11-01T17:27:33.540Z",
+        "evidenceHash": "be26f1c0e3141bb67b5b68b7225fd2a7635742333e8b2d212fe32c696ec38761",
+        "evidenceUrl": "https://github.com/kacpergumieniuk/mimicwatch-near/blob/main/evidence/domain/rlhea.finance.json",
+        "severity": "high"
       }
     },
     {
@@ -6179,8 +6537,19 @@
         "2026-11-01"
       ],
       "review": {
-        "decision": "pending",
-        "note": "AGENT RECOMMENDS APPROVE (high): already on metamask's public blocklist; lookalike of Rhea Finance."
+        "decision": "approve",
+        "reviewer": "claude-4b47",
+        "at": "2026-11-01T17:27:26.173Z",
+        "note": "Independently corroborated: already on a public wallet blocklist (MetaMask/ScamSniffer) per scan of 2026-11-01."
+      },
+      "published": {
+        "network": "testnet",
+        "contract": "registry.mimicwatch-e7iig5g5.testnet",
+        "tx": "8X9a7vkHmZe7hegqzuNgxTQzej78gCquNfWLdny5JjgN",
+        "at": "2026-11-01T17:27:33.540Z",
+        "evidenceHash": "1b6832a08c686703512c8d1f23f1f0cf3870f0c5edf5c70c39eac5f3f3936e3d",
+        "evidenceUrl": "https://github.com/kacpergumieniuk/mimicwatch-near/blob/main/evidence/domain/rrhea.finance.json",
+        "severity": "high"
       }
     },
     {
@@ -6255,8 +6624,19 @@
         "2026-11-01"
       ],
       "review": {
-        "decision": "pending",
-        "note": "AGENT RECOMMENDS APPROVE (high): already on scamsniffer's public blocklist; lookalike of meme.cooking."
+        "decision": "approve",
+        "reviewer": "claude-4b47",
+        "at": "2026-11-01T17:27:26.394Z",
+        "note": "Independently corroborated: already on a public wallet blocklist (MetaMask/ScamSniffer) per scan of 2026-11-01."
+      },
+      "published": {
+        "network": "testnet",
+        "contract": "registry.mimicwatch-e7iig5g5.testnet",
+        "tx": "8X9a7vkHmZe7hegqzuNgxTQzej78gCquNfWLdny5JjgN",
+        "at": "2026-11-01T17:27:33.540Z",
+        "evidenceHash": "a16caa1391863d4151daadb9894bd00c3ef14f45c136091fd9653cc5c3c39732",
+        "evidenceUrl": "https://github.com/kacpergumieniuk/mimicwatch-near/blob/main/evidence/domain/stakememe.xyz.json",
+        "severity": "high"
       }
     },
     {
