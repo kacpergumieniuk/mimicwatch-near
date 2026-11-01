@@ -1,0 +1,1653 @@
+{
+  "verifiedAt": "2026-11-01",
+  "method": "Accounts: every listed account was checked on 2026-11-01 with a read-only NEAR mainnet JSON-RPC view_account query (rpc.mainnet.fastnear.com, with fallbacks free.rpc.fastnear.com and rpc.mainnet.near.org). 'contract' is true when code_hash != 11111111111111111111111111111111. Token accounts were also checked with ft_metadata (call_function), but ft_metadata is self-declared and was never accepted as the only proof. Each account is tied to a primary source: project docs (guide.rhea.finance, docs.near-intents.org, docs.metapool.app, docs.hotdao.ai, docs.herewallet.app, docs.near.org), the project's own GitHub config or README (ref-finance/ref-ui, linear-protocol/LiNEAR, Near-One/omni-bridge, aurora-is-near/aurora-engine, hot-dao/*, NEAR-DevHub/trezu, houseofstake/agora-near, Shitzu-Apes/*, PotLock/*, NearSocial/social-db), issuer pages (tether.to, developers.circle.com), the NEAR Intents 1Click token list (1click.chaindefuser.com/v0/tokens) and the official near-connect wallet manifest. Where only a secondary source (CoinGecko) or a third-party integration existed, the source field says so. Named accounts that exist but have no source linking them to the brand (for example meteor-wallet.near, rhea.near, aurora.near, defuse.near, metapool.near) were deliberately NOT listed. Account roots are listed only when official contracts verifiably live under them AND the parent does not hand out sub-accounts to the public (factories and user namespaces such as near, tg, sweat, pool.near, tkn.near, sputnik-dao.near, meme-cooking.near and mintbase1.near are excluded). Domains: each domain comes from the project's docs, GitHub org website field, official site cross-links, or the NEAR docs. Each was fetched with a read-only HTTPS GET (curl -L) on 2026-11-01 and its final URL, status and title were recorded. Cloudflare 403s (meteorwallet.app, nearblocks.io) count as resolving. Domains that are parked, lost or redirect to unrelated parties are excluded and explained in the notes and in NOTES.md. Only registrable domains are listed; known official subdomains are named in the notes.",
+  "brands": [
+    {
+      "id": "near",
+      "name": "NEAR Protocol",
+      "category": "infra",
+      "status": "active",
+      "officialDomains": [
+        "near.org",
+        "near.com",
+        "near.chat"
+      ],
+      "referenceUrl": "https://near.org",
+      "officialAccounts": [
+        {
+          "id": "near",
+          "role": "Top-level account that creates *.near accounts (open to everyone; NOT a brand root)",
+          "contract": true,
+          "source": "https://docs.near.org/protocol/accounts-contracts/account-id"
+        },
+        {
+          "id": "wrap.near",
+          "role": "wNEAR token (NEP-141)",
+          "contract": true,
+          "source": "https://docs.near.org/primitives/dex; ft_metadata=wNEAR"
+        },
+        {
+          "id": "v1.signer",
+          "role": "Chain Signatures MPC signer contract",
+          "contract": true,
+          "source": "https://docs.near.org/chain-abstraction/chain-signatures"
+        },
+        {
+          "id": "lockup.near",
+          "role": "Lockup factory (user lockups live at <hash>.lockup.near)",
+          "contract": true,
+          "source": "https://github.com/NEAR-DevHub/trezu/blob/main/nt-be/src/constants/mod.rs ; https://docs.near.org/tools/contracts-list (core-contracts lockup-factory)"
+        },
+        {
+          "id": "pool.near",
+          "role": "Staking-farm pool factory (validators deploy *.pool.near; NOT a brand root)",
+          "contract": true,
+          "source": "https://docs.near.org/tools/contracts-list"
+        }
+      ],
+      "accountRoots": [],
+      "nameStems": [
+        "nearprotocol",
+        "near-protocol",
+        "near-foundation",
+        "nearfoundation",
+        "wrap-near",
+        "wrapnear"
+      ],
+      "keywords": [
+        "nearprotocol",
+        "near-protocol",
+        "near.org",
+        "near.com",
+        "wnear"
+      ],
+      "officialSocials": {
+        "x": "NEARProtocol",
+        "github": "near",
+        "discord": "nearprotocol"
+      },
+      "sources": [
+        "https://near.org",
+        "https://near.com",
+        "https://github.com/near",
+        "https://docs.near.org/protocol/accounts-contracts/account-id",
+        "https://docs.near.org/chain-abstraction/chain-signatures"
+      ],
+      "notes": "'near' is the brand AND the public top-level account: every user account ends in .near, so 'near' alone is useless as a stem; match only compound stems. Sub-accounts of near / pool.near / lockup.near / poolv1.near are created for third parties (users, validators). near.com is the NEAR consumer app and is documented as the first-party NEAR Intents front-end (docs.near-intents.org terms); it links back to near.org and x.com/nearprotocol. near.chat answers only over HTTP and redirects to discord.com/invite/nearprotocol (linked from near.org). Official subdomains seen: docs.near.org, status.near.org, intents.near.org, auth.near.org, wallet.near.org (wallet chooser; the old NEAR Wallet is retired), business.near.com (NEAR Business / Trezu). NEAR AI (near.ai) and House of Stake (houseofstake.org) are listed as separate brands. Top-level accounts (near, tg, sweat, dao, aurora, signer) can only be created by the 'registrar' account (docs.near.org account-id page)."
+    },
+    {
+      "id": "rhea",
+      "name": "Rhea Finance",
+      "formerly": [
+        "Ref Finance"
+      ],
+      "category": "dex",
+      "status": "active",
+      "officialDomains": [
+        "rhea.finance"
+      ],
+      "legacyDomains": [
+        "ref.finance"
+      ],
+      "referenceUrl": "https://app.rhea.finance",
+      "officialAccounts": [
+        {
+          "id": "v2.ref-finance.near",
+          "role": "Classic/stable AMM exchange contract",
+          "contract": true,
+          "source": "https://github.com/ref-finance/ref-ui/blob/main/src/services/config.ts"
+        },
+        {
+          "id": "dclv2.ref-labs.near",
+          "role": "DCL (v2 concentrated liquidity) swap contract",
+          "contract": true,
+          "source": "https://github.com/ref-finance/ref-ui/blob/main/src/services/config.ts"
+        },
+        {
+          "id": "dcl.ref-labs.near",
+          "role": "DCL v1 swap contract (older)",
+          "contract": true,
+          "source": "https://github.com/ref-finance/ref-ui/blob/main/src/services/config.ts"
+        },
+        {
+          "id": "boostfarm.ref-labs.near",
+          "role": "Boost farming contract",
+          "contract": true,
+          "source": "https://github.com/ref-finance/ref-ui/blob/main/src/services/config.ts"
+        },
+        {
+          "id": "v2.ref-farming.near",
+          "role": "Legacy farming contract",
+          "contract": true,
+          "source": "https://github.com/ref-finance/ref-ui/blob/main/src/services/config.ts"
+        },
+        {
+          "id": "token.v2.ref-finance.near",
+          "role": "REF token (legacy; folded into RHEA)",
+          "contract": true,
+          "source": "https://github.com/ref-finance/ref-ui/blob/main/src/services/config.ts ; ft_metadata=REF"
+        },
+        {
+          "id": "xtoken.ref-finance.near",
+          "role": "xREF token (legacy)",
+          "contract": true,
+          "source": "https://github.com/ref-finance/ref-ui/blob/main/src/services/config.ts ; ft_metadata=xREF"
+        },
+        {
+          "id": "token.rhealab.near",
+          "role": "RHEA token",
+          "contract": true,
+          "source": "https://guide.rhea.finance/getting-started/buy-rhea-token ; ft_metadata=RHEA"
+        },
+        {
+          "id": "xtoken.rhealab.near",
+          "role": "xRHEA staking token",
+          "contract": true,
+          "source": "https://github.com/Meteor-Wallet/rNear-vault-public/blob/main/common/stakeRhea.ts ; ft_metadata=XRHEA"
+        },
+        {
+          "id": "lst.rhealab.near",
+          "role": "rNEAR liquid staking token",
+          "contract": true,
+          "source": "https://github.com/Meteor-Wallet/rNear-vault-public/blob/main/common/near.ts ; ft_metadata=rNEAR"
+        },
+        {
+          "id": "lsd-usdt.rhealab.near",
+          "role": "nrUsdt token",
+          "contract": true,
+          "source": "https://1click.chaindefuser.com/v0/tokens ; ft_metadata=nrUsdt"
+        },
+        {
+          "id": "contract.main.burrow.near",
+          "role": "Lending/borrowing contract (ex-Burrow, now Rhea Lending)",
+          "contract": true,
+          "source": "https://github.com/ref-finance/ref-ui/blob/main/src/services/config.ts (BURROW_CONTRACT_ID)"
+        }
+      ],
+      "accountRoots": [
+        "ref-finance.near",
+        "ref-labs.near",
+        "rhealab.near",
+        "ref-farming.near"
+      ],
+      "nameStems": [
+        "rhea-finance",
+        "rheafinance",
+        "rhealab",
+        "rhea-lab",
+        "ref-finance",
+        "reffinance",
+        "ref-labs",
+        "reflabs",
+        "ref-farming",
+        "xrhea",
+        "rnear"
+      ],
+      "keywords": [
+        "rhea.finance",
+        "rheafinance",
+        "rhea-finance",
+        "rhealab",
+        "ref.finance",
+        "ref-finance",
+        "reffinance"
+      ],
+      "officialSocials": {
+        "x": "rhea_finance",
+        "telegram": "rhea_finance",
+        "discord": "rheafinance",
+        "github": "ref-finance"
+      },
+      "sources": [
+        "https://guide.rhea.finance/getting-started/staying-safe",
+        "https://guide.rhea.finance/community/official-links",
+        "https://guide.rhea.finance/getting-started/buy-rhea-token",
+        "https://github.com/ref-finance/ref-ui/blob/main/src/services/config.ts",
+        "https://github.com/ref-finance/rhea-sdk/blob/main/src/constant.ts",
+        "https://docs.near.org/tools/contracts-list"
+      ],
+      "notes": "Rhea Finance = merger of Ref Finance (DEX) and Burrow (lending). The 'Staying safe' docs list the official sites as rhea.finance, app.rhea.finance, x.rhea.finance (cross-chain lending) and guide.rhea.finance; dex.rhea.finance is also used (meme.cooking config, blackdragon.meme). Legacy: app.ref.finance still serves the RHEA app (title 'RHEA Finance'), but the ref.finance apex currently fails TLS (certificate does not match), so treat ref.finance as legacy/official while monitoring it. 'rhea' is a 4-letter mythological name used by unrelated businesses, and the RHEA ticker is shared by other tokens, so match on the compound stems and on the exact account IDs. 'ref' (3 chars) is too short and generic to use as a stem. rhea.near exists but is not linked to the project in any source I found, so it is NOT listed as official. Lending still runs on contract.main.burrow.near (see the burrow entry)."
+    },
+    {
+      "id": "burrow",
+      "name": "Burrow",
+      "category": "lending",
+      "status": "legacy",
+      "officialDomains": [],
+      "legacyDomains": [
+        "burrow.finance"
+      ],
+      "referenceUrl": "https://app.rhea.finance",
+      "officialAccounts": [
+        {
+          "id": "contract.main.burrow.near",
+          "role": "Lending contract (still live; now operated as Rhea Lending)",
+          "contract": true,
+          "source": "https://github.com/ref-finance/ref-ui/blob/main/src/services/config.ts ; https://github.com/Meteor-Wallet/rNear-vault-public/blob/main/common/near.ts"
+        },
+        {
+          "id": "token.burrow.near",
+          "role": "BRRR token (legacy; folded into RHEA)",
+          "contract": true,
+          "source": "https://github.com/ref-finance/ref-ui/blob/main/src/services/config.ts (BRRR_TOKEN_ID) ; ft_metadata=BRRR"
+        }
+      ],
+      "accountRoots": [
+        "burrow.near"
+      ],
+      "nameStems": [
+        "burrow-finance",
+        "burrowfinance",
+        "burrowcash",
+        "burrow-cash",
+        "burrowland",
+        "brrr-token"
+      ],
+      "keywords": [
+        "burrow.finance",
+        "burrowcash",
+        "burrowland",
+        "burrow-finance"
+      ],
+      "officialSocials": {
+        "github": "NearDeFi"
+      },
+      "sources": [
+        "https://docs.near.org/tools/contracts-list",
+        "https://guide.rhea.finance/near-chain-guides/lending-and-borrowing/audits-and-risks",
+        "https://github.com/NearDeFi/burrowland",
+        "https://github.com/ref-finance/ref-ui/blob/main/src/services/config.ts"
+      ],
+      "notes": "Burrow merged into Rhea Finance. NEAR docs list it as 'Burrow.finance (public archive)' under Rhea. docs.burrow.finance (GitBook) still resolves and is linked from the Rhea guide, so burrow.finance is legacy but still controlled. app.burrow.finance currently returns a Netlify 404. WARNING: burrow.cash (the original app domain, still linked from herewallet.app) now resolves to a domain-parking server ('server: Parking/1.0', HTTP 436). It has lapsed or changed hands and must NOT be treated as official; treat it as a lookalike or risk. 'burrow' is a common English word, so use it only in compound stems."
+    },
+    {
+      "id": "meteor",
+      "name": "Meteor Wallet",
+      "category": "wallet",
+      "status": "active",
+      "officialDomains": [
+        "meteorwallet.app"
+      ],
+      "referenceUrl": "https://wallet.meteorwallet.app",
+      "officialAccounts": [],
+      "accountRoots": [],
+      "nameStems": [
+        "meteorwallet",
+        "meteor-wallet",
+        "meteor_wallet"
+      ],
+      "keywords": [
+        "meteorwallet",
+        "meteor-wallet"
+      ],
+      "officialSocials": {
+        "github": "Meteor-Wallet"
+      },
+      "sources": [
+        "https://github.com/azbang/near-connect/blob/main/repository/manifest.json",
+        "https://github.com/Meteor-Wallet/meteor_wallet_sdk/blob/main/packages/meteor-sdk-v1/src/MeteorWalletConstants.ts",
+        "https://docs.near.org/llms-full.txt (wallet.meteorwallet.app)"
+      ],
+      "notes": "The website and web wallet (wallet.meteorwallet.app) come from the near-connect wallet manifest and Meteor's own SDK constants. The site is behind Cloudflare and returns 403 to scripted requests, but it resolves. No Meteor-owned NEAR contract account was verified: meteor-wallet.near and meteorwallet.near exist but have no contract and no primary source ties them to Meteor, so they are not listed (they may be squats). X handle not verified. 'meteor' alone is a common word (also a JS framework and many businesses); use the compound stems."
+    },
+    {
+      "id": "hot",
+      "name": "HOT Wallet / HOT Protocol (HOT Labs)",
+      "formerly": [
+        "HOT DAO"
+      ],
+      "category": "wallet",
+      "status": "active",
+      "officialDomains": [
+        "hot-labs.org",
+        "hotdao.ai",
+        "hotscan.org",
+        "hotcraft.art"
+      ],
+      "referenceUrl": "https://app.hot-labs.org",
+      "officialAccounts": [
+        {
+          "id": "game.hot.tg",
+          "role": "HOT token / mining contract (ft_metadata symbol HOT)",
+          "contract": true,
+          "source": "https://github.com/hot-dao/hot-validation-sdk (staker_id game.hot.tg) ; ft_metadata=HOT"
+        },
+        {
+          "id": "v2_1.omni.hot.tg",
+          "role": "HOT Bridge / Omni token contract (NEP-245)",
+          "contract": true,
+          "source": "https://docs.hotdao.ai/omni-tokens ; https://github.com/hot-dao/omni-sdk/blob/main/src/env.ts"
+        },
+        {
+          "id": "mpc.hot.tg",
+          "role": "HOT MPC wallet contract",
+          "contract": true,
+          "source": "https://github.com/hot-dao/hot-validation-sdk/blob/main/core/src/lib.rs"
+        },
+        {
+          "id": "keys.auth.hot.tg",
+          "role": "HOT auth-by-keys contract",
+          "contract": true,
+          "source": "https://github.com/hot-dao/hot-validation-sdk/blob/main/core/src/verifiers/near/mod.rs"
+        },
+        {
+          "id": "omni.hot.tg",
+          "role": "Omni contract namespace (older)",
+          "contract": true,
+          "source": "sub-account of hot.tg; RPC only"
+        },
+        {
+          "id": "tg",
+          "role": "Top-level account that creates *.tg user accounts (HOT Wallet usernames; NOT a brand root)",
+          "contract": true,
+          "source": "https://github.com/hot-dao/kit/blob/main/src/core/address.ts (NEAR_DOMAINS includes .tg)"
+        }
+      ],
+      "accountRoots": [
+        "hot.tg"
+      ],
+      "nameStems": [
+        "hot-labs",
+        "hotlabs",
+        "hotdao",
+        "hot-dao",
+        "hot-wallet",
+        "hotwallet",
+        "hot-protocol",
+        "hotprotocol",
+        "hotscan",
+        "hotcraft"
+      ],
+      "keywords": [
+        "hot-labs",
+        "hotlabs",
+        "hotdao",
+        "hotwallet",
+        "hot-wallet",
+        "hotscan",
+        "hotcraft"
+      ],
+      "officialSocials": {
+        "x": "hotdao_",
+        "telegram": "hot_wallet",
+        "github": "hot-dao",
+        "youtube": "@hot-labs"
+      },
+      "sources": [
+        "https://hot-labs.org",
+        "https://docs.hotdao.ai/llms.txt",
+        "https://github.com/hot-dao",
+        "https://github.com/azbang/near-connect/blob/main/repository/manifest.json"
+      ],
+      "notes": "'hot' is a 3-letter common English word; never use it alone as a stem. HOT Wallet users get <username>.tg accounts, so *.tg is a USER namespace, not a brand namespace. A .tg account that looks like a brand (for example 'rhea.tg' or 'hotwallet-support.tg') is a lookalike candidate, not proof of officialness. hot.tg is the brand root (mpc, keys.auth, v2_1.omni, game live under it). The intents.tg account (used as a referral in HOT docs) exists without a contract. hotdao.ai redirects to hot-labs.org, and docs live at docs.hotdao.ai. The same team ships HERE Wallet and HEX Exchange (separate entries). game.hot.tg: no project doc explicitly says 'HOT token = game.hot.tg'. The evidence is ft_metadata (HOT), the hot-validation-sdk staker_id, and its size (2.3 GB of state)."
+    },
+    {
+      "id": "here",
+      "name": "HERE Wallet",
+      "category": "wallet",
+      "status": "legacy",
+      "officialDomains": [
+        "herewallet.app"
+      ],
+      "referenceUrl": "https://www.herewallet.app",
+      "officialAccounts": [
+        {
+          "id": "storage.herewallet.near",
+          "role": "hNEAR liquid 'storage' staking contract",
+          "contract": true,
+          "source": "https://docs.herewallet.app/llms-full.txt (Storage docs) ; ft_metadata=hNEAR"
+        }
+      ],
+      "accountRoots": [
+        "herewallet.near"
+      ],
+      "nameStems": [
+        "herewallet",
+        "here-wallet",
+        "hnear"
+      ],
+      "keywords": [
+        "herewallet",
+        "here-wallet"
+      ],
+      "officialSocials": {
+        "telegram": "herewallet",
+        "github": "here-wallet"
+      },
+      "sources": [
+        "https://www.herewallet.app",
+        "https://docs.herewallet.app/llms.txt",
+        "https://github.com/here-wallet"
+      ],
+      "notes": "HERE Wallet is the predecessor of HOT Wallet and is made by the same team: HOT's Android package id is app.herewallet.hot, and hot-labs.org loads its assets from storage.herewallet.app. herewallet.app still serves the HERE site. storage.herewallet.near still holds about 25.9k NEAR. 'here' is a common word, so use the compound stems."
+    },
+    {
+      "id": "hex-exchange",
+      "name": "HEX Exchange (by HOT Labs)",
+      "category": "dex",
+      "status": "active",
+      "officialDomains": [
+        "hex.exchange"
+      ],
+      "referenceUrl": "https://hex.exchange",
+      "officialAccounts": [],
+      "accountRoots": [],
+      "nameStems": [
+        "hexexchange",
+        "hex-exchange"
+      ],
+      "keywords": [
+        "hex.exchange",
+        "hexexchange"
+      ],
+      "officialSocials": {},
+      "sources": [
+        "https://hot-labs.org (links https://hex.exchange/)",
+        "https://hex.exchange (title 'HEX Exchange by HOT Labs')"
+      ],
+      "notes": "Linked from hot-labs.org. 'hex' is 3 characters and a generic term (hexadecimal; also the unrelated HEX/Richard Heart token), so never use it alone. No HEX-specific NEAR account was verified."
+    },
+    {
+      "id": "near-intents",
+      "name": "NEAR Intents",
+      "formerly": [
+        "Defuse"
+      ],
+      "category": "intents",
+      "status": "active",
+      "officialDomains": [
+        "near-intents.org",
+        "chaindefuser.com"
+      ],
+      "referenceUrl": "https://near-intents.org",
+      "officialAccounts": [
+        {
+          "id": "intents.near",
+          "role": "Verifier contract (holds all intents balances)",
+          "contract": true,
+          "source": "https://docs.near-intents.org/integration/verifier-contract/introduction"
+        },
+        {
+          "id": "omft.near",
+          "role": "PoA bridge token factory (bridged tokens like eth.omft.near, btc.omft.near, eth-0x….omft.near)",
+          "contract": true,
+          "source": "https://docs.near-intents.org/llms.txt (1Click asset IDs nep141:*.omft.near) ; https://1click.chaindefuser.com/v0/tokens"
+        }
+      ],
+      "accountRoots": [
+        "omft.near"
+      ],
+      "nameStems": [
+        "near-intents",
+        "nearintents",
+        "chaindefuser",
+        "chain-defuser",
+        "defuse-protocol",
+        "1click"
+      ],
+      "keywords": [
+        "near-intents",
+        "nearintents",
+        "chaindefuser",
+        "defuse"
+      ],
+      "officialSocials": {
+        "telegram": "near_intents",
+        "github": "near/intents"
+      },
+      "sources": [
+        "https://docs.near-intents.org/llms.txt",
+        "https://docs.near-intents.org/integration/verifier-contract/introduction",
+        "https://docs.near.org/tools/contracts-list",
+        "https://github.com/near/intents"
+      ],
+      "notes": "near-intents.org is the site and app.near-intents.org redirects to it. Docs: docs.near-intents.org. Explorer: explorer.near-intents.org. Partner portal: partners.near-intents.org. API: 1click.chaindefuser.com (also shield.chaindefuser.com). The chaindefuser.com apex does not resolve; only API subdomains are used. chaindefuser.near does NOT exist. defuse.near and near-intents.near exist but have no contract and no source linking them, so they are NOT listed. The docs name near.com as a First-Party Interface (listed under 'near'). 'intents' alone is a generic term. All *.omft.near tokens are bridge-issued, so omft.near is a safe root. HOT's v2_1.omni.hot.tg tokens also trade inside intents.near. X handle not verified."
+    },
+    {
+      "id": "linear",
+      "name": "LiNEAR Protocol",
+      "category": "liquid-staking",
+      "status": "active",
+      "officialDomains": [
+        "linearprotocol.org"
+      ],
+      "referenceUrl": "https://app.linearprotocol.org",
+      "officialAccounts": [
+        {
+          "id": "linear-protocol.near",
+          "role": "LiNEAR staking contract + LINEAR token",
+          "contract": true,
+          "source": "https://github.com/linear-protocol/LiNEAR/blob/main/README.md ; ft_metadata=LINEAR"
+        }
+      ],
+      "accountRoots": [
+        "linear-protocol.near"
+      ],
+      "nameStems": [
+        "linear-protocol",
+        "linearprotocol",
+        "linear_protocol"
+      ],
+      "keywords": [
+        "linearprotocol",
+        "linear-protocol"
+      ],
+      "officialSocials": {
+        "x": "LinearProtocol",
+        "github": "linear-protocol"
+      },
+      "sources": [
+        "https://github.com/linear-protocol/LiNEAR",
+        "https://docs.near.org/tools/contracts-list",
+        "https://docs.linearprotocol.org"
+      ],
+      "notes": "'linear' is a very common word (and the name of the popular Linear issue tracker, linear.app). Never use 'linear' alone as a stem or keyword. Official subdomains: app.linearprotocol.org and docs.linearprotocol.org."
+    },
+    {
+      "id": "meta-pool",
+      "name": "Meta Pool",
+      "category": "liquid-staking",
+      "status": "active",
+      "officialDomains": [
+        "metapool.app"
+      ],
+      "referenceUrl": "https://www.metapool.app",
+      "officialAccounts": [
+        {
+          "id": "meta-pool.near",
+          "role": "stNEAR token + liquid staking contract",
+          "contract": true,
+          "source": "https://docs.metapool.app/master/for-developers/meta-pool-contracts/near-network"
+        },
+        {
+          "id": "mpdao-token.near",
+          "role": "mpDAO governance token",
+          "contract": true,
+          "source": "https://docs.metapool.app/master/for-developers/meta-pool-contracts/near-network"
+        },
+        {
+          "id": "mpdao-vote.near",
+          "role": "mpDAO voting contract",
+          "contract": true,
+          "source": "https://docs.metapool.app/master/for-developers/meta-pool-contracts/near-network"
+        },
+        {
+          "id": "lockup-meta-pool.near",
+          "role": "Frozen-stake contract for *.lockup.near accounts",
+          "contract": true,
+          "source": "https://docs.metapool.app/master/for-developers/meta-pool-contracts/near-network"
+        },
+        {
+          "id": "meta-token.near",
+          "role": "$META token (deprecated, migrated to mpDAO)",
+          "contract": true,
+          "source": "https://docs.metapool.app/master/for-developers/meta-pool-contracts/near-network"
+        }
+      ],
+      "accountRoots": [
+        "meta-pool.near"
+      ],
+      "nameStems": [
+        "meta-pool",
+        "metapool",
+        "meta_pool",
+        "mpdao",
+        "stnear"
+      ],
+      "keywords": [
+        "metapool",
+        "meta-pool",
+        "mpdao",
+        "stnear"
+      ],
+      "officialSocials": {
+        "x": "meta_pool",
+        "telegram": "MetaPoolOfficialGroup",
+        "github": "Meta-Pool"
+      },
+      "sources": [
+        "https://docs.metapool.app/master/for-developers/meta-pool-contracts/near-network",
+        "https://www.metapool.app",
+        "https://docs.near.org/tools/contracts-list"
+      ],
+      "notes": "'meta' alone collides with Meta Platforms. Use 'metapool' and 'meta-pool'. Subdomains include near.metapool.app, docs, stats and blog. metapool.near exists without a contract and has no source tying it to Meta Pool, so it is not listed. meta-pool.near holds about 3.7M NEAR. meta-pool.near is listed as a root because it is the core contract, but I did not enumerate its sub-accounts."
+    },
+    {
+      "id": "aurora",
+      "name": "Aurora",
+      "category": "infra",
+      "status": "active",
+      "officialDomains": [
+        "aurora.dev",
+        "aurora.plus",
+        "auroracloud.dev"
+      ],
+      "referenceUrl": "https://aurora.dev",
+      "officialAccounts": [
+        {
+          "id": "aurora",
+          "role": "Aurora Engine (EVM) contract, chain id 1313161554",
+          "contract": true,
+          "source": "https://github.com/aurora-is-near/aurora-engine/blob/master/README.md"
+        },
+        {
+          "id": "aaaaaa20d9e0e2461697782ef11675f668207961.factory.bridge.near",
+          "role": "AURORA token on NEAR (bridged ERC-20)",
+          "contract": true,
+          "source": "https://1click.chaindefuser.com/v0/tokens ; ft_metadata=AURORA"
+        }
+      ],
+      "accountRoots": [],
+      "nameStems": [
+        "aurora-dev",
+        "auroradev",
+        "aurora-labs",
+        "auroralabs",
+        "aurora-engine",
+        "auroraisnear",
+        "aurora-plus",
+        "auroracloud"
+      ],
+      "keywords": [
+        "aurora.dev",
+        "auroralabs",
+        "auroraisnear",
+        "aurora.plus",
+        "auroracloud"
+      ],
+      "officialSocials": {
+        "x": "auroraisnear",
+        "telegram": "auroraisnear",
+        "discord": "auroralabs",
+        "github": "aurora-is-near"
+      },
+      "sources": [
+        "https://aurora.dev",
+        "https://github.com/aurora-is-near/aurora-engine",
+        "https://github.com/aurora-is-near"
+      ],
+      "notes": "'aurora' is a very common word and brand name (Aurora Innovation, Aurora cannabis, many others). Use it alone as a keyword only with NEAR context. The 'aurora' top-level account is the Engine; its sub-accounts are not documented as brand-only, so it is not a root. aurora.near exists (with a contract) but no primary source ties it to Aurora Labs, so it is NOT listed. aurora.plus and auroracloud.dev are linked from aurora.dev. Rainbow Bridge (rainbowbridge.app) is in the 'omni-bridge' entry."
+    },
+    {
+      "id": "omni-bridge",
+      "name": "Omni Bridge / Rainbow Bridge",
+      "formerly": [
+        "Rainbow Bridge"
+      ],
+      "category": "bridge",
+      "status": "active",
+      "officialDomains": [
+        "rainbowbridge.app"
+      ],
+      "referenceUrl": "https://rainbowbridge.app",
+      "officialAccounts": [
+        {
+          "id": "omni.bridge.near",
+          "role": "Omni Bridge locker contract",
+          "contract": true,
+          "source": "https://github.com/Near-One/omni-bridge/blob/main/README.md"
+        },
+        {
+          "id": "factory.bridge.near",
+          "role": "Bridged ERC-20 token factory (<eth-address>.factory.bridge.near tokens)",
+          "contract": true,
+          "source": "https://github.com/Near-One/omni-bridge/blob/main/README.md"
+        },
+        {
+          "id": "omdep.near",
+          "role": "Omni deployer helper",
+          "contract": true,
+          "source": "https://github.com/Near-One/omni-bridge/blob/main/README.md"
+        },
+        {
+          "id": "eth.bridge.near",
+          "role": "Bridged ETH (NEP-141)",
+          "contract": true,
+          "source": "https://docs.near-intents.org/llms.txt ; https://1click.chaindefuser.com/v0/tokens ; ft_metadata=ETH"
+        },
+        {
+          "id": "nbtc.bridge.near",
+          "role": "nBTC bridged Bitcoin",
+          "contract": true,
+          "source": "https://1click.chaindefuser.com/v0/tokens ; ft_metadata=NBTC"
+        },
+        {
+          "id": "a0b86991c6218b36c1d19d4a2e9eb0ce3606eb48.factory.bridge.near",
+          "role": "USDC.e (Rainbow-bridged USDC, legacy)",
+          "contract": true,
+          "source": "https://github.com/ref-finance/ref-ui/blob/main/src/services/config.ts"
+        },
+        {
+          "id": "dac17f958d2ee523a2206206994597c13d831ec7.factory.bridge.near",
+          "role": "USDT.e (Rainbow-bridged USDT, legacy)",
+          "contract": true,
+          "source": "https://github.com/ref-finance/ref-ui/blob/main/src/services/config.ts"
+        }
+      ],
+      "accountRoots": [
+        "bridge.near",
+        "omdep.near"
+      ],
+      "nameStems": [
+        "rainbowbridge",
+        "rainbow-bridge",
+        "omni-bridge",
+        "omnibridge",
+        "factory-bridge"
+      ],
+      "keywords": [
+        "rainbowbridge",
+        "rainbow-bridge",
+        "omnibridge",
+        "omni-bridge"
+      ],
+      "officialSocials": {
+        "github": "Near-One"
+      },
+      "sources": [
+        "https://github.com/Near-One/omni-bridge",
+        "https://docs.near.org/chain-abstraction/omnibridge/implementation",
+        "https://aurora.dev (links rainbowbridge.app)"
+      ],
+      "notes": "bridge.near is the brand root: the prover, omni, factory, eth and nbtc contracts all live under it. Tokens under factory.bridge.near are created only by the bridge factory, so <hex>.factory.bridge.near names are official bridged tokens, but the underlying ERC-20 could be any token (including scam tokens bridged permissionlessly). 'omni' and 'rainbow' alone are generic. Omni Bridge has no standalone UI domain verified; transfers are used through near.com, Rhea and others. bridge.near.org and omni.near.org do not resolve."
+    },
+    {
+      "id": "mynearwallet",
+      "name": "MyNearWallet",
+      "category": "wallet",
+      "status": "active",
+      "officialDomains": [
+        "mynearwallet.com"
+      ],
+      "referenceUrl": "https://app.mynearwallet.com",
+      "officialAccounts": [],
+      "accountRoots": [],
+      "nameStems": [
+        "mynearwallet",
+        "my-near-wallet",
+        "mynear-wallet"
+      ],
+      "keywords": [
+        "mynearwallet",
+        "my-near-wallet"
+      ],
+      "officialSocials": {
+        "x": "mynearwallet",
+        "github": "mynearwallet"
+      },
+      "sources": [
+        "https://github.com/mynearwallet",
+        "https://github.com/azbang/near-connect/blob/main/repository/manifest.json"
+      ],
+      "notes": "This is a web wallet with no protocol contracts, so impersonation happens mainly through domains (for example mynearwallet-*.com). The old NEAR Wallet (wallet.near.org) was retired. wallet.near.org now shows a 'NEAR Wallet' page under NEAR's own domain."
+    },
+    {
+      "id": "sweat",
+      "name": "Sweat Economy",
+      "category": "token",
+      "status": "active",
+      "officialDomains": [
+        "swe.at",
+        "sweateconomy.com",
+        "sweatco.in"
+      ],
+      "referenceUrl": "https://swe.at",
+      "officialAccounts": [
+        {
+          "id": "token.sweat",
+          "role": "SWEAT token",
+          "contract": true,
+          "source": "https://1click.chaindefuser.com/v0/tokens ; ft_metadata=SWEAT"
+        },
+        {
+          "id": "sweat",
+          "role": "Top-level account for Sweat Wallet user accounts (*.sweat; NOT a brand root)",
+          "contract": false,
+          "source": "https://docs.near.org/protocol/accounts-contracts/account-id ; https://github.com/hot-dao/kit/blob/main/src/core/address.ts"
+        }
+      ],
+      "accountRoots": [],
+      "nameStems": [
+        "sweateconomy",
+        "sweat-economy",
+        "sweatcoin",
+        "sweatco",
+        "sweat-wallet",
+        "sweatwallet"
+      ],
+      "keywords": [
+        "sweateconomy",
+        "sweatcoin",
+        "sweatco",
+        "sweatwallet"
+      ],
+      "officialSocials": {
+        "x": "SweatEconomy",
+        "telegram": "SweatEconomyAnnouncements",
+        "github": "sweatco"
+      },
+      "sources": [
+        "https://swe.at",
+        "https://docs.near.org/tools/contracts-list",
+        "https://github.com/sweatco"
+      ],
+      "notes": "sweateconomy.com redirects to swe.at (Sweat Wallet). The sweatco GitHub org's website is sweatco.in. Sweat Wallet users get <name>.sweat accounts, so *.sweat is a user namespace, not a brand namespace. 'sweat' is a common English word, so use it only in compound stems or the exact account token.sweat."
+    },
+    {
+      "id": "paras",
+      "name": "Paras",
+      "category": "nft",
+      "status": "deprecated",
+      "officialDomains": [],
+      "legacyDomains": [
+        "paras.id"
+      ],
+      "referenceUrl": "https://paras.id",
+      "officialAccounts": [
+        {
+          "id": "token.paras.near",
+          "role": "PARAS token",
+          "contract": true,
+          "source": "https://github.com/ParasHQ/paras-landing/blob/master/pages/token.js ; ft_metadata=PARAS ; https://docs.near.org/primitives (token.paras.near examples)"
+        },
+        {
+          "id": "x.paras.near",
+          "role": "Paras NFT collection contract",
+          "contract": true,
+          "source": "https://github.com/ParasHQ (paras-landing references x.paras.near)"
+        },
+        {
+          "id": "marketplace.paras.near",
+          "role": "Paras marketplace contract",
+          "contract": true,
+          "source": "sub-account of paras.near; RPC only"
+        }
+      ],
+      "accountRoots": [
+        "paras.near"
+      ],
+      "nameStems": [
+        "paras-id",
+        "parasid",
+        "paras-nft",
+        "paras-marketplace"
+      ],
+      "keywords": [
+        "paras.id",
+        "parasnft",
+        "paras-nft"
+      ],
+      "officialSocials": {
+        "github": "ParasHQ"
+      },
+      "sources": [
+        "https://github.com/ParasHQ",
+        "https://github.com/ParasHQ/paras-landing"
+      ],
+      "notes": "This NFT marketplace is effectively dead: the last GitHub activity was in 2024, and paras.id now redirects to narrativeprotocol.com ('Narrative Protocol'). I could not verify whether that is the same team, so paras.id is listed as legacy only. The PARAS token contract still exists. 'paras' is a common word in several languages (for example Finnish 'best', and plural forms elsewhere)."
+    },
+    {
+      "id": "mintbase",
+      "name": "Mintbase / Bitte",
+      "formerly": [
+        "Mintbase"
+      ],
+      "category": "nft",
+      "status": "deprecated",
+      "officialDomains": [],
+      "legacyDomains": [
+        "mintbase.xyz",
+        "bitte.ai"
+      ],
+      "referenceUrl": "https://docs.bitte.ai",
+      "officialAccounts": [
+        {
+          "id": "mintbase1.near",
+          "role": "Mintbase v1 NFT store factory (stores are *.mintbase1.near, created by any user; NOT a brand root)",
+          "contract": true,
+          "source": "https://github.com/Mintbase/gitbook-docs/blob/main/dev/smart-contracts/README.md"
+        },
+        {
+          "id": "simple.market.mintbase1.near",
+          "role": "Mintbase marketplace contract",
+          "contract": true,
+          "source": "https://github.com/Mintbase/templates/blob/main/marketplace/src/config/constants.ts"
+        }
+      ],
+      "accountRoots": [],
+      "nameStems": [
+        "mintbase",
+        "bitte-protocol",
+        "bitteprotocol",
+        "bitte-wallet",
+        "bittewallet"
+      ],
+      "keywords": [
+        "mintbase",
+        "bitteprotocol",
+        "bitte.ai"
+      ],
+      "officialSocials": {
+        "x": "bitteprotocol",
+        "github": "Mintbase"
+      },
+      "sources": [
+        "https://github.com/Mintbase",
+        "https://github.com/BitteProtocol",
+        "https://github.com/Mintbase/gitbook-docs"
+      ],
+      "notes": "The Mintbase GitHub org now points to bitte.ai (Mintbase rebranded as Bitte). On 2026-11-01, mintbase.xyz, bitte.ai and wallet.bitte.ai all return HTTP 402 (hosting disabled), and only docs.bitte.ai still serves. Treat the brand as deprecated. simple.market.mintbase1.near still holds about 979 NEAR. 'bitte' is a German word ('please')."
+    },
+    {
+      "id": "trezu",
+      "name": "Trezu (Sputnik DAO)",
+      "formerly": [
+        "Sputnik DAO",
+        "AstroDAO (front-end, dead)"
+      ],
+      "category": "dao",
+      "status": "active",
+      "officialDomains": [
+        "trezu.org",
+        "trezu.app"
+      ],
+      "legacyDomains": [],
+      "referenceUrl": "https://trezu.app",
+      "officialAccounts": [
+        {
+          "id": "sputnik-dao.near",
+          "role": "Sputnik DAO v2 factory; every Trezu treasury is <name>.sputnik-dao.near (created by any user; NOT a brand root)",
+          "contract": true,
+          "source": "https://github.com/near-daos/sputnik-dao-contract (homepage trezu.org) ; https://github.com/NEAR-DevHub/trezu/blob/main/nt-be/src/constants/mod.rs"
+        }
+      ],
+      "accountRoots": [],
+      "nameStems": [
+        "trezu",
+        "sputnik-dao",
+        "sputnikdao",
+        "astrodao",
+        "astro-dao",
+        "near-business"
+      ],
+      "keywords": [
+        "trezu",
+        "sputnikdao",
+        "sputnik-dao",
+        "astrodao"
+      ],
+      "officialSocials": {
+        "x": "TrezuApp",
+        "youtube": "@TrezuApp",
+        "github": "NEAR-DevHub/trezu"
+      },
+      "sources": [
+        "https://trezu.org",
+        "https://docs.trezu.org/llms.txt",
+        "https://github.com/NEAR-DevHub/trezu/blob/main/nt-fe/constants/config.ts",
+        "https://github.com/near-daos/sputnik-dao-contract"
+      ],
+      "notes": "Trezu is the NEAR-DevHub treasury and multisig app built on Sputnik DAO v2. The sputnik-dao-contract repo homepage is trezu.org. It also appears as 'NEAR Business' at business.near.com, which is under near.com. Treasuries are third-party DAOs at *.sputnik-dao.near, so a DAO named like a brand (for example 'rhea-finance.sputnik-dao.near') is NOT proof of officialness. Dead and lost domains, NOT official: astrodao.com is parked, and sputnik.fund redirects to an unrelated travel site (realtravels.in). Do not whitelist either. astrodao.near and astro-dao.near exist without contracts and are not listed. docs.trezu.org and status.trezu.org are official subdomains."
+    },
+    {
+      "id": "nearblocks",
+      "name": "NearBlocks",
+      "category": "explorer",
+      "status": "active",
+      "officialDomains": [
+        "nearblocks.io"
+      ],
+      "referenceUrl": "https://nearblocks.io",
+      "officialAccounts": [],
+      "accountRoots": [],
+      "nameStems": [
+        "nearblocks",
+        "near-blocks"
+      ],
+      "keywords": [
+        "nearblocks",
+        "near-blocks"
+      ],
+      "officialSocials": {
+        "github": "Nearblocks"
+      },
+      "sources": [
+        "https://github.com/Nearblocks",
+        "https://docs.near.org/llms-full.txt (nearblocks.io, api.nearblocks.io)"
+      ],
+      "notes": "The main NEAR explorer, referenced throughout the NEAR and project docs. It sits behind Cloudflare, so scripted GETs get 403, but it resolves. nearblocks.near exists without a contract and has no source, so it is not listed. Phishers commonly clone explorers to show fake 'transactions'. X handle not verified."
+    },
+    {
+      "id": "pikespeak",
+      "name": "Pikespeak",
+      "category": "explorer",
+      "status": "active",
+      "officialDomains": [
+        "pikespeak.ai"
+      ],
+      "referenceUrl": "https://pikespeak.ai",
+      "officialAccounts": [],
+      "accountRoots": [],
+      "nameStems": [
+        "pikespeak"
+      ],
+      "keywords": [
+        "pikespeak"
+      ],
+      "officialSocials": {},
+      "sources": [
+        "https://pikespeak.ai",
+        "https://docs.near.org/llms-full.txt (pikespeak.ai, api.pikespeak.ai, doc.pikespeak.ai)"
+      ],
+      "notes": "Portfolio tracker and explorer. pikespeak.near exists without a contract and has no source, so it is not listed. Socials not verified."
+    },
+    {
+      "id": "meme-cooking",
+      "name": "meme.cooking",
+      "category": "launchpad",
+      "status": "active",
+      "officialDomains": [
+        "meme.cooking"
+      ],
+      "referenceUrl": "https://meme.cooking",
+      "officialAccounts": [
+        {
+          "id": "meme-cooking.near",
+          "role": "Memecoin launchpad contract; launched tokens are <ticker>-<n>.meme-cooking.near (user-created; NOT a brand root)",
+          "contract": true,
+          "source": "https://github.com/Shitzu-Apes/meme-cooking-docs/blob/main/other/developers.md"
+        }
+      ],
+      "accountRoots": [],
+      "nameStems": [
+        "meme-cooking",
+        "memecooking",
+        "meme_cooking"
+      ],
+      "keywords": [
+        "meme.cooking",
+        "memecooking",
+        "meme-cooking"
+      ],
+      "officialSocials": {
+        "github": "Shitzu-Apes"
+      },
+      "sources": [
+        "https://github.com/Shitzu-Apes/meme-cooking-docs",
+        "https://github.com/Shitzu-Apes/app/blob/main/apps/meme-cooking/.env"
+      ],
+      "notes": "Built by the Shitzu team. Any user can launch a token under meme-cooking.near, so a sub-account named like a brand (for example 'rhea-123.meme-cooking.near') is a classic impersonation vector and is not official. memecooking.near exists with a tiny contract and no source, so it is NOT official."
+    },
+    {
+      "id": "sender",
+      "name": "Sender Wallet",
+      "category": "wallet",
+      "status": "active",
+      "officialDomains": [
+        "senderwallet.io",
+        "sender.org"
+      ],
+      "referenceUrl": "https://senderwallet.io",
+      "officialAccounts": [],
+      "accountRoots": [],
+      "nameStems": [
+        "senderwallet",
+        "sender-wallet",
+        "sender-network"
+      ],
+      "keywords": [
+        "senderwallet",
+        "sender-wallet"
+      ],
+      "officialSocials": {
+        "x": "SenderWallet",
+        "github": "SenderWallet"
+      },
+      "sources": [
+        "https://github.com/SenderWallet (org website sender.org, X SenderWallet)",
+        "https://senderwallet.io"
+      ],
+      "notes": "The GitHub org lists sender.org ('Sender Network', an AI protocol) as its website. senderwallet.io still serves the wallet site. The last GitHub activity was in November 2024, and the wallet is not in the current near-connect manifest, so its activity is declining. sender.near exists without a contract and has no source, so it is not listed. 'sender' is a generic word."
+    },
+    {
+      "id": "potlock",
+      "name": "POTLOCK",
+      "category": "other",
+      "status": "active",
+      "officialDomains": [
+        "potlock.org"
+      ],
+      "referenceUrl": "https://app.potlock.org",
+      "officialAccounts": [
+        {
+          "id": "donate.potlock.near",
+          "role": "Donation contract",
+          "contract": true,
+          "source": "https://github.com/PotLock/bos-app/blob/main/apps/potlock/widget/constants.jsx"
+        },
+        {
+          "id": "v1.potfactory.potlock.near",
+          "role": "Pot factory (pots are *.v1.potfactory.potlock.near)",
+          "contract": true,
+          "source": "https://www.potlock.org (lists pots under v1.potfactory.potlock.near)"
+        },
+        {
+          "id": "lists.potlock.near",
+          "role": "Lists contract",
+          "contract": true,
+          "source": "sub-account of potlock.near; PotLock/core contracts/lists; RPC only"
+        },
+        {
+          "id": "registry.potlock.near",
+          "role": "Project registry contract",
+          "contract": true,
+          "source": "sub-account of potlock.near; PotLock/core contracts/registry; RPC only"
+        }
+      ],
+      "accountRoots": [
+        "potlock.near"
+      ],
+      "nameStems": [
+        "potlock",
+        "pot-lock"
+      ],
+      "keywords": [
+        "potlock"
+      ],
+      "officialSocials": {
+        "x": "potlock_",
+        "github": "PotLock"
+      },
+      "sources": [
+        "https://www.potlock.org",
+        "https://docs.near.org/tools/contracts-list",
+        "https://github.com/PotLock"
+      ],
+      "notes": "This is a public-goods funding platform. Pots under v1.potfactory.potlock.near are deployed by the factory on request from pot owners, so pot names reflect third-party rounds."
+    },
+    {
+      "id": "near-social",
+      "name": "NEAR Social",
+      "category": "social",
+      "status": "active",
+      "officialDomains": [
+        "near.social"
+      ],
+      "referenceUrl": "https://near.social",
+      "officialAccounts": [
+        {
+          "id": "social.near",
+          "role": "SocialDB contract",
+          "contract": true,
+          "source": "https://github.com/NearSocial/social-db/blob/main/README.md ; https://docs.near.org (SocialDB social.near)"
+        }
+      ],
+      "accountRoots": [],
+      "nameStems": [
+        "near-social",
+        "nearsocial",
+        "socialdb"
+      ],
+      "keywords": [
+        "near.social",
+        "nearsocial"
+      ],
+      "officialSocials": {
+        "x": "NearSocial_",
+        "github": "NearSocial"
+      },
+      "sources": [
+        "https://github.com/NearSocial",
+        "https://github.com/NearSocial/social-db"
+      ],
+      "notes": "'social' alone is generic, so use the compound stems. The near.social viewer is still maintained (repo pushed 2026-09)."
+    },
+    {
+      "id": "tether-usdt",
+      "name": "Tether USDt (NEAR)",
+      "category": "token",
+      "status": "active",
+      "officialDomains": [
+        "tether.to"
+      ],
+      "referenceUrl": "https://tether.to/en/supported-protocols/",
+      "officialAccounts": [
+        {
+          "id": "usdt.tether-token.near",
+          "role": "Native USDt on NEAR",
+          "contract": true,
+          "source": "https://tether.to/en/supported-protocols/ ; ft_metadata=USDt"
+        }
+      ],
+      "accountRoots": [
+        "tether-token.near"
+      ],
+      "nameStems": [
+        "tether-token",
+        "tethertoken",
+        "tether",
+        "usdt-tether"
+      ],
+      "keywords": [
+        "tether",
+        "tether-token"
+      ],
+      "officialSocials": {},
+      "sources": [
+        "https://tether.to/en/supported-protocols/",
+        "https://1click.chaindefuser.com/v0/tokens"
+      ],
+      "notes": "This is the issuer-native token. The Rainbow-bridged legacy USDT.e (dac17f958d2ee523a2206206994597c13d831ec7.factory.bridge.near) is listed under omni-bridge. 'usdt' (4 chars) is a ticker that is extremely common in scam token names (usdt.near and usdt-*.near). Use it as a scoring signal, not as a brand stem. Tether's X handle was not checked here."
+    },
+    {
+      "id": "circle-usdc",
+      "name": "Circle USDC (NEAR)",
+      "category": "token",
+      "status": "active",
+      "officialDomains": [
+        "circle.com"
+      ],
+      "referenceUrl": "https://developers.circle.com/stablecoins/usdc-contract-addresses",
+      "officialAccounts": [
+        {
+          "id": "17208628f84f5d6ad33f0da3bbbeb27ffcb398eac501a31bd6ad2011e36133a1",
+          "role": "Native USDC on NEAR (implicit account)",
+          "contract": true,
+          "source": "https://developers.circle.com/stablecoins/usdc-contract-addresses ; ft_metadata=USDC"
+        }
+      ],
+      "accountRoots": [],
+      "nameStems": [
+        "circle-usdc",
+        "usdc-circle"
+      ],
+      "keywords": [
+        "usdc",
+        "circle"
+      ],
+      "officialSocials": {},
+      "sources": [
+        "https://developers.circle.com/stablecoins/usdc-contract-addresses",
+        "https://1click.chaindefuser.com/v0/tokens"
+      ],
+      "notes": "Native USDC on NEAR is a 64-hex implicit account, so there is no named account and no root. Any NAMED account claiming to be USDC is not native USDC (for example usdc.near, which appears only as a placeholder in docs). Legacy USDC.e (a0b86991….factory.bridge.near) is listed under omni-bridge. 'circle' is a common word and 'usdc' is a ticker, so keep both as low-weight keywords."
+    },
+    {
+      "id": "orderly",
+      "name": "Orderly Network",
+      "category": "dex",
+      "status": "legacy",
+      "officialDomains": [
+        "orderly.network"
+      ],
+      "referenceUrl": "https://orderly.network",
+      "officialAccounts": [
+        {
+          "id": "asset-manager.orderly-network.near",
+          "role": "Orderly NEAR asset manager (vault)",
+          "contract": true,
+          "source": "https://github.com/OrderlyNetwork/orderly-sdk-js/blob/main/src/smart-contract/enviroment.ts"
+        }
+      ],
+      "accountRoots": [
+        "orderly-network.near"
+      ],
+      "nameStems": [
+        "orderly-network",
+        "orderlynetwork",
+        "orderly"
+      ],
+      "keywords": [
+        "orderly.network",
+        "orderlynetwork"
+      ],
+      "officialSocials": {
+        "x": "OrderlyNetwork",
+        "github": "OrderlyNetwork"
+      },
+      "sources": [
+        "https://github.com/OrderlyNetwork",
+        "https://orderly.network/docs/build-on-omnichain/addresses"
+      ],
+      "notes": "Orderly started on NEAR but is now an omnichain (EVM and Solana) perps infrastructure. Its current contract-address docs no longer list NEAR. The NEAR asset-manager still holds about 28k NEAR, so it is marked legacy on NEAR. 'orderly' is a common English word."
+    },
+    {
+      "id": "near-ai",
+      "name": "NEAR AI",
+      "category": "ai",
+      "status": "active",
+      "officialDomains": [
+        "near.ai"
+      ],
+      "referenceUrl": "https://near.ai",
+      "officialAccounts": [],
+      "accountRoots": [],
+      "nameStems": [
+        "near-ai",
+        "nearai",
+        "near_ai",
+        "agent-market",
+        "agentmarket"
+      ],
+      "keywords": [
+        "near.ai",
+        "nearai",
+        "near-ai"
+      ],
+      "officialSocials": {
+        "x": "near_ai",
+        "github": "nearai"
+      },
+      "sources": [
+        "https://near.ai",
+        "https://github.com/nearai",
+        "https://near.org (links near.ai)"
+      ],
+      "notes": "Official subdomains: cloud.near.ai, docs.near.ai, private.near.ai, trust.near.ai, and market.near.ai (NEAR AI Agent Market). No NEAR AI-owned named account was verified, and 'near.ai' is not a valid NEAR account (RPC: does not exist)."
+    },
+    {
+      "id": "outlayer",
+      "name": "OutLayer",
+      "category": "infra",
+      "status": "active",
+      "officialDomains": [
+        "outlayer.ai"
+      ],
+      "referenceUrl": "https://app.outlayer.ai",
+      "officialAccounts": [
+        {
+          "id": "outlayer.near",
+          "role": "OutLayer verifiable off-chain compute contract",
+          "contract": true,
+          "source": "https://outlayer.fastnear.com/docs/near-integration ; https://docs.near.org/primitives/off-chain-compute/outlayer"
+        },
+        {
+          "id": "price-oracle.near",
+          "role": "TEE-secured price oracle by OutLayer",
+          "contract": true,
+          "source": "https://docs.near.org/primitives/off-chain-compute/outlayer"
+        }
+      ],
+      "accountRoots": [
+        "outlayer.near"
+      ],
+      "nameStems": [
+        "outlayer",
+        "out-layer"
+      ],
+      "keywords": [
+        "outlayer"
+      ],
+      "officialSocials": {
+        "x": "out_layer",
+        "github": "out-layer"
+      },
+      "sources": [
+        "https://docs.near.org/primitives/off-chain-compute/outlayer",
+        "https://outlayer.ai",
+        "https://github.com/fastnear/near-outlayer"
+      ],
+      "notes": "Built by FastNEAR. The legacy docs host outlayer.fastnear.com now redirects to app.outlayer.ai; its registrable domain (fastnear.com) belongs to FastNEAR, so it is not listed as an OutLayer domain. 'price-oracle.near' is a generic-sounding name, but NEAR docs attribute it to OutLayer."
+    },
+    {
+      "id": "blackdragon",
+      "name": "Black Dragon (BLACKDRAGON)",
+      "category": "token",
+      "status": "active",
+      "officialDomains": [
+        "blackdragon.meme"
+      ],
+      "referenceUrl": "https://blackdragon.meme",
+      "officialAccounts": [
+        {
+          "id": "blackdragon.tkn.near",
+          "role": "BLACKDRAGON token",
+          "contract": true,
+          "source": "https://1click.chaindefuser.com/v0/tokens ; https://blackdragon.meme (shows contract) ; ft_metadata=BLACKDRAGON"
+        }
+      ],
+      "accountRoots": [],
+      "nameStems": [
+        "blackdragon",
+        "black-dragon",
+        "black_dragon"
+      ],
+      "keywords": [
+        "blackdragon",
+        "black-dragon"
+      ],
+      "officialSocials": {
+        "x": "dragonisnear (CoinGecko-listed; secondary source)",
+        "telegram": "dragonisnear (CoinGecko-listed)"
+      },
+      "sources": [
+        "https://blackdragon.meme",
+        "https://1click.chaindefuser.com/v0/tokens",
+        "https://api.coingecko.com/api/v3/coins/near/contract/blackdragon.tkn.near"
+      ],
+      "notes": "This is a memecoin. tkn.near is a permissionless token factory, so it is NOT a root, and other tokens under tkn.near can copy the name. Subdomain mint.blackdragon.meme. blackdragon.io is unrelated."
+    },
+    {
+      "id": "shitzu",
+      "name": "SHITZU",
+      "category": "token",
+      "status": "active",
+      "officialDomains": [
+        "shitzuapes.xyz"
+      ],
+      "referenceUrl": "https://app.shitzuapes.xyz",
+      "officialAccounts": [
+        {
+          "id": "token.0xshitzu.near",
+          "role": "SHITZU token",
+          "contract": true,
+          "source": "https://github.com/Shitzu-Apes/app/blob/main/apps/meme-cooking/.env ; https://1click.chaindefuser.com/v0/tokens ; ft_metadata=SHITZU"
+        },
+        {
+          "id": "shit.0xshitzu.near",
+          "role": "Shitzu 'DOGSHIT' contract",
+          "contract": true,
+          "source": "https://github.com/Shitzu-Apes/app/blob/main/apps/meme-cooking/.env"
+        },
+        {
+          "id": "rewards.0xshitzu.near",
+          "role": "Shitzu rewarder contract",
+          "contract": true,
+          "source": "https://github.com/Shitzu-Apes/app/blob/main/apps/meme-cooking/.env"
+        }
+      ],
+      "accountRoots": [
+        "0xshitzu.near"
+      ],
+      "nameStems": [
+        "shitzu",
+        "0xshitzu",
+        "shitzuapes",
+        "shitzu-apes"
+      ],
+      "keywords": [
+        "shitzu",
+        "shitzuapes"
+      ],
+      "officialSocials": {
+        "x": "shitzuonnear",
+        "telegram": "Shitzu_Community",
+        "github": "Shitzu-Apes"
+      },
+      "sources": [
+        "https://shitzuapes.xyz",
+        "https://github.com/Shitzu-Apes"
+      ],
+      "notes": "The same team builds meme.cooking. It also runs validators shitzu.pool.near and shitzuapes.pool.near (sub-accounts of pool.near, per its config). Subdomain perps.shitzuapes.xyz. 'shitzu' resembles the dog breed 'shih tzu', so expect benign collisions."
+    },
+    {
+      "id": "neko",
+      "name": "NEKO",
+      "category": "token",
+      "status": "active",
+      "officialDomains": [
+        "nekoonnear.com"
+      ],
+      "referenceUrl": "https://nekoonnear.com",
+      "officialAccounts": [
+        {
+          "id": "ftv2.nekotoken.near",
+          "role": "NEKO token (v2; has a transfer tax)",
+          "contract": true,
+          "source": "https://nekoonnear.com (shows contract) ; ft_metadata=NEKO"
+        }
+      ],
+      "accountRoots": [
+        "nekotoken.near"
+      ],
+      "nameStems": [
+        "nekotoken",
+        "neko-token",
+        "nekoonnear"
+      ],
+      "keywords": [
+        "nekotoken",
+        "nekoonnear"
+      ],
+      "officialSocials": {
+        "x": "nekotoken_xyz",
+        "telegram": "nekoisnear"
+      },
+      "sources": [
+        "https://nekoonnear.com",
+        "https://api.coingecko.com/api/v3/coins/near/contract/ftv2.nekotoken.near"
+      ],
+      "notes": "This is a memecoin. 'neko' is 4 chars and the common Japanese word for 'cat' (many unrelated brands), so do not use it alone. nekotoken.xyz (implied by the X handle) does not resolve and is not listed."
+    },
+    {
+      "id": "lonk",
+      "name": "LONK",
+      "category": "token",
+      "status": "active",
+      "officialDomains": [],
+      "referenceUrl": "https://nearblocks.io/token/token.lonkingnearbackto2024.near",
+      "officialAccounts": [
+        {
+          "id": "token.lonkingnearbackto2024.near",
+          "role": "LONK token",
+          "contract": true,
+          "source": "https://api.coingecko.com/api/v3/coins/near/contract/token.lonkingnearbackto2024.near ; ft_metadata=LONK"
+        }
+      ],
+      "accountRoots": [
+        "lonkingnearbackto2024.near"
+      ],
+      "nameStems": [
+        "lonkingnearbackto2024",
+        "lonkonnear",
+        "lonk-on-near"
+      ],
+      "keywords": [
+        "lonkonnear",
+        "lonk-on-near"
+      ],
+      "officialSocials": {
+        "x": "Lonkonnear (CoinGecko-listed; secondary)",
+        "telegram": "LonkonNEAR (CoinGecko-listed)"
+      },
+      "sources": [
+        "https://api.coingecko.com/api/v3/coins/near/contract/token.lonkingnearbackto2024.near"
+      ],
+      "notes": "UNVERIFIED DOMAIN: CoinGecko lists lonk.meme, but on 2026-11-01 lonk.meme redirects (with a TLS error) to duckey.meme and then tsuji.meme, so the domain looks repurposed or lost. No official domain is listed. The token account is verified only by ft_metadata plus CoinGecko (secondary). 'lonk' (4 chars) is short; prefer the long unique account name."
+    },
+    {
+      "id": "near-mobile",
+      "name": "NEAR Mobile (Peersyst)",
+      "category": "wallet",
+      "status": "active",
+      "officialDomains": [
+        "nearmobile.app"
+      ],
+      "referenceUrl": "https://www.nearmobile.app",
+      "officialAccounts": [
+        {
+          "id": "npro.nearmobile.near",
+          "role": "NPRO token",
+          "contract": true,
+          "source": "https://1click.chaindefuser.com/v0/tokens ; ft_metadata=NPRO ; https://swap.nearmobile.app/swap-near-for-npro"
+        }
+      ],
+      "accountRoots": [
+        "nearmobile.near"
+      ],
+      "nameStems": [
+        "nearmobile",
+        "near-mobile",
+        "npro-token"
+      ],
+      "keywords": [
+        "nearmobile",
+        "near-mobile"
+      ],
+      "officialSocials": {
+        "x": "NEARMobile_app",
+        "github": "Peersyst"
+      },
+      "sources": [
+        "https://www.nearmobile.app",
+        "https://github.com/azbang/near-connect/blob/main/repository/manifest.json",
+        "https://1click.chaindefuser.com/v0/tokens"
+      ],
+      "notes": "Listed in the near-connect wallet manifest. Subdomains: staking.nearmobile.app and swap.nearmobile.app. nearmobile.near holds about 1000 NEAR and is the parent of the NPRO token account."
+    },
+    {
+      "id": "house-of-stake",
+      "name": "House of Stake (veNEAR governance)",
+      "category": "dao",
+      "status": "active",
+      "officialDomains": [
+        "houseofstake.org"
+      ],
+      "referenceUrl": "https://houseofstake.org",
+      "officialAccounts": [
+        {
+          "id": "venear.dao",
+          "role": "veNEAR contract (lockups)",
+          "contract": true,
+          "source": "https://github.com/houseofstake/agora-near/blob/main/src/lib/contractConstants.ts"
+        },
+        {
+          "id": "vote.dao",
+          "role": "House of Stake voting contract",
+          "contract": true,
+          "source": "https://github.com/houseofstake/agora-near/blob/main/src/lib/contractConstants.ts"
+        },
+        {
+          "id": "rewards.hos-dao.near",
+          "role": "Rewards/claim contract",
+          "contract": true,
+          "source": "https://github.com/houseofstake/agora-near/blob/main/src/lib/contractConstants.ts"
+        }
+      ],
+      "accountRoots": [
+        "hos-dao.near"
+      ],
+      "nameStems": [
+        "houseofstake",
+        "house-of-stake",
+        "venear",
+        "hos-dao"
+      ],
+      "keywords": [
+        "houseofstake",
+        "house-of-stake",
+        "venear"
+      ],
+      "officialSocials": {
+        "x": "neargovernance",
+        "github": "houseofstake"
+      },
+      "sources": [
+        "https://houseofstake.org",
+        "https://github.com/houseofstake",
+        "https://near.org (links houseofstake.org)"
+      ],
+      "notes": "NEAR's token-holder governance (veNEAR). Contracts live under the 'dao' top-level account. Ownership of the 'dao' TLA was not verified, so 'dao' is not listed as a root, and 'dao' is a generic word. rewards.hos-dao.near holds about 49k NEAR. Subdomains: gov.houseofstake.org and stats.houseofstake.org."
+    }
+  ]
+}

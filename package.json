@@ -1,0 +1,47 @@
+{
+  "name": "mimicwatch-near",
+  "version": "0.1.0",
+  "description": "Mimicwatch for NEAR: finds lookalike NEAR accounts and phishing domains of NEAR dApps, and publishes reviewed findings to an on-chain registry that wallets and agents query before sending funds.",
+  "license": "MIT",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=20.12"
+  },
+  "scripts": {
+    "build:contract": "cd contracts/registry && cargo near build non-reproducible-wasm",
+    "test": "vitest run",
+    "test:engine": "vitest run --project engine",
+    "test:contract": "cd contracts && cargo test",
+    "typecheck": "tsc --noEmit",
+    "scan:accounts": "tsx scripts/scan-accounts.ts",
+    "scan:domains": "tsx scripts/scan-domains.ts",
+    "review": "tsx scripts/review.ts",
+    "publish:registry": "tsx scripts/publish.ts",
+    "check": "tsx scripts/check.ts",
+    "api": "tsx scripts/api.ts",
+    "mcp": "tsx src/mcp/server.ts",
+    "testnet:setup": "tsx scripts/testnet-setup.ts",
+    "demo": "tsx scripts/demo.ts",
+    "demo:record": "tsx scripts/record-demo.ts",
+    "demo:render": "tsx scripts/render-video.ts"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.32.2",
+    "near-api-js": "^7.4.0",
+    "playwright": "^1.64.1",
+    "tldts": "^7.4.19",
+    "viem": "^2.57.14",
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.6",
+    "near-sandbox": "^0.3.4",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2",
+    "vitest": "^5.0.5"
+  },
+  "overrides": {
+    "tar": "^7.5.22"
+  }
+}
