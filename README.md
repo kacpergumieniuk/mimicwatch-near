@@ -109,6 +109,7 @@ every registry flow with synthetic entries (report, self-dispute, keep, third-pa
 | Registry contract | [`registry.mimicwatch-e7iig5g5.testnet`](https://testnet.nearblocks.io/address/registry.mimicwatch-e7iig5g5.testnet) |
 | Owner | [`mimicwatch-e7iig5g5.testnet`](https://testnet.nearblocks.io/address/mimicwatch-e7iig5g5.testnet) (throwaway faucet account) |
 | Approved reporter (the publisher signs as this account) | [`reporter.mimicwatch-e7iig5g5.testnet`](https://testnet.nearblocks.io/address/reporter.mimicwatch-e7iig5g5.testnet) |
+| Code hash on chain | `ugLDXXVgTxz8x3hPWGoKK4KXUbWREoAfnEjzzpugm3B`, which equals the sha256 (base58) of `npm run build:contract` output from commit `0fb9daa` (the contract has not changed since) |
 | Deploy + `new` in one transaction | [`FHG5428…`](https://testnet.nearblocks.io/txns/FHG5428RjGgMYMMhYcFXd6Cdem2r51JGDg66Cg3KG9TL) |
 | `add_reporter` | [`7mZQ7Hi…`](https://testnet.nearblocks.io/txns/7mZQ7Hi6C1CcgYGfM8oc2NvMg3pBbKq2uAjnkAGc4W65) |
 | Synthetic test entries, `report_batch` | [`rjR1QgX…`](https://testnet.nearblocks.io/txns/rjR1QgXXRyBv3VGjfRWrtoaJ6m2y4ruWuTG42P3EcSz) |
