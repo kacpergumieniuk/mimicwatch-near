@@ -275,7 +275,7 @@ export function analyzeAccount(r: AccountRaw, nowMs: number, index: BrandIndex, 
   const established = (f.ageDays ?? 0) > 730 && f.txsCount > 100;
   if (established) {
     signals.push("ESTABLISHED_HISTORY");
-    evidence.push(`Older than two years with ${f.txsCount} transactions: likely someone's own long-used account.`);
+    if (!fakeToken) evidence.push(`Older than two years with ${f.txsCount} transactions: likely someone's own long-used account.`);
   }
 
   score = Math.min(100, score);

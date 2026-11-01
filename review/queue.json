@@ -1,0 +1,6488 @@
+{
+  "version": 1,
+  "updatedAt": "2026-11-01T16:58:17.385Z",
+  "items": [
+    {
+      "subject": "aurora_labs.near",
+      "kind": "account",
+      "brand": "aurora",
+      "brandName": "Aurora",
+      "label": "lookalike-active",
+      "severity": "medium",
+      "score": 35,
+      "category": "impersonation",
+      "evidence": [
+        "Name: a different-separator copy of the Aurora name \"aurora-labs\".",
+        "Created 2026-01-26 by meteor-relayer.near (279 days before the scan).",
+        "1 transactions, last on 2026-01-26; balance 0.000 NEAR; 1 full-access key(s)."
+      ],
+      "facts": {
+        "createdAt": "2026-01-26",
+        "ageDays": 279,
+        "creator": "meteor-relayer.near",
+        "creationTx": "5oGmjUSqj2QNeP4hksHyj1xjLZSVGgxufwysVLPawx25",
+        "txsCount": 1,
+        "lastActivity": "2026-01-26",
+        "daysSinceActivity": 279,
+        "isContract": false,
+        "codeHash": "11111111111111111111111111111111",
+        "balanceNear": 0,
+        "fullAccessKeys": 1,
+        "inboundTransfers": 0,
+        "inboundNear": 0,
+        "distinctSenders": 0,
+        "dustTransfers": 0,
+        "keyControls": 0,
+        "outboundTransfers": 0,
+        "sameOperator": [],
+        "sharesKeyWithOfficial": [],
+        "imitates": "aurora-labs.near",
+        "fuzzer": "separator",
+        "signals": [
+          "CLOSE_LOOKALIKE",
+          "RECENT_ACCOUNT"
+        ]
+      },
+      "links": {
+        "explorer": "https://nearblocks.io/address/aurora_labs.near"
+      },
+      "key": "account:aurora_labs.near",
+      "firstSeen": "2026-11-01T16:58:17.385Z",
+      "lastSeen": "2026-11-01T16:58:17.385Z",
+      "scans": [
+        "2026-11-01"
+      ],
+      "review": {
+        "decision": "pending"
+      }
+    },
+    {
+      "subject": "auroralabs.near",
+      "kind": "account",
+      "brand": "aurora",
+      "brandName": "Aurora",
+      "label": "lookalike-active",
+      "severity": "medium",
+      "score": 35,
+      "category": "impersonation",
+      "evidence": [
+        "Name: a different-separator copy of the Aurora name \"aurora-labs\".",
+        "Created 2021-09-17 by a4212d868c9222288e2ec434d1eabff97a6f51c8521cf8bc1389176322d4ef1d (1871 days before the scan).",
+        "192 transactions, last on 2026-04-22; balance 35.817 NEAR; 1 full-access key(s).",
+        "Inbound NEAR transfers signed by others (in the 26 transactions inspected): 3 from 1 sender(s), 32 NEAR in total.",
+        "Older than two years with 192 transactions: likely someone's own long-used account."
+      ],
+      "facts": {
+        "createdAt": "2021-09-17",
+        "ageDays": 1871,
+        "creator": "a4212d868c9222288e2ec434d1eabff97a6f51c8521cf8bc1389176322d4ef1d",
+        "creationTx": "A7RbYHjeJLg5UXAM2CTbkA9ak9wwm6oPGAevsDDu7LxE",
+        "txsCount": 192,
+        "lastActivity": "2026-04-22",
+        "daysSinceActivity": 193,
+        "isContract": false,
+        "codeHash": "11111111111111111111111111111111",
+        "balanceNear": 35.817068,
+        "fullAccessKeys": 1,
+        "inboundTransfers": 3,
+        "inboundNear": 32,
+        "distinctSenders": 1,
+        "dustTransfers": 0,
+        "keyControls": 0,
+        "outboundTransfers": 0,
+        "sameOperator": [],
+        "sharesKeyWithOfficial": [],
+        "imitates": "aurora-labs.near",
+        "fuzzer": "separator",
+        "signals": [
+          "CLOSE_LOOKALIKE",
+          "ESTABLISHED_HISTORY"
+        ]
+      },
+      "links": {
+        "explorer": "https://nearblocks.io/address/auroralabs.near"
+      },
+      "key": "account:auroralabs.near",
+      "firstSeen": "2026-11-01T16:58:17.385Z",
+      "lastSeen": "2026-11-01T16:58:17.385Z",
+      "scans": [
+        "2026-11-01"
+      ],
+      "review": {
+        "decision": "pending"
+      }
+    },
+    {
+      "subject": "bl4ckdragon.near",
+      "kind": "account",
+      "brand": "blackdragon",
+      "brandName": "Black Dragon (BLACKDRAGON)",
+      "label": "lookalike-active",
+      "severity": "medium",
+      "score": 45,
+      "category": "impersonation",
+      "evidence": [
+        "Name: a digit-for-letter copy of the Black Dragon (BLACKDRAGON) name \"blackdragon\".",
+        "Created 2026-10-15 by meteor-relayer.near (17 days before the scan).",
+        "1 transactions, last on 2026-10-15; balance 0.000 NEAR; 1 full-access key(s)."
+      ],
+      "facts": {
+        "createdAt": "2026-10-15",
+        "ageDays": 17,
+        "creator": "meteor-relayer.near",
+        "creationTx": "BhX2UPtui1J3iuve4kVb8SLK1q1dsDEUcdidzn9HKNX6",
+        "txsCount": 1,
+        "lastActivity": "2026-10-15",
+        "daysSinceActivity": 17,
+        "isContract": false,
+        "codeHash": "11111111111111111111111111111111",
+        "balanceNear": 0,
+        "fullAccessKeys": 1,
+        "inboundTransfers": 0,
+        "inboundNear": 0,
+        "distinctSenders": 0,
+        "dustTransfers": 0,
+        "keyControls": 0,
+        "outboundTransfers": 0,
+        "sameOperator": [],
+        "sharesKeyWithOfficial": [],
+        "imitates": "blackdragon.near",
+        "fuzzer": "digit-swap",
+        "signals": [
+          "CLOSE_LOOKALIKE",
+          "NEW_ACCOUNT"
+        ]
+      },
+      "links": {
+        "explorer": "https://nearblocks.io/address/bl4ckdragon.near"
+      },
+      "key": "account:bl4ckdragon.near",
+      "firstSeen": "2026-11-01T16:58:17.385Z",
+      "lastSeen": "2026-11-01T16:58:17.385Z",
+      "scans": [
+        "2026-11-01"
+      ],
+      "review": {
+        "decision": "pending"
+      }
+    },
+    {
+      "subject": "burrowfinancedao.near",
+      "kind": "account",
+      "brand": "burrow",
+      "brandName": "Burrow",
+      "label": "fake-token",
+      "severity": "critical",
+      "score": 85,
+      "category": "fake-token",
+      "evidence": [
+        "Name: the brand name plus a word of the Burrow name \"burrowfinance\".",
+        "Created 2024-05-16 by nearrewards.near (899 days before the scan).",
+        "995 transactions, last on 2025-09-09; balance 23.105 NEAR; 2 full-access key(s).",
+        "A contract is deployed (code hash 12p7js1vHix1YrMhL7XKunpcxGNuFij2pmfuRSz7kocn).",
+        "It is a NEP-141 token named \"Burrow Finance Rewards (https://burrowfi.com)\" (BurrowFi.com), using the Burrow name, held by 7,079 accounts.",
+        "Its token name advertises a website (https://burrowfi.com): the fake-airdrop pattern, where a \"rewards\" token sent to many wallets lures holders to a phishing site.",
+        "Inbound NEAR transfers signed by others (in the 21 transactions inspected): 1 from 1 sender(s), 0.1 NEAR in total.",
+        "Older than two years with 995 transactions: likely someone's own long-used account."
+      ],
+      "facts": {
+        "createdAt": "2024-05-16",
+        "ageDays": 899,
+        "creator": "nearrewards.near",
+        "creationTx": "8wR3X8jAsTXg6jPAwmkmYBadFJkV1zP79jy1qCw8S4p8",
+        "txsCount": 995,
+        "lastActivity": "2025-09-09",
+        "daysSinceActivity": 418,
+        "isContract": true,
+        "codeHash": "12p7js1vHix1YrMhL7XKunpcxGNuFij2pmfuRSz7kocn",
+        "balanceNear": 23.104637,
+        "ft": {
+          "name": "Burrow Finance Rewards (https://burrowfi.com)",
+          "symbol": "BurrowFi.com",
+          "decimals": 24
+        },
+        "ftHolders": 7079,
+        "fullAccessKeys": 2,
+        "inboundTransfers": 1,
+        "inboundNear": 0.1,
+        "distinctSenders": 1,
+        "dustTransfers": 0,
+        "keyControls": 0,
+        "outboundTransfers": 2,
+        "sameOperator": [],
+        "sharesKeyWithOfficial": [],
+        "imitates": "burrowfinance.near",
+        "fuzzer": "lure-suffix",
+        "signals": [
+          "BRAND_PLUS_WORD",
+          "HAS_CONTRACT",
+          "FT_COPIES_BRAND",
+          "METADATA_LURE_URL",
+          "DORMANT",
+          "ESTABLISHED_HISTORY"
+        ]
+      },
+      "links": {
+        "explorer": "https://nearblocks.io/address/burrowfinancedao.near"
+      },
+      "key": "account:burrowfinancedao.near",
+      "firstSeen": "2026-11-01T16:58:17.385Z",
+      "lastSeen": "2026-11-01T16:58:17.385Z",
+      "scans": [
+        "2026-11-01"
+      ],
+      "review": {
+        "decision": "pending"
+      }
+    },
+    {
+      "subject": "circle_usdc.near",
+      "kind": "account",
+      "brand": "circle-usdc",
+      "brandName": "Circle USDC (NEAR)",
+      "label": "lookalike-active",
+      "severity": "medium",
+      "score": 45,
+      "category": "impersonation",
+      "evidence": [
+        "Name: a different-separator copy of the Circle USDC (NEAR) name \"circle-usdc\".",
+        "Created 2026-10-31 by meteor-relayer.near (1 days before the scan).",
+        "1 transactions, last on 2026-10-31; balance 0.000 NEAR; 1 full-access key(s)."
+      ],
+      "facts": {
+        "createdAt": "2026-10-31",
+        "ageDays": 1,
+        "creator": "meteor-relayer.near",
+        "creationTx": "2PQxHVLNmsSrvySP8amtYxbLKMBmJHosNxZbW66qJCM4",
+        "txsCount": 1,
+        "lastActivity": "2026-10-31",
+        "daysSinceActivity": 1,
+        "isContract": false,
+        "codeHash": "11111111111111111111111111111111",
+        "balanceNear": 0,
+        "fullAccessKeys": 1,
+        "inboundTransfers": 0,
+        "inboundNear": 0,
+        "distinctSenders": 0,
+        "dustTransfers": 0,
+        "keyControls": 0,
+        "outboundTransfers": 0,
+        "sameOperator": [],
+        "sharesKeyWithOfficial": [],
+        "imitates": "circle-usdc.near",
+        "fuzzer": "separator",
+        "signals": [
+          "CLOSE_LOOKALIKE",
+          "NEW_ACCOUNT"
+        ]
+      },
+      "links": {
+        "explorer": "https://nearblocks.io/address/circle_usdc.near"
+      },
+      "key": "account:circle_usdc.near",
+      "firstSeen": "2026-11-01T16:58:17.385Z",
+      "lastSeen": "2026-11-01T16:58:17.385Z",
+      "scans": [
+        "2026-11-01"
+      ],
+      "review": {
+        "decision": "pending"
+      }
+    },
+    {
+      "subject": "contract-main-burrow.near",
+      "kind": "account",
+      "brand": "rhea",
+      "brandName": "Rhea Finance",
+      "label": "lookalike-active",
+      "severity": "medium",
+      "score": 35,
+      "category": "impersonation",
+      "evidence": [
+        "Name: a fake sub-account (dots replaced) of contract.main.burrow.near.",
+        "Created 2025-12-06 by meteor-relayer.near (329 days before the scan).",
+        "2 transactions, last on 2025-12-07; balance 0.000 NEAR; 1 full-access key(s)."
+      ],
+      "facts": {
+        "createdAt": "2025-12-06",
+        "ageDays": 329,
+        "creator": "meteor-relayer.near",
+        "creationTx": "3MN5Y2wzWRUETpX8RbMATY4uQRtTMe96Aop9qjdmfgTU",
+        "txsCount": 2,
+        "lastActivity": "2025-12-07",
+        "daysSinceActivity": 328,
+        "isContract": false,
+        "codeHash": "11111111111111111111111111111111",
+        "balanceNear": 0,
+        "fullAccessKeys": 1,
+        "inboundTransfers": 0,
+        "inboundNear": 0,
+        "distinctSenders": 0,
+        "dustTransfers": 0,
+        "keyControls": 0,
+        "outboundTransfers": 0,
+        "sameOperator": [],
+        "sharesKeyWithOfficial": [],
+        "imitates": "contract.main.burrow.near",
+        "fuzzer": "fake-sub-account",
+        "signals": [
+          "CLOSE_LOOKALIKE",
+          "RECENT_ACCOUNT"
+        ]
+      },
+      "links": {
+        "explorer": "https://nearblocks.io/address/contract-main-burrow.near"
+      },
+      "key": "account:contract-main-burrow.near",
+      "firstSeen": "2026-11-01T16:58:17.385Z",
+      "lastSeen": "2026-11-01T16:58:17.385Z",
+      "scans": [
+        "2026-11-01"
+      ],
+      "review": {
+        "decision": "pending"
+      }
+    },
+    {
+      "subject": "contractmainburrow.near",
+      "kind": "account",
+      "brand": "rhea",
+      "brandName": "Rhea Finance",
+      "label": "lookalike-active",
+      "severity": "medium",
+      "score": 35,
+      "category": "impersonation",
+      "evidence": [
+        "Name: a fake sub-account (dots replaced) of contract.main.burrow.near.",
+        "Created 2025-12-06 by meteor-relayer.near (329 days before the scan).",
+        "2 transactions, last on 2025-12-07; balance 0.000 NEAR; 1 full-access key(s)."
+      ],
+      "facts": {
+        "createdAt": "2025-12-06",
+        "ageDays": 329,
+        "creator": "meteor-relayer.near",
+        "creationTx": "CQNqeYEGxErWwuPhKTP5q6E5jVd9o6fs6VsU1LVQrxqy",
+        "txsCount": 2,
+        "lastActivity": "2025-12-07",
+        "daysSinceActivity": 328,
+        "isContract": false,
+        "codeHash": "11111111111111111111111111111111",
+        "balanceNear": 0,
+        "fullAccessKeys": 1,
+        "inboundTransfers": 0,
+        "inboundNear": 0,
+        "distinctSenders": 0,
+        "dustTransfers": 0,
+        "keyControls": 0,
+        "outboundTransfers": 0,
+        "sameOperator": [],
+        "sharesKeyWithOfficial": [],
+        "imitates": "contract.main.burrow.near",
+        "fuzzer": "fake-sub-account",
+        "signals": [
+          "CLOSE_LOOKALIKE",
+          "RECENT_ACCOUNT"
+        ]
+      },
+      "links": {
+        "explorer": "https://nearblocks.io/address/contractmainburrow.near"
+      },
+      "key": "account:contractmainburrow.near",
+      "firstSeen": "2026-11-01T16:58:17.385Z",
+      "lastSeen": "2026-11-01T16:58:17.385Z",
+      "scans": [
+        "2026-11-01"
+      ],
+      "review": {
+        "decision": "pending"
+      }
+    },
+    {
+      "subject": "dragonblack.near",
+      "kind": "account",
+      "brand": "blackdragon",
+      "brandName": "Black Dragon (BLACKDRAGON)",
+      "label": "lookalike-dormant",
+      "severity": "medium",
+      "score": 35,
+      "category": "impersonation",
+      "evidence": [
+        "Name: a swapped-words copy of the Black Dragon (BLACKDRAGON) name \"black-dragon\".",
+        "Created 2024-03-26 by free-name.herewallet.near (950 days before the scan).",
+        "11 transactions, last on 2024-04-25; balance 0.011 NEAR; 1 full-access key(s).",
+        "Inbound NEAR transfers signed by others (in the 11 transactions inspected): 2 from 2 sender(s), 19.444 NEAR in total."
+      ],
+      "facts": {
+        "createdAt": "2024-03-26",
+        "ageDays": 950,
+        "creator": "free-name.herewallet.near",
+        "creationTx": "2yw7KytKshuD6ZHE5KYmN3jKwLU4AA4ErNfoVNhLuQUM",
+        "txsCount": 11,
+        "lastActivity": "2024-04-25",
+        "daysSinceActivity": 920,
+        "isContract": false,
+        "codeHash": "11111111111111111111111111111111",
+        "balanceNear": 0.010985,
+        "fullAccessKeys": 1,
+        "inboundTransfers": 2,
+        "inboundNear": 19.444,
+        "distinctSenders": 2,
+        "dustTransfers": 0,
+        "keyControls": 0,
+        "outboundTransfers": 1,
+        "sameOperator": [],
+        "sharesKeyWithOfficial": [],
+        "imitates": "black-dragon.near",
+        "fuzzer": "swapped-segments",
+        "signals": [
+          "CLOSE_LOOKALIKE",
+          "DORMANT"
+        ]
+      },
+      "links": {
+        "explorer": "https://nearblocks.io/address/dragonblack.near"
+      },
+      "key": "account:dragonblack.near",
+      "firstSeen": "2026-11-01T16:58:17.385Z",
+      "lastSeen": "2026-11-01T16:58:17.385Z",
+      "scans": [
+        "2026-11-01"
+      ],
+      "review": {
+        "decision": "pending"
+      }
+    },
+    {
+      "subject": "eth-bridge.near",
+      "kind": "account",
+      "brand": "omni-bridge",
+      "brandName": "Omni Bridge / Rainbow Bridge",
+      "label": "lookalike-active",
+      "severity": "medium",
+      "score": 30,
+      "category": "impersonation",
+      "evidence": [
+        "Name: a fake sub-account (dots replaced) of eth.bridge.near.",
+        "Created 2025-10-27 by meteor-relayer.near (369 days before the scan).",
+        "7 transactions, last on 2026-01-01; balance 0.000 NEAR; 1 full-access key(s)."
+      ],
+      "facts": {
+        "createdAt": "2025-10-27",
+        "ageDays": 369,
+        "creator": "meteor-relayer.near",
+        "creationTx": "CVgePcq3YBXXVxzKoRqTERUcJGYh6gBvbw9aMrw9ipTf",
+        "txsCount": 7,
+        "lastActivity": "2026-01-01",
+        "daysSinceActivity": 304,
+        "isContract": false,
+        "codeHash": "11111111111111111111111111111111",
+        "balanceNear": 0,
+        "fullAccessKeys": 1,
+        "inboundTransfers": 0,
+        "inboundNear": 0,
+        "distinctSenders": 0,
+        "dustTransfers": 0,
+        "keyControls": 0,
+        "outboundTransfers": 0,
+        "sameOperator": [],
+        "sharesKeyWithOfficial": [],
+        "imitates": "eth.bridge.near",
+        "fuzzer": "fake-sub-account",
+        "signals": [
+          "CLOSE_LOOKALIKE"
+        ]
+      },
+      "links": {
+        "explorer": "https://nearblocks.io/address/eth-bridge.near"
+      },
+      "key": "account:eth-bridge.near",
+      "firstSeen": "2026-11-01T16:58:17.385Z",
+      "lastSeen": "2026-11-01T16:58:17.385Z",
+      "scans": [
+        "2026-11-01"
+      ],
+      "review": {
+        "decision": "pending"
+      }
+    },
+    {
+      "subject": "hot_wallet.near",
+      "kind": "account",
+      "brand": "hot",
+      "brandName": "HOT Wallet / HOT Protocol (HOT Labs)",
+      "label": "lookalike-dormant",
+      "severity": "medium",
+      "score": 45,
+      "category": "impersonation",
+      "evidence": [
+        "Name: a different-separator copy of the HOT Wallet / HOT Protocol (HOT Labs) name \"hot-wallet\".",
+        "Created 2022-03-04 by apurimac.near (1703 days before the scan).",
+        "207 transactions, last on 2024-12-04; balance 0.590 NEAR; 2 full-access key(s).",
+        "Inbound NEAR transfers signed by others (in the 26 transactions inspected): 6 from 1 sender(s), 74.895 NEAR in total.",
+        "Received 9.99 NEAR and sent 11 NEAR on to apurimac.near within 10 minute(s): a collection pattern, or the owner's own pass-through.",
+        "Older than two years with 207 transactions: likely someone's own long-used account."
+      ],
+      "facts": {
+        "createdAt": "2022-03-04",
+        "ageDays": 1703,
+        "creator": "apurimac.near",
+        "creationTx": "ET3s8a7ZoNiHzq8qxusfE5jRCWS9vGr5u5hkX5ChkzKv",
+        "txsCount": 207,
+        "lastActivity": "2024-12-04",
+        "daysSinceActivity": 697,
+        "isContract": false,
+        "codeHash": "11111111111111111111111111111111",
+        "balanceNear": 0.5899,
+        "fullAccessKeys": 2,
+        "inboundTransfers": 6,
+        "inboundNear": 74.895,
+        "distinctSenders": 1,
+        "dustTransfers": 0,
+        "forwarded": {
+          "inNear": 9.99,
+          "outNear": 11,
+          "minutes": 10,
+          "to": "apurimac.near"
+        },
+        "keyControls": 1,
+        "outboundTransfers": 4,
+        "sameOperator": [],
+        "sharesKeyWithOfficial": [],
+        "imitates": "hot-wallet.near",
+        "fuzzer": "separator",
+        "signals": [
+          "CLOSE_LOOKALIKE",
+          "FORWARDED_QUICKLY",
+          "DORMANT",
+          "ESTABLISHED_HISTORY"
+        ]
+      },
+      "links": {
+        "explorer": "https://nearblocks.io/address/hot_wallet.near"
+      },
+      "key": "account:hot_wallet.near",
+      "firstSeen": "2026-11-01T16:58:17.385Z",
+      "lastSeen": "2026-11-01T16:58:17.385Z",
+      "scans": [
+        "2026-11-01"
+      ],
+      "review": {
+        "decision": "pending"
+      }
+    },
+    {
+      "subject": "hotscam.near",
+      "kind": "account",
+      "brand": "hot",
+      "brandName": "HOT Wallet / HOT Protocol (HOT Labs)",
+      "label": "lookalike-active",
+      "severity": "medium",
+      "score": 35,
+      "category": "impersonation",
+      "evidence": [
+        "Name: a lookalike-letter copy of the HOT Wallet / HOT Protocol (HOT Labs) name \"hotscan\".",
+        "Created 2026-01-11 by free-name.herewallet.near (293 days before the scan).",
+        "1 transactions, last on 2026-01-11; balance 0.000 NEAR; 1 full-access key(s)."
+      ],
+      "facts": {
+        "createdAt": "2026-01-11",
+        "ageDays": 293,
+        "creator": "free-name.herewallet.near",
+        "creationTx": "5d5kVqfyoP4eUoqQ5MFbRmLpw8V6JPAWR69zWkryJBsD",
+        "txsCount": 1,
+        "lastActivity": "2026-01-11",
+        "daysSinceActivity": 293,
+        "isContract": false,
+        "codeHash": "11111111111111111111111111111111",
+        "balanceNear": 0,
+        "fullAccessKeys": 1,
+        "inboundTransfers": 0,
+        "inboundNear": 0,
+        "distinctSenders": 0,
+        "dustTransfers": 0,
+        "keyControls": 0,
+        "outboundTransfers": 0,
+        "sameOperator": [],
+        "sharesKeyWithOfficial": [],
+        "imitates": "hotscan.near",
+        "fuzzer": "homoglyph",
+        "signals": [
+          "CLOSE_LOOKALIKE",
+          "RECENT_ACCOUNT"
+        ]
+      },
+      "links": {
+        "explorer": "https://nearblocks.io/address/hotscam.near"
+      },
+      "key": "account:hotscam.near",
+      "firstSeen": "2026-11-01T16:58:17.385Z",
+      "lastSeen": "2026-11-01T16:58:17.385Z",
+      "scans": [
+        "2026-11-01"
+      ],
+      "review": {
+        "decision": "pending"
+      }
+    },
+    {
+      "subject": "hotwallet.near",
+      "kind": "account",
+      "brand": "hot",
+      "brandName": "HOT Wallet / HOT Protocol (HOT Labs)",
+      "label": "lookalike-active",
+      "severity": "medium",
+      "score": 30,
+      "category": "impersonation",
+      "evidence": [
+        "Name: a different-separator copy of the HOT Wallet / HOT Protocol (HOT Labs) name \"hot-wallet\".",
+        "Created 2022-01-03 by 6d230703534101244c9d41b2f173b85d5f69871888dcc18e9c00eccd42110659 (1762 days before the scan).",
+        "12 transactions, last on 2026-02-05; balance 0.388 NEAR; 2 full-access key(s)."
+      ],
+      "facts": {
+        "createdAt": "2022-01-03",
+        "ageDays": 1762,
+        "creator": "6d230703534101244c9d41b2f173b85d5f69871888dcc18e9c00eccd42110659",
+        "creationTx": "DadYDn7r5uhbQ9SKs32TXzhukkE2bcKb57TfeNcCjJKE",
+        "txsCount": 12,
+        "lastActivity": "2026-02-05",
+        "daysSinceActivity": 268,
+        "isContract": false,
+        "codeHash": "11111111111111111111111111111111",
+        "balanceNear": 0.387569,
+        "fullAccessKeys": 2,
+        "inboundTransfers": 0,
+        "inboundNear": 0,
+        "distinctSenders": 0,
+        "dustTransfers": 0,
+        "keyControls": 1,
+        "outboundTransfers": 1,
+        "sameOperator": [],
+        "sharesKeyWithOfficial": [],
+        "imitates": "hot-wallet.near",
+        "fuzzer": "separator",
+        "signals": [
+          "CLOSE_LOOKALIKE"
+        ]
+      },
+      "links": {
+        "explorer": "https://nearblocks.io/address/hotwallet.near"
+      },
+      "key": "account:hotwallet.near",
+      "firstSeen": "2026-11-01T16:58:17.385Z",
+      "lastSeen": "2026-11-01T16:58:17.385Z",
+      "scans": [
+        "2026-11-01"
+      ],
+      "review": {
+        "decision": "pending"
+      }
+    },
+    {
+      "subject": "linear_protocol.near",
+      "kind": "account",
+      "brand": "linear",
+      "brandName": "LiNEAR Protocol",
+      "label": "fake-token",
+      "severity": "critical",
+      "score": 100,
+      "category": "fake-token",
+      "evidence": [
+        "Name: a different-separator copy of linear-protocol.near.",
+        "Created 2024-05-18 by burrowfinancedao.near (897 days before the scan).",
+        "212 transactions, last on 2026-08-18; balance 19.017 NEAR; 2 full-access key(s).",
+        "A contract is deployed (code hash 12p7js1vHix1YrMhL7XKunpcxGNuFij2pmfuRSz7kocn).",
+        "It is a NEP-141 token named \"$Linear Protocol Rewards (https://linearprotocol.net)\" (LinearProtocol.net), using the LiNEAR Protocol name, held by 2,205 accounts.",
+        "Its token name advertises a website (https://linearprotocol.net): the fake-airdrop pattern, where a \"rewards\" token sent to many wallets lures holders to a phishing site.",
+        "1 dust transfer(s) under 0.05 NEAR from others (typical of address poisoning aimed at this account's owner; not counted as payments).",
+        "Linked to other lookalikes found in this scan (shared full-access key, or creator/created): burrowfinancedao.near.",
+        "Older than two years with 212 transactions: likely someone's own long-used account."
+      ],
+      "facts": {
+        "createdAt": "2024-05-18",
+        "ageDays": 897,
+        "creator": "burrowfinancedao.near",
+        "creationTx": "2W8ZVLsPiQios6sVaB8uE6DW1qwkrtVeFvp4kLVeNZUK",
+        "txsCount": 212,
+        "lastActivity": "2026-08-18",
+        "daysSinceActivity": 75,
+        "isContract": true,
+        "codeHash": "12p7js1vHix1YrMhL7XKunpcxGNuFij2pmfuRSz7kocn",
+        "balanceNear": 19.016687,
+        "ft": {
+          "name": "$Linear Protocol Rewards (https://linearprotocol.net)",
+          "symbol": "LinearProtocol.net",
+          "decimals": 24
+        },
+        "ftHolders": 2205,
+        "fullAccessKeys": 2,
+        "inboundTransfers": 0,
+        "inboundNear": 0,
+        "distinctSenders": 0,
+        "dustTransfers": 1,
+        "keyControls": 0,
+        "outboundTransfers": 1,
+        "sameOperator": [
+          "burrowfinancedao.near"
+        ],
+        "sharesKeyWithOfficial": [],
+        "imitates": "linear-protocol.near",
+        "fuzzer": "separator",
+        "signals": [
+          "CLOSE_LOOKALIKE",
+          "HAS_CONTRACT",
+          "FT_COPIES_BRAND",
+          "METADATA_LURE_URL",
+          "SAME_OPERATOR",
+          "ESTABLISHED_HISTORY"
+        ]
+      },
+      "links": {
+        "explorer": "https://nearblocks.io/address/linear_protocol.near"
+      },
+      "key": "account:linear_protocol.near",
+      "firstSeen": "2026-11-01T16:58:17.385Z",
+      "lastSeen": "2026-11-01T16:58:17.385Z",
+      "scans": [
+        "2026-11-01"
+      ],
+      "review": {
+        "decision": "pending"
+      }
+    },
+    {
+      "subject": "linearprotocol.near",
+      "kind": "account",
+      "brand": "linear",
+      "brandName": "LiNEAR Protocol",
+      "label": "lookalike-active",
+      "severity": "medium",
+      "score": 30,
+      "category": "impersonation",
+      "evidence": [
+        "Name: a different-separator copy of linear-protocol.near.",
+        "Created 2022-03-14 by metas.near (1693 days before the scan).",
+        "117 transactions, last on 2026-10-30; balance 8.914 NEAR; 6 full-access key(s).",
+        "2 dust transfer(s) under 0.05 NEAR from others (typical of address poisoning aimed at this account's owner; not counted as payments).",
+        "Older than two years with 117 transactions: likely someone's own long-used account."
+      ],
+      "facts": {
+        "createdAt": "2022-03-14",
+        "ageDays": 1693,
+        "creator": "metas.near",
+        "creationTx": "3MxwKdckAMFvGkpUxaTa7juSHRrzjoFJdCxiRS99X96f",
+        "txsCount": 117,
+        "lastActivity": "2026-10-30",
+        "daysSinceActivity": 1,
+        "isContract": false,
+        "codeHash": "11111111111111111111111111111111",
+        "balanceNear": 8.914087,
+        "fullAccessKeys": 6,
+        "inboundTransfers": 0,
+        "inboundNear": 0,
+        "distinctSenders": 0,
+        "dustTransfers": 2,
+        "keyControls": 0,
+        "outboundTransfers": 2,
+        "sameOperator": [],
+        "sharesKeyWithOfficial": [],
+        "imitates": "linear-protocol.near",
+        "fuzzer": "separator",
+        "signals": [
+          "CLOSE_LOOKALIKE",
+          "ESTABLISHED_HISTORY"
+        ]
+      },
+      "links": {
+        "explorer": "https://nearblocks.io/address/linearprotocol.near"
+      },
+      "key": "account:linearprotocol.near",
+      "firstSeen": "2026-11-01T16:58:17.385Z",
+      "lastSeen": "2026-11-01T16:58:17.385Z",
+      "scans": [
+        "2026-11-01"
+      ],
+      "review": {
+        "decision": "pending"
+      }
+    },
+    {
+      "subject": "lst_rhealab.near",
+      "kind": "account",
+      "brand": "rhea",
+      "brandName": "Rhea Finance",
+      "label": "lookalike-active",
+      "severity": "medium",
+      "score": 45,
+      "category": "impersonation",
+      "evidence": [
+        "Name: a fake sub-account (dots replaced) of lst.rhealab.near.",
+        "Created 2025-09-06 by meteor-relayer.near (421 days before the scan).",
+        "41 transactions, last on 2026-05-27; balance 0.504 NEAR; 1 full-access key(s).",
+        "Inbound NEAR transfers signed by others (in the 22 transactions inspected): 2 from 1 sender(s), 110 NEAR in total.",
+        "Received 50 NEAR and sent 161 NEAR on to uae8899.tg within 28 minute(s): a collection pattern, or the owner's own pass-through."
+      ],
+      "facts": {
+        "createdAt": "2025-09-06",
+        "ageDays": 421,
+        "creator": "meteor-relayer.near",
+        "creationTx": "3A32Rz6VFyV7EgL9cDdrcZ7smTEQ4L1avvT8aDevXtwH",
+        "txsCount": 41,
+        "lastActivity": "2026-05-27",
+        "daysSinceActivity": 157,
+        "isContract": false,
+        "codeHash": "11111111111111111111111111111111",
+        "balanceNear": 0.504218,
+        "fullAccessKeys": 1,
+        "inboundTransfers": 2,
+        "inboundNear": 110,
+        "distinctSenders": 1,
+        "dustTransfers": 0,
+        "forwarded": {
+          "inNear": 50,
+          "outNear": 161,
+          "minutes": 28,
+          "to": "uae8899.tg"
+        },
+        "keyControls": 0,
+        "outboundTransfers": 2,
+        "sameOperator": [],
+        "sharesKeyWithOfficial": [],
+        "imitates": "lst.rhealab.near",
+        "fuzzer": "fake-sub-account",
+        "signals": [
+          "CLOSE_LOOKALIKE",
+          "FORWARDED_QUICKLY"
+        ]
+      },
+      "links": {
+        "explorer": "https://nearblocks.io/address/lst_rhealab.near"
+      },
+      "key": "account:lst_rhealab.near",
+      "firstSeen": "2026-11-01T16:58:17.385Z",
+      "lastSeen": "2026-11-01T16:58:17.385Z",
+      "scans": [
+        "2026-11-01"
+      ],
+      "review": {
+        "decision": "pending"
+      }
+    },
+    {
+      "subject": "mear_ai.near",
+      "kind": "account",
+      "brand": "near-ai",
+      "brandName": "NEAR AI",
+      "label": "lookalike-active",
+      "severity": "medium",
+      "score": 45,
+      "category": "impersonation",
+      "evidence": [
+        "Name: a lookalike-letter copy of the NEAR AI name \"near_ai\".",
+        "Created 2026-05-04 by titiku.near (180 days before the scan).",
+        "1 transactions, last on 2026-05-04; balance 0.000 NEAR; 1 full-access key(s).",
+        "Its full-access key also controls 50+ other accounts (e.g. aaatam.near, bu260797.near, divakaquhop.near, krchagin.near, trsnsferencia.near, scotp56.near): a name collector.",
+        "Its creator titiku.near created 92 of the lookalikes found in this scan: a name collector or a campaign."
+      ],
+      "facts": {
+        "createdAt": "2026-05-04",
+        "ageDays": 180,
+        "creator": "titiku.near",
+        "creationTx": "HusaRiKaK97avd71LDUVn19B6MTNDf6rDvU78AgKnuZK",
+        "txsCount": 1,
+        "lastActivity": "2026-05-04",
+        "daysSinceActivity": 180,
+        "isContract": false,
+        "codeHash": "11111111111111111111111111111111",
+        "balanceNear": 0.00001,
+        "fullAccessKeys": 1,
+        "inboundTransfers": 0,
+        "inboundNear": 0,
+        "distinctSenders": 0,
+        "dustTransfers": 0,
+        "keyControls": 50,
+        "outboundTransfers": 0,
+        "sameOperator": [],
+        "sharesKeyWithOfficial": [],
+        "imitates": "near_ai.near",
+        "fuzzer": "homoglyph",
+        "signals": [
+          "CLOSE_LOOKALIKE",
+          "RECENT_ACCOUNT",
+          "KEY_CONTROLS_MANY",
+          "SAME_CREATOR"
+        ]
+      },
+      "links": {
+        "explorer": "https://nearblocks.io/address/mear_ai.near"
+      },
+      "key": "account:mear_ai.near",
+      "firstSeen": "2026-11-01T16:58:17.385Z",
+      "lastSeen": "2026-11-01T16:58:17.385Z",
+      "scans": [
+        "2026-11-01"
+      ],
+      "review": {
+        "decision": "pending"
+      }
+    },
+    {
+      "subject": "mear.near",
+      "kind": "account",
+      "brand": "rhea",
+      "brandName": "Rhea Finance",
+      "label": "lookalike-active",
+      "severity": "medium",
+      "score": 30,
+      "category": "impersonation",
+      "evidence": [
+        "Name: a lookalike-letter copy of the Rhea Finance name \"rnear\".",
+        "Created 2021-04-09 by bd0a766a6cc0946216769821436357816dafc537e2424160beff70a7c9a8c270 (2032 days before the scan).",
+        "1206 transactions, last on 2026-07-07; balance 5.700 NEAR; 0 full-access key(s).",
+        "2 dust transfer(s) under 0.05 NEAR from others (typical of address poisoning aimed at this account's owner; not counted as payments).",
+        "Older than two years with 1206 transactions: likely someone's own long-used account."
+      ],
+      "facts": {
+        "createdAt": "2021-04-09",
+        "ageDays": 2032,
+        "creator": "bd0a766a6cc0946216769821436357816dafc537e2424160beff70a7c9a8c270",
+        "creationTx": "6zHDT8enXRx9SDk6sYrws6A224uc7PwR2z2nYUKkdY3p",
+        "txsCount": 1206,
+        "lastActivity": "2026-07-07",
+        "daysSinceActivity": 117,
+        "isContract": false,
+        "codeHash": "11111111111111111111111111111111",
+        "balanceNear": 5.69988,
+        "fullAccessKeys": 0,
+        "inboundTransfers": 0,
+        "inboundNear": 0,
+        "distinctSenders": 0,
+        "dustTransfers": 2,
+        "keyControls": 0,
+        "outboundTransfers": 3,
+        "sameOperator": [],
+        "sharesKeyWithOfficial": [],
+        "imitates": "rnear.near",
+        "fuzzer": "homoglyph",
+        "signals": [
+          "CLOSE_LOOKALIKE",
+          "ESTABLISHED_HISTORY"
+        ]
+      },
+      "links": {
+        "explorer": "https://nearblocks.io/address/mear.near"
+      },
+      "key": "account:mear.near",
+      "firstSeen": "2026-11-01T16:58:17.385Z",
+      "lastSeen": "2026-11-01T16:58:17.385Z",
+      "scans": [
+        "2026-11-01"
+      ],
+      "review": {
+        "decision": "pending"
+      }
+    },
+    {
+      "subject": "meme_cooking.near",
+      "kind": "account",
+      "brand": "meme-cooking",
+      "brandName": "meme.cooking",
+      "label": "lookalike-active",
+      "severity": "medium",
+      "score": 35,
+      "category": "impersonation",
+      "evidence": [
+        "Name: a different-separator copy of meme-cooking.near.",
+        "Created 2024-10-16 by meteor-relayer.near (745 days before the scan).",
+        "18 transactions, last on 2026-02-17; balance 0.800 NEAR; 1 full-access key(s).",
+        "Inbound NEAR transfers signed by others (in the 18 transactions inspected): 4 from 1 sender(s), 0.8 NEAR in total."
+      ],
+      "facts": {
+        "createdAt": "2024-10-16",
+        "ageDays": 745,
+        "creator": "meteor-relayer.near",
+        "creationTx": "GTXF9nhuyoAAV8zAisvBtbJfHJhxaC9kMXJkR8fwxj55",
+        "txsCount": 18,
+        "lastActivity": "2026-02-17",
+        "daysSinceActivity": 257,
+        "isContract": false,
+        "codeHash": "11111111111111111111111111111111",
+        "balanceNear": 0.79963,
+        "fullAccessKeys": 1,
+        "inboundTransfers": 4,
+        "inboundNear": 0.8,
+        "distinctSenders": 1,
+        "dustTransfers": 0,
+        "keyControls": 0,
+        "outboundTransfers": 0,
+        "sameOperator": [],
+        "sharesKeyWithOfficial": [],
+        "imitates": "meme-cooking.near",
+        "fuzzer": "separator",
+        "signals": [
+          "CLOSE_LOOKALIKE"
+        ]
+      },
+      "links": {
+        "explorer": "https://nearblocks.io/address/meme_cooking.near"
+      },
+      "key": "account:meme_cooking.near",
+      "firstSeen": "2026-11-01T16:58:17.385Z",
+      "lastSeen": "2026-11-01T16:58:17.385Z",
+      "scans": [
+        "2026-11-01"
+      ],
+      "review": {
+        "decision": "pending"
+      }
+    },
+    {
+      "subject": "mene-cooking.near",
+      "kind": "account",
+      "brand": "meme-cooking",
+      "brandName": "meme.cooking",
+      "label": "lookalike-active",
+      "severity": "medium",
+      "score": 45,
+      "category": "impersonation",
+      "evidence": [
+        "Name: a lookalike-letter copy of meme-cooking.near.",
+        "Created 2025-11-10 by titiku.near (355 days before the scan).",
+        "4 transactions, last on 2025-11-20; balance 0.000 NEAR; 1 full-access key(s).",
+        "Its full-access key also controls 50+ other accounts (e.g. aaatam.near, bu260797.near, divakaquhop.near, krchagin.near, trsnsferencia.near, scotp56.near): a name collector.",
+        "Its creator titiku.near created 92 of the lookalikes found in this scan: a name collector or a campaign."
+      ],
+      "facts": {
+        "createdAt": "2025-11-10",
+        "ageDays": 355,
+        "creator": "titiku.near",
+        "creationTx": "Ecs7JnqPhZjCqbU91xs5XjU21b87FNUcpJdiGLVEwP5H",
+        "txsCount": 4,
+        "lastActivity": "2025-11-20",
+        "daysSinceActivity": 345,
+        "isContract": false,
+        "codeHash": "11111111111111111111111111111111",
+        "balanceNear": 0.00001,
+        "fullAccessKeys": 1,
+        "inboundTransfers": 0,
+        "inboundNear": 0,
+        "distinctSenders": 0,
+        "dustTransfers": 0,
+        "keyControls": 50,
+        "outboundTransfers": 0,
+        "sameOperator": [],
+        "sharesKeyWithOfficial": [],
+        "imitates": "meme-cooking.near",
+        "fuzzer": "homoglyph",
+        "signals": [
+          "CLOSE_LOOKALIKE",
+          "RECENT_ACCOUNT",
+          "KEY_CONTROLS_MANY",
+          "SAME_CREATOR"
+        ]
+      },
+      "links": {
+        "explorer": "https://nearblocks.io/address/mene-cooking.near"
+      },
+      "key": "account:mene-cooking.near",
+      "firstSeen": "2026-11-01T16:58:17.385Z",
+      "lastSeen": "2026-11-01T16:58:17.385Z",
+      "scans": [
+        "2026-11-01"
+      ],
+      "review": {
+        "decision": "pending"
+      }
+    },
+    {
+      "subject": "meta-pool-official.near",
+      "kind": "account",
+      "brand": "meta-pool",
+      "brandName": "Meta Pool",
+      "label": "lookalike-active",
+      "severity": "medium",
+      "score": 45,
+      "category": "impersonation",
+      "evidence": [
+        "Name: the brand name plus a word of meta-pool.near with the lure word \"official\".",
+        "Created 2023-02-02 by meteorbot.near (1367 days before the scan).",
+        "2465 transactions, last on 2026-05-27; balance 4.578 NEAR; 3 full-access key(s).",
+        "Its creator meteorbot.near created 3 of the lookalikes found in this scan: a name collector or a campaign.",
+        "Older than two years with 2465 transactions: likely someone's own long-used account."
+      ],
+      "facts": {
+        "createdAt": "2023-02-02",
+        "ageDays": 1367,
+        "creator": "meteorbot.near",
+        "creationTx": "D2zTx12fJaGuYE6E839qA3Bbus6p5T3Kv1my85pPphbF",
+        "txsCount": 2465,
+        "lastActivity": "2026-05-27",
+        "daysSinceActivity": 157,
+        "isContract": false,
+        "codeHash": "11111111111111111111111111111111",
+        "balanceNear": 4.577849,
+        "fullAccessKeys": 3,
+        "inboundTransfers": 0,
+        "inboundNear": 0,
+        "distinctSenders": 0,
+        "dustTransfers": 0,
+        "keyControls": 1,
+        "outboundTransfers": 0,
+        "sameOperator": [],
+        "sharesKeyWithOfficial": [],
+        "imitates": "meta-pool.near",
+        "fuzzer": "lure-suffix",
+        "signals": [
+          "LURE_WORD",
+          "SAME_CREATOR",
+          "ESTABLISHED_HISTORY"
+        ]
+      },
+      "links": {
+        "explorer": "https://nearblocks.io/address/meta-pool-official.near"
+      },
+      "key": "account:meta-pool-official.near",
+      "firstSeen": "2026-11-01T16:58:17.385Z",
+      "lastSeen": "2026-11-01T16:58:17.385Z",
+      "scans": [
+        "2026-11-01"
+      ],
+      "review": {
+        "decision": "pending"
+      }
+    },
+    {
+      "subject": "metapool-official.near",
+      "kind": "account",
+      "brand": "meta-pool",
+      "brandName": "Meta Pool",
+      "label": "lookalike-active",
+      "severity": "medium",
+      "score": 35,
+      "category": "impersonation",
+      "evidence": [
+        "Name: the brand name plus a word of the Meta Pool name \"metapool\" with the lure word \"official\".",
+        "Created 2023-01-26 by nearmultiverse.near (1374 days before the scan).",
+        "30 transactions, last on 2026-03-20; balance 0.054 NEAR; 2 full-access key(s)."
+      ],
+      "facts": {
+        "createdAt": "2023-01-26",
+        "ageDays": 1374,
+        "creator": "nearmultiverse.near",
+        "creationTx": "HaVvsWkMgps5NkFrGMhp6ehvy1YRybx7DnYAg85xc7Nj",
+        "txsCount": 30,
+        "lastActivity": "2026-03-20",
+        "daysSinceActivity": 225,
+        "isContract": false,
+        "codeHash": "11111111111111111111111111111111",
+        "balanceNear": 0.05365,
+        "fullAccessKeys": 2,
+        "inboundTransfers": 0,
+        "inboundNear": 0,
+        "distinctSenders": 0,
+        "dustTransfers": 0,
+        "keyControls": 0,
+        "outboundTransfers": 1,
+        "sameOperator": [],
+        "sharesKeyWithOfficial": [],
+        "imitates": "metapool.near",
+        "fuzzer": "lure-suffix",
+        "signals": [
+          "LURE_WORD"
+        ]
+      },
+      "links": {
+        "explorer": "https://nearblocks.io/address/metapool-official.near"
+      },
+      "key": "account:metapool-official.near",
+      "firstSeen": "2026-11-01T16:58:17.385Z",
+      "lastSeen": "2026-11-01T16:58:17.385Z",
+      "scans": [
+        "2026-11-01"
+      ],
+      "review": {
+        "decision": "pending"
+      }
+    },
+    {
+      "subject": "metapools.near",
+      "kind": "account",
+      "brand": "meta-pool",
+      "brandName": "Meta Pool",
+      "label": "fake-token",
+      "severity": "critical",
+      "score": 100,
+      "category": "fake-token",
+      "evidence": [
+        "Name: an extra-trailing-character copy of the Meta Pool name \"metapool\".",
+        "Created 2024-05-18 by burrowfinancedao.near (897 days before the scan).",
+        "578 transactions, last on 2026-10-01; balance 25.362 NEAR; 2 full-access key(s).",
+        "A contract is deployed (code hash 54Gq7DP3nGisN1ukELWDtfSRkJiLZLskUHF5U1pB9NUE).",
+        "It is a NEP-141 token named \"$Meta Pool Rewards (https://metapools.org)\" (MetaPools.org), using the Meta Pool name, held by 9,434 accounts.",
+        "Its token name advertises a website (https://metapools.org): the fake-airdrop pattern, where a \"rewards\" token sent to many wallets lures holders to a phishing site.",
+        "1 dust transfer(s) under 0.05 NEAR from others (typical of address poisoning aimed at this account's owner; not counted as payments).",
+        "Linked to other lookalikes found in this scan (shared full-access key, or creator/created): burrowfinancedao.near.",
+        "Older than two years with 578 transactions: likely someone's own long-used account."
+      ],
+      "facts": {
+        "createdAt": "2024-05-18",
+        "ageDays": 897,
+        "creator": "burrowfinancedao.near",
+        "creationTx": "jcM7RmcpbXuB3krLo66mWx5xRyxJiZhv3gVv9ZKPnom",
+        "txsCount": 578,
+        "lastActivity": "2026-10-01",
+        "daysSinceActivity": 30,
+        "isContract": true,
+        "codeHash": "54Gq7DP3nGisN1ukELWDtfSRkJiLZLskUHF5U1pB9NUE",
+        "balanceNear": 25.362089,
+        "ft": {
+          "name": "$Meta Pool Rewards (https://metapools.org)",
+          "symbol": "MetaPools.org",
+          "decimals": 24
+        },
+        "ftHolders": 9434,
+        "fullAccessKeys": 2,
+        "inboundTransfers": 0,
+        "inboundNear": 0,
+        "distinctSenders": 0,
+        "dustTransfers": 1,
+        "keyControls": 0,
+        "outboundTransfers": 1,
+        "sameOperator": [
+          "burrowfinancedao.near"
+        ],
+        "sharesKeyWithOfficial": [],
+        "imitates": "metapool.near",
+        "fuzzer": "addition",
+        "signals": [
+          "TYPO",
+          "HAS_CONTRACT",
+          "FT_COPIES_BRAND",
+          "METADATA_LURE_URL",
+          "SAME_OPERATOR",
+          "ESTABLISHED_HISTORY"
+        ]
+      },
+      "links": {
+        "explorer": "https://nearblocks.io/address/metapools.near"
+      },
+      "key": "account:metapools.near",
+      "firstSeen": "2026-11-01T16:58:17.385Z",
+      "lastSeen": "2026-11-01T16:58:17.385Z",
+      "scans": [
+        "2026-11-01"
+      ],
+      "review": {
+        "decision": "pending"
+      }
+    },
+    {
+      "subject": "meteor_waliet.near",
+      "kind": "account",
+      "brand": "meteor",
+      "brandName": "Meteor Wallet",
+      "label": "lookalike-dormant",
+      "severity": "medium",
+      "score": 35,
+      "category": "impersonation",
+      "evidence": [
+        "Name: a lookalike-letter copy of the Meteor Wallet name \"meteor_wallet\".",
+        "Created 2025-10-22 by meteor-relayer.near (375 days before the scan).",
+        "7 transactions, last on 2025-10-24; balance 0.201 NEAR; 1 full-access key(s).",
+        "Inbound NEAR transfers signed by others (in the 7 transactions inspected): 2 from 2 sender(s), 52.869 NEAR in total.",
+        "1 dust transfer(s) under 0.05 NEAR from others (typical of address poisoning aimed at this account's owner; not counted as payments)."
+      ],
+      "facts": {
+        "createdAt": "2025-10-22",
+        "ageDays": 375,
+        "creator": "meteor-relayer.near",
+        "creationTx": "7m4eRqdRnP3wcBzYGnhRYB3XtfAC4jL8zKgVNT1MJwUN",
+        "txsCount": 7,
+        "lastActivity": "2025-10-24",
+        "daysSinceActivity": 373,
+        "isContract": false,
+        "codeHash": "11111111111111111111111111111111",
+        "balanceNear": 0.201085,
+        "fullAccessKeys": 1,
+        "inboundTransfers": 2,
+        "inboundNear": 52.869,
+        "distinctSenders": 2,
+        "dustTransfers": 1,
+        "keyControls": 0,
+        "outboundTransfers": 1,
+        "sameOperator": [],
+        "sharesKeyWithOfficial": [],
+        "imitates": "meteor_wallet.near",
+        "fuzzer": "homoglyph",
+        "signals": [
+          "CLOSE_LOOKALIKE",
+          "DORMANT"
+        ]
+      },
+      "links": {
+        "explorer": "https://nearblocks.io/address/meteor_waliet.near"
+      },
+      "key": "account:meteor_waliet.near",
+      "firstSeen": "2026-11-01T16:58:17.385Z",
+      "lastSeen": "2026-11-01T16:58:17.385Z",
+      "scans": [
+        "2026-11-01"
+      ],
+      "review": {
+        "decision": "pending"
+      }
+    },
+    {
+      "subject": "near_ai.near",
+      "kind": "account",
+      "brand": "near-ai",
+      "brandName": "NEAR AI",
+      "label": "lookalike-active",
+      "severity": "medium",
+      "score": 35,
+      "category": "impersonation",
+      "evidence": [
+        "Name: a different-separator copy of the NEAR AI name \"near-ai\".",
+        "Created 2024-03-13 by meteor-gastank.near (963 days before the scan).",
+        "859 transactions, last on 2026-10-08; balance 0.965 NEAR; 1 full-access key(s).",
+        "Inbound NEAR transfers signed by others (in the 21 transactions inspected): 2 from 1 sender(s), 3700 NEAR in total.",
+        "Older than two years with 859 transactions: likely someone's own long-used account."
+      ],
+      "facts": {
+        "createdAt": "2024-03-13",
+        "ageDays": 963,
+        "creator": "meteor-gastank.near",
+        "creationTx": "6dwCA5Q3JikD262Bu4uhCnWmp4p8gpMMpNopqLdwQWKA",
+        "txsCount": 859,
+        "lastActivity": "2026-10-08",
+        "daysSinceActivity": 23,
+        "isContract": false,
+        "codeHash": "11111111111111111111111111111111",
+        "balanceNear": 0.965486,
+        "fullAccessKeys": 1,
+        "inboundTransfers": 2,
+        "inboundNear": 3700,
+        "distinctSenders": 1,
+        "dustTransfers": 0,
+        "keyControls": 0,
+        "outboundTransfers": 3,
+        "sameOperator": [],
+        "sharesKeyWithOfficial": [],
+        "imitates": "near-ai.near",
+        "fuzzer": "separator",
+        "signals": [
+          "CLOSE_LOOKALIKE",
+          "ESTABLISHED_HISTORY"
+        ]
+      },
+      "links": {
+        "explorer": "https://nearblocks.io/address/near_ai.near"
+      },
+      "key": "account:near_ai.near",
+      "firstSeen": "2026-11-01T16:58:17.385Z",
+      "lastSeen": "2026-11-01T16:58:17.385Z",
+      "scans": [
+        "2026-11-01"
+      ],
+      "review": {
+        "decision": "pending"
+      }
+    },
+    {
+      "subject": "near_mobile.near",
+      "kind": "account",
+      "brand": "near-mobile",
+      "brandName": "NEAR Mobile (Peersyst)",
+      "label": "lookalike-active",
+      "severity": "medium",
+      "score": 30,
+      "category": "impersonation",
+      "evidence": [
+        "Name: a different-separator copy of the NEAR Mobile (Peersyst) name \"near-mobile\".",
+        "Created 2023-06-01 by ferranprat12.near (1248 days before the scan).",
+        "27583 transactions, last on 2026-11-01; balance 12.507 NEAR; 1 full-access key(s).",
+        "Older than two years with 27583 transactions: likely someone's own long-used account."
+      ],
+      "facts": {
+        "createdAt": "2023-06-01",
+        "ageDays": 1248,
+        "creator": "ferranprat12.near",
+        "creationTx": "8qJzYkzyZEvb3JfKTrr4CXUNqFaZMA8hmQ35zCzqve9w",
+        "txsCount": 27583,
+        "lastActivity": "2026-11-01",
+        "daysSinceActivity": -1,
+        "isContract": false,
+        "codeHash": "11111111111111111111111111111111",
+        "balanceNear": 12.507255,
+        "fullAccessKeys": 1,
+        "inboundTransfers": 0,
+        "inboundNear": 0,
+        "distinctSenders": 0,
+        "dustTransfers": 0,
+        "keyControls": 7,
+        "outboundTransfers": 0,
+        "sameOperator": [],
+        "sharesKeyWithOfficial": [],
+        "imitates": "near-mobile.near",
+        "fuzzer": "separator",
+        "signals": [
+          "CLOSE_LOOKALIKE",
+          "ESTABLISHED_HISTORY"
+        ]
+      },
+      "links": {
+        "explorer": "https://nearblocks.io/address/near_mobile.near"
+      },
+      "key": "account:near_mobile.near",
+      "firstSeen": "2026-11-01T16:58:17.385Z",
+      "lastSeen": "2026-11-01T16:58:17.385Z",
+      "scans": [
+        "2026-11-01"
+      ],
+      "review": {
+        "decision": "pending"
+      }
+    },
+    {
+      "subject": "nearai.near",
+      "kind": "account",
+      "brand": "near-ai",
+      "brandName": "NEAR AI",
+      "label": "lookalike-active",
+      "severity": "medium",
+      "score": 30,
+      "category": "impersonation",
+      "evidence": [
+        "Name: a different-separator copy of the NEAR AI name \"near-ai\".",
+        "Created 2021-05-15 by fbf442f4c1098cd95a798d9e19ba04c8b9440044dd8308882dd80924df8744db (1996 days before the scan).",
+        "201 transactions, last on 2026-08-15; balance 0.078 NEAR; 9 full-access key(s).",
+        "Older than two years with 201 transactions: likely someone's own long-used account."
+      ],
+      "facts": {
+        "createdAt": "2021-05-15",
+        "ageDays": 1996,
+        "creator": "fbf442f4c1098cd95a798d9e19ba04c8b9440044dd8308882dd80924df8744db",
+        "creationTx": "HeqZPh7jaUtqmKZMTZRyTXF7okhhwiPmyEFwb3imNqog",
+        "txsCount": 201,
+        "lastActivity": "2026-08-15",
+        "daysSinceActivity": 78,
+        "isContract": false,
+        "codeHash": "11111111111111111111111111111111",
+        "balanceNear": 0.07774,
+        "fullAccessKeys": 9,
+        "inboundTransfers": 0,
+        "inboundNear": 0,
+        "distinctSenders": 0,
+        "dustTransfers": 0,
+        "keyControls": 0,
+        "outboundTransfers": 0,
+        "sameOperator": [],
+        "sharesKeyWithOfficial": [],
+        "imitates": "near-ai.near",
+        "fuzzer": "separator",
+        "signals": [
+          "CLOSE_LOOKALIKE",
+          "ESTABLISHED_HISTORY"
+        ]
+      },
+      "links": {
+        "explorer": "https://nearblocks.io/address/nearai.near"
+      },
+      "key": "account:nearai.near",
+      "firstSeen": "2026-11-01T16:58:17.385Z",
+      "lastSeen": "2026-11-01T16:58:17.385Z",
+      "scans": [
+        "2026-11-01"
+      ],
+      "review": {
+        "decision": "pending"
+      }
+    },
+    {
+      "subject": "nearailogin.near",
+      "kind": "account",
+      "brand": "near-ai",
+      "brandName": "NEAR AI",
+      "label": "lookalike-active",
+      "severity": "medium",
+      "score": 40,
+      "category": "impersonation",
+      "evidence": [
+        "Name: the brand name plus a word of the NEAR AI name \"nearai\" with the lure word \"login\".",
+        "Created 2026-07-03 by free-name.herewallet.near (121 days before the scan).",
+        "1 transactions, last on 2026-07-03; balance 0.000 NEAR; 1 full-access key(s)."
+      ],
+      "facts": {
+        "createdAt": "2026-07-03",
+        "ageDays": 121,
+        "creator": "free-name.herewallet.near",
+        "creationTx": "G7zP6dkoh1E73Penc93xZVJEhC41LuMgeGuvZ8orLm1L",
+        "txsCount": 1,
+        "lastActivity": "2026-07-03",
+        "daysSinceActivity": 121,
+        "isContract": false,
+        "codeHash": "11111111111111111111111111111111",
+        "balanceNear": 0,
+        "fullAccessKeys": 1,
+        "inboundTransfers": 0,
+        "inboundNear": 0,
+        "distinctSenders": 0,
+        "dustTransfers": 0,
+        "keyControls": 0,
+        "outboundTransfers": 0,
+        "sameOperator": [],
+        "sharesKeyWithOfficial": [],
+        "imitates": "nearai.near",
+        "fuzzer": "lure-suffix",
+        "signals": [
+          "LURE_WORD",
+          "RECENT_ACCOUNT"
+        ]
+      },
+      "links": {
+        "explorer": "https://nearblocks.io/address/nearailogin.near"
+      },
+      "key": "account:nearailogin.near",
+      "firstSeen": "2026-11-01T16:58:17.385Z",
+      "lastSeen": "2026-11-01T16:58:17.385Z",
+      "scans": [
+        "2026-11-01"
+      ],
+      "review": {
+        "decision": "pending"
+      }
+    },
+    {
+      "subject": "nearal.near",
+      "kind": "account",
+      "brand": "near-ai",
+      "brandName": "NEAR AI",
+      "label": "lookalike-dormant",
+      "severity": "medium",
+      "score": 45,
+      "category": "impersonation",
+      "evidence": [
+        "Name: a lookalike-letter copy of the NEAR AI name \"nearai\".",
+        "Created 2024-03-21 by meteor-relayer.near (954 days before the scan).",
+        "6 transactions, last on 2024-03-21; balance 0.067 NEAR; 1 full-access key(s).",
+        "Inbound NEAR transfers signed by others (in the 6 transactions inspected): 2 from 1 sender(s), 19.419 NEAR in total.",
+        "Received 2.993 NEAR and sent 2.93 NEAR on to 0de65393967d695638c1d0acdb080d878332ff36728d36e0ac4bd5d00e9f44e6 within 6 minute(s): a collection pattern, or the owner's own pass-through."
+      ],
+      "facts": {
+        "createdAt": "2024-03-21",
+        "ageDays": 954,
+        "creator": "meteor-relayer.near",
+        "creationTx": "9rQMEkxtELJXGi9HtXHEF11LSgd8bPpxBqTZ9Fvo9uaJ",
+        "txsCount": 6,
+        "lastActivity": "2024-03-21",
+        "daysSinceActivity": 954,
+        "isContract": false,
+        "codeHash": "11111111111111111111111111111111",
+        "balanceNear": 0.06703,
+        "fullAccessKeys": 1,
+        "inboundTransfers": 2,
+        "inboundNear": 19.419,
+        "distinctSenders": 1,
+        "dustTransfers": 0,
+        "forwarded": {
+          "inNear": 2.993003,
+          "outNear": 2.93,
+          "minutes": 6,
+          "to": "0de65393967d695638c1d0acdb080d878332ff36728d36e0ac4bd5d00e9f44e6"
+        },
+        "keyControls": 0,
+        "outboundTransfers": 3,
+        "sameOperator": [],
+        "sharesKeyWithOfficial": [],
+        "imitates": "nearai.near",
+        "fuzzer": "homoglyph",
+        "signals": [
+          "CLOSE_LOOKALIKE",
+          "FORWARDED_QUICKLY",
+          "DORMANT"
+        ]
+      },
+      "links": {
+        "explorer": "https://nearblocks.io/address/nearal.near"
+      },
+      "key": "account:nearal.near",
+      "firstSeen": "2026-11-01T16:58:17.385Z",
+      "lastSeen": "2026-11-01T16:58:17.385Z",
+      "scans": [
+        "2026-11-01"
+      ],
+      "review": {
+        "decision": "pending"
+      }
+    },
+    {
+      "subject": "nearprotocolreward.near",
+      "kind": "account",
+      "brand": "near",
+      "brandName": "NEAR Protocol",
+      "label": "lookalike-active",
+      "severity": "medium",
+      "score": 50,
+      "category": "impersonation",
+      "evidence": [
+        "Name: the brand name plus a word of the NEAR Protocol name \"nearprotocol\" with the lure word \"reward\".",
+        "Created 2026-09-22 by 4d31fbb4f219a92ca1b4080d02791205fcd9899dbaa3c1b1bc0da0ae14fdf064 (40 days before the scan).",
+        "1 transactions, last on 2026-09-22; balance 0.000 NEAR; 1 full-access key(s)."
+      ],
+      "facts": {
+        "createdAt": "2026-09-22",
+        "ageDays": 40,
+        "creator": "4d31fbb4f219a92ca1b4080d02791205fcd9899dbaa3c1b1bc0da0ae14fdf064",
+        "creationTx": "6dNa6zsFE4D8zjiGw5jRCsKXPwsZafTob2cUktPk7cjh",
+        "txsCount": 1,
+        "lastActivity": "2026-09-22",
+        "daysSinceActivity": 40,
+        "isContract": false,
+        "codeHash": "11111111111111111111111111111111",
+        "balanceNear": 0,
+        "fullAccessKeys": 1,
+        "inboundTransfers": 0,
+        "inboundNear": 0,
+        "distinctSenders": 0,
+        "dustTransfers": 0,
+        "keyControls": 0,
+        "outboundTransfers": 0,
+        "sameOperator": [],
+        "sharesKeyWithOfficial": [],
+        "imitates": "nearprotocol.near",
+        "fuzzer": "lure-suffix",
+        "signals": [
+          "LURE_WORD",
+          "NEW_ACCOUNT"
+        ]
+      },
+      "links": {
+        "explorer": "https://nearblocks.io/address/nearprotocolreward.near"
+      },
+      "key": "account:nearprotocolreward.near",
+      "firstSeen": "2026-11-01T16:58:17.385Z",
+      "lastSeen": "2026-11-01T16:58:17.385Z",
+      "scans": [
+        "2026-11-01"
+      ],
+      "review": {
+        "decision": "pending"
+      }
+    },
+    {
+      "subject": "neme-cooking.near",
+      "kind": "account",
+      "brand": "meme-cooking",
+      "brandName": "meme.cooking",
+      "label": "lookalike-active",
+      "severity": "medium",
+      "score": 45,
+      "category": "impersonation",
+      "evidence": [
+        "Name: a lookalike-letter copy of meme-cooking.near.",
+        "Created 2025-11-10 by titiku.near (355 days before the scan).",
+        "4 transactions, last on 2025-11-20; balance 0.000 NEAR; 1 full-access key(s).",
+        "Its full-access key also controls 50+ other accounts (e.g. aaatam.near, bu260797.near, divakaquhop.near, krchagin.near, trsnsferencia.near, scotp56.near): a name collector.",
+        "Its creator titiku.near created 92 of the lookalikes found in this scan: a name collector or a campaign."
+      ],
+      "facts": {
+        "createdAt": "2025-11-10",
+        "ageDays": 355,
+        "creator": "titiku.near",
+        "creationTx": "3sLEwgVt23VghfvgFTBf57wPXySU3wrFWoFcydrfEvP2",
+        "txsCount": 4,
+        "lastActivity": "2025-11-20",
+        "daysSinceActivity": 345,
+        "isContract": false,
+        "codeHash": "11111111111111111111111111111111",
+        "balanceNear": 0.00001,
+        "fullAccessKeys": 1,
+        "inboundTransfers": 0,
+        "inboundNear": 0,
+        "distinctSenders": 0,
+        "dustTransfers": 0,
+        "keyControls": 50,
+        "outboundTransfers": 0,
+        "sameOperator": [],
+        "sharesKeyWithOfficial": [],
+        "imitates": "meme-cooking.near",
+        "fuzzer": "homoglyph",
+        "signals": [
+          "CLOSE_LOOKALIKE",
+          "RECENT_ACCOUNT",
+          "KEY_CONTROLS_MANY",
+          "SAME_CREATOR"
+        ]
+      },
+      "links": {
+        "explorer": "https://nearblocks.io/address/neme-cooking.near"
+      },
+      "key": "account:neme-cooking.near",
+      "firstSeen": "2026-11-01T16:58:17.385Z",
+      "lastSeen": "2026-11-01T16:58:17.385Z",
+      "scans": [
+        "2026-11-01"
+      ],
+      "review": {
+        "decision": "pending"
+      }
+    },
+    {
+      "subject": "neta-pool.near",
+      "kind": "account",
+      "brand": "meta-pool",
+      "brandName": "Meta Pool",
+      "label": "lookalike-active",
+      "severity": "medium",
+      "score": 45,
+      "category": "impersonation",
+      "evidence": [
+        "Name: a lookalike-letter copy of meta-pool.near.",
+        "Created 2025-11-06 by titiku.near (359 days before the scan).",
+        "8 transactions, last on 2025-12-31; balance 0.000 NEAR; 1 full-access key(s).",
+        "Its full-access key also controls 50+ other accounts (e.g. aaatam.near, bu260797.near, divakaquhop.near, krchagin.near, trsnsferencia.near, scotp56.near): a name collector.",
+        "Its creator titiku.near created 92 of the lookalikes found in this scan: a name collector or a campaign."
+      ],
+      "facts": {
+        "createdAt": "2025-11-06",
+        "ageDays": 359,
+        "creator": "titiku.near",
+        "creationTx": "4uRHh1nf334r8qn5oEMAWyNY3xzysLbMvE6B8bbarziU",
+        "txsCount": 8,
+        "lastActivity": "2025-12-31",
+        "daysSinceActivity": 305,
+        "isContract": false,
+        "codeHash": "11111111111111111111111111111111",
+        "balanceNear": 0.00001,
+        "fullAccessKeys": 1,
+        "inboundTransfers": 0,
+        "inboundNear": 0,
+        "distinctSenders": 0,
+        "dustTransfers": 0,
+        "keyControls": 50,
+        "outboundTransfers": 0,
+        "sameOperator": [],
+        "sharesKeyWithOfficial": [],
+        "imitates": "meta-pool.near",
+        "fuzzer": "homoglyph",
+        "signals": [
+          "CLOSE_LOOKALIKE",
+          "RECENT_ACCOUNT",
+          "KEY_CONTROLS_MANY",
+          "SAME_CREATOR"
+        ]
+      },
+      "links": {
+        "explorer": "https://nearblocks.io/address/neta-pool.near"
+      },
+      "key": "account:neta-pool.near",
+      "firstSeen": "2026-11-01T16:58:17.385Z",
+      "lastSeen": "2026-11-01T16:58:17.385Z",
+      "scans": [
+        "2026-11-01"
+      ],
+      "review": {
+        "decision": "pending"
+      }
+    },
+    {
+      "subject": "omni-bridge.near",
+      "kind": "account",
+      "brand": "omni-bridge",
+      "brandName": "Omni Bridge / Rainbow Bridge",
+      "label": "lookalike-active",
+      "severity": "medium",
+      "score": 35,
+      "category": "impersonation",
+      "evidence": [
+        "Name: a fake sub-account (dots replaced) of omni.bridge.near.",
+        "Created 2025-12-06 by meteor-relayer.near (329 days before the scan).",
+        "5 transactions, last on 2026-07-02; balance 0.000 NEAR; 1 full-access key(s)."
+      ],
+      "facts": {
+        "createdAt": "2025-12-06",
+        "ageDays": 329,
+        "creator": "meteor-relayer.near",
+        "creationTx": "6PKuN2F5DicC6gTVqzNLEymHwpvAGfHpXgXtMoBBcKWc",
+        "txsCount": 5,
+        "lastActivity": "2026-07-02",
+        "daysSinceActivity": 122,
+        "isContract": false,
+        "codeHash": "11111111111111111111111111111111",
+        "balanceNear": 0,
+        "fullAccessKeys": 1,
+        "inboundTransfers": 0,
+        "inboundNear": 0,
+        "distinctSenders": 0,
+        "dustTransfers": 0,
+        "keyControls": 0,
+        "outboundTransfers": 0,
+        "sameOperator": [],
+        "sharesKeyWithOfficial": [],
+        "imitates": "omni.bridge.near",
+        "fuzzer": "fake-sub-account",
+        "signals": [
+          "CLOSE_LOOKALIKE",
+          "RECENT_ACCOUNT"
+        ]
+      },
+      "links": {
+        "explorer": "https://nearblocks.io/address/omni-bridge.near"
+      },
+      "key": "account:omni-bridge.near",
+      "firstSeen": "2026-11-01T16:58:17.385Z",
+      "lastSeen": "2026-11-01T16:58:17.385Z",
+      "scans": [
+        "2026-11-01"
+      ],
+      "review": {
+        "decision": "pending"
+      }
+    },
+    {
+      "subject": "out_layer.near",
+      "kind": "account",
+      "brand": "outlayer",
+      "brandName": "OutLayer",
+      "label": "lookalike-active",
+      "severity": "medium",
+      "score": 35,
+      "category": "impersonation",
+      "evidence": [
+        "Name: a different-separator copy of the OutLayer name \"out-layer\".",
+        "Created 2025-11-06 by meteor-relayer.near (360 days before the scan).",
+        "7 transactions, last on 2025-11-30; balance 0.000 NEAR; 1 full-access key(s)."
+      ],
+      "facts": {
+        "createdAt": "2025-11-06",
+        "ageDays": 360,
+        "creator": "meteor-relayer.near",
+        "creationTx": "AcRqp9PJdMMEbAp9YGm1crQthVVC4qcqpKYv7se3XEWE",
+        "txsCount": 7,
+        "lastActivity": "2025-11-30",
+        "daysSinceActivity": 336,
+        "isContract": false,
+        "codeHash": "11111111111111111111111111111111",
+        "balanceNear": 0,
+        "fullAccessKeys": 1,
+        "inboundTransfers": 0,
+        "inboundNear": 0,
+        "distinctSenders": 0,
+        "dustTransfers": 0,
+        "keyControls": 0,
+        "outboundTransfers": 0,
+        "sameOperator": [],
+        "sharesKeyWithOfficial": [],
+        "imitates": "out-layer.near",
+        "fuzzer": "separator",
+        "signals": [
+          "CLOSE_LOOKALIKE",
+          "RECENT_ACCOUNT"
+        ]
+      },
+      "links": {
+        "explorer": "https://nearblocks.io/address/out_layer.near"
+      },
+      "key": "account:out_layer.near",
+      "firstSeen": "2026-11-01T16:58:17.385Z",
+      "lastSeen": "2026-11-01T16:58:17.385Z",
+      "scans": [
+        "2026-11-01"
+      ],
+      "review": {
+        "decision": "pending"
+      }
+    },
+    {
+      "subject": "ref-flnance.near",
+      "kind": "account",
+      "brand": "rhea",
+      "brandName": "Rhea Finance",
+      "label": "lookalike-dormant",
+      "severity": "medium",
+      "score": 45,
+      "category": "impersonation",
+      "evidence": [
+        "Name: a lookalike-letter copy of ref-finance.near.",
+        "Created 2024-02-08 by meteor-gastank.near (997 days before the scan).",
+        "3 transactions, last on 2024-02-08; balance 0.051 NEAR; 1 full-access key(s).",
+        "Inbound NEAR transfers signed by others (in the 3 transactions inspected): 1 from 1 sender(s), 629 NEAR in total.",
+        "Received 629 NEAR and sent 628.948 NEAR on to cea90c918d2fc131b4b92d997433e01cc9443460f4f55fda5aa66cba2333afff within 1 minute(s): a collection pattern, or the owner's own pass-through."
+      ],
+      "facts": {
+        "createdAt": "2024-02-08",
+        "ageDays": 997,
+        "creator": "meteor-gastank.near",
+        "creationTx": "5q8VJot8cqqtAYTtCkAcqi7RdM93Zks6QRwETLZFKbRs",
+        "txsCount": 3,
+        "lastActivity": "2024-02-08",
+        "daysSinceActivity": 997,
+        "isContract": false,
+        "codeHash": "11111111111111111111111111111111",
+        "balanceNear": 0.050985,
+        "fullAccessKeys": 1,
+        "inboundTransfers": 1,
+        "inboundNear": 629,
+        "distinctSenders": 1,
+        "dustTransfers": 0,
+        "forwarded": {
+          "inNear": 629,
+          "outNear": 628.94818,
+          "minutes": 1,
+          "to": "cea90c918d2fc131b4b92d997433e01cc9443460f4f55fda5aa66cba2333afff"
+        },
+        "keyControls": 0,
+        "outboundTransfers": 1,
+        "sameOperator": [],
+        "sharesKeyWithOfficial": [],
+        "imitates": "ref-finance.near",
+        "fuzzer": "homoglyph",
+        "signals": [
+          "CLOSE_LOOKALIKE",
+          "FORWARDED_QUICKLY",
+          "DORMANT"
+        ]
+      },
+      "links": {
+        "explorer": "https://nearblocks.io/address/ref-flnance.near"
+      },
+      "key": "account:ref-flnance.near",
+      "firstSeen": "2026-11-01T16:58:17.385Z",
+      "lastSeen": "2026-11-01T16:58:17.385Z",
+      "scans": [
+        "2026-11-01"
+      ],
+      "review": {
+        "decision": "pending"
+      }
+    },
+    {
+      "subject": "reflabs.near",
+      "kind": "account",
+      "brand": "rhea",
+      "brandName": "Rhea Finance",
+      "label": "lookalike-active",
+      "severity": "medium",
+      "score": 35,
+      "category": "impersonation",
+      "evidence": [
+        "Name: a different-separator copy of ref-labs.near.",
+        "Created 2022-07-26 by refchef.near (1559 days before the scan).",
+        "4 transactions, last on 2026-09-28; balance 20.100 NEAR; 1 full-access key(s).",
+        "Inbound NEAR transfers signed by others (in the 4 transactions inspected): 1 from 1 sender(s), 20 NEAR in total."
+      ],
+      "facts": {
+        "createdAt": "2022-07-26",
+        "ageDays": 1559,
+        "creator": "refchef.near",
+        "creationTx": "5odjURpffBkx8aLFbu6VFeSJanQNrZgqi9hPpuQzBwNX",
+        "txsCount": 4,
+        "lastActivity": "2026-09-28",
+        "daysSinceActivity": 34,
+        "isContract": false,
+        "codeHash": "11111111111111111111111111111111",
+        "balanceNear": 20.099917,
+        "fullAccessKeys": 1,
+        "inboundTransfers": 1,
+        "inboundNear": 20,
+        "distinctSenders": 1,
+        "dustTransfers": 0,
+        "keyControls": 0,
+        "outboundTransfers": 0,
+        "sameOperator": [],
+        "sharesKeyWithOfficial": [],
+        "imitates": "ref-labs.near",
+        "fuzzer": "separator",
+        "signals": [
+          "CLOSE_LOOKALIKE"
+        ]
+      },
+      "links": {
+        "explorer": "https://nearblocks.io/address/reflabs.near"
+      },
+      "key": "account:reflabs.near",
+      "firstSeen": "2026-11-01T16:58:17.385Z",
+      "lastSeen": "2026-11-01T16:58:17.385Z",
+      "scans": [
+        "2026-11-01"
+      ],
+      "review": {
+        "decision": "pending"
+      }
+    },
+    {
+      "subject": "sender_wallet.near",
+      "kind": "account",
+      "brand": "sender",
+      "brandName": "Sender Wallet",
+      "label": "lookalike-active",
+      "severity": "medium",
+      "score": 30,
+      "category": "impersonation",
+      "evidence": [
+        "Name: a different-separator copy of the Sender Wallet name \"sender-wallet\".",
+        "Created 2022-02-19 by redbag.near (1716 days before the scan).",
+        "3 transactions, last on 2026-10-06; balance 0.100 NEAR; 1 full-access key(s)."
+      ],
+      "facts": {
+        "createdAt": "2022-02-19",
+        "ageDays": 1716,
+        "creator": "redbag.near",
+        "creationTx": "6D5CxeZE3rjUNmZS7z6cfWwQKH4ddouGj9eKgkojpwmD",
+        "txsCount": 3,
+        "lastActivity": "2026-10-06",
+        "daysSinceActivity": 26,
+        "isContract": false,
+        "codeHash": "11111111111111111111111111111111",
+        "balanceNear": 0.099917,
+        "fullAccessKeys": 1,
+        "inboundTransfers": 0,
+        "inboundNear": 0,
+        "distinctSenders": 0,
+        "dustTransfers": 0,
+        "keyControls": 0,
+        "outboundTransfers": 0,
+        "sameOperator": [],
+        "sharesKeyWithOfficial": [],
+        "imitates": "sender-wallet.near",
+        "fuzzer": "separator",
+        "signals": [
+          "CLOSE_LOOKALIKE"
+        ]
+      },
+      "links": {
+        "explorer": "https://nearblocks.io/address/sender_wallet.near"
+      },
+      "key": "account:sender_wallet.near",
+      "firstSeen": "2026-11-01T16:58:17.385Z",
+      "lastSeen": "2026-11-01T16:58:17.385Z",
+      "scans": [
+        "2026-11-01"
+      ],
+      "review": {
+        "decision": "pending"
+      }
+    },
+    {
+      "subject": "sweat.near",
+      "kind": "account",
+      "brand": "sweat",
+      "brandName": "Sweat Economy",
+      "label": "lookalike-active",
+      "severity": "medium",
+      "score": 30,
+      "category": "impersonation",
+      "evidence": [
+        "Name: a fake sub-account (dots replaced) of sweat.",
+        "Created 2021-03-20 by near-names.near (2051 days before the scan).",
+        "45 transactions, last on 2026-10-09; balance 1.103 NEAR; 1 full-access key(s)."
+      ],
+      "facts": {
+        "createdAt": "2021-03-20",
+        "ageDays": 2051,
+        "creator": "near-names.near",
+        "creationTx": "E7zH2sDaHUyh3GMmMsKJiCihHucb5mnAJjFbczRYkDKZ",
+        "txsCount": 45,
+        "lastActivity": "2026-10-09",
+        "daysSinceActivity": 23,
+        "isContract": false,
+        "codeHash": "11111111111111111111111111111111",
+        "balanceNear": 1.103,
+        "fullAccessKeys": 1,
+        "inboundTransfers": 0,
+        "inboundNear": 0,
+        "distinctSenders": 0,
+        "dustTransfers": 0,
+        "keyControls": 0,
+        "outboundTransfers": 0,
+        "sameOperator": [],
+        "sharesKeyWithOfficial": [],
+        "imitates": "sweat",
+        "fuzzer": "fake-sub-account",
+        "signals": [
+          "CLOSE_LOOKALIKE"
+        ]
+      },
+      "links": {
+        "explorer": "https://nearblocks.io/address/sweat.near"
+      },
+      "key": "account:sweat.near",
+      "firstSeen": "2026-11-01T16:58:17.385Z",
+      "lastSeen": "2026-11-01T16:58:17.385Z",
+      "scans": [
+        "2026-11-01"
+      ],
+      "review": {
+        "decision": "pending"
+      }
+    },
+    {
+      "subject": "sweatwallet.near",
+      "kind": "account",
+      "brand": "sweat",
+      "brandName": "Sweat Economy",
+      "label": "lookalike-active",
+      "severity": "medium",
+      "score": 40,
+      "category": "impersonation",
+      "evidence": [
+        "Name: a different-separator copy of the Sweat Economy name \"sweat-wallet\".",
+        "Created 2022-04-27 by real_og.near (1649 days before the scan).",
+        "19 transactions, last on 2025-11-26; balance 0.140 NEAR; 2 full-access key(s).",
+        "1 dust transfer(s) under 0.05 NEAR from others (typical of address poisoning aimed at this account's owner; not counted as payments).",
+        "Its creator real_og.near created 3 of the lookalikes found in this scan: a name collector or a campaign."
+      ],
+      "facts": {
+        "createdAt": "2022-04-27",
+        "ageDays": 1649,
+        "creator": "real_og.near",
+        "creationTx": "AdRswkJbSTrtjtd2963WV5yB6Z4TReq5tmoizQxPK5hT",
+        "txsCount": 19,
+        "lastActivity": "2025-11-26",
+        "daysSinceActivity": 339,
+        "isContract": false,
+        "codeHash": "11111111111111111111111111111111",
+        "balanceNear": 0.139958,
+        "fullAccessKeys": 2,
+        "inboundTransfers": 0,
+        "inboundNear": 0,
+        "distinctSenders": 0,
+        "dustTransfers": 1,
+        "keyControls": 0,
+        "outboundTransfers": 0,
+        "sameOperator": [],
+        "sharesKeyWithOfficial": [],
+        "imitates": "sweat-wallet.near",
+        "fuzzer": "separator",
+        "signals": [
+          "CLOSE_LOOKALIKE",
+          "SAME_CREATOR"
+        ]
+      },
+      "links": {
+        "explorer": "https://nearblocks.io/address/sweatwallet.near"
+      },
+      "key": "account:sweatwallet.near",
+      "firstSeen": "2026-11-01T16:58:17.385Z",
+      "lastSeen": "2026-11-01T16:58:17.385Z",
+      "scans": [
+        "2026-11-01"
+      ],
+      "review": {
+        "decision": "pending"
+      }
+    },
+    {
+      "subject": "tethertoken.near",
+      "kind": "account",
+      "brand": "tether-usdt",
+      "brandName": "Tether USDt (NEAR)",
+      "label": "lookalike-active",
+      "severity": "medium",
+      "score": 30,
+      "category": "impersonation",
+      "evidence": [
+        "Name: a different-separator copy of tether-token.near.",
+        "Created 2022-09-14 by 03ae5523cf839f3fbb3889d58eba3e9bb08469e7b4ae9609fe2e27a42b0a23f7 (1509 days before the scan).",
+        "4 transactions, last on 2026-08-02; balance 0.100 NEAR; 2 full-access key(s)."
+      ],
+      "facts": {
+        "createdAt": "2022-09-14",
+        "ageDays": 1509,
+        "creator": "03ae5523cf839f3fbb3889d58eba3e9bb08469e7b4ae9609fe2e27a42b0a23f7",
+        "creationTx": "6VwbNWGHcQTr1pDbxJiEwYQTDxQP32HG6dpNcXKrmCC8",
+        "txsCount": 4,
+        "lastActivity": "2026-08-02",
+        "daysSinceActivity": 90,
+        "isContract": false,
+        "codeHash": "11111111111111111111111111111111",
+        "balanceNear": 0.099958,
+        "fullAccessKeys": 2,
+        "inboundTransfers": 0,
+        "inboundNear": 0,
+        "distinctSenders": 0,
+        "dustTransfers": 0,
+        "keyControls": 0,
+        "outboundTransfers": 0,
+        "sameOperator": [],
+        "sharesKeyWithOfficial": [],
+        "imitates": "tether-token.near",
+        "fuzzer": "separator",
+        "signals": [
+          "CLOSE_LOOKALIKE"
+        ]
+      },
+      "links": {
+        "explorer": "https://nearblocks.io/address/tethertoken.near"
+      },
+      "key": "account:tethertoken.near",
+      "firstSeen": "2026-11-01T16:58:17.385Z",
+      "lastSeen": "2026-11-01T16:58:17.385Z",
+      "scans": [
+        "2026-11-01"
+      ],
+      "review": {
+        "decision": "pending"
+      }
+    },
+    {
+      "subject": "usdt-tether-token.near",
+      "kind": "account",
+      "brand": "tether-usdt",
+      "brandName": "Tether USDt (NEAR)",
+      "label": "lookalike-active",
+      "severity": "medium",
+      "score": 35,
+      "category": "impersonation",
+      "evidence": [
+        "Name: a fake sub-account (dots replaced) of usdt.tether-token.near.",
+        "Created 2025-12-06 by meteor-relayer.near (329 days before the scan).",
+        "2 transactions, last on 2025-12-07; balance 0.000 NEAR; 1 full-access key(s)."
+      ],
+      "facts": {
+        "createdAt": "2025-12-06",
+        "ageDays": 329,
+        "creator": "meteor-relayer.near",
+        "creationTx": "3Hp3kjuMtRvb62XVsohFMj29mLPpLLsWPQvfQRJEXnKG",
+        "txsCount": 2,
+        "lastActivity": "2025-12-07",
+        "daysSinceActivity": 328,
+        "isContract": false,
+        "codeHash": "11111111111111111111111111111111",
+        "balanceNear": 0,
+        "fullAccessKeys": 1,
+        "inboundTransfers": 0,
+        "inboundNear": 0,
+        "distinctSenders": 0,
+        "dustTransfers": 0,
+        "keyControls": 0,
+        "outboundTransfers": 0,
+        "sameOperator": [],
+        "sharesKeyWithOfficial": [],
+        "imitates": "usdt.tether-token.near",
+        "fuzzer": "fake-sub-account",
+        "signals": [
+          "CLOSE_LOOKALIKE",
+          "RECENT_ACCOUNT"
+        ]
+      },
+      "links": {
+        "explorer": "https://nearblocks.io/address/usdt-tether-token.near"
+      },
+      "key": "account:usdt-tether-token.near",
+      "firstSeen": "2026-11-01T16:58:17.385Z",
+      "lastSeen": "2026-11-01T16:58:17.385Z",
+      "scans": [
+        "2026-11-01"
+      ],
+      "review": {
+        "decision": "pending"
+      }
+    },
+    {
+      "subject": "wrap_near.near",
+      "kind": "account",
+      "brand": "near",
+      "brandName": "NEAR Protocol",
+      "label": "lookalike-active",
+      "severity": "medium",
+      "score": 35,
+      "category": "impersonation",
+      "evidence": [
+        "Name: a different-separator copy of the NEAR Protocol name \"wrap-near\".",
+        "Created 2025-12-21 by meteor-relayer.near (315 days before the scan).",
+        "6 transactions, last on 2025-12-21; balance 0.000 NEAR; 1 full-access key(s)."
+      ],
+      "facts": {
+        "createdAt": "2025-12-21",
+        "ageDays": 315,
+        "creator": "meteor-relayer.near",
+        "creationTx": "CMp2YUFEvvmtRTHrHV5GQkHNrXKQcPDpt82aGJG3BZ3c",
+        "txsCount": 6,
+        "lastActivity": "2025-12-21",
+        "daysSinceActivity": 314,
+        "isContract": false,
+        "codeHash": "11111111111111111111111111111111",
+        "balanceNear": 0,
+        "fullAccessKeys": 1,
+        "inboundTransfers": 0,
+        "inboundNear": 0,
+        "distinctSenders": 0,
+        "dustTransfers": 0,
+        "keyControls": 0,
+        "outboundTransfers": 0,
+        "sameOperator": [],
+        "sharesKeyWithOfficial": [],
+        "imitates": "wrap-near.near",
+        "fuzzer": "separator",
+        "signals": [
+          "CLOSE_LOOKALIKE",
+          "RECENT_ACCOUNT"
+        ]
+      },
+      "links": {
+        "explorer": "https://nearblocks.io/address/wrap_near.near"
+      },
+      "key": "account:wrap_near.near",
+      "firstSeen": "2026-11-01T16:58:17.385Z",
+      "lastSeen": "2026-11-01T16:58:17.385Z",
+      "scans": [
+        "2026-11-01"
+      ],
+      "review": {
+        "decision": "pending"
+      }
+    },
+    {
+      "subject": "xparas.near",
+      "kind": "account",
+      "brand": "paras",
+      "brandName": "Paras",
+      "label": "lookalike-active",
+      "severity": "medium",
+      "score": 35,
+      "category": "impersonation",
+      "evidence": [
+        "Name: a fake sub-account (dots replaced) of x.paras.near.",
+        "Created 2026-03-19 by meteor-relayer.near (227 days before the scan).",
+        "1 transactions, last on 2026-03-19; balance 0.000 NEAR; 1 full-access key(s)."
+      ],
+      "facts": {
+        "createdAt": "2026-03-19",
+        "ageDays": 227,
+        "creator": "meteor-relayer.near",
+        "creationTx": "3XkaL7uxg4KwChq4FH5otSUFdEPb49ogaoT9UbPSDXFZ",
+        "txsCount": 1,
+        "lastActivity": "2026-03-19",
+        "daysSinceActivity": 227,
+        "isContract": false,
+        "codeHash": "11111111111111111111111111111111",
+        "balanceNear": 0,
+        "fullAccessKeys": 1,
+        "inboundTransfers": 0,
+        "inboundNear": 0,
+        "distinctSenders": 0,
+        "dustTransfers": 0,
+        "keyControls": 0,
+        "outboundTransfers": 0,
+        "sameOperator": [],
+        "sharesKeyWithOfficial": [],
+        "imitates": "x.paras.near",
+        "fuzzer": "fake-sub-account",
+        "signals": [
+          "CLOSE_LOOKALIKE",
+          "RECENT_ACCOUNT"
+        ]
+      },
+      "links": {
+        "explorer": "https://nearblocks.io/address/xparas.near"
+      },
+      "key": "account:xparas.near",
+      "firstSeen": "2026-11-01T16:58:17.385Z",
+      "lastSeen": "2026-11-01T16:58:17.385Z",
+      "scans": [
+        "2026-11-01"
+      ],
+      "review": {
+        "decision": "pending"
+      }
+    },
+    {
+      "subject": "app-metapool.xyz",
+      "kind": "domain",
+      "brand": "meta-pool",
+      "brandName": "Meta Pool",
+      "label": "phishing-likely",
+      "severity": "high",
+      "score": 50,
+      "category": "phishing",
+      "evidence": [
+        "Brand name plus a phishing lure word",
+        "Already on public wallet blocklist(s): metamask",
+        "Page returned HTTP 502"
+      ],
+      "facts": {
+        "sources": [
+          "permutation"
+        ],
+        "fuzzer": "dictionary",
+        "dns": {
+          "a": [
+            "188.114.97.3",
+            "188.114.96.3"
+          ],
+          "ns": [
+            "nena.ns.cloudflare.com",
+            "kianchau.ns.cloudflare.com"
+          ],
+          "mx": []
+        },
+        "page": {
+          "status": 502,
+          "finalUrl": "https://app-metapool.xyz/",
+          "title": "app-metapool.xyz | 502: Bad gateway",
+          "signals": {
+            "walletPrompt": [],
+            "seedPhrase": [],
+            "secretForm": false,
+            "lure": [],
+            "drainerJs": [],
+            "parked": [],
+            "cryptoContext": [],
+            "interstitial": [],
+            "challenge": []
+          }
+        },
+        "similarity": {
+          "title": 0,
+          "text": 0,
+          "favicon": false,
+          "overall": 0
+        },
+        "listedOn": [
+          "metamask"
+        ],
+        "alreadyBlocked": true,
+        "registrar": "Dynadot Inc",
+        "registered": "2026-01-25T09:59:45.0Z"
+      },
+      "links": {
+        "defanged": "app-metapool[.]xyz"
+      },
+      "key": "domain:app-metapool.xyz",
+      "firstSeen": "2026-11-01T16:58:17.385Z",
+      "lastSeen": "2026-11-01T16:58:17.385Z",
+      "scans": [
+        "2026-11-01"
+      ],
+      "review": {
+        "decision": "pending"
+      }
+    },
+    {
+      "subject": "apprhea.finance",
+      "kind": "domain",
+      "brand": "rhea",
+      "brandName": "Rhea Finance",
+      "label": "phishing-likely",
+      "severity": "high",
+      "score": 51,
+      "category": "phishing",
+      "evidence": [
+        "Brand name plus a phishing lure word",
+        "One of 14 lookalikes on the same DNS account (derek.ns.cloudflare.com + serena.ns.cloudflare.com): a single operator",
+        "Already on public wallet blocklist(s): metamask"
+      ],
+      "facts": {
+        "sources": [
+          "permutation"
+        ],
+        "fuzzer": "dictionary",
+        "dns": {
+          "a": [
+            "188.114.96.11",
+            "188.114.97.11"
+          ],
+          "ns": [
+            "derek.ns.cloudflare.com",
+            "serena.ns.cloudflare.com"
+          ],
+          "mx": []
+        },
+        "page": {
+          "status": 200,
+          "finalUrl": "https://www.google.com/?b=t",
+          "title": "Google",
+          "signals": {
+            "secretForm": true,
+            "walletPrompt": [],
+            "seedPhrase": [],
+            "lure": [],
+            "drainerJs": [],
+            "parked": [],
+            "cryptoContext": [],
+            "interstitial": [],
+            "challenge": []
+          }
+        },
+        "similarity": {
+          "title": 0.09,
+          "text": 0,
+          "favicon": false,
+          "overall": 0.03
+        },
+        "listedOn": [
+          "metamask"
+        ],
+        "alreadyBlocked": true,
+        "registrar": "NICENIC INTERNATIONAL GROUP CO., LIMITED",
+        "registered": "2026-09-30T12:52:03.114Z"
+      },
+      "links": {
+        "defanged": "apprhea[.]finance"
+      },
+      "key": "domain:apprhea.finance",
+      "firstSeen": "2026-11-01T16:58:17.385Z",
+      "lastSeen": "2026-11-01T16:58:17.385Z",
+      "scans": [
+        "2026-11-01"
+      ],
+      "review": {
+        "decision": "pending"
+      }
+    },
+    {
+      "subject": "aurora-claim.com",
+      "kind": "domain",
+      "brand": "aurora",
+      "brandName": "Aurora",
+      "label": "lookalike-other-crypto",
+      "severity": "medium",
+      "score": 44,
+      "category": "impersonation",
+      "evidence": [
+        "Brand name plus a phishing lure word",
+        "Lookalike of your domain serving other crypto content (wallet)",
+        "Wallet-connect prompt/library: Connect wallet, window.ethereum, eth_requestAccounts",
+        "Drainer-style JS: setApprovalForAll, eth_signTypedData_v4"
+      ],
+      "facts": {
+        "sources": [
+          "permutation"
+        ],
+        "fuzzer": "dictionary",
+        "dns": {
+          "a": [
+            "195.189.60.154"
+          ],
+          "ns": [
+            "curitiba.ns.porkbun.com",
+            "salvador.ns.porkbun.com",
+            "fortaleza.ns.porkbun.com",
+            "maceio.ns.porkbun.com"
+          ],
+          "mx": [
+            "fwd1.porkbun.com",
+            "fwd2.porkbun.com"
+          ]
+        },
+        "page": {
+          "status": 200,
+          "finalUrl": "https://aurora-claim.com/",
+          "title": "Aurora — Join the Waitlist",
+          "signals": {
+            "walletPrompt": [
+              "Connect wallet",
+              "window.ethereum",
+              "eth_requestAccounts"
+            ],
+            "seedPhrase": [],
+            "secretForm": false,
+            "lure": [
+              "Claim"
+            ],
+            "drainerJs": [
+              "setApprovalForAll",
+              "eth_signTypedData_v4"
+            ],
+            "parked": [],
+            "cryptoContext": [
+              "wallet"
+            ],
+            "interstitial": [],
+            "challenge": []
+          }
+        },
+        "similarity": {
+          "title": 0.25,
+          "text": 0,
+          "favicon": false,
+          "overall": 0.09
+        },
+        "listedOn": [],
+        "alreadyBlocked": false
+      },
+      "links": {
+        "defanged": "aurora-claim[.]com"
+      },
+      "key": "domain:aurora-claim.com",
+      "firstSeen": "2026-11-01T16:58:17.385Z",
+      "lastSeen": "2026-11-01T16:58:17.385Z",
+      "scans": [
+        "2026-11-01"
+      ],
+      "review": {
+        "decision": "pending"
+      }
+    },
+    {
+      "subject": "aurorastake.com",
+      "kind": "domain",
+      "brand": "aurora",
+      "brandName": "Aurora",
+      "label": "lookalike-other-crypto",
+      "severity": "medium",
+      "score": 41,
+      "category": "impersonation",
+      "evidence": [
+        "Brand name plus a phishing lure word",
+        "Lookalike of your domain serving other crypto content (crypto, tokens, wallet)",
+        "Wallet-connect prompt/library: Connect your wallet"
+      ],
+      "facts": {
+        "sources": [
+          "permutation"
+        ],
+        "fuzzer": "dictionary",
+        "dns": {
+          "a": [
+            "216.150.1.1"
+          ],
+          "ns": [
+            "ns-141.awsdns-17.com",
+            "ns-902.awsdns-48.net",
+            "ns-1403.awsdns-47.org",
+            "ns-1893.awsdns-44.co.uk"
+          ],
+          "mx": []
+        },
+        "page": {
+          "status": 200,
+          "finalUrl": "https://www.aurorastake.com/",
+          "title": "AuroraStake",
+          "signals": {
+            "walletPrompt": [
+              "Connect your wallet"
+            ],
+            "seedPhrase": [],
+            "secretForm": false,
+            "lure": [
+              "rewards"
+            ],
+            "drainerJs": [],
+            "parked": [],
+            "cryptoContext": [
+              "crypto",
+              "tokens",
+              "wallet",
+              "Staking",
+              "blockchain",
+              "Ethereum"
+            ],
+            "interstitial": [],
+            "challenge": []
+          }
+        },
+        "similarity": {
+          "title": 0.26,
+          "text": 0,
+          "favicon": false,
+          "overall": 0.09
+        },
+        "listedOn": [],
+        "alreadyBlocked": false
+      },
+      "links": {
+        "defanged": "aurorastake[.]com"
+      },
+      "key": "domain:aurorastake.com",
+      "firstSeen": "2026-11-01T16:58:17.385Z",
+      "lastSeen": "2026-11-01T16:58:17.385Z",
+      "scans": [
+        "2026-11-01"
+      ],
+      "review": {
+        "decision": "pending"
+      }
+    },
+    {
+      "subject": "blackdragon.io",
+      "kind": "domain",
+      "brand": "blackdragon",
+      "brandName": "Black Dragon (BLACKDRAGON)",
+      "label": "impersonation",
+      "severity": "high",
+      "score": 50,
+      "category": "impersonation",
+      "evidence": [
+        "Official name on a different TLD",
+        "Page title resembles the official title (80%)",
+        "Brand named on the page (16x), including the title"
+      ],
+      "facts": {
+        "sources": [
+          "permutation"
+        ],
+        "fuzzer": "tld-swap",
+        "dns": {
+          "a": [
+            "188.114.96.3",
+            "188.114.97.3"
+          ],
+          "ns": [
+            "virginia.ns.cloudflare.com",
+            "titan.ns.cloudflare.com"
+          ],
+          "mx": [
+            "mail.blackdragon.io"
+          ]
+        },
+        "page": {
+          "status": 200,
+          "finalUrl": "https://www.blackdragon.io/",
+          "title": "Home - BlackDragon Platform : BlackDragon Platform",
+          "signals": {
+            "walletPrompt": [],
+            "seedPhrase": [],
+            "secretForm": false,
+            "lure": [],
+            "drainerJs": [],
+            "parked": [],
+            "cryptoContext": [
+              "Crypto",
+              "Token",
+              "Swap"
+            ],
+            "interstitial": [],
+            "challenge": []
+          }
+        },
+        "similarity": {
+          "title": 0.8,
+          "text": 0,
+          "favicon": false,
+          "overall": 0.28
+        },
+        "listedOn": [],
+        "alreadyBlocked": false
+      },
+      "links": {
+        "defanged": "blackdragon[.]io"
+      },
+      "key": "domain:blackdragon.io",
+      "firstSeen": "2026-11-01T16:58:17.385Z",
+      "lastSeen": "2026-11-01T16:58:17.385Z",
+      "scans": [
+        "2026-11-01"
+      ],
+      "review": {
+        "decision": "pending"
+      }
+    },
+    {
+      "subject": "claims-near.com",
+      "kind": "domain",
+      "brand": "near",
+      "brandName": "NEAR Protocol",
+      "label": "lookalike-other-crypto",
+      "severity": "medium",
+      "score": 42,
+      "category": "impersonation",
+      "evidence": [
+        "Brand name plus a phishing lure word",
+        "Lookalike of your domain serving other crypto content (wallet, Stake, Web3)",
+        "Wallet-connect prompt/library: connect your wallet, WalletConnect",
+        "Drainer-style JS: obfuscated-js(40387 _0x identifiers)"
+      ],
+      "facts": {
+        "sources": [
+          "permutation"
+        ],
+        "fuzzer": "dictionary",
+        "dns": {
+          "a": [
+            "188.114.97.3",
+            "188.114.96.3"
+          ],
+          "ns": [
+            "keaton.ns.cloudflare.com",
+            "bailey.ns.cloudflare.com"
+          ],
+          "mx": []
+        },
+        "page": {
+          "status": 200,
+          "finalUrl": "https://claims-near.com/",
+          "title": "Portfolio of 0x6f9b…8a1d | DeBank | Your go-to portfolio tracker for Ethereum and EVM",
+          "signals": {
+            "walletPrompt": [
+              "connect your wallet",
+              "WalletConnect"
+            ],
+            "seedPhrase": [],
+            "secretForm": false,
+            "lure": [
+              "Claim",
+              "Rewards",
+              "Migrate"
+            ],
+            "drainerJs": [
+              "obfuscated-js(40387 _0x identifiers)"
+            ],
+            "parked": [],
+            "cryptoContext": [
+              "wallet",
+              "Stake",
+              "Web3",
+              "Ethereum",
+              "USDC"
+            ],
+            "interstitial": [],
+            "challenge": []
+          }
+        },
+        "similarity": {
+          "title": 0.06,
+          "text": 0,
+          "favicon": false,
+          "overall": 0.02
+        },
+        "listedOn": [],
+        "alreadyBlocked": false
+      },
+      "links": {
+        "defanged": "claims-near[.]com"
+      },
+      "key": "domain:claims-near.com",
+      "firstSeen": "2026-11-01T16:58:17.385Z",
+      "lastSeen": "2026-11-01T16:58:17.385Z",
+      "scans": [
+        "2026-11-01"
+      ],
+      "review": {
+        "decision": "pending"
+      }
+    },
+    {
+      "subject": "ehea.finance",
+      "kind": "domain",
+      "brand": "rhea",
+      "brandName": "Rhea Finance",
+      "label": "phishing-likely",
+      "severity": "high",
+      "score": 51,
+      "category": "phishing",
+      "evidence": [
+        "Typosquat (replacement) of the official domain",
+        "One of 14 lookalikes on the same DNS account (derek.ns.cloudflare.com + serena.ns.cloudflare.com): a single operator",
+        "Already on public wallet blocklist(s): metamask"
+      ],
+      "facts": {
+        "sources": [
+          "permutation"
+        ],
+        "fuzzer": "replacement",
+        "dns": {
+          "a": [
+            "188.114.97.11",
+            "188.114.96.11"
+          ],
+          "ns": [
+            "derek.ns.cloudflare.com",
+            "serena.ns.cloudflare.com"
+          ],
+          "mx": []
+        },
+        "page": {
+          "status": 200,
+          "finalUrl": "https://www.google.com/?b=t",
+          "title": "Google",
+          "signals": {
+            "secretForm": true,
+            "walletPrompt": [],
+            "seedPhrase": [],
+            "lure": [],
+            "drainerJs": [],
+            "parked": [],
+            "cryptoContext": [],
+            "interstitial": [],
+            "challenge": []
+          }
+        },
+        "similarity": {
+          "title": 0.09,
+          "text": 0,
+          "favicon": false,
+          "overall": 0.03
+        },
+        "listedOn": [
+          "metamask"
+        ],
+        "alreadyBlocked": true,
+        "registrar": "NICENIC INTERNATIONAL GROUP CO., LIMITED",
+        "registered": "2026-09-27T21:33:35.928Z"
+      },
+      "links": {
+        "defanged": "ehea[.]finance"
+      },
+      "key": "domain:ehea.finance",
+      "firstSeen": "2026-11-01T16:58:17.385Z",
+      "lastSeen": "2026-11-01T16:58:17.385Z",
+      "scans": [
+        "2026-11-01"
+      ],
+      "review": {
+        "decision": "pending"
+      }
+    },
+    {
+      "subject": "fhea.finance",
+      "kind": "domain",
+      "brand": "rhea",
+      "brandName": "Rhea Finance",
+      "label": "phishing-likely",
+      "severity": "high",
+      "score": 67,
+      "category": "phishing",
+      "evidence": [
+        "Typosquat (replacement) of the official domain",
+        "One of 14 lookalikes on the same DNS account (derek.ns.cloudflare.com + serena.ns.cloudflare.com): a single operator",
+        "Already on public wallet blocklist(s): metamask",
+        "Page title resembles the official title (100%)",
+        "Lure text: rewards"
+      ],
+      "facts": {
+        "sources": [
+          "permutation"
+        ],
+        "fuzzer": "replacement",
+        "dns": {
+          "a": [
+            "172.67.158.197",
+            "104.21.66.100"
+          ],
+          "ns": [
+            "derek.ns.cloudflare.com",
+            "serena.ns.cloudflare.com"
+          ],
+          "mx": []
+        },
+        "page": {
+          "status": 200,
+          "finalUrl": "https://rhrea.finance/",
+          "title": "RHEA Finance",
+          "signals": {
+            "secretForm": false,
+            "walletPrompt": [],
+            "seedPhrase": [],
+            "lure": [
+              "rewards"
+            ],
+            "drainerJs": [],
+            "parked": [],
+            "cryptoContext": [
+              "Crypto",
+              "DeFi",
+              "tokens",
+              "Swap",
+              "liquidity",
+              "Stake",
+              "Blockchain",
+              "DEX",
+              "NFT",
+              "ETH",
+              "USDC",
+              "bridge"
+            ],
+            "interstitial": [],
+            "challenge": []
+          }
+        },
+        "similarity": {
+          "title": 1,
+          "text": 0,
+          "favicon": false,
+          "overall": 0.35
+        },
+        "listedOn": [
+          "metamask"
+        ],
+        "alreadyBlocked": true,
+        "registrar": "NICENIC INTERNATIONAL GROUP CO., LIMITED",
+        "registered": "2026-09-27T21:33:21.403Z"
+      },
+      "links": {
+        "defanged": "fhea[.]finance"
+      },
+      "key": "domain:fhea.finance",
+      "firstSeen": "2026-11-01T16:58:17.385Z",
+      "lastSeen": "2026-11-01T16:58:17.385Z",
+      "scans": [
+        "2026-11-01"
+      ],
+      "review": {
+        "decision": "pending"
+      }
+    },
+    {
+      "subject": "linearprotocol.io",
+      "kind": "domain",
+      "brand": "linear",
+      "brandName": "LiNEAR Protocol",
+      "label": "phishing-likely",
+      "severity": "high",
+      "score": 72,
+      "category": "drainer",
+      "evidence": [
+        "Official name on a different TLD",
+        "Page title resembles the official title (100%)",
+        "Page text overlaps the official site (57% shingles)",
+        "Wallet-connect prompt/library: connectWallet, WalletConnect, Web3Modal",
+        "Drainer-style JS: eth_signTypedData_v4",
+        "Lure text: rewards"
+      ],
+      "facts": {
+        "sources": [
+          "permutation"
+        ],
+        "fuzzer": "tld-swap",
+        "dns": {
+          "a": [
+            "63.176.8.218",
+            "35.157.26.135"
+          ],
+          "ns": [
+            "dns4.p09.nsone.net",
+            "dns3.p09.nsone.net",
+            "dns1.p09.nsone.net",
+            "dns2.p09.nsone.net"
+          ],
+          "mx": []
+        },
+        "page": {
+          "status": 200,
+          "finalUrl": "https://linearprotocol.io/",
+          "title": "LiNEAR - Omnichain Liquid (Re)Staking",
+          "signals": {
+            "walletPrompt": [
+              "connectWallet",
+              "WalletConnect",
+              "Web3Modal",
+              "eth_requestAccounts",
+              "Connect wallet"
+            ],
+            "seedPhrase": [],
+            "secretForm": false,
+            "lure": [
+              "rewards"
+            ],
+            "drainerJs": [
+              "eth_signTypedData_v4"
+            ],
+            "parked": [],
+            "cryptoContext": [
+              "Staking",
+              "wallet"
+            ],
+            "interstitial": [],
+            "challenge": []
+          }
+        },
+        "similarity": {
+          "title": 1,
+          "text": 0.57,
+          "favicon": false,
+          "overall": 0.7
+        },
+        "listedOn": [],
+        "alreadyBlocked": false
+      },
+      "links": {
+        "defanged": "linearprotocol[.]io"
+      },
+      "key": "domain:linearprotocol.io",
+      "firstSeen": "2026-11-01T16:58:17.385Z",
+      "lastSeen": "2026-11-01T16:58:17.385Z",
+      "scans": [
+        "2026-11-01"
+      ],
+      "review": {
+        "decision": "pending"
+      }
+    },
+    {
+      "subject": "meme.live",
+      "kind": "domain",
+      "brand": "meme-cooking",
+      "brandName": "meme.cooking",
+      "label": "phishing-likely",
+      "severity": "high",
+      "score": 45,
+      "category": "phishing",
+      "evidence": [
+        "Official name on a different TLD",
+        "Already on public wallet blocklist(s): scamsniffer"
+      ],
+      "facts": {
+        "sources": [
+          "permutation"
+        ],
+        "fuzzer": "tld-swap",
+        "dns": {
+          "a": [
+            "13.248.169.48",
+            "76.223.54.146"
+          ],
+          "ns": [
+            "ns1.afternic.com",
+            "ns2.afternic.com"
+          ],
+          "mx": [
+            ""
+          ]
+        },
+        "listedOn": [
+          "scamsniffer"
+        ],
+        "alreadyBlocked": true,
+        "registrar": "NameCheap, Inc.",
+        "registered": "2023-11-05T20:27:55.145Z"
+      },
+      "links": {
+        "defanged": "meme[.]live"
+      },
+      "key": "domain:meme.live",
+      "firstSeen": "2026-11-01T16:58:17.385Z",
+      "lastSeen": "2026-11-01T16:58:17.385Z",
+      "scans": [
+        "2026-11-01"
+      ],
+      "review": {
+        "decision": "pending"
+      }
+    },
+    {
+      "subject": "memebridge.xyz",
+      "kind": "domain",
+      "brand": "meme-cooking",
+      "brandName": "meme.cooking",
+      "label": "lookalike-other-crypto",
+      "severity": "medium",
+      "score": 40,
+      "category": "impersonation",
+      "evidence": [
+        "Brand name plus a phishing lure word",
+        "Lookalike of your domain serving other crypto content (Swap, Wallet, Bridge)",
+        "Wallet-connect prompt/library: Connect Wallet, walletConnect, RainbowKit"
+      ],
+      "facts": {
+        "sources": [
+          "permutation"
+        ],
+        "fuzzer": "dictionary",
+        "dns": {
+          "a": [
+            "76.76.21.21"
+          ],
+          "ns": [
+            "ns1.dnsowl.com",
+            "ns2.dnsowl.com",
+            "ns3.dnsowl.com"
+          ],
+          "mx": []
+        },
+        "page": {
+          "status": 200,
+          "finalUrl": "https://www.memebridge.xyz/home",
+          "title": "MeMe Bridge - The Cheapest Layer 2 Bridge",
+          "signals": {
+            "walletPrompt": [
+              "Connect Wallet",
+              "walletConnect",
+              "RainbowKit",
+              "window.ethereum",
+              "walletconnect"
+            ],
+            "seedPhrase": [],
+            "secretForm": false,
+            "lure": [],
+            "drainerJs": [],
+            "parked": [],
+            "cryptoContext": [
+              "Swap",
+              "Wallet",
+              "Bridge",
+              "crypto",
+              "NFT"
+            ],
+            "interstitial": [],
+            "challenge": []
+          }
+        },
+        "similarity": {
+          "title": 0.21,
+          "text": 0,
+          "favicon": false,
+          "overall": 0.07
+        },
+        "listedOn": [],
+        "alreadyBlocked": false,
+        "brandLink": "weak: the host shares only a short generic word with the brand, and the page does not copy its title"
+      },
+      "links": {
+        "defanged": "memebridge[.]xyz"
+      },
+      "key": "domain:memebridge.xyz",
+      "firstSeen": "2026-11-01T16:58:17.385Z",
+      "lastSeen": "2026-11-01T16:58:17.385Z",
+      "scans": [
+        "2026-11-01"
+      ],
+      "review": {
+        "decision": "pending"
+      }
+    },
+    {
+      "subject": "memeclaims.com",
+      "kind": "domain",
+      "brand": "meme-cooking",
+      "brandName": "meme.cooking",
+      "label": "phishing-likely",
+      "severity": "high",
+      "score": 50,
+      "category": "phishing",
+      "evidence": [
+        "Brand name plus a phishing lure word",
+        "Already on public wallet blocklist(s): scamsniffer"
+      ],
+      "facts": {
+        "sources": [
+          "permutation"
+        ],
+        "fuzzer": "dictionary",
+        "dns": {
+          "a": [
+            "192.64.119.12"
+          ],
+          "ns": [
+            "dns2.registrar-servers.com",
+            "dns1.registrar-servers.com"
+          ],
+          "mx": [
+            "eforward3.registrar-servers.com",
+            "eforward1.registrar-servers.com",
+            "eforward2.registrar-servers.com",
+            "eforward4.registrar-servers.com",
+            "eforward5.registrar-servers.com"
+          ]
+        },
+        "page": {
+          "status": 200,
+          "finalUrl": "https://www.memeclaims.com/",
+          "title": "",
+          "signals": {
+            "secretForm": false,
+            "walletPrompt": [],
+            "seedPhrase": [],
+            "lure": [],
+            "drainerJs": [],
+            "parked": [],
+            "cryptoContext": [],
+            "interstitial": [],
+            "challenge": []
+          }
+        },
+        "similarity": {
+          "title": 0,
+          "text": 0,
+          "favicon": false,
+          "overall": 0
+        },
+        "listedOn": [
+          "scamsniffer"
+        ],
+        "alreadyBlocked": true,
+        "registrar": "NameCheap, Inc.",
+        "registered": "2026-05-12T00:58:10Z",
+        "brandLink": "weak: the host shares only a short generic word with the brand, and the page does not copy its title"
+      },
+      "links": {
+        "defanged": "memeclaims[.]com"
+      },
+      "key": "domain:memeclaims.com",
+      "firstSeen": "2026-11-01T16:58:17.385Z",
+      "lastSeen": "2026-11-01T16:58:17.385Z",
+      "scans": [
+        "2026-11-01"
+      ],
+      "review": {
+        "decision": "pending"
+      }
+    },
+    {
+      "subject": "metapool.dev",
+      "kind": "domain",
+      "brand": "meta-pool",
+      "brandName": "Meta Pool",
+      "label": "impersonation",
+      "severity": "medium",
+      "score": 54,
+      "category": "impersonation",
+      "evidence": [
+        "Official name on a different TLD",
+        "Brand named on the page (4x)",
+        "Wallet-connect prompt/library: walletConnect, eth_requestAccounts, connectWallet",
+        "Drainer-style JS: eth_signTypedData_v4"
+      ],
+      "facts": {
+        "sources": [
+          "permutation"
+        ],
+        "fuzzer": "tld-swap",
+        "dns": {
+          "a": [
+            "216.150.1.1"
+          ],
+          "ns": [
+            "ns46.domaincontrol.com",
+            "ns45.domaincontrol.com"
+          ],
+          "mx": []
+        },
+        "page": {
+          "status": 200,
+          "finalUrl": "https://metapool.dev/coming-soon",
+          "title": "Meta Pool - Cross-Chain Prediction Markets",
+          "signals": {
+            "walletPrompt": [
+              "walletConnect",
+              "eth_requestAccounts",
+              "connectWallet",
+              "WALLETCONNECT",
+              "web3modal",
+              "AppKit",
+              "window.ethereum"
+            ],
+            "seedPhrase": [],
+            "secretForm": false,
+            "lure": [],
+            "drainerJs": [
+              "eth_signTypedData_v4"
+            ],
+            "parked": [],
+            "cryptoContext": [
+              "tokens",
+              "Liquidity",
+              "blockchain"
+            ],
+            "interstitial": [],
+            "challenge": []
+          }
+        },
+        "similarity": {
+          "title": 0.14,
+          "text": 0,
+          "favicon": false,
+          "overall": 0.05
+        },
+        "listedOn": [],
+        "alreadyBlocked": false,
+        "registrar": "GoDaddy.com, LLC",
+        "registered": "2025-12-11T18:35:15.987Z"
+      },
+      "links": {
+        "defanged": "metapool[.]dev"
+      },
+      "key": "domain:metapool.dev",
+      "firstSeen": "2026-11-01T16:58:17.385Z",
+      "lastSeen": "2026-11-01T16:58:17.385Z",
+      "scans": [
+        "2026-11-01"
+      ],
+      "review": {
+        "decision": "pending"
+      }
+    },
+    {
+      "subject": "mnearwallet.com",
+      "kind": "domain",
+      "brand": "near",
+      "brandName": "NEAR Protocol",
+      "label": "phishing-likely",
+      "severity": "high",
+      "score": 60,
+      "category": "phishing",
+      "evidence": [
+        "Typosquat (omission) of the official domain",
+        "Hostname contains a lure word (claim/airdrop/support/...)",
+        "One of 33 lookalikes on the same DNS account (rocco.ns.cloudflare.com + vita.ns.cloudflare.com): a single operator",
+        "Already on public wallet blocklist(s): scamsniffer",
+        "Almost empty page (19 chars of text, title \"404 Not Found\"): content not visible"
+      ],
+      "facts": {
+        "sources": [
+          "permutation"
+        ],
+        "fuzzer": "omission",
+        "dns": {
+          "a": [
+            "104.21.33.216",
+            "172.67.192.215"
+          ],
+          "ns": [
+            "vita.ns.cloudflare.com",
+            "rocco.ns.cloudflare.com"
+          ],
+          "mx": []
+        },
+        "page": {
+          "status": 404,
+          "finalUrl": "https://mnearwallet.com/",
+          "title": "404 Not Found",
+          "signals": {
+            "secretForm": false,
+            "walletPrompt": [],
+            "seedPhrase": [],
+            "lure": [],
+            "drainerJs": [],
+            "parked": [],
+            "cryptoContext": [],
+            "interstitial": [],
+            "challenge": []
+          }
+        },
+        "similarity": {
+          "title": 0,
+          "text": 0,
+          "favicon": false,
+          "overall": 0
+        },
+        "listedOn": [
+          "scamsniffer"
+        ],
+        "alreadyBlocked": true,
+        "registrar": "Tucows Domains Inc.",
+        "registered": "2025-03-23T23:25:16Z"
+      },
+      "links": {
+        "defanged": "mnearwallet[.]com"
+      },
+      "key": "domain:mnearwallet.com",
+      "firstSeen": "2026-11-01T16:58:17.385Z",
+      "lastSeen": "2026-11-01T16:58:17.385Z",
+      "scans": [
+        "2026-11-01"
+      ],
+      "review": {
+        "decision": "pending"
+      }
+    },
+    {
+      "subject": "mynearwallet.xyz",
+      "kind": "domain",
+      "brand": "mynearwallet",
+      "brandName": "MyNearWallet",
+      "label": "impersonation",
+      "severity": "high",
+      "score": 62,
+      "category": "impersonation",
+      "evidence": [
+        "Official name on a different TLD",
+        "Hostname contains a lure word (claim/airdrop/support/...)",
+        "Page title resembles the official title (100%)",
+        "Brand named on the page (3x), including the title"
+      ],
+      "facts": {
+        "sources": [
+          "permutation"
+        ],
+        "fuzzer": "tld-swap",
+        "dns": {
+          "a": [
+            "188.114.97.3",
+            "188.114.96.3"
+          ],
+          "ns": [
+            "dolly.ns.cloudflare.com",
+            "micah.ns.cloudflare.com"
+          ],
+          "mx": []
+        },
+        "page": {
+          "status": 200,
+          "finalUrl": "https://mynearwallet.xyz/",
+          "title": "Mynearwallet",
+          "signals": {
+            "walletPrompt": [],
+            "seedPhrase": [],
+            "secretForm": false,
+            "lure": [],
+            "drainerJs": [],
+            "parked": [],
+            "cryptoContext": [],
+            "interstitial": [],
+            "challenge": []
+          }
+        },
+        "similarity": {
+          "title": 1,
+          "text": 0,
+          "favicon": false,
+          "overall": 0.35
+        },
+        "listedOn": [],
+        "alreadyBlocked": false,
+        "registrar": "Global Domain Group LLC",
+        "registered": "2026-07-15T02:09:58.0Z"
+      },
+      "links": {
+        "defanged": "mynearwallet[.]xyz"
+      },
+      "key": "domain:mynearwallet.xyz",
+      "firstSeen": "2026-11-01T16:58:17.385Z",
+      "lastSeen": "2026-11-01T16:58:17.385Z",
+      "scans": [
+        "2026-11-01"
+      ],
+      "review": {
+        "decision": "pending"
+      }
+    },
+    {
+      "subject": "near-event.com",
+      "kind": "domain",
+      "brand": "near",
+      "brandName": "NEAR Protocol",
+      "label": "phishing-likely",
+      "severity": "high",
+      "score": 50,
+      "category": "phishing",
+      "evidence": [
+        "Brand name plus a phishing lure word",
+        "Already on public wallet blocklist(s): scamsniffer"
+      ],
+      "facts": {
+        "sources": [
+          "permutation"
+        ],
+        "fuzzer": "dictionary",
+        "dns": {
+          "a": [
+            "162.4.84.247"
+          ],
+          "ns": [
+            "ns2.ns306.parklogic.com",
+            "ns1.ns306.parklogic.com"
+          ],
+          "mx": [
+            "mail.eye-mail.net"
+          ]
+        },
+        "listedOn": [
+          "scamsniffer"
+        ],
+        "alreadyBlocked": true,
+        "registrar": "NameSilo, LLC",
+        "registered": "2025-10-16T11:19:03Z",
+        "brandLink": "weak: the host shares only a short generic word with the brand, and the page does not copy its title"
+      },
+      "links": {
+        "defanged": "near-event[.]com"
+      },
+      "key": "domain:near-event.com",
+      "firstSeen": "2026-11-01T16:58:17.385Z",
+      "lastSeen": "2026-11-01T16:58:17.385Z",
+      "scans": [
+        "2026-11-01"
+      ],
+      "review": {
+        "decision": "pending"
+      }
+    },
+    {
+      "subject": "near-intents.dev",
+      "kind": "domain",
+      "brand": "near-intents",
+      "brandName": "NEAR Intents",
+      "label": "phishing-likely",
+      "severity": "high",
+      "score": 45,
+      "category": "drainer",
+      "evidence": [
+        "Official name on a different TLD",
+        "Already on public wallet blocklist(s): metamask",
+        "Bot challenge or redirect stub (\"Just a moment...\"): real content not visible"
+      ],
+      "facts": {
+        "sources": [
+          "permutation"
+        ],
+        "fuzzer": "tld-swap",
+        "dns": {
+          "a": [
+            "172.67.218.187",
+            "104.21.45.202"
+          ],
+          "ns": [
+            "lauryn.ns.cloudflare.com",
+            "igor.ns.cloudflare.com"
+          ],
+          "mx": []
+        },
+        "page": {
+          "status": 403,
+          "finalUrl": "https://near-intents.dev/",
+          "title": "Just a moment...",
+          "signals": {
+            "walletPrompt": [],
+            "seedPhrase": [],
+            "secretForm": false,
+            "lure": [],
+            "drainerJs": [
+              "obfuscated-js(5944 _0x identifiers)"
+            ],
+            "parked": [],
+            "cryptoContext": [],
+            "interstitial": [],
+            "challenge": [
+              "Just a moment..."
+            ]
+          }
+        },
+        "similarity": {
+          "title": 0.14,
+          "text": 0,
+          "favicon": false,
+          "overall": 0.05
+        },
+        "listedOn": [
+          "metamask"
+        ],
+        "alreadyBlocked": true,
+        "registrar": "Web Commerce Communications Limited dba WebNic.cc",
+        "registered": "2026-01-28T21:25:00.117Z"
+      },
+      "links": {
+        "defanged": "near-intents[.]dev"
+      },
+      "key": "domain:near-intents.dev",
+      "firstSeen": "2026-11-01T16:58:17.385Z",
+      "lastSeen": "2026-11-01T16:58:17.385Z",
+      "scans": [
+        "2026-11-01"
+      ],
+      "review": {
+        "decision": "pending"
+      }
+    },
+    {
+      "subject": "near-intents.net",
+      "kind": "domain",
+      "brand": "near-intents",
+      "brandName": "NEAR Intents",
+      "label": "phishing-likely",
+      "severity": "high",
+      "score": 57,
+      "category": "phishing",
+      "evidence": [
+        "Official name on a different TLD",
+        "Already on public wallet blocklist(s): metamask",
+        "Lookalike of your domain serving other crypto content (DeFi, Token, Swap)"
+      ],
+      "facts": {
+        "sources": [
+          "permutation"
+        ],
+        "fuzzer": "tld-swap",
+        "dns": {
+          "a": [
+            "188.114.97.3",
+            "188.114.96.3"
+          ],
+          "ns": [
+            "matias.ns.cloudflare.com",
+            "blakely.ns.cloudflare.com"
+          ],
+          "mx": []
+        },
+        "page": {
+          "status": 200,
+          "finalUrl": "https://near-intents.net/",
+          "title": "Near Intents | Cross-Chain Token Swap Platform",
+          "signals": {
+            "walletPrompt": [],
+            "seedPhrase": [],
+            "secretForm": false,
+            "lure": [],
+            "drainerJs": [],
+            "parked": [],
+            "cryptoContext": [
+              "DeFi",
+              "Token",
+              "Swap",
+              "liquidity",
+              "blockchain",
+              "Ethereum",
+              "bridge"
+            ],
+            "interstitial": [],
+            "challenge": []
+          }
+        },
+        "similarity": {
+          "title": 0.14,
+          "text": 0,
+          "favicon": false,
+          "overall": 0.05
+        },
+        "listedOn": [
+          "metamask"
+        ],
+        "alreadyBlocked": true,
+        "registrar": "Atak Domain Bilgi Teknolojileri A.S.",
+        "registered": "2026-05-18T23:14:55Z"
+      },
+      "links": {
+        "defanged": "near-intents[.]net"
+      },
+      "key": "domain:near-intents.net",
+      "firstSeen": "2026-11-01T16:58:17.385Z",
+      "lastSeen": "2026-11-01T16:58:17.385Z",
+      "scans": [
+        "2026-11-01"
+      ],
+      "review": {
+        "decision": "pending"
+      }
+    },
+    {
+      "subject": "near-rewards.com",
+      "kind": "domain",
+      "brand": "near",
+      "brandName": "NEAR Protocol",
+      "label": "phishing-likely",
+      "severity": "high",
+      "score": 50,
+      "category": "phishing",
+      "evidence": [
+        "Brand name plus a phishing lure word",
+        "Already on public wallet blocklist(s): scamsniffer",
+        "Page not reachable: Connect Timeout Error (attempted address: near-rewards.com:443, timeout: 10000ms"
+      ],
+      "facts": {
+        "sources": [
+          "permutation"
+        ],
+        "fuzzer": "dictionary",
+        "dns": {
+          "a": [
+            "58.64.137.69"
+          ],
+          "ns": [],
+          "mx": []
+        },
+        "page": {
+          "status": 0,
+          "finalUrl": "https://near-rewards.com/",
+          "title": "",
+          "signals": {
+            "walletPrompt": [],
+            "seedPhrase": [],
+            "secretForm": false,
+            "lure": [],
+            "drainerJs": [],
+            "parked": [],
+            "cryptoContext": [],
+            "interstitial": [],
+            "challenge": []
+          }
+        },
+        "listedOn": [
+          "scamsniffer"
+        ],
+        "alreadyBlocked": true,
+        "registrar": "NICENIC INTERNATIONAL GROUP CO., LIMITED",
+        "registered": "2025-10-31T13:36:55Z",
+        "brandLink": "weak: the host shares only a short generic word with the brand, and the page does not copy its title"
+      },
+      "links": {
+        "defanged": "near-rewards[.]com"
+      },
+      "key": "domain:near-rewards.com",
+      "firstSeen": "2026-11-01T16:58:17.385Z",
+      "lastSeen": "2026-11-01T16:58:17.385Z",
+      "scans": [
+        "2026-11-01"
+      ],
+      "review": {
+        "decision": "pending"
+      }
+    },
+    {
+      "subject": "near-token.com",
+      "kind": "domain",
+      "brand": "near",
+      "brandName": "NEAR Protocol",
+      "label": "phishing-likely",
+      "severity": "high",
+      "score": 50,
+      "category": "phishing",
+      "evidence": [
+        "Brand name plus a phishing lure word",
+        "Already on public wallet blocklist(s): metamask"
+      ],
+      "facts": {
+        "sources": [
+          "permutation"
+        ],
+        "fuzzer": "dictionary",
+        "dns": {
+          "a": [
+            "172.67.160.247",
+            "104.21.15.5"
+          ],
+          "ns": [
+            "clark.ns.cloudflare.com",
+            "ryleigh.ns.cloudflare.com"
+          ],
+          "mx": []
+        },
+        "listedOn": [
+          "metamask"
+        ],
+        "alreadyBlocked": true,
+        "registrar": "NameCheap, Inc.",
+        "registered": "2025-12-12T16:15:46Z",
+        "brandLink": "weak: the host shares only a short generic word with the brand, and the page does not copy its title"
+      },
+      "links": {
+        "defanged": "near-token[.]com"
+      },
+      "key": "domain:near-token.com",
+      "firstSeen": "2026-11-01T16:58:17.385Z",
+      "lastSeen": "2026-11-01T16:58:17.385Z",
+      "scans": [
+        "2026-11-01"
+      ],
+      "review": {
+        "decision": "pending"
+      }
+    },
+    {
+      "subject": "nearhelp.org",
+      "kind": "domain",
+      "brand": "near",
+      "brandName": "NEAR Protocol",
+      "label": "lookalike-other-crypto",
+      "severity": "medium",
+      "score": 43,
+      "category": "impersonation",
+      "evidence": [
+        "Brand name plus a phishing lure word",
+        "Lookalike of your domain serving other crypto content (wallet UI)",
+        "Wallet-connect prompt/library: eth_requestAccounts, window.ethereum"
+      ],
+      "facts": {
+        "sources": [
+          "permutation"
+        ],
+        "fuzzer": "dictionary",
+        "dns": {
+          "a": [
+            "216.198.79.1"
+          ],
+          "ns": [
+            "dns2.registrar-servers.com",
+            "dns1.registrar-servers.com"
+          ],
+          "mx": [
+            "eforward3.registrar-servers.com",
+            "eforward1.registrar-servers.com",
+            "eforward2.registrar-servers.com",
+            "eforward4.registrar-servers.com",
+            "eforward5.registrar-servers.com"
+          ]
+        },
+        "page": {
+          "status": 200,
+          "finalUrl": "https://www.nearhelp.org/",
+          "title": "NearHelp",
+          "signals": {
+            "walletPrompt": [
+              "eth_requestAccounts",
+              "window.ethereum"
+            ],
+            "seedPhrase": [],
+            "secretForm": false,
+            "lure": [],
+            "drainerJs": [],
+            "parked": [],
+            "cryptoContext": [],
+            "interstitial": [],
+            "challenge": []
+          }
+        },
+        "similarity": {
+          "title": 0.4,
+          "text": 0,
+          "favicon": false,
+          "overall": 0.14
+        },
+        "listedOn": [],
+        "alreadyBlocked": false
+      },
+      "links": {
+        "defanged": "nearhelp[.]org"
+      },
+      "key": "domain:nearhelp.org",
+      "firstSeen": "2026-11-01T16:58:17.385Z",
+      "lastSeen": "2026-11-01T16:58:17.385Z",
+      "scans": [
+        "2026-11-01"
+      ],
+      "review": {
+        "decision": "pending"
+      }
+    },
+    {
+      "subject": "nearmobile-rewards.app",
+      "kind": "domain",
+      "brand": "near-mobile",
+      "brandName": "NEAR Mobile (Peersyst)",
+      "label": "phishing-likely",
+      "severity": "critical",
+      "score": 80,
+      "category": "phishing",
+      "evidence": [
+        "Brand name plus a phishing lure word",
+        "Already on public wallet blocklist(s): metamask",
+        "Page title resembles the official title (100%)",
+        "Page text overlaps the official site (70% shingles)",
+        "Mentions seed phrase (no input form seen)",
+        "Lure text: Claim, Rewards"
+      ],
+      "facts": {
+        "sources": [
+          "permutation"
+        ],
+        "fuzzer": "dictionary",
+        "dns": {
+          "a": [
+            "104.21.48.149",
+            "172.67.153.7"
+          ],
+          "ns": [
+            "joan.ns.cloudflare.com",
+            "hugh.ns.cloudflare.com"
+          ],
+          "mx": []
+        },
+        "page": {
+          "status": 200,
+          "finalUrl": "about:blank",
+          "title": "NEAR Mobile - Best NEAR crypto Wallet",
+          "signals": {
+            "walletPrompt": [],
+            "seedPhrase": [
+              "seed phrase"
+            ],
+            "secretForm": false,
+            "lure": [
+              "Claim",
+              "Rewards"
+            ],
+            "drainerJs": [],
+            "parked": [],
+            "cryptoContext": [
+              "crypto",
+              "tokens",
+              "Swap",
+              "Wallet",
+              "Staking",
+              "blockchain",
+              "Ethereum",
+              "bridge"
+            ],
+            "interstitial": [],
+            "challenge": []
+          }
+        },
+        "similarity": {
+          "title": 1,
+          "text": 0.7,
+          "favicon": false,
+          "overall": 0.7
+        },
+        "listedOn": [
+          "metamask"
+        ],
+        "alreadyBlocked": true,
+        "registrar": "NICENIC INTERNATIONAL GROUP CO., LIMITED",
+        "registered": "2026-02-22T21:58:10.632Z"
+      },
+      "links": {
+        "defanged": "nearmobile-rewards[.]app"
+      },
+      "key": "domain:nearmobile-rewards.app",
+      "firstSeen": "2026-11-01T16:58:17.385Z",
+      "lastSeen": "2026-11-01T16:58:17.385Z",
+      "scans": [
+        "2026-11-01"
+      ],
+      "review": {
+        "decision": "pending"
+      }
+    },
+    {
+      "subject": "nearswap.io",
+      "kind": "domain",
+      "brand": "near",
+      "brandName": "NEAR Protocol",
+      "label": "phishing-likely",
+      "severity": "high",
+      "score": 63,
+      "category": "phishing",
+      "evidence": [
+        "Brand name plus a phishing lure word",
+        "Already on public wallet blocklist(s): metamask",
+        "Lookalike of your domain serving other crypto content (Crypto, tokens, Swap)"
+      ],
+      "facts": {
+        "sources": [
+          "permutation"
+        ],
+        "fuzzer": "dictionary",
+        "dns": {
+          "a": [
+            "172.67.131.18",
+            "104.21.9.237"
+          ],
+          "ns": [
+            "pam.ns.cloudflare.com",
+            "alberto.ns.cloudflare.com"
+          ],
+          "mx": []
+        },
+        "page": {
+          "status": 200,
+          "finalUrl": "https://nearswap.io/",
+          "title": "NEAR Swap Online - Exchange NEAR With Crypto",
+          "signals": {
+            "secretForm": false,
+            "walletPrompt": [],
+            "seedPhrase": [
+              "seed phrase",
+              "private key"
+            ],
+            "lure": [],
+            "drainerJs": [],
+            "parked": [],
+            "cryptoContext": [
+              "Crypto",
+              "tokens",
+              "Swap",
+              "liquidity",
+              "wallet",
+              "blockchain",
+              "Ethereum",
+              "USDC"
+            ],
+            "interstitial": [],
+            "challenge": []
+          }
+        },
+        "similarity": {
+          "title": 0.22,
+          "text": 0,
+          "favicon": false,
+          "overall": 0.08
+        },
+        "listedOn": [
+          "metamask"
+        ],
+        "alreadyBlocked": true
+      },
+      "links": {
+        "defanged": "nearswap[.]io"
+      },
+      "key": "domain:nearswap.io",
+      "firstSeen": "2026-11-01T16:58:17.385Z",
+      "lastSeen": "2026-11-01T16:58:17.385Z",
+      "scans": [
+        "2026-11-01"
+      ],
+      "review": {
+        "decision": "pending"
+      }
+    },
+    {
+      "subject": "neartoken.xyz",
+      "kind": "domain",
+      "brand": "near",
+      "brandName": "NEAR Protocol",
+      "label": "phishing-likely",
+      "severity": "high",
+      "score": 50,
+      "category": "phishing",
+      "evidence": [
+        "Brand name plus a phishing lure word",
+        "Already on public wallet blocklist(s): scamsniffer"
+      ],
+      "facts": {
+        "sources": [
+          "permutation"
+        ],
+        "fuzzer": "dictionary",
+        "dns": {
+          "a": [
+            "76.223.54.146",
+            "13.248.169.48"
+          ],
+          "ns": [
+            "ns5.afternic.com",
+            "ns6.afternic.com"
+          ],
+          "mx": [
+            ""
+          ]
+        },
+        "listedOn": [
+          "scamsniffer"
+        ],
+        "alreadyBlocked": true,
+        "registrar": "GMO Internet Group, Inc. d/b/a Onamae.com",
+        "registered": "2026-03-11T05:46:55.0Z",
+        "brandLink": "weak: the host shares only a short generic word with the brand, and the page does not copy its title"
+      },
+      "links": {
+        "defanged": "neartoken[.]xyz"
+      },
+      "key": "domain:neartoken.xyz",
+      "firstSeen": "2026-11-01T16:58:17.385Z",
+      "lastSeen": "2026-11-01T16:58:17.385Z",
+      "scans": [
+        "2026-11-01"
+      ],
+      "review": {
+        "decision": "pending"
+      }
+    },
+    {
+      "subject": "nearwallet.com",
+      "kind": "domain",
+      "brand": "near",
+      "brandName": "NEAR Protocol",
+      "label": "phishing-likely",
+      "severity": "high",
+      "score": 62,
+      "category": "phishing",
+      "evidence": [
+        "Brand name plus a phishing lure word",
+        "Already on public wallet blocklist(s): metamask",
+        "Lookalike of your domain serving other crypto content (Crypto, DeFi, swap)"
+      ],
+      "facts": {
+        "sources": [
+          "permutation"
+        ],
+        "fuzzer": "dictionary",
+        "dns": {
+          "a": [
+            "192.144.23.22"
+          ],
+          "ns": [
+            "ns2.cprapid.com",
+            "ns1.cprapid.com"
+          ],
+          "mx": []
+        },
+        "page": {
+          "status": 200,
+          "finalUrl": "https://nearwallet.com/",
+          "title": "Near Wallet — The non-custodial wallet for NEAR Protocol",
+          "signals": {
+            "secretForm": true,
+            "walletPrompt": [],
+            "seedPhrase": [
+              "seed phrase",
+              "private key"
+            ],
+            "lure": [
+              "Claim",
+              "rewards"
+            ],
+            "drainerJs": [],
+            "parked": [],
+            "cryptoContext": [
+              "Crypto",
+              "DeFi",
+              "swap",
+              "Wallet",
+              "stake",
+              "Web3",
+              "ETH",
+              "USDC",
+              "Bridge"
+            ],
+            "interstitial": [],
+            "challenge": []
+          }
+        },
+        "similarity": {
+          "title": 0.2,
+          "text": 0,
+          "favicon": false,
+          "overall": 0.07
+        },
+        "listedOn": [
+          "metamask"
+        ],
+        "alreadyBlocked": true,
+        "registrar": "NameSilo, LLC",
+        "registered": "2015-11-16T16:35:52Z",
+        "brandLink": "weak: the host shares only a short generic word with the brand, and the page does not copy its title"
+      },
+      "links": {
+        "defanged": "nearwallet[.]com"
+      },
+      "key": "domain:nearwallet.com",
+      "firstSeen": "2026-11-01T16:58:17.385Z",
+      "lastSeen": "2026-11-01T16:58:17.385Z",
+      "scans": [
+        "2026-11-01"
+      ],
+      "review": {
+        "decision": "pending"
+      }
+    },
+    {
+      "subject": "orderlyreward.network",
+      "kind": "domain",
+      "brand": "orderly",
+      "brandName": "Orderly Network",
+      "label": "phishing-likely",
+      "severity": "high",
+      "score": 70,
+      "category": "phishing",
+      "evidence": [
+        "Brand name plus a phishing lure word",
+        "Already on public wallet blocklist(s): scamsniffer",
+        "Host already shows a phishing warning instead of the site (\"Suspected Phishing | Cloudflare\")"
+      ],
+      "facts": {
+        "sources": [
+          "permutation"
+        ],
+        "fuzzer": "dictionary",
+        "dns": {
+          "a": [
+            "172.67.214.20",
+            "104.21.42.249"
+          ],
+          "ns": [
+            "kyrie.ns.cloudflare.com",
+            "aisha.ns.cloudflare.com"
+          ],
+          "mx": []
+        },
+        "page": {
+          "status": 403,
+          "finalUrl": "https://orderlyreward.network/",
+          "title": "Suspected Phishing | Cloudflare",
+          "signals": {
+            "secretForm": false,
+            "walletPrompt": [],
+            "seedPhrase": [],
+            "lure": [],
+            "drainerJs": [],
+            "parked": [],
+            "cryptoContext": [],
+            "interstitial": [
+              "Suspected Phishing | Cloudflare"
+            ],
+            "challenge": []
+          }
+        },
+        "similarity": {
+          "title": 0,
+          "text": 0,
+          "favicon": false,
+          "overall": 0
+        },
+        "listedOn": [
+          "scamsniffer"
+        ],
+        "alreadyBlocked": true,
+        "registrar": "NICENIC INTERNATIONAL GROUP CO., LIMITED",
+        "registered": "2026-03-29T23:35:40.933Z"
+      },
+      "links": {
+        "defanged": "orderlyreward[.]network"
+      },
+      "key": "domain:orderlyreward.network",
+      "firstSeen": "2026-11-01T16:58:17.385Z",
+      "lastSeen": "2026-11-01T16:58:17.385Z",
+      "scans": [
+        "2026-11-01"
+      ],
+      "review": {
+        "decision": "pending"
+      }
+    },
+    {
+      "subject": "potlock.app",
+      "kind": "domain",
+      "brand": "potlock",
+      "brandName": "POTLOCK",
+      "label": "impersonation",
+      "severity": "high",
+      "score": 50,
+      "category": "impersonation",
+      "evidence": [
+        "Official name on a different TLD",
+        "One of 3 lookalikes on the same DNS account (henrik.ns.cloudflare.com + meera.ns.cloudflare.com): a single operator",
+        "Page title resembles the official title (80%)",
+        "Brand named on the page (108x), including the title"
+      ],
+      "facts": {
+        "sources": [
+          "permutation"
+        ],
+        "fuzzer": "tld-swap",
+        "dns": {
+          "a": [
+            "216.150.1.65",
+            "216.150.16.65"
+          ],
+          "ns": [
+            "henrik.ns.cloudflare.com",
+            "meera.ns.cloudflare.com"
+          ],
+          "mx": []
+        },
+        "page": {
+          "status": 200,
+          "finalUrl": "https://www.potlock.app/",
+          "title": "POTLOCK | Open Funding Stack & AI-PGF",
+          "signals": {
+            "walletPrompt": [],
+            "seedPhrase": [],
+            "secretForm": false,
+            "lure": [],
+            "drainerJs": [],
+            "parked": [],
+            "cryptoContext": [
+              "crypto",
+              "token",
+              "Swap",
+              "stake",
+              "Web3",
+              "Blockchain",
+              "DEX",
+              "ETH",
+              "bridge"
+            ],
+            "interstitial": [],
+            "challenge": []
+          }
+        },
+        "similarity": {
+          "title": 0.8,
+          "text": 0,
+          "favicon": false,
+          "overall": 0.28
+        },
+        "listedOn": [],
+        "alreadyBlocked": false,
+        "registrar": "Squarespace Domains II LLC.",
+        "registered": "2023-07-02T15:56:44.514Z"
+      },
+      "links": {
+        "defanged": "potlock[.]app"
+      },
+      "key": "domain:potlock.app",
+      "firstSeen": "2026-11-01T16:58:17.385Z",
+      "lastSeen": "2026-11-01T16:58:17.385Z",
+      "scans": [
+        "2026-11-01"
+      ],
+      "review": {
+        "decision": "pending"
+      }
+    },
+    {
+      "subject": "potlock.io",
+      "kind": "domain",
+      "brand": "potlock",
+      "brandName": "POTLOCK",
+      "label": "impersonation",
+      "severity": "high",
+      "score": 50,
+      "category": "impersonation",
+      "evidence": [
+        "Official name on a different TLD",
+        "One of 3 lookalikes on the same DNS account (henrik.ns.cloudflare.com + meera.ns.cloudflare.com): a single operator",
+        "Page title resembles the official title (80%)",
+        "Brand named on the page (108x), including the title"
+      ],
+      "facts": {
+        "sources": [
+          "permutation"
+        ],
+        "fuzzer": "tld-swap",
+        "dns": {
+          "a": [
+            "188.114.96.3",
+            "188.114.97.3"
+          ],
+          "ns": [
+            "henrik.ns.cloudflare.com",
+            "meera.ns.cloudflare.com"
+          ],
+          "mx": []
+        },
+        "page": {
+          "status": 200,
+          "finalUrl": "https://www.potlock.io/",
+          "title": "POTLOCK | Open Funding Stack & AI-PGF",
+          "signals": {
+            "walletPrompt": [],
+            "seedPhrase": [],
+            "secretForm": false,
+            "lure": [],
+            "drainerJs": [],
+            "parked": [],
+            "cryptoContext": [
+              "crypto",
+              "token",
+              "Swap",
+              "stake",
+              "Web3",
+              "Blockchain",
+              "DEX",
+              "ETH",
+              "bridge"
+            ],
+            "interstitial": [],
+            "challenge": []
+          }
+        },
+        "similarity": {
+          "title": 0.8,
+          "text": 0,
+          "favicon": false,
+          "overall": 0.28
+        },
+        "listedOn": [],
+        "alreadyBlocked": false
+      },
+      "links": {
+        "defanged": "potlock[.]io"
+      },
+      "key": "domain:potlock.io",
+      "firstSeen": "2026-11-01T16:58:17.385Z",
+      "lastSeen": "2026-11-01T16:58:17.385Z",
+      "scans": [
+        "2026-11-01"
+      ],
+      "review": {
+        "decision": "pending"
+      }
+    },
+    {
+      "subject": "potlock.xyz",
+      "kind": "domain",
+      "brand": "potlock",
+      "brandName": "POTLOCK",
+      "label": "impersonation",
+      "severity": "high",
+      "score": 50,
+      "category": "impersonation",
+      "evidence": [
+        "Official name on a different TLD",
+        "One of 3 lookalikes on the same DNS account (henrik.ns.cloudflare.com + meera.ns.cloudflare.com): a single operator",
+        "Page title resembles the official title (80%)",
+        "Brand named on the page (108x), including the title"
+      ],
+      "facts": {
+        "sources": [
+          "permutation"
+        ],
+        "fuzzer": "tld-swap",
+        "dns": {
+          "a": [
+            "216.150.16.1",
+            "216.150.1.1"
+          ],
+          "ns": [
+            "henrik.ns.cloudflare.com",
+            "meera.ns.cloudflare.com"
+          ],
+          "mx": []
+        },
+        "page": {
+          "status": 200,
+          "finalUrl": "https://www.potlock.xyz/",
+          "title": "POTLOCK | Open Funding Stack & AI-PGF",
+          "signals": {
+            "walletPrompt": [],
+            "seedPhrase": [],
+            "secretForm": false,
+            "lure": [],
+            "drainerJs": [],
+            "parked": [],
+            "cryptoContext": [
+              "crypto",
+              "token",
+              "Swap",
+              "stake",
+              "Web3",
+              "Blockchain",
+              "DEX",
+              "ETH",
+              "bridge"
+            ],
+            "interstitial": [],
+            "challenge": []
+          }
+        },
+        "similarity": {
+          "title": 0.8,
+          "text": 0,
+          "favicon": false,
+          "overall": 0.28
+        },
+        "listedOn": [],
+        "alreadyBlocked": false,
+        "registrar": "Squarespace Domains II LLC",
+        "registered": "2023-07-02T15:56:45.0Z"
+      },
+      "links": {
+        "defanged": "potlock[.]xyz"
+      },
+      "key": "domain:potlock.xyz",
+      "firstSeen": "2026-11-01T16:58:17.385Z",
+      "lastSeen": "2026-11-01T16:58:17.385Z",
+      "scans": [
+        "2026-11-01"
+      ],
+      "review": {
+        "decision": "pending"
+      }
+    },
+    {
+      "subject": "potlocktoken.org",
+      "kind": "domain",
+      "brand": "potlock",
+      "brandName": "POTLOCK",
+      "label": "phishing-likely",
+      "severity": "critical",
+      "score": 82,
+      "category": "drainer",
+      "evidence": [
+        "Brand name plus a phishing lure word",
+        "Page title resembles the official title (80%)",
+        "Brand named on the page (18x), including the title",
+        "Wallet-connect prompt/library: connectWallet, walletconnect, web3modal",
+        "Drainer-style JS: eth_signTypedData_v4",
+        "Lure text: eligible"
+      ],
+      "facts": {
+        "sources": [
+          "permutation"
+        ],
+        "fuzzer": "dictionary",
+        "dns": {
+          "a": [
+            "216.24.57.1"
+          ],
+          "ns": [
+            "dns2.registrar-servers.com",
+            "dns1.registrar-servers.com"
+          ],
+          "mx": [
+            "eforward1.registrar-servers.com",
+            "eforward2.registrar-servers.com",
+            "eforward3.registrar-servers.com",
+            "eforward4.registrar-servers.com",
+            "eforward5.registrar-servers.com"
+          ]
+        },
+        "page": {
+          "status": 200,
+          "finalUrl": "https://www.potlocktoken.org/",
+          "title": "Welcome to the Potlock!",
+          "signals": {
+            "walletPrompt": [
+              "connectWallet",
+              "walletconnect",
+              "web3modal",
+              "AppKit",
+              "eth_requestAccounts",
+              "window.ethereum",
+              "walletConnect"
+            ],
+            "seedPhrase": [],
+            "secretForm": false,
+            "lure": [
+              "eligible"
+            ],
+            "drainerJs": [
+              "eth_signTypedData_v4"
+            ],
+            "parked": [],
+            "cryptoContext": [
+              "crypto",
+              "token",
+              "swap",
+              "liquidity",
+              "wallet",
+              "blockchain"
+            ],
+            "interstitial": [],
+            "challenge": []
+          }
+        },
+        "similarity": {
+          "title": 0.8,
+          "text": 0,
+          "favicon": false,
+          "overall": 0.28
+        },
+        "listedOn": [],
+        "alreadyBlocked": false,
+        "registrar": "NameCheap, Inc.",
+        "registered": "2025-09-05T01:45:18.686Z"
+      },
+      "links": {
+        "defanged": "potlocktoken[.]org"
+      },
+      "key": "domain:potlocktoken.org",
+      "firstSeen": "2026-11-01T16:58:17.385Z",
+      "lastSeen": "2026-11-01T16:58:17.385Z",
+      "scans": [
+        "2026-11-01"
+      ],
+      "review": {
+        "decision": "pending"
+      }
+    },
+    {
+      "subject": "rainbow-bridge.app",
+      "kind": "domain",
+      "brand": "omni-bridge",
+      "brandName": "Omni Bridge / Rainbow Bridge",
+      "label": "impersonation",
+      "severity": "medium",
+      "score": 50,
+      "category": "impersonation",
+      "evidence": [
+        "Typosquat (hyphenation) of the official domain",
+        "Brand named on the page (2x), including the title"
+      ],
+      "facts": {
+        "sources": [
+          "permutation"
+        ],
+        "fuzzer": "hyphenation",
+        "dns": {
+          "a": [
+            "216.198.79.1",
+            "64.29.17.1"
+          ],
+          "ns": [
+            "ns1.vercel-dns.com",
+            "ns2.vercel-dns.com"
+          ],
+          "mx": []
+        },
+        "page": {
+          "status": 200,
+          "finalUrl": "https://www.rainbow-bridge.app/",
+          "title": "RainbowBridge - Connect Slack and Teams",
+          "signals": {
+            "walletPrompt": [],
+            "seedPhrase": [],
+            "secretForm": false,
+            "lure": [],
+            "drainerJs": [],
+            "parked": [],
+            "cryptoContext": [
+              "Bridge"
+            ],
+            "interstitial": [],
+            "challenge": []
+          }
+        },
+        "similarity": {
+          "title": 0.39,
+          "text": 0,
+          "favicon": false,
+          "overall": 0.14
+        },
+        "listedOn": [],
+        "alreadyBlocked": false,
+        "registrar": "Name.com, Inc.",
+        "registered": "2026-01-28T04:06:28.853Z"
+      },
+      "links": {
+        "defanged": "rainbow-bridge[.]app"
+      },
+      "key": "domain:rainbow-bridge.app",
+      "firstSeen": "2026-11-01T16:58:17.385Z",
+      "lastSeen": "2026-11-01T16:58:17.385Z",
+      "scans": [
+        "2026-11-01"
+      ],
+      "review": {
+        "decision": "pending"
+      }
+    },
+    {
+      "subject": "rainbowbridge.co",
+      "kind": "domain",
+      "brand": "omni-bridge",
+      "brandName": "Omni Bridge / Rainbow Bridge",
+      "label": "lookalike-other-crypto",
+      "severity": "medium",
+      "score": 43,
+      "category": "impersonation",
+      "evidence": [
+        "Official name on a different TLD",
+        "Page title resembles the official title (80%)",
+        "Lookalike of your domain serving other crypto content (Bridge)",
+        "Drainer-style JS: obfuscated-js(21567 _0x identifiers)"
+      ],
+      "facts": {
+        "sources": [
+          "permutation"
+        ],
+        "fuzzer": "tld-swap",
+        "dns": {
+          "a": [
+            "104.21.11.164",
+            "172.67.149.149"
+          ],
+          "ns": [
+            "trey.ns.cloudflare.com",
+            "tess.ns.cloudflare.com"
+          ],
+          "mx": [
+            "aspmx.l.google.com",
+            "alt2.aspmx.l.google.com",
+            "alt1.aspmx.l.google.com",
+            "alt3.aspmx.l.google.com",
+            "alt4.aspmx.l.google.com"
+          ]
+        },
+        "page": {
+          "status": 200,
+          "finalUrl": "https://www.rainbowbridge.co/",
+          "title": "Music Classes in Bangalore | Music Academy in Bangalore | Music School in Bangalore - Rainbow Bridge",
+          "signals": {
+            "walletPrompt": [],
+            "seedPhrase": [],
+            "secretForm": true,
+            "lure": [],
+            "drainerJs": [
+              "obfuscated-js(21567 _0x identifiers)"
+            ],
+            "parked": [],
+            "cryptoContext": [
+              "Bridge"
+            ],
+            "interstitial": [],
+            "challenge": []
+          }
+        },
+        "similarity": {
+          "title": 0.8,
+          "text": 0,
+          "favicon": false,
+          "overall": 0.28
+        },
+        "listedOn": [],
+        "alreadyBlocked": false
+      },
+      "links": {
+        "defanged": "rainbowbridge[.]co"
+      },
+      "key": "domain:rainbowbridge.co",
+      "firstSeen": "2026-11-01T16:58:17.385Z",
+      "lastSeen": "2026-11-01T16:58:17.385Z",
+      "scans": [
+        "2026-11-01"
+      ],
+      "review": {
+        "decision": "pending"
+      }
+    },
+    {
+      "subject": "rainbowbridge.com",
+      "kind": "domain",
+      "brand": "omni-bridge",
+      "brandName": "Omni Bridge / Rainbow Bridge",
+      "label": "lookalike-other-crypto",
+      "severity": "medium",
+      "score": 40,
+      "category": "impersonation",
+      "evidence": [
+        "Official name on a different TLD",
+        "Page title resembles the official title (80%)",
+        "Lookalike of your domain serving other crypto content (Bridge), ends at https://www.rainbowsbridge.com/"
+      ],
+      "facts": {
+        "sources": [
+          "permutation"
+        ],
+        "fuzzer": "tld-swap",
+        "dns": {
+          "a": [
+            "52.255.183.20"
+          ],
+          "ns": [
+            "ns13.dnsmadeeasy.com",
+            "ns10.dnsmadeeasy.com",
+            "ns12.dnsmadeeasy.com",
+            "ns15.dnsmadeeasy.com",
+            "ns14.dnsmadeeasy.com",
+            "ns11.dnsmadeeasy.com"
+          ],
+          "mx": [
+            "mail.rainbowsbridge.com"
+          ]
+        },
+        "page": {
+          "status": 200,
+          "finalUrl": "https://www.rainbowsbridge.com/",
+          "title": "Rainbow Bridge - A PetLoss Grief Support Community. Pet Bereavement and Memorial support for coping with the death of a loving fur baby.",
+          "signals": {
+            "walletPrompt": [],
+            "seedPhrase": [],
+            "secretForm": false,
+            "lure": [],
+            "drainerJs": [],
+            "parked": [],
+            "cryptoContext": [
+              "Bridge"
+            ],
+            "interstitial": [],
+            "challenge": []
+          }
+        },
+        "similarity": {
+          "title": 0.8,
+          "text": 0,
+          "favicon": false,
+          "overall": 0.28
+        },
+        "listedOn": [],
+        "alreadyBlocked": false
+      },
+      "links": {
+        "defanged": "rainbowbridge[.]com"
+      },
+      "key": "domain:rainbowbridge.com",
+      "firstSeen": "2026-11-01T16:58:17.385Z",
+      "lastSeen": "2026-11-01T16:58:17.385Z",
+      "scans": [
+        "2026-11-01"
+      ],
+      "review": {
+        "decision": "pending"
+      }
+    },
+    {
+      "subject": "rainbowbridge.tech",
+      "kind": "domain",
+      "brand": "omni-bridge",
+      "brandName": "Omni Bridge / Rainbow Bridge",
+      "label": "phishing-likely",
+      "severity": "high",
+      "score": 65,
+      "category": "phishing",
+      "evidence": [
+        "Official name on a different TLD",
+        "Already on public wallet blocklist(s): scamsniffer",
+        "Page title resembles the official title (80%)",
+        "Lookalike of your domain serving other crypto content (Bridge)"
+      ],
+      "facts": {
+        "sources": [
+          "permutation"
+        ],
+        "fuzzer": "tld-swap",
+        "dns": {
+          "a": [
+            "47.251.55.71"
+          ],
+          "ns": [
+            "dns29.hichina.com",
+            "dns30.hichina.com"
+          ],
+          "mx": []
+        },
+        "page": {
+          "status": 200,
+          "finalUrl": "https://www.rainbowbridge.tech/",
+          "title": "Jinan Rainbow Bridge Intelligent Technology Co. Ltd.Bridge cutting machine/ Quartz cnc machining center/ Stone cnc machine/Bridge saw cutter/ cnc machine/Cnc router",
+          "signals": {
+            "secretForm": true,
+            "walletPrompt": [],
+            "seedPhrase": [],
+            "lure": [],
+            "drainerJs": [],
+            "parked": [],
+            "cryptoContext": [
+              "Bridge"
+            ],
+            "interstitial": [],
+            "challenge": []
+          }
+        },
+        "similarity": {
+          "title": 0.8,
+          "text": 0,
+          "favicon": false,
+          "overall": 0.28
+        },
+        "listedOn": [
+          "scamsniffer"
+        ],
+        "alreadyBlocked": true,
+        "registrar": "Alibaba Cloud Computing Ltd. d/b/a HiChina (www.net.cn)",
+        "registered": "2025-11-30T05:23:54.000Z"
+      },
+      "links": {
+        "defanged": "rainbowbridge[.]tech"
+      },
+      "key": "domain:rainbowbridge.tech",
+      "firstSeen": "2026-11-01T16:58:17.385Z",
+      "lastSeen": "2026-11-01T16:58:17.385Z",
+      "scans": [
+        "2026-11-01"
+      ],
+      "review": {
+        "decision": "pending"
+      }
+    },
+    {
+      "subject": "rainbowbridgeapp.com",
+      "kind": "domain",
+      "brand": "omni-bridge",
+      "brandName": "Omni Bridge / Rainbow Bridge",
+      "label": "lookalike-other-crypto",
+      "severity": "medium",
+      "score": 45,
+      "category": "impersonation",
+      "evidence": [
+        "Brand name plus a phishing lure word",
+        "Page title resembles the official title (80%)",
+        "Lookalike of your domain serving other crypto content (Bridge)"
+      ],
+      "facts": {
+        "sources": [
+          "permutation"
+        ],
+        "fuzzer": "dictionary",
+        "dns": {
+          "a": [
+            "185.158.133.1"
+          ],
+          "ns": [
+            "ns-cloud-a4.googledomains.com",
+            "ns-cloud-a3.googledomains.com",
+            "ns-cloud-a1.googledomains.com",
+            "ns-cloud-a2.googledomains.com"
+          ],
+          "mx": [
+            "smtp.google.com"
+          ]
+        },
+        "page": {
+          "status": 200,
+          "finalUrl": "https://rainbowbridgeapp.com/",
+          "title": "Rainbow Bridge — Pet Heaven",
+          "signals": {
+            "walletPrompt": [],
+            "seedPhrase": [],
+            "secretForm": false,
+            "lure": [],
+            "drainerJs": [],
+            "parked": [],
+            "cryptoContext": [
+              "Bridge"
+            ],
+            "interstitial": [],
+            "challenge": []
+          }
+        },
+        "similarity": {
+          "title": 0.8,
+          "text": 0,
+          "favicon": false,
+          "overall": 0.28
+        },
+        "listedOn": [],
+        "alreadyBlocked": false
+      },
+      "links": {
+        "defanged": "rainbowbridgeapp[.]com"
+      },
+      "key": "domain:rainbowbridgeapp.com",
+      "firstSeen": "2026-11-01T16:58:17.385Z",
+      "lastSeen": "2026-11-01T16:58:17.385Z",
+      "scans": [
+        "2026-11-01"
+      ],
+      "review": {
+        "decision": "pending"
+      }
+    },
+    {
+      "subject": "rainbowbridgesupport.com",
+      "kind": "domain",
+      "brand": "omni-bridge",
+      "brandName": "Omni Bridge / Rainbow Bridge",
+      "label": "lookalike-other-crypto",
+      "severity": "medium",
+      "score": 45,
+      "category": "impersonation",
+      "evidence": [
+        "Brand name plus a phishing lure word",
+        "Page title resembles the official title (80%)",
+        "Lookalike of your domain serving other crypto content (Bridge)"
+      ],
+      "facts": {
+        "sources": [
+          "permutation"
+        ],
+        "fuzzer": "dictionary",
+        "dns": {
+          "a": [
+            "13.248.243.5",
+            "76.223.105.230"
+          ],
+          "ns": [
+            "ns42.domaincontrol.com",
+            "ns41.domaincontrol.com"
+          ],
+          "mx": [
+            "rainbowbridgesupport-com.mail.protection.outlook.com"
+          ]
+        },
+        "page": {
+          "status": 200,
+          "finalUrl": "https://rainbowbridgesupport.com/",
+          "title": "Rainbow Bridge Support",
+          "signals": {
+            "walletPrompt": [],
+            "seedPhrase": [],
+            "secretForm": true,
+            "lure": [],
+            "drainerJs": [],
+            "parked": [],
+            "cryptoContext": [
+              "Bridge"
+            ],
+            "interstitial": [],
+            "challenge": []
+          }
+        },
+        "similarity": {
+          "title": 0.8,
+          "text": 0,
+          "favicon": false,
+          "overall": 0.28
+        },
+        "listedOn": [],
+        "alreadyBlocked": false
+      },
+      "links": {
+        "defanged": "rainbowbridgesupport[.]com"
+      },
+      "key": "domain:rainbowbridgesupport.com",
+      "firstSeen": "2026-11-01T16:58:17.385Z",
+      "lastSeen": "2026-11-01T16:58:17.385Z",
+      "scans": [
+        "2026-11-01"
+      ],
+      "review": {
+        "decision": "pending"
+      }
+    },
+    {
+      "subject": "rea.finance",
+      "kind": "domain",
+      "brand": "rhea",
+      "brandName": "Rhea Finance",
+      "label": "phishing-likely",
+      "severity": "high",
+      "score": 67,
+      "category": "phishing",
+      "evidence": [
+        "Typosquat (omission) of the official domain",
+        "One of 14 lookalikes on the same DNS account (derek.ns.cloudflare.com + serena.ns.cloudflare.com): a single operator",
+        "Already on public wallet blocklist(s): metamask",
+        "Page title resembles the official title (100%)",
+        "Lure text: rewards"
+      ],
+      "facts": {
+        "sources": [
+          "permutation"
+        ],
+        "fuzzer": "omission",
+        "dns": {
+          "a": [
+            "188.114.96.11",
+            "188.114.97.11"
+          ],
+          "ns": [
+            "derek.ns.cloudflare.com",
+            "serena.ns.cloudflare.com"
+          ],
+          "mx": []
+        },
+        "page": {
+          "status": 200,
+          "finalUrl": "https://rhrea.finance/",
+          "title": "RHEA Finance",
+          "signals": {
+            "secretForm": false,
+            "walletPrompt": [],
+            "seedPhrase": [],
+            "lure": [
+              "rewards"
+            ],
+            "drainerJs": [],
+            "parked": [],
+            "cryptoContext": [
+              "Crypto",
+              "DeFi",
+              "tokens",
+              "Swap",
+              "liquidity",
+              "Stake",
+              "Blockchain",
+              "DEX",
+              "NFT",
+              "ETH",
+              "USDC",
+              "bridge"
+            ],
+            "interstitial": [],
+            "challenge": []
+          }
+        },
+        "similarity": {
+          "title": 1,
+          "text": 0,
+          "favicon": false,
+          "overall": 0.35
+        },
+        "listedOn": [
+          "metamask"
+        ],
+        "alreadyBlocked": true,
+        "registrar": "NICENIC INTERNATIONAL GROUP CO., LIMITED",
+        "registered": "2026-09-27T20:47:17.201Z"
+      },
+      "links": {
+        "defanged": "rea[.]finance"
+      },
+      "key": "domain:rea.finance",
+      "firstSeen": "2026-11-01T16:58:17.385Z",
+      "lastSeen": "2026-11-01T16:58:17.385Z",
+      "scans": [
+        "2026-11-01"
+      ],
+      "review": {
+        "decision": "pending"
+      }
+    },
+    {
+      "subject": "reha.finance",
+      "kind": "domain",
+      "brand": "rhea",
+      "brandName": "Rhea Finance",
+      "label": "phishing-likely",
+      "severity": "high",
+      "score": 51,
+      "category": "phishing",
+      "evidence": [
+        "Typosquat (transposition) of the official domain",
+        "One of 14 lookalikes on the same DNS account (derek.ns.cloudflare.com + serena.ns.cloudflare.com): a single operator",
+        "Already on public wallet blocklist(s): metamask"
+      ],
+      "facts": {
+        "sources": [
+          "permutation"
+        ],
+        "fuzzer": "transposition",
+        "dns": {
+          "a": [
+            "188.114.97.11",
+            "188.114.96.11"
+          ],
+          "ns": [
+            "serena.ns.cloudflare.com",
+            "derek.ns.cloudflare.com"
+          ],
+          "mx": []
+        },
+        "page": {
+          "status": 200,
+          "finalUrl": "https://www.google.com/?b=t",
+          "title": "Google",
+          "signals": {
+            "secretForm": true,
+            "walletPrompt": [],
+            "seedPhrase": [],
+            "lure": [],
+            "drainerJs": [],
+            "parked": [],
+            "cryptoContext": [],
+            "interstitial": [],
+            "challenge": []
+          }
+        },
+        "similarity": {
+          "title": 0.09,
+          "text": 0,
+          "favicon": false,
+          "overall": 0.03
+        },
+        "listedOn": [
+          "metamask"
+        ],
+        "alreadyBlocked": true,
+        "registrar": "NICENIC INTERNATIONAL GROUP CO., LIMITED",
+        "registered": "2026-09-27T20:47:17.139Z"
+      },
+      "links": {
+        "defanged": "reha[.]finance"
+      },
+      "key": "domain:reha.finance",
+      "firstSeen": "2026-11-01T16:58:17.385Z",
+      "lastSeen": "2026-11-01T16:58:17.385Z",
+      "scans": [
+        "2026-11-01"
+      ],
+      "review": {
+        "decision": "pending"
+      }
+    },
+    {
+      "subject": "rehea.finance",
+      "kind": "domain",
+      "brand": "rhea",
+      "brandName": "Rhea Finance",
+      "label": "phishing-likely",
+      "severity": "high",
+      "score": 67,
+      "category": "phishing",
+      "evidence": [
+        "Typosquat (insertion) of the official domain",
+        "One of 14 lookalikes on the same DNS account (derek.ns.cloudflare.com + serena.ns.cloudflare.com): a single operator",
+        "Already on public wallet blocklist(s): metamask",
+        "Page title resembles the official title (100%)",
+        "Lure text: rewards"
+      ],
+      "facts": {
+        "sources": [
+          "permutation"
+        ],
+        "fuzzer": "insertion",
+        "dns": {
+          "a": [
+            "172.67.221.164",
+            "104.21.53.252"
+          ],
+          "ns": [
+            "serena.ns.cloudflare.com",
+            "derek.ns.cloudflare.com"
+          ],
+          "mx": []
+        },
+        "page": {
+          "status": 200,
+          "finalUrl": "https://rhrea.finance/",
+          "title": "RHEA Finance",
+          "signals": {
+            "secretForm": false,
+            "walletPrompt": [],
+            "seedPhrase": [],
+            "lure": [
+              "rewards"
+            ],
+            "drainerJs": [],
+            "parked": [],
+            "cryptoContext": [
+              "Crypto",
+              "DeFi",
+              "tokens",
+              "Swap",
+              "liquidity",
+              "Stake",
+              "Blockchain",
+              "DEX",
+              "NFT",
+              "ETH",
+              "USDC",
+              "bridge"
+            ],
+            "interstitial": [],
+            "challenge": []
+          }
+        },
+        "similarity": {
+          "title": 1,
+          "text": 0,
+          "favicon": false,
+          "overall": 0.35
+        },
+        "listedOn": [
+          "metamask"
+        ],
+        "alreadyBlocked": true,
+        "registrar": "NICENIC INTERNATIONAL GROUP CO., LIMITED",
+        "registered": "2026-09-28T11:14:05.851Z"
+      },
+      "links": {
+        "defanged": "rehea[.]finance"
+      },
+      "key": "domain:rehea.finance",
+      "firstSeen": "2026-11-01T16:58:17.385Z",
+      "lastSeen": "2026-11-01T16:58:17.385Z",
+      "scans": [
+        "2026-11-01"
+      ],
+      "review": {
+        "decision": "pending"
+      }
+    },
+    {
+      "subject": "rewards-rhea.xyz",
+      "kind": "domain",
+      "brand": "rhea",
+      "brandName": "Rhea Finance",
+      "label": "phishing-likely",
+      "severity": "high",
+      "score": 50,
+      "category": "phishing",
+      "evidence": [
+        "Brand name plus a phishing lure word",
+        "Already on public wallet blocklist(s): scamsniffer",
+        "Bot challenge or redirect stub (\"Just a moment...\"): real content not visible"
+      ],
+      "facts": {
+        "sources": [
+          "permutation"
+        ],
+        "fuzzer": "dictionary",
+        "dns": {
+          "a": [
+            "172.67.215.63",
+            "104.21.16.181"
+          ],
+          "ns": [
+            "fiona.ns.cloudflare.com",
+            "rob.ns.cloudflare.com"
+          ],
+          "mx": []
+        },
+        "page": {
+          "status": 403,
+          "finalUrl": "https://rewards-rhea.xyz/",
+          "title": "Just a moment...",
+          "signals": {
+            "secretForm": false,
+            "walletPrompt": [],
+            "seedPhrase": [],
+            "lure": [],
+            "drainerJs": [],
+            "parked": [],
+            "cryptoContext": [],
+            "interstitial": [],
+            "challenge": [
+              "Just a moment..."
+            ]
+          }
+        },
+        "similarity": {
+          "title": 0.09,
+          "text": 0,
+          "favicon": false,
+          "overall": 0.03
+        },
+        "listedOn": [
+          "scamsniffer"
+        ],
+        "alreadyBlocked": true,
+        "registrar": "PDR Ltd. d/b/a PublicDomainRegistry.com",
+        "registered": "2026-04-01T16:04:00.0Z",
+        "brandLink": "weak: the host shares only a short generic word with the brand, and the page does not copy its title"
+      },
+      "links": {
+        "defanged": "rewards-rhea[.]xyz"
+      },
+      "key": "domain:rewards-rhea.xyz",
+      "firstSeen": "2026-11-01T16:58:17.385Z",
+      "lastSeen": "2026-11-01T16:58:17.385Z",
+      "scans": [
+        "2026-11-01"
+      ],
+      "review": {
+        "decision": "pending"
+      }
+    },
+    {
+      "subject": "rgea.finance",
+      "kind": "domain",
+      "brand": "rhea",
+      "brandName": "Rhea Finance",
+      "label": "phishing-likely",
+      "severity": "high",
+      "score": 51,
+      "category": "phishing",
+      "evidence": [
+        "Typosquat (replacement) of the official domain",
+        "One of 14 lookalikes on the same DNS account (derek.ns.cloudflare.com + serena.ns.cloudflare.com): a single operator",
+        "Already on public wallet blocklist(s): metamask"
+      ],
+      "facts": {
+        "sources": [
+          "permutation"
+        ],
+        "fuzzer": "replacement",
+        "dns": {
+          "a": [
+            "188.114.96.11",
+            "188.114.97.11"
+          ],
+          "ns": [
+            "serena.ns.cloudflare.com",
+            "derek.ns.cloudflare.com"
+          ],
+          "mx": []
+        },
+        "page": {
+          "status": 200,
+          "finalUrl": "https://www.google.com/?b=t",
+          "title": "Google",
+          "signals": {
+            "secretForm": true,
+            "walletPrompt": [],
+            "seedPhrase": [],
+            "lure": [],
+            "drainerJs": [],
+            "parked": [],
+            "cryptoContext": [],
+            "interstitial": [],
+            "challenge": []
+          }
+        },
+        "similarity": {
+          "title": 0.09,
+          "text": 0,
+          "favicon": false,
+          "overall": 0.03
+        },
+        "listedOn": [
+          "metamask"
+        ],
+        "alreadyBlocked": true,
+        "registrar": "NICENIC INTERNATIONAL GROUP CO., LIMITED",
+        "registered": "2026-09-27T21:28:52.103Z"
+      },
+      "links": {
+        "defanged": "rgea[.]finance"
+      },
+      "key": "domain:rgea.finance",
+      "firstSeen": "2026-11-01T16:58:17.385Z",
+      "lastSeen": "2026-11-01T16:58:17.385Z",
+      "scans": [
+        "2026-11-01"
+      ],
+      "review": {
+        "decision": "pending"
+      }
+    },
+    {
+      "subject": "rhe.finance",
+      "kind": "domain",
+      "brand": "rhea",
+      "brandName": "Rhea Finance",
+      "label": "phishing-likely",
+      "severity": "high",
+      "score": 67,
+      "category": "phishing",
+      "evidence": [
+        "Typosquat (omission) of the official domain",
+        "One of 14 lookalikes on the same DNS account (derek.ns.cloudflare.com + serena.ns.cloudflare.com): a single operator",
+        "Already on public wallet blocklist(s): metamask",
+        "Page title resembles the official title (100%)",
+        "Lure text: rewards"
+      ],
+      "facts": {
+        "sources": [
+          "permutation"
+        ],
+        "fuzzer": "omission",
+        "dns": {
+          "a": [
+            "172.67.174.114",
+            "104.21.55.238"
+          ],
+          "ns": [
+            "serena.ns.cloudflare.com",
+            "derek.ns.cloudflare.com"
+          ],
+          "mx": []
+        },
+        "page": {
+          "status": 200,
+          "finalUrl": "https://rhrea.finance/",
+          "title": "RHEA Finance",
+          "signals": {
+            "secretForm": false,
+            "walletPrompt": [],
+            "seedPhrase": [],
+            "lure": [
+              "rewards"
+            ],
+            "drainerJs": [],
+            "parked": [],
+            "cryptoContext": [
+              "Crypto",
+              "DeFi",
+              "tokens",
+              "Swap",
+              "liquidity",
+              "Stake",
+              "Blockchain",
+              "DEX",
+              "NFT",
+              "ETH",
+              "USDC",
+              "bridge"
+            ],
+            "interstitial": [],
+            "challenge": []
+          }
+        },
+        "similarity": {
+          "title": 1,
+          "text": 0,
+          "favicon": false,
+          "overall": 0.35
+        },
+        "listedOn": [
+          "metamask"
+        ],
+        "alreadyBlocked": true,
+        "registrar": "NICENIC INTERNATIONAL GROUP CO., LIMITED",
+        "registered": "2026-09-27T20:47:17.182Z"
+      },
+      "links": {
+        "defanged": "rhe[.]finance"
+      },
+      "key": "domain:rhe.finance",
+      "firstSeen": "2026-11-01T16:58:17.385Z",
+      "lastSeen": "2026-11-01T16:58:17.385Z",
+      "scans": [
+        "2026-11-01"
+      ],
+      "review": {
+        "decision": "pending"
+      }
+    },
+    {
+      "subject": "rheaswap.finance",
+      "kind": "domain",
+      "brand": "rhea",
+      "brandName": "Rhea Finance",
+      "label": "phishing-likely",
+      "severity": "critical",
+      "score": 81,
+      "category": "phishing",
+      "evidence": [
+        "Brand name plus a phishing lure word",
+        "Page title resembles the official title (100%)",
+        "Wallet-connect prompt/library: Connect Wallet, walletconnect",
+        "Asks for secrets in a form: seed phrase, private key",
+        "Lure text: claim, Airdrop, Eligibility"
+      ],
+      "facts": {
+        "sources": [
+          "permutation"
+        ],
+        "fuzzer": "dictionary",
+        "dns": {
+          "a": [
+            "185.199.108.153",
+            "185.199.111.153",
+            "185.199.110.153",
+            "185.199.109.153"
+          ],
+          "ns": [
+            "dns1.registrar-servers.com",
+            "dns2.registrar-servers.com"
+          ],
+          "mx": [
+            "eforward2.registrar-servers.com",
+            "eforward1.registrar-servers.com",
+            "eforward3.registrar-servers.com",
+            "eforward4.registrar-servers.com",
+            "eforward5.registrar-servers.com"
+          ]
+        },
+        "page": {
+          "status": 200,
+          "finalUrl": "https://rheaswap.finance/",
+          "title": "RHEA Finance",
+          "signals": {
+            "walletPrompt": [
+              "Connect Wallet",
+              "walletconnect"
+            ],
+            "seedPhrase": [
+              "seed phrase",
+              "private key"
+            ],
+            "secretForm": true,
+            "lure": [
+              "claim",
+              "Airdrop",
+              "Eligibility",
+              "Migration"
+            ],
+            "drainerJs": [],
+            "parked": [],
+            "cryptoContext": [
+              "Crypto",
+              "DeFi",
+              "Swap",
+              "Liquidity",
+              "Wallet",
+              "Airdrop",
+              "Stake",
+              "Ethereum",
+              "USDC",
+              "Bridge"
+            ],
+            "interstitial": [],
+            "challenge": []
+          }
+        },
+        "similarity": {
+          "title": 1,
+          "text": 0.09,
+          "favicon": false,
+          "overall": 0.41
+        },
+        "listedOn": [],
+        "alreadyBlocked": false,
+        "registrar": "NameCheap, Inc.",
+        "registered": "2026-09-30T15:41:42.829Z"
+      },
+      "links": {
+        "defanged": "rheaswap[.]finance"
+      },
+      "key": "domain:rheaswap.finance",
+      "firstSeen": "2026-11-01T16:58:17.385Z",
+      "lastSeen": "2026-11-01T16:58:17.385Z",
+      "scans": [
+        "2026-11-01"
+      ],
+      "review": {
+        "decision": "pending"
+      }
+    },
+    {
+      "subject": "rheea.finance",
+      "kind": "domain",
+      "brand": "rhea",
+      "brandName": "Rhea Finance",
+      "label": "phishing-likely",
+      "severity": "high",
+      "score": 67,
+      "category": "phishing",
+      "evidence": [
+        "Typosquat (repetition) of the official domain",
+        "One of 14 lookalikes on the same DNS account (derek.ns.cloudflare.com + serena.ns.cloudflare.com): a single operator",
+        "Already on public wallet blocklist(s): metamask",
+        "Page title resembles the official title (100%)",
+        "Lure text: rewards"
+      ],
+      "facts": {
+        "sources": [
+          "permutation"
+        ],
+        "fuzzer": "repetition",
+        "dns": {
+          "a": [
+            "172.67.172.93",
+            "104.21.63.228"
+          ],
+          "ns": [
+            "derek.ns.cloudflare.com",
+            "serena.ns.cloudflare.com"
+          ],
+          "mx": []
+        },
+        "page": {
+          "status": 200,
+          "finalUrl": "https://rhrea.finance/",
+          "title": "RHEA Finance",
+          "signals": {
+            "secretForm": false,
+            "walletPrompt": [],
+            "seedPhrase": [],
+            "lure": [
+              "rewards"
+            ],
+            "drainerJs": [],
+            "parked": [],
+            "cryptoContext": [
+              "Crypto",
+              "DeFi",
+              "tokens",
+              "Swap",
+              "liquidity",
+              "Stake",
+              "Blockchain",
+              "DEX",
+              "NFT",
+              "ETH",
+              "USDC",
+              "bridge"
+            ],
+            "interstitial": [],
+            "challenge": []
+          }
+        },
+        "similarity": {
+          "title": 1,
+          "text": 0,
+          "favicon": false,
+          "overall": 0.35
+        },
+        "listedOn": [
+          "metamask"
+        ],
+        "alreadyBlocked": true,
+        "registrar": "NICENIC INTERNATIONAL GROUP CO., LIMITED",
+        "registered": "2026-09-28T11:14:05.858Z"
+      },
+      "links": {
+        "defanged": "rheea[.]finance"
+      },
+      "key": "domain:rheea.finance",
+      "firstSeen": "2026-11-01T16:58:17.385Z",
+      "lastSeen": "2026-11-01T16:58:17.385Z",
+      "scans": [
+        "2026-11-01"
+      ],
+      "review": {
+        "decision": "pending"
+      }
+    },
+    {
+      "subject": "rhes.finance",
+      "kind": "domain",
+      "brand": "rhea",
+      "brandName": "Rhea Finance",
+      "label": "phishing-likely",
+      "severity": "high",
+      "score": 51,
+      "category": "phishing",
+      "evidence": [
+        "Typosquat (replacement) of the official domain",
+        "One of 14 lookalikes on the same DNS account (derek.ns.cloudflare.com + serena.ns.cloudflare.com): a single operator",
+        "Already on public wallet blocklist(s): metamask"
+      ],
+      "facts": {
+        "sources": [
+          "permutation"
+        ],
+        "fuzzer": "replacement",
+        "dns": {
+          "a": [
+            "104.21.30.180",
+            "172.67.173.128"
+          ],
+          "ns": [
+            "derek.ns.cloudflare.com",
+            "serena.ns.cloudflare.com"
+          ],
+          "mx": []
+        },
+        "page": {
+          "status": 200,
+          "finalUrl": "https://www.google.com/?b=t",
+          "title": "Google",
+          "signals": {
+            "secretForm": true,
+            "walletPrompt": [],
+            "seedPhrase": [],
+            "lure": [],
+            "drainerJs": [],
+            "parked": [],
+            "cryptoContext": [],
+            "interstitial": [],
+            "challenge": []
+          }
+        },
+        "similarity": {
+          "title": 0.09,
+          "text": 0,
+          "favicon": false,
+          "overall": 0.03
+        },
+        "listedOn": [
+          "metamask"
+        ],
+        "alreadyBlocked": true,
+        "registrar": "NICENIC INTERNATIONAL GROUP CO., LIMITED",
+        "registered": "2026-09-27T21:28:52.118Z"
+      },
+      "links": {
+        "defanged": "rhes[.]finance"
+      },
+      "key": "domain:rhes.finance",
+      "firstSeen": "2026-11-01T16:58:17.385Z",
+      "lastSeen": "2026-11-01T16:58:17.385Z",
+      "scans": [
+        "2026-11-01"
+      ],
+      "review": {
+        "decision": "pending"
+      }
+    },
+    {
+      "subject": "rhhea.finance",
+      "kind": "domain",
+      "brand": "rhea",
+      "brandName": "Rhea Finance",
+      "label": "phishing-likely",
+      "severity": "high",
+      "score": 67,
+      "category": "phishing",
+      "evidence": [
+        "Typosquat (repetition) of the official domain",
+        "One of 14 lookalikes on the same DNS account (derek.ns.cloudflare.com + serena.ns.cloudflare.com): a single operator",
+        "Already on public wallet blocklist(s): metamask",
+        "Page title resembles the official title (100%)",
+        "Lure text: rewards"
+      ],
+      "facts": {
+        "sources": [
+          "permutation"
+        ],
+        "fuzzer": "repetition",
+        "dns": {
+          "a": [
+            "172.67.175.13",
+            "104.21.64.28"
+          ],
+          "ns": [
+            "serena.ns.cloudflare.com",
+            "derek.ns.cloudflare.com"
+          ],
+          "mx": []
+        },
+        "page": {
+          "status": 200,
+          "finalUrl": "https://rhrea.finance/",
+          "title": "RHEA Finance",
+          "signals": {
+            "secretForm": false,
+            "walletPrompt": [],
+            "seedPhrase": [],
+            "lure": [
+              "rewards"
+            ],
+            "drainerJs": [],
+            "parked": [],
+            "cryptoContext": [
+              "Crypto",
+              "DeFi",
+              "tokens",
+              "Swap",
+              "liquidity",
+              "Stake",
+              "Blockchain",
+              "DEX",
+              "NFT",
+              "ETH",
+              "USDC",
+              "bridge"
+            ],
+            "interstitial": [],
+            "challenge": []
+          }
+        },
+        "similarity": {
+          "title": 1,
+          "text": 0,
+          "favicon": false,
+          "overall": 0.35
+        },
+        "listedOn": [
+          "metamask"
+        ],
+        "alreadyBlocked": true,
+        "registrar": "NICENIC INTERNATIONAL GROUP CO., LIMITED",
+        "registered": "2026-09-28T11:14:05.737Z"
+      },
+      "links": {
+        "defanged": "rhhea[.]finance"
+      },
+      "key": "domain:rhhea.finance",
+      "firstSeen": "2026-11-01T16:58:17.385Z",
+      "lastSeen": "2026-11-01T16:58:17.385Z",
+      "scans": [
+        "2026-11-01"
+      ],
+      "review": {
+        "decision": "pending"
+      }
+    },
+    {
+      "subject": "rlhea.finance",
+      "kind": "domain",
+      "brand": "rhea",
+      "brandName": "Rhea Finance",
+      "label": "phishing-likely",
+      "severity": "high",
+      "score": 55,
+      "category": "phishing",
+      "evidence": [
+        "Homoglyph lookalike of the official domain",
+        "Already on public wallet blocklist(s): metamask",
+        "Almost empty page (1 chars of text, title \"blank\"): content not visible"
+      ],
+      "facts": {
+        "sources": [
+          "permutation"
+        ],
+        "fuzzer": "homoglyph",
+        "dns": {
+          "a": [
+            "104.21.71.70",
+            "172.67.143.225"
+          ],
+          "ns": [
+            "ray.ns.cloudflare.com",
+            "joyce.ns.cloudflare.com"
+          ],
+          "mx": []
+        },
+        "page": {
+          "status": 200,
+          "finalUrl": "https://rlhea.finance/",
+          "title": "blank",
+          "signals": {
+            "secretForm": false,
+            "walletPrompt": [],
+            "seedPhrase": [],
+            "lure": [],
+            "drainerJs": [],
+            "parked": [],
+            "cryptoContext": [],
+            "interstitial": [],
+            "challenge": []
+          }
+        },
+        "similarity": {
+          "title": 0.18,
+          "text": 0,
+          "favicon": false,
+          "overall": 0.06
+        },
+        "listedOn": [
+          "metamask"
+        ],
+        "alreadyBlocked": true,
+        "registrar": "NICENIC INTERNATIONAL GROUP CO., LIMITED",
+        "registered": "2026-09-30T20:17:51.679Z"
+      },
+      "links": {
+        "defanged": "rlhea[.]finance"
+      },
+      "key": "domain:rlhea.finance",
+      "firstSeen": "2026-11-01T16:58:17.385Z",
+      "lastSeen": "2026-11-01T16:58:17.385Z",
+      "scans": [
+        "2026-11-01"
+      ],
+      "review": {
+        "decision": "pending"
+      }
+    },
+    {
+      "subject": "rrhea.finance",
+      "kind": "domain",
+      "brand": "rhea",
+      "brandName": "Rhea Finance",
+      "label": "phishing-likely",
+      "severity": "high",
+      "score": 67,
+      "category": "phishing",
+      "evidence": [
+        "Typosquat (repetition) of the official domain",
+        "One of 14 lookalikes on the same DNS account (derek.ns.cloudflare.com + serena.ns.cloudflare.com): a single operator",
+        "Already on public wallet blocklist(s): metamask",
+        "Page title resembles the official title (100%)",
+        "Lure text: rewards"
+      ],
+      "facts": {
+        "sources": [
+          "permutation"
+        ],
+        "fuzzer": "repetition",
+        "dns": {
+          "a": [
+            "172.67.211.188",
+            "104.21.85.218"
+          ],
+          "ns": [
+            "derek.ns.cloudflare.com",
+            "serena.ns.cloudflare.com"
+          ],
+          "mx": []
+        },
+        "page": {
+          "status": 200,
+          "finalUrl": "https://rhrea.finance/",
+          "title": "RHEA Finance",
+          "signals": {
+            "secretForm": false,
+            "walletPrompt": [],
+            "seedPhrase": [],
+            "lure": [
+              "rewards"
+            ],
+            "drainerJs": [],
+            "parked": [],
+            "cryptoContext": [
+              "Crypto",
+              "DeFi",
+              "tokens",
+              "Swap",
+              "liquidity",
+              "Stake",
+              "Blockchain",
+              "DEX",
+              "NFT",
+              "ETH",
+              "USDC",
+              "bridge"
+            ],
+            "interstitial": [],
+            "challenge": []
+          }
+        },
+        "similarity": {
+          "title": 1,
+          "text": 0,
+          "favicon": false,
+          "overall": 0.35
+        },
+        "listedOn": [
+          "metamask"
+        ],
+        "alreadyBlocked": true,
+        "registrar": "NICENIC INTERNATIONAL GROUP CO., LIMITED",
+        "registered": "2026-09-27T21:28:51.82Z"
+      },
+      "links": {
+        "defanged": "rrhea[.]finance"
+      },
+      "key": "domain:rrhea.finance",
+      "firstSeen": "2026-11-01T16:58:17.385Z",
+      "lastSeen": "2026-11-01T16:58:17.385Z",
+      "scans": [
+        "2026-11-01"
+      ],
+      "review": {
+        "decision": "pending"
+      }
+    },
+    {
+      "subject": "stakememe.xyz",
+      "kind": "domain",
+      "brand": "meme-cooking",
+      "brandName": "meme.cooking",
+      "label": "phishing-likely",
+      "severity": "high",
+      "score": 50,
+      "category": "phishing",
+      "evidence": [
+        "Brand name plus a phishing lure word",
+        "Already on public wallet blocklist(s): scamsniffer",
+        "Almost empty page (0 chars of text, title \"\"): content not visible"
+      ],
+      "facts": {
+        "sources": [
+          "permutation"
+        ],
+        "fuzzer": "dictionary",
+        "dns": {
+          "a": [
+            "76.223.54.146",
+            "13.248.169.48"
+          ],
+          "ns": [
+            "ns5.afternic.com",
+            "ns6.afternic.com"
+          ],
+          "mx": [
+            ""
+          ]
+        },
+        "page": {
+          "status": 200,
+          "finalUrl": "https://stakememe.xyz/",
+          "title": "",
+          "signals": {
+            "secretForm": false,
+            "walletPrompt": [],
+            "seedPhrase": [],
+            "lure": [],
+            "drainerJs": [],
+            "parked": [],
+            "cryptoContext": [],
+            "interstitial": [],
+            "challenge": []
+          }
+        },
+        "similarity": {
+          "title": 0,
+          "text": 0,
+          "favicon": false,
+          "overall": 0
+        },
+        "listedOn": [
+          "scamsniffer"
+        ],
+        "alreadyBlocked": true,
+        "registrar": "GMO Internet Group, Inc. d/b/a Onamae.com",
+        "registered": "2026-10-10T10:54:27.0Z",
+        "brandLink": "weak: the host shares only a short generic word with the brand, and the page does not copy its title"
+      },
+      "links": {
+        "defanged": "stakememe[.]xyz"
+      },
+      "key": "domain:stakememe.xyz",
+      "firstSeen": "2026-11-01T16:58:17.385Z",
+      "lastSeen": "2026-11-01T16:58:17.385Z",
+      "scans": [
+        "2026-11-01"
+      ],
+      "review": {
+        "decision": "pending"
+      }
+    },
+    {
+      "subject": "sweatcoincentral.com",
+      "kind": "domain",
+      "brand": "sweat",
+      "brandName": "Sweat Economy",
+      "label": "impersonation",
+      "severity": "medium",
+      "score": 40,
+      "category": "impersonation",
+      "evidence": [
+        "Hostname contains the brand name",
+        "Newly registered domain (WhoisDS daily list)",
+        "Brand named on the page (31x), including the title",
+        "Lure text: rewards"
+      ],
+      "facts": {
+        "sources": [
+          "nrd"
+        ],
+        "nrdDate": "2026-10-29",
+        "dns": {
+          "a": [
+            "52.22.81.197"
+          ],
+          "ns": [
+            "ns1.sweatcoinhub.com",
+            "ns2.sweatcoinhub.com"
+          ],
+          "mx": [
+            "smtp.google.com"
+          ]
+        },
+        "page": {
+          "status": 200,
+          "finalUrl": "https://sweatcoincentral.com/",
+          "title": "Sweatcoin: Healthier planet. Healthier, wealthier you",
+          "signals": {
+            "walletPrompt": [],
+            "seedPhrase": [],
+            "secretForm": false,
+            "lure": [
+              "rewards"
+            ],
+            "drainerJs": [],
+            "parked": [],
+            "cryptoContext": [
+              "crypto"
+            ],
+            "interstitial": [],
+            "challenge": []
+          }
+        },
+        "similarity": {
+          "title": 0,
+          "text": 0,
+          "favicon": false,
+          "overall": 0
+        },
+        "listedOn": [],
+        "alreadyBlocked": false,
+        "registrar": "Dynadot Inc",
+        "registered": "2026-10-27T19:48:29Z"
+      },
+      "links": {
+        "defanged": "sweatcoincentral[.]com"
+      },
+      "key": "domain:sweatcoincentral.com",
+      "firstSeen": "2026-11-01T16:58:17.385Z",
+      "lastSeen": "2026-11-01T16:58:17.385Z",
+      "scans": [
+        "2026-11-01"
+      ],
+      "review": {
+        "decision": "pending"
+      }
+    },
+    {
+      "subject": "sweatcoinhub.com",
+      "kind": "domain",
+      "brand": "sweat",
+      "brandName": "Sweat Economy",
+      "label": "impersonation",
+      "severity": "medium",
+      "score": 40,
+      "category": "impersonation",
+      "evidence": [
+        "Hostname contains the brand name",
+        "Newly registered domain (WhoisDS daily list)",
+        "Brand named on the page (31x), including the title",
+        "Lure text: rewards"
+      ],
+      "facts": {
+        "sources": [
+          "nrd"
+        ],
+        "nrdDate": "2026-10-29",
+        "dns": {
+          "a": [
+            "100.31.34.117"
+          ],
+          "ns": [
+            "ns1.sweatcoinhub.com",
+            "ns2.sweatcoinhub.com"
+          ],
+          "mx": [
+            "smtp.google.com"
+          ]
+        },
+        "page": {
+          "status": 200,
+          "finalUrl": "https://sweatcoinhub.com/",
+          "title": "Sweatcoin: Healthier planet. Healthier, wealthier you",
+          "signals": {
+            "walletPrompt": [],
+            "seedPhrase": [],
+            "secretForm": false,
+            "lure": [
+              "rewards"
+            ],
+            "drainerJs": [],
+            "parked": [],
+            "cryptoContext": [
+              "crypto"
+            ],
+            "interstitial": [],
+            "challenge": []
+          }
+        },
+        "similarity": {
+          "title": 0,
+          "text": 0,
+          "favicon": false,
+          "overall": 0
+        },
+        "listedOn": [],
+        "alreadyBlocked": false,
+        "registrar": "Dynadot Inc",
+        "registered": "2026-10-27T20:09:16Z"
+      },
+      "links": {
+        "defanged": "sweatcoinhub[.]com"
+      },
+      "key": "domain:sweatcoinhub.com",
+      "firstSeen": "2026-11-01T16:58:17.385Z",
+      "lastSeen": "2026-11-01T16:58:17.385Z",
+      "scans": [
+        "2026-11-01"
+      ],
+      "review": {
+        "decision": "pending"
+      }
+    },
+    {
+      "subject": "syncnear.com",
+      "kind": "domain",
+      "brand": "near",
+      "brandName": "NEAR Protocol",
+      "label": "lookalike-other-crypto",
+      "severity": "medium",
+      "score": 41,
+      "category": "impersonation",
+      "evidence": [
+        "Brand name plus a phishing lure word",
+        "Lookalike of your domain serving other crypto content (wallet UI)",
+        "Wallet-connect prompt/library: eth_requestAccounts, window.ethereum"
+      ],
+      "facts": {
+        "sources": [
+          "permutation"
+        ],
+        "fuzzer": "dictionary",
+        "dns": {
+          "a": [
+            "76.76.21.21"
+          ],
+          "ns": [
+            "ns62.domaincontrol.com",
+            "ns61.domaincontrol.com"
+          ],
+          "mx": [
+            "mx.zoho.in",
+            "mx2.zoho.in",
+            "mx3.zoho.in"
+          ]
+        },
+        "page": {
+          "status": 200,
+          "finalUrl": "https://www.syncnear.com/",
+          "title": "SyncNear | Find Local Jobs & Hire Workers Instantly",
+          "signals": {
+            "walletPrompt": [
+              "eth_requestAccounts",
+              "window.ethereum"
+            ],
+            "seedPhrase": [],
+            "secretForm": false,
+            "lure": [],
+            "drainerJs": [],
+            "parked": [],
+            "cryptoContext": [],
+            "interstitial": [],
+            "challenge": []
+          }
+        },
+        "similarity": {
+          "title": 0.22,
+          "text": 0,
+          "favicon": false,
+          "overall": 0.08
+        },
+        "listedOn": [],
+        "alreadyBlocked": false
+      },
+      "links": {
+        "defanged": "syncnear[.]com"
+      },
+      "key": "domain:syncnear.com",
+      "firstSeen": "2026-11-01T16:58:17.385Z",
+      "lastSeen": "2026-11-01T16:58:17.385Z",
+      "scans": [
+        "2026-11-01"
+      ],
+      "review": {
+        "decision": "pending"
+      }
+    },
+    {
+      "subject": "wallet-meteorwallet.com",
+      "kind": "domain",
+      "brand": "meteor",
+      "brandName": "Meteor Wallet",
+      "label": "impersonation",
+      "severity": "medium",
+      "score": 50,
+      "category": "impersonation",
+      "evidence": [
+        "Brand name plus a phishing lure word",
+        "Page title resembles the official title (80%)",
+        "Brand named on the page (5x)",
+        "Mentions seed phrase (no input form seen)",
+        "Lure text: Airdrop, rewards"
+      ],
+      "facts": {
+        "sources": [
+          "permutation"
+        ],
+        "fuzzer": "dictionary",
+        "dns": {
+          "a": [
+            "188.114.97.11",
+            "188.114.96.11"
+          ],
+          "ns": [
+            "lochlan.ns.cloudflare.com",
+            "anna.ns.cloudflare.com"
+          ],
+          "mx": []
+        },
+        "page": {
+          "status": 200,
+          "finalUrl": "https://wallet-meteorwallet.com/",
+          "title": "Meteor Wallet – Secure NEAR Crypto Wallet for Web3",
+          "signals": {
+            "walletPrompt": [],
+            "seedPhrase": [
+              "seed phrase"
+            ],
+            "secretForm": false,
+            "lure": [
+              "Airdrop",
+              "rewards"
+            ],
+            "drainerJs": [],
+            "parked": [],
+            "cryptoContext": [
+              "Crypto",
+              "DeFi",
+              "swap",
+              "Wallet",
+              "Airdrop",
+              "Web3"
+            ],
+            "interstitial": [],
+            "challenge": []
+          }
+        },
+        "similarity": {
+          "title": 0.8,
+          "text": 0,
+          "favicon": false,
+          "overall": 0.28
+        },
+        "listedOn": [],
+        "alreadyBlocked": false,
+        "registrar": "Tucows Domains Inc.",
+        "registered": "2026-10-26T11:05:42Z"
+      },
+      "links": {
+        "defanged": "wallet-meteorwallet[.]com"
+      },
+      "key": "domain:wallet-meteorwallet.com",
+      "firstSeen": "2026-11-01T16:58:17.385Z",
+      "lastSeen": "2026-11-01T16:58:17.385Z",
+      "scans": [
+        "2026-11-01"
+      ],
+      "review": {
+        "decision": "pending"
+      }
+    }
+  ]
+}

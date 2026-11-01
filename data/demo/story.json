@@ -1,0 +1,14 @@
+{
+  "note": "Inputs for npm run demo. The scan is the recorded 2026-11-01 mainnet scan; review-queue.json holds recorded demo review decisions (reviewer 'demo-reviewer'), not the owner's real review (that is review/queue.json).",
+  "scan": "data/scans/2026-11-01",
+  "closeUp": "linear_protocol.near",
+  "falsePositives": ["v2-ref-finance.near", "sputnikdao.near", "herewalletapp.near"],
+  "checks": [
+    { "who": "agent", "to": "linear_protocol.near", "amount": "25 NEAR", "say": "Pay 25 NEAR to linear underscore protocol dot near, to claim rewards? Blocked, with a link to the evidence." },
+    { "who": "agent", "to": "claim.metapools.near", "amount": "10 NEAR", "say": "A sub-account of a flagged account is blocked too, because only the parent can create it." },
+    { "who": "agent", "to": "linear-protocol.near", "amount": "25 NEAR", "say": "The real LiNEAR contract is allowed." },
+    { "who": "agent", "to": "nearprotocolreward.near", "amount": "5 NEAR", "say": "A fresh lookalike nobody has reviewed yet gets a warning, so a human decides." },
+    { "who": "wallet", "to": "https://rheaswap.finance/claim", "say": "And a link to the Rhea clone that asks for seed phrases is blocked." }
+  ],
+  "dispute": { "subject": "metapools.near", "kind": "account", "reason": "this is a community rewards token" }
+}

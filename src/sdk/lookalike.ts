@@ -54,7 +54,7 @@ export function lookalikeOf(id: string, index: BrandIndex): LookalikeHit | undef
   for (const brand of index.brands) {
     for (const stem of brand.nameStems) {
       const s = fold(stem);
-      if (s.length >= 4 && f.includes(s) && f !== s && LURE_RE.test(body)) return { brand, imitates: brand.officialAccounts[0]?.id ?? stem, how: "brand-bait" };
+      if (s.length >= 4 && f.includes(s) && f !== s && LURE_RE.test(body)) return { brand, imitates: stem, how: "brand-bait" };
     }
   }
   return undefined;

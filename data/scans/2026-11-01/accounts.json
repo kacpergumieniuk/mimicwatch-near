@@ -30,8 +30,7 @@
         "It is a NEP-141 token named \"$Linear Protocol Rewards (https://linearprotocol.net)\" (LinearProtocol.net), using the LiNEAR Protocol name, held by 2,205 accounts.",
         "Its token name advertises a website (https://linearprotocol.net): the fake-airdrop pattern, where a \"rewards\" token sent to many wallets lures holders to a phishing site.",
         "1 dust transfer(s) under 0.05 NEAR from others (typical of address poisoning aimed at this account's owner; not counted as payments).",
-        "Linked to other lookalikes found in this scan (shared full-access key, or creator/created): burrowfinancedao.near.",
-        "Older than two years with 212 transactions: likely someone's own long-used account."
+        "Linked to other lookalikes found in this scan (shared full-access key, or creator/created): burrowfinancedao.near."
       ],
       "facts": {
         "createdAt": "2024-05-18",
@@ -93,8 +92,7 @@
         "It is a NEP-141 token named \"$Meta Pool Rewards (https://metapools.org)\" (MetaPools.org), using the Meta Pool name, held by 9,434 accounts.",
         "Its token name advertises a website (https://metapools.org): the fake-airdrop pattern, where a \"rewards\" token sent to many wallets lures holders to a phishing site.",
         "1 dust transfer(s) under 0.05 NEAR from others (typical of address poisoning aimed at this account's owner; not counted as payments).",
-        "Linked to other lookalikes found in this scan (shared full-access key, or creator/created): burrowfinancedao.near.",
-        "Older than two years with 578 transactions: likely someone's own long-used account."
+        "Linked to other lookalikes found in this scan (shared full-access key, or creator/created): burrowfinancedao.near."
       ],
       "facts": {
         "createdAt": "2024-05-18",
@@ -155,8 +153,7 @@
         "A contract is deployed (code hash 12p7js1vHix1YrMhL7XKunpcxGNuFij2pmfuRSz7kocn).",
         "It is a NEP-141 token named \"Burrow Finance Rewards (https://burrowfi.com)\" (BurrowFi.com), using the Burrow name, held by 7,079 accounts.",
         "Its token name advertises a website (https://burrowfi.com): the fake-airdrop pattern, where a \"rewards\" token sent to many wallets lures holders to a phishing site.",
-        "Inbound NEAR transfers signed by others (in the 21 transactions inspected): 1 from 1 sender(s), 0.1 NEAR in total.",
-        "Older than two years with 995 transactions: likely someone's own long-used account."
+        "Inbound NEAR transfers signed by others (in the 21 transactions inspected): 1 from 1 sender(s), 0.1 NEAR in total."
       ],
       "facts": {
         "createdAt": "2024-05-16",

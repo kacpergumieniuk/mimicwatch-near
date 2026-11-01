@@ -110,10 +110,11 @@ export async function checkNearRecipient(input: string, o: CheckOptions = {}): P
       res.registry = f;
       if (f.flagged && f.entry) {
         const e = f.entry;
+        const brandName = e.brand ? ((o.brands && o.brands.byId(e.brand)?.name) ?? e.brand) : undefined;
         const where = f.via === "exact" ? "" : ` (via its parent ${e.subject})`;
         if (e.status === "active") {
           raise("BLOCK");
-          reasons.push({ code: "REGISTRY_FLAGGED", message: `Mimicwatch registry: ${e.severity} ${e.category}${e.brand ? ` imitating ${e.brand}` : ""}${where}. Evidence: ${e.evidence_url}` });
+          reasons.push({ code: "REGISTRY_FLAGGED", message: `Mimicwatch registry: ${e.severity} ${e.category}${brandName ? ` imitating ${brandName}` : ""}${where}. Evidence: ${e.evidence_url}` });
         } else {
           raise("WARN");
           reasons.push({ code: "REGISTRY_DISPUTED", message: `flagged as ${e.severity} ${e.category}${where}, but disputed${e.dispute?.by_subject ? " by the account itself" : ""}: "${e.dispute?.reason ?? ""}". Ask a human.` });
@@ -135,7 +136,8 @@ export async function checkNearRecipient(input: string, o: CheckOptions = {}): P
       const hit = lookalikeOf(subject, o.brands);
       if (hit && !(res.registry?.flagged)) {
         raise("WARN");
-        reasons.push({ code: "LOOKALIKE_ACCOUNT", message: `${hit.how} lookalike of ${hit.imitates} (${hit.brand.name}); not in the registry yet` });
+        const msg = hit.how === "brand-bait" ? `uses the ${hit.brand.name} name with a lure word` : `${hit.how} lookalike of ${hit.imitates} (${hit.brand.name})`;
+        reasons.push({ code: "LOOKALIKE_ACCOUNT", message: `${msg}; not in the registry yet` });
       }
     } else {
       const hit = domainLookalike(subject, o.brands);
