@@ -1,0 +1,18 @@
+# secrets and local state: never commit
+.env
+.env.*
+!.env.example
+.mimicwatch-local/
+.near-credentials/
+*.key
+*.pem
+
+# build output and caches
+node_modules/
+contracts/target/
+target/
+.cache/
+out/
+coverage/
+*.log
+.DS_Store

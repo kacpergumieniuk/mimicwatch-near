@@ -1,0 +1,14 @@
+{
+  "name": "Example Project",
+  "notes": "Template for a client profile. Replace every value. reporterContact appears in report drafts.",
+  "officialDomains": ["example-project.xyz"],
+  "referenceUrl": "https://example-project.xyz/",
+  "officialTokens": [
+    { "chain": "base", "address": "0x0000000000000000000000000000000000000001", "symbol": "EXMPL", "name": "Example Project" }
+  ],
+  "officialSocials": { "x": "exampleproject", "telegram": "exampleproject" },
+  "keywords": ["exampleproject"],
+  "allowlist": [],
+  "tokenChains": ["base"],
+  "reporterContact": "security@example-project.xyz"
+}

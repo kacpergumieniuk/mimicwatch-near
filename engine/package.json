@@ -1,0 +1,26 @@
+{
+  "name": "brandwatch",
+  "version": "0.1.0",
+  "private": true,
+  "license": "UNLICENSED",
+  "type": "module",
+  "description": "Brand-impersonation watch for small crypto projects: lookalike domains, copycat tokens, fake sites, and draft takedown reports (drafts only, never auto-filed).",
+  "bin": { "brandwatch": "src/cli.ts" },
+  "scripts": {
+    "scan": "tsx src/cli.ts scan",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit"
+  },
+  "engines": { "node": ">=20" },
+  "dependencies": {
+    "playwright": "^1.64.1",
+    "tldts": "^7.4.19",
+    "viem": "^2.57.14"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.6",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2",
+    "vitest": "^5.0.5"
+  }
+}
