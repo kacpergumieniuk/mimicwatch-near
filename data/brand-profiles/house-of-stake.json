@@ -1,0 +1,19 @@
+{
+  "name": "House of Stake (veNEAR governance)",
+  "notes": "Generated from brands/near-brands.json (house-of-stake).",
+  "officialDomains": [
+    "houseofstake.org"
+  ],
+  "referenceUrl": "https://houseofstake.org",
+  "officialTokens": [],
+  "officialSocials": {
+    "x": "neargovernance",
+    "github": "houseofstake"
+  },
+  "keywords": [
+    "houseofstake",
+    "house-of-stake",
+    "venear"
+  ],
+  "allowlist": []
+}

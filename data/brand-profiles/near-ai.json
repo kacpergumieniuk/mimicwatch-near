@@ -1,0 +1,19 @@
+{
+  "name": "NEAR AI",
+  "notes": "Generated from brands/near-brands.json (near-ai).",
+  "officialDomains": [
+    "near.ai"
+  ],
+  "referenceUrl": "https://near.ai",
+  "officialTokens": [],
+  "officialSocials": {
+    "x": "near_ai",
+    "github": "nearai"
+  },
+  "keywords": [
+    "near.ai",
+    "nearai",
+    "near-ai"
+  ],
+  "allowlist": []
+}

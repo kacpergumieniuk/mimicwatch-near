@@ -1,0 +1,24 @@
+{
+  "name": "NEAR Protocol",
+  "notes": "Generated from brands/near-brands.json (near).",
+  "officialDomains": [
+    "near.org",
+    "near.com",
+    "near.chat"
+  ],
+  "referenceUrl": "https://near.org",
+  "officialTokens": [],
+  "officialSocials": {
+    "x": "NEARProtocol",
+    "github": "near",
+    "discord": "nearprotocol"
+  },
+  "keywords": [
+    "nearprotocol",
+    "near-protocol",
+    "near.org",
+    "near.com",
+    "wnear"
+  ],
+  "allowlist": []
+}

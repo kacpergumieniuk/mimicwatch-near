@@ -1,0 +1,21 @@
+{
+  "name": "Meta Pool",
+  "notes": "Generated from brands/near-brands.json (meta-pool).",
+  "officialDomains": [
+    "metapool.app"
+  ],
+  "referenceUrl": "https://www.metapool.app",
+  "officialTokens": [],
+  "officialSocials": {
+    "x": "meta_pool",
+    "telegram": "MetaPoolOfficialGroup",
+    "github": "Meta-Pool"
+  },
+  "keywords": [
+    "metapool",
+    "meta-pool",
+    "mpdao",
+    "stnear"
+  ],
+  "allowlist": []
+}

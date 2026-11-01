@@ -1,0 +1,19 @@
+{
+  "name": "SHITZU",
+  "notes": "Generated from brands/near-brands.json (shitzu).",
+  "officialDomains": [
+    "shitzuapes.xyz"
+  ],
+  "referenceUrl": "https://app.shitzuapes.xyz",
+  "officialTokens": [],
+  "officialSocials": {
+    "x": "shitzuonnear",
+    "telegram": "Shitzu_Community",
+    "github": "Shitzu-Apes"
+  },
+  "keywords": [
+    "shitzu",
+    "shitzuapes"
+  ],
+  "allowlist": []
+}

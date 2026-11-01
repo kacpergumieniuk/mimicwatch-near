@@ -1,0 +1,28 @@
+{
+  "name": "HOT Wallet / HOT Protocol (HOT Labs)",
+  "notes": "Generated from brands/near-brands.json (hot).",
+  "officialDomains": [
+    "hot-labs.org",
+    "hotdao.ai",
+    "hotscan.org",
+    "hotcraft.art"
+  ],
+  "referenceUrl": "https://app.hot-labs.org",
+  "officialTokens": [],
+  "officialSocials": {
+    "x": "hotdao_",
+    "telegram": "hot_wallet",
+    "github": "hot-dao",
+    "youtube": "@hot-labs"
+  },
+  "keywords": [
+    "hot-labs",
+    "hotlabs",
+    "hotdao",
+    "hotwallet",
+    "hot-wallet",
+    "hotscan",
+    "hotcraft"
+  ],
+  "allowlist": []
+}

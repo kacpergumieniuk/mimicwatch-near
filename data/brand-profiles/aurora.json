@@ -1,0 +1,25 @@
+{
+  "name": "Aurora",
+  "notes": "Generated from brands/near-brands.json (aurora).",
+  "officialDomains": [
+    "aurora.dev",
+    "aurora.plus",
+    "auroracloud.dev"
+  ],
+  "referenceUrl": "https://aurora.dev",
+  "officialTokens": [],
+  "officialSocials": {
+    "x": "auroraisnear",
+    "telegram": "auroraisnear",
+    "discord": "auroralabs",
+    "github": "aurora-is-near"
+  },
+  "keywords": [
+    "aurora.dev",
+    "auroralabs",
+    "auroraisnear",
+    "aurora.plus",
+    "auroracloud"
+  ],
+  "allowlist": []
+}

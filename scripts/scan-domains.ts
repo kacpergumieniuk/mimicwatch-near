@@ -25,6 +25,7 @@ const { values } = parseArgs({
     "max-pages": { type: "string", default: "80" },
     "max-render": { type: "string", default: "12" },
     "merge-only": { type: "boolean", default: false },
+    "skip-ct": { type: "boolean", default: false },
   },
 });
 const SKIP = new Set(["tether-usdt", "circle-usdc"]);
@@ -53,15 +54,27 @@ function engineProfile(b: NearBrand) {
 function run(b: NearBrand): Promise<number> {
   const file = join(profiles, `${b.id}.json`);
   writeFileSync(file, JSON.stringify(engineProfile(b), null, 2) + "\n");
-  const args = ["tsx", join(ROOT, "engine/src/cli.ts"), "scan", file, "--no-tokens", "--fast", "--out", out, "--days", values.days!, "--nrd-days", values["nrd-days"]!, "--max-pages", values["max-pages"]!, "--max-render", values["max-render"]!];
+  const args = ["tsx", join(ROOT, "scripts/engine-run.ts"), "scan", file, "--no-tokens", "--fast", "--out", out, "--days", values.days!, "--nrd-days", values["nrd-days"]!, "--max-pages", values["max-pages"]!, "--max-render", values["max-render"]!];
   return new Promise((resolve) => {
-    const child = spawn("npx", args, { cwd: ROOT, stdio: ["ignore", "pipe", "pipe"] });
+    const child = spawn("npx", args, { cwd: ROOT, stdio: ["ignore", "pipe", "pipe"], env: { ...process.env, MW_SKIP_CT: skipCt ? "1" : "" } });
     const log = (d: Buffer) => process.stdout.write(d.toString().split("\n").filter(Boolean).map((l) => `[${b.id}] ${l}\n`).join(""));
     child.stdout.on("data", log);
     child.stderr.on("data", log);
     child.on("close", (c) => resolve(c ?? 1));
   });
 }
+
+/** crt.sh is often down; when it does not answer a small query in 30 s, skip CT for this run (recorded in each report). */
+async function crtUp(): Promise<boolean> {
+  try {
+    const r = await fetch("https://crt.sh/?q=pikespeak.ai&output=json", { signal: AbortSignal.timeout(30_000) });
+    return r.ok;
+  } catch {
+    return false;
+  }
+}
+const skipCt = values["skip-ct"] || (!values["merge-only"] && !(await crtUp()));
+if (skipCt && !values["merge-only"]) console.log("crt.sh is not answering: certificate-transparency search is skipped in this run (reports say so)");
 
 if (!values["merge-only"]) {
   const queue = [...brands];

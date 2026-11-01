@@ -1,0 +1,18 @@
+{
+  "name": "NEAR Social",
+  "notes": "Generated from brands/near-brands.json (near-social).",
+  "officialDomains": [
+    "near.social"
+  ],
+  "referenceUrl": "https://near.social",
+  "officialTokens": [],
+  "officialSocials": {
+    "x": "NearSocial_",
+    "github": "NearSocial"
+  },
+  "keywords": [
+    "near.social",
+    "nearsocial"
+  ],
+  "allowlist": []
+}

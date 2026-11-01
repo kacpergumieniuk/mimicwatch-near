@@ -1,0 +1,18 @@
+{
+  "name": "HERE Wallet",
+  "notes": "Generated from brands/near-brands.json (here).",
+  "officialDomains": [
+    "herewallet.app"
+  ],
+  "referenceUrl": "https://www.herewallet.app",
+  "officialTokens": [],
+  "officialSocials": {
+    "telegram": "herewallet",
+    "github": "here-wallet"
+  },
+  "keywords": [
+    "herewallet",
+    "here-wallet"
+  ],
+  "allowlist": []
+}

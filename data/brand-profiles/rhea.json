@@ -1,0 +1,25 @@
+{
+  "name": "Rhea Finance",
+  "notes": "Generated from brands/near-brands.json (rhea).",
+  "officialDomains": [
+    "rhea.finance"
+  ],
+  "referenceUrl": "https://app.rhea.finance",
+  "officialTokens": [],
+  "officialSocials": {
+    "x": "rhea_finance",
+    "telegram": "rhea_finance",
+    "discord": "rheafinance",
+    "github": "ref-finance"
+  },
+  "keywords": [
+    "rhea.finance",
+    "rheafinance",
+    "rhea-finance",
+    "rhealab",
+    "ref.finance",
+    "ref-finance",
+    "reffinance"
+  ],
+  "allowlist": []
+}

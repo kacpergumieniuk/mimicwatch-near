@@ -1,0 +1,17 @@
+{
+  "name": "Meteor Wallet",
+  "notes": "Generated from brands/near-brands.json (meteor).",
+  "officialDomains": [
+    "meteorwallet.app"
+  ],
+  "referenceUrl": "https://wallet.meteorwallet.app",
+  "officialTokens": [],
+  "officialSocials": {
+    "github": "Meteor-Wallet"
+  },
+  "keywords": [
+    "meteorwallet",
+    "meteor-wallet"
+  ],
+  "allowlist": []
+}

@@ -1,0 +1,18 @@
+{
+  "name": "NEKO",
+  "notes": "Generated from brands/near-brands.json (neko).",
+  "officialDomains": [
+    "nekoonnear.com"
+  ],
+  "referenceUrl": "https://nekoonnear.com",
+  "officialTokens": [],
+  "officialSocials": {
+    "x": "nekotoken_xyz",
+    "telegram": "nekoisnear"
+  },
+  "keywords": [
+    "nekotoken",
+    "nekoonnear"
+  ],
+  "allowlist": []
+}

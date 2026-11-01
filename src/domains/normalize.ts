@@ -25,7 +25,21 @@ export interface DomainReport {
   counts: Record<string, number>;
 }
 
-/** Keeps medium and above for the review queue; lower ones stay in the per-brand engine reports. */
+const squash = (x: string) => x.toLowerCase().replace(/[^a-z0-9]/g, "");
+
+/** How specifically a host names a brand: the longest of its stems, keywords or official labels inside the host. */
+export function specificity(host: string, b: NearBrand | undefined): number {
+  if (!b) return 0;
+  const h = squash(host);
+  const words = [...b.nameStems, ...b.keywords, ...b.officialDomains.map((d) => d.split(".")[0])].map(squash).filter((w) => w.length >= 4);
+  return Math.max(0, ...words.filter((w) => h.includes(w)).map((w) => w.length)) + (b.id === "near" ? 0.5 : 0);
+}
+
+/**
+ * Keeps medium and above for the review queue; lower ones stay in the per-brand engine reports. A host found by
+ * several brand scans (near-token.com by both near.org and near.ai) is attributed to the most specific brand,
+ * with NEAR Protocol winning ties.
+ */
 export function domainCandidates(scans: EngineScan[], brands: NearBrand[], minSeverity: Severity[] = ["critical", "high", "medium"]): DomainReport {
   const byName = new Map(brands.map((b) => [b.name, b]));
   const seen = new Map<string, Candidate>();
@@ -36,7 +50,10 @@ export function domainCandidates(scans: EngineScan[], brands: NearBrand[], minSe
       counts[d.label] = (counts[d.label] ?? 0) + 1;
       if (!minSeverity.includes(d.severity)) continue;
       const prev = seen.get(d.host);
-      if (prev && prev.score >= d.score) continue;
+      if (prev) {
+        const better = d.score > prev.score || (d.score === prev.score && specificity(d.host, b) > specificity(d.host, byName.get(prev.brandName)));
+        if (!better) continue;
+      }
       seen.set(d.host, {
         subject: d.host,
         kind: "domain",
@@ -63,6 +80,19 @@ export function domainCandidates(scans: EngineScan[], brands: NearBrand[], minSe
         },
         links: { defanged: d.host.replace(/\./g, "[.]") },
       });
+    }
+  }
+  // A host that only shares the generic word "near" with a brand (nearswap.io via near.social) is about NEAR
+  // itself; other generic 4-letter matches ("meme") are kept but marked as a weak brand link for the reviewer.
+  const near = brands.find((b) => b.id === "near");
+  for (const c of seen.values()) {
+    const b = brands.find((x) => x.id === c.brand);
+    const spec = specificity(c.subject, b);
+    if (near && b && b.id !== "near" && Math.floor(spec) <= 4 && specificity(c.subject, near) >= 4) {
+      c.brand = near.id;
+      c.brandName = near.name;
+    } else if (spec > 0 && Math.floor(spec) <= 4 && c.facts.fuzzer === "dictionary" && ((c.facts.similarity as { title?: number } | undefined)?.title ?? 0) < 0.5) {
+      c.facts.brandLink = "weak: the host shares only a short generic word with the brand, and the page does not copy its title";
     }
   }
   const order: Severity[] = ["critical", "high", "medium", "low", "info"];

@@ -1,0 +1,23 @@
+{
+  "name": "Sweat Economy",
+  "notes": "Generated from brands/near-brands.json (sweat).",
+  "officialDomains": [
+    "swe.at",
+    "sweateconomy.com",
+    "sweatco.in"
+  ],
+  "referenceUrl": "https://swe.at",
+  "officialTokens": [],
+  "officialSocials": {
+    "x": "SweatEconomy",
+    "telegram": "SweatEconomyAnnouncements",
+    "github": "sweatco"
+  },
+  "keywords": [
+    "sweateconomy",
+    "sweatcoin",
+    "sweatco",
+    "sweatwallet"
+  ],
+  "allowlist": []
+}

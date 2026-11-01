@@ -1,0 +1,18 @@
+{
+  "name": "LiNEAR Protocol",
+  "notes": "Generated from brands/near-brands.json (linear).",
+  "officialDomains": [
+    "linearprotocol.org"
+  ],
+  "referenceUrl": "https://app.linearprotocol.org",
+  "officialTokens": [],
+  "officialSocials": {
+    "x": "LinearProtocol",
+    "github": "linear-protocol"
+  },
+  "keywords": [
+    "linearprotocol",
+    "linear-protocol"
+  ],
+  "allowlist": []
+}

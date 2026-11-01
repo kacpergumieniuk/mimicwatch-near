@@ -1,0 +1,21 @@
+{
+  "name": "NEAR Intents",
+  "notes": "Generated from brands/near-brands.json (near-intents).",
+  "officialDomains": [
+    "near-intents.org",
+    "chaindefuser.com"
+  ],
+  "referenceUrl": "https://near-intents.org",
+  "officialTokens": [],
+  "officialSocials": {
+    "telegram": "near_intents",
+    "github": "near/intents"
+  },
+  "keywords": [
+    "near-intents",
+    "nearintents",
+    "chaindefuser",
+    "defuse"
+  ],
+  "allowlist": []
+}

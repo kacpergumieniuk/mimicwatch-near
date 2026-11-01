@@ -1,0 +1,16 @@
+{
+  "name": "NearBlocks",
+  "notes": "Generated from brands/near-brands.json (nearblocks).",
+  "officialDomains": [
+    "nearblocks.io"
+  ],
+  "officialTokens": [],
+  "officialSocials": {
+    "github": "Nearblocks"
+  },
+  "keywords": [
+    "nearblocks",
+    "near-blocks"
+  ],
+  "allowlist": []
+}

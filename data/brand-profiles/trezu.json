@@ -1,0 +1,22 @@
+{
+  "name": "Trezu (Sputnik DAO)",
+  "notes": "Generated from brands/near-brands.json (trezu).",
+  "officialDomains": [
+    "trezu.org",
+    "trezu.app"
+  ],
+  "referenceUrl": "https://trezu.app",
+  "officialTokens": [],
+  "officialSocials": {
+    "x": "TrezuApp",
+    "youtube": "@TrezuApp",
+    "github": "NEAR-DevHub/trezu"
+  },
+  "keywords": [
+    "trezu",
+    "sputnikdao",
+    "sputnik-dao",
+    "astrodao"
+  ],
+  "allowlist": []
+}

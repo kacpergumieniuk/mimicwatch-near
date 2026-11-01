@@ -1,0 +1,19 @@
+{
+  "name": "Sender Wallet",
+  "notes": "Generated from brands/near-brands.json (sender).",
+  "officialDomains": [
+    "senderwallet.io",
+    "sender.org"
+  ],
+  "referenceUrl": "https://senderwallet.io",
+  "officialTokens": [],
+  "officialSocials": {
+    "x": "SenderWallet",
+    "github": "SenderWallet"
+  },
+  "keywords": [
+    "senderwallet",
+    "sender-wallet"
+  ],
+  "allowlist": []
+}

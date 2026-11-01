@@ -7,6 +7,7 @@
  *   approve <subject> --reviewer <name> [--severity high|critical] [--category ...] [--note "..."]
  *   reject  <subject> --reviewer <name> --note "why it is a false positive"
  *   watch   <subject> --reviewer <name> [--note "..."]
+ *   note    <subject> --note "..."        add a note without changing the decision (e.g. a recommendation)
  *
  * Nothing here touches a chain. Publishing is a separate step (npm run publish:registry) that reads
  * only approved high/critical items.
@@ -76,6 +77,12 @@ if (cmd === "sync") {
   saveQueue(QUEUE, q);
   const sev = effectiveSeverity(item);
   console.log(`${item.subject}: ${decision} by ${item.review.reviewer ?? "?"} (${sev})${decision === "approve" && !["high", "critical"].includes(sev) ? " - note: only high/critical are published" : ""}`);
+} else if (cmd === "note") {
+  const i = q.items.find((x) => x.subject === arg && (!values.kind || x.kind === values.kind));
+  if (!i || !values.note) throw new Error("usage: review note <subject> --note \"...\"");
+  i.review.note = values.note;
+  saveQueue(QUEUE, q);
+  console.log(`${i.subject}: note saved (decision stays ${i.review.decision})`);
 } else {
   console.error(`unknown command ${cmd}`);
   process.exit(1);

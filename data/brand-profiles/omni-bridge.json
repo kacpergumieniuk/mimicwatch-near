@@ -1,0 +1,19 @@
+{
+  "name": "Omni Bridge / Rainbow Bridge",
+  "notes": "Generated from brands/near-brands.json (omni-bridge).",
+  "officialDomains": [
+    "rainbowbridge.app"
+  ],
+  "referenceUrl": "https://rainbowbridge.app",
+  "officialTokens": [],
+  "officialSocials": {
+    "github": "Near-One"
+  },
+  "keywords": [
+    "rainbowbridge",
+    "rainbow-bridge",
+    "omnibridge",
+    "omni-bridge"
+  ],
+  "allowlist": []
+}

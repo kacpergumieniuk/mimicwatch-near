@@ -1,0 +1,17 @@
+{
+  "name": "OutLayer",
+  "notes": "Generated from brands/near-brands.json (outlayer).",
+  "officialDomains": [
+    "outlayer.ai"
+  ],
+  "referenceUrl": "https://app.outlayer.ai",
+  "officialTokens": [],
+  "officialSocials": {
+    "x": "out_layer",
+    "github": "out-layer"
+  },
+  "keywords": [
+    "outlayer"
+  ],
+  "allowlist": []
+}

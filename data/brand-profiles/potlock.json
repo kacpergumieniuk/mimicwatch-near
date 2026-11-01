@@ -1,0 +1,17 @@
+{
+  "name": "POTLOCK",
+  "notes": "Generated from brands/near-brands.json (potlock).",
+  "officialDomains": [
+    "potlock.org"
+  ],
+  "referenceUrl": "https://app.potlock.org",
+  "officialTokens": [],
+  "officialSocials": {
+    "x": "potlock_",
+    "github": "PotLock"
+  },
+  "keywords": [
+    "potlock"
+  ],
+  "allowlist": []
+}
