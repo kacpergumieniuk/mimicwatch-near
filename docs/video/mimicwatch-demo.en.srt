@@ -1,0 +1,67 @@
+1
+00:00:00,169 --> 00:00:06,251
+Scammers register lookalikes of NEAR accounts and dApp domains. Wallets and agents can't tell them apart.
+
+2
+00:00:06,351 --> 00:00:15,279
+Mimicwatch generated 33 thousand lookalikes of 72 official accounts of 34 NEAR dApps and asked mainnet which exist: 507 do.
+
+3
+00:00:15,379 --> 00:00:22,883
+Each one is scored from on-chain facts: age, creator, keys, contracts, tokens, and who sent it money.
+
+4
+00:00:22,983 --> 00:00:33,591
+Three are fake reward tokens. linear_protocol.near advertises a phishing site and sits in 2,205 wallets. One of the three created the other two.
+
+5
+00:00:33,691 --> 00:00:40,971
+Not every lookalike is a scam: someone's own account, a brand's defensive name. These are labelled, and never published.
+
+6
+00:00:41,071 --> 00:00:47,789
+The domain scan adds 53 lookalike domains, including a fresh clone of the Rhea app that asks for seed phrases.
+
+7
+00:00:47,889 --> 00:00:56,008
+Everything lands in a review queue. Nothing publishes itself: only findings a reviewer approved, at high or critical, go on chain.
+
+8
+00:00:56,108 --> 00:01:02,652
+The publisher writes them to the registry contract, here on a local NEAR node, with the hash of each evidence file.
+
+9
+00:01:02,752 --> 00:01:07,549
+Now an agent is told to pay. Before it signs, it asks the registry.
+
+10
+00:01:07,649 --> 00:01:13,563
+Pay 25 NEAR to linear_protocol.near? Blocked, with a link to the evidence.
+
+11
+00:01:13,663 --> 00:01:18,264
+A sub-account of a flagged account is blocked too: only the parent can create it.
+
+12
+00:01:18,364 --> 00:01:20,624
+The real LiNEAR contract is allowed.
+
+13
+00:01:20,724 --> 00:01:25,302
+A lookalike nobody has reviewed yet gets a warning, so a human decides.
+
+14
+00:01:25,402 --> 00:01:27,623
+And the Rhea clone is blocked as a link.
+
+15
+00:01:27,723 --> 00:01:35,320
+If an entry is wrong, anyone can dispute it on chain with a small deposit. While it is disputed, wallets warn instead of blocking.
+
+16
+00:01:35,420 --> 00:01:42,531
+The owner reviews the dispute and keeps the entry, so it blocks again. Accepting it would clear the entry and refund the deposit.
+
+17
+00:01:42,631 --> 00:01:49,628
+The same contract is live on NEAR testnet, with an MCP tool for agents. What should your wallet check before it sends?

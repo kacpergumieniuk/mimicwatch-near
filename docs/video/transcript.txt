@@ -1,0 +1,136 @@
+Mimicwatch for NEAR  lookalike NEAR accounts and phishing domains, published to an on-chain registry
+recorded mainnet scan from 2026-11-01 · local NEAR node (near-sandbox) · nothing here touches mainnet
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  1/6  Which lookalikes exist on NEAR mainnet?
+       32,547 lookalike names, checked with RPC view_account (recorded 2026-11-01)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  brands 34   official accounts 72   names checked 32,547   exist on mainnet 507
+
+  label                    count
+  fake-token                   3
+  impersonation-likely         0
+  lookalike-active           165
+  lookalike-dormant          314
+  brand-owned                  4
+  likely-unrelated            21
+
+  critical linear_protocol.near           fake-token           LiNEAR Protocol · token held by 2,205
+  critical metapools.near                 fake-token           Meta Pool · token held by 9,434
+  critical burrowfinancedao.near          fake-token           Burrow · token held by 7,079
+  medium    nearprotocolreward.near        lookalike-active     NEAR Protocol
+  medium    bl4ckdragon.near               lookalike-active     Black Dragon (BLACKDRAGON)
+  medium    circle_usdc.near               lookalike-active     Circle USDC (NEAR)
+  medium    hot_wallet.near                lookalike-dormant    HOT Wallet / HOT Protocol (HOT Labs)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  2/6  Evidence, not vibes
+       every finding carries the facts it was scored on, and the false positives are labelled
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  linear_protocol.near  critical fake-token  score 100
+   • Name: a different-separator copy of linear-protocol.near.
+   • Created 2024-05-18 by burrowfinancedao.near (897 days before the scan).
+   • 212 transactions, last on 2026-08-18; balance 19.017 NEAR; 2 full-access key(s).
+   • A contract is deployed (code hash 12p7js1vHix1YrMhL7XKunpcxGNuFij2pmfuRSz7kocn).
+   • It is a NEP-141 token named "$Linear Protocol Rewards (https://linearprotocol.net)"
+     (LinearProtocol.net), using the LiNEAR Protocol name, held by 2,205 accounts.
+   • Its token name advertises a website (https://linearprotocol.net): the fake-airdrop pattern, where a
+     "rewards" token sent to many wallets lures holders to a phishing site.
+   • 1 dust transfer(s) under 0.05 NEAR from others (typical of address poisoning aimed at this
+     account's owner; not counted as payments).
+   • Linked to other lookalikes found in this scan (shared full-access key, or creator/created):
+     burrowfinancedao.near.
+
+  lookalike-dormant    v2-ref-finance.near
+     3 dust transfer(s) under 0.05 NEAR from others (typical of address poisoning aimed at this account'…
+  brand-owned          sputnikdao.near
+     Defensive or official: shares a full-access key with sputnik-dao.near.
+  likely-unrelated     herewalletapp.near
+     Older than two years with 3978 transactions: likely someone's own long-used account.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  3/6  Domains, then a human review
+       the existing Mimicwatch engine scanned lookalike domains of 28 NEAR dApps; nothing publishes itself
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  critical potlocktoken[.]org                   phishing-likely    POTLOCK
+  critical rheaswap[.]finance                   phishing-likely    Rhea Finance
+  critical nearmobile-rewards[.]app             phishing-likely    NEAR Mobile (Peersyst)
+  high      linearprotocol[.]io                  phishing-likely    LiNEAR Protocol
+
+  review queue: 95 items · 79 pending · 10 approve · 4 reject · 2 watch
+    skip  79 × review is "pending"
+    skip   4 × review is "reject"
+    skip   2 × review is "watch"
+    publish critical account burrowfinancedao.near  reviewed by demo-reviewer
+    publish critical account linear_protocol.near  reviewed by demo-reviewer
+    publish critical account metapools.near  reviewed by demo-reviewer
+    publish high     domain  app-metapool.xyz  reviewed by demo-reviewer
+    publish high     domain  near-intents.net  reviewed by demo-reviewer
+    publish critical domain  nearmobile-rewards.app  reviewed by demo-reviewer
+    publish high     domain  orderlyreward.network  reviewed by demo-reviewer
+    publish high     domain  rehea.finance  reviewed by demo-reviewer
+    publish critical domain  rheaswap.finance  reviewed by demo-reviewer
+    publish high     domain  wallet-meteorwallet.com  reviewed by demo-reviewer
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  4/6  Publish to the registry contract
+       local NEAR node: real contract, real transactions
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  starting a local NEAR node and deploying the registry…
+  ✓ report_batch  account:burrowfinancedao.near                tx 5N1vWt4D73…
+  ✓ report_batch  account:linear_protocol.near                 tx 5N1vWt4D73…
+  ✓ report_batch  account:metapools.near                       tx 5N1vWt4D73…
+  ✓ report_batch  domain:app-metapool.xyz                      tx 5N1vWt4D73…
+  ✓ report_batch  domain:near-intents.net                      tx 5N1vWt4D73…
+  ✓ report_batch  domain:nearmobile-rewards.app                tx 5N1vWt4D73…
+  ✓ report_batch  domain:orderlyreward.network                 tx 5N1vWt4D73…
+  ✓ report_batch  domain:rehea.finance                         tx 5N1vWt4D73…
+  ✓ report_batch  domain:rheaswap.finance                      tx 5N1vWt4D73…
+  ✓ report_batch  domain:wallet-meteorwallet.com               tx 5N1vWt4D73…
+  evidence/account/linear_protocol.near.json  sha256 7c166c890fdef274…  = evidence_hash stored on chain
+  registry registry.sandbox: 10 entries
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  5/6  Check before you send
+       a wallet or agent calls is_flagged (one view call) before it signs anything
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  agent → linear_protocol.near (25 NEAR)
+      BLOCK   REGISTRY_FLAGGED
+       Mimicwatch registry: critical fake-token imitating LiNEAR Protocol. Evidence: https://github.co…
+     ✗ refused: nothing signed
+  agent → claim.metapools.near (10 NEAR)
+      BLOCK   REGISTRY_FLAGGED
+       Mimicwatch registry: critical fake-token imitating Meta Pool (via its parent metapools.near). E…
+     ✗ refused: nothing signed
+  agent → linear-protocol.near (25 NEAR)
+      ALLOW   OFFICIAL_ACCOUNT
+       official account of LiNEAR Protocol
+     ✓ sent
+  agent → nearprotocolreward.near (5 NEAR)
+      WARN   LOOKALIKE_ACCOUNT
+       uses the NEAR Protocol name with a lure word; not in the registry yet
+     ? paused: asks the human
+  wallet → rheaswap.finance 
+      BLOCK   REGISTRY_FLAGGED
+       Mimicwatch registry: critical phishing imitating Rhea Finance. Evidence: https://github.com/kac…
+     ✗ refused: nothing signed
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  6/6  Wrong? Dispute it on chain
+       anyone can dispute with a deposit; the owner decides; disputed entries turn BLOCK into WARN
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  dispute metapools.near: "this is a community rewards token"  tx E5xGvSNLMa…
+  agent → metapools.near (25 NEAR)
+      WARN   REGISTRY_DISPUTED
+       flagged as critical fake-token, but disputed: "this is a community rewards token". Ask a human.
+     ? paused: asks the human
+  owner keeps the entry  tx 5Vxv8MF2nt…   (accepting it would clear the entry and refund the deposit)
+  agent → metapools.near (25 NEAR)
+      BLOCK   REGISTRY_FLAGGED
+       Mimicwatch registry: critical fake-token imitating Meta Pool. Evidence: https://github.com/kacp…
+     ✗ refused: nothing signed
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  Live on NEAR testnet: registry.mimicwatch-e7iig5g5.testnet   npm run check -- <account | domain | URL>
+  Agents: MCP tool check_near_recipient   Wallets: one view call, is_flagged(id)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
