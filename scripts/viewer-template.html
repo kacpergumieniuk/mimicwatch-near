@@ -1,0 +1,196 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Mimicwatch for NEAR: demo viewer</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  :root { --bg:#0c0a14; --panel:#14111f; --line:#2a2440; --text:#e4e0f0; --dim:#8d86a3; --accent:#8b6cf0; --violet:#6a4cc2;
+          --green:#4ade80; --yellow:#facc15; --red:#f87171; --cyan:#67e8f9; --magenta:#e879f9; }
+  * { box-sizing: border-box; }
+  html, body { margin:0; height:100%; background:#06050a; overflow:hidden; }
+  #stage { position:absolute; left:0; top:0; width:1920px; height:1080px; transform-origin:0 0; background:var(--bg); color:var(--text);
+           font-family:-apple-system, BlinkMacSystemFont, "Segoe UI", Inter, sans-serif; }
+  header { height:138px; padding:26px 48px 0; border-bottom:1px solid var(--line); display:flex; gap:30px; align-items:flex-start; }
+  .brand { display:flex; gap:16px; align-items:center; white-space:nowrap; }
+  .brand svg { width:62px; height:62px; }
+  .brand b { font-size:31px; font-weight:800; color:#fff; letter-spacing:.3px; display:block; }
+  .brand small { font-size:16px; color:var(--dim); }
+  .caption { flex:1; padding-left:30px; border-left:1px solid var(--line); min-height:90px; transition:opacity .3s; }
+  .caption .n { font-size:16px; color:var(--accent); font-weight:700; letter-spacing:1.6px; text-transform:uppercase; }
+  .caption .t { font-size:37px; font-weight:750; color:#fff; margin-top:4px; line-height:1.12; }
+  .caption .s { font-size:20px; color:var(--dim); margin-top:6px; }
+  main { display:flex; gap:32px; padding:24px 48px 0; height:calc(1080px - 138px - 118px); }
+  #term { flex:1; background:var(--panel); border:1px solid var(--line); border-radius:14px; position:relative; overflow:hidden;
+          font:17px/1.42 "SF Mono", Menlo, "JetBrains Mono", Consolas, monospace; }
+  #term .bar { position:absolute; inset:0 0 auto 0; height:32px; background:#1b1729; border-bottom:1px solid var(--line); display:flex; align-items:center; gap:8px; padding-left:14px; font:13px -apple-system, sans-serif; color:var(--dim); }
+  #term .bar i { width:11px; height:11px; border-radius:50%; background:#3b3450; display:inline-block; }
+  #lines { position:absolute; left:20px; right:20px; top:44px; bottom:12px; overflow:hidden; display:flex; flex-direction:column; justify-content:flex-end; }
+  #lines > div { white-space:pre-wrap; word-break:break-all; min-height:1.42em; flex:none; }
+  .b { font-weight:700; color:#fff; } .d { color:var(--dim); } .c31 { color:var(--red); } .c32 { color:var(--green); } .c33 { color:var(--yellow); }
+  .c35 { color:var(--magenta); } .c36 { color:var(--cyan); }
+  #side { width:560px; flex:none; display:flex; flex-direction:column; gap:18px; }
+  .phone { flex:1; background:#100d1a; border:10px solid #221d33; border-radius:44px; overflow:hidden; display:flex; flex-direction:column; box-shadow:0 30px 80px rgba(0,0,0,.55); }
+  .phone .top { height:84px; background:#191527; display:flex; align-items:center; gap:14px; padding:0 22px; border-bottom:1px solid var(--line); }
+  .phone .top .av { width:46px; height:46px; border-radius:50%; background:linear-gradient(135deg,#8b6cf0,#4c3a99); display:grid; place-items:center; font-weight:800; color:#fff; }
+  .phone .top b { display:block; color:#fff; font-size:19px; } .phone .top span { color:var(--dim); font-size:14px; }
+  #cards { flex:1; padding:18px; display:flex; flex-direction:column; justify-content:flex-end; gap:14px; overflow:hidden; }
+  .card { background:#1a1626; border:1px solid var(--line); border-radius:18px; padding:16px 18px; animation:pop .35s ease-out; }
+  .card .who { color:var(--dim); font-size:14px; margin-bottom:6px; }
+  .card .to { color:#fff; font:600 19px "SF Mono", Menlo, monospace; word-break:break-all; }
+  .card .amt { color:var(--dim); font-size:15px; margin-top:2px; }
+  .badge { display:inline-block; font-weight:800; font-size:15px; letter-spacing:1px; padding:5px 12px; border-radius:999px; margin-top:12px; }
+  .ALLOW { background:rgba(74,222,128,.15); color:var(--green); } .WARN { background:rgba(250,204,21,.15); color:var(--yellow); } .BLOCK { background:rgba(248,113,113,.17); color:var(--red); }
+  .card ul { margin:10px 0 0; padding-left:18px; color:#cfc9e2; font-size:15px; line-height:1.38; } .card li { margin:3px 0; }
+  .card.BLOCKc { border-color:rgba(248,113,113,.55); } .card.WARNc { border-color:rgba(250,204,21,.45); } .card.ALLOWc { border-color:rgba(74,222,128,.4); }
+  .card .act { margin-top:12px; font-size:15px; font-weight:700; }
+  .reg { background:var(--panel); border:1px solid var(--line); border-radius:14px; padding:14px 18px; font-size:15px; color:var(--dim); min-height:88px; }
+  .reg b { color:#fff; } .reg .row { display:flex; justify-content:space-between; margin-top:6px; font:14px "SF Mono", Menlo, monospace; color:#cfc9e2; }
+  @keyframes pop { from { transform:translateY(12px); opacity:0; } to { transform:none; opacity:1; } }
+  #subs { position:absolute; left:0; right:0; bottom:0; height:118px; display:flex; align-items:center; justify-content:center; padding:0 120px; }
+  #subs span { background:rgba(0,0,0,.78); color:#fff; font-size:33px; font-weight:600; line-height:1.3; padding:10px 22px; border-radius:10px; text-align:center; max-width:1600px; }
+  #subs span:empty { display:none; }
+  #end { position:absolute; inset:0; background:radial-gradient(circle at 50% 38%, #221a3d, #0c0a14 70%); display:none; flex-direction:column; align-items:center; justify-content:center; gap:22px; text-align:center; }
+  #end svg { width:150px; height:150px; } #end h1 { margin:0; font-size:64px; color:#fff; } #end p { margin:0; font-size:28px; color:#cfc9e2; } #end .u { font:600 30px "SF Mono", Menlo, monospace; color:var(--accent); }
+  #end .fine { font-size:20px; color:var(--dim); max-width:1300px; line-height:1.45; }
+  #ctl { position:fixed; right:12px; bottom:10px; color:#777; font:12px sans-serif; }
+</style>
+</head>
+<body>
+<div id="stage">
+  <header>
+    <div class="brand"><span id="logo1"></span><div><b>Mimicwatch for NEAR</b><small>lookalike accounts &amp; phishing domains, on-chain registry</small></div></div>
+    <div class="caption" id="cap"><div class="n"></div><div class="t"></div><div class="s"></div></div>
+  </header>
+  <main>
+    <div id="term"><div class="bar"><i></i><i></i><i></i>&nbsp; mimicwatch-near — demo (recorded scan data, local NEAR node)</div><div id="lines"></div></div>
+    <div id="side">
+      <div class="phone">
+        <div class="top"><div class="av">W</div><div><b>Wallet / agent</b><span>asks the registry before it sends</span></div></div>
+        <div id="cards"></div>
+      </div>
+      <div class="reg" id="reg"><b>Registry</b> <span id="regname">not deployed yet</span><div class="row"><span>entries</span><span id="regn">0</span></div><div class="row"><span>disputed</span><span id="regd">0</span></div></div>
+    </div>
+  </main>
+  <div id="subs"><span></span></div>
+  <div id="end"><span id="logo2"></span><h1>Mimicwatch for NEAR</h1><p>Find the lookalikes. Review them. Put them on chain. Check before you send.</p>
+    <div class="u">github.com/kacpergumieniuk/mimicwatch-near</div>
+    <p>Built at NEAR HACKATHON 2026 · security track</p>
+    <div class="fine" id="endfine"></div></div>
+</div>
+<div id="ctl"></div>
+<script>
+const CAST = /*CAST_JSON*/null;
+const LOGO = /*LOGO_SVG*/"";
+const END_NOTE = /*END_NOTE*/"";
+document.getElementById("logo1").innerHTML = LOGO; document.getElementById("logo2").innerHTML = LOGO;
+document.getElementById("endfine").textContent = END_NOTE;
+const params = new URLSearchParams(location.search);
+const clean = params.has("clean");
+// ---------- parse cast
+const lines = CAST.trim().split("\n");
+const header = JSON.parse(lines[0]);
+const events = lines.slice(1).map((l) => JSON.parse(l)).filter((e) => e[1] === "o");
+const castEnd = events.length ? events[events.length - 1][0] : 0;
+// Split OSC events out of the output stream; keep text chunks and app events in time order.
+const timeline = [];
+const OSC = /\x1b\]1337;MimicwatchEvent=([A-Za-z0-9+/=]+)\x07/g;
+for (const [t, , data] of events) {
+  let last = 0, m;
+  OSC.lastIndex = 0;
+  while ((m = OSC.exec(data))) {
+    if (m.index > last) timeline.push({ t, text: data.slice(last, m.index) });
+    timeline.push({ t, ev: JSON.parse(decodeURIComponent(escape(atob(m[1])))) });
+    last = OSC.lastIndex;
+  }
+  if (last < data.length) timeline.push({ t, text: data.slice(last) });
+}
+const cues = timeline.filter((x) => x.ev && x.ev.type === "cue").map((x) => ({ id: x.ev.id, t: x.t, text: x.ev.text }));
+// ---------- terminal rendering (SGR subset)
+function esc(s) { return s.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;"); }
+function renderAnsi(text) {
+  let out = "", cls = [];
+  const parts = text.split(/(\x1b\[[0-9;]*m)/);
+  for (const p of parts) {
+    const m = /^\x1b\[([0-9;]*)m$/.exec(p);
+    if (m) {
+      const codes = m[1] === "" ? [0] : m[1].split(";").map(Number);
+      for (const c of codes) {
+        if (c === 0) cls = [];
+        else if (c === 1) cls.push("b");
+        else if (c === 2) cls.push("d");
+        else if (c >= 30 && c <= 37) { cls = cls.filter((x) => !x.startsWith("c")); cls.push("c" + c); }
+      }
+      continue;
+    }
+    if (!p) continue;
+    out += cls.length ? `<span class="${cls.join(" ")}">${esc(p)}</span>` : esc(p);
+  }
+  return out;
+}
+const MAX_LINES = 60;
+function state(castT) {
+  let buf = "", scene = null, cards = [], reg = { name: null, entries: 0, disputed: 0 }, end = false;
+  for (const x of timeline) {
+    if (x.t > castT) break;
+    if (x.text !== undefined) buf += x.text;
+    else if (x.ev.type === "scene") scene = x.ev;
+    else if (x.ev.type === "check") cards.push(x.ev);
+    else if (x.ev.type === "registry") reg = { ...reg, ...x.ev };
+    else if (x.ev.type === "end") end = true;
+  }
+  return { buf, scene, cards, reg, end };
+}
+let lastKey = "";
+function draw(castT, subText) {
+  const s = state(castT);
+  const all = s.buf.replace(/\r\n/g, "\n").split("\n");
+  const shown = all.slice(-MAX_LINES);
+  const key = shown.length + ":" + s.buf.length + ":" + (s.scene && s.scene.n) + ":" + s.cards.length + ":" + JSON.stringify(s.reg) + s.end;
+  if (key !== lastKey) {
+    lastKey = key;
+    document.getElementById("lines").innerHTML = shown.map((l) => `<div>${renderAnsi(l) || "&nbsp;"}</div>`).join("");
+    const cap = document.getElementById("cap");
+    cap.querySelector(".n").textContent = s.scene ? (s.scene.n ? `${s.scene.n} / ${s.scene.of}` : "") : "";
+    cap.querySelector(".t").textContent = s.scene ? s.scene.title : "Scammers register lookalikes of NEAR accounts and dApp domains.";
+    cap.querySelector(".s").textContent = s.scene ? s.scene.subtitle : "Wallets and agents cannot tell them apart.";
+    document.getElementById("cards").innerHTML = s.cards.slice(-3).map((c) => `
+      <div class="card ${c.verdict}c"><div class="who">${esc(c.who || "agent")}</div>
+      <div class="to">${esc(c.to)}</div>${c.amount ? `<div class="amt">${esc(c.amount)}</div>` : ""}
+      <span class="badge ${c.verdict}">${c.verdict}</span>
+      <ul>${(c.reasons || []).slice(0, 2).map((r) => `<li>${esc(r)}</li>`).join("")}</ul>
+      <div class="act" style="color:${c.verdict === "BLOCK" ? "var(--red)" : c.verdict === "WARN" ? "var(--yellow)" : "var(--green)"}">${esc(c.action || "")}</div></div>`).join("");
+    document.getElementById("regname").textContent = s.reg.name || "not deployed yet";
+    document.getElementById("regn").textContent = s.reg.entries;
+    document.getElementById("regd").textContent = s.reg.disputed;
+    document.getElementById("end").style.display = s.end ? "flex" : "none";
+  }
+  document.querySelector("#subs span").textContent = subText || "";
+}
+// ---------- time mapping: video time -> cast time (set by the renderer; identity when playing live)
+let map = null, subs = [];
+function castTimeAt(v) {
+  if (!map) return v;
+  if (v <= map[0][0]) return map[0][1];
+  for (let i = 1; i < map.length; i++) {
+    const [v0, c0, s0] = map[i - 1], [v1, c1] = map[i];
+    if (v < v1) return Math.min(c1, c0 + (v - v0) * (s0 || 1));
+  }
+  return map[map.length - 1][1];
+}
+function subAt(v) { const s = subs.find((x) => v >= x.start && v < x.end); return s ? s.text : ""; }
+function fit() { const k = Math.min(innerWidth / 1920, innerHeight / 1080); document.getElementById("stage").style.transform = `scale(${k})`; }
+addEventListener("resize", fit); fit();
+let playing = false, t0 = 0, base = 0;
+function now() { return playing ? base + (performance.now() - t0) / 1000 : base; }
+function tick() { draw(castTimeAt(now()), subAt(now())); if (!clean) document.getElementById("ctl").textContent = `${now().toFixed(1)}s · space: play/pause`; if (playing) requestAnimationFrame(tick); }
+addEventListener("keydown", (e) => { if (e.code === "Space") { base = now(); playing = !playing; t0 = performance.now(); tick(); } });
+window.__mw = {
+  castEnd, cues,
+  setTimeline(m, s) { map = m; subs = s || []; },
+  seek(v) { base = v; playing = false; draw(castTimeAt(v), subAt(v)); },
+};
+if (params.has("t")) window.__mw.seek(Number(params.get("t"))); else draw(0, "");
+</script>
+</body>
+</html>
