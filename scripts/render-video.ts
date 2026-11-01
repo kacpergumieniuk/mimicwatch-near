@@ -31,12 +31,12 @@ const END_HOLD = 4.2;
 // ---------------------------------------------------------------- cues from the cast
 const castLines = readFileSync(join(OUT, "mimicwatch-demo.cast"), "utf8").trim().split("\n").slice(1).map((l) => JSON.parse(l) as [number, string, string]);
 const castEnd = castLines.at(-1)![0];
-const cues: Array<{ id: string; t: number; text: string }> = [];
+const cues: Array<{ id: string; t: number; text: string; say: string }> = [];
 let endAt = castEnd;
 for (const [t, , d] of castLines)
   for (const m of d.matchAll(/\x1b\]1337;MimicwatchEvent=([A-Za-z0-9+/=]+)\x07/g)) {
-    const e = JSON.parse(Buffer.from(m[1], "base64").toString("utf8")) as { type: string; id: string; text: string };
-    if (e.type === "cue") cues.push({ id: e.id, t, text: e.text });
+    const e = JSON.parse(Buffer.from(m[1], "base64").toString("utf8")) as { type: string; id: string; text: string; say?: string };
+    if (e.type === "cue") cues.push({ id: e.id, t, text: e.text, say: e.say ?? e.text });
     if (e.type === "end") endAt = t;
   }
 if (!cues.length) throw new Error("no cues in the cast; record with npm run demo:record");
@@ -45,7 +45,7 @@ if (!cues.length) throw new Error("no cues in the cast; record with npm run demo
 const dur = (f: string) => Number(execFileSync("ffprobe", ["-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", f]).toString().trim());
 const clips = cues.map((c, i) => {
   const f = join(work, `cue${String(i).padStart(2, "0")}.aiff`);
-  execFileSync("say", ["-v", values.voice!, "-r", values.rate!, "-o", f, c.text]);
+  execFileSync("say", ["-v", values.voice!, "-r", values.rate!, "-o", f, c.say]);
   return { ...c, file: f, dur: dur(f) };
 });
 
@@ -86,7 +86,7 @@ writeFileSync(join(OUT, "mimicwatch-demo.en.srt"), srt);
 const audio = join(work, "voice.m4a");
 const inputs = clips.flatMap((c) => ["-i", c.file]);
 const filters = clips.map((_, i) => `[${i}:a]aresample=48000,aformat=channel_layouts=stereo,adelay=${Math.round(starts[i] * 1000)}|${Math.round(starts[i] * 1000)}[a${i}]`).join(";");
-execFileSync("ffmpeg", ["-y", "-v", "error", ...inputs, "-filter_complex", `${filters};${clips.map((_, i) => `[a${i}]`).join("")}amix=inputs=${clips.length}:normalize=0,apad,atrim=0:${total.toFixed(3)},loudnorm=I=-16:TP=-1.5:LRA=11[out]`, "-map", "[out]", "-c:a", "aac", "-b:a", "160k", audio]);
+execFileSync("ffmpeg", ["-y", "-v", "error", ...inputs, "-filter_complex", `${filters};${clips.map((_, i) => `[a${i}]`).join("")}amix=inputs=${clips.length}:normalize=0,apad,atrim=0:${total.toFixed(3)},loudnorm=I=-16:TP=-1.5:LRA=11,aresample=48000[out]`, "-map", "[out]", "-c:a", "aac", "-b:a", "160k", audio]);
 
 // ---------------------------------------------------------------- frames
 const silent = join(work, "video.mp4");
@@ -105,7 +105,7 @@ for (let k = 0; k < frames; k++) {
   const buf = await page.screenshot({ type: "jpeg", quality: 92 });
   if (!ff.stdin.write(buf)) await new Promise((r) => ff.stdin.once("drain", r));
   const still = stills.get(k);
-  if (still) await page.screenshot({ path: join(shotsDir, `${still}.png`) });
+  if (still) await page.screenshot({ path: join(shotsDir, `${still}.jpg`), type: "jpeg", quality: 85 });
   if (k % 300 === 0) process.stdout.write(`frame ${k}/${frames}\n`);
 }
 ff.stdin.end();
@@ -114,7 +114,7 @@ await browser.close();
 
 // ---------------------------------------------------------------- mux
 const mp4 = join(OUT, "mimicwatch-demo.mp4");
-execFileSync("ffmpeg", ["-y", "-v", "error", "-i", silent, "-i", audio, "-i", join(OUT, "mimicwatch-demo.en.srt"), "-map", "0:v", "-map", "1:a", "-map", "2", "-c:v", "copy", "-c:a", "copy", "-c:s", "mov_text", "-metadata:s:s:0", "language=eng", "-shortest", "-movflags", "+faststart", mp4]);
+execFileSync("ffmpeg", ["-y", "-v", "error", "-i", silent, "-i", audio, "-i", join(OUT, "mimicwatch-demo.en.srt"), "-map", "0:v", "-map", "1:a", "-map", "2", "-c:v", "copy", "-c:a", "copy", "-c:s", "mov_text", "-metadata:s:s:0", "language=eng", "-t", total.toFixed(3), "-movflags", "+faststart", mp4]);
 const mb = statSync(mp4).size / 1e6;
 console.log(`wrote ${mp4}: ${dur(mp4).toFixed(1)} s, ${mb.toFixed(1)} MB`);
 if (mb > 50) throw new Error("over 50 MB");
