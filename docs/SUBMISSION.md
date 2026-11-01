@@ -22,7 +22,7 @@ Steps marked **Owner** are ones the agent must not do (rules: "Never without the
 | 7 | **Make the repo public** before 2026-11-14T23:59Z and keep it public through judging (Q-014). | **Owner** | ☐ |
 | 8 | Publish the X demo post from your account (drafts below). It must say it was built at NEAR HACKATHON, tag **@NEARProtocol** and **#NEARHackathon**, and attach the video (upload the mp4 directly). | **Owner** | ☐ |
 | 9 | Fill in the fields below, check the printed JSON payload, then send it via https://nearhackathon.com/#apply or the API. | **Owner** confirms; then send | ☐ |
-X
+| 10 | Q-015: both READMEs must name the other project. Done: this README names PurseStrings; PurseStrings' README names Mimicwatch for NEAR (commit `003125f` in that repo, pushed). | Agent | ☑ |
 | 11 | Keep the testnet registry up until at least 2026-11-18, ideally 2026-11-25 (nothing to do: testnet accounts persist). | — | ☑ |
 
 ## Submission fields
