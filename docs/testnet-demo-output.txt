@@ -1,0 +1,12 @@
+created test account ref-flnance.mimicwatch-e7iig5g5.testnet
+1. report_batch (2 synthetic entries)                https://testnet.nearblocks.io/txns/rjR1QgXXRyBv3VGjfRWrtoaJ6m2y4ruWuTG42P3EcSz
+2. dispute by the flagged account itself             https://testnet.nearblocks.io/txns/GMKNqTW3pg5BHgX2Z3jM95R1kEc7eME2KasURRaPHZ4X
+   entry status disputed, by_subject true
+   owner keeps the entry (resolve_dispute keep=true)  https://testnet.nearblocks.io/txns/A11PNQZDN3Z3neY4vqVyd5CtyEYLEPt48sWrDU5ue7So
+3. dispute by a third party                          https://testnet.nearblocks.io/txns/3bB8F4DhHQeDEFjJkvaHhwrbnHPLejiokacfVVscQ93H
+   owner accepts: cleared, deposit refunded           https://testnet.nearblocks.io/txns/2m3g6WCcMichTrSBivUsxfeVz9bpMxW2gGPPrkLZGkgX
+4. read-only checks against registry.mimicwatch-e7iig5g5.testnet
+   BLOCK ref-flnance.mimicwatch-e7iig5g5.testnet              REGISTRY_FLAGGED
+   BLOCK claim.ref-flnance.mimicwatch-e7iig5g5.testnet        REGISTRY_FLAGGED
+   WARN  app.rhea-claim-test.example                          BRAND_BAIT_DOMAIN
+   stats: {"entries":1,"active":1,"disputed":0,"cleared":1,"reporters":1}

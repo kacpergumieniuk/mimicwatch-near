@@ -24,7 +24,8 @@
     "testnet:setup": "tsx scripts/testnet-setup.ts",
     "demo": "tsx scripts/demo.ts",
     "demo:record": "tsx scripts/record-demo.ts",
-    "demo:render": "tsx scripts/render-video.ts"
+    "demo:render": "tsx scripts/render-video.ts",
+    "testnet:demo": "tsx scripts/testnet-demo.ts"
   },
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.32.2",
