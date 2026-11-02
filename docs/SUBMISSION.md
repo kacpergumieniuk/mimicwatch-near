@@ -47,7 +47,7 @@ The API (`POST https://nearhackathon.com/api/applications`) accepts exactly thes
 | `email` | valid, ≤160 chars, ≤2 submissions per email | **owner decides** (same email is fine: this is submission 2 of 2) |
 | `size` | one of `1`, `2 - 4`, `4 - 6`, `6 - 8`, `8+` (exactly) | **owner decides** (likely `1`) |
 | `tracks` | ids from the tracks table, each once | **owner decides** (suggestion: `["security", "open"]`; `security` asks for "reputation and scam detection") |
-| `nearAddress` | mainnet payout account, lowercase, 2–64 chars | **owner provides** (step 1) |
+| `nearAddress` | mainnet payout account, lowercase, 2–64 chars | `x4b47-hot.tg` (owner created in HOT wallet, 2026-11-02; exists on mainnet) |
 | `projectUrl` | public repo URL, ≤300 chars, unique | `https://github.com/kacpergumieniuk/mimicwatch-near` (after step 7) |
 | `demoUrl` | public X post URL, ≤300 chars | https://x.com/CanoeReeves11/status/2117323630329643450 (posted 2026-11-02 from the Mintward account) |
 | `idea` | 20–2000 chars | draft below; owner edits |
@@ -74,7 +74,7 @@ Check the length before sending: `node -e 'console.log(process.argv[1].length)' 
   "email": "<owner>",
   "size": "<owner: 1 | 2 - 4 | ...>",
   "tracks": ["security", "open"],
-  "nearAddress": "<owner's mainnet account>",
+  "nearAddress": "x4b47-hot.tg",
   "projectUrl": "https://github.com/kacpergumieniuk/mimicwatch-near",
   "demoUrl": "https://x.com/CanoeReeves11/status/2117323630329643450",
   "idea": "<final text>",
