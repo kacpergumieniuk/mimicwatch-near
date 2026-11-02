@@ -88,9 +88,9 @@ a minute, resend with the same `requestId`. Do not commit the filled payload; it
 
 ## Demo video (ready)
 
-**File:** [`docs/video/mimicwatch-demo.mp4`](video/mimicwatch-demo.mp4): 1:54 (113.9 s), 1920x1080, 30 fps, H.264 + AAC
-48 kHz, about 8 MB, -16 LUFS. Under X's 2:20 upload limit for accounts without Premium, and under 50 MB, so it is
-committed as a normal file. Subtitles are burned into the picture. The same text is also a soft English track inside the
+**File:** [`docs/video/mimicwatch-demo.mp4`](video/mimicwatch-demo.mp4): 2:10 (130.5 s), 1920x1080, 30 fps, H.264 + AAC
+48 kHz, about 9 MB, -16 LUFS. Under X's 2:20 upload limit for accounts without Premium, and under 50 MB, so it is
+committed as a normal file. Subtitles are burned into the picture, large enough to read on a phone (54 px on 1080p, at most two lines, on a dark box). The same text is also a soft English track inside the
 mp4 and a separate file, [`docs/video/mimicwatch-demo.en.srt`](video/mimicwatch-demo.en.srt).
 
 **What it shows:** the recorded mainnet scan is re-scored. One finding is shown up close (the fake LiNEAR rewards token),
@@ -101,12 +101,12 @@ lookalike, BLOCK phishing link). Finally an entry is disputed (WARN) and the own
 
 **How it was made:** `npm run demo:record` records `npm run demo` into an asciicast with viewer events. `npm run
 demo:render` renders [`viewer.html`](video/viewer.html) frame by frame in headless Chromium (Playwright) and pipes the
-frames to ffmpeg. The voice is macOS `say -v Samantha`, one clip per subtitle line. Each line starts when its event
-appears; between lines the recording plays at up to 2.5x speed, or holds while the voice finishes.
+frames to ffmpeg. The voice is Kokoro TTS (local, Apache-2.0, voice `am_michael`), one clip per caption, so each caption is on
+screen exactly while it is spoken. Each line starts when its event appears; between lines the recording plays at up to 2.5x speed, or holds while the voice finishes.
 
-**Checked:** speech onsets (ffmpeg `silencedetect`) match the subtitle cues to within about 10 ms. Frames at 21
-timestamps were inspected, and each shows the event being narrated. The file decodes with no errors. Integrated
-loudness is -16.0 LUFS.
+**Checked (re-rendered 2026-11-02):** captions are timed from the voice clips themselves, and the soft track matches the
+.srt. Frames at several timestamps were inspected: captions are legible and inside the frame, and each shows the event
+being narrated. The file decodes with no errors. Integrated loudness is -16.3 LUFS.
 
 **What it says, and what it does not:** the voice says the registry runs on a local NEAR node and that the contract is
 live on testnet. The end card says the scan is a recording from 2026-11-01, that the review decisions in the demo are

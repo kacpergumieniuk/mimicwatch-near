@@ -54,7 +54,7 @@ if (!argv.includes("--viewer-only")) {
 
 const cast = readFileSync(CAST, "utf8");
 const logo = readFileSync(join(ROOT, "docs/logo.svg"), "utf8");
-const endNote = "Recorded mainnet scan from 2026-11-01, re-scored offline. Registry on a local NEAR node in this video; the same contract is live on NEAR testnet. Review decisions in the demo are recorded. Synthetic voice (macOS say).";
+const endNote = "Recorded mainnet scan from 2026-11-01, re-scored offline. Registry on a local NEAR node in this video; the same contract is live on NEAR testnet. Review decisions in the demo are recorded. Synthetic voice (Kokoro TTS).";
 const tpl = readFileSync(join(ROOT, "scripts/viewer-template.html"), "utf8");
 const safe = (s: string) => JSON.stringify(s).replace(/<\//g, "<\\/");
 writeFileSync(join(OUT, "viewer.html"), tpl.replace("/*CAST_JSON*/null", safe(cast)).replace('/*LOGO_SVG*/""', safe(logo)).replace('/*END_NOTE*/""', safe(endNote)));

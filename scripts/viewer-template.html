@@ -20,7 +20,7 @@
   .caption .n { font-size:16px; color:var(--accent); font-weight:700; letter-spacing:1.6px; text-transform:uppercase; }
   .caption .t { font-size:37px; font-weight:750; color:#fff; margin-top:4px; line-height:1.12; }
   .caption .s { font-size:20px; color:var(--dim); margin-top:6px; }
-  main { display:flex; gap:32px; padding:24px 48px 0; height:calc(1080px - 138px - 118px); }
+  main { display:flex; gap:32px; padding:22px 48px 0; height:calc(1080px - 138px - 176px); }
   #term { flex:1; background:var(--panel); border:1px solid var(--line); border-radius:14px; position:relative; overflow:hidden;
           font:17px/1.42 "SF Mono", Menlo, "JetBrains Mono", Consolas, monospace; }
   #term .bar { position:absolute; inset:0 0 auto 0; height:32px; background:#1b1729; border-bottom:1px solid var(--line); display:flex; align-items:center; gap:8px; padding-left:14px; font:13px -apple-system, sans-serif; color:var(--dim); }
@@ -46,8 +46,9 @@
   .card .act { margin-top:12px; font-size:15px; font-weight:700; }
   .reg { background:var(--panel); border:1px solid var(--line); border-radius:14px; padding:14px 18px; font-size:15px; color:var(--dim); min-height:88px; }
   .reg b { color:#fff; } .reg .row { display:flex; justify-content:space-between; margin-top:6px; font:14px "SF Mono", Menlo, monospace; color:#cfc9e2; }
-  #subs { position:absolute; left:0; right:0; bottom:0; height:118px; display:flex; align-items:center; justify-content:center; padding:0 120px; }
-  #subs span { background:rgba(0,0,0,.78); color:#fff; font-size:33px; font-weight:600; line-height:1.3; padding:10px 22px; border-radius:10px; text-align:center; max-width:1600px; }
+  /* Burned-in captions: big enough to read on a phone, at most two lines, on a dark box inside the bottom band. */
+  #subs { position:absolute; z-index:5; left:0; right:0; bottom:0; height:176px; display:flex; align-items:center; justify-content:center; padding:0 60px; }
+  #subs span { background:rgba(0,0,0,.82); color:#fff; font-size:54px; font-weight:650; line-height:1.2; padding:10px 30px 12px; border-radius:14px; text-align:center; max-width:1800px; text-wrap:balance; }
   #subs span:empty { display:none; }
   #end { position:absolute; inset:0; background:radial-gradient(circle at 50% 38%, #221a3d, #0c0a14 70%); display:none; flex-direction:column; align-items:center; justify-content:center; gap:22px; text-align:center; }
   #end svg { width:150px; height:150px; } #end h1 { margin:0; font-size:64px; color:#fff; } #end p { margin:0; font-size:28px; color:#cfc9e2; } #end .u { font:600 30px "SF Mono", Menlo, monospace; color:var(--accent); }
@@ -164,7 +165,19 @@ function draw(castT, subText) {
     document.getElementById("regd").textContent = s.reg.disputed;
     document.getElementById("end").style.display = s.end ? "flex" : "none";
   }
-  document.querySelector("#subs span").textContent = subText || "";
+  setSub(subText || "");
+}
+// Captions keep to two lines: if a long one wraps to three, the font steps down until it fits.
+let lastSub = null;
+function setSub(text) {
+  if (text === lastSub) return;
+  lastSub = text;
+  const el = document.querySelector("#subs span");
+  el.textContent = text;
+  for (let px = 54; px >= 36; px -= 2) {
+    el.style.fontSize = px + "px";
+    if (!text || el.offsetHeight <= 2 * px * 1.2 + 24) break;
+  }
 }
 // ---------- time mapping: video time -> cast time (set by the renderer; identity when playing live)
 let map = null, subs = [];

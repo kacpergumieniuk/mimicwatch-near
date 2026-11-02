@@ -1,67 +1,115 @@
 1
-00:00:00,169 --> 00:00:06,251
-Scammers register lookalikes of NEAR accounts and dApp domains. Wallets and agents can't tell them apart.
+00:00:00,169 --> 00:00:04,402
+Scammers register lookalikes of NEAR accounts and dApp domains.
 
 2
-00:00:06,351 --> 00:00:15,279
-Mimicwatch generated 33 thousand lookalikes of 72 official accounts of 34 NEAR dApps and asked mainnet which exist: 507 do.
+00:00:04,402 --> 00:00:06,935
+Wallets and agents can't tell them apart.
 
 3
-00:00:15,379 --> 00:00:22,883
-Each one is scored from on-chain facts: age, creator, keys, contracts, tokens, and who sent it money.
+00:00:07,035 --> 00:00:12,451
+Mimicwatch generated 33 thousand lookalikes of 72 official
 
 4
-00:00:22,983 --> 00:00:33,591
-Three are fake reward tokens. linear_protocol.near advertises a phishing site and sits in 2,205 wallets. One of the three created the other two.
+00:00:12,451 --> 00:00:18,677
+accounts of 34 NEAR dApps and asked mainnet which exist: 507 do.
 
 5
-00:00:33,691 --> 00:00:40,971
-Not every lookalike is a scam: someone's own account, a brand's defensive name. These are labelled, and never published.
+00:00:18,777 --> 00:00:22,542
+Each one is scored from on-chain facts: age, creator,
 
 6
-00:00:41,071 --> 00:00:47,789
-The domain scan adds 53 lookalike domains, including a fresh clone of the Rhea app that asks for seed phrases.
+00:00:22,542 --> 00:00:26,131
+keys, contracts, tokens, and who sent it money.
 
 7
-00:00:47,889 --> 00:00:56,008
-Everything lands in a review queue. Nothing publishes itself: only findings a reviewer approved, at high or critical, go on chain.
+00:00:26,231 --> 00:00:28,459
+Three are fake reward tokens.
 
 8
-00:00:56,108 --> 00:01:02,652
-The publisher writes them to the registry contract, here on a local NEAR node, with the hash of each evidence file.
+00:00:28,459 --> 00:00:36,404
+linear_protocol.near advertises a phishing site and sits in 2,205 wallets.
 
 9
-00:01:02,752 --> 00:01:07,549
-Now an agent is told to pay. Before it signs, it asks the registry.
+00:00:36,404 --> 00:00:38,980
+One of the three created the other two.
 
 10
-00:01:07,649 --> 00:01:13,563
-Pay 25 NEAR to linear_protocol.near? Blocked, with a link to the evidence.
+00:00:39,080 --> 00:00:44,529
+Not every lookalike is a scam: someone's own account, a brand's defensive name.
 
 11
-00:01:13,663 --> 00:01:18,264
-A sub-account of a flagged account is blocked too: only the parent can create it.
+00:00:44,529 --> 00:00:47,104
+These are labelled, and never published.
 
 12
-00:01:18,364 --> 00:01:20,624
-The real LiNEAR contract is allowed.
+00:00:47,204 --> 00:00:50,312
+The domain scan adds 53 lookalike domains,
 
 13
-00:01:20,724 --> 00:01:25,302
-A lookalike nobody has reviewed yet gets a warning, so a human decides.
+00:00:50,312 --> 00:00:55,518
+including a fresh clone of the Rhea app that asks for seed phrases.
 
 14
-00:01:25,402 --> 00:01:27,623
-And the Rhea clone is blocked as a link.
+00:00:55,618 --> 00:00:57,932
+Everything lands in a review queue.
 
 15
-00:01:27,723 --> 00:01:35,320
-If an entry is wrong, anyone can dispute it on chain with a small deposit. While it is disputed, wallets warn instead of blocking.
+00:00:57,932 --> 00:01:04,838
+Nothing publishes itself: only findings a reviewer approved, at high or critical, go on chain.
 
 16
-00:01:35,420 --> 00:01:42,531
-The owner reviews the dispute and keeps the entry, so it blocks again. Accepting it would clear the entry and refund the deposit.
+00:01:04,938 --> 00:01:08,268
+The publisher writes them to the registry contract,
 
 17
-00:01:42,631 --> 00:01:49,628
-The same contract is live on NEAR testnet, with an MCP tool for agents. What should your wallet check before it sends?
+00:01:08,268 --> 00:01:12,633
+here on a local NEAR node, with the hash of each evidence file.
+
+18
+00:01:12,733 --> 00:01:17,634
+Now an agent is told to pay. Before it signs, it asks the registry.
+
+19
+00:01:17,734 --> 00:01:24,490
+Pay 25 NEAR to linear_protocol.near? Blocked, with a link to the evidence.
+
+20
+00:01:24,590 --> 00:01:29,790
+A sub-account of a flagged account is blocked too: only the parent can create it.
+
+21
+00:01:29,890 --> 00:01:32,316
+The real LiNEAR contract is allowed.
+
+22
+00:01:32,416 --> 00:01:37,658
+A lookalike nobody has reviewed yet gets a warning, so a human decides.
+
+23
+00:01:37,758 --> 00:01:40,312
+And the Rhea clone is blocked as a link.
+
+24
+00:01:40,412 --> 00:01:45,562
+If an entry is wrong, anyone can dispute it on chain with a small deposit.
+
+25
+00:01:45,562 --> 00:01:49,354
+While it is disputed, wallets warn instead of blocking.
+
+26
+00:01:49,454 --> 00:01:54,028
+The owner reviews the dispute and keeps the entry, so it blocks again.
+
+27
+00:01:54,028 --> 00:01:57,969
+Accepting it would clear the entry and refund the deposit.
+
+28
+00:01:58,069 --> 00:02:03,540
+The same contract is live on NEAR testnet, with an MCP tool for agents.
+
+29
+00:02:03,540 --> 00:02:06,179
+What should your wallet check before it sends?

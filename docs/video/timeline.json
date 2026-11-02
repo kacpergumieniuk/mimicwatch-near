@@ -1,124 +1,272 @@
 {
-  "total": 113.92770800000001,
+  "total": 130.478999,
+  "voice": "Kokoro TTS am_michael at 1.0x",
   "cues": [
     {
       "id": "c01",
       "castT": 0.169,
       "videoT": 0.169,
-      "dur": 5.832,
+      "dur": 6.516,
       "text": "Scammers register lookalikes of NEAR accounts and dApp domains. Wallets and agents can't tell them apart."
     },
     {
       "id": "c02",
       "castT": 3.57,
-      "videoT": 6.351,
-      "dur": 8.678,
+      "videoT": 7.035,
+      "dur": 11.392,
       "text": "Mimicwatch generated 33 thousand lookalikes of 72 official accounts of 34 NEAR dApps and asked mainnet which exist: 507 do."
     },
     {
       "id": "c03",
       "castT": 6.274,
-      "videoT": 15.379,
-      "dur": 7.254,
+      "videoT": 18.777,
+      "dur": 7.104,
       "text": "Each one is scored from on-chain facts: age, creator, keys, contracts, tokens, and who sent it money."
     },
     {
       "id": "c04",
       "castT": 11.138,
-      "videoT": 22.983,
-      "dur": 10.358,
+      "videoT": 26.231,
+      "dur": 12.499,
       "text": "Three are fake reward tokens. linear_protocol.near advertises a phishing site and sits in 2,205 wallets. One of the three created the other two."
     },
     {
       "id": "c05",
       "castT": 16.251,
-      "videoT": 33.691,
-      "dur": 7.029,
+      "videoT": 39.08,
+      "dur": 7.775,
       "text": "Not every lookalike is a scam: someone's own account, a brand's defensive name. These are labelled, and never published."
     },
     {
       "id": "c06",
       "castT": 21.056,
-      "videoT": 41.071,
-      "dur": 6.468,
+      "videoT": 47.204,
+      "dur": 8.064,
       "text": "The domain scan adds 53 lookalike domains, including a fresh clone of the Rhea app that asks for seed phrases."
     },
     {
       "id": "c07",
       "castT": 23.471,
-      "videoT": 47.889,
-      "dur": 7.869,
+      "videoT": 55.618,
+      "dur": 8.969,
       "text": "Everything lands in a review queue. Nothing publishes itself: only findings a reviewer approved, at high or critical, go on chain."
     },
     {
       "id": "c08",
       "castT": 26.874,
-      "videoT": 56.108,
-      "dur": 6.294,
+      "videoT": 64.938,
+      "dur": 7.445,
       "text": "The publisher writes them to the registry contract, here on a local NEAR node, with the hash of each evidence file."
     },
     {
       "id": "c09",
       "castT": 33.531,
-      "videoT": 62.752,
-      "dur": 4.547,
+      "videoT": 72.733,
+      "dur": 4.651,
       "text": "Now an agent is told to pay. Before it signs, it asks the registry."
     },
     {
       "id": "c10",
       "castT": 33.54,
-      "videoT": 67.649,
-      "dur": 5.664,
+      "videoT": 77.734,
+      "dur": 6.507,
       "text": "Pay 25 NEAR to linear_protocol.near? Blocked, with a link to the evidence."
     },
     {
       "id": "c11",
       "castT": 36.04,
-      "videoT": 73.663,
-      "dur": 4.351,
+      "videoT": 84.59,
+      "dur": 4.949,
       "text": "A sub-account of a flagged account is blocked too: only the parent can create it."
     },
     {
       "id": "c12",
       "castT": 38.54,
-      "videoT": 78.364,
-      "dur": 2.01,
+      "videoT": 89.89,
+      "dur": 2.176,
       "text": "The real LiNEAR contract is allowed."
     },
     {
       "id": "c13",
       "castT": 41.041,
-      "videoT": 80.724,
-      "dur": 4.328,
+      "videoT": 92.416,
+      "dur": 4.992,
       "text": "A lookalike nobody has reviewed yet gets a warning, so a human decides."
     },
     {
       "id": "c14",
       "castT": 43.541,
-      "videoT": 85.402,
-      "dur": 1.971,
+      "videoT": 97.758,
+      "dur": 2.304,
       "text": "And the Rhea clone is blocked as a link."
     },
     {
       "id": "c20",
       "castT": 46.943,
-      "videoT": 87.723,
-      "dur": 7.347,
+      "videoT": 100.412,
+      "dur": 8.692,
       "text": "If an entry is wrong, anyone can dispute it on chain with a small deposit. While it is disputed, wallets warn instead of blocking."
     },
     {
       "id": "c20b",
       "castT": 49.883,
-      "videoT": 95.42,
-      "dur": 6.861,
+      "videoT": 109.454,
+      "dur": 8.265,
       "text": "The owner reviews the dispute and keeps the entry, so it blocks again. Accepting it would clear the entry and refund the deposit."
     },
     {
       "id": "c21",
       "castT": 52.051,
-      "videoT": 102.631,
-      "dur": 6.747,
+      "videoT": 118.069,
+      "dur": 7.86,
       "text": "The same contract is live on NEAR testnet, with an MCP tool for agents. What should your wallet check before it sends?"
+    }
+  ],
+  "captions": [
+    {
+      "start": 0.169,
+      "end": 4.402,
+      "text": "Scammers register lookalikes of NEAR accounts and dApp domains."
+    },
+    {
+      "start": 4.402,
+      "end": 6.935,
+      "text": "Wallets and agents can't tell them apart."
+    },
+    {
+      "start": 7.035,
+      "end": 12.451,
+      "text": "Mimicwatch generated 33 thousand lookalikes of 72 official"
+    },
+    {
+      "start": 12.451,
+      "end": 18.677,
+      "text": "accounts of 34 NEAR dApps and asked mainnet which exist: 507 do."
+    },
+    {
+      "start": 18.777,
+      "end": 22.542,
+      "text": "Each one is scored from on-chain facts: age, creator,"
+    },
+    {
+      "start": 22.542,
+      "end": 26.131,
+      "text": "keys, contracts, tokens, and who sent it money."
+    },
+    {
+      "start": 26.231,
+      "end": 28.459,
+      "text": "Three are fake reward tokens."
+    },
+    {
+      "start": 28.459,
+      "end": 36.404,
+      "text": "linear_protocol.near advertises a phishing site and sits in 2,205 wallets."
+    },
+    {
+      "start": 36.404,
+      "end": 38.98,
+      "text": "One of the three created the other two."
+    },
+    {
+      "start": 39.08,
+      "end": 44.529,
+      "text": "Not every lookalike is a scam: someone's own account, a brand's defensive name."
+    },
+    {
+      "start": 44.529,
+      "end": 47.104,
+      "text": "These are labelled, and never published."
+    },
+    {
+      "start": 47.204,
+      "end": 50.312,
+      "text": "The domain scan adds 53 lookalike domains,"
+    },
+    {
+      "start": 50.312,
+      "end": 55.518,
+      "text": "including a fresh clone of the Rhea app that asks for seed phrases."
+    },
+    {
+      "start": 55.618,
+      "end": 57.932,
+      "text": "Everything lands in a review queue."
+    },
+    {
+      "start": 57.932,
+      "end": 64.838,
+      "text": "Nothing publishes itself: only findings a reviewer approved, at high or critical, go on chain."
+    },
+    {
+      "start": 64.938,
+      "end": 68.268,
+      "text": "The publisher writes them to the registry contract,"
+    },
+    {
+      "start": 68.268,
+      "end": 72.633,
+      "text": "here on a local NEAR node, with the hash of each evidence file."
+    },
+    {
+      "start": 72.733,
+      "end": 77.634,
+      "text": "Now an agent is told to pay. Before it signs, it asks the registry."
+    },
+    {
+      "start": 77.734,
+      "end": 84.49,
+      "text": "Pay 25 NEAR to linear_protocol.near? Blocked, with a link to the evidence."
+    },
+    {
+      "start": 84.59,
+      "end": 89.79,
+      "text": "A sub-account of a flagged account is blocked too: only the parent can create it."
+    },
+    {
+      "start": 89.89,
+      "end": 92.316,
+      "text": "The real LiNEAR contract is allowed."
+    },
+    {
+      "start": 92.416,
+      "end": 97.658,
+      "text": "A lookalike nobody has reviewed yet gets a warning, so a human decides."
+    },
+    {
+      "start": 97.758,
+      "end": 100.312,
+      "text": "And the Rhea clone is blocked as a link."
+    },
+    {
+      "start": 100.412,
+      "end": 105.562,
+      "text": "If an entry is wrong, anyone can dispute it on chain with a small deposit."
+    },
+    {
+      "start": 105.562,
+      "end": 109.354,
+      "text": "While it is disputed, wallets warn instead of blocking."
+    },
+    {
+      "start": 109.454,
+      "end": 114.028,
+      "text": "The owner reviews the dispute and keeps the entry, so it blocks again."
+    },
+    {
+      "start": 114.028,
+      "end": 117.969,
+      "text": "Accepting it would clear the entry and refund the deposit."
+    },
+    {
+      "start": 118.069,
+      "end": 123.54,
+      "text": "The same contract is live on NEAR testnet, with an MCP tool for agents."
+    },
+    {
+      "start": 123.54,
+      "end": 126.179,
+      "text": "What should your wallet check before it sends?"
     }
   ]
 }

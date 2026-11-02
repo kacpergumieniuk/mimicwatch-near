@@ -194,11 +194,11 @@ projects is the owner's decision.
 
 ## Demo video
 
-[`docs/video/mimicwatch-demo.mp4`](docs/video/mimicwatch-demo.mp4) (1:54, 1080p, 8 MB, English voice-over and burned-in
-subtitles, plus [`mimicwatch-demo.en.srt`](docs/video/mimicwatch-demo.en.srt)). It is `npm run demo` recorded
+[`docs/video/mimicwatch-demo.mp4`](docs/video/mimicwatch-demo.mp4) (2:10, 1080p, 9 MB, English voice-over and burned-in
+subtitles sized for phones, plus [`mimicwatch-demo.en.srt`](docs/video/mimicwatch-demo.en.srt)). It is `npm run demo` recorded
 (`npm run demo:record` → [`mimicwatch-demo.cast`](docs/video/mimicwatch-demo.cast), [`viewer.html`](docs/video/viewer.html))
 and rendered frame by frame (`npm run demo:render`): headless Chromium seeks the viewer, ffmpeg encodes. The voice is
-synthetic (macOS `say -v Samantha`), one clip per subtitle line, and each line starts when its event appears on screen.
+synthetic (Kokoro TTS, local and Apache-2.0, voice `am_michael`), one clip per caption, and each line starts when its event appears on screen.
 The registry in the video runs on a **local NEAR node**; the scan data is the recorded 2026-11-01 mainnet scan; the review
 decisions are recorded demo decisions. Stills of each scene: [`docs/video/shots/`](docs/video/shots).
 
@@ -333,7 +333,7 @@ WARN; registry unreachable → WARN (fail closed to a human).
   down). The domain findings are converted by `src/domains/normalize.ts`.
 - **Libraries and tools:** `near-sdk` 5.29, `near-sandbox` and `near-api` (Rust tests), `cargo-near`; `near-api-js` v7,
   `near-sandbox` (npm), `@modelcontextprotocol/sdk`, `zod`, `tldts`, `playwright`, `viem` (engine only), `vitest`, `tsx`, `ffmpeg`
-  and macOS `say` (video). Contract layout follows `cargo near new`.
+  and Kokoro TTS (video voice). Contract layout follows `cargo near new`.
 - **AI-assisted:** written with Claude Code (Q-005).
 - **Sibling project (Q-015):** [PurseStrings](https://github.com/kacpergumieniuk/pursestrings), a separate submission with its own
   code; neither project imports or calls the other.
