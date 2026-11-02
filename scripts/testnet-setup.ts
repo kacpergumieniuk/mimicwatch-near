@@ -8,11 +8,9 @@
  * deploys and initialises the contract, approves the reporter, and saves everything to
  * .mimicwatch-local/testnet.json (gitignored, 0600). Keys are never printed. Testnet only.
  */
-import { readFileSync } from "node:fs";
-import { join } from "node:path";
 import { JsonRpcProvider } from "near-api-js";
-import { ROOT } from "../src/brands.ts";
 import { deployRegistry, RegistrySigner } from "../src/registry/client.ts";
+import { registryWasm } from "../src/registry/wasm.ts";
 import { faucetAccount, loadDeployment, saveDeployment, statePath, subAccount } from "../src/registry/local.ts";
 
 const RPC = process.env.MIMICWATCH_TESTNET_RPC ?? "https://test.rpc.fastnear.com";
@@ -31,7 +29,7 @@ const owner = await faucetAccount(name, provider);
 const registry = await subAccount(owner, "registry", "4", provider);
 const reporter = await subAccount(owner, "reporter", "1", provider);
 const disputer = await subAccount(owner, "disputer", "1", provider);
-const wasm = new Uint8Array(readFileSync(join(ROOT, "contracts/target/near/mimicwatch_registry/mimicwatch_registry.wasm")));
+const wasm = registryWasm();
 const deployTx = await deployRegistry({ rpcUrl: RPC, accountId: registry.id, key: registry.key, wasm, owner: owner.id });
 const asOwner = new RegistrySigner(registry.id, "testnet", RPC, owner.id, owner.key);
 const add = await asOwner.addReporter(reporter.id);

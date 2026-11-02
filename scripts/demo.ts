@@ -22,6 +22,7 @@ import type { RawScan } from "../src/near/collect.ts";
 import { bold, cyan, dim, green, oscEvent, red, sevTag, verdictTag, yellow } from "../src/demo/print.ts";
 import { evidencePath, publish, selectForPublish, sha256, type RegistryWriter, type ReportInput } from "../src/publish/publisher.ts";
 import { deployRegistry, RegistrySigner, RegistryViews, type FlagResult } from "../src/registry/client.ts";
+import { registryWasm } from "../src/registry/wasm.ts";
 import { accountCandidates, loadQueue, saveQueue, syncQueue, type Candidate } from "../src/review/queue.ts";
 import { checkNearRecipient, type CheckResult } from "../src/sdk/check.ts";
 
@@ -97,7 +98,7 @@ async function sandboxRegistry(): Promise<Registry> {
   const reg = await make("registry", "20");
   const reporter = await make("reporter", "5");
   const friend = await make("friend", "5");
-  const wasm = new Uint8Array(readFileSync(join(ROOT, "contracts/target/near/mimicwatch_registry/mimicwatch_registry.wasm")));
+  const wasm = registryWasm((m) => console.log(dim(m)));
   await deployRegistry({ rpcUrl: sandbox.rpcUrl, accountId: reg.id, key: reg.key, wasm, owner: owner.id });
   const asOwner = new RegistrySigner(reg.id, "sandbox", sandbox.rpcUrl, owner.id, owner.key);
   await asOwner.addReporter(reporter.id);

@@ -4,7 +4,7 @@
 
 Scammers use names that look like NEAR projects: `linear_protocol.near` (a fake LiNEAR "rewards" token in 2,205
 wallets) next to the real `linear-protocol.near`, or `rheaswap[.]finance` (a Rhea app clone that asks for seed phrases)
-next to `rhea.finance`. A wallet's send screen and an AI agent cannot tell them apart. **Mimicwatch for NEAR** finds these lookalikes, has a person review them, and publishes the
+next to `rhea.finance`. A wallet's send screen and an AI agent cannot tell them apart. **Mimicwatch for NEAR** finds these lookalikes, has a reviewer approve them, and publishes the
 confirmed ones to an **on-chain registry contract** that any wallet or agent can query with one view call before it
 sends funds or opens a link.
 
@@ -13,7 +13,7 @@ sends funds or opens a link.
    date and creator, keys, contract and token metadata, transfers in and out. It scores and labels them. Lookalike
    **domains** of the same dApps come from the existing Mimicwatch engine (permutations, DNS, certificate transparency,
    newly registered domains, page fingerprints, wallet blocklists).
-2. **Review.** Findings go into a review queue (`review/queue.json`). Nothing is published until a person approves it.
+2. **Review.** Findings go into a review queue (`review/queue.json`). Nothing is published until a reviewer approves it; the queue records who.
 3. **Publish.** Only approved **high** and **critical** findings are written to the registry, each with the sha256 of
    its evidence file. The contract itself refuses anything below high.
 4. **Check before you send.** `is_flagged(id)` answers for an account, a domain or a URL, including sub-accounts of a
@@ -42,19 +42,24 @@ the ecosystem and publishes a registry anyone can read.
 - **False positives, labelled:** someone's own trading account hit by address poisoning, brands' defensive registrations,
   long-used personal names, a pet-loss community called Rainbow Bridge, and POTLOCK's own alternate domains.
 
-**Nothing from the real scan is in the live registry yet.** Every real finding waits in
-[`review/queue.json`](review/queue.json) as `pending`, with the agent's recommendation in its note, for the owner to
-approve or reject. The live testnet registry holds only clearly marked synthetic test entries. The demo and the video
-publish the real findings to a **local** NEAR node, using recorded review decisions.
+**What is in the live testnet registry now:** 33 reviewed findings from this scan (the 3 fake tokens and 30 phishing
+domains, including `rheaswap[.]finance`), published on 2026-11-01, plus 1 clearly marked synthetic test entry. The
+reviewer of this first batch was the project's AI agent (`claude-4b47` in [`review/queue.json`](review/queue.json)),
+with a conservative rule: approve only findings that a public wallet blocklist (MetaMask, ScamSniffer) already lists, or
+that are verified fake tokens or page clones. It rejected 4 as false positives and kept 4 on watch; the other 54 are
+medium and stay `pending` (medium can never be published). The registry owner can remove any entry, and anyone can
+dispute one on chain. The demo and the video publish to a **local** NEAR node, using recorded review decisions.
 
 ## Try it (do X, see Y)
 
-Prerequisites: Node 20.12+; for the contract, Rust with `wasm32-unknown-unknown` and [`cargo-near`](https://github.com/near/cargo-near).
-No API keys, no accounts, no paid services.
+Prerequisites: Node 20.12+. That is enough for `npm test` and `npm run demo`: without a local build, the demo deploys the
+committed [`contracts/prebuilt/mimicwatch_registry.wasm`](contracts/prebuilt), the exact file running on testnet (its
+sha256 equals the on-chain `code_hash`, checked by `npm test`). To build and test the contract yourself: Rust with
+`wasm32-unknown-unknown` and [`cargo-near`](https://github.com/near/cargo-near). No API keys, no accounts, no paid services.
 
 ```bash
 npm ci
-npm test                    # 134 TypeScript tests: 45 for the NEAR code + 89 of the pre-existing engine (network mocked)
+npm test                    # 136 TypeScript tests: 47 for the NEAR code + 89 of the pre-existing engine (network mocked)
 npm run test:contract       # 39 contract unit tests + 1 end-to-end test on a local NEAR node (builds the wasm)
 npm run demo                # the whole story, offline: recorded scan -> review -> local NEAR node -> agent checks
 npm run demo -- --memory    # same story without the sandbox binary (in-memory registry with the contract's lookup rules)
@@ -74,9 +79,12 @@ What `npm run demo` shows, step by step (the same run is in the [video](#demo-vi
 Read-only checks against the **live testnet registry** (no keys):
 
 ```bash
+npm run check -- linear_protocol.near      # BLOCK: critical fake-token imitating LiNEAR, evidence URL + hash on chain
+npm run check -- claim.metapools.near      # BLOCK via its parent metapools.near (only the parent can create sub-accounts)
+npm run check -- https://rheaswap.finance/connect   # BLOCK: the Rhea app clone (a URL is reduced to its host)
+npm run check -- linear-protocol.near      # ALLOW: official account of LiNEAR Protocol
 npm run check -- ref-flnance.near          # WARN: a lookalike of ref-finance.near that nobody has reviewed yet
-npm run check -- v2.ref-finance.near       # ALLOW: official account of Rhea Finance
-npm run check -- https://app.rhea-claim-test.example/connect   # a synthetic test entry and its subdomain
+npm run check -- https://app.rhea-claim-test.example/connect   # WARN: the synthetic test domain was cleared after a dispute
 npm run check -- ref-flnance.mimicwatch-e7iig5g5.testnet          # BLOCK: synthetic test entry (our own account)
 npm run check -- <id> --json               # machine-readable
 npm run api                                # GET http://127.0.0.1:8787/check?id=ref-flnance.near
@@ -120,8 +128,8 @@ every registry flow with synthetic entries (report, self-dispute, keep, third-pa
 
 The test entries are `ref-flnance.mimicwatch-e7iig5g5.testnet` (our own account) and `rhea-claim-test.example` (a
 reserved TLD); `npm run testnet:demo` creates them, and its log is in
-[`docs/testnet-demo-output.txt`](docs/testnet-demo-output.txt). Real findings go on chain only after the owner's review
-(`npm run publish:registry -- --send`).
+[`docs/testnet-demo-output.txt`](docs/testnet-demo-output.txt). Real findings go on chain only after review
+(`npm run publish:registry -- --send`); the 33 published so far are listed by `npm run review -- list --decision approve`.
 
 Query it without this repo:
 
@@ -136,8 +144,8 @@ curl -s https://test.rpc.fastnear.com -H 'content-type: application/json' -d '{"
 Recorded data: [`data/scans/2026-11-01/`](data/scans/2026-11-01). It contains `accounts-raw.json` (every on-chain fact
 collected), `accounts.json` (scored), `domains.json` (normalised domain findings) and one engine report per brand
 (`domains/<brand>/report.html`, with screenshots of medium and higher findings). Domains are written defanged
-(`[.]`); do not open them. These are **risk signals from public data, not accusations**. Each still needs the owner's
-review.
+(`[.]`); do not open them. These are **risk signals from public data, not accusations**. Only the 33 reviewed high/critical
+findings are in the registry; the rest are not published.
 
 **Scope:** 34 brands and 72 official accounts ([`brands/near-brands.json`](brands/near-brands.json); each account was
 checked with `view_account` and tied to a primary source; see its `method` field). There were 30,026 generated names
@@ -308,7 +316,7 @@ WARN; registry unreachable → WARN (fail closed to a human).
 |---|---|---|
 | Contract unit tests (39) | `cd contracts && cargo test --lib` | reporter auth, severity floor (medium/low refused), validation (account ids, top-level accounts, domains, https/ipfs evidence URLs, sha256 hashes, note length), normalisation (case, URL → host, ports, credentials), parent matching (sub-accounts, subdomains; similar names and bare top-level names never match; implicit accounts exact), re-reports keep first-seen time and open disputes, batch limit, disputes (deposit, one at a time, by-subject flag), owner keeps or clears (refund receipt), removal tombstones (reporters cannot re-add; owner can; `unclear`), 1-yoctoNEAR owner calls, ownership transfer, NEP-297 event shape |
 | Sandbox end-to-end (1) | `cd contracts && cargo test --test sandbox` | the real wasm on a local node: unapproved reporter refused, owner approves reporter, medium refused on chain, high stored with event, `is_flagged` exact / sub-account / clean, `check_many`, the flagged account disputes itself with a deposit, a stranger cannot resolve, the owner clears it and the deposit is refunded to the account, a reporter cannot re-add it |
-| NEAR code (45) | `npm test` (project `near`) | generator (valid ASCII ids only, every trick, short-stem limits, fake sub-accounts, probes, official names never proposed), scoring (impersonation-likely, fake-token, brand-owned by creator and by shared key, dust vs payments, pass-through, locked, unrelated history, same-operator, determinism), review queue (always pending, reviewer required, approval reset on changed evidence, rejections stick), publisher (pending / rejected / watched / medium / brand-owned / false-positive never published, reviewer severity override, evidence file sha256 = on-chain hash, idempotent, dry run, chunks of 20), check (BLOCK / WARN disputed / ALLOW official / WARN unlisted lookalikes / domains / fail closed when the registry is down), RPC pool (missing vs existing, 429 failover, unsupported-method errors are not "missing"), MCP tool over an in-memory transport, and the offline demo itself (same output twice, expected verdict sequence) |
+| NEAR code (47) | `npm test` (project `near`) | the committed wasm equals the testnet `code_hash`; generator (valid ASCII ids only, every trick, short-stem limits, fake sub-accounts, probes, official names never proposed), scoring (impersonation-likely, fake-token, brand-owned by creator and by shared key, dust vs payments, pass-through, locked, unrelated history, same-operator, determinism), review queue (always pending, reviewer required, approval reset on changed evidence, rejections stick), publisher (pending / rejected / watched / medium / brand-owned / false-positive never published, reviewer severity override, evidence file sha256 = on-chain hash, idempotent, dry run, chunks of 20), check (BLOCK / WARN disputed / ALLOW official / WARN unlisted lookalikes / domains / fail closed when the registry is down), RPC pool (missing vs existing, 429 failover, unsupported-method errors are not "missing"), MCP tool over an in-memory transport, and the offline demo itself (same output twice, expected verdict sequence) |
 | Pre-existing engine (89) | `npm test` (project `engine`) | the vendored engine's own suite, unchanged (network mocked) |
 
 
@@ -316,7 +324,7 @@ WARN; registry unreachable → WARN (fail closed to a human).
 
 | | What | Where |
 |---|---|---|
-| **Baseline (pre-existing, not for judging)** | The Mimicwatch engine for EVM brands: domain permutations, DNS, certificate transparency, newly registered domains, page fingerprints and screenshots, wallet-blocklist status, scoring, RDAP abuse contacts, draft reports, and its vendored Canisell Base token engine. Written by the same author on 2026-11-01 in a separate private repo (`brandwatch`) for EVM projects. | `engine/` = the first commit, tagged **`pre-hackathon`**; see [`engine/PROVENANCE.md`](engine/PROVENANCE.md). Not modified since: `git diff pre-hackathon -- engine/` is empty. |
+| **Baseline (pre-existing, not for judging)** | The Mimicwatch engine for EVM brands: domain permutations, DNS, certificate transparency, newly registered domains, page fingerprints and screenshots, wallet-blocklist status, scoring, RDAP abuse contacts, draft reports, and its vendored Canisell Base token engine. Written by the same author on 2026-11-01 in a separate private repo (`brandwatch`) for EVM projects. | `engine/` = the first commit, tagged **`pre-hackathon`**; see [`engine/PROVENANCE.md`](engine/PROVENANCE.md). Not modified since: `git diff pre-hackathon -- engine/` is empty. Q-001 now counts code from the 2026-10-19 announcement, so the engine's dates fall inside the window too; we still treat it as baseline because it was written for EVM brands, in another repo, before this NEAR project began. |
 | **Built for NEAR in the window (judge this)** | Everything else: the NEAR brand list, the `.near` lookalike generator, the RPC pool and FastNEAR enrichment, account scoring, the domain-scan runner and normaliser for NEAR brands, the review queue, the publisher, the **registry contract** and its tests, the testnet deployment, the check-before-you-send SDK, CLI, HTTP API and MCP tool, the demo, the video pipeline, these docs. | `git diff pre-hackathon..HEAD` (once tagged: `pre-hackathon..hackathon-submission`). Repo: [compare view](https://github.com/kacpergumieniuk/mimicwatch-near/compare/pre-hackathon...main). |
 
 - **Reuse of the engine, precisely:** the account generator imports the engine's character-level typo fuzzer (`labelFuzz`), the
