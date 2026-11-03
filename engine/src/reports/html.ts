@@ -219,6 +219,6 @@ ${(() => {
 <h2>5. How this was collected</h2>
 <p class="small">Only public data was read: DNS, certificate logs, public domain lists, public blockchain logs, RDAP, and the public pages themselves (fetched like a normal visitor; no logins, no clicks, no form input, no wallet connected). No suspect was contacted. Nothing in this report has been filed with any registrar, host or blocklist: every report under "Draft" is text for ${e(b.name)} to approve. We file only with a signed Letter of Authorisation.</p>
 
-<footer>${e(PRODUCT_NAME)} by 4b47 Crypto Projects &middot; ${e(b.name)} &middot; ${from} to ${to}</footer>
+<footer>${e(PRODUCT_NAME)} by Mintward &middot; ${e(b.name)} &middot; ${from} to ${to}</footer>
 </main></body></html>`;
 }

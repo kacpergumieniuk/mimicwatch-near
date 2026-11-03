@@ -5,7 +5,7 @@ token contracts that imitate a client's brand, scores them, and writes **draft**
 the client to approve. It is defensive brand protection: read-only towards suspects, and it never files anything by
 itself.
 
-A 4b47 Crypto Projects product (DECISIONS.md D19, research/ideas-2026-11.md idea 1).
+A Mintward product (DECISIONS.md D19, research/ideas-2026-11.md idea 1).
 
 ## Name
 

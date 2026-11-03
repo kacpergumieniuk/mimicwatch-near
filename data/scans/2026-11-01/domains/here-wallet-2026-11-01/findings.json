@@ -221,7 +221,7 @@
         "bytes": 114,
         "renderedWith": "playwright",
         "faviconUrl": "https://herewallet.xyz/favicon.ico",
-        "screenshot": "/Users/kacpergumieniuk/Projects/4b47/mimicwatch-near/data/scans/2026-11-01/domains/here-wallet-2026-11-01/shots/herewallet.xyz.jpg",
+        "screenshot": "data/scans/2026-11-01/domains/here-wallet-2026-11-01/shots/herewallet.xyz.jpg",
         "textSample": "Access Denied You don't have permission to access \"http://forsale.godaddy.com/forsale/herewallet.xyz?\" on this server. Reference #18.8a3c655f.1793548976.5018a4fc https://errors.edgesuite.net/18.8a3c655f.1793548976.5018a4fc"
       },
       "similarity": {

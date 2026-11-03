@@ -987,7 +987,7 @@
         "renderedWith": "playwright",
         "faviconUrl": "https://claims-near.com/favicon.ico",
         "faviconSha256": "a40866ce0369888b908edad0d93cc6105810efd2bad5e5532d7629b728548b12",
-        "screenshot": "/Users/kacpergumieniuk/Projects/4b47/mimicwatch-near/data/scans/2026-11-01/domains/near-ai-2026-11-01/shots/claims-near.com.jpg",
+        "screenshot": "data/scans/2026-11-01/domains/near-ai-2026-11-01/shots/claims-near.com.jpg",
         "textSample": "Open Modal × Select your wallet to login The following wallets are not available Coin98 Wallet Core Enkrypt Wallet Frame OKX Wallet OneKey Rabby Wallet Rainbow Taho TokenPocket Trust Wallet XDEFI Wallet Zerion Please connect your wallet to see this Users DeBank Profile. Connecting your wallet is lik"
       },
       "similarity": {
@@ -1063,7 +1063,7 @@
         "renderedWith": "playwright",
         "faviconUrl": "https://www.nearhelp.org/apple-touch-icon.png",
         "faviconSha256": "5d31dd664b5cbb99eda162bc63bf75d80157e0bf6406874a70e3b9627b605b35",
-        "screenshot": "/Users/kacpergumieniuk/Projects/4b47/mimicwatch-near/data/scans/2026-11-01/domains/near-ai-2026-11-01/shots/nearhelp.org.jpg",
+        "screenshot": "data/scans/2026-11-01/domains/near-ai-2026-11-01/shots/nearhelp.org.jpg",
         "textSample": "NearHelp Local support. When it matters. NearHelp connects people nearby to share food, warm clothing and essentials. I need help I want to help How it works About"
       },
       "similarity": {
@@ -1135,7 +1135,7 @@
         "bytes": 2320,
         "renderedWith": "playwright",
         "faviconUrl": "https://www.syncnear.com/images/workt-logo.svg",
-        "screenshot": "/Users/kacpergumieniuk/Projects/4b47/mimicwatch-near/data/scans/2026-11-01/domains/near-ai-2026-11-01/shots/syncnear.com.jpg",
+        "screenshot": "data/scans/2026-11-01/domains/near-ai-2026-11-01/shots/syncnear.com.jpg",
         "textSample": ""
       },
       "similarity": {
@@ -1206,7 +1206,7 @@
         "bytes": 98303,
         "renderedWith": "playwright",
         "faviconUrl": "https://nearconnect.app/favicon.ico",
-        "screenshot": "/Users/kacpergumieniuk/Projects/4b47/mimicwatch-near/data/scans/2026-11-01/domains/near-ai-2026-11-01/shots/nearconnect.app.jpg",
+        "screenshot": "data/scans/2026-11-01/domains/near-ai-2026-11-01/shots/nearconnect.app.jpg",
         "textSample": "Near Connect About Privacy Shipping Refunds Terms Contact Mobile App · Digital Services Discover people near you. A Bluetooth proximity platform for personal and professional networking. Built and operated by AISTIV Private Limited, Bangalore, India. Company Details Legal Name AISTIV Private Limited"
       },
       "similarity": {
@@ -1284,7 +1284,7 @@
         "renderedWith": "playwright",
         "faviconUrl": "https://nearwallet.io/favicon-near.png",
         "faviconSha256": "9881c59096a09e6e6e155b387f7b32d5b2416e43488740dbba0ca46a7ea783ab",
-        "screenshot": "/Users/kacpergumieniuk/Projects/4b47/mimicwatch-near/data/scans/2026-11-01/domains/near-ai-2026-11-01/shots/nearwallet.io.jpg",
+        "screenshot": "data/scans/2026-11-01/domains/near-ai-2026-11-01/shots/nearwallet.io.jpg",
         "textSample": "Skip to content NEAR Wallet Wallet Network Ecosystem Security Support Launch App Download NEAR WALLET / DESKTOP Decentralised by nature. Connected by NEAR. A dedicated desktop workspace for your accounts, assets and activity on NEAR. See the full context before you take action. Download for desktop "
       },
       "similarity": {
@@ -1418,7 +1418,7 @@
         "bytes": 7695,
         "renderedWith": "playwright",
         "faviconUrl": "https://mear.ai/favicon.ico",
-        "screenshot": "/Users/kacpergumieniuk/Projects/4b47/mimicwatch-near/data/scans/2026-11-01/domains/near-ai-2026-11-01/shots/mear.ai.jpg",
+        "screenshot": "data/scans/2026-11-01/domains/near-ai-2026-11-01/shots/mear.ai.jpg",
         "textSample": "SSL handshake failed Error code 525 Visit cloudflare.com for more information. 2026-11-01 16:13:51 UTC You Browser Working Warsaw Cloudflare Working mear.ai Host Error What happened? The SSL/TLS handshake between Cloudflare and the origin web server failed. What can I do? If you're a visitor of this"
       },
       "similarity": {
@@ -3084,7 +3084,7 @@
         "bytes": 114,
         "renderedWith": "playwright",
         "faviconUrl": "https://nearo.ai/favicon.ico",
-        "screenshot": "/Users/kacpergumieniuk/Projects/4b47/mimicwatch-near/data/scans/2026-11-01/domains/near-ai-2026-11-01/shots/nearo.ai.jpg",
+        "screenshot": "data/scans/2026-11-01/domains/near-ai-2026-11-01/shots/nearo.ai.jpg",
         "textSample": "Access Denied You don't have permission to access \"http://forsale.godaddy.com/forsale/nearo.ai?\" on this server. Reference #18.2f0c4017.1793549715.4c6903bf https://errors.edgesuite.net/18.2f0c4017.1793549715.4c6903bf"
       },
       "similarity": {
@@ -3153,7 +3153,7 @@
         "bytes": 7595,
         "renderedWith": "playwright",
         "faviconUrl": "https://nears.ai/favicon.ico",
-        "screenshot": "/Users/kacpergumieniuk/Projects/4b47/mimicwatch-near/data/scans/2026-11-01/domains/near-ai-2026-11-01/shots/nears.ai.jpg",
+        "screenshot": "data/scans/2026-11-01/domains/near-ai-2026-11-01/shots/nears.ai.jpg",
         "textSample": "Nears Acesso por convite Entre na Nears Crie sua conta com um código de convite válido. Dados de cadastro Nome E-mail Senha Use pelo menos 12 caracteres. Código de convite Criar acesso Já possui uma conta? Já tenho acesso"
       },
       "similarity": {
@@ -3216,7 +3216,7 @@
         "bytes": 114,
         "renderedWith": "playwright",
         "faviconUrl": "https://nearu.ai/favicon.ico",
-        "screenshot": "/Users/kacpergumieniuk/Projects/4b47/mimicwatch-near/data/scans/2026-11-01/domains/near-ai-2026-11-01/shots/nearu.ai.jpg",
+        "screenshot": "data/scans/2026-11-01/domains/near-ai-2026-11-01/shots/nearu.ai.jpg",
         "textSample": ""
       },
       "similarity": {
@@ -3349,7 +3349,7 @@
         "bytes": 114,
         "renderedWith": "playwright",
         "faviconUrl": "https://near0.ai/favicon.ico",
-        "screenshot": "/Users/kacpergumieniuk/Projects/4b47/mimicwatch-near/data/scans/2026-11-01/domains/near-ai-2026-11-01/shots/near0.ai.jpg",
+        "screenshot": "data/scans/2026-11-01/domains/near-ai-2026-11-01/shots/near0.ai.jpg",
         "textSample": ""
       },
       "similarity": {
@@ -3614,7 +3614,7 @@
         "renderedWith": "playwright",
         "faviconUrl": "https://nar.ai/favicon.ico",
         "faviconSha256": "e68553a30ffd16091ed9e370ea21847ee8a17f3477b7553a1738a5278b318f67",
-        "screenshot": "/Users/kacpergumieniuk/Projects/4b47/mimicwatch-near/data/scans/2026-11-01/domains/near-ai-2026-11-01/shots/nar.ai.jpg",
+        "screenshot": "data/scans/2026-11-01/domains/near-ai-2026-11-01/shots/nar.ai.jpg",
         "textSample": "NAR.ai $119,995 or 0% APR financing Kup teraz Name .si"
       },
       "similarity": {
@@ -3778,7 +3778,7 @@
         "bytes": 163,
         "renderedWith": "playwright",
         "faviconUrl": "http://nearclaim.org/favicon.ico",
-        "screenshot": "/Users/kacpergumieniuk/Projects/4b47/mimicwatch-near/data/scans/2026-11-01/domains/near-ai-2026-11-01/shots/nearclaim.org.jpg",
+        "screenshot": "data/scans/2026-11-01/domains/near-ai-2026-11-01/shots/nearclaim.org.jpg",
         "textSample": "SORRY! If you are the owner of this website, please contact your hosting provider: webmaster@nearclaim.org It is possible you have reached this page because: The IP address has changed. The IP address for this domain may have changed recently. Check your DNS settings to verify that the domain is set"
       },
       "similarity": {

@@ -200,7 +200,7 @@
         "bytes": 2063,
         "renderedWith": "playwright",
         "faviconUrl": "https://near-intents.net/favicon.ico",
-        "screenshot": "/Users/kacpergumieniuk/Projects/4b47/mimicwatch-near/data/scans/2026-11-01/domains/near-intents-2026-11-01/shots/near-intents.net.jpg",
+        "screenshot": "data/scans/2026-11-01/domains/near-intents-2026-11-01/shots/near-intents.net.jpg",
         "textSample": "Near Intents Trade FAQ About Intent-Based Cross-Chain Trading About Near Intents Near Intents is redefining how traders interact with decentralized finance — making cross-chain swaps smarter, faster, and more efficient through an intent-based architecture powered by NEAR Protocol. Our Mission At Nea"
       },
       "similarity": {
@@ -357,7 +357,7 @@
         "bytes": 5587,
         "renderedWith": "playwright",
         "faviconUrl": "https://near-intents.dev/favicon.ico",
-        "screenshot": "/Users/kacpergumieniuk/Projects/4b47/mimicwatch-near/data/scans/2026-11-01/domains/near-intents-2026-11-01/shots/near-intents.dev.jpg",
+        "screenshot": "data/scans/2026-11-01/domains/near-intents-2026-11-01/shots/near-intents.dev.jpg",
         "textSample": "near-intents.dev Performing security verification This website uses a security service to protect against malicious bots. This page is displayed while the website verifies you are not a bot. Verification successful. Waiting for near-intents.dev to respond Ray ID: a53c231ded357057 Performance and Sec"
       },
       "similarity": {
@@ -514,7 +514,7 @@
         "bytes": 245,
         "renderedWith": "playwright",
         "faviconUrl": "http://near-lntents.org/favicon.ico",
-        "screenshot": "/Users/kacpergumieniuk/Projects/4b47/mimicwatch-near/data/scans/2026-11-01/domains/near-intents-2026-11-01/shots/near-lntents.org.jpg",
+        "screenshot": "data/scans/2026-11-01/domains/near-intents-2026-11-01/shots/near-lntents.org.jpg",
         "textSample": ""
       },
       "similarity": {

@@ -166,7 +166,7 @@
         "bytes": 166651,
         "renderedWith": "playwright",
         "faviconUrl": "https://wallet-meteorwallet.com/favicon.ico",
-        "screenshot": "/Users/kacpergumieniuk/Projects/4b47/mimicwatch-near/data/scans/2026-11-01/domains/meteor-wallet-2026-11-01/shots/wallet-meteorwallet.com.jpg",
+        "screenshot": "data/scans/2026-11-01/domains/meteor-wallet-2026-11-01/shots/wallet-meteorwallet.com.jpg",
         "textSample": "Security Support User Guide Open Wallet The Most Trusted Wallet for NEAR Backed by NEAR FOUNDATION PROXIMITY ORDERLY NETWORK METAVEST CAPITAL BANTER CAPITAL OV NEAR FOUNDATION PROXIMITY ORDERLY NETWORK METAVEST CAPITAL BANTER CAPITAL OV Video Showcase Meteor Wallet A powerful, self-custody wallet bu"
       },
       "similarity": {
@@ -341,7 +341,7 @@
         "renderedWith": "playwright",
         "faviconUrl": "https://www.atom.com/favicon.ico",
         "faviconSha256": "7eda937d9cabb3e3b4da756c81226e3431f9b0751e9247b9e9b24c4f50ba3b97",
-        "screenshot": "/Users/kacpergumieniuk/Projects/4b47/mimicwatch-near/data/scans/2026-11-01/domains/meteor-wallet-2026-11-01/shots/meteorwallet.com.jpg",
+        "screenshot": "data/scans/2026-11-01/domains/meteor-wallet-2026-11-01/shots/meteorwallet.com.jpg",
         "textSample": "We use essential cookies to make our site work. With your consent, we may also use non-essential cookies to improve user experience and analyze website traffic. By clicking “Accept,” you agree to our website's cookie use as described in our Cookie Policy and Privacy Policy . You can change your cook"
       },
       "similarity": {
@@ -405,7 +405,7 @@
         "bytes": 552,
         "renderedWith": "playwright",
         "faviconUrl": "https://meteorwallet.xyz/favicon.ico",
-        "screenshot": "/Users/kacpergumieniuk/Projects/4b47/mimicwatch-near/data/scans/2026-11-01/domains/meteor-wallet-2026-11-01/shots/meteorwallet.xyz.jpg",
+        "screenshot": "data/scans/2026-11-01/domains/meteor-wallet-2026-11-01/shots/meteorwallet.xyz.jpg",
         "textSample": "400 Bad Request nginx"
       },
       "similarity": {

@@ -322,7 +322,7 @@
         "renderedWith": "playwright",
         "faviconUrl": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAsSAAALEgHS3X78AAABj0lEQVRYhe2XwXGDMBBFfzK5Jx3Y7sBnXexUIEpICe4gSQdOB5RgKgi5cE4HSTqwK8AjWDECs7CSUcghfwYzFsvusvskwU1ZlphTt7NG/wsJ3IXcpDTWAF4AaBrKzP8iw6evL28GlMYSqALddy6dAKyLDN8+/kJasO8JDhrb+zrzqoDS2AJ4HzF7LDLkUp++FUgnsvFPQOkKuoXAdEG2IolaMAAeJzGQ0gpw4HESAzlaASF4nEaBlFTACyrfewcT8ACP0yiQbAsCwOM0CORQBdIJgoN8sK3oTUBpJAA2EwS32pDPC120QGk8UOmv6X2ffqgVR/daXwV2EYKDfO66g60KEHhfEYK7WrlAditwzZyXqhWjSSACeJxaQFYtiAgepwZIW4FY4HFqgHQT+G1VMW0LQr9OPugcys4q5LXcvIIfzGEXFWIooUOPu6hlpqNN4BXAM2N3sgEB5N2VDLWjI02vlJLZOglx+8mb+WkWIto2nwgQQ2lOT3mQPlGfaMollJT1nRZZvU3/f5zOmwCAM25mhAUkYQn5AAAAAElFTkSuQmCC",
         "faviconSha256": "0bf8d5c15ffa99397d8cf9a4be13c120f43b487bdf0bae592c3138e0a2f00208",
-        "screenshot": "/Users/kacpergumieniuk/Projects/4b47/mimicwatch-near/data/scans/2026-11-01/domains/orderly-network-2026-11-01/shots/orderly.top.jpg",
+        "screenshot": "data/scans/2026-11-01/domains/orderly-network-2026-11-01/shots/orderly.top.jpg",
         "textSample": "yourwebsite.com Registered at Is this your domain? Get it online with cloud-based Shared Hosting, complete with high-performance servers, scalable plans, and free SSL. See hosting plans Want a similar domain for your brand? Find similar domains Tools to start a website Domains Discover similar domai"
       },
       "similarity": {
@@ -533,7 +533,7 @@
         "renderedWith": "playwright",
         "faviconUrl": "https://www.cloudflare.com/favicon.ico",
         "faviconSha256": "5414bc6e4b3f6e10f99b5d37abf4420da4dcaece66f8f2c08e090e87267adbc5",
-        "screenshot": "/Users/kacpergumieniuk/Projects/4b47/mimicwatch-near/data/scans/2026-11-01/domains/orderly-network-2026-11-01/shots/ordely.network.jpg",
+        "screenshot": "data/scans/2026-11-01/domains/orderly-network-2026-11-01/shots/ordely.network.jpg",
         "textSample": "Please complete the following CAPTCHA security challenge to continue! I am not a bot Why do I see CAPTCHA challenges? Due to current firewall security rules, you need to complete the CAPTCHA security challenge to continue access! Event ID: 5a03170f5c671cdd • Your IP: 194.42.118.8"
       },
       "similarity": {
@@ -595,7 +595,7 @@
         "bytes": 163,
         "renderedWith": "playwright",
         "faviconUrl": "http://orderly-app.com/favicon.ico",
-        "screenshot": "/Users/kacpergumieniuk/Projects/4b47/mimicwatch-near/data/scans/2026-11-01/domains/orderly-network-2026-11-01/shots/orderly-app.com.jpg",
+        "screenshot": "data/scans/2026-11-01/domains/orderly-network-2026-11-01/shots/orderly-app.com.jpg",
         "textSample": "SORRY! If you are the owner of this website, please contact your hosting provider: webmaster@orderly-app.com It is possible you have reached this page because: The IP address has changed. The IP address for this domain may have changed recently. Check your DNS settings to verify that the domain is s"
       },
       "similarity": {
@@ -691,7 +691,7 @@
         "bytes": 5572,
         "renderedWith": "playwright",
         "faviconUrl": "http://app-orderly.xyz/favicon.ico",
-        "screenshot": "/Users/kacpergumieniuk/Projects/4b47/mimicwatch-near/data/scans/2026-11-01/domains/orderly-network-2026-11-01/shots/app-orderly.xyz.jpg",
+        "screenshot": "data/scans/2026-11-01/domains/orderly-network-2026-11-01/shots/app-orderly.xyz.jpg",
         "textSample": "This domain name has expired and may be renewed by the owner. . app-orderly.xyz Style & Fashion Personal Finance Real Estate Education Communication Books and Literature Television Hobbies & Interests Travel © 2026 ParkLogic.com. All rights reserved. About Us | Contact Us | Privacy Policy | Terms of"
       },
       "similarity": {
@@ -798,7 +798,7 @@
         "renderedWith": "playwright",
         "faviconUrl": "https://orderlyapp.net/favicon.ico",
         "faviconSha256": "0d75fa1c9f78745b408f55992519c9bd64dfdd5c1b456c5f48b5dc7c43184a8a",
-        "screenshot": "/Users/kacpergumieniuk/Projects/4b47/mimicwatch-near/data/scans/2026-11-01/domains/orderly-network-2026-11-01/shots/orderlyapp.net.jpg",
+        "screenshot": "data/scans/2026-11-01/domains/orderly-network-2026-11-01/shots/orderlyapp.net.jpg",
         "textSample": "orderlyapp.net We're under construction. Please check back for an update soon."
       },
       "similarity": {
@@ -865,7 +865,7 @@
         "bytes": 114,
         "renderedWith": "playwright",
         "faviconUrl": "https://orderlystake.xyz/favicon.ico",
-        "screenshot": "/Users/kacpergumieniuk/Projects/4b47/mimicwatch-near/data/scans/2026-11-01/domains/orderly-network-2026-11-01/shots/orderlystake.xyz.jpg",
+        "screenshot": "data/scans/2026-11-01/domains/orderly-network-2026-11-01/shots/orderlystake.xyz.jpg",
         "textSample": "Access Denied You don't have permission to access \"http://forsale.godaddy.com/forsale/orderlystake.xyz?\" on this server. Reference #18.2f0c4017.1793549628.4c639495 https://errors.edgesuite.net/18.2f0c4017.1793549628.4c639495"
       },
       "similarity": {
@@ -1212,7 +1212,7 @@
         "bytes": 114,
         "renderedWith": "playwright",
         "faviconUrl": "https://orderly.app/favicon.ico",
-        "screenshot": "/Users/kacpergumieniuk/Projects/4b47/mimicwatch-near/data/scans/2026-11-01/domains/orderly-network-2026-11-01/shots/orderly.app.jpg",
+        "screenshot": "data/scans/2026-11-01/domains/orderly-network-2026-11-01/shots/orderly.app.jpg",
         "textSample": "Access Denied You don't have permission to access \"http://forsale.godaddy.com/forsale/orderly.app?\" on this server. Reference #18.2f0c4017.1793549630.4c63bc99 https://errors.edgesuite.net/18.2f0c4017.1793549630.4c63bc99"
       },
       "similarity": {
@@ -1277,7 +1277,7 @@
         "renderedWith": "playwright",
         "faviconUrl": "https://efty.com/favicon.ico",
         "faviconSha256": "6c4b62d26228f5618b1d9600761fa95b43a345151dfe18db046c527c0ddae62b",
-        "screenshot": "/Users/kacpergumieniuk/Projects/4b47/mimicwatch-near/data/scans/2026-11-01/domains/orderly-network-2026-11-01/shots/orderly.co.jpg",
+        "screenshot": "data/scans/2026-11-01/domains/orderly-network-2026-11-01/shots/orderly.co.jpg",
         "textSample": "Buy domains Sell domains Login Start selling Start selling orderly.co is no longer listed. The good stuff moves fast Someone moved first. Happens fast around here. Strong names rarely sit still. Show me similar names Browse the full marketplace Same kind of swagger A few names with the same energy. "
       },
       "similarity": {
@@ -1344,7 +1344,7 @@
         "bytes": 114,
         "renderedWith": "playwright",
         "faviconUrl": "https://orderly.live/favicon.ico",
-        "screenshot": "/Users/kacpergumieniuk/Projects/4b47/mimicwatch-near/data/scans/2026-11-01/domains/orderly-network-2026-11-01/shots/orderly.live.jpg",
+        "screenshot": "data/scans/2026-11-01/domains/orderly-network-2026-11-01/shots/orderly.live.jpg",
         "textSample": "Access Denied You don't have permission to access \"http://forsale.godaddy.com/forsale/orderly.live?\" on this server. Reference #18.2f0c4017.1793549631.4c63c891 https://errors.edgesuite.net/18.2f0c4017.1793549631.4c63c891"
       },
       "similarity": {
@@ -1529,7 +1529,7 @@
         "bytes": 918,
         "renderedWith": "playwright",
         "faviconUrl": "https://orderly.cc/favicon.ico",
-        "screenshot": "/Users/kacpergumieniuk/Projects/4b47/mimicwatch-near/data/scans/2026-11-01/domains/orderly-network-2026-11-01/shots/orderly.cc.jpg",
+        "screenshot": "data/scans/2026-11-01/domains/orderly-network-2026-11-01/shots/orderly.cc.jpg",
         "textSample": "We create the best digital menus for incredible hospitality businesses."
       },
       "similarity": {
@@ -1596,7 +1596,7 @@
         "bytes": 114,
         "renderedWith": "playwright",
         "faviconUrl": "https://orderly.info/favicon.ico",
-        "screenshot": "/Users/kacpergumieniuk/Projects/4b47/mimicwatch-near/data/scans/2026-11-01/domains/orderly-network-2026-11-01/shots/orderly.info.jpg",
+        "screenshot": "data/scans/2026-11-01/domains/orderly-network-2026-11-01/shots/orderly.info.jpg",
         "textSample": "Access Denied You don't have permission to access \"http://forsale.godaddy.com/forsale/orderly.info?\" on this server. Reference #18.2f0c4017.1793549634.4c63f811 https://errors.edgesuite.net/18.2f0c4017.1793549634.4c63f811"
       },
       "similarity": {
@@ -1663,7 +1663,7 @@
         "bytes": 114,
         "renderedWith": "playwright",
         "faviconUrl": "http://orderly.us/favicon.ico",
-        "screenshot": "/Users/kacpergumieniuk/Projects/4b47/mimicwatch-near/data/scans/2026-11-01/domains/orderly-network-2026-11-01/shots/orderly.us.jpg",
+        "screenshot": "data/scans/2026-11-01/domains/orderly-network-2026-11-01/shots/orderly.us.jpg",
         "textSample": "Access Denied You don't have permission to access \"http://forsale.godaddy.com/forsale/orderly.us?\" on this server. Reference #18.2f0c4017.1793549634.4c63fbab https://errors.edgesuite.net/18.2f0c4017.1793549634.4c63fbab"
       },
       "similarity": {

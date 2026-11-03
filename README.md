@@ -44,7 +44,7 @@ the ecosystem and publishes a registry anyone can read.
 
 **What is in the live testnet registry now:** 33 reviewed findings from this scan (the 3 fake tokens and 30 phishing
 domains, including `rheaswap[.]finance`), published on 2026-11-01, plus 1 clearly marked synthetic test entry. The
-reviewer of this first batch was the project's AI agent (`claude-4b47` in [`review/queue.json`](review/queue.json)),
+reviewer of this first batch was the project's AI agent (`claude-agent` in [`review/queue.json`](review/queue.json)),
 with a conservative rule: approve only findings that a public wallet blocklist (MetaMask, ScamSniffer) already lists, or
 that are verified fake tokens or page clones. It rejected 4 as false positives and kept 4 on watch; the other 54 are
 medium and stay `pending` (medium can never be published). The registry owner can remove any entry, and anyone can

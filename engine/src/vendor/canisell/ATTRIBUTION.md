@@ -1,6 +1,6 @@
 # Vendored: Canisell token-risk engine
 
-Copied from the private repo `kacpergumieniuk/canisell` (same owner, 4b47 Crypto Projects), path `api/src/`, commit `3d546a0900b0f90305f9df9b6cb1ffe554c8db04` (2026-11-01).
+Copied from the private repo `kacpergumieniuk/canisell` (same owner, Mintward), path `api/src/`, commit `3d546a0900b0f90305f9df9b6cb1ffe554c8db04` (2026-11-01).
 
 Files copied unchanged: `risk/*.ts`, `chain/addresses.ts`, `sim/bytecode.ts`, `cache.ts`.
 Adapted: `chain/client.ts` (takes RPC URLs directly instead of the API's `Config` type).

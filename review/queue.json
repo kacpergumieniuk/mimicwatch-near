@@ -236,7 +236,7 @@
       ],
       "review": {
         "decision": "approve",
-        "reviewer": "claude-4b47",
+        "reviewer": "claude-agent",
         "at": "2026-11-01T17:27:27.065Z",
         "note": "Unsolicited NEP-141 'Rewards' token whose name advertises a lookalike website, mass-distributed to thousands of holders; same creator chain. Fake-airdrop pattern."
       },
@@ -770,7 +770,7 @@
       ],
       "review": {
         "decision": "approve",
-        "reviewer": "claude-4b47",
+        "reviewer": "claude-agent",
         "at": "2026-11-01T17:27:27.288Z",
         "note": "Unsolicited NEP-141 'Rewards' token whose name advertises a lookalike website, mass-distributed to thousands of holders; same creator chain. Fake-airdrop pattern."
       },
@@ -1316,7 +1316,7 @@
       ],
       "review": {
         "decision": "approve",
-        "reviewer": "claude-4b47",
+        "reviewer": "claude-agent",
         "at": "2026-11-01T17:27:27.509Z",
         "note": "Unsolicited NEP-141 'Rewards' token whose name advertises a lookalike website, mass-distributed to thousands of holders; same creator chain. Fake-airdrop pattern."
       },
@@ -2531,7 +2531,7 @@
       ],
       "review": {
         "decision": "approve",
-        "reviewer": "claude-4b47",
+        "reviewer": "claude-agent",
         "at": "2026-11-01T17:27:20.389Z",
         "note": "Independently corroborated: already on a public wallet blocklist (MetaMask/ScamSniffer) per scan of 2026-11-01."
       },
@@ -2615,7 +2615,7 @@
       ],
       "review": {
         "decision": "approve",
-        "reviewer": "claude-4b47",
+        "reviewer": "claude-agent",
         "at": "2026-11-01T17:27:20.612Z",
         "note": "Independently corroborated: already on a public wallet blocklist (MetaMask/ScamSniffer) per scan of 2026-11-01."
       },
@@ -2865,7 +2865,7 @@
       ],
       "review": {
         "decision": "reject",
-        "reviewer": "claude-4b47",
+        "reviewer": "claude-agent",
         "at": "2026-11-01T17:27:28.400Z",
         "note": "Unrelated business; BlackDragon's site is blackdragon.meme."
       }
@@ -3024,7 +3024,7 @@
       ],
       "review": {
         "decision": "approve",
-        "reviewer": "claude-4b47",
+        "reviewer": "claude-agent",
         "at": "2026-11-01T17:27:20.837Z",
         "note": "Independently corroborated: already on a public wallet blocklist (MetaMask/ScamSniffer) per scan of 2026-11-01."
       },
@@ -3125,7 +3125,7 @@
       ],
       "review": {
         "decision": "approve",
-        "reviewer": "claude-4b47",
+        "reviewer": "claude-agent",
         "at": "2026-11-01T17:27:21.060Z",
         "note": "Independently corroborated: already on a public wallet blocklist (MetaMask/ScamSniffer) per scan of 2026-11-01."
       },
@@ -3223,7 +3223,7 @@
       ],
       "review": {
         "decision": "watch",
-        "reviewer": "claude-4b47",
+        "reviewer": "claude-agent",
         "at": "2026-11-01T17:27:28.621Z",
         "note": "Ambiguous; needs confirmation from the brand before publishing."
       }
@@ -3277,7 +3277,7 @@
       ],
       "review": {
         "decision": "approve",
-        "reviewer": "claude-4b47",
+        "reviewer": "claude-agent",
         "at": "2026-11-01T17:27:21.281Z",
         "note": "Independently corroborated: already on a public wallet blocklist (MetaMask/ScamSniffer) per scan of 2026-11-01."
       },
@@ -3447,7 +3447,7 @@
       ],
       "review": {
         "decision": "approve",
-        "reviewer": "claude-4b47",
+        "reviewer": "claude-agent",
         "at": "2026-11-01T17:27:21.501Z",
         "note": "Independently corroborated: already on a public wallet blocklist (MetaMask/ScamSniffer) per scan of 2026-11-01."
       },
@@ -3618,7 +3618,7 @@
       ],
       "review": {
         "decision": "approve",
-        "reviewer": "claude-4b47",
+        "reviewer": "claude-agent",
         "at": "2026-11-01T17:27:21.725Z",
         "note": "Independently corroborated: already on a public wallet blocklist (MetaMask/ScamSniffer) per scan of 2026-11-01."
       },
@@ -3701,7 +3701,7 @@
       ],
       "review": {
         "decision": "watch",
-        "reviewer": "claude-4b47",
+        "reviewer": "claude-agent",
         "at": "2026-11-01T17:27:29.293Z",
         "note": "Ambiguous; needs confirmation from the brand before publishing."
       }
@@ -3755,7 +3755,7 @@
       ],
       "review": {
         "decision": "approve",
-        "reviewer": "claude-4b47",
+        "reviewer": "claude-agent",
         "at": "2026-11-01T17:27:21.947Z",
         "note": "Independently corroborated: already on a public wallet blocklist (MetaMask/ScamSniffer) per scan of 2026-11-01."
       },
@@ -3843,7 +3843,7 @@
       ],
       "review": {
         "decision": "approve",
-        "reviewer": "claude-4b47",
+        "reviewer": "claude-agent",
         "at": "2026-11-01T17:27:22.171Z",
         "note": "Independently corroborated: already on a public wallet blocklist (MetaMask/ScamSniffer) per scan of 2026-11-01."
       },
@@ -3935,7 +3935,7 @@
       ],
       "review": {
         "decision": "approve",
-        "reviewer": "claude-4b47",
+        "reviewer": "claude-agent",
         "at": "2026-11-01T17:27:22.393Z",
         "note": "Independently corroborated: already on a public wallet blocklist (MetaMask/ScamSniffer) per scan of 2026-11-01."
       },
@@ -4010,7 +4010,7 @@
       ],
       "review": {
         "decision": "approve",
-        "reviewer": "claude-4b47",
+        "reviewer": "claude-agent",
         "at": "2026-11-01T17:27:22.616Z",
         "note": "Independently corroborated: already on a public wallet blocklist (MetaMask/ScamSniffer) per scan of 2026-11-01."
       },
@@ -4072,7 +4072,7 @@
       ],
       "review": {
         "decision": "approve",
-        "reviewer": "claude-4b47",
+        "reviewer": "claude-agent",
         "at": "2026-11-01T17:27:22.837Z",
         "note": "Independently corroborated: already on a public wallet blocklist (MetaMask/ScamSniffer) per scan of 2026-11-01."
       },
@@ -4250,7 +4250,7 @@
       ],
       "review": {
         "decision": "approve",
-        "reviewer": "claude-4b47",
+        "reviewer": "claude-agent",
         "at": "2026-11-01T17:27:26.617Z",
         "note": "On MetaMask blocklist; copies NEAR Mobile title/text with rewards lure and seed-phrase mentions."
       },
@@ -4344,7 +4344,7 @@
       ],
       "review": {
         "decision": "approve",
-        "reviewer": "claude-4b47",
+        "reviewer": "claude-agent",
         "at": "2026-11-01T17:27:23.060Z",
         "note": "Independently corroborated: already on a public wallet blocklist (MetaMask/ScamSniffer) per scan of 2026-11-01."
       },
@@ -4408,7 +4408,7 @@
       ],
       "review": {
         "decision": "approve",
-        "reviewer": "claude-4b47",
+        "reviewer": "claude-agent",
         "at": "2026-11-01T17:27:23.281Z",
         "note": "Independently corroborated: already on a public wallet blocklist (MetaMask/ScamSniffer) per scan of 2026-11-01."
       },
@@ -4508,7 +4508,7 @@
       ],
       "review": {
         "decision": "approve",
-        "reviewer": "claude-4b47",
+        "reviewer": "claude-agent",
         "at": "2026-11-01T17:27:23.502Z",
         "note": "Independently corroborated: already on a public wallet blocklist (MetaMask/ScamSniffer) per scan of 2026-11-01."
       },
@@ -4594,7 +4594,7 @@
       ],
       "review": {
         "decision": "approve",
-        "reviewer": "claude-4b47",
+        "reviewer": "claude-agent",
         "at": "2026-11-01T17:27:23.725Z",
         "note": "Independently corroborated: already on a public wallet blocklist (MetaMask/ScamSniffer) per scan of 2026-11-01."
       },
@@ -4687,7 +4687,7 @@
       ],
       "review": {
         "decision": "reject",
-        "reviewer": "claude-4b47",
+        "reviewer": "claude-agent",
         "at": "2026-11-01T17:27:27.731Z",
         "note": "Serves POTLOCK's own site, registered 2023 with POTLOCK's other domains; likely brand-owned."
       }
@@ -4769,7 +4769,7 @@
       ],
       "review": {
         "decision": "reject",
-        "reviewer": "claude-4b47",
+        "reviewer": "claude-agent",
         "at": "2026-11-01T17:27:27.955Z",
         "note": "Serves POTLOCK's own site, registered 2023 with POTLOCK's other domains; likely brand-owned."
       }
@@ -4853,7 +4853,7 @@
       ],
       "review": {
         "decision": "reject",
-        "reviewer": "claude-4b47",
+        "reviewer": "claude-agent",
         "at": "2026-11-01T17:27:28.176Z",
         "note": "Serves POTLOCK's own site, registered 2023 with POTLOCK's other domains; likely brand-owned."
       }
@@ -4953,7 +4953,7 @@
       ],
       "review": {
         "decision": "watch",
-        "reviewer": "claude-4b47",
+        "reviewer": "claude-agent",
         "at": "2026-11-01T17:27:28.845Z",
         "note": "Ambiguous; needs confirmation from the brand before publishing."
       }
@@ -5258,7 +5258,7 @@
       ],
       "review": {
         "decision": "watch",
-        "reviewer": "claude-4b47",
+        "reviewer": "claude-agent",
         "at": "2026-11-01T17:27:29.068Z",
         "note": "Ambiguous; needs confirmation from the brand before publishing."
       }
@@ -5496,7 +5496,7 @@
       ],
       "review": {
         "decision": "approve",
-        "reviewer": "claude-4b47",
+        "reviewer": "claude-agent",
         "at": "2026-11-01T17:27:23.948Z",
         "note": "Independently corroborated: already on a public wallet blocklist (MetaMask/ScamSniffer) per scan of 2026-11-01."
       },
@@ -5580,7 +5580,7 @@
       ],
       "review": {
         "decision": "approve",
-        "reviewer": "claude-4b47",
+        "reviewer": "claude-agent",
         "at": "2026-11-01T17:27:24.173Z",
         "note": "Independently corroborated: already on a public wallet blocklist (MetaMask/ScamSniffer) per scan of 2026-11-01."
       },
@@ -5681,7 +5681,7 @@
       ],
       "review": {
         "decision": "approve",
-        "reviewer": "claude-4b47",
+        "reviewer": "claude-agent",
         "at": "2026-11-01T17:27:24.397Z",
         "note": "Independently corroborated: already on a public wallet blocklist (MetaMask/ScamSniffer) per scan of 2026-11-01."
       },
@@ -5768,7 +5768,7 @@
       ],
       "review": {
         "decision": "approve",
-        "reviewer": "claude-4b47",
+        "reviewer": "claude-agent",
         "at": "2026-11-01T17:27:24.620Z",
         "note": "Independently corroborated: already on a public wallet blocklist (MetaMask/ScamSniffer) per scan of 2026-11-01."
       },
@@ -5852,7 +5852,7 @@
       ],
       "review": {
         "decision": "approve",
-        "reviewer": "claude-4b47",
+        "reviewer": "claude-agent",
         "at": "2026-11-01T17:27:24.840Z",
         "note": "Independently corroborated: already on a public wallet blocklist (MetaMask/ScamSniffer) per scan of 2026-11-01."
       },
@@ -5953,7 +5953,7 @@
       ],
       "review": {
         "decision": "approve",
-        "reviewer": "claude-4b47",
+        "reviewer": "claude-agent",
         "at": "2026-11-01T17:27:25.062Z",
         "note": "Independently corroborated: already on a public wallet blocklist (MetaMask/ScamSniffer) per scan of 2026-11-01."
       },
@@ -6067,7 +6067,7 @@
       ],
       "review": {
         "decision": "approve",
-        "reviewer": "claude-4b47",
+        "reviewer": "claude-agent",
         "at": "2026-11-01T17:27:26.842Z",
         "note": "Clone of the Rhea app with a seed-phrase/private-key form and airdrop/migration lure; not yet on public blocklists. Reviewed evidence."
       },
@@ -6168,7 +6168,7 @@
       ],
       "review": {
         "decision": "approve",
-        "reviewer": "claude-4b47",
+        "reviewer": "claude-agent",
         "at": "2026-11-01T17:27:25.284Z",
         "note": "Independently corroborated: already on a public wallet blocklist (MetaMask/ScamSniffer) per scan of 2026-11-01."
       },
@@ -6252,7 +6252,7 @@
       ],
       "review": {
         "decision": "approve",
-        "reviewer": "claude-4b47",
+        "reviewer": "claude-agent",
         "at": "2026-11-01T17:27:25.508Z",
         "note": "Independently corroborated: already on a public wallet blocklist (MetaMask/ScamSniffer) per scan of 2026-11-01."
       },
@@ -6353,7 +6353,7 @@
       ],
       "review": {
         "decision": "approve",
-        "reviewer": "claude-4b47",
+        "reviewer": "claude-agent",
         "at": "2026-11-01T17:27:25.730Z",
         "note": "Independently corroborated: already on a public wallet blocklist (MetaMask/ScamSniffer) per scan of 2026-11-01."
       },
@@ -6437,7 +6437,7 @@
       ],
       "review": {
         "decision": "approve",
-        "reviewer": "claude-4b47",
+        "reviewer": "claude-agent",
         "at": "2026-11-01T17:27:25.951Z",
         "note": "Independently corroborated: already on a public wallet blocklist (MetaMask/ScamSniffer) per scan of 2026-11-01."
       },
@@ -6538,7 +6538,7 @@
       ],
       "review": {
         "decision": "approve",
-        "reviewer": "claude-4b47",
+        "reviewer": "claude-agent",
         "at": "2026-11-01T17:27:26.173Z",
         "note": "Independently corroborated: already on a public wallet blocklist (MetaMask/ScamSniffer) per scan of 2026-11-01."
       },
@@ -6625,7 +6625,7 @@
       ],
       "review": {
         "decision": "approve",
-        "reviewer": "claude-4b47",
+        "reviewer": "claude-agent",
         "at": "2026-11-01T17:27:26.394Z",
         "note": "Independently corroborated: already on a public wallet blocklist (MetaMask/ScamSniffer) per scan of 2026-11-01."
       },
